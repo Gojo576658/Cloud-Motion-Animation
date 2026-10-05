@@ -1,0 +1,11 @@
+import { chromium } from 'playwright';
+import { startServer } from '../server.mjs';
+const { port, close } = await startServer(0);
+const b = await chromium.launch({ args: ['--use-angle=swiftshader', '--enable-unsafe-swiftshader'] });
+const p = await b.newPage({ viewport: { width: 1920, height: 1080 } });
+p.on('pageerror', (e) => console.log('ERR', e.message));
+await p.goto(`http://127.0.0.1:${port}/index.html?render`);
+await p.waitForFunction(() => window.ready); await p.evaluate(() => window.ready);
+const code = process.argv[2];
+console.log(await p.evaluate(new Function('return (async () => {' + code + '})()')));
+await b.close(); close();
