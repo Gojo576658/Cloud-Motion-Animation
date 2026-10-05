@@ -23,8 +23,13 @@ const sections = script.sections.map((s, i) => {
   return { index: i, title: s.title, mood: MOODS[i], start: i === 0 ? 0 : +(first.start - 0.25).toFixed(3), end: next ? +(next.start - 0.25).toFixed(3) : duration };
 });
 const hooks = cues.filter((c) => c.hooks.length).map((c) => c.start);
+// word-level timing from Whisper (voice/out/words.json), moved onto the timeline clock
+const words = fs.existsSync('../voice/out/words.json') ? JSON.parse(fs.readFileSync('../voice/out/words.json', 'utf8')).map((w) => {
+  const c = cues[w.cue];
+  return { c: w.cue, i: w.i, w: w.word, s: +(c.start + (w.start - c.vStart)).toFixed(3), e: +(c.start + (w.end - c.vStart)).toFixed(3) };
+}) : [];
 const titleAt = +(cues[3].end + 0.35).toFixed(3);
-const tl = { fps: 30, offset: OFFSET, duration, titleAt, sections, cues, hooks, events: [{ t: titleAt, type: 'title' }] };
+const tl = { fps: 30, offset: OFFSET, duration, titleAt, sections, cues, hooks, words, events: [{ t: titleAt, type: 'title' }] };
 fs.writeFileSync('src/timeline.json', JSON.stringify(tl, null, 1));
 console.log(`duration ${duration}s (${Math.floor(duration / 60)}:${(duration % 60).toFixed(1)}), ${cues.length} cues, ${hooks.length} hook paragraphs`);
 for (const s of sections) console.log(s.index, s.mood.padEnd(8), s.start.toFixed(1), '->', s.end.toFixed(1), s.title);

@@ -7,7 +7,10 @@ export const TL = timeline as {
   sections: { index: number; title: string; mood: string; start: number; end: number }[];
   cues: { id: number; section: number; start: number; end: number; hooks: number[]; text: string }[];
   hooks: number[];
+  words: { c: number; i: number; w: string; s: number; e: number }[];
 };
+const WORDS_BY_CUE: Record<number, { s: number; e: number }[]> = {};
+for (const w of TL.words || []) (WORDS_BY_CUE[w.c] ||= [])[w.i] = w;
 
 export const useT = () => {
   const f = useCurrentFrame();
@@ -21,11 +24,36 @@ export const S0 = (i: number) => TL.sections[i].start;
 export const S1 = (i: number) => TL.sections[i].end;
 
 const norm = (s: string) => s.toLowerCase().replace(/[’']/g, "'").replace(/[^a-z0-9' ]/g, ' ').split(/\s+/).filter(Boolean);
-// moment a phrase is spoken inside a paragraph (paragraph start/end are exact; inside, by word position)
+// exact moment a phrase starts being spoken (Whisper word timing; falls back to word position)
 export function P(i: number, phrase: string, off = 0) {
   const c = TL.cues[i];
-  const w = norm(c.text), q = norm(phrase);
-  for (let k = 0; k <= w.length - q.length; k++) if (q.every((x, j) => w[k + j] === x)) return c.start + ((c.end - c.start) * k) / w.length + off;
+  const raw = c.text.split(/\s+/);
+  const q = norm(phrase);
+  for (let k = 0; k < raw.length; k++) {
+    // compare word by word on normalized text (one raw word can hold e.g. "Wi-Fi")
+    const window = norm(raw.slice(k, k + q.length + 2).join(' '));
+    if (q.every((x, j) => window[j] === x)) {
+      const w = WORDS_BY_CUE[i]?.[k];
+      return (w ? w.s : c.start + ((c.end - c.start) * k) / raw.length) + off;
+    }
+  }
+  throw new Error(`phrase "${phrase}" not in cue ${i}`);
+}
+// end time of a phrase
+export function PE(i: number, phrase: string, off = 0) {
+  const c = TL.cues[i];
+  const raw = c.text.split(/\s+/);
+  const q = norm(phrase);
+  for (let k = 0; k < raw.length; k++) {
+    const window = norm(raw.slice(k, k + q.length + 2).join(' '));
+    if (q.every((x, j) => window[j] === x)) {
+      // find the last raw word that covers the phrase
+      let n = 0, last = k;
+      while (n < q.length && last < raw.length) { n += norm(raw[last]).length; last++; }
+      const w = WORDS_BY_CUE[i]?.[last - 1];
+      return (w ? w.e : c.end) + off;
+    }
+  }
   throw new Error(`phrase "${phrase}" not in cue ${i}`);
 }
 
