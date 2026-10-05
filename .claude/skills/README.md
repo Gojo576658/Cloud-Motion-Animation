@@ -13,3 +13,12 @@ original license file:
 The official Remotion skills ([remotion-dev/skills](https://github.com/remotion-dev/skills),
 no license file published) are installed locally only and git-ignored; get them with
 `npx skills add remotion-dev/skills`.
+
+Added later:
+
+| Skill | Source | License |
+|---|---|---|
+| video-shotcraft (shot recipes, camera moves, sound design rules) | [syklayou-glitch/video-shotcraft](https://github.com/syklayou-glitch/video-shotcraft) | Apache-2.0 |
+| remotion-code-motion-explainer (continuous, editable explainers) | [vibe-motion/remotion-code-motion-explainer](https://github.com/vibe-motion/remotion-code-motion-explainer) | MIT |
+| orca-transition-skill (shared-element / morph / match-cut transitions) | [zhenwusw/orca-transition-skill](https://github.com/zhenwusw/orca-transition-skill) | MIT |
+| orca-motion-skill (in-scene motion graphics) | [zhenwusw/orca-motion-skill](https://github.com/zhenwusw/orca-motion-skill) | MIT |
