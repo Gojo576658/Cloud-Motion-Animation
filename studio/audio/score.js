@@ -93,7 +93,7 @@ export async function compose(tl) {
 
     // ---------------- music, section by section
     const rnd = (() => { let s = 7; return () => ((s = (s * 1664525 + 1013904223) >>> 0) / 4294967296); })();
-    tl.sections.forEach((sec, si) => {
+    tl.sections.forEach((sec) => {
       const [prog, padOn, pulseOn, arpOn, hatsOn, kickOn, heartOn] = MOODS[sec.mood];
       const chords = PROG[prog];
       const s0 = sec.start, s1 = sec.end;
@@ -102,7 +102,7 @@ export async function compose(tl) {
         const ch = chords[k % chords.length];
         const len = Math.min(BAR * 2, s1 - t) + 0.3;
         if (padOn) T(pad, ch.slice(1).map((n) => up(n, 12)), len, t, 0.55 * padOn);
-        if (si === 0 || prog === 'dark') T(drone, ch[0], len, t, 0.6);
+        if (sec.index === 0 || prog === 'dark') T(drone, ch[0], len, t, 0.6);
         // 8th-note bass pulse
         if (pulseOn) for (let b = 0; b < 16; b++) {
           const tt = t + b * BEAT / 2;
@@ -124,7 +124,7 @@ export async function compose(tl) {
           const tones = ch.slice(1).map((n) => up(n, 24));
           [[0, 0], [1.5, 2], [3, 1], [5, 3], [6.5, 2]].forEach(([beat, ni]) => {
             const tt = t + beat * BEAT;
-            if (tt < s1 - 0.4 && tt > s0 + (si === 0 ? 4 : 0)) T(keys, tones[ni % tones.length], BEAT * 1.5, tt, 0.35 + 0.15 * rnd());
+            if (tt < s1 - 0.4 && tt > s0 + (sec.index === 0 ? 4 : 0)) T(keys, tones[ni % tones.length], BEAT * 1.5, tt, 0.35 + 0.15 * rnd());
           });
         }
         for (let b = 0; b < 8; b++) {
@@ -150,7 +150,7 @@ export async function compose(tl) {
     }
 
     // ending: final chord and long tail
-    T(pad, ['D3', 'A3', 'E4', 'F4'], 5, D - 5, 0.5);
+    if (tl.final) T(pad, ['D3', 'A3', 'E4', 'F4'], 5, D - 5, 0.5);
     Q.sort((a, b) => a[0] - b[0]).forEach(([, fn]) => fn());
   }, D + 4, 2, 44100);
 }
