@@ -61,7 +61,7 @@ export const s9Sfx: SfxEvent[] = [
   { t: tNext - 1.2, name: 'riser', vol: 0.4, dur: 1.4 }, { t: tNext + 0.2, name: 'impact', vol: 0.5, note: 'NEXT VIDEO' },
   { t: tSub - 0.1, name: 'popUi', vol: 0.35 }, { t: tClick, name: 'clickModern', vol: 0.6 }, { t: tClick + 0.25, name: 'bell', vol: 0.4 },
   { t: tTell + 0.1, name: 'typing', vol: 0.3, dur: 2.4 },
-  { t: tEndV + 0.2, name: 'shimmer', vol: 0.4 }, { t: tEndV + 0.35, name: 'impactDeep', vol: 0.5, note: 'sign-off' },
+  { t: tEndV + 0.55, name: 'shimmer', vol: 0.4 }, { t: tEndV + 0.3, name: 'impactDeep', vol: 0.5, note: 'sign-off' },
 ];
 
 export const S9Fix: React.FC = () => {
@@ -332,7 +332,7 @@ const Tile: React.FC<{ x: number; at: number; icon: string; label: string; ring:
 const Outro: React.FC = () => {
   const f = useCurrentFrame(); const { fps } = useVideoConfig(); const t = f / fps;
   const up = ramp(t, tNext - 0.2, 0.7, EASE.inOut);       // tiles move up for the end card
-  const endFade = ramp(t, tEndV + 0.1, 0.45, EASE.in);      // end card gives way to the sign-off
+  const endFade = ramp(t, tEndV - 0.05, 0.35, EASE.in);      // end card gives way to the sign-off
   const clicked = t > tClick;
   const cur = { x: lerp(1000, 620, ramp(t, tSub, 0.5, EASE.inOut)), y: lerp(1000, 795, ramp(t, tSub, 0.5, EASE.inOut)) };
   const press = t > tClick - 0.05 && t < tClick + 0.12 ? 0.92 : 1;
@@ -354,7 +354,7 @@ const Outro: React.FC = () => {
             <div style={{ display: 'inline-block', padding: '8px 22px', borderRadius: 10, background: C.red, fontFamily: fonts.body, fontWeight: 800, fontSize: 26, letterSpacing: '0.24em', color: '#fff', transform: `scale(${0.6 + 0.4 * ramp(t, tNext + 0.1, 0.35, EASE.back)})` }}>NEXT VIDEO</div>
           </div>
         )}
-        <Kinetic text="The Microphone | in Your *Pocket*" at={tNext + 0.25} out={tEndV + 0.05} y={560} size={92} weight={900} anim="rise" stagger={0.07} />
+        <Kinetic text="The Microphone | in Your *Pocket*" at={tNext + 0.25} out={tEndV - 0.3} y={560} size={92} weight={900} anim="rise" stagger={0.07} />
         {/* subscribe */}
         {t > tSub - 0.15 && (
           <div style={{ position: 'absolute', left: 580, top: 790, transform: `translate(-50%,-50%) scale(${press * (0.7 + 0.3 * ramp(t, tSub - 0.15, 0.35, EASE.back))})`, opacity: ramp(t, tSub - 0.15, 0.25), display: 'flex', alignItems: 'center', gap: 16, padding: '22px 40px', borderRadius: 999, background: clicked ? '#2a3044' : C.red, boxShadow: clicked ? undefined : `0 0 40px ${C.red}88`, fontFamily: fonts.head, fontWeight: 900, fontSize: 40, color: '#fff', whiteSpace: 'nowrap' }}>
@@ -375,16 +375,16 @@ const Outro: React.FC = () => {
         )}
       </AbsoluteFill>
       {/* sign-off */}
-      {t > tEndV && (
-        <AbsoluteFill style={{ opacity: ramp(t, tEndV + 0.2, 0.5) * (1 - ramp(t, Z - 0.8, 0.7)) }}>
+      {t > tEndV + 0.25 && (
+        <AbsoluteFill style={{ opacity: ramp(t, tEndV + 0.3, 0.45) * (1 - ramp(t, Z - 0.8, 0.7)) }}>
           <Glow x={960} y={520} r={600} color={C.cyan} opacity={0.18} />
-          <div style={{ position: 'absolute', left: 960, top: 470, transform: `translate(-50%,-50%) scale(${0.92 + 0.08 * ramp(t, tEndV + 0.2, 1.2, EASE.out)})`, display: 'flex', alignItems: 'center', gap: 30 }}>
+          <div style={{ position: 'absolute', left: 960, top: 470, transform: `translate(-50%,-50%) scale(${0.92 + 0.08 * ramp(t, tEndV + 0.3, 1.2, EASE.out)})`, display: 'flex', alignItems: 'center', gap: 30 }}>
             <div style={{ width: 130, height: 130, borderRadius: 32, background: `linear-gradient(135deg, ${C.cyan}, ${C.blue})`, display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: `0 0 60px ${C.cyan}66` }}><Icon name="ph:cpu-bold" size={84} color="#04101c" /></div>
             <div style={{ fontFamily: fonts.head, fontWeight: 900, fontSize: 110, color: C.ink, letterSpacing: '-0.02em', whiteSpace: 'nowrap' }}>Mechivio<span style={{ color: C.cyan }}>Tech</span></div>
           </div>
           <div style={{ position: 'absolute', left: 960, top: 600, transform: 'translateX(-50%)', fontFamily: fonts.body, fontWeight: 700, fontSize: 28, letterSpacing: '0.3em', color: C.dim, opacity: ramp(t, tEndV + 0.6, 0.5), whiteSpace: 'nowrap' }}>STAY CURIOUS · STAY PRIVATE</div>
           {/* light sweep over the logo */}
-          <div style={{ position: 'absolute', left: lerp(300, 1700, ramp(t, tEndV + 0.4, 1.0, EASE.inOut)), top: 380, width: 120, height: 200, background: 'linear-gradient(90deg, transparent, rgba(255,255,255,.25), transparent)', transform: 'skewX(-20deg)' }} />
+          <div style={{ position: 'absolute', left: lerp(300, 1700, ramp(t, tEndV + 0.6, 1.0, EASE.inOut)), top: 380, width: 120, height: 200, background: 'linear-gradient(90deg, transparent, rgba(255,255,255,.25), transparent)', transform: 'skewX(-20deg)' }} />
         </AbsoluteFill>
       )}
     </AbsoluteFill>
