@@ -11,7 +11,7 @@ import { Pill, Panel, Rings, glitchOffset } from '../components/UI';
 import { TV, ledPos } from '../components/TV';
 import { Icon } from '../components/Icon';
 import { C, fonts } from '../lib/theme';
-import { C0, C1, P, PE, S0, S1, EASE, ramp, clamp, lerp } from '../lib/time';
+import { C0, C1, P, PE, S0, S1, EASE, ramp, clamp, lerp, springAt } from '../lib/time';
 import type { SfxEvent } from '../lib/sfx';
 
 const A = S0(2), Z = S1(2);
@@ -32,6 +32,7 @@ export const s2Sfx: SfxEvent[] = [
   { t: tBuilt - 0.25, name: 'whooshDeep', vol: 0.4, note: 'cut to the TV' }, { t: tBuilt + 0.25, name: 'popUi', vol: 0.35 },
   { t: tFar - 0.05, name: 'sweepSciFi', vol: 0.3, note: 'far-field rings' },
   { t: tSpeaker - 0.15, name: 'swoosh', vol: 0.4, note: 'speaker PiP' },
+  { t: tWake - 0.1, name: 'scan', vol: 0.3, note: 'listening wave' }, { t: C0(11) + 0.1, name: 'snap', vol: 0.45, note: 'puzzle piece' },
   { t: tHi - 0.1, name: 'impactZoom', vol: 0.45, note: 'HI LG bubble' }, { t: tHi + 0.05, name: 'chime', vol: 0.3 },
   { t: C0(9) - 0.1, name: 'vacuum', vol: 0.45, note: 'into the chip' },
   { t: tChip - 0.05, name: 'machine', vol: 0.35 },
@@ -129,8 +130,28 @@ const ChipDiagram: React.FC = () => {
   );
 };
 
-export const S2Hears: React.FC = () => {
+// "it listens for a wake word": a live waveform across the black screen
+const ListenWave: React.FC<{ at: number; out: number }> = ({ at, out }) => {
   const t = useCurrentFrame() / useVideoConfig().fps;
+  const a = ramp(t, at, 0.35) * (1 - ramp(t, out, 0.25));
+  const x0 = BIG.x + 140, x1 = BIG.x + BIG.w - 140, y = BIG.y + BIG.w * 0.29;
+  const pts = Array.from({ length: 121 }, (_, i) => {
+    const u = i / 120, env = Math.sin(u * Math.PI);
+    const v = Math.sin(u * 38 + t * 9) * 0.5 + Math.sin(u * 91 - t * 13) * 0.3 + Math.sin(u * 17 + t * 4) * 0.2;
+    return `${lerp(x0, x1, u).toFixed(1)},${(y + v * env * 70 * (0.6 + 0.4 * Math.sin(t * 3))).toFixed(1)}`;
+  }).join(' ');
+  return (
+    <div style={{ position: 'absolute', left: 0, top: 0, width: 1920, height: 1080, opacity: a }}>
+      <svg style={{ position: 'absolute', left: 0, top: 0, width: 1920, height: 1080, overflow: 'visible' }}>
+        <polyline points={pts} fill="none" stroke={C.cyan} strokeWidth="4" strokeLinejoin="round" style={{ filter: `drop-shadow(0 0 10px ${C.cyan})` }} />
+      </svg>
+      <div style={{ position: 'absolute', left: (x0 + x1) / 2, top: y - 150, transform: 'translateX(-50%)', fontFamily: fonts.mono, fontWeight: 700, fontSize: 30, letterSpacing: '0.12em', color: C.cyan, whiteSpace: 'nowrap' }}>● LISTENING FOR WAKE WORD…</div>
+    </div>
+  );
+};
+
+export const S2Hears: React.FC = () => {
+  const f = useCurrentFrame(); const { fps } = useVideoConfig(); const t = f / fps;
   const g = glitchOffset(t, tHonest, 0.5, 20);
   const pulse = 0.6 + 0.4 * Math.sin(t * 3.4);
   const tvScene = (t > tBuilt - 0.3 && t < C0(9) + 0.2) || (t > C0(11) - 0.4);
@@ -160,6 +181,7 @@ export const S2Hears: React.FC = () => {
           <Layer depth={1}>
             <TV x={BIG.x} y={BIG.y} w={BIG.w} led={pulse + (t > tHi ? 1 : 0)} bias={0.9} />
             <Rings x={BIG_LED.x} y={BIG_LED.y} at={tFar - 0.1} out={tWake} color={C.cyan} max={700} count={5} speed={0.6} />
+            {t > tWake - 0.15 && t < tHi + 0.2 && <ListenWave at={tWake - 0.1} out={tHi - 0.1} />}
           </Layer>
         </Camera>
       )}
@@ -189,6 +211,11 @@ export const S2Hears: React.FC = () => {
             <Layer depth={0.7}><Grid opacity={0.2} /></Layer>
             <Layer depth={1}><TV x={BIG.x} y={BIG.y} w={BIG.w} led={pulse} bias={0.8} /></Layer>
           </Camera>
+          {t < tAlways + 0.3 && (() => {
+            const sp = springAt(f, fps, C0(11) + 0.15, { damping: 11, stiffness: 140 });
+            const ex = ramp(t, tAlways - 0.2, 0.3, EASE.in);
+            return <div style={{ position: 'absolute', left: 960, top: 500, transform: `translate(-50%,-50%) rotate(${(1 - sp) * -40}deg) scale(${(0.4 + 0.6 * sp) * (1 - ex * 0.5)})`, opacity: clamp(sp * 1.4) * (1 - ex) }}><Icon name="ph:puzzle-piece-bold" size={170} color={C.cyan} glow /></div>;
+          })()}
           <Pill x={120} y={150} at={tAlways - 0.05} out={tHonest - 0.4} color={C.cyan}><Icon name="ph:lightning-bold" size={30} color={C.ink} />Always Ready · ON</Pill>
           <PowerHud at={tLooks - 0.1} out={tHonest - 0.4} />
           <Kinetic text="Looks off ≠ *is off*" at={P(11, 'it often')} out={C1(11)} y={880} size={64} />

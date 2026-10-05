@@ -14,7 +14,7 @@ const transitionSfx: SfxEvent[] = SECTIONS.slice(1).flatMap((s): SfxEvent[] => {
   const B = s.start;
   if (s.enter === 'whip') return [{ t: B - 0.28, name: 'whooshBig', vol: 0.5 }, { t: B + 0.02, name: 'bassHit', vol: 0.35 }];
   if (s.enter === 'scale') return [{ t: B - 0.35, name: 'zoomAir', vol: 0.5 }, { t: B + 0.02, name: 'impactDeep', vol: 0.4 }];
-  if (s.enter === 'wipe') return [{ t: B - 0.5, name: 'swoosh', vol: 0.5 }, { t: B, name: 'impact', vol: 0.4 }];
+  if (s.enter === 'wipe') return [{ t: B - 0.42, name: 'swoosh', vol: 0.5 }, { t: B - 0.02, name: 'impact', vol: 0.35 }];
   return [];
 });
 const allSfx = [...transitionSfx, ...SECTIONS.flatMap((s) => s.sfx)];
@@ -22,6 +22,10 @@ const noCaptions: [number, number][] = [
   ...SECTIONS.flatMap((s) => s.noCaptions),
   ...SECTIONS.slice(1).map((s) => [s.start - 0.35, s.start + 0.45] as [number, number]),
 ];
+
+// wipe edge x (px, at mid-height) — crosses the frame centre exactly on the boundary
+const WIPE_SKEW = 115; // half the horizontal lean of the -12° edge over 1080px
+const wipeEdge = (t: number, at: number) => 2200 - 2560 * ramp(t, at - 0.38, 0.76, EASE.inOut);
 
 // wraps a section with enter/exit transition transforms
 const SectionFrame: React.FC<{ i: number; children: React.ReactNode }> = ({ i, children }) => {
@@ -38,7 +42,11 @@ const SectionFrame: React.FC<{ i: number; children: React.ReactNode }> = ({ i, c
     if (ex === 'whip') { const u = ramp(t, next.start - 0.2, 0.4, EASE.inOut); tf += ` translateX(${-u * 1920}px)`; blur += (1 - Math.abs(u * 2 - 1)) * 26; }
     if (ex === 'scale') { const u = ramp(t, next.start - 0.35, 0.45, EASE.in); tf += ` scale(${1 + 0.35 * u})`; op *= 1 - u; }
   }
-  return <AbsoluteFill style={{ transform: tf || undefined, opacity: op, filter: blur > 0.5 ? `blur(${blur.toFixed(1)}px)` : undefined }}>{children}</AbsoluteFill>;
+  // wipe: a diagonal edge sweeps right → left; the new section is revealed behind it
+  let clip: string | undefined;
+  if (i > 0 && enter === 'wipe' && t < s.start + 0.4) { const e = wipeEdge(t, s.start); clip = `polygon(${e + WIPE_SKEW}px 0, 1920px 0, 1920px 1080px, ${e - WIPE_SKEW}px 1080px)`; }
+  if (next && next.enter === 'wipe' && t > next.start - 0.4) { const e = wipeEdge(t, next.start); clip = `polygon(0 0, ${e + WIPE_SKEW}px 0, ${e - WIPE_SKEW}px 1080px, 0 1080px)`; }
+  return <AbsoluteFill style={{ transform: tf || undefined, opacity: op, filter: blur > 0.5 ? `blur(${blur.toFixed(1)}px)` : undefined, clipPath: clip }}>{children}</AbsoluteFill>;
 };
 
 export const Main: React.FC<{ audio?: boolean }> = ({ audio = true }) => {
@@ -53,7 +61,7 @@ export const Main: React.FC<{ audio?: boolean }> = ({ audio = true }) => {
         return <SectionFrame key={i} i={i}><Comp /></SectionFrame>;
       })}
       {/* wipes cover the cut */}
-      {SECTIONS.map((s, i) => (i && s.enter === 'wipe' && Math.abs(t - s.start) < 0.9 ? <WipeOver key={`w${i}`} at={s.start} color={s.accent} /> : null))}
+      {SECTIONS.map((s, i) => (i && s.enter === 'wipe' && Math.abs(t - s.start) < 0.6 ? <WipeOver key={`w${i}`} at={s.start} color={s.accent} /> : null))}
       <Captions hide={noCaptions} />
       <FilmLook />
       {audio && <Audio src={staticFile('soundtrack.wav')} />}
@@ -64,13 +72,17 @@ export const Main: React.FC<{ audio?: boolean }> = ({ audio = true }) => {
 
 const WipeOver: React.FC<{ at: number; color: string }> = ({ at, color }) => {
   const t = useCurrentFrame() / useVideoConfig().fps;
+  const e = wipeEdge(t, at);
+  if (e > 2150 || e < -330) return null;
+  const band = (off: number, w: number, bg: string, extra: React.CSSProperties = {}) => (
+    <div style={{ position: 'absolute', left: e + off - w / 2, top: -60, width: w, height: 1200, background: bg, transform: 'skewX(-12deg)', ...extra }} />
+  );
   return (
     <AbsoluteFill style={{ pointerEvents: 'none' }}>
-      {[color, '#0b1224'].map((c, i) => {
-        const inU = ramp(t, at - 0.5 + i * 0.06, 0.42, EASE.inOut);
-        const outU = ramp(t, at + 0.05 + (1 - i) * 0.06, 0.5, EASE.inOut);
-        return <div key={i} style={{ position: 'absolute', left: '-30%', top: '-40%', width: '160%', height: '180%', background: c, transform: `rotate(-12deg) translateX(${120 - inU * 120 - outU * 125}%)`, borderRadius: 60 }} />;
-      })}
+      {band(-10, 260, `linear-gradient(90deg, transparent, ${color}33 70%, transparent)`)}
+      {band(0, 54, color, { boxShadow: `0 0 60px ${color}, 0 0 140px ${color}88` })}
+      {band(46, 8, 'rgba(255,255,255,.8)')}
+      {band(78, 4, `${color}aa`)}
     </AbsoluteFill>
   );
 };

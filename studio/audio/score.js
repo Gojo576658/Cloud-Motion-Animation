@@ -63,6 +63,10 @@ export async function compose(tl) {
     const heart = new Tone.MembraneSynth({ pitchDecay: 0.08, octaves: 3, envelope: { attack: 0.002, decay: 0.3, sustain: 0, release: 0.1 }, volume: -14 });
     send(heart, 0.25);
 
+    const keysVerb = new Tone.Filter({ type: 'lowpass', frequency: 3200 });
+    send(keysVerb, 0.5);
+    const keys = new Tone.PolySynth(Tone.Synth, { oscillator: { type: 'triangle' }, envelope: { attack: 0.004, decay: 1.4, sustain: 0.05, release: 1.6 }, volume: -24 }).connect(keysVerb);
+
     // ---------------- SFX
     const boom = new Tone.MembraneSynth({ pitchDecay: 0.25, octaves: 5, envelope: { attack: 0.001, decay: 1.6, sustain: 0, release: 1 }, volume: -8 });
     send(boom, 0.45);
@@ -115,6 +119,14 @@ export async function compose(tl) {
             T(arp, notes[(b * 3 + Math.floor(b / 8)) % notes.length], BEAT / 4, tt, 0.4 + 0.3 * rnd());
           }
         }
+        // sparse piano motif (reflective sections)
+        if (['calm', 'history', 'fix', 'open'].includes(sec.mood)) {
+          const tones = ch.slice(1).map((n) => up(n, 24));
+          [[0, 0], [1.5, 2], [3, 1], [5, 3], [6.5, 2]].forEach(([beat, ni]) => {
+            const tt = t + beat * BEAT;
+            if (tt < s1 - 0.4 && tt > s0 + (si === 0 ? 4 : 0)) T(keys, tones[ni % tones.length], BEAT * 1.5, tt, 0.35 + 0.15 * rnd());
+          });
+        }
         for (let b = 0; b < 8; b++) {
           const tt = t + b * BEAT;
           if (tt >= s1 - 0.1) break;
@@ -123,19 +135,9 @@ export async function compose(tl) {
           if (heartOn && b % 2 === 0) { T(heart, 'A0', '16n', tt, 0.9); T(heart, 'A0', '16n', tt + 0.22, 0.55); }
         }
       }
-      // transition: riser into the section, boom + whoosh on it
-      if (si > 0) {
-        const r = Math.max(0, s0 - 1.3);
-        T(riser, 1.25, r, 0.9);
-        A(r, () => { riseFilter.frequency.setValueAtTime(250, r); riseFilter.frequency.exponentialRampToValueAtTime(5500, s0); });
-        T(boom, 'D1', 1.2, s0, 0.9);
-        T(whoosh, 0.5, s0 - 0.12, 0.8);
-        A(s0 - 0.12, () => { whooshFilter.frequency.setValueAtTime(400, s0 - 0.12); whooshFilter.frequency.exponentialRampToValueAtTime(3000, s0 + 0.35); });
-      }
+      // section hits (risers, booms, whooshes) live in the picture's SFX layer, not here
     });
 
-    // hooks: a low hit + a high ping
-    tl.hooks.forEach((t) => { T(boom, 'A0', 0.8, t, 0.45); T(ping, 'D6', 1, t + 0.02, 0.5); });
 
     // extra events from the picture (text pops, glitches, beeps, impacts)
     for (const e of tl.events || []) {
@@ -144,12 +146,11 @@ export async function compose(tl) {
       if (e.type === 'glitch') for (let i = 0; i < 6; i++) T(glitch, 0.02, e.t + i * 0.055, 0.5 + 0.5 * rnd());
       if (e.type === 'beep') T(beep, e.note || 'A5', 0.06, e.t, 0.6);
       if (e.type === 'impact') T(boom, 'D1', 1.2, e.t, 1);
-      if (e.type === 'title') { T(riser, 1.6, e.t - 1.6, 1); T(boom, 'D1', 2, e.t, 1); T(ping, 'A5', 2, e.t, 0.6); }
+      if (e.type === 'title') T(ping, 'A5', 2, e.t, 0.6);
     }
 
     // ending: final chord and long tail
     T(pad, ['D3', 'A3', 'E4', 'F4'], 5, D - 5, 0.5);
-    T(boom, 'D1', 3, D - 4.5, 0.7);
     Q.sort((a, b) => a[0] - b[0]).forEach(([, fn]) => fn());
   }, D + 4, 2, 44100);
 }
