@@ -1,0 +1,6 @@
+node_modules/
+out/
+audio/out/
+audio/score.html
+audio/score.log
+public/*.wav

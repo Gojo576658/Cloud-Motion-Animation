@@ -5,7 +5,7 @@ import numpy as np, soundfile as sf
 from kokoro_onnx import Kokoro
 
 VOICE, SPEED = "am_michael", float(sys.argv[1]) if len(sys.argv) > 1 else 1.1
-PARA_GAP, SECTION_GAP = 0.35, 0.7
+PARA_GAP, SECTION_GAP = 0.3, 0.6
 
 cues = json.load(open("../animation/src/cues.json"))["cues"]
 fix = [

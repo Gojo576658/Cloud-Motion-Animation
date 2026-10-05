@@ -1,0 +1,635 @@
+{
+ "fps": 30,
+ "offset": 0.8,
+ "duration": 548.769,
+ "titleAt": 39.171,
+ "sections": [
+  {
+   "index": 0,
+   "title": "Cold Open",
+   "mood": "open",
+   "start": 0,
+   "end": 41.771
+  },
+  {
+   "index": 1,
+   "title": "The Investigation",
+   "mood": "invest",
+   "start": 41.771,
+   "end": 90.748
+  },
+  {
+   "index": 2,
+   "title": "How a TV Hears You",
+   "mood": "inside",
+   "start": 90.748,
+   "end": 155.009
+  },
+  {
+   "index": 3,
+   "title": "What They Found: The Audio",
+   "mood": "audio",
+   "start": 155.009,
+   "end": 226.891
+  },
+  {
+   "index": 4,
+   "title": "What They Found: The Network Scan",
+   "mood": "network",
+   "start": 226.891,
+   "end": 276.788
+  },
+  {
+   "index": 5,
+   "title": "The Hacking Part",
+   "mood": "hack",
+   "start": 276.788,
+   "end": 319.042
+  },
+  {
+   "index": 6,
+   "title": "LG's Response",
+   "mood": "calm",
+   "start": 319.042,
+   "end": 368.428
+  },
+  {
+   "index": 7,
+   "title": "It's Happened Before",
+   "mood": "history",
+   "start": 368.428,
+   "end": 446.074
+  },
+  {
+   "index": 8,
+   "title": "Why? Follow the Money",
+   "mood": "money",
+   "start": 446.074,
+   "end": 485.215
+  },
+  {
+   "index": 9,
+   "title": "How to Protect Yourself (+ Next Video)",
+   "mood": "fix",
+   "start": 485.215,
+   "end": 548.769
+  }
+ ],
+ "cues": [
+  {
+   "id": 0,
+   "section": 0,
+   "start": 0.8,
+   "end": 6.845,
+   "vStart": 0,
+   "vEnd": 6.045,
+   "hooks": [
+    1
+   ],
+   "text": "Your TV is off. The screen is black. The room is silent. So why is the microphone still awake?"
+  },
+  {
+   "id": 1,
+   "section": 0,
+   "start": 7.145,
+   "end": 21.787,
+   "vStart": 6.345,
+   "vEnd": 20.987,
+   "hooks": [
+    2
+   ],
+   "text": "In September 2026, a team of researchers left a brand-new LG TV sitting in standby, cut off its internet, and simply talked around it. Days later, they plugged the internet back in… and watched what the TV did next."
+  },
+  {
+   "id": 2,
+   "section": 0,
+   "start": 22.087,
+   "end": 29.234,
+   "vStart": 21.287,
+   "vEnd": 28.434,
+   "hooks": [],
+   "text": "This isn't really a story about one brand. It's about a machine we put in the most private room of our homes, and then forgot about."
+  },
+  {
+   "id": 3,
+   "section": 0,
+   "start": 29.534,
+   "end": 38.821,
+   "vStart": 28.734,
+   "vEnd": 38.021,
+   "hooks": [
+    3
+   ],
+   "text": "And stay till the end, because I'll give you five settings every smart TV owner should switch off tonight. The last one is the one almost nobody does."
+  },
+  {
+   "id": 4,
+   "section": 1,
+   "start": 42.021,
+   "end": 64.997,
+   "vStart": 38.621,
+   "vEnd": 61.597,
+   "hooks": [],
+   "text": "On September 7th, 2026, the hardware channel Gamers Nexus published a video more than two hours long. They had teamed up with Level1Techs and a group of independent security researchers. Together, they spent more than five hundred hours and roughly seventy thousand dollars testing retail LG OLED televisions, including the 2025 LG G5."
+  },
+  {
+   "id": 5,
+   "section": 1,
+   "start": 65.297,
+   "end": 71.784,
+   "vStart": 61.897,
+   "vEnd": 68.384,
+   "hooks": [],
+   "text": "They captured every packet the TVs sent, decompiled the firmware, and read the system logs line by line."
+  },
+  {
+   "id": 6,
+   "section": 1,
+   "start": 72.084,
+   "end": 88.622,
+   "vStart": 68.684,
+   "vEnd": 85.222,
+   "hooks": [
+    4
+   ],
+   "text": "What they say they found falls into three parts. The first is about what your TV hears. The second is about what it sees inside your house. Not on the screen. Inside your house. And the third is the scariest, because it isn't about LG at all. It's about who else could get in."
+  },
+  {
+   "id": 7,
+   "section": 1,
+   "start": 88.922,
+   "end": 90.398,
+   "vStart": 85.522,
+   "vEnd": 86.998,
+   "hooks": [],
+   "text": "Let's open the first box."
+  },
+  {
+   "id": 8,
+   "section": 2,
+   "start": 90.998,
+   "end": 108.287,
+   "vStart": 87.598,
+   "vEnd": 104.887,
+   "hooks": [],
+   "text": "First, how does a smart TV listen? Many LG TVs have a microphone in the remote, and some have one built right into the TV. That's called far-field voice recognition, the same idea as a smart speaker. It listens for a wake word, and for LG, that's \"Hi LG.\""
+  },
+  {
+   "id": 9,
+   "section": 2,
+   "start": 108.587,
+   "end": 127.664,
+   "vStart": 105.187,
+   "vEnd": 124.264,
+   "hooks": [],
+   "text": "Here's how it's supposed to work. A small, low-power chip keeps the last few seconds of sound in a short memory buffer, like a loop of tape that keeps recording over itself. It compares that loop to the wake word. No match? The audio is thrown away. Match? The TV wakes up and sends your command off to be understood."
+  },
+  {
+   "id": 10,
+   "section": 2,
+   "start": 127.964,
+   "end": 138.583,
+   "vStart": 124.564,
+   "vEnd": 135.183,
+   "hooks": [
+    5
+   ],
+   "text": "Remember that loop of tape, because the whole story hangs on it. The question isn't whether your TV has a microphone. It's what really happens to that loop when it's supposed to be thrown away."
+  },
+  {
+   "id": 11,
+   "section": 2,
+   "start": 138.883,
+   "end": 149.661,
+   "vStart": 135.483,
+   "vEnd": 146.261,
+   "hooks": [],
+   "text": "One more piece. Many LG TVs have a feature called Always Ready. When the TV looks off, it often isn't fully off. It's in a low-power mode, ready to wake instantly."
+  },
+  {
+   "id": 12,
+   "section": 2,
+   "start": 149.961,
+   "end": 154.66,
+   "vStart": 146.561,
+   "vEnd": 151.26,
+   "hooks": [
+    6
+   ],
+   "text": "Which means that black screen in front of you might be the least honest thing in your living room."
+  },
+  {
+   "id": 13,
+   "section": 3,
+   "start": 155.259,
+   "end": 172.416,
+   "vStart": 151.859,
+   "vEnd": 169.016,
+   "hooks": [],
+   "text": "According to the investigation, with the screen apparently off and the TV in standby, the set kept capturing audio from its microphone. The researchers say it picked up background sound from as far as twelve metres away. That's about forty feet, roughly the length of an entire house."
+  },
+  {
+   "id": 14,
+   "section": 3,
+   "start": 172.716,
+   "end": 177.247,
+   "vStart": 169.316,
+   "vEnd": 173.847,
+   "hooks": [],
+   "text": "Then came the test I mentioned at the start. They cut the TV off from the internet."
+  },
+  {
+   "id": 15,
+   "section": 3,
+   "start": 177.547,
+   "end": 188.851,
+   "vStart": 174.147,
+   "vEnd": 185.451,
+   "hooks": [
+    7
+   ],
+   "text": "Think about it. If a TV only listens for a wake word and deletes everything else, cutting the internet changes nothing. There's nothing waiting to be sent. But that's not what they say happened."
+  },
+  {
+   "id": 16,
+   "section": 3,
+   "start": 189.151,
+   "end": 198.191,
+   "vStart": 185.751,
+   "vEnd": 194.791,
+   "hooks": [],
+   "text": "Audio and text files reportedly piled up in the TV's local storage while it was offline. And the moment the connection came back… they uploaded."
+  },
+  {
+   "id": 17,
+   "section": 3,
+   "start": 198.491,
+   "end": 213.457,
+   "vStart": 195.091,
+   "vEnd": 210.057,
+   "hooks": [
+    8
+   ],
+   "text": "And there was one clip in the report that people couldn't stop sharing. The researchers had finished talking to the TV. They'd moved on to a normal conversation. And the TV, they say, kept writing down what they were saying, word for word, as text."
+  },
+  {
+   "id": 18,
+   "section": 3,
+   "start": 213.757,
+   "end": 220.894,
+   "vStart": 210.357,
+   "vEnd": 217.494,
+   "hooks": [
+    9
+   ],
+   "text": "Now, LG says this is not true. We'll get to their response. And there's one word in it that most people completely missed."
+  },
+  {
+   "id": 19,
+   "section": 3,
+   "start": 221.194,
+   "end": 226.541,
+   "vStart": 217.794,
+   "vEnd": 223.141,
+   "hooks": [
+    10
+   ],
+   "text": "But first, the TV wasn't only listening to the room. It was also looking around your house."
+  },
+  {
+   "id": 20,
+   "section": 4,
+   "start": 227.141,
+   "end": 239.71,
+   "vStart": 223.741,
+   "vEnd": 236.31,
+   "hooks": [],
+   "text": "Your TV sits on the same Wi-Fi as everything else you own. According to the packet captures, the tested TVs repeatedly scanned that network for other devices that have nothing to do with watching TV."
+  },
+  {
+   "id": 21,
+   "section": 4,
+   "start": 240.01,
+   "end": 250.979,
+   "vStart": 236.61,
+   "vEnd": 247.579,
+   "hooks": [
+    11
+   ],
+   "text": "In the test lab, how many devices do you think it found? Ten? Twenty? It found thirty-eight. Smartphones. Smartwatches. A 3D printer. An air purifier. Even thermostats."
+  },
+  {
+   "id": 22,
+   "section": 4,
+   "start": 251.279,
+   "end": 260.206,
+   "vStart": 247.879,
+   "vEnd": 256.806,
+   "hooks": [],
+   "text": "The researchers say it also collected the names of nearby Wi-Fi networks, including your neighbours', along with their signal strength and location data."
+  },
+  {
+   "id": 23,
+   "section": 4,
+   "start": 260.506,
+   "end": 269.307,
+   "vStart": 257.106,
+   "vEnd": 265.907,
+   "hooks": [
+    12
+   ],
+   "text": "So why would a TV need to know the name of your neighbour's Wi-Fi? Hold that thought, because the answer is the reason this entire industry exists."
+  },
+  {
+   "id": 24,
+   "section": 4,
+   "start": 269.607,
+   "end": 276.438,
+   "vStart": 266.207,
+   "vEnd": 273.038,
+   "hooks": [],
+   "text": "According to the report, some of this data went to LG Ad Solutions, which is LG's advertising business."
+  },
+  {
+   "id": 25,
+   "section": 5,
+   "start": 277.038,
+   "end": 291.303,
+   "vStart": 273.638,
+   "vEnd": 287.903,
+   "hooks": [],
+   "text": "Now the third finding. The researchers say they discovered remote-code-execution vulnerabilities in the TV's software. In simple words, these are bugs that could let an attacker run their own code on your TV without ever touching it."
+  },
+  {
+   "id": 26,
+   "section": 5,
+   "start": 291.603,
+   "end": 298.785,
+   "vStart": 288.203,
+   "vEnd": 295.385,
+   "hooks": [],
+   "text": "In a proof-of-concept demo, they showed that a compromised TV could switch on its built-in microphone while sitting in standby."
+  },
+  {
+   "id": 27,
+   "section": 5,
+   "start": 299.085,
+   "end": 306.454,
+   "vStart": 295.685,
+   "vEnd": 303.054,
+   "hooks": [
+    13
+   ],
+   "text": "So even if you trust LG completely, the real question becomes this: do you trust every hacker who finds the same bug?"
+  },
+  {
+   "id": 28,
+   "section": 5,
+   "start": 306.754,
+   "end": 311.536,
+   "vStart": 303.354,
+   "vEnd": 308.136,
+   "hooks": [],
+   "text": "The researchers reported these flaws to LG privately so they can be fixed first."
+  },
+  {
+   "id": 29,
+   "section": 5,
+   "start": 311.836,
+   "end": 318.692,
+   "vStart": 308.436,
+   "vEnd": 315.292,
+   "hooks": [
+    14
+   ],
+   "text": "And if you think a government would never turn a TV into a spy… that already happened. Years ago. I'll show you in a moment."
+  },
+  {
+   "id": 30,
+   "section": 6,
+   "start": 319.292,
+   "end": 344.509,
+   "vStart": 315.892,
+   "vEnd": 341.109,
+   "hooks": [],
+   "text": "LG strongly denied the claims. It says its TVs do not continuously record or transmit conversations, and that voice is only processed when you hold the remote's voice button, or say \"Hi LG\" after turning that feature on. If no wake word is detected, LG says the audio is not stored or sent anywhere. LG also says content recognition, voice recognition and personalised ads are optional."
+  },
+  {
+   "id": 31,
+   "section": 6,
+   "start": 344.809,
+   "end": 356.444,
+   "vStart": 341.409,
+   "vEnd": 353.044,
+   "hooks": [
+    15
+   ],
+   "text": "Did you catch the word? Optional. Not off. Optional. Critics pointed out that LG's statement didn't fully explain the network scanning, how much data is collected, or who it's shared with."
+  },
+  {
+   "id": 32,
+   "section": 6,
+   "start": 356.744,
+   "end": 368.078,
+   "vStart": 353.344,
+   "vEnd": 364.678,
+   "hooks": [
+    16
+   ],
+   "text": "So who's right? Honestly, until regulators independently test these TVs, nobody can say for sure. But some of this isn't a claim at all. Some of it has already been proven."
+  },
+  {
+   "id": 33,
+   "section": 7,
+   "start": 368.678,
+   "end": 378.185,
+   "vStart": 365.278,
+   "vEnd": 374.785,
+   "hooks": [],
+   "text": "2015. Samsung's own privacy policy warned that if your spoken words included sensitive information, it could be captured and sent to a third party."
+  },
+  {
+   "id": 34,
+   "section": 7,
+   "start": 378.485,
+   "end": 391.544,
+   "vStart": 375.085,
+   "vEnd": 388.144,
+   "hooks": [],
+   "text": "2017. The US Federal Trade Commission said Vizio had collected second-by-second viewing data from around eleven million TVs without proper consent. Vizio paid two point two million dollars."
+  },
+  {
+   "id": 35,
+   "section": 7,
+   "start": 391.844,
+   "end": 407.449,
+   "vStart": 388.444,
+   "vEnd": 404.049,
+   "hooks": [
+    17
+   ],
+   "text": "Also 2017. WikiLeaks published leaked CIA documents describing a tool called Weeping Angel. It could put certain Samsung TVs into a \"Fake-Off\" mode. The screen went black, the lights went off… and the microphone kept recording."
+  },
+  {
+   "id": 36,
+   "section": 7,
+   "start": 407.749,
+   "end": 414.41,
+   "vStart": 404.349,
+   "vEnd": 411.01,
+   "hooks": [],
+   "text": "2019. The FBI publicly warned that hackers could take over smart TV cameras and microphones."
+  },
+  {
+   "id": 37,
+   "section": 7,
+   "start": 414.71,
+   "end": 445.724,
+   "vStart": 411.31,
+   "vEnd": 442.324,
+   "hooks": [
+    18
+   ],
+   "text": "And then there's the one your TV is probably doing right now: Automatic Content Recognition, or ACR. Your TV can take pictures of what's on your screen. Not once. Over and over. A 2024 university study found Samsung TVs capturing the screen about twice every second, and LG TVs even more often. Even when the TV was just a monitor for a game console. In 2025, Texas sued Samsung, LG, Sony, Hisense and TCL over it."
+  },
+  {
+   "id": 38,
+   "section": 8,
+   "start": 446.324,
+   "end": 461.585,
+   "vStart": 442.924,
+   "vEnd": 458.185,
+   "hooks": [],
+   "text": "Remember the question about your neighbour's Wi-Fi? Here's the answer. Location and nearby devices help advertisers figure out who you are, where you live, and which phone belongs to the person watching. That lets an ad on your TV follow you to your phone."
+  },
+  {
+   "id": 39,
+   "section": 8,
+   "start": 461.885,
+   "end": 481.555,
+   "vStart": 458.485,
+   "vEnd": 478.155,
+   "hooks": [
+    19
+   ],
+   "text": "And here's the part that will change how you look at that cheap 65-inch TV deal. In 2021, Vizio revealed it was making more profit from ads and viewing data than from selling the TVs themselves. LG's ad business says it can reach more than three hundred and sixty million connected devices in the US alone."
+  },
+  {
+   "id": 40,
+   "section": 8,
+   "start": 481.855,
+   "end": 484.865,
+   "vStart": 478.455,
+   "vEnd": 481.465,
+   "hooks": [
+    20
+   ],
+   "text": "So maybe the TV isn't the product. Maybe you are."
+  },
+  {
+   "id": 41,
+   "section": 9,
+   "start": 485.465,
+   "end": 493.054,
+   "vStart": 482.065,
+   "vEnd": 489.654,
+   "hooks": [],
+   "text": "Here's the fix. Menu names change by model, but on an LG TV, open Settings, then General, and look for these."
+  },
+  {
+   "id": 42,
+   "section": 9,
+   "start": 493.354,
+   "end": 497.57,
+   "vStart": 489.954,
+   "vEnd": 494.17,
+   "hooks": [],
+   "text": "One. Turn off Always Ready and Quick Start, so off actually means off."
+  },
+  {
+   "id": 43,
+   "section": 9,
+   "start": 497.87,
+   "end": 502.642,
+   "vStart": 494.47,
+   "vEnd": 499.242,
+   "hooks": [],
+   "text": "Two. Turn off voice recognition and the \"Hi LG\" wake word if you don't use them."
+  },
+  {
+   "id": 44,
+   "section": 9,
+   "start": 502.942,
+   "end": 513.646,
+   "vStart": 499.542,
+   "vEnd": 510.246,
+   "hooks": [],
+   "text": "Three. Under User Agreements, untick viewing information, voice information, and personalised ads. On other brands, look for \"viewing information\" or \"content recognition.\""
+  },
+  {
+   "id": 45,
+   "section": 9,
+   "start": 513.946,
+   "end": 519.04,
+   "vStart": 510.546,
+   "vEnd": 515.64,
+   "hooks": [],
+   "text": "Four. Put your TV on a separate guest Wi-Fi, so it can't see your phones and laptops."
+  },
+  {
+   "id": 46,
+   "section": 9,
+   "start": 519.34,
+   "end": 529.039,
+   "vStart": 515.94,
+   "vEnd": 525.639,
+   "hooks": [
+    21
+   ],
+   "text": "And five, the one almost nobody does: don't connect your smart TV to the internet at all. Plug in a streaming stick you trust, and let the TV just be a screen."
+  },
+  {
+   "id": 47,
+   "section": 9,
+   "start": 529.339,
+   "end": 545.569,
+   "vStart": 525.939,
+   "vEnd": 542.169,
+   "hooks": [
+    22,
+    23
+   ],
+   "text": "But your TV isn't the only device in your home with an always-on microphone. There's one in your pocket… and one you might soon be wearing on your face. That's what we're breaking down next. Subscribe so you don't miss it, and tell me in the comments: are you unplugging your TV tonight?"
+  }
+ ],
+ "hooks": [
+  0.8,
+  7.145,
+  29.534,
+  72.084,
+  127.964,
+  149.961,
+  177.547,
+  198.491,
+  213.757,
+  221.194,
+  240.01,
+  260.506,
+  299.085,
+  311.836,
+  344.809,
+  356.744,
+  391.844,
+  414.71,
+  461.885,
+  481.855,
+  519.34,
+  529.339
+ ],
+ "events": [
+  {
+   "t": 39.171,
+   "type": "title"
+  }
+ ]
+}
