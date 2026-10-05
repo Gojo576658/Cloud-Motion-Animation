@@ -38,9 +38,9 @@ export const Captions: React.FC<{ hide?: [number, number][]; y?: number }> = ({ 
           const active = ms >= tok.fromMs && ms < tok.toMs;
           const past = ms >= tok.toMs;
           const color = KEY_RED.test(word) ? C.red : KEY_CYAN.test(word) ? C.cyan : C.ink;
-          const pop = active ? 1 + 0.12 * clamp(1 - (ms - tok.fromMs) / 160) : 1;
+          const pop = active ? 1 + 0.07 * clamp(1 - (ms - tok.fromMs) / 160) : 1;
           return (
-            <span key={i} style={{ display: 'inline-block', marginRight: i < page.tokens.length - 1 ? '0.28em' : 0, transform: `scale(${pop})`, color: active || past ? color : 'rgba(238,243,251,0.55)', textShadow: active && color !== C.ink ? `0 0 22px ${color}aa` : undefined }}>{tok.text.trim()}</span>
+            <span key={i} style={{ display: 'inline-block', marginRight: i < page.tokens.length - 1 ? '0.34em' : 0, transformOrigin: '50% 80%', transform: `scale(${pop})`, color: active || past ? color : 'rgba(238,243,251,0.55)', textShadow: active && color !== C.ink ? `0 0 22px ${color}aa` : undefined }}>{tok.text.trim()}</span>
           );
         })}
       </div>

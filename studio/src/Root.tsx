@@ -10,7 +10,7 @@ const FPS = 30;
 type Trans = 'cut' | 'whip' | 'scale' | 'wipe';
 
 // transition sounds, placed automatically at every section boundary
-const transitionSfx: SfxEvent[] = SECTIONS.slice(1).flatMap((s) => {
+const transitionSfx: SfxEvent[] = SECTIONS.slice(1).flatMap((s): SfxEvent[] => {
   const B = s.start;
   if (s.enter === 'whip') return [{ t: B - 0.28, name: 'whooshBig', vol: 0.5 }, { t: B + 0.02, name: 'bassHit', vol: 0.35 }];
   if (s.enter === 'scale') return [{ t: B - 0.35, name: 'zoomAir', vol: 0.5 }, { t: B + 0.02, name: 'impactDeep', vol: 0.4 }];

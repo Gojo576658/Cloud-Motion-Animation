@@ -3,7 +3,7 @@ import { Easing, interpolate, spring, useCurrentFrame, useVideoConfig } from 're
 import timeline from '../timeline.json';
 
 export const TL = timeline as {
-  fps: number; offset: number; duration: number;
+  fps: number; offset: number; duration: number; titleAt: number;
   sections: { index: number; title: string; mood: string; start: number; end: number }[];
   cues: { id: number; section: number; start: number; end: number; hooks: number[]; text: string }[];
   hooks: number[];
