@@ -5,3 +5,4 @@ audio/score.html
 audio/score.log
 public/*.wav
 !public/sfx/
+.env
