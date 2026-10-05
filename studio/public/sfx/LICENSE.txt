@@ -1,0 +1,2 @@
+Sound effects from crafter-station/elements (https://github.com/crafter-station/elements), public/sfx.
+Licensed CC0 (public domain): free for commercial use, no attribution required.
