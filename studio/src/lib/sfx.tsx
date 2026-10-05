@@ -61,3 +61,9 @@ export const Sfx: React.FC<{ at: number; name: SfxName; vol?: number; dur?: numb
     </Sequence>
   );
 };
+
+// A section's sound design as data (one row per visual action), rendered by <SfxTrack>.
+export type SfxEvent = { t: number; name: SfxName; vol?: number; dur?: number; rate?: number; note?: string };
+export const SfxTrack: React.FC<{ events: SfxEvent[] }> = ({ events }) => (
+  <>{events.map((e, i) => <Sfx key={i} at={Math.max(0, e.t)} name={e.name} vol={e.vol} dur={e.dur} rate={e.rate} />)}</>
+);

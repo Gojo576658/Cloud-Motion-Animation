@@ -28,6 +28,9 @@ export const Kinetic: React.FC<{
   const t = frame / fps;
   if (t < at - 0.05 || (out != null && t > out + 0.6)) return null;
   const lines = text.split('|').map((l) => l.trim().split(/\s+/));
+  // accents may span several words: "*every hacker*"
+  const accentFlags: boolean[] = [];
+  { let open = false; for (const l of lines) for (const w of l) { const starts = w.startsWith('*'), ends = /\*[.,!?…:]*$/.test(w); if (starts) open = true; accentFlags.push(open); if (ends) open = false; } }
   let idx = 0;
   const outU = out != null ? ramp(t, out, 0.35, EASE.in) : 0;
   const hold = out != null ? out - at : 4;
@@ -40,7 +43,7 @@ export const Kinetic: React.FC<{
         <div key={li}>
           {words.map((wRaw, wi) => {
             const i = idx++;
-            const acc = /^\*.*\*[.,!?…:]*$/.test(wRaw);
+            const acc = accentFlags[i];
             const w = wRaw.replace(/\*/g, '');
             const t0 = at + i * stagger;
             const u = ramp(t, t0, 0.7, EASE.out);

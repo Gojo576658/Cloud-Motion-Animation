@@ -32,7 +32,7 @@ export const Captions: React.FC<{ hide?: [number, number][]; y?: number }> = ({ 
   const pin = clamp((ms - page.startMs) / 120);
   return (
     <div style={{ position: 'absolute', left: 0, right: 0, top: y, display: 'flex', justifyContent: 'center', pointerEvents: 'none' }}>
-      <div style={{ padding: '10px 26px', borderRadius: 16, background: 'rgba(3,6,14,0.55)', transform: `translateY(${(1 - pin) * 14}px)`, opacity: pin, fontFamily: fonts.head, fontWeight: 800, fontSize: 50, letterSpacing: '-0.01em', color: C.ink, whiteSpace: 'pre', textShadow: '0 4px 18px rgba(0,0,0,.8)' }}>
+      <div style={{ padding: '10px 26px', borderRadius: 16, background: 'rgba(3,6,14,0.55)', transform: `translateY(${(1 - pin) * 14}px)`, opacity: pin, fontFamily: fonts.head, fontWeight: 800, fontSize: 50, letterSpacing: '-0.01em', color: C.ink, whiteSpace: 'nowrap', textShadow: '0 4px 18px rgba(0,0,0,.8)' }}>
         {page.tokens.map((tok, i) => {
           const word = tok.text.trim().replace(/[.,!?…:;"“”]/g, '');
           const active = ms >= tok.fromMs && ms < tok.toMs;
@@ -40,7 +40,7 @@ export const Captions: React.FC<{ hide?: [number, number][]; y?: number }> = ({ 
           const color = KEY_RED.test(word) ? C.red : KEY_CYAN.test(word) ? C.cyan : C.ink;
           const pop = active ? 1 + 0.12 * clamp(1 - (ms - tok.fromMs) / 160) : 1;
           return (
-            <span key={i} style={{ display: 'inline-block', transform: `scale(${pop})`, color: active || past ? color : 'rgba(238,243,251,0.55)', textShadow: active && color !== C.ink ? `0 0 22px ${color}aa` : undefined }}>{tok.text}</span>
+            <span key={i} style={{ display: 'inline-block', marginRight: i < page.tokens.length - 1 ? '0.28em' : 0, transform: `scale(${pop})`, color: active || past ? color : 'rgba(238,243,251,0.55)', textShadow: active && color !== C.ink ? `0 0 22px ${color}aa` : undefined }}>{tok.text.trim()}</span>
           );
         })}
       </div>
