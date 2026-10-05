@@ -50,7 +50,7 @@ export const FilmLook: React.FC<{ vignette?: number; grain?: number }> = ({ vign
   const r = rng(f + 1);
   return (
     <AbsoluteFill style={{ pointerEvents: 'none' }}>
-      <AbsoluteFill style={{ backgroundImage: NOISE, backgroundPosition: `${Math.floor(r() * 160)}px ${Math.floor(r() * 160)}px`, opacity: grain, mixBlendMode: 'screen' }} />
+      <AbsoluteFill style={{ backgroundImage: NOISE, backgroundPosition: `${Math.floor(r() * 160)}px ${Math.floor(r() * 160)}px`, opacity: grain * 0.6 }} />
       <AbsoluteFill style={{ background: `radial-gradient(ellipse at center, rgba(0,0,0,0) 50%, rgba(0,0,0,${vignette}) 100%)` }} />
     </AbsoluteFill>
   );
