@@ -13,7 +13,7 @@ export const Pill: React.FC<{ x: number; y: number; at: number; out?: number; co
   const o = out != null ? 1 - ramp(t, out, 0.3, EASE.in) : 1;
   const blink = dot ? 0.55 + 0.45 * Math.sin(t * 7) : 1;
   return (
-    <div style={{ position: 'absolute', left: x, top: y, transform: `translate(${center ? '-50%' : '0'}, 0) scale(${0.6 + 0.4 * s})`, transformOrigin: 'left center', opacity: clamp(s * 1.5) * o, display: 'flex', alignItems: 'center', gap: 12, padding: `${size * 0.45}px ${size * 0.85}px`, borderRadius: 999, background: dark ? 'rgba(6,10,20,.8)' : `${color}22`, border: `2px solid ${color}`, color: dark ? color : C.ink, fontFamily: fonts.body, fontWeight: 700, fontSize: size, letterSpacing: '0.12em', textTransform: 'uppercase', boxShadow: `0 0 30px ${color}44, inset 0 0 20px ${color}22`, backdropFilter: 'blur(6px)' }}>
+    <div style={{ position: 'absolute', left: x, top: y, transform: `translate(${center ? '-50%' : '0'}, 0) scale(${0.6 + 0.4 * s})`, transformOrigin: 'left center', opacity: clamp(s * 1.5) * o, display: 'flex', alignItems: 'center', gap: 12, padding: `${size * 0.45}px ${size * 0.85}px`, borderRadius: 999, background: dark ? 'rgba(6,10,20,.8)' : `${color}22`, border: `2px solid ${color}`, color: dark ? color : C.ink, fontFamily: fonts.body, fontWeight: 700, fontSize: size, letterSpacing: '0.12em', textTransform: 'uppercase', whiteSpace: 'nowrap', boxShadow: `0 0 30px ${color}44, inset 0 0 20px ${color}22`, backdropFilter: 'blur(6px)' }}>
       {dot && <span style={{ width: size * 0.42, height: size * 0.42, borderRadius: '50%', background: color, opacity: blink, boxShadow: `0 0 12px ${color}` }} />}
       {children}
     </div>

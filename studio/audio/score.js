@@ -3,9 +3,9 @@
 // Output: stereo AudioBuffer. Everything is scheduled in absolute seconds.
 /* global Tone */
 
-const BPM = 84;
-const BEAT = 60 / BPM;
-const BAR = BEAT * 4;
+// tempo comes from the timeline (tl.bpm), default 84 for the long video
+let BEAT = 60 / 84;
+let BAR = BEAT * 4;
 
 // D minor world. Each chord lasts 2 bars.
 const PROG = {
@@ -25,12 +25,14 @@ const MOODS = {
   history: ['dark', 1, 1, 0, 0, 1, 0],
   money:   ['tense', 1, 1, 1, 1, 0, 0],
   fix:     ['bright', 1, 1, 1, 0, 1, 0],
+  drop:    ['dark', 0, 0, 0, 0, 0, 0],
 };
 
 const up = (n, semis) => Tone.Frequency(n).transpose(semis).toNote();
 
 export async function compose(tl) {
   const D = tl.duration;
+  BEAT = 60 / (tl.bpm || 84); BAR = BEAT * 4;
   return Tone.Offline(() => {
     // ---------------- buses
     const master = new Tone.Compressor({ threshold: -16, ratio: 3, attack: 0.02, release: 0.3 }).toDestination();

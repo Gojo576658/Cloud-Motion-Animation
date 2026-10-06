@@ -11,10 +11,11 @@ import { fileURLToPath } from 'node:url';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(here, '..');
-const tl = JSON.parse(fs.readFileSync(path.join(root, 'src/timeline.json'), 'utf8'));
+const sarg = (k, d) => { const i = process.argv.indexOf(k); return i > 0 ? process.argv[i + 1] : d; };
+const tl = JSON.parse(fs.readFileSync(path.join(root, sarg('--tl', 'src/timeline.json')), 'utf8'));
 const arg = (k, d) => { const i = process.argv.indexOf(k); return i > 0 ? +process.argv[i + 1] : d; };
 const to = arg('--to', tl.duration), jobs = arg('--jobs', 3);
-const outDir = path.join(here, 'out');
+const outDir = path.join(here, sarg('--out', 'out'));
 fs.mkdirSync(outDir, { recursive: true });
 
 // per-section sub-timelines, shifted to start at 0
@@ -23,7 +24,7 @@ const parts = tl.sections.filter((s) => s.start < to).map((s, k, arr) => {
   const last = k === arr.length - 1;
   return {
     file: path.join(outDir, `part-${s.index}.wav`), start: s.start,
-    tl: { duration: len, final: last && to >= tl.duration, sections: [{ ...s, start: 0, end: len }], hooks: [],
+    tl: { duration: len, bpm: tl.bpm, final: !tl.loop && last && to >= tl.duration, sections: [{ ...s, start: 0, end: len }], hooks: [],
       events: (tl.events || []).filter((e) => e.t >= s.start && e.t < end).map((e) => ({ ...e, t: e.t - s.start })) },
   };
 });
@@ -72,4 +73,4 @@ const f = parts.map((p, i) => `[${i}:a]adelay=${Math.round(p.start * 1000)}:all=
 f.push(`${parts.map((_, i) => `[a${i}]`).join('')}amix=inputs=${parts.length}:normalize=0,atrim=0:${to + 4}[out]`);
 const r = spawnSync('ffmpeg', ['-y', '-loglevel', 'error', ...inputs, '-filter_complex', f.join(';'), '-map', '[out]', '-c:a', 'pcm_s16le', path.join(outDir, 'score.wav')], { stdio: 'inherit' });
 if (r.status) process.exit(r.status);
-console.log(`score: ${parts.length} parts in ${((Date.now() - t0) / 1000).toFixed(0)}s -> audio/out/score.wav`);
+console.log(`score: ${parts.length} parts in ${((Date.now() - t0) / 1000).toFixed(0)}s -> ${path.relative(root, path.join(outDir, 'score.wav'))}`);

@@ -34,10 +34,12 @@ export const Camera: React.FC<{ keys: CamKey[]; children: React.ReactNode; blur?
 // A parallax layer. depth 1 = moves with the camera, <1 = background, >1 = foreground.
 export const Layer: React.FC<{ depth?: number; children: React.ReactNode; style?: React.CSSProperties }> = ({ depth = 1, children, style }) => {
   const c = useContext(Ctx);
+  const { width, height } = useVideoConfig();
+  const W2 = width / 2, H2 = height / 2; // frame centre (960,540 for the long video, 540,960 for the Short)
   const z = 1 + (c.z - 1) * depth;
-  const cx = 960 + (c.x - 960) * depth, cy = 540 + (c.y - 540) * depth;
+  const cx = W2 + (c.x - W2) * depth, cy = H2 + (c.y - H2) * depth;
   return (
-    <AbsoluteFill style={{ transform: `translate(960px, 540px) rotate(${c.r * depth}deg) scale(${z}) translate(${-cx}px, ${-cy}px)`, transformOrigin: '0 0', filter: c.blur > 0.4 ? `blur(${(c.blur * Math.min(1.5, depth)).toFixed(1)}px)` : undefined, ...style }}>
+    <AbsoluteFill style={{ transform: `translate(${W2}px, ${H2}px) rotate(${c.r * depth}deg) scale(${z}) translate(${-cx}px, ${-cy}px)`, transformOrigin: '0 0', filter: c.blur > 0.4 ? `blur(${(c.blur * Math.min(1.5, depth)).toFixed(1)}px)` : undefined, ...style }}>
       {children}
     </AbsoluteFill>
   );

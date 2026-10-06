@@ -6,3 +6,5 @@ audio/score.log
 public/*.wav
 !public/sfx/
 .env
+audio/out-short/
+public/short/*.wav

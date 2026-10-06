@@ -2,3 +2,4 @@ models/
 out/
 *.wav
 *.mp3
+out-short/

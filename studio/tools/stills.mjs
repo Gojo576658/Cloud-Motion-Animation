@@ -16,10 +16,12 @@ for (const s of times) {
   await renderStill({ serveUrl, composition, output, frame: Math.min(composition.durationInFrames - 1, Math.round(s * 30)), imageFormat: 'jpeg', jpegQuality: 85, browserExecutable, inputProps: { audio: false }, chromiumOptions: { gl: 'swangle' } });
   files.push(output);
 }
-// contact sheet, 3 per row
+// contact sheet: 3 per row for 16:9, 6 per row for vertical
 const n = files.length;
+const vertical = composition.height > composition.width;
+const W = vertical ? 320 : 640, H = Math.round(W * composition.height / composition.width), cols = vertical ? 6 : 3;
 const inputs = files.flatMap((f) => ['-i', f]);
-const scale = files.map((_, i) => `[${i}]scale=640:360[s${i}]`).join(';');
-const layout = files.map((_, i) => `${(i % 3) * 640}_${Math.floor(i / 3) * 360}`).join('|');
-execFileSync('ffmpeg', ['-y', '-loglevel', 'error', ...inputs, '-filter_complex', n > 1 ? `${scale};${files.map((_, i) => `[s${i}]`).join('')}xstack=inputs=${n}:layout=${layout}:fill=black` : '[0]scale=640:360', 'out/sheet.jpg']);
+const scale = files.map((_, i) => `[${i}]scale=${W}:${H}[s${i}]`).join(';');
+const layout = files.map((_, i) => `${(i % cols) * W}_${Math.floor(i / cols) * H}`).join('|');
+execFileSync('ffmpeg', ['-y', '-loglevel', 'error', ...inputs, '-filter_complex', n > 1 ? `${scale};${files.map((_, i) => `[s${i}]`).join('')}xstack=inputs=${n}:layout=${layout}:fill=black` : `[0]scale=${W}:${H}`, 'out/sheet.jpg']);
 console.log('sheet: out/sheet.jpg');

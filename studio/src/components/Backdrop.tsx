@@ -23,13 +23,14 @@ export const Grid: React.FC<{ opacity?: number; speed?: number; color?: string; 
 };
 
 export const Dust: React.FC<{ count?: number; color?: string; seed?: number; opacity?: number }> = ({ count = 60, color = '#9fc3ff', seed = 3, opacity = 0.5 }) => {
-  const t = useCurrentFrame() / useVideoConfig().fps;
+  const { fps, width: W, height: H } = useVideoConfig();
+  const t = useCurrentFrame() / fps;
   const r = rng(seed);
-  const parts = Array.from({ length: count }, () => ({ x: r() * 1920, y: r() * 1080, s: 1 + r() * 2.6, v: 6 + r() * 20, ph: r() * 10, a: 0.2 + r() * 0.8 }));
+  const parts = Array.from({ length: count }, () => ({ x: r() * W, y: r() * H, s: 1 + r() * 2.6, v: 6 + r() * 20, ph: r() * 10, a: 0.2 + r() * 0.8 }));
   return (
     <AbsoluteFill style={{ pointerEvents: 'none' }}>
       {parts.map((p, i) => {
-        const y = (p.y - t * p.v + 1200) % 1200 - 60;
+        const y = (p.y - t * p.v + H + 120) % (H + 120) - 60;
         const x = p.x + Math.sin(t * 0.4 + p.ph) * 18;
         return <div key={i} style={{ position: 'absolute', left: x, top: y, width: p.s, height: p.s, borderRadius: '50%', background: color, opacity: opacity * p.a * (0.6 + 0.4 * Math.sin(t * 1.3 + p.ph)), boxShadow: `0 0 ${p.s * 4}px ${color}` }} />;
       })}
