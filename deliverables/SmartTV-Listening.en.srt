@@ -1,0 +1,1043 @@
+1
+00:00:00,800 --> 00:00:01,940
+Your TV is off.
+
+2
+00:00:01,960 --> 00:00:03,260
+The screen is black.
+
+3
+00:00:03,280 --> 00:00:04,600
+The room is silent.
+
+4
+00:00:04,680 --> 00:00:07,020
+So why is the microphone still awake?
+
+5
+00:00:07,120 --> 00:00:09,040
+In September 2026,
+
+6
+00:00:09,140 --> 00:00:11,600
+a team of researchers left a brand-new LG
+
+7
+00:00:11,620 --> 00:00:13,580
+TV sitting in standby,
+
+8
+00:00:13,860 --> 00:00:15,800
+cut off its internet, and simply talked
+
+9
+00:00:15,820 --> 00:00:16,940
+around it.
+
+10
+00:00:16,960 --> 00:00:19,240
+Days later, they plugged the internet back in…
+
+11
+00:00:19,260 --> 00:00:21,980
+and watched what the TV did next.
+
+12
+00:00:22,000 --> 00:00:24,520
+This isn't really a story about one brand.
+
+13
+00:00:24,720 --> 00:00:26,420
+It's about a machine we put in the most
+
+14
+00:00:26,440 --> 00:00:29,514
+private room of our homes, and then forgot about.
+
+15
+00:00:29,534 --> 00:00:31,560
+And stay till the end, because I'll give
+
+16
+00:00:31,580 --> 00:00:34,200
+you five settings every smart TV owner
+
+17
+00:00:34,220 --> 00:00:35,780
+should switch off tonight.
+
+18
+00:00:36,000 --> 00:00:39,060
+The last one is the one almost nobody does.
+
+19
+00:00:41,880 --> 00:00:44,960
+On September 7th, 2026, the hardware
+
+20
+00:00:44,980 --> 00:00:47,520
+channel Gamers Nexus published a video more
+
+21
+00:00:47,540 --> 00:00:49,100
+than two hours long.
+
+22
+00:00:49,180 --> 00:00:51,600
+They had teamed up with Level1Techs and a
+
+23
+00:00:51,620 --> 00:00:54,000
+group of independent security researchers.
+
+24
+00:00:55,026 --> 00:00:56,300
+Together, they spent more than five hundred
+
+25
+00:00:56,320 --> 00:00:58,640
+hours and roughly seventy thousand dollars
+
+26
+00:00:58,660 --> 00:01:02,060
+testing retail LG OLED televisions,
+
+27
+00:01:02,080 --> 00:01:05,220
+including the 2025 LG G5.
+
+28
+00:01:05,240 --> 00:01:08,000
+They captured every packet the TVs sent,
+
+29
+00:01:08,080 --> 00:01:09,480
+decompiled the firmware,
+
+30
+00:01:09,640 --> 00:01:12,040
+and read the system logs line by line.
+
+31
+00:01:12,060 --> 00:01:14,900
+What they say they found falls into three parts.
+
+32
+00:01:15,040 --> 00:01:17,500
+The first is about what your TV hears.
+
+33
+00:01:17,600 --> 00:01:19,340
+The second is about what it sees inside
+
+34
+00:01:19,360 --> 00:01:20,480
+your house.
+
+35
+00:01:20,500 --> 00:01:21,760
+Not on the screen.
+
+36
+00:01:21,880 --> 00:01:22,740
+Inside your house.
+
+37
+00:01:22,760 --> 00:01:25,220
+And the third is the scariest, because it
+
+38
+00:01:25,240 --> 00:01:27,200
+isn't about LG at all.
+
+39
+00:01:27,220 --> 00:01:28,880
+It's about who else could get in.
+
+40
+00:01:28,900 --> 00:01:30,520
+Let's open the first box.
+
+41
+00:01:30,920 --> 00:01:33,360
+First, how does a smart TV listen?
+
+42
+00:01:33,460 --> 00:01:35,940
+Many LG TVs have a microphone in the
+
+43
+00:01:35,960 --> 00:01:38,080
+remote, and some have one built right into
+
+44
+00:01:38,100 --> 00:01:39,040
+the TV.
+
+45
+00:01:39,300 --> 00:01:41,700
+That's called far-field voice recognition,
+
+46
+00:01:41,840 --> 00:01:44,220
+the same idea as a smart speaker.
+
+47
+00:01:44,320 --> 00:01:46,880
+It listens for a wake word, and for LG,
+
+48
+00:01:46,900 --> 00:01:48,340
+that's "Hi LG."
+
+49
+00:01:48,520 --> 00:01:49,820
+Here's how it's supposed to work.
+
+50
+00:01:49,840 --> 00:01:52,760
+A small, low-power chip keeps the last few
+
+51
+00:01:52,780 --> 00:01:55,320
+seconds of sound in a short memory buffer,
+
+52
+00:01:55,340 --> 00:01:56,960
+like a loop of tape that keeps recording
+
+53
+00:01:56,980 --> 00:01:58,300
+over itself.
+
+54
+00:01:58,380 --> 00:02:00,540
+It compares that loop to the wake word.
+
+55
+00:02:00,700 --> 00:02:01,560
+No match?
+
+56
+00:02:01,640 --> 00:02:03,360
+The audio is thrown away.
+
+57
+00:02:03,500 --> 00:02:04,180
+Match?
+
+58
+00:02:04,400 --> 00:02:06,560
+The TV wakes up and sends your command off
+
+59
+00:02:06,580 --> 00:02:07,660
+to be understood.
+
+60
+00:02:07,940 --> 00:02:09,900
+Remember that loop of tape, because the
+
+61
+00:02:09,920 --> 00:02:11,840
+whole story hangs on it.
+
+62
+00:02:11,860 --> 00:02:14,840
+The question isn't whether your TV has a microphone.
+
+63
+00:02:15,000 --> 00:02:16,920
+It's what really happens to that loop when
+
+64
+00:02:16,940 --> 00:02:18,840
+it's supposed to be thrown away.
+
+65
+00:02:18,883 --> 00:02:20,020
+One more piece.
+
+66
+00:02:20,220 --> 00:02:23,620
+Many LG TVs have a feature called Always Ready.
+
+67
+00:02:23,640 --> 00:02:26,760
+When the TV looks off, it often isn't fully off.
+
+68
+00:02:26,780 --> 00:02:29,860
+It's in a low-power mode, ready to wake instantly.
+
+69
+00:02:29,940 --> 00:02:31,840
+Which means that black screen in front of
+
+70
+00:02:31,860 --> 00:02:34,000
+you might be the least honest thing in your
+
+71
+00:02:34,020 --> 00:02:35,020
+living room.
+
+72
+00:02:35,200 --> 00:02:37,180
+According to the investigation, with the
+
+73
+00:02:37,200 --> 00:02:39,320
+screen apparently off and the TV in
+
+74
+00:02:39,340 --> 00:02:40,140
+standby,
+
+75
+00:02:40,360 --> 00:02:43,100
+the set kept capturing audio from its microphone.
+
+76
+00:02:43,520 --> 00:02:45,580
+The researchers say it picked up background
+
+77
+00:02:45,600 --> 00:02:48,400
+sound from as far as twelve metres away.
+
+78
+00:02:48,680 --> 00:02:51,020
+That's about forty feet, roughly the length
+
+79
+00:02:51,040 --> 00:02:52,640
+of an entire house.
+
+80
+00:02:52,680 --> 00:02:55,080
+Then came the test I mentioned at the start.
+
+81
+00:02:55,220 --> 00:02:57,460
+They cut the TV off from the internet.
+
+82
+00:02:57,500 --> 00:02:58,540
+Think about it.
+
+83
+00:02:58,560 --> 00:03:01,180
+If a TV only listens for a wake word and
+
+84
+00:03:01,200 --> 00:03:03,280
+deletes everything else, cutting the
+
+85
+00:03:03,300 --> 00:03:05,040
+internet changes nothing.
+
+86
+00:03:05,060 --> 00:03:06,980
+There's nothing waiting to be sent.
+
+87
+00:03:07,000 --> 00:03:09,060
+But that's not what they say happened.
+
+88
+00:03:09,080 --> 00:03:11,900
+Audio and text files reportedly piled up in
+
+89
+00:03:11,920 --> 00:03:15,040
+the TV's local storage while it was offline.
+
+90
+00:03:15,160 --> 00:03:17,380
+And the moment the connection came back…
+
+91
+00:03:17,400 --> 00:03:18,380
+they uploaded.
+
+92
+00:03:18,480 --> 00:03:20,280
+And there was one clip in the report that
+
+93
+00:03:20,300 --> 00:03:22,040
+people couldn't stop sharing.
+
+94
+00:03:22,220 --> 00:03:24,800
+The researchers had finished talking to the TV.
+
+95
+00:03:25,020 --> 00:03:27,660
+They'd moved on to a normal conversation.
+
+96
+00:03:27,920 --> 00:03:30,360
+And the TV, they say, kept writing down
+
+97
+00:03:30,380 --> 00:03:33,580
+what they were saying, word for word, as text.
+
+98
+00:03:33,760 --> 00:03:36,240
+Now, LG says this is not true.
+
+99
+00:03:36,260 --> 00:03:37,680
+We'll get to their response.
+
+100
+00:03:37,760 --> 00:03:39,720
+And there's one word in it that most people
+
+101
+00:03:39,740 --> 00:03:41,080
+completely missed.
+
+102
+00:03:41,120 --> 00:03:43,680
+But first, the TV wasn't only listening to
+
+103
+00:03:43,700 --> 00:03:44,520
+the room.
+
+104
+00:03:44,580 --> 00:03:46,780
+It was also looking around your house.
+
+105
+00:03:47,120 --> 00:03:49,500
+Your TV sits on the same Wi-Fi as
+
+106
+00:03:49,520 --> 00:03:51,220
+everything else you own.
+
+107
+00:03:51,320 --> 00:03:53,340
+According to the packet captures, the
+
+108
+00:03:53,360 --> 00:03:55,920
+tested TVs repeatedly scanned that network
+
+109
+00:03:55,940 --> 00:03:58,360
+for other devices that have nothing to do
+
+110
+00:03:58,380 --> 00:03:59,900
+with watching TV.
+
+111
+00:04:00,000 --> 00:04:01,940
+In the test lab, how many devices do you
+
+112
+00:04:01,960 --> 00:04:02,980
+think it found?
+
+113
+00:04:03,000 --> 00:04:03,600
+Ten?
+
+114
+00:04:03,370 --> 00:04:04,240
+Twenty?
+
+115
+00:04:04,280 --> 00:04:05,440
+It found thirty-eight.
+
+116
+00:04:05,460 --> 00:04:06,320
+Smartphones.
+
+117
+00:04:06,340 --> 00:04:07,240
+Smartwatches.
+
+118
+00:04:07,400 --> 00:04:08,540
+A 3D printer.
+
+119
+00:04:08,560 --> 00:04:09,820
+An air purifier.
+
+120
+00:04:09,920 --> 00:04:11,180
+Even thermostats.
+
+121
+00:04:11,279 --> 00:04:13,480
+The researchers say it also collected the
+
+122
+00:04:13,500 --> 00:04:16,200
+names of nearby Wi-Fi networks, including
+
+123
+00:04:16,220 --> 00:04:18,440
+your neighbours', along with their signal
+
+124
+00:04:18,460 --> 00:04:20,500
+strength and location data.
+
+125
+00:04:20,520 --> 00:04:22,640
+So why would a TV need to know the name of
+
+126
+00:04:22,660 --> 00:04:24,300
+your neighbour's Wi-Fi?
+
+127
+00:04:24,320 --> 00:04:26,540
+Hold that thought, because the answer is
+
+128
+00:04:26,560 --> 00:04:29,540
+the reason this entire industry exists.
+
+129
+00:04:29,580 --> 00:04:31,600
+According to the report, some of this data
+
+130
+00:04:31,620 --> 00:04:33,580
+went to LG Ad Solutions,
+
+131
+00:04:33,820 --> 00:04:36,540
+which is LG's advertising business.
+
+132
+00:04:36,900 --> 00:04:38,660
+Now the third finding.
+
+133
+00:04:38,900 --> 00:04:40,300
+The researchers say they discovered
+
+134
+00:04:40,320 --> 00:04:42,740
+remote-code-execution vulnerabilities in
+
+135
+00:04:42,760 --> 00:04:44,080
+the TV's software.
+
+136
+00:04:44,560 --> 00:04:47,020
+In simple words, these are bugs that could
+
+137
+00:04:47,040 --> 00:04:49,260
+let an attacker run their own code on your
+
+138
+00:04:49,280 --> 00:04:51,540
+TV without ever touching it.
+
+139
+00:04:51,560 --> 00:04:53,640
+In a proof-of-concept demo, they showed
+
+140
+00:04:53,660 --> 00:04:56,120
+that a compromised TV could switch on its
+
+141
+00:04:56,140 --> 00:04:58,840
+built-in microphone while sitting in standby.
+
+142
+00:04:59,060 --> 00:05:01,460
+So even if you trust LG completely,
+
+143
+00:05:01,600 --> 00:05:03,880
+the real question becomes this: do you
+
+144
+00:05:03,900 --> 00:05:06,720
+trust every hacker who finds the same bug?
+
+145
+00:05:06,740 --> 00:05:08,920
+The researchers reported these flaws to LG
+
+146
+00:05:08,940 --> 00:05:10,020
+privately
+
+147
+00:05:10,120 --> 00:05:11,760
+so they can be fixed first.
+
+148
+00:05:11,860 --> 00:05:13,220
+And if you think a government would never
+
+149
+00:05:13,240 --> 00:05:14,800
+turn a TV into a spy…
+
+150
+00:05:14,820 --> 00:05:16,420
+that already happened.
+
+151
+00:05:16,440 --> 00:05:17,420
+Years ago.
+
+152
+00:05:17,440 --> 00:05:19,100
+I'll show you in a moment.
+
+153
+00:05:19,540 --> 00:05:21,380
+LG strongly denied the claims.
+
+154
+00:05:21,540 --> 00:05:23,800
+It says its TVs do not continuously record
+
+155
+00:05:23,820 --> 00:05:26,360
+or transmit conversations, and that voice
+
+156
+00:05:26,380 --> 00:05:27,980
+is only processed when you hold the
+
+157
+00:05:28,000 --> 00:05:31,400
+remote's voice button, or say "Hi LG" after
+
+158
+00:05:31,420 --> 00:05:33,140
+turning that feature on.
+
+159
+00:05:33,260 --> 00:05:34,940
+If no wake word is detected,
+
+160
+00:05:35,080 --> 00:05:38,560
+LG says the audio is not stored or sent anywhere.
+
+161
+00:05:38,820 --> 00:05:41,280
+LG also says content recognition,
+
+162
+00:05:41,420 --> 00:05:44,700
+voice recognition and personalised ads are optional.
+
+163
+00:05:44,800 --> 00:05:46,160
+Did you catch the word?
+
+164
+00:05:46,200 --> 00:05:46,920
+Optional.
+
+165
+00:05:47,080 --> 00:05:47,780
+Not off.
+
+166
+00:05:48,260 --> 00:05:48,860
+Optional.
+
+167
+00:05:48,860 --> 00:05:50,920
+Critics pointed out that LG's statement
+
+168
+00:05:50,940 --> 00:05:53,340
+didn't fully explain the network scanning,
+
+169
+00:05:53,360 --> 00:05:55,740
+how much data is collected, or who it's
+
+170
+00:05:55,760 --> 00:05:56,700
+shared with.
+
+171
+00:05:56,720 --> 00:05:57,320
+So who's right?
+
+172
+00:05:57,320 --> 00:06:00,020
+Honestly, until regulators independently
+
+173
+00:06:00,040 --> 00:06:03,900
+test these TVs, nobody can say for sure.
+
+174
+00:06:03,960 --> 00:06:06,180
+But some of this isn't a claim at all.
+
+175
+00:06:06,200 --> 00:06:08,340
+Some of it has already been proven.
+
+176
+00:06:08,660 --> 00:06:09,660
+2015.
+
+177
+00:06:10,180 --> 00:06:12,660
+Samsung's own privacy policy warned that if
+
+178
+00:06:12,680 --> 00:06:14,500
+your spoken words included sensitive
+
+179
+00:06:14,520 --> 00:06:15,560
+information,
+
+180
+00:06:15,740 --> 00:06:18,380
+it could be captured and sent to a third party.
+
+181
+00:06:18,480 --> 00:06:19,520
+2017.
+
+182
+00:06:19,920 --> 00:06:22,180
+The US Federal Trade Commission said Vizio
+
+183
+00:06:22,200 --> 00:06:24,500
+had collected second-by-second viewing data
+
+184
+00:06:24,520 --> 00:06:27,200
+from around eleven million TVs without
+
+185
+00:06:27,220 --> 00:06:28,620
+proper consent.
+
+186
+00:06:28,840 --> 00:06:31,720
+Vizio paid two point two million dollars.
+
+187
+00:06:31,740 --> 00:06:33,220
+Also 2017.
+
+188
+00:06:33,560 --> 00:06:36,080
+WikiLeaks published leaked CIA documents
+
+189
+00:06:36,100 --> 00:06:38,960
+describing a tool called Weeping Angel.
+
+190
+00:06:39,100 --> 00:06:41,440
+It could put certain Samsung TVs into a
+
+191
+00:06:41,460 --> 00:06:42,860
+"Fake-Off" mode.
+
+192
+00:06:43,000 --> 00:06:45,740
+The screen went black, the lights went off…
+
+193
+00:06:45,760 --> 00:06:47,720
+and the microphone kept recording.
+
+194
+00:06:47,880 --> 00:06:48,700
+2019.
+
+195
+00:06:49,000 --> 00:06:51,480
+The FBI publicly warned that hackers could
+
+196
+00:06:51,500 --> 00:06:54,360
+take over smart TV cameras and microphones.
+
+197
+00:06:54,520 --> 00:06:56,320
+And then there's the one your TV is
+
+198
+00:06:56,340 --> 00:06:59,140
+probably doing right now: Automatic Content
+
+199
+00:06:59,160 --> 00:07:01,380
+Recognition, or ACR.
+
+200
+00:07:01,700 --> 00:07:04,680
+Your TV can take pictures of what's on your screen.
+
+201
+00:07:04,780 --> 00:07:05,700
+Not once.
+
+202
+00:07:05,720 --> 00:07:07,020
+Over and over.
+
+203
+00:07:07,080 --> 00:07:10,100
+A 2024 university study found Samsung TVs
+
+204
+00:07:10,120 --> 00:07:12,080
+capturing the screen about twice every
+
+205
+00:07:12,100 --> 00:07:15,400
+second, and LG TVs even more often.
+
+206
+00:07:15,420 --> 00:07:17,720
+Even when the TV was just a monitor for a
+
+207
+00:07:17,740 --> 00:07:18,340
+game console.
+
+208
+00:07:18,300 --> 00:07:20,200
+In 2025,
+
+209
+00:07:20,560 --> 00:07:24,500
+Texas sued Samsung, LG, Sony, Hisense and
+
+210
+00:07:24,520 --> 00:07:26,220
+TCL over it.
+
+211
+00:07:26,260 --> 00:07:27,460
+Remember the question about your
+
+212
+00:07:27,480 --> 00:07:28,940
+neighbour's Wi-Fi?
+
+213
+00:07:28,960 --> 00:07:30,240
+Here's the answer.
+
+214
+00:07:30,300 --> 00:07:32,340
+Location and nearby devices help
+
+215
+00:07:32,360 --> 00:07:34,920
+advertisers figure out who you are, where
+
+216
+00:07:34,940 --> 00:07:37,300
+you live, and which phone belongs to the
+
+217
+00:07:37,320 --> 00:07:38,420
+person watching.
+
+218
+00:07:38,740 --> 00:07:40,980
+That lets an ad on your TV follow you to
+
+219
+00:07:41,000 --> 00:07:41,820
+your phone.
+
+220
+00:07:41,840 --> 00:07:43,400
+And here's the part that will change how
+
+221
+00:07:43,420 --> 00:07:46,280
+you look at that cheap 65-inch TV deal.
+
+222
+00:07:46,300 --> 00:07:48,080
+In 2021,
+
+223
+00:07:48,200 --> 00:07:50,300
+Vizio revealed it was making more profit
+
+224
+00:07:50,320 --> 00:07:52,780
+from ads and viewing data than from selling
+
+225
+00:07:52,800 --> 00:07:54,160
+the TVs themselves.
+
+226
+00:07:54,660 --> 00:07:56,960
+LG's ad business says it can reach more
+
+227
+00:07:56,980 --> 00:07:58,820
+than three hundred and sixty million
+
+228
+00:07:58,840 --> 00:08:01,760
+connected devices in the US alone.
+
+229
+00:08:01,900 --> 00:08:03,880
+So maybe the TV isn't the product.
+
+230
+00:08:03,900 --> 00:08:05,200
+Maybe you are.
+
+231
+00:08:05,460 --> 00:08:06,480
+Here's the fix.
+
+232
+00:08:06,940 --> 00:08:09,160
+Menu names change by model, but on an LG
+
+233
+00:08:09,180 --> 00:08:12,240
+TV, open Settings, then General, and look
+
+234
+00:08:12,260 --> 00:08:13,160
+for these.
+
+235
+00:08:13,354 --> 00:08:13,954
+One.
+
+236
+00:08:13,680 --> 00:08:16,000
+Turn off Always Ready and Quick Start, so
+
+237
+00:08:16,020 --> 00:08:17,840
+off actually means off.
+
+238
+00:08:18,020 --> 00:08:18,620
+Two.
+
+239
+00:08:18,280 --> 00:08:19,820
+Turn off voice recognition
+
+240
+00:08:20,040 --> 00:08:22,960
+and the "Hi LG" wake word if you don't use them.
+
+241
+00:08:22,980 --> 00:08:23,580
+Three.
+
+242
+00:08:23,440 --> 00:08:24,820
+Under User Agreements,
+
+243
+00:08:25,080 --> 00:08:26,700
+untick viewing information, voice
+
+244
+00:08:26,720 --> 00:08:29,180
+information, and personalised ads.
+
+245
+00:08:29,540 --> 00:08:30,980
+On other brands, look for "viewing
+
+246
+00:08:31,000 --> 00:08:33,680
+information" or "content recognition."
+
+247
+00:08:34,020 --> 00:08:34,620
+Four.
+
+248
+00:08:34,380 --> 00:08:37,000
+Put your TV on a separate guest Wi-Fi, so
+
+249
+00:08:37,020 --> 00:08:39,200
+it can't see your phones and laptops.
+
+250
+00:08:39,360 --> 00:08:41,840
+And five, the one almost nobody does:
+
+251
+00:08:41,940 --> 00:08:43,980
+don't connect your smart TV to the internet
+
+252
+00:08:44,000 --> 00:08:44,940
+at all.
+
+253
+00:08:45,020 --> 00:08:47,180
+Plug in a streaming stick you trust, and
+
+254
+00:08:47,200 --> 00:08:49,260
+let the TV just be a screen.
+
+255
+00:08:49,280 --> 00:08:51,500
+But your TV isn't the only device in your
+
+256
+00:08:51,520 --> 00:08:53,820
+home with an always-on microphone.
+
+257
+00:08:54,180 --> 00:08:55,200
+There's one in your pocket…
+
+258
+00:08:55,220 --> 00:08:58,220
+and one you might soon be wearing on your face.
+
+259
+00:08:58,380 --> 00:09:00,300
+That's what we're breaking down next.
+
+260
+00:09:00,720 --> 00:09:02,520
+Subscribe so you don't miss it, and tell me
+
+261
+00:09:02,540 --> 00:09:05,820
+in the comments: are you unplugging your TV tonight?
