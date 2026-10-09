@@ -130,7 +130,7 @@ export const Leo: React.FC<{ x: number; y: number; size?: number; mood?: LeoMood
   };
   const brows: Record<LeoMood, string> = {
     neutral: 'M68 96 L90 94 M110 94 L132 96', excited: 'M68 90 L90 86 M110 86 L132 90', heart: 'M68 90 L90 86 M110 86 L132 90', shock: 'M68 82 L90 78 M110 78 L132 82',
-    sad: 'M68 92 L90 98 M110 98 L132 92', cry: 'M68 90 L90 100 M110 100 L132 90', sideeye: 'M68 98 L90 100 M110 94 L132 90', determined: 'M68 94 L90 100 M110 100 L132 94', angry: 'M68 92 L90 102 M110 102 L132 92',
+    sad: 'M68 99 L90 90 M110 90 L132 99', cry: 'M68 101 L90 87 M110 87 L132 101', sideeye: 'M68 98 L90 100 M110 94 L132 90', determined: 'M68 94 L90 100 M110 100 L132 94', angry: 'M68 92 L90 102 M110 102 L132 92',
   };
   const heart = (cx: number) => <path d={`M${cx} ${128 + 6} l -12 -12 a 7 7 0 0 1 12 -9 a 7 7 0 0 1 12 9 z`} fill={C.red} transform={`translate(0 ${-6}) scale(1)`} />;
   return (

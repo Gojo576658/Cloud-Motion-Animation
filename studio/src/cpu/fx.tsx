@@ -151,7 +151,7 @@ export const Club: React.FC<{ door?: number }> = ({ door = 0 }) => {
 };
 
 // prison cell: back wall with tally marks, bars in front (render children between)
-export const Cell: React.FC<{ tally?: number; children?: React.ReactNode; bars?: number }> = ({ tally = 0, children, bars = 1 }) => (
+export const Cell: React.FC<{ tally?: number; children?: React.ReactNode; bars?: number; zoom?: number }> = ({ tally = 0, children, bars = 1, zoom = 1 }) => (
   <AbsoluteFill>
     <AbsoluteFill style={{ background: 'linear-gradient(180deg,#2a2f3a,#1a1d25)' }} />
     <AbsoluteFill style={{ backgroundImage: 'linear-gradient(rgba(0,0,0,.18) 2px, transparent 2px), linear-gradient(90deg, rgba(0,0,0,.18) 2px, transparent 2px)', backgroundSize: '160px 80px' }} />
@@ -161,7 +161,7 @@ export const Cell: React.FC<{ tally?: number; children?: React.ReactNode; bars?:
       {Array.from({ length: Math.floor(tally) }, (_, i) => { const g = Math.floor(i / 5), k = i % 5; const gx = (g % 5) * 100, gy = Math.floor(g / 5) * 90; return k < 4 ? <line key={i} x1={gx + k * 16} y1={gy} x2={gx + k * 16} y2={gy + 60} stroke="#d8dce6" strokeWidth="5" strokeLinecap="round" /> : <line key={i} x1={gx - 8} y1={gy + 48} x2={gx + 62} y2={gy + 10} stroke="#d8dce6" strokeWidth="5" strokeLinecap="round" />; })}
     </svg>
     {children}
-    <AbsoluteFill style={{ opacity: bars }}>{Array.from({ length: 11 }, (_, i) => <div key={i} style={{ position: 'absolute', left: 60 + i * 180, top: 0, width: 26, height: 1080, background: 'linear-gradient(90deg,#3a3f4c,#8a90a0,#3a3f4c)', boxShadow: '8px 0 20px rgba(0,0,0,.4)' }} />)}
+    <AbsoluteFill style={{ opacity: bars, transform: zoom !== 1 ? `scale(${zoom})` : undefined }}>{Array.from({ length: 11 }, (_, i) => <div key={i} style={{ position: 'absolute', left: 60 + i * 180, top: 0, width: 26, height: 1080, background: 'linear-gradient(90deg,#3a3f4c,#8a90a0,#3a3f4c)', boxShadow: '8px 0 20px rgba(0,0,0,.4)' }} />)}
       <div style={{ position: 'absolute', left: 0, right: 0, top: 120, height: 26, background: 'linear-gradient(180deg,#3a3f4c,#8a90a0,#3a3f4c)' }} />
     </AbsoluteFill>
   </AbsoluteFill>

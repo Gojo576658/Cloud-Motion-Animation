@@ -276,7 +276,7 @@ const TheKey: React.FC = () => {
           </div>
         );
       })}
-      {t > tGuessed - 0.05 && <Stamp x={960} y={960} at={tGuessed - 0.02} text="YOU GUESSED IT" size={70} rot={-4} color={C.amber} />}
+      {t > tGuessed - 0.05 && <Stamp x={960} y={850} at={tGuessed - 0.02} text="YOU GUESSED IT" size={70} rot={-4} color={C.amber} />}
     </AbsoluteFill>
   );
 };
@@ -320,8 +320,8 @@ const Check: React.FC = () => {
       {t > tChecks && !matched && <div style={{ position: 'absolute', left: 1100, top: 630 + scan * 300, width: 320, height: 6, background: '#fff6c8', boxShadow: '0 0 24px #fff6c8', opacity: 0.8 }} />}
       {matched && <Stamp x={1260} y={560} at={tMatch + 0.8} text="MATCH ✗" size={80} rot={-8} />}
       {matched && <AbsoluteFill style={{ background: `radial-gradient(circle at 50% 0%, rgba(255,40,60,${0.25 + 0.2 * Math.sin(t * 16)}), transparent 60%)` }} />}
-      {t > tShut && <div style={{ position: 'absolute', left: 960, top: 600, transform: `translate(-50%,-50%) scale(${springAt(f, fps, tShut, { damping: 9, stiffness: 240 })})`, padding: '10px 34px', background: '#0b0d14', border: `5px solid ${C.red}`, borderRadius: 12, fontFamily: fonts.head, fontWeight: 900, fontSize: 64, color: C.red, boxShadow: `0 0 50px ${C.red}88` }}>DOOR: CLOSED</div>}
-      <Burst x={960} y={580} at={tShut} color="#fff" size={280} />
+      {t > tShut && <div style={{ position: 'absolute', left: 900, top: 440, transform: `translate(-50%,-50%) scale(${springAt(f, fps, tShut, { damping: 9, stiffness: 240 })})`, padding: '10px 34px', background: '#0b0d14', border: `5px solid ${C.red}`, borderRadius: 12, fontFamily: fonts.head, fontWeight: 900, fontSize: 64, color: C.red, boxShadow: `0 0 50px ${C.red}88` }}>DOOR: CLOSED</div>}
+      <Burst x={900} y={440} at={tShut} color="#fff" size={280} />
     </AbsoluteFill>
   );
 };

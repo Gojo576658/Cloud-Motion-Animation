@@ -11,18 +11,20 @@ import { S0Open, s0Sfx, s0NoCaptions } from './S0Open';
 import { S1Deal, s1Sfx, s1NoCaptions } from './S1Deal';
 import { S2Flashback, s2Sfx, s2NoCaptions } from './S2Flashback';
 import { S3Explain, s3Sfx, s3NoCaptions } from './S3Explain';
+import { S4Twist, s4Sfx, s4NoCaptions } from './S4Twist';
+import { S5Hurt, s5Sfx, s5NoCaptions } from './S5Hurt';
+import { S6Outro, s6Sfx, s6NoCaptions } from './S6Outro';
 
 type Enter = 'cut' | 'whip' | 'wipe' | 'scale';
-const Placeholder: React.FC = () => <AbsoluteFill style={{ background: '#0a1024' }} />;
 type SceneDef = { comp: React.FC; enter: Enter; sfx: SfxEvent[]; hide: [number, number][] };
 const DEFS: SceneDef[] = [
   { comp: S0Open, enter: 'cut', sfx: s0Sfx, hide: s0NoCaptions },
   { comp: S1Deal, enter: 'cut', sfx: s1Sfx, hide: s1NoCaptions },
   { comp: S2Flashback, enter: 'wipe', sfx: s2Sfx, hide: s2NoCaptions },
   { comp: S3Explain, enter: 'whip', sfx: s3Sfx, hide: s3NoCaptions },
-  { comp: Placeholder, enter: 'scale', sfx: [], hide: [] },
-  { comp: Placeholder, enter: 'wipe', sfx: [], hide: [] },
-  { comp: Placeholder, enter: 'whip', sfx: [], hide: [] },
+  { comp: S4Twist, enter: 'scale', sfx: s4Sfx, hide: s4NoCaptions },
+  { comp: S5Hurt, enter: 'wipe', sfx: s5Sfx, hide: s5NoCaptions },
+  { comp: S6Outro, enter: 'whip', sfx: s6Sfx, hide: s6NoCaptions },
 ];
 const SCENES = DEFS.map((s, i) => ({ ...s, start: CTL.scenes[i].start, end: CTL.scenes[i].end }));
 
