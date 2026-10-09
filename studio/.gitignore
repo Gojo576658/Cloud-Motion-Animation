@@ -9,3 +9,4 @@ public/*.wav
 audio/out-short/
 public/short/*.wav
 public/cpu/*.wav
+audio/out-cpu/

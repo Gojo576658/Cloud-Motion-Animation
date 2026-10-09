@@ -1,7 +1,7 @@
 // Renders the score offline in headless Chromium (Tone.js) and writes audio/out/score.wav.
 // One offline render per section (a single 9-minute render is too slow), run a few at a time,
 // each with a 4 s tail; ffmpeg then lays them on the timeline so tails ring into the next section.
-//   node audio/render-score.mjs [--to seconds] [--jobs n]
+//   node audio/render-score.mjs [--to seconds] [--jobs n] [--tl timeline.json] [--out dir] [--score score.js]
 import { chromium } from 'playwright';
 import http from 'node:http';
 import fs from 'node:fs';
@@ -45,7 +45,7 @@ const srv = http.createServer((req, res) => {
 await new Promise((r) => srv.listen(0, '127.0.0.1', r));
 const port = srv.address().port;
 fs.writeFileSync(path.join(here, 'score.html'), `<!doctype html><script src="/node_modules/tone/build/Tone.js"></script>
-<script type="module">import { compose, toWav } from '/audio/score.js';
+<script type="module">import { compose, toWav } from '/audio/${path.basename(sarg('--score', 'score.js'))}';
 window.run = async (tl, f) => { const b = await compose(tl); const wav = toWav(b.get()); await fetch('/upload?f=' + f, { method: 'POST', body: wav }); return b.duration; };
 window.ok = true;</script>`);
 
