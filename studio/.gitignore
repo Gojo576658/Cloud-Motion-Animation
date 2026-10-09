@@ -8,3 +8,4 @@ public/*.wav
 .env
 audio/out-short/
 public/short/*.wav
+public/cpu/*.wav

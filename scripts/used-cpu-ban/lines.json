@@ -1,0 +1,237 @@
+[
+ {
+  "s": 0,
+  "gap": 0.45,
+  "text": "This is Chip."
+ },
+ {
+  "s": 0,
+  "gap": 0.25,
+  "text": "Chip is a CPU. A Ryzen 7 5800X3D, to be exact. One of the best gaming processors ever made."
+ },
+ {
+  "s": 0,
+  "gap": 0.4,
+  "text": "Chip has never cheated in his life. Not once."
+ },
+ {
+  "s": 0,
+  "gap": 0.55,
+  "text": "And yet… Chip is banned."
+ },
+ {
+  "s": 0,
+  "gap": 0.3,
+  "text": "Not an account. Not a player. The chip itself. And the guy who paid for him? Did absolutely nothing wrong."
+ },
+ {
+  "s": 0,
+  "gap": 2.6,
+  "text": "This really happened, just a few weeks ago. And by the end of this video, you'll know why your next used PC part might come with… a criminal record."
+ },
+ {
+  "s": 1,
+  "gap": 0.25,
+  "text": "Okay. Meet Leo. That's not his real name, but he's a gamer in Germany, and he just found a deal."
+ },
+ {
+  "s": 1,
+  "gap": 0.45,
+  "text": "A used 5800X3D, on Kleinanzeigen. Basically Germany's giant online flea market. Good price. Great chip. What could possibly go wrong?"
+ },
+ {
+  "s": 1,
+  "gap": 0.5,
+  "text": "Spoiler. Everything."
+ },
+ {
+  "s": 1,
+  "gap": 0.15,
+  "text": "September twenty-first. Chip arrives. Leo installs him. Windows boots. Everything works. Leo opens Valorant…"
+ },
+ {
+  "s": 1,
+  "gap": 0.35,
+  "text": "…and the game kicks him out. Instantly."
+ },
+ {
+  "s": 1,
+  "gap": 0.3,
+  "text": "So Leo does what every gamer does. He restarts. He updates his drivers. He reinstalls the game. He turns it off and on again."
+ },
+ {
+  "s": 1,
+  "gap": 0.45,
+  "text": "Kicked."
+ },
+ {
+  "s": 1,
+  "gap": 0.3,
+  "text": "Leo puts his old CPU back in… and Valorant works perfectly."
+ },
+ {
+  "s": 1,
+  "gap": 0.3,
+  "text": "Put Chip in? Kicked. Take Chip out? Fine. So Leo writes to Riot support. And the answer is a little terrifying."
+ },
+ {
+  "s": 1,
+  "gap": 0.3,
+  "text": "According to Leo, support told him this exact processor had been hardware banned on August twelfth."
+ },
+ {
+  "s": 1,
+  "gap": 0.5,
+  "text": "That's more than a month before he even bought it."
+ },
+ {
+  "s": 1,
+  "gap": 0.8,
+  "text": "Chip… had a past."
+ },
+ {
+  "s": 2,
+  "gap": 0.3,
+  "text": "Let's rewind. Summer 2026. Chip lived with a different owner. And that owner… was not playing fair."
+ },
+ {
+  "s": 2,
+  "gap": 0.4,
+  "text": "Cheats were detected. Riot dropped the hammer. And the ban didn't just hit an account. It hit the hardware. Including Chip."
+ },
+ {
+  "s": 2,
+  "gap": 1.7,
+  "text": "And then, the previous owner did the most natural thing in the world. He sold it."
+ },
+ {
+  "s": 3,
+  "gap": 0.35,
+  "text": "But wait. How do you even ban a piece of silicon? Chip doesn't have a name. Or an email. Or a face. Well… this one does."
+ },
+ {
+  "s": 3,
+  "gap": 0.3,
+  "text": "To understand this, you need to meet Vanguard. Riot's anti-cheat."
+ },
+ {
+  "s": 3,
+  "gap": 0.3,
+  "text": "Vanguard doesn't live in some normal corner of your PC. It runs in the kernel, the deepest and most powerful layer of your system, and it starts the moment your computer boots. Before your desktop. Before your wallpaper. Before you."
+ },
+ {
+  "s": 3,
+  "gap": 0.3,
+  "text": "Think of Valorant as a club, and Vanguard as the bouncer who never forgets a face."
+ },
+ {
+  "s": 3,
+  "gap": 0.4,
+  "text": "But computers don't have faces. So what does the bouncer actually remember?"
+ },
+ {
+  "s": 3,
+  "gap": 0.3,
+  "text": "Here's the clever part. On Windows 11, Valorant needs something called TPM 2.0. A tiny security vault that stores secret keys. And on AMD Ryzen chips, that vault isn't a separate part. It's built right inside the processor."
+ },
+ {
+  "s": 3,
+  "gap": 0.3,
+  "text": "So when you buy a used Ryzen, you're not just buying a CPU. You're buying its vault. Its keys. Its identity."
+ },
+ {
+  "s": 3,
+  "gap": 0.35,
+  "text": "Riot hasn't said exactly what it reads. But experts suspect a unique key, created inside that vault when the chip is made. Reinstall Windows? Same key. New account? Same key. Brand-new game install? You guessed it."
+ },
+ {
+  "s": 3,
+  "gap": 0.3,
+  "text": "Every time you launch Valorant, Vanguard checks your hardware against Riot's ban list. And if a part matches a banned machine… the door stays shut."
+ },
+ {
+  "s": 3,
+  "gap": 0.7,
+  "text": "So to Vanguard, Chip isn't a CPU. Chip is that guy."
+ },
+ {
+  "s": 4,
+  "gap": 0.35,
+  "text": "But here's the plot twist."
+ },
+ {
+  "s": 4,
+  "gap": 0.3,
+  "text": "Riot's head of anti-cheat, Phillip Koskinas, says parts of this story don't add up. He says he couldn't find a support ticket that matches Leo's, and he called the whole thing pretty unlikely."
+ },
+ {
+  "s": 4,
+  "gap": 0.3,
+  "text": "Leo also says his motherboard and his SSD got flagged too. Riot says no. When one part matches, it doesn't blacklist everything else in your PC."
+ },
+ {
+  "s": 4,
+  "gap": 0.5,
+  "text": "So who's telling the truth? Honestly… we don't fully know yet."
+ },
+ {
+  "s": 4,
+  "gap": 0.3,
+  "text": "But Riot did confirm two things. One, its hardware bans last four months, at most. Two, they only apply to the game where the cheating happened."
+ },
+ {
+  "s": 4,
+  "gap": 0.6,
+  "text": "So if Chip was banned on August twelfth… his sentence should end around the middle of December."
+ },
+ {
+  "s": 5,
+  "gap": 0.4,
+  "text": "And that's the part that actually hurts. You save up. You hunt for a good deal. You build your setup piece by piece… and you end up paying for someone else's mistake."
+ },
+ {
+  "s": 5,
+  "gap": 0.4,
+  "text": "And the worst part? The system did exactly what it was built to do. Just… to the wrong person."
+ },
+ {
+  "s": 5,
+  "gap": 0.35,
+  "text": "And right now, there's no real way to check a used CPU for a ban before you buy it."
+ },
+ {
+  "s": 5,
+  "gap": 0.2,
+  "text": "So here's how to protect yourself."
+ },
+ {
+  "s": 5,
+  "gap": 0.3,
+  "text": "One. Buy from a seller or a marketplace with a return window. Two. The day it arrives, test it in every game you play with anti-cheat. Three. Keep the receipt and your chat with the seller. And four. If you get hit, contact the game's support. Riot says they'll tell you how long the ban has left."
+ },
+ {
+  "s": 5,
+  "gap": 0.5,
+  "text": "Because some anti-cheat systems give temporary hardware bans… and some don't."
+ },
+ {
+  "s": 6,
+  "gap": 0.35,
+  "text": "As for Chip? He's not a cheater. He just had a really bad roommate."
+ },
+ {
+  "s": 6,
+  "gap": 0.35,
+  "text": "Somewhere in Germany, a little Ryzen is counting down the days until December."
+ },
+ {
+  "s": 6,
+  "gap": 0.3,
+  "text": "So tell me in the comments. Would you ever buy a used CPU again? And subscribe, because next time, we're finding out what else your hardware secretly remembers about you."
+ },
+ {
+  "s": 6,
+  "gap": 0.0,
+  "text": "See you, Chip."
+ }
+]

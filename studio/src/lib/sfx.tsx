@@ -5,6 +5,7 @@ import { Audio, Sequence, staticFile, useVideoConfig } from 'remotion';
 
 const M = (p: string) => `sfx/mixkit/${p}.mp3`;
 const E = (p: string) => `sfx/${p}.mp3`;
+const K = (p: string) => `sfx/comedy/${p}.mp3`; // comedy / cartoon (Mixkit free license)
 
 // semantic name -> file (pick by what the animation does)
 export const SFX = {
@@ -49,6 +50,16 @@ export const SFX = {
   pageTurn: M('paper/paper-page-turn'), pageTurnBig: M('paper/paper-page-turn-big'), pagesFast: M('paper/paper-book-browse-fast'), paperSlide: M('paper/paper-slide'),
   rewind: M('film/tape-rewind-fast'), rewindCine: M('film/tape-rewind-cine'), projector: M('film/projector-spin-antique'), scratch: M('film/vinyl-scratch-small'),
   glassHit: M('glass/glass-hit-cine'), glassBreak: M('glass/glass-break-hammer'),
+  // comedy / cartoon
+  boing: K('boing'), boingMetal: K('boingMetal'), fallWhistle: K('fallWhistle'), toyWhistle: K('toyWhistle'), spinWhistle: K('spinWhistle'),
+  sadTrombone: K('sadTrombone'), sadTromboneSlow: K('sadTromboneSlow'), failPiano: K('failPiano'), clownHorn: K('clownHorn'), splat: K('splat'),
+  punch: K('punch'), dizzy: K('dizzy'), gasp: K('gasp'), panic: K('panic'), suspenseStrings: K('suspenseStrings'),
+  suspenseClarinet: K('suspenseClarinet'), suspenseCartoon: K('suspenseCartoon'), crowdLaugh: K('crowdLaugh'), laughApplause: K('laughApplause'),
+  crowdBoo: K('crowdBoo'), crowdSad: K('crowdSad'), crickets: K('crickets'), drumRoll: K('drumRoll'), rimshot: K('rimshot'), badJoke: K('badJoke'),
+  coins: K('coins'), moneyBag: K('moneyBag'), creakyDoor: K('creakyDoor'), jailLock: K('jailLock'), alarm: K('alarm'), breachAlarm: K('breachAlarm'),
+  gameOver: K('gameOver'), loseTone: K('loseTone'), levelUp: K('levelUp'), mysteryHeartbeat: K('mysteryHeartbeat'), mysteryHit: K('mysteryHit'),
+  horrorBell: K('horrorBell'), darkSweep: K('darkSweep'), hardPop: K('hardPop'), sillyPop: K('sillyPop'), cartoonLaugh: K('cartoonLaugh'),
+  applause: K('applause'), spinJump: K('spinJump'), negGuitar: K('negGuitar'), siren: K('siren'), squeak: K('squeak'), woodHit: K('woodHit'),
 } as const;
 export type SfxName = keyof typeof SFX;
 

@@ -1,0 +1,6511 @@
+{
+ "fps": 30,
+ "offset": 0.6,
+ "duration": 323.086,
+ "titleAt": 32.455,
+ "bpm": 100,
+ "scenes": [
+  {
+   "index": 0,
+   "title": "Cold Open",
+   "start": 0,
+   "end": 33.955
+  },
+  {
+   "index": 1,
+   "title": "The Deal",
+   "start": 33.955,
+   "end": 96.879
+  },
+  {
+   "index": 2,
+   "title": "Flashback",
+   "start": 96.879,
+   "end": 117.705
+  },
+  {
+   "index": 3,
+   "title": "How Do You Ban a CPU?",
+   "start": 117.705,
+   "end": 207.296
+  },
+  {
+   "index": 4,
+   "title": "Plot Twist",
+   "start": 207.296,
+   "end": 250.495
+  },
+  {
+   "index": 5,
+   "title": "The Hurt",
+   "start": 250.495,
+   "end": 297.906
+  },
+  {
+   "index": 6,
+   "title": "Outro",
+   "start": 297.906,
+   "end": 323.086
+  }
+ ],
+ "sections": [
+  {
+   "index": 0,
+   "title": "mystery",
+   "mood": "mystery",
+   "start": 0,
+   "end": 14.081
+  },
+  {
+   "index": 1,
+   "title": "drop",
+   "mood": "drop",
+   "start": 14.081,
+   "end": 16.072
+  },
+  {
+   "index": 2,
+   "title": "mystery",
+   "mood": "mystery",
+   "start": 16.072,
+   "end": 25.176
+  },
+  {
+   "index": 3,
+   "title": "title",
+   "mood": "title",
+   "start": 25.176,
+   "end": 34.005
+  },
+  {
+   "index": 4,
+   "title": "playful",
+   "mood": "playful",
+   "start": 34.005,
+   "end": 52.077
+  },
+  {
+   "index": 5,
+   "title": "drop",
+   "mood": "drop",
+   "start": 52.077,
+   "end": 53.76
+  },
+  {
+   "index": 6,
+   "title": "playful",
+   "mood": "playful",
+   "start": 53.76,
+   "end": 95.167
+  },
+  {
+   "index": 7,
+   "title": "sneaky",
+   "mood": "sneaky",
+   "start": 95.167,
+   "end": 116.205
+  },
+  {
+   "index": 8,
+   "title": "drop",
+   "mood": "drop",
+   "start": 116.205,
+   "end": 117.855
+  },
+  {
+   "index": 9,
+   "title": "tech",
+   "mood": "tech",
+   "start": 117.855,
+   "end": 207.446
+  },
+  {
+   "index": 10,
+   "title": "twist",
+   "mood": "twist",
+   "start": 207.446,
+   "end": 250.545
+  },
+  {
+   "index": 11,
+   "title": "sad",
+   "mood": "sad",
+   "start": 250.545,
+   "end": 272.612
+  },
+  {
+   "index": 12,
+   "title": "bright",
+   "mood": "bright",
+   "start": 272.612,
+   "end": 297.956
+  },
+  {
+   "index": 13,
+   "title": "warm",
+   "mood": "warm",
+   "start": 297.956,
+   "end": 323.086
+  }
+ ],
+ "cues": [
+  {
+   "id": 0,
+   "section": 0,
+   "start": 0.6,
+   "end": 1.46,
+   "vStart": 0,
+   "vEnd": 0.86,
+   "text": "This is Chip."
+  },
+  {
+   "id": 1,
+   "section": 0,
+   "start": 1.91,
+   "end": 10.756,
+   "vStart": 1.31,
+   "vEnd": 10.156,
+   "text": "Chip is a CPU. A Ryzen 7 5800X3D, to be exact. One of the best gaming processors ever made."
+  },
+  {
+   "id": 2,
+   "section": 0,
+   "start": 11.006,
+   "end": 13.881,
+   "vStart": 10.406,
+   "vEnd": 13.281,
+   "text": "Chip has never cheated in his life. Not once."
+  },
+  {
+   "id": 3,
+   "section": 0,
+   "start": 14.281,
+   "end": 15.622,
+   "vStart": 13.681,
+   "vEnd": 15.022,
+   "text": "And yet… Chip is banned."
+  },
+  {
+   "id": 4,
+   "section": 0,
+   "start": 16.172,
+   "end": 22.376,
+   "vStart": 15.572,
+   "vEnd": 21.776,
+   "text": "Not an account. Not a player. The chip itself. And the guy who paid for him? Did absolutely nothing wrong."
+  },
+  {
+   "id": 5,
+   "section": 0,
+   "start": 22.676,
+   "end": 31.705,
+   "vStart": 22.076,
+   "vEnd": 31.105,
+   "text": "This really happened, just a few weeks ago. And by the end of this video, you'll know why your next used PC part might come with… a criminal record."
+  },
+  {
+   "id": 6,
+   "section": 1,
+   "start": 34.305,
+   "end": 40.467,
+   "vStart": 33.705,
+   "vEnd": 39.867,
+   "text": "Okay. Meet Leo. That's not his real name, but he's a gamer in Germany, and he just found a deal."
+  },
+  {
+   "id": 7,
+   "section": 1,
+   "start": 40.717,
+   "end": 51.747,
+   "vStart": 40.117,
+   "vEnd": 51.147,
+   "text": "A used 5800X3D, on Kleinanzeigen. Basically Germany's giant online flea market. Good price. Great chip. What could possibly go wrong?"
+  },
+  {
+   "id": 8,
+   "section": 1,
+   "start": 52.197,
+   "end": 53.36,
+   "vStart": 51.597,
+   "vEnd": 52.76,
+   "text": "Spoiler. Everything."
+  },
+  {
+   "id": 9,
+   "section": 1,
+   "start": 53.86,
+   "end": 61.552,
+   "vStart": 53.26,
+   "vEnd": 60.952,
+   "text": "September twenty-first. Chip arrives. Leo installs him. Windows boots. Everything works. Leo opens Valorant…"
+  },
+  {
+   "id": 10,
+   "section": 1,
+   "start": 61.702,
+   "end": 63.828,
+   "vStart": 61.102,
+   "vEnd": 63.228,
+   "text": "…and the game kicks him out. Instantly."
+  },
+  {
+   "id": 11,
+   "section": 1,
+   "start": 64.178,
+   "end": 72.646,
+   "vStart": 63.578,
+   "vEnd": 72.046,
+   "text": "So Leo does what every gamer does. He restarts. He updates his drivers. He reinstalls the game. He turns it off and on again."
+  },
+  {
+   "id": 12,
+   "section": 1,
+   "start": 72.946,
+   "end": 73.46,
+   "vStart": 72.346,
+   "vEnd": 72.86,
+   "text": "Kicked."
+  },
+  {
+   "id": 13,
+   "section": 1,
+   "start": 73.91,
+   "end": 78.188,
+   "vStart": 73.31,
+   "vEnd": 77.588,
+   "text": "Leo puts his old CPU back in… and Valorant works perfectly."
+  },
+  {
+   "id": 14,
+   "section": 1,
+   "start": 78.488,
+   "end": 85.691,
+   "vStart": 77.888,
+   "vEnd": 85.091,
+   "text": "Put Chip in? Kicked. Take Chip out? Fine. So Leo writes to Riot support. And the answer is a little terrifying."
+  },
+  {
+   "id": 15,
+   "section": 1,
+   "start": 85.991,
+   "end": 92.244,
+   "vStart": 85.391,
+   "vEnd": 91.644,
+   "text": "According to Leo, support told him this exact processor had been hardware banned on August twelfth."
+  },
+  {
+   "id": 16,
+   "section": 1,
+   "start": 92.544,
+   "end": 94.867,
+   "vStart": 91.944,
+   "vEnd": 94.267,
+   "text": "That's more than a month before he even bought it."
+  },
+  {
+   "id": 17,
+   "section": 1,
+   "start": 95.367,
+   "end": 96.429,
+   "vStart": 94.767,
+   "vEnd": 95.829,
+   "text": "Chip… had a past."
+  },
+  {
+   "id": 18,
+   "section": 2,
+   "start": 97.229,
+   "end": 103.914,
+   "vStart": 96.629,
+   "vEnd": 103.314,
+   "text": "Let's rewind. Summer 2026. Chip lived with a different owner. And that owner… was not playing fair."
+  },
+  {
+   "id": 19,
+   "section": 2,
+   "start": 104.214,
+   "end": 111.486,
+   "vStart": 103.614,
+   "vEnd": 110.886,
+   "text": "Cheats were detected. Riot dropped the hammer. And the ban didn't just hit an account. It hit the hardware. Including Chip."
+  },
+  {
+   "id": 20,
+   "section": 2,
+   "start": 111.886,
+   "end": 116.355,
+   "vStart": 111.286,
+   "vEnd": 115.755,
+   "text": "And then, the previous owner did the most natural thing in the world. He sold it."
+  },
+  {
+   "id": 21,
+   "section": 3,
+   "start": 118.055,
+   "end": 125.339,
+   "vStart": 117.455,
+   "vEnd": 124.739,
+   "text": "But wait. How do you even ban a piece of silicon? Chip doesn't have a name. Or an email. Or a face. Well… this one does."
+  },
+  {
+   "id": 22,
+   "section": 3,
+   "start": 125.689,
+   "end": 129.45,
+   "vStart": 125.089,
+   "vEnd": 128.85,
+   "text": "To understand this, you need to meet Vanguard. Riot's anti-cheat."
+  },
+  {
+   "id": 23,
+   "section": 3,
+   "start": 129.75,
+   "end": 144.437,
+   "vStart": 129.15,
+   "vEnd": 143.837,
+   "text": "Vanguard doesn't live in some normal corner of your PC. It runs in the kernel, the deepest and most powerful layer of your system, and it starts the moment your computer boots. Before your desktop. Before your wallpaper. Before you."
+  },
+  {
+   "id": 24,
+   "section": 3,
+   "start": 144.737,
+   "end": 149.854,
+   "vStart": 144.137,
+   "vEnd": 149.254,
+   "text": "Think of Valorant as a club, and Vanguard as the bouncer who never forgets a face."
+  },
+  {
+   "id": 25,
+   "section": 3,
+   "start": 150.154,
+   "end": 154.472,
+   "vStart": 149.554,
+   "vEnd": 153.872,
+   "text": "But computers don't have faces. So what does the bouncer actually remember?"
+  },
+  {
+   "id": 26,
+   "section": 3,
+   "start": 154.872,
+   "end": 171.32,
+   "vStart": 154.272,
+   "vEnd": 170.72,
+   "text": "Here's the clever part. On Windows 11, Valorant needs something called TPM 2.0. A tiny security vault that stores secret keys. And on AMD Ryzen chips, that vault isn't a separate part. It's built right inside the processor."
+  },
+  {
+   "id": 27,
+   "section": 3,
+   "start": 171.62,
+   "end": 178.802,
+   "vStart": 171.02,
+   "vEnd": 178.202,
+   "text": "So when you buy a used Ryzen, you're not just buying a CPU. You're buying its vault. Its keys. Its identity."
+  },
+  {
+   "id": 28,
+   "section": 3,
+   "start": 179.102,
+   "end": 193.61,
+   "vStart": 178.502,
+   "vEnd": 193.01,
+   "text": "Riot hasn't said exactly what it reads. But experts suspect a unique key, created inside that vault when the chip is made. Reinstall Windows? Same key. New account? Same key. Brand-new game install? You guessed it."
+  },
+  {
+   "id": 29,
+   "section": 3,
+   "start": 193.96,
+   "end": 203.016,
+   "vStart": 193.36,
+   "vEnd": 202.416,
+   "text": "Every time you launch Valorant, Vanguard checks your hardware against Riot's ban list. And if a part matches a banned machine… the door stays shut."
+  },
+  {
+   "id": 30,
+   "section": 3,
+   "start": 203.316,
+   "end": 206.946,
+   "vStart": 202.716,
+   "vEnd": 206.346,
+   "text": "So to Vanguard, Chip isn't a CPU. Chip is that guy."
+  },
+  {
+   "id": 31,
+   "section": 4,
+   "start": 207.646,
+   "end": 209.087,
+   "vStart": 207.046,
+   "vEnd": 208.487,
+   "text": "But here's the plot twist."
+  },
+  {
+   "id": 32,
+   "section": 4,
+   "start": 209.437,
+   "end": 220.961,
+   "vStart": 208.837,
+   "vEnd": 220.361,
+   "text": "Riot's head of anti-cheat, Phillip Koskinas, says parts of this story don't add up. He says he couldn't find a support ticket that matches Leo's, and he called the whole thing pretty unlikely."
+  },
+  {
+   "id": 33,
+   "section": 4,
+   "start": 221.261,
+   "end": 231.373,
+   "vStart": 220.661,
+   "vEnd": 230.773,
+   "text": "Leo also says his motherboard and his SSD got flagged too. Riot says no. When one part matches, it doesn't blacklist everything else in your PC."
+  },
+  {
+   "id": 34,
+   "section": 4,
+   "start": 231.673,
+   "end": 234.935,
+   "vStart": 231.073,
+   "vEnd": 234.335,
+   "text": "So who's telling the truth? Honestly… we don't fully know yet."
+  },
+  {
+   "id": 35,
+   "section": 4,
+   "start": 235.435,
+   "end": 244.7,
+   "vStart": 234.835,
+   "vEnd": 244.1,
+   "text": "But Riot did confirm two things. One, its hardware bans last four months, at most. Two, they only apply to the game where the cheating happened."
+  },
+  {
+   "id": 36,
+   "section": 4,
+   "start": 245,
+   "end": 250.245,
+   "vStart": 244.4,
+   "vEnd": 249.645,
+   "text": "So if Chip was banned on August twelfth… his sentence should end around the middle of December."
+  },
+  {
+   "id": 37,
+   "section": 5,
+   "start": 250.845,
+   "end": 260.751,
+   "vStart": 250.245,
+   "vEnd": 260.151,
+   "text": "And that's the part that actually hurts. You save up. You hunt for a good deal. You build your setup piece by piece… and you end up paying for someone else's mistake."
+  },
+  {
+   "id": 38,
+   "section": 5,
+   "start": 261.151,
+   "end": 266.674,
+   "vStart": 260.551,
+   "vEnd": 266.074,
+   "text": "And the worst part? The system did exactly what it was built to do. Just… to the wrong person."
+  },
+  {
+   "id": 39,
+   "section": 5,
+   "start": 267.074,
+   "end": 272.412,
+   "vStart": 266.474,
+   "vEnd": 271.812,
+   "text": "And right now, there's no real way to check a used CPU for a ban before you buy it."
+  },
+  {
+   "id": 40,
+   "section": 5,
+   "start": 272.762,
+   "end": 274.619,
+   "vStart": 272.162,
+   "vEnd": 274.019,
+   "text": "So here's how to protect yourself."
+  },
+  {
+   "id": 41,
+   "section": 5,
+   "start": 274.819,
+   "end": 292.912,
+   "vStart": 274.219,
+   "vEnd": 292.312,
+   "text": "One. Buy from a seller or a marketplace with a return window. Two. The day it arrives, test it in every game you play with anti-cheat. Three. Keep the receipt and your chat with the seller. And four. If you get hit, contact the game's support. Riot says they'll tell you how long the ban has left."
+  },
+  {
+   "id": 42,
+   "section": 5,
+   "start": 293.212,
+   "end": 297.756,
+   "vStart": 292.612,
+   "vEnd": 297.156,
+   "text": "Because some anti-cheat systems give temporary hardware bans… and some don't."
+  },
+  {
+   "id": 43,
+   "section": 6,
+   "start": 298.256,
+   "end": 302.192,
+   "vStart": 297.656,
+   "vEnd": 301.592,
+   "text": "As for Chip? He's not a cheater. He just had a really bad roommate."
+  },
+  {
+   "id": 44,
+   "section": 6,
+   "start": 302.542,
+   "end": 307.233,
+   "vStart": 301.942,
+   "vEnd": 306.633,
+   "text": "Somewhere in Germany, a little Ryzen is counting down the days until December."
+  },
+  {
+   "id": 45,
+   "section": 6,
+   "start": 307.583,
+   "end": 318.548,
+   "vStart": 306.983,
+   "vEnd": 317.948,
+   "text": "So tell me in the comments. Would you ever buy a used CPU again? And subscribe, because next time, we're finding out what else your hardware secretly remembers about you."
+  },
+  {
+   "id": 46,
+   "section": 6,
+   "start": 318.848,
+   "end": 319.686,
+   "vStart": 318.248,
+   "vEnd": 319.086,
+   "text": "See you, Chip."
+  }
+ ],
+ "hooks": [],
+ "words": [
+  {
+   "c": 0,
+   "i": 0,
+   "w": "This",
+   "s": 0.6,
+   "e": 0.76
+  },
+  {
+   "c": 0,
+   "i": 1,
+   "w": "is",
+   "s": 0.76,
+   "e": 0.88
+  },
+  {
+   "c": 0,
+   "i": 2,
+   "w": "Chip.",
+   "s": 0.88,
+   "e": 1.18
+  },
+  {
+   "c": 1,
+   "i": 0,
+   "w": "Chip",
+   "s": 1.78,
+   "e": 2.06
+  },
+  {
+   "c": 1,
+   "i": 1,
+   "w": "is",
+   "s": 2.06,
+   "e": 2.3
+  },
+  {
+   "c": 1,
+   "i": 2,
+   "w": "a",
+   "s": 2.3,
+   "e": 2.4
+  },
+  {
+   "c": 1,
+   "i": 3,
+   "w": "CPU.",
+   "s": 2.4,
+   "e": 2.78
+  },
+  {
+   "c": 1,
+   "i": 4,
+   "w": "A",
+   "s": 3.76,
+   "e": 3.88
+  },
+  {
+   "c": 1,
+   "i": 5,
+   "w": "Ryzen",
+   "s": 3.88,
+   "e": 4.18
+  },
+  {
+   "c": 1,
+   "i": 6,
+   "w": "7",
+   "s": 4.18,
+   "e": 4.7
+  },
+  {
+   "c": 1,
+   "i": 7,
+   "w": "5800X3D,",
+   "s": 4.7,
+   "e": 6.56
+  },
+  {
+   "c": 1,
+   "i": 8,
+   "w": "to",
+   "s": 6.86,
+   "e": 6.98
+  },
+  {
+   "c": 1,
+   "i": 9,
+   "w": "be",
+   "s": 6.98,
+   "e": 7.1
+  },
+  {
+   "c": 1,
+   "i": 10,
+   "w": "exact.",
+   "s": 7.1,
+   "e": 7.36
+  },
+  {
+   "c": 1,
+   "i": 11,
+   "w": "One",
+   "s": 8.14,
+   "e": 8.28
+  },
+  {
+   "c": 1,
+   "i": 12,
+   "w": "of",
+   "s": 8.28,
+   "e": 8.38
+  },
+  {
+   "c": 1,
+   "i": 13,
+   "w": "the",
+   "s": 8.38,
+   "e": 8.46
+  },
+  {
+   "c": 1,
+   "i": 14,
+   "w": "best",
+   "s": 8.46,
+   "e": 8.72
+  },
+  {
+   "c": 1,
+   "i": 15,
+   "w": "gaming",
+   "s": 8.72,
+   "e": 9.04
+  },
+  {
+   "c": 1,
+   "i": 16,
+   "w": "processors",
+   "s": 9.04,
+   "e": 9.62
+  },
+  {
+   "c": 1,
+   "i": 17,
+   "w": "ever",
+   "s": 9.62,
+   "e": 10.16
+  },
+  {
+   "c": 1,
+   "i": 18,
+   "w": "made.",
+   "s": 10.16,
+   "e": 10.54
+  },
+  {
+   "c": 2,
+   "i": 0,
+   "w": "Chip",
+   "s": 10.96,
+   "e": 11.14
+  },
+  {
+   "c": 2,
+   "i": 1,
+   "w": "has",
+   "s": 11.14,
+   "e": 11.36
+  },
+  {
+   "c": 2,
+   "i": 2,
+   "w": "never",
+   "s": 11.36,
+   "e": 11.58
+  },
+  {
+   "c": 2,
+   "i": 3,
+   "w": "cheated",
+   "s": 11.58,
+   "e": 11.96
+  },
+  {
+   "c": 2,
+   "i": 4,
+   "w": "in",
+   "s": 11.96,
+   "e": 12.22
+  },
+  {
+   "c": 2,
+   "i": 5,
+   "w": "his",
+   "s": 12.22,
+   "e": 12.32
+  },
+  {
+   "c": 2,
+   "i": 6,
+   "w": "life.",
+   "s": 12.32,
+   "e": 12.62
+  },
+  {
+   "c": 2,
+   "i": 7,
+   "w": "Not",
+   "s": 13.08,
+   "e": 13.3
+  },
+  {
+   "c": 2,
+   "i": 8,
+   "w": "once.",
+   "s": 13.3,
+   "e": 13.54
+  },
+  {
+   "c": 3,
+   "i": 0,
+   "w": "And",
+   "s": 14.3,
+   "e": 14.36
+  },
+  {
+   "c": 3,
+   "i": 1,
+   "w": "yet…",
+   "s": 14.36,
+   "e": 14.52
+  },
+  {
+   "c": 3,
+   "i": 2,
+   "w": "Chip",
+   "s": 14.52,
+   "e": 14.8
+  },
+  {
+   "c": 3,
+   "i": 3,
+   "w": "is",
+   "s": 14.8,
+   "e": 15.02
+  },
+  {
+   "c": 3,
+   "i": 4,
+   "w": "banned.",
+   "s": 15.02,
+   "e": 15.22
+  },
+  {
+   "c": 4,
+   "i": 0,
+   "w": "Not",
+   "s": 16.12,
+   "e": 16.26
+  },
+  {
+   "c": 4,
+   "i": 1,
+   "w": "an",
+   "s": 16.26,
+   "e": 16.38
+  },
+  {
+   "c": 4,
+   "i": 2,
+   "w": "account.",
+   "s": 16.38,
+   "e": 16.6
+  },
+  {
+   "c": 4,
+   "i": 3,
+   "w": "Not",
+   "s": 17.1,
+   "e": 17.22
+  },
+  {
+   "c": 4,
+   "i": 4,
+   "w": "a",
+   "s": 17.22,
+   "e": 17.32
+  },
+  {
+   "c": 4,
+   "i": 5,
+   "w": "player.",
+   "s": 17.32,
+   "e": 17.62
+  },
+  {
+   "c": 4,
+   "i": 6,
+   "w": "The",
+   "s": 17.9,
+   "e": 18
+  },
+  {
+   "c": 4,
+   "i": 7,
+   "w": "chip",
+   "s": 18,
+   "e": 18.16
+  },
+  {
+   "c": 4,
+   "i": 8,
+   "w": "itself.",
+   "s": 18.16,
+   "e": 18.52
+  },
+  {
+   "c": 4,
+   "i": 9,
+   "w": "And",
+   "s": 19.02,
+   "e": 19.16
+  },
+  {
+   "c": 4,
+   "i": 10,
+   "w": "the",
+   "s": 19.16,
+   "e": 19.26
+  },
+  {
+   "c": 4,
+   "i": 11,
+   "w": "guy",
+   "s": 19.26,
+   "e": 19.52
+  },
+  {
+   "c": 4,
+   "i": 12,
+   "w": "who",
+   "s": 19.52,
+   "e": 19.74
+  },
+  {
+   "c": 4,
+   "i": 13,
+   "w": "paid",
+   "s": 19.74,
+   "e": 19.96
+  },
+  {
+   "c": 4,
+   "i": 14,
+   "w": "for",
+   "s": 19.96,
+   "e": 20.22
+  },
+  {
+   "c": 4,
+   "i": 15,
+   "w": "him?",
+   "s": 20.22,
+   "e": 20.42
+  },
+  {
+   "c": 4,
+   "i": 16,
+   "w": "Did",
+   "s": 20.42,
+   "e": 20.76
+  },
+  {
+   "c": 4,
+   "i": 17,
+   "w": "absolutely",
+   "s": 20.76,
+   "e": 21.18
+  },
+  {
+   "c": 4,
+   "i": 18,
+   "w": "nothing",
+   "s": 21.18,
+   "e": 21.86
+  },
+  {
+   "c": 4,
+   "i": 19,
+   "w": "wrong.",
+   "s": 21.86,
+   "e": 22.18
+  },
+  {
+   "c": 5,
+   "i": 0,
+   "w": "This",
+   "s": 22.62,
+   "e": 22.76
+  },
+  {
+   "c": 5,
+   "i": 1,
+   "w": "really",
+   "s": 22.76,
+   "e": 22.98
+  },
+  {
+   "c": 5,
+   "i": 2,
+   "w": "happened,",
+   "s": 22.98,
+   "e": 23.48
+  },
+  {
+   "c": 5,
+   "i": 3,
+   "w": "just",
+   "s": 23.48,
+   "e": 24.02
+  },
+  {
+   "c": 5,
+   "i": 4,
+   "w": "a",
+   "s": 24.02,
+   "e": 24.22
+  },
+  {
+   "c": 5,
+   "i": 5,
+   "w": "few",
+   "s": 24.22,
+   "e": 24.38
+  },
+  {
+   "c": 5,
+   "i": 6,
+   "w": "weeks",
+   "s": 24.38,
+   "e": 24.6
+  },
+  {
+   "c": 5,
+   "i": 7,
+   "w": "ago.",
+   "s": 24.6,
+   "e": 24.96
+  },
+  {
+   "c": 5,
+   "i": 8,
+   "w": "And",
+   "s": 25.52,
+   "e": 25.66
+  },
+  {
+   "c": 5,
+   "i": 9,
+   "w": "by",
+   "s": 25.66,
+   "e": 25.78
+  },
+  {
+   "c": 5,
+   "i": 10,
+   "w": "the",
+   "s": 25.78,
+   "e": 25.92
+  },
+  {
+   "c": 5,
+   "i": 11,
+   "w": "end",
+   "s": 25.92,
+   "e": 26.14
+  },
+  {
+   "c": 5,
+   "i": 12,
+   "w": "of",
+   "s": 26.14,
+   "e": 26.26
+  },
+  {
+   "c": 5,
+   "i": 13,
+   "w": "this",
+   "s": 26.26,
+   "e": 26.44
+  },
+  {
+   "c": 5,
+   "i": 14,
+   "w": "video,",
+   "s": 26.44,
+   "e": 26.76
+  },
+  {
+   "c": 5,
+   "i": 15,
+   "w": "you'll",
+   "s": 27.08,
+   "e": 27.24
+  },
+  {
+   "c": 5,
+   "i": 16,
+   "w": "know",
+   "s": 27.24,
+   "e": 27.44
+  },
+  {
+   "c": 5,
+   "i": 17,
+   "w": "why",
+   "s": 27.44,
+   "e": 27.74
+  },
+  {
+   "c": 5,
+   "i": 18,
+   "w": "your",
+   "s": 27.74,
+   "e": 27.9
+  },
+  {
+   "c": 5,
+   "i": 19,
+   "w": "next",
+   "s": 27.9,
+   "e": 28.12
+  },
+  {
+   "c": 5,
+   "i": 20,
+   "w": "used",
+   "s": 28.12,
+   "e": 28.48
+  },
+  {
+   "c": 5,
+   "i": 21,
+   "w": "PC",
+   "s": 28.48,
+   "e": 28.78
+  },
+  {
+   "c": 5,
+   "i": 22,
+   "w": "part",
+   "s": 28.78,
+   "e": 29.4
+  },
+  {
+   "c": 5,
+   "i": 23,
+   "w": "might",
+   "s": 29.4,
+   "e": 29.68
+  },
+  {
+   "c": 5,
+   "i": 24,
+   "w": "come",
+   "s": 29.68,
+   "e": 30
+  },
+  {
+   "c": 5,
+   "i": 25,
+   "w": "with…",
+   "s": 30,
+   "e": 30.22
+  },
+  {
+   "c": 5,
+   "i": 26,
+   "w": "a",
+   "s": 30.22,
+   "e": 30.68
+  },
+  {
+   "c": 5,
+   "i": 27,
+   "w": "criminal",
+   "s": 30.68,
+   "e": 30.96
+  },
+  {
+   "c": 5,
+   "i": 28,
+   "w": "record.",
+   "s": 30.96,
+   "e": 31.5
+  },
+  {
+   "c": 6,
+   "i": 0,
+   "w": "Okay.",
+   "s": 34.2,
+   "e": 34.56
+  },
+  {
+   "c": 6,
+   "i": 1,
+   "w": "Meet",
+   "s": 34.92,
+   "e": 35.04
+  },
+  {
+   "c": 6,
+   "i": 2,
+   "w": "Leo.",
+   "s": 35.04,
+   "e": 35.32
+  },
+  {
+   "c": 6,
+   "i": 3,
+   "w": "That's",
+   "s": 36.02,
+   "e": 36.32
+  },
+  {
+   "c": 6,
+   "i": 4,
+   "w": "not",
+   "s": 36.32,
+   "e": 36.46
+  },
+  {
+   "c": 6,
+   "i": 5,
+   "w": "his",
+   "s": 36.46,
+   "e": 36.62
+  },
+  {
+   "c": 6,
+   "i": 6,
+   "w": "real",
+   "s": 36.62,
+   "e": 36.84
+  },
+  {
+   "c": 6,
+   "i": 7,
+   "w": "name,",
+   "s": 36.84,
+   "e": 37.32
+  },
+  {
+   "c": 6,
+   "i": 8,
+   "w": "but",
+   "s": 37.32,
+   "e": 37.54
+  },
+  {
+   "c": 6,
+   "i": 9,
+   "w": "he's",
+   "s": 37.54,
+   "e": 37.7
+  },
+  {
+   "c": 6,
+   "i": 10,
+   "w": "a",
+   "s": 37.7,
+   "e": 37.78
+  },
+  {
+   "c": 6,
+   "i": 11,
+   "w": "gamer",
+   "s": 37.78,
+   "e": 38.14
+  },
+  {
+   "c": 6,
+   "i": 12,
+   "w": "in",
+   "s": 38.14,
+   "e": 38.38
+  },
+  {
+   "c": 6,
+   "i": 13,
+   "w": "Germany,",
+   "s": 38.38,
+   "e": 38.68
+  },
+  {
+   "c": 6,
+   "i": 14,
+   "w": "and",
+   "s": 38.68,
+   "e": 39.28
+  },
+  {
+   "c": 6,
+   "i": 15,
+   "w": "he",
+   "s": 39.28,
+   "e": 39.38
+  },
+  {
+   "c": 6,
+   "i": 16,
+   "w": "just",
+   "s": 39.38,
+   "e": 39.54
+  },
+  {
+   "c": 6,
+   "i": 17,
+   "w": "found",
+   "s": 39.54,
+   "e": 39.84
+  },
+  {
+   "c": 6,
+   "i": 18,
+   "w": "a",
+   "s": 39.84,
+   "e": 40
+  },
+  {
+   "c": 6,
+   "i": 19,
+   "w": "deal.",
+   "s": 40,
+   "e": 40.28
+  },
+  {
+   "c": 7,
+   "i": 0,
+   "w": "A",
+   "s": 40.76,
+   "e": 40.76
+  },
+  {
+   "c": 7,
+   "i": 1,
+   "w": "used",
+   "s": 40.76,
+   "e": 40.96
+  },
+  {
+   "c": 7,
+   "i": 2,
+   "w": "5800X3D,",
+   "s": 40.96,
+   "e": 42.8
+  },
+  {
+   "c": 7,
+   "i": 3,
+   "w": "on",
+   "s": 42.8,
+   "e": 43.14
+  },
+  {
+   "c": 7,
+   "i": 4,
+   "w": "Kleinanzeigen.",
+   "s": 43.14,
+   "e": 44.16
+  },
+  {
+   "c": 7,
+   "i": 5,
+   "w": "Basically",
+   "s": 44.76,
+   "e": 45.16
+  },
+  {
+   "c": 7,
+   "i": 6,
+   "w": "Germany's",
+   "s": 45.16,
+   "e": 45.98
+  },
+  {
+   "c": 7,
+   "i": 7,
+   "w": "giant",
+   "s": 45.98,
+   "e": 46.26
+  },
+  {
+   "c": 7,
+   "i": 8,
+   "w": "online",
+   "s": 46.26,
+   "e": 46.68
+  },
+  {
+   "c": 7,
+   "i": 9,
+   "w": "flea",
+   "s": 46.68,
+   "e": 47.32
+  },
+  {
+   "c": 7,
+   "i": 10,
+   "w": "market.",
+   "s": 47.32,
+   "e": 47.62
+  },
+  {
+   "c": 7,
+   "i": 11,
+   "w": "Good",
+   "s": 48.16,
+   "e": 48.26
+  },
+  {
+   "c": 7,
+   "i": 12,
+   "w": "price.",
+   "s": 48.26,
+   "e": 48.5
+  },
+  {
+   "c": 7,
+   "i": 13,
+   "w": "Great",
+   "s": 49.5,
+   "e": 49.5
+  },
+  {
+   "c": 7,
+   "i": 14,
+   "w": "chip.",
+   "s": 49.5,
+   "e": 49.78
+  },
+  {
+   "c": 7,
+   "i": 15,
+   "w": "What",
+   "s": 50.36,
+   "e": 50.38
+  },
+  {
+   "c": 7,
+   "i": 16,
+   "w": "could",
+   "s": 50.38,
+   "e": 50.52
+  },
+  {
+   "c": 7,
+   "i": 17,
+   "w": "possibly",
+   "s": 50.52,
+   "e": 50.92
+  },
+  {
+   "c": 7,
+   "i": 18,
+   "w": "go",
+   "s": 50.92,
+   "e": 51.28
+  },
+  {
+   "c": 7,
+   "i": 19,
+   "w": "wrong?",
+   "s": 51.28,
+   "e": 51.54
+  },
+  {
+   "c": 8,
+   "i": 0,
+   "w": "Spoiler.",
+   "s": 52.58,
+   "e": 52.58
+  },
+  {
+   "c": 8,
+   "i": 1,
+   "w": "Everything.",
+   "s": 52.58,
+   "e": 52.98
+  },
+  {
+   "c": 9,
+   "i": 0,
+   "w": "September",
+   "s": 53.96,
+   "e": 54.08
+  },
+  {
+   "c": 9,
+   "i": 1,
+   "w": "twenty-first.",
+   "s": 54.08,
+   "e": 55.06
+  },
+  {
+   "c": 9,
+   "i": 2,
+   "w": "Chip",
+   "s": 55.4,
+   "e": 55.44
+  },
+  {
+   "c": 9,
+   "i": 3,
+   "w": "arrives.",
+   "s": 55.44,
+   "e": 55.74
+  },
+  {
+   "c": 9,
+   "i": 4,
+   "w": "Leo",
+   "s": 55.74,
+   "e": 56.66
+  },
+  {
+   "c": 9,
+   "i": 5,
+   "w": "installs",
+   "s": 56.66,
+   "e": 56.96
+  },
+  {
+   "c": 9,
+   "i": 6,
+   "w": "him.",
+   "s": 56.96,
+   "e": 57.5
+  },
+  {
+   "c": 9,
+   "i": 7,
+   "w": "Windows",
+   "s": 57.68,
+   "e": 57.94
+  },
+  {
+   "c": 9,
+   "i": 8,
+   "w": "boots.",
+   "s": 57.94,
+   "e": 58.44
+  },
+  {
+   "c": 9,
+   "i": 9,
+   "w": "Everything",
+   "s": 58.84,
+   "e": 59.1
+  },
+  {
+   "c": 9,
+   "i": 10,
+   "w": "works.",
+   "s": 59.1,
+   "e": 59.5
+  },
+  {
+   "c": 9,
+   "i": 11,
+   "w": "Leo",
+   "s": 60.12,
+   "e": 60.38
+  },
+  {
+   "c": 9,
+   "i": 12,
+   "w": "opens",
+   "s": 60.38,
+   "e": 60.86
+  },
+  {
+   "c": 9,
+   "i": 13,
+   "w": "Valorant…",
+   "s": 60.86,
+   "e": 61.5
+  },
+  {
+   "c": 10,
+   "i": 0,
+   "w": "…and",
+   "s": 61.7,
+   "e": 61.76
+  },
+  {
+   "c": 10,
+   "i": 1,
+   "w": "the",
+   "s": 61.76,
+   "e": 61.86
+  },
+  {
+   "c": 10,
+   "i": 2,
+   "w": "game",
+   "s": 61.86,
+   "e": 62.08
+  },
+  {
+   "c": 10,
+   "i": 3,
+   "w": "kicks",
+   "s": 62.08,
+   "e": 62.32
+  },
+  {
+   "c": 10,
+   "i": 4,
+   "w": "him",
+   "s": 62.32,
+   "e": 62.54
+  },
+  {
+   "c": 10,
+   "i": 5,
+   "w": "out.",
+   "s": 62.54,
+   "e": 62.74
+  },
+  {
+   "c": 10,
+   "i": 6,
+   "w": "Instantly.",
+   "s": 63.02,
+   "e": 63.4
+  },
+  {
+   "c": 11,
+   "i": 0,
+   "w": "So",
+   "s": 64.16,
+   "e": 64.32
+  },
+  {
+   "c": 11,
+   "i": 1,
+   "w": "Leo",
+   "s": 64.32,
+   "e": 64.64
+  },
+  {
+   "c": 11,
+   "i": 2,
+   "w": "does",
+   "s": 64.64,
+   "e": 64.9
+  },
+  {
+   "c": 11,
+   "i": 3,
+   "w": "what",
+   "s": 64.9,
+   "e": 65.1
+  },
+  {
+   "c": 11,
+   "i": 4,
+   "w": "every",
+   "s": 65.1,
+   "e": 65.4
+  },
+  {
+   "c": 11,
+   "i": 5,
+   "w": "gamer",
+   "s": 65.4,
+   "e": 65.7
+  },
+  {
+   "c": 11,
+   "i": 6,
+   "w": "does.",
+   "s": 65.7,
+   "e": 66.1
+  },
+  {
+   "c": 11,
+   "i": 7,
+   "w": "He",
+   "s": 66.58,
+   "e": 66.7
+  },
+  {
+   "c": 11,
+   "i": 8,
+   "w": "restarts.",
+   "s": 66.7,
+   "e": 67.16
+  },
+  {
+   "c": 11,
+   "i": 9,
+   "w": "He",
+   "s": 67.68,
+   "e": 67.8
+  },
+  {
+   "c": 11,
+   "i": 10,
+   "w": "updates",
+   "s": 67.8,
+   "e": 68.04
+  },
+  {
+   "c": 11,
+   "i": 11,
+   "w": "his",
+   "s": 68.04,
+   "e": 68.34
+  },
+  {
+   "c": 11,
+   "i": 12,
+   "w": "drivers.",
+   "s": 68.34,
+   "e": 68.68
+  },
+  {
+   "c": 11,
+   "i": 13,
+   "w": "He",
+   "s": 69.42,
+   "e": 69.48
+  },
+  {
+   "c": 11,
+   "i": 14,
+   "w": "reinstalls",
+   "s": 69.48,
+   "e": 70.16
+  },
+  {
+   "c": 11,
+   "i": 15,
+   "w": "the",
+   "s": 70.16,
+   "e": 70.42
+  },
+  {
+   "c": 11,
+   "i": 16,
+   "w": "game.",
+   "s": 70.42,
+   "e": 70.64
+  },
+  {
+   "c": 11,
+   "i": 17,
+   "w": "He",
+   "s": 71.2,
+   "e": 71.22
+  },
+  {
+   "c": 11,
+   "i": 18,
+   "w": "turns",
+   "s": 71.22,
+   "e": 71.42
+  },
+  {
+   "c": 11,
+   "i": 19,
+   "w": "it",
+   "s": 71.42,
+   "e": 71.62
+  },
+  {
+   "c": 11,
+   "i": 20,
+   "w": "off",
+   "s": 71.62,
+   "e": 71.82
+  },
+  {
+   "c": 11,
+   "i": 21,
+   "w": "and",
+   "s": 71.82,
+   "e": 72
+  },
+  {
+   "c": 11,
+   "i": 22,
+   "w": "on",
+   "s": 72,
+   "e": 72.14
+  },
+  {
+   "c": 11,
+   "i": 23,
+   "w": "again.",
+   "s": 72.14,
+   "e": 72.44
+  },
+  {
+   "c": 12,
+   "i": 0,
+   "w": "Kicked.",
+   "s": 72.88,
+   "e": 73.24
+  },
+  {
+   "c": 13,
+   "i": 0,
+   "w": "Leo",
+   "s": 73.64,
+   "e": 74.16
+  },
+  {
+   "c": 13,
+   "i": 1,
+   "w": "puts",
+   "s": 74.16,
+   "e": 74.4
+  },
+  {
+   "c": 13,
+   "i": 2,
+   "w": "his",
+   "s": 74.4,
+   "e": 74.54
+  },
+  {
+   "c": 13,
+   "i": 3,
+   "w": "old",
+   "s": 74.54,
+   "e": 74.78
+  },
+  {
+   "c": 13,
+   "i": 4,
+   "w": "CPU",
+   "s": 74.78,
+   "e": 75.2
+  },
+  {
+   "c": 13,
+   "i": 5,
+   "w": "back",
+   "s": 75.2,
+   "e": 75.88
+  },
+  {
+   "c": 13,
+   "i": 6,
+   "w": "in…",
+   "s": 75.88,
+   "e": 76.16
+  },
+  {
+   "c": 13,
+   "i": 7,
+   "w": "and",
+   "s": 76.5,
+   "e": 76.72
+  },
+  {
+   "c": 13,
+   "i": 8,
+   "w": "Valorant",
+   "s": 76.72,
+   "e": 77.18
+  },
+  {
+   "c": 13,
+   "i": 9,
+   "w": "works",
+   "s": 77.18,
+   "e": 77.36
+  },
+  {
+   "c": 13,
+   "i": 10,
+   "w": "perfectly.",
+   "s": 77.36,
+   "e": 77.86
+  },
+  {
+   "c": 14,
+   "i": 0,
+   "w": "Put",
+   "s": 78.54,
+   "e": 78.56
+  },
+  {
+   "c": 14,
+   "i": 1,
+   "w": "Chip",
+   "s": 78.56,
+   "e": 78.8
+  },
+  {
+   "c": 14,
+   "i": 2,
+   "w": "in?",
+   "s": 78.8,
+   "e": 79.02
+  },
+  {
+   "c": 14,
+   "i": 3,
+   "w": "Kicked.",
+   "s": 79.26,
+   "e": 79.4
+  },
+  {
+   "c": 14,
+   "i": 4,
+   "w": "Take",
+   "s": 79.9,
+   "e": 79.9
+  },
+  {
+   "c": 14,
+   "i": 5,
+   "w": "Chip",
+   "s": 79.9,
+   "e": 80.12
+  },
+  {
+   "c": 14,
+   "i": 6,
+   "w": "out?",
+   "s": 80.12,
+   "e": 80.36
+  },
+  {
+   "c": 14,
+   "i": 7,
+   "w": "Fine.",
+   "s": 80.82,
+   "e": 81.02
+  },
+  {
+   "c": 14,
+   "i": 8,
+   "w": "So",
+   "s": 81.58,
+   "e": 81.66
+  },
+  {
+   "c": 14,
+   "i": 9,
+   "w": "Leo",
+   "s": 81.66,
+   "e": 81.96
+  },
+  {
+   "c": 14,
+   "i": 10,
+   "w": "writes",
+   "s": 81.96,
+   "e": 82.26
+  },
+  {
+   "c": 14,
+   "i": 11,
+   "w": "to",
+   "s": 82.26,
+   "e": 82.5
+  },
+  {
+   "c": 14,
+   "i": 12,
+   "w": "Riot",
+   "s": 82.5,
+   "e": 82.74
+  },
+  {
+   "c": 14,
+   "i": 13,
+   "w": "support.",
+   "s": 82.74,
+   "e": 83.1
+  },
+  {
+   "c": 14,
+   "i": 14,
+   "w": "And",
+   "s": 83.58,
+   "e": 83.8
+  },
+  {
+   "c": 14,
+   "i": 15,
+   "w": "the",
+   "s": 83.8,
+   "e": 83.9
+  },
+  {
+   "c": 14,
+   "i": 16,
+   "w": "answer",
+   "s": 83.9,
+   "e": 84.16
+  },
+  {
+   "c": 14,
+   "i": 17,
+   "w": "is",
+   "s": 84.16,
+   "e": 84.48
+  },
+  {
+   "c": 14,
+   "i": 18,
+   "w": "a",
+   "s": 84.48,
+   "e": 84.58
+  },
+  {
+   "c": 14,
+   "i": 19,
+   "w": "little",
+   "s": 84.58,
+   "e": 84.74
+  },
+  {
+   "c": 14,
+   "i": 20,
+   "w": "terrifying.",
+   "s": 84.74,
+   "e": 85.26
+  },
+  {
+   "c": 15,
+   "i": 0,
+   "w": "According",
+   "s": 85.991,
+   "e": 86.382
+  },
+  {
+   "c": 15,
+   "i": 1,
+   "w": "to",
+   "s": 86.3,
+   "e": 86.48
+  },
+  {
+   "c": 15,
+   "i": 2,
+   "w": "Leo,",
+   "s": 86.48,
+   "e": 86.66
+  },
+  {
+   "c": 15,
+   "i": 3,
+   "w": "support",
+   "s": 87.36,
+   "e": 87.6
+  },
+  {
+   "c": 15,
+   "i": 4,
+   "w": "told",
+   "s": 87.6,
+   "e": 87.94
+  },
+  {
+   "c": 15,
+   "i": 5,
+   "w": "him",
+   "s": 87.94,
+   "e": 88.22
+  },
+  {
+   "c": 15,
+   "i": 6,
+   "w": "this",
+   "s": 88.22,
+   "e": 88.38
+  },
+  {
+   "c": 15,
+   "i": 7,
+   "w": "exact",
+   "s": 88.38,
+   "e": 88.6
+  },
+  {
+   "c": 15,
+   "i": 8,
+   "w": "processor",
+   "s": 88.6,
+   "e": 89.52
+  },
+  {
+   "c": 15,
+   "i": 9,
+   "w": "had",
+   "s": 89.52,
+   "e": 90
+  },
+  {
+   "c": 15,
+   "i": 10,
+   "w": "been",
+   "s": 90,
+   "e": 90.14
+  },
+  {
+   "c": 15,
+   "i": 11,
+   "w": "hardware",
+   "s": 90.14,
+   "e": 90.42
+  },
+  {
+   "c": 15,
+   "i": 12,
+   "w": "banned",
+   "s": 90.42,
+   "e": 90.86
+  },
+  {
+   "c": 15,
+   "i": 13,
+   "w": "on",
+   "s": 90.86,
+   "e": 91.18
+  },
+  {
+   "c": 15,
+   "i": 14,
+   "w": "August",
+   "s": 91.18,
+   "e": 91.56
+  },
+  {
+   "c": 15,
+   "i": 15,
+   "w": "twelfth.",
+   "s": 91.56,
+   "e": 91.9
+  },
+  {
+   "c": 16,
+   "i": 0,
+   "w": "That's",
+   "s": 92.46,
+   "e": 92.72
+  },
+  {
+   "c": 16,
+   "i": 1,
+   "w": "more",
+   "s": 92.72,
+   "e": 92.9
+  },
+  {
+   "c": 16,
+   "i": 2,
+   "w": "than",
+   "s": 92.9,
+   "e": 93.18
+  },
+  {
+   "c": 16,
+   "i": 3,
+   "w": "a",
+   "s": 93.18,
+   "e": 93.28
+  },
+  {
+   "c": 16,
+   "i": 4,
+   "w": "month",
+   "s": 93.28,
+   "e": 93.5
+  },
+  {
+   "c": 16,
+   "i": 5,
+   "w": "before",
+   "s": 93.5,
+   "e": 93.92
+  },
+  {
+   "c": 16,
+   "i": 6,
+   "w": "he",
+   "s": 93.92,
+   "e": 94.1
+  },
+  {
+   "c": 16,
+   "i": 7,
+   "w": "even",
+   "s": 94.1,
+   "e": 94.34
+  },
+  {
+   "c": 16,
+   "i": 8,
+   "w": "bought",
+   "s": 94.34,
+   "e": 94.66
+  },
+  {
+   "c": 16,
+   "i": 9,
+   "w": "it.",
+   "s": 94.66,
+   "e": 94.84
+  },
+  {
+   "c": 17,
+   "i": 0,
+   "w": "Chip…",
+   "s": 95.32,
+   "e": 95.54
+  },
+  {
+   "c": 17,
+   "i": 1,
+   "w": "had",
+   "s": 95.54,
+   "e": 95.66
+  },
+  {
+   "c": 17,
+   "i": 2,
+   "w": "a",
+   "s": 95.66,
+   "e": 95.84
+  },
+  {
+   "c": 17,
+   "i": 3,
+   "w": "past.",
+   "s": 95.84,
+   "e": 96.14
+  },
+  {
+   "c": 18,
+   "i": 0,
+   "w": "Let's",
+   "s": 97.2,
+   "e": 97.44
+  },
+  {
+   "c": 18,
+   "i": 1,
+   "w": "rewind.",
+   "s": 97.44,
+   "e": 97.9
+  },
+  {
+   "c": 18,
+   "i": 2,
+   "w": "Summer",
+   "s": 98.42,
+   "e": 98.58
+  },
+  {
+   "c": 18,
+   "i": 3,
+   "w": "2026.",
+   "s": 98.58,
+   "e": 99.44
+  },
+  {
+   "c": 18,
+   "i": 4,
+   "w": "Chip",
+   "s": 100.1,
+   "e": 100.36
+  },
+  {
+   "c": 18,
+   "i": 5,
+   "w": "lived",
+   "s": 100.36,
+   "e": 100.58
+  },
+  {
+   "c": 18,
+   "i": 6,
+   "w": "with",
+   "s": 100.58,
+   "e": 100.88
+  },
+  {
+   "c": 18,
+   "i": 7,
+   "w": "a",
+   "s": 100.88,
+   "e": 100.96
+  },
+  {
+   "c": 18,
+   "i": 8,
+   "w": "different",
+   "s": 100.96,
+   "e": 101.2
+  },
+  {
+   "c": 18,
+   "i": 9,
+   "w": "owner.",
+   "s": 101.2,
+   "e": 101.5
+  },
+  {
+   "c": 18,
+   "i": 10,
+   "w": "And",
+   "s": 101.5,
+   "e": 102.04
+  },
+  {
+   "c": 18,
+   "i": 11,
+   "w": "that",
+   "s": 102.04,
+   "e": 102.16
+  },
+  {
+   "c": 18,
+   "i": 12,
+   "w": "owner…",
+   "s": 102.16,
+   "e": 102.44
+  },
+  {
+   "c": 18,
+   "i": 13,
+   "w": "was",
+   "s": 102.44,
+   "e": 102.78
+  },
+  {
+   "c": 18,
+   "i": 14,
+   "w": "not",
+   "s": 102.78,
+   "e": 103
+  },
+  {
+   "c": 18,
+   "i": 15,
+   "w": "playing",
+   "s": 103,
+   "e": 103.34
+  },
+  {
+   "c": 18,
+   "i": 16,
+   "w": "fair.",
+   "s": 103.34,
+   "e": 103.68
+  },
+  {
+   "c": 19,
+   "i": 0,
+   "w": "Cheats",
+   "s": 104.2,
+   "e": 104.54
+  },
+  {
+   "c": 19,
+   "i": 1,
+   "w": "were",
+   "s": 104.54,
+   "e": 104.66
+  },
+  {
+   "c": 19,
+   "i": 2,
+   "w": "detected.",
+   "s": 104.66,
+   "e": 105.02
+  },
+  {
+   "c": 19,
+   "i": 3,
+   "w": "Riot",
+   "s": 105.76,
+   "e": 105.94
+  },
+  {
+   "c": 19,
+   "i": 4,
+   "w": "dropped",
+   "s": 105.94,
+   "e": 106.24
+  },
+  {
+   "c": 19,
+   "i": 5,
+   "w": "the",
+   "s": 106.24,
+   "e": 106.56
+  },
+  {
+   "c": 19,
+   "i": 6,
+   "w": "hammer.",
+   "s": 106.56,
+   "e": 106.78
+  },
+  {
+   "c": 19,
+   "i": 7,
+   "w": "And",
+   "s": 106.78,
+   "e": 107.34
+  },
+  {
+   "c": 19,
+   "i": 8,
+   "w": "the",
+   "s": 107.34,
+   "e": 107.44
+  },
+  {
+   "c": 19,
+   "i": 9,
+   "w": "ban",
+   "s": 107.44,
+   "e": 107.62
+  },
+  {
+   "c": 19,
+   "i": 10,
+   "w": "didn't",
+   "s": 107.62,
+   "e": 108.02
+  },
+  {
+   "c": 19,
+   "i": 11,
+   "w": "just",
+   "s": 108.02,
+   "e": 108.18
+  },
+  {
+   "c": 19,
+   "i": 12,
+   "w": "hit",
+   "s": 108.18,
+   "e": 108.4
+  },
+  {
+   "c": 19,
+   "i": 13,
+   "w": "an",
+   "s": 108.4,
+   "e": 108.54
+  },
+  {
+   "c": 19,
+   "i": 14,
+   "w": "account.",
+   "s": 108.54,
+   "e": 108.8
+  },
+  {
+   "c": 19,
+   "i": 15,
+   "w": "It",
+   "s": 109.44,
+   "e": 109.52
+  },
+  {
+   "c": 19,
+   "i": 16,
+   "w": "hit",
+   "s": 109.52,
+   "e": 109.66
+  },
+  {
+   "c": 19,
+   "i": 17,
+   "w": "the",
+   "s": 109.66,
+   "e": 109.84
+  },
+  {
+   "c": 19,
+   "i": 18,
+   "w": "hardware.",
+   "s": 109.84,
+   "e": 110.12
+  },
+  {
+   "c": 19,
+   "i": 19,
+   "w": "Including",
+   "s": 110.12,
+   "e": 110.68
+  },
+  {
+   "c": 19,
+   "i": 20,
+   "w": "Chip.",
+   "s": 110.68,
+   "e": 111.24
+  },
+  {
+   "c": 20,
+   "i": 0,
+   "w": "And",
+   "s": 111.886,
+   "e": 112.165
+  },
+  {
+   "c": 20,
+   "i": 1,
+   "w": "then,",
+   "s": 111.96,
+   "e": 112.16
+  },
+  {
+   "c": 20,
+   "i": 2,
+   "w": "the",
+   "s": 112.16,
+   "e": 112.4
+  },
+  {
+   "c": 20,
+   "i": 3,
+   "w": "previous",
+   "s": 112.4,
+   "e": 112.7
+  },
+  {
+   "c": 20,
+   "i": 4,
+   "w": "owner",
+   "s": 112.7,
+   "e": 113.08
+  },
+  {
+   "c": 20,
+   "i": 5,
+   "w": "did",
+   "s": 113.08,
+   "e": 113.34
+  },
+  {
+   "c": 20,
+   "i": 6,
+   "w": "the",
+   "s": 113.34,
+   "e": 113.46
+  },
+  {
+   "c": 20,
+   "i": 7,
+   "w": "most",
+   "s": 113.46,
+   "e": 113.62
+  },
+  {
+   "c": 20,
+   "i": 8,
+   "w": "natural",
+   "s": 113.62,
+   "e": 114.04
+  },
+  {
+   "c": 20,
+   "i": 9,
+   "w": "thing",
+   "s": 114.04,
+   "e": 114.44
+  },
+  {
+   "c": 20,
+   "i": 10,
+   "w": "in",
+   "s": 114.44,
+   "e": 114.6
+  },
+  {
+   "c": 20,
+   "i": 11,
+   "w": "the",
+   "s": 114.6,
+   "e": 114.7
+  },
+  {
+   "c": 20,
+   "i": 12,
+   "w": "world.",
+   "s": 114.7,
+   "e": 115.06
+  },
+  {
+   "c": 20,
+   "i": 13,
+   "w": "He",
+   "s": 115.66,
+   "e": 115.76
+  },
+  {
+   "c": 20,
+   "i": 14,
+   "w": "sold",
+   "s": 115.76,
+   "e": 116.04
+  },
+  {
+   "c": 20,
+   "i": 15,
+   "w": "it.",
+   "s": 116.04,
+   "e": 116.3
+  },
+  {
+   "c": 21,
+   "i": 0,
+   "w": "But",
+   "s": 117.78,
+   "e": 118.1
+  },
+  {
+   "c": 21,
+   "i": 1,
+   "w": "wait.",
+   "s": 118.1,
+   "e": 118.3
+  },
+  {
+   "c": 21,
+   "i": 2,
+   "w": "How",
+   "s": 118.58,
+   "e": 118.8
+  },
+  {
+   "c": 21,
+   "i": 3,
+   "w": "do",
+   "s": 118.8,
+   "e": 118.9
+  },
+  {
+   "c": 21,
+   "i": 4,
+   "w": "you",
+   "s": 118.9,
+   "e": 119
+  },
+  {
+   "c": 21,
+   "i": 5,
+   "w": "even",
+   "s": 119,
+   "e": 119.18
+  },
+  {
+   "c": 21,
+   "i": 6,
+   "w": "ban",
+   "s": 119.18,
+   "e": 119.42
+  },
+  {
+   "c": 21,
+   "i": 7,
+   "w": "a",
+   "s": 119.42,
+   "e": 119.6
+  },
+  {
+   "c": 21,
+   "i": 8,
+   "w": "piece",
+   "s": 119.6,
+   "e": 119.82
+  },
+  {
+   "c": 21,
+   "i": 9,
+   "w": "of",
+   "s": 119.82,
+   "e": 119.94
+  },
+  {
+   "c": 21,
+   "i": 10,
+   "w": "silicon?",
+   "s": 119.94,
+   "e": 120.12
+  },
+  {
+   "c": 21,
+   "i": 11,
+   "w": "Chip",
+   "s": 120.78,
+   "e": 120.98
+  },
+  {
+   "c": 21,
+   "i": 12,
+   "w": "doesn't",
+   "s": 120.98,
+   "e": 121.32
+  },
+  {
+   "c": 21,
+   "i": 13,
+   "w": "have",
+   "s": 121.32,
+   "e": 121.52
+  },
+  {
+   "c": 21,
+   "i": 14,
+   "w": "a",
+   "s": 121.52,
+   "e": 121.56
+  },
+  {
+   "c": 21,
+   "i": 15,
+   "w": "name.",
+   "s": 121.56,
+   "e": 121.9
+  },
+  {
+   "c": 21,
+   "i": 16,
+   "w": "Or",
+   "s": 121.9,
+   "e": 122.2
+  },
+  {
+   "c": 21,
+   "i": 17,
+   "w": "an",
+   "s": 122.2,
+   "e": 122.3
+  },
+  {
+   "c": 21,
+   "i": 18,
+   "w": "email.",
+   "s": 122.3,
+   "e": 122.64
+  },
+  {
+   "c": 21,
+   "i": 19,
+   "w": "Or",
+   "s": 122.64,
+   "e": 123.04
+  },
+  {
+   "c": 21,
+   "i": 20,
+   "w": "a",
+   "s": 123.04,
+   "e": 123.16
+  },
+  {
+   "c": 21,
+   "i": 21,
+   "w": "face.",
+   "s": 123.16,
+   "e": 123.42
+  },
+  {
+   "c": 21,
+   "i": 22,
+   "w": "Well…",
+   "s": 124.08,
+   "e": 124.22
+  },
+  {
+   "c": 21,
+   "i": 23,
+   "w": "this",
+   "s": 124.4,
+   "e": 124.56
+  },
+  {
+   "c": 21,
+   "i": 24,
+   "w": "one",
+   "s": 124.56,
+   "e": 124.74
+  },
+  {
+   "c": 21,
+   "i": 25,
+   "w": "does.",
+   "s": 124.74,
+   "e": 125.02
+  },
+  {
+   "c": 22,
+   "i": 0,
+   "w": "To",
+   "s": 125.66,
+   "e": 125.74
+  },
+  {
+   "c": 22,
+   "i": 1,
+   "w": "understand",
+   "s": 125.74,
+   "e": 125.98
+  },
+  {
+   "c": 22,
+   "i": 2,
+   "w": "this,",
+   "s": 125.98,
+   "e": 126.52
+  },
+  {
+   "c": 22,
+   "i": 3,
+   "w": "you",
+   "s": 126.7,
+   "e": 126.74
+  },
+  {
+   "c": 22,
+   "i": 4,
+   "w": "need",
+   "s": 126.74,
+   "e": 126.88
+  },
+  {
+   "c": 22,
+   "i": 5,
+   "w": "to",
+   "s": 126.88,
+   "e": 127
+  },
+  {
+   "c": 22,
+   "i": 6,
+   "w": "meet",
+   "s": 127,
+   "e": 127.18
+  },
+  {
+   "c": 22,
+   "i": 7,
+   "w": "Vanguard.",
+   "s": 127.18,
+   "e": 127.48
+  },
+  {
+   "c": 22,
+   "i": 8,
+   "w": "Riot's",
+   "s": 128.22,
+   "e": 128.64
+  },
+  {
+   "c": 22,
+   "i": 9,
+   "w": "anti-cheat.",
+   "s": 128.64,
+   "e": 129.28
+  },
+  {
+   "c": 23,
+   "i": 0,
+   "w": "Vanguard",
+   "s": 129.82,
+   "e": 130.02
+  },
+  {
+   "c": 23,
+   "i": 1,
+   "w": "doesn't",
+   "s": 130.02,
+   "e": 130.58
+  },
+  {
+   "c": 23,
+   "i": 2,
+   "w": "live",
+   "s": 130.58,
+   "e": 130.78
+  },
+  {
+   "c": 23,
+   "i": 3,
+   "w": "in",
+   "s": 130.78,
+   "e": 130.96
+  },
+  {
+   "c": 23,
+   "i": 4,
+   "w": "some",
+   "s": 130.96,
+   "e": 131.18
+  },
+  {
+   "c": 23,
+   "i": 5,
+   "w": "normal",
+   "s": 131.18,
+   "e": 131.52
+  },
+  {
+   "c": 23,
+   "i": 6,
+   "w": "corner",
+   "s": 131.52,
+   "e": 132.02
+  },
+  {
+   "c": 23,
+   "i": 7,
+   "w": "of",
+   "s": 132.02,
+   "e": 132.28
+  },
+  {
+   "c": 23,
+   "i": 8,
+   "w": "your",
+   "s": 132.28,
+   "e": 132.38
+  },
+  {
+   "c": 23,
+   "i": 9,
+   "w": "PC.",
+   "s": 132.38,
+   "e": 132.56
+  },
+  {
+   "c": 23,
+   "i": 10,
+   "w": "It",
+   "s": 133.52,
+   "e": 133.64
+  },
+  {
+   "c": 23,
+   "i": 11,
+   "w": "runs",
+   "s": 133.64,
+   "e": 133.86
+  },
+  {
+   "c": 23,
+   "i": 12,
+   "w": "in",
+   "s": 133.86,
+   "e": 134.18
+  },
+  {
+   "c": 23,
+   "i": 13,
+   "w": "the",
+   "s": 134.18,
+   "e": 134.3
+  },
+  {
+   "c": 23,
+   "i": 14,
+   "w": "kernel,",
+   "s": 134.3,
+   "e": 134.56
+  },
+  {
+   "c": 23,
+   "i": 15,
+   "w": "the",
+   "s": 135,
+   "e": 135.06
+  },
+  {
+   "c": 23,
+   "i": 16,
+   "w": "deepest",
+   "s": 135.06,
+   "e": 135.42
+  },
+  {
+   "c": 23,
+   "i": 17,
+   "w": "and",
+   "s": 135.42,
+   "e": 135.78
+  },
+  {
+   "c": 23,
+   "i": 18,
+   "w": "most",
+   "s": 135.78,
+   "e": 135.94
+  },
+  {
+   "c": 23,
+   "i": 19,
+   "w": "powerful",
+   "s": 135.94,
+   "e": 136.44
+  },
+  {
+   "c": 23,
+   "i": 20,
+   "w": "layer",
+   "s": 136.44,
+   "e": 136.86
+  },
+  {
+   "c": 23,
+   "i": 21,
+   "w": "of",
+   "s": 136.86,
+   "e": 137.18
+  },
+  {
+   "c": 23,
+   "i": 22,
+   "w": "your",
+   "s": 137.18,
+   "e": 137.26
+  },
+  {
+   "c": 23,
+   "i": 23,
+   "w": "system,",
+   "s": 137.26,
+   "e": 137.62
+  },
+  {
+   "c": 23,
+   "i": 24,
+   "w": "and",
+   "s": 137.62,
+   "e": 138.24
+  },
+  {
+   "c": 23,
+   "i": 25,
+   "w": "it",
+   "s": 138.24,
+   "e": 138.32
+  },
+  {
+   "c": 23,
+   "i": 26,
+   "w": "starts",
+   "s": 138.32,
+   "e": 138.56
+  },
+  {
+   "c": 23,
+   "i": 27,
+   "w": "the",
+   "s": 138.56,
+   "e": 138.84
+  },
+  {
+   "c": 23,
+   "i": 28,
+   "w": "moment",
+   "s": 138.84,
+   "e": 139.16
+  },
+  {
+   "c": 23,
+   "i": 29,
+   "w": "your",
+   "s": 139.16,
+   "e": 139.38
+  },
+  {
+   "c": 23,
+   "i": 30,
+   "w": "computer",
+   "s": 139.38,
+   "e": 139.66
+  },
+  {
+   "c": 23,
+   "i": 31,
+   "w": "boots.",
+   "s": 139.66,
+   "e": 140.06
+  },
+  {
+   "c": 23,
+   "i": 32,
+   "w": "Before",
+   "s": 140.96,
+   "e": 140.96
+  },
+  {
+   "c": 23,
+   "i": 33,
+   "w": "your",
+   "s": 140.96,
+   "e": 141.16
+  },
+  {
+   "c": 23,
+   "i": 34,
+   "w": "desktop.",
+   "s": 141.16,
+   "e": 141.46
+  },
+  {
+   "c": 23,
+   "i": 35,
+   "w": "Before",
+   "s": 142.16,
+   "e": 142.44
+  },
+  {
+   "c": 23,
+   "i": 36,
+   "w": "your",
+   "s": 142.44,
+   "e": 142.64
+  },
+  {
+   "c": 23,
+   "i": 37,
+   "w": "wallpaper.",
+   "s": 142.64,
+   "e": 143.06
+  },
+  {
+   "c": 23,
+   "i": 38,
+   "w": "Before",
+   "s": 143.66,
+   "e": 143.92
+  },
+  {
+   "c": 23,
+   "i": 39,
+   "w": "you.",
+   "s": 143.92,
+   "e": 144.28
+  },
+  {
+   "c": 24,
+   "i": 0,
+   "w": "Think",
+   "s": 144.64,
+   "e": 144.82
+  },
+  {
+   "c": 24,
+   "i": 1,
+   "w": "of",
+   "s": 144.82,
+   "e": 144.96
+  },
+  {
+   "c": 24,
+   "i": 2,
+   "w": "Valorant",
+   "s": 144.96,
+   "e": 145.56
+  },
+  {
+   "c": 24,
+   "i": 3,
+   "w": "as",
+   "s": 145.56,
+   "e": 145.76
+  },
+  {
+   "c": 24,
+   "i": 4,
+   "w": "a",
+   "s": 145.76,
+   "e": 145.86
+  },
+  {
+   "c": 24,
+   "i": 5,
+   "w": "club,",
+   "s": 145.86,
+   "e": 146.1
+  },
+  {
+   "c": 24,
+   "i": 6,
+   "w": "and",
+   "s": 146.74,
+   "e": 146.86
+  },
+  {
+   "c": 24,
+   "i": 7,
+   "w": "Vanguard",
+   "s": 146.86,
+   "e": 147.1
+  },
+  {
+   "c": 24,
+   "i": 8,
+   "w": "as",
+   "s": 147.1,
+   "e": 147.62
+  },
+  {
+   "c": 24,
+   "i": 9,
+   "w": "the",
+   "s": 147.62,
+   "e": 147.74
+  },
+  {
+   "c": 24,
+   "i": 10,
+   "w": "bouncer",
+   "s": 147.74,
+   "e": 148.26
+  },
+  {
+   "c": 24,
+   "i": 11,
+   "w": "who",
+   "s": 148.26,
+   "e": 148.46
+  },
+  {
+   "c": 24,
+   "i": 12,
+   "w": "never",
+   "s": 148.46,
+   "e": 148.66
+  },
+  {
+   "c": 24,
+   "i": 13,
+   "w": "forgets",
+   "s": 148.66,
+   "e": 149.2
+  },
+  {
+   "c": 24,
+   "i": 14,
+   "w": "a",
+   "s": 149.2,
+   "e": 149.28
+  },
+  {
+   "c": 24,
+   "i": 15,
+   "w": "face.",
+   "s": 149.28,
+   "e": 149.56
+  },
+  {
+   "c": 25,
+   "i": 0,
+   "w": "But",
+   "s": 150.12,
+   "e": 150.22
+  },
+  {
+   "c": 25,
+   "i": 1,
+   "w": "computers",
+   "s": 150.22,
+   "e": 150.48
+  },
+  {
+   "c": 25,
+   "i": 2,
+   "w": "don't",
+   "s": 150.48,
+   "e": 151.1
+  },
+  {
+   "c": 25,
+   "i": 3,
+   "w": "have",
+   "s": 151.1,
+   "e": 151.26
+  },
+  {
+   "c": 25,
+   "i": 4,
+   "w": "faces.",
+   "s": 151.26,
+   "e": 151.56
+  },
+  {
+   "c": 25,
+   "i": 5,
+   "w": "So",
+   "s": 152.26,
+   "e": 152.4
+  },
+  {
+   "c": 25,
+   "i": 6,
+   "w": "what",
+   "s": 152.4,
+   "e": 152.6
+  },
+  {
+   "c": 25,
+   "i": 7,
+   "w": "does",
+   "s": 152.6,
+   "e": 152.76
+  },
+  {
+   "c": 25,
+   "i": 8,
+   "w": "the",
+   "s": 152.76,
+   "e": 152.9
+  },
+  {
+   "c": 25,
+   "i": 9,
+   "w": "bouncer",
+   "s": 152.9,
+   "e": 153.32
+  },
+  {
+   "c": 25,
+   "i": 10,
+   "w": "actually",
+   "s": 153.32,
+   "e": 153.82
+  },
+  {
+   "c": 25,
+   "i": 11,
+   "w": "remember?",
+   "s": 153.82,
+   "e": 154.2
+  },
+  {
+   "c": 26,
+   "i": 0,
+   "w": "Here's",
+   "s": 154.84,
+   "e": 155.08
+  },
+  {
+   "c": 26,
+   "i": 1,
+   "w": "the",
+   "s": 155.08,
+   "e": 155.2
+  },
+  {
+   "c": 26,
+   "i": 2,
+   "w": "clever",
+   "s": 155.2,
+   "e": 155.36
+  },
+  {
+   "c": 26,
+   "i": 3,
+   "w": "part.",
+   "s": 155.36,
+   "e": 155.78
+  },
+  {
+   "c": 26,
+   "i": 4,
+   "w": "On",
+   "s": 156.28,
+   "e": 156.46
+  },
+  {
+   "c": 26,
+   "i": 5,
+   "w": "Windows",
+   "s": 156.46,
+   "e": 156.62
+  },
+  {
+   "c": 26,
+   "i": 6,
+   "w": "11,",
+   "s": 156.62,
+   "e": 157.22
+  },
+  {
+   "c": 26,
+   "i": 7,
+   "w": "Valorant",
+   "s": 157.48,
+   "e": 158
+  },
+  {
+   "c": 26,
+   "i": 8,
+   "w": "needs",
+   "s": 158,
+   "e": 158.16
+  },
+  {
+   "c": 26,
+   "i": 9,
+   "w": "something",
+   "s": 158.16,
+   "e": 158.48
+  },
+  {
+   "c": 26,
+   "i": 10,
+   "w": "called",
+   "s": 158.48,
+   "e": 158.9
+  },
+  {
+   "c": 26,
+   "i": 11,
+   "w": "TPM",
+   "s": 158.9,
+   "e": 159.48
+  },
+  {
+   "c": 26,
+   "i": 12,
+   "w": "2.0.",
+   "s": 159.48,
+   "e": 160.74
+  },
+  {
+   "c": 26,
+   "i": 13,
+   "w": "A",
+   "s": 161.08,
+   "e": 161.38
+  },
+  {
+   "c": 26,
+   "i": 14,
+   "w": "tiny",
+   "s": 161.38,
+   "e": 161.66
+  },
+  {
+   "c": 26,
+   "i": 15,
+   "w": "security",
+   "s": 161.66,
+   "e": 162.24
+  },
+  {
+   "c": 26,
+   "i": 16,
+   "w": "vault",
+   "s": 162.24,
+   "e": 162.66
+  },
+  {
+   "c": 26,
+   "i": 17,
+   "w": "that",
+   "s": 162.66,
+   "e": 162.94
+  },
+  {
+   "c": 26,
+   "i": 18,
+   "w": "stores",
+   "s": 162.94,
+   "e": 163.22
+  },
+  {
+   "c": 26,
+   "i": 19,
+   "w": "secret",
+   "s": 163.22,
+   "e": 163.82
+  },
+  {
+   "c": 26,
+   "i": 20,
+   "w": "keys.",
+   "s": 163.82,
+   "e": 164.26
+  },
+  {
+   "c": 26,
+   "i": 21,
+   "w": "And",
+   "s": 164.9,
+   "e": 165.08
+  },
+  {
+   "c": 26,
+   "i": 22,
+   "w": "on",
+   "s": 165.08,
+   "e": 165.18
+  },
+  {
+   "c": 26,
+   "i": 23,
+   "w": "AMD",
+   "s": 165.18,
+   "e": 165.75
+  },
+  {
+   "c": 26,
+   "i": 24,
+   "w": "Ryzen",
+   "s": 165.75,
+   "e": 166.32
+  },
+  {
+   "c": 26,
+   "i": 25,
+   "w": "chips,",
+   "s": 166.32,
+   "e": 166.54
+  },
+  {
+   "c": 26,
+   "i": 26,
+   "w": "that",
+   "s": 167.04,
+   "e": 167.18
+  },
+  {
+   "c": 26,
+   "i": 27,
+   "w": "vault",
+   "s": 167.18,
+   "e": 167.4
+  },
+  {
+   "c": 26,
+   "i": 28,
+   "w": "isn't",
+   "s": 167.4,
+   "e": 167.82
+  },
+  {
+   "c": 26,
+   "i": 29,
+   "w": "a",
+   "s": 167.82,
+   "e": 167.92
+  },
+  {
+   "c": 26,
+   "i": 30,
+   "w": "separate",
+   "s": 167.92,
+   "e": 168.22
+  },
+  {
+   "c": 26,
+   "i": 31,
+   "w": "part.",
+   "s": 168.22,
+   "e": 168.52
+  },
+  {
+   "c": 26,
+   "i": 32,
+   "w": "It's",
+   "s": 169.12,
+   "e": 169.28
+  },
+  {
+   "c": 26,
+   "i": 33,
+   "w": "built",
+   "s": 169.28,
+   "e": 169.48
+  },
+  {
+   "c": 26,
+   "i": 34,
+   "w": "right",
+   "s": 169.48,
+   "e": 169.84
+  },
+  {
+   "c": 26,
+   "i": 35,
+   "w": "inside",
+   "s": 169.84,
+   "e": 170.28
+  },
+  {
+   "c": 26,
+   "i": 36,
+   "w": "the",
+   "s": 170.28,
+   "e": 170.6
+  },
+  {
+   "c": 26,
+   "i": 37,
+   "w": "processor.",
+   "s": 170.6,
+   "e": 170.98
+  },
+  {
+   "c": 27,
+   "i": 0,
+   "w": "So",
+   "s": 171.56,
+   "e": 171.72
+  },
+  {
+   "c": 27,
+   "i": 1,
+   "w": "when",
+   "s": 171.72,
+   "e": 171.86
+  },
+  {
+   "c": 27,
+   "i": 2,
+   "w": "you",
+   "s": 171.86,
+   "e": 171.94
+  },
+  {
+   "c": 27,
+   "i": 3,
+   "w": "buy",
+   "s": 171.94,
+   "e": 172.14
+  },
+  {
+   "c": 27,
+   "i": 4,
+   "w": "a",
+   "s": 172.14,
+   "e": 172.32
+  },
+  {
+   "c": 27,
+   "i": 5,
+   "w": "used",
+   "s": 172.32,
+   "e": 172.64
+  },
+  {
+   "c": 27,
+   "i": 6,
+   "w": "Ryzen,",
+   "s": 172.64,
+   "e": 173.2
+  },
+  {
+   "c": 27,
+   "i": 7,
+   "w": "you're",
+   "s": 173.2,
+   "e": 173.32
+  },
+  {
+   "c": 27,
+   "i": 8,
+   "w": "not",
+   "s": 173.32,
+   "e": 173.5
+  },
+  {
+   "c": 27,
+   "i": 9,
+   "w": "just",
+   "s": 173.5,
+   "e": 173.68
+  },
+  {
+   "c": 27,
+   "i": 10,
+   "w": "buying",
+   "s": 173.68,
+   "e": 173.98
+  },
+  {
+   "c": 27,
+   "i": 11,
+   "w": "a",
+   "s": 173.98,
+   "e": 174.22
+  },
+  {
+   "c": 27,
+   "i": 12,
+   "w": "CPU.",
+   "s": 174.22,
+   "e": 174.5
+  },
+  {
+   "c": 27,
+   "i": 13,
+   "w": "You're",
+   "s": 175.5,
+   "e": 175.68
+  },
+  {
+   "c": 27,
+   "i": 14,
+   "w": "buying",
+   "s": 175.68,
+   "e": 175.98
+  },
+  {
+   "c": 27,
+   "i": 15,
+   "w": "its",
+   "s": 175.98,
+   "e": 176.26
+  },
+  {
+   "c": 27,
+   "i": 16,
+   "w": "vault.",
+   "s": 176.26,
+   "e": 176.56
+  },
+  {
+   "c": 27,
+   "i": 17,
+   "w": "Its",
+   "s": 176.98,
+   "e": 177.18
+  },
+  {
+   "c": 27,
+   "i": 18,
+   "w": "keys.",
+   "s": 177.18,
+   "e": 177.48
+  },
+  {
+   "c": 27,
+   "i": 19,
+   "w": "Its",
+   "s": 177.92,
+   "e": 178.02
+  },
+  {
+   "c": 27,
+   "i": 20,
+   "w": "identity.",
+   "s": 178.02,
+   "e": 178.4
+  },
+  {
+   "c": 28,
+   "i": 0,
+   "w": "Riot",
+   "s": 179.06,
+   "e": 179.28
+  },
+  {
+   "c": 28,
+   "i": 1,
+   "w": "hasn't",
+   "s": 179.28,
+   "e": 179.72
+  },
+  {
+   "c": 28,
+   "i": 2,
+   "w": "said",
+   "s": 179.72,
+   "e": 179.88
+  },
+  {
+   "c": 28,
+   "i": 3,
+   "w": "exactly",
+   "s": 179.88,
+   "e": 180.06
+  },
+  {
+   "c": 28,
+   "i": 4,
+   "w": "what",
+   "s": 180.06,
+   "e": 180.6
+  },
+  {
+   "c": 28,
+   "i": 5,
+   "w": "it",
+   "s": 180.6,
+   "e": 180.7
+  },
+  {
+   "c": 28,
+   "i": 6,
+   "w": "reads.",
+   "s": 180.7,
+   "e": 180.96
+  },
+  {
+   "c": 28,
+   "i": 7,
+   "w": "But",
+   "s": 181.6,
+   "e": 181.76
+  },
+  {
+   "c": 28,
+   "i": 8,
+   "w": "experts",
+   "s": 181.76,
+   "e": 182.02
+  },
+  {
+   "c": 28,
+   "i": 9,
+   "w": "suspect",
+   "s": 182.02,
+   "e": 182.66
+  },
+  {
+   "c": 28,
+   "i": 10,
+   "w": "a",
+   "s": 182.66,
+   "e": 182.84
+  },
+  {
+   "c": 28,
+   "i": 11,
+   "w": "unique",
+   "s": 182.84,
+   "e": 183.06
+  },
+  {
+   "c": 28,
+   "i": 12,
+   "w": "key,",
+   "s": 183.06,
+   "e": 183.44
+  },
+  {
+   "c": 28,
+   "i": 13,
+   "w": "created",
+   "s": 183.44,
+   "e": 183.88
+  },
+  {
+   "c": 28,
+   "i": 14,
+   "w": "inside",
+   "s": 183.88,
+   "e": 184.38
+  },
+  {
+   "c": 28,
+   "i": 15,
+   "w": "that",
+   "s": 184.38,
+   "e": 184.76
+  },
+  {
+   "c": 28,
+   "i": 16,
+   "w": "vault",
+   "s": 184.76,
+   "e": 185.02
+  },
+  {
+   "c": 28,
+   "i": 17,
+   "w": "when",
+   "s": 185.02,
+   "e": 185.24
+  },
+  {
+   "c": 28,
+   "i": 18,
+   "w": "the",
+   "s": 185.24,
+   "e": 185.34
+  },
+  {
+   "c": 28,
+   "i": 19,
+   "w": "chip",
+   "s": 185.34,
+   "e": 185.5
+  },
+  {
+   "c": 28,
+   "i": 20,
+   "w": "is",
+   "s": 185.5,
+   "e": 185.68
+  },
+  {
+   "c": 28,
+   "i": 21,
+   "w": "made.",
+   "s": 185.68,
+   "e": 185.96
+  },
+  {
+   "c": 28,
+   "i": 22,
+   "w": "Reinstall",
+   "s": 193.68,
+   "e": 194.24
+  },
+  {
+   "c": 28,
+   "i": 23,
+   "w": "Windows?",
+   "s": 188.371,
+   "e": 188.774
+  },
+  {
+   "c": 28,
+   "i": 24,
+   "w": "Same",
+   "s": 188.774,
+   "e": 189.177
+  },
+  {
+   "c": 28,
+   "i": 25,
+   "w": "key.",
+   "s": 189.177,
+   "e": 189.58
+  },
+  {
+   "c": 28,
+   "i": 26,
+   "w": "New",
+   "s": 189.58,
+   "e": 189.983
+  },
+  {
+   "c": 28,
+   "i": 27,
+   "w": "account?",
+   "s": 189.983,
+   "e": 190.386
+  },
+  {
+   "c": 28,
+   "i": 28,
+   "w": "Same",
+   "s": 190.386,
+   "e": 190.789
+  },
+  {
+   "c": 28,
+   "i": 29,
+   "w": "key.",
+   "s": 190.789,
+   "e": 191.192
+  },
+  {
+   "c": 28,
+   "i": 30,
+   "w": "Brand-new",
+   "s": 191.192,
+   "e": 191.595
+  },
+  {
+   "c": 28,
+   "i": 31,
+   "w": "game",
+   "s": 191.595,
+   "e": 191.998
+  },
+  {
+   "c": 28,
+   "i": 32,
+   "w": "install?",
+   "s": 191.998,
+   "e": 192.401
+  },
+  {
+   "c": 28,
+   "i": 33,
+   "w": "You",
+   "s": 192.401,
+   "e": 192.804
+  },
+  {
+   "c": 28,
+   "i": 34,
+   "w": "guessed",
+   "s": 192.804,
+   "e": 193.207
+  },
+  {
+   "c": 28,
+   "i": 35,
+   "w": "it.",
+   "s": 193.207,
+   "e": 193.61
+  },
+  {
+   "c": 29,
+   "i": 0,
+   "w": "Every",
+   "s": 193.96,
+   "e": 194.322
+  },
+  {
+   "c": 29,
+   "i": 1,
+   "w": "time",
+   "s": 194.24,
+   "e": 194.5
+  },
+  {
+   "c": 29,
+   "i": 2,
+   "w": "you",
+   "s": 194.5,
+   "e": 194.66
+  },
+  {
+   "c": 29,
+   "i": 3,
+   "w": "launch",
+   "s": 194.66,
+   "e": 194.86
+  },
+  {
+   "c": 29,
+   "i": 4,
+   "w": "Valorant,",
+   "s": 194.86,
+   "e": 195.52
+  },
+  {
+   "c": 29,
+   "i": 5,
+   "w": "Vanguard",
+   "s": 195.86,
+   "e": 196.08
+  },
+  {
+   "c": 29,
+   "i": 6,
+   "w": "checks",
+   "s": 196.08,
+   "e": 196.62
+  },
+  {
+   "c": 29,
+   "i": 7,
+   "w": "your",
+   "s": 196.62,
+   "e": 196.84
+  },
+  {
+   "c": 29,
+   "i": 8,
+   "w": "hardware",
+   "s": 196.84,
+   "e": 197.12
+  },
+  {
+   "c": 29,
+   "i": 9,
+   "w": "against",
+   "s": 197.12,
+   "e": 197.68
+  },
+  {
+   "c": 29,
+   "i": 10,
+   "w": "Riot's",
+   "s": 197.68,
+   "e": 198.24
+  },
+  {
+   "c": 29,
+   "i": 11,
+   "w": "ban",
+   "s": 198.24,
+   "e": 198.4
+  },
+  {
+   "c": 29,
+   "i": 12,
+   "w": "list.",
+   "s": 198.4,
+   "e": 198.68
+  },
+  {
+   "c": 29,
+   "i": 13,
+   "w": "And",
+   "s": 199.42,
+   "e": 199.54
+  },
+  {
+   "c": 29,
+   "i": 14,
+   "w": "if",
+   "s": 199.54,
+   "e": 199.62
+  },
+  {
+   "c": 29,
+   "i": 15,
+   "w": "a",
+   "s": 199.62,
+   "e": 199.68
+  },
+  {
+   "c": 29,
+   "i": 16,
+   "w": "part",
+   "s": 199.68,
+   "e": 199.96
+  },
+  {
+   "c": 29,
+   "i": 17,
+   "w": "matches",
+   "s": 199.96,
+   "e": 200.34
+  },
+  {
+   "c": 29,
+   "i": 18,
+   "w": "a",
+   "s": 200.34,
+   "e": 200.54
+  },
+  {
+   "c": 29,
+   "i": 19,
+   "w": "banned",
+   "s": 200.54,
+   "e": 200.76
+  },
+  {
+   "c": 29,
+   "i": 20,
+   "w": "machine…",
+   "s": 200.76,
+   "e": 201.18
+  },
+  {
+   "c": 29,
+   "i": 21,
+   "w": "the",
+   "s": 201.84,
+   "e": 201.92
+  },
+  {
+   "c": 29,
+   "i": 22,
+   "w": "door",
+   "s": 201.92,
+   "e": 202.14
+  },
+  {
+   "c": 29,
+   "i": 23,
+   "w": "stays",
+   "s": 202.14,
+   "e": 202.54
+  },
+  {
+   "c": 29,
+   "i": 24,
+   "w": "shut.",
+   "s": 202.54,
+   "e": 202.92
+  },
+  {
+   "c": 30,
+   "i": 0,
+   "w": "So",
+   "s": 203.32,
+   "e": 203.42
+  },
+  {
+   "c": 30,
+   "i": 1,
+   "w": "to",
+   "s": 203.42,
+   "e": 203.5
+  },
+  {
+   "c": 30,
+   "i": 2,
+   "w": "Vanguard,",
+   "s": 203.5,
+   "e": 203.86
+  },
+  {
+   "c": 30,
+   "i": 3,
+   "w": "Chip",
+   "s": 203.86,
+   "e": 204.26
+  },
+  {
+   "c": 30,
+   "i": 4,
+   "w": "isn't",
+   "s": 204.26,
+   "e": 204.58
+  },
+  {
+   "c": 30,
+   "i": 5,
+   "w": "a",
+   "s": 204.58,
+   "e": 204.66
+  },
+  {
+   "c": 30,
+   "i": 6,
+   "w": "CPU.",
+   "s": 204.66,
+   "e": 204.88
+  },
+  {
+   "c": 30,
+   "i": 7,
+   "w": "Chip",
+   "s": 205.74,
+   "e": 206.02
+  },
+  {
+   "c": 30,
+   "i": 8,
+   "w": "is",
+   "s": 206.02,
+   "e": 206.24
+  },
+  {
+   "c": 30,
+   "i": 9,
+   "w": "that",
+   "s": 206.24,
+   "e": 206.4
+  },
+  {
+   "c": 30,
+   "i": 10,
+   "w": "guy.",
+   "s": 206.4,
+   "e": 206.7
+  },
+  {
+   "c": 31,
+   "i": 0,
+   "w": "But",
+   "s": 207.56,
+   "e": 207.7
+  },
+  {
+   "c": 31,
+   "i": 1,
+   "w": "here's",
+   "s": 207.7,
+   "e": 208.04
+  },
+  {
+   "c": 31,
+   "i": 2,
+   "w": "the",
+   "s": 208.04,
+   "e": 208.14
+  },
+  {
+   "c": 31,
+   "i": 3,
+   "w": "plot",
+   "s": 208.14,
+   "e": 208.36
+  },
+  {
+   "c": 31,
+   "i": 4,
+   "w": "twist.",
+   "s": 208.36,
+   "e": 208.72
+  },
+  {
+   "c": 32,
+   "i": 0,
+   "w": "Riot's",
+   "s": 209.38,
+   "e": 209.84
+  },
+  {
+   "c": 32,
+   "i": 1,
+   "w": "head",
+   "s": 209.84,
+   "e": 210
+  },
+  {
+   "c": 32,
+   "i": 2,
+   "w": "of",
+   "s": 210,
+   "e": 210.12
+  },
+  {
+   "c": 32,
+   "i": 3,
+   "w": "anti-cheat,",
+   "s": 210.12,
+   "e": 210.74
+  },
+  {
+   "c": 32,
+   "i": 4,
+   "w": "Phillip",
+   "s": 210.74,
+   "e": 211.36
+  },
+  {
+   "c": 32,
+   "i": 5,
+   "w": "Koskinas,",
+   "s": 211.36,
+   "e": 211.98
+  },
+  {
+   "c": 32,
+   "i": 6,
+   "w": "says",
+   "s": 212.44,
+   "e": 212.7
+  },
+  {
+   "c": 32,
+   "i": 7,
+   "w": "parts",
+   "s": 212.7,
+   "e": 212.92
+  },
+  {
+   "c": 32,
+   "i": 8,
+   "w": "of",
+   "s": 212.92,
+   "e": 213.18
+  },
+  {
+   "c": 32,
+   "i": 9,
+   "w": "this",
+   "s": 213.18,
+   "e": 213.34
+  },
+  {
+   "c": 32,
+   "i": 10,
+   "w": "story",
+   "s": 213.34,
+   "e": 213.66
+  },
+  {
+   "c": 32,
+   "i": 11,
+   "w": "don't",
+   "s": 213.66,
+   "e": 214.16
+  },
+  {
+   "c": 32,
+   "i": 12,
+   "w": "add",
+   "s": 214.16,
+   "e": 214.34
+  },
+  {
+   "c": 32,
+   "i": 13,
+   "w": "up.",
+   "s": 214.34,
+   "e": 214.66
+  },
+  {
+   "c": 32,
+   "i": 14,
+   "w": "He",
+   "s": 215.16,
+   "e": 215.28
+  },
+  {
+   "c": 32,
+   "i": 15,
+   "w": "says",
+   "s": 215.28,
+   "e": 215.46
+  },
+  {
+   "c": 32,
+   "i": 16,
+   "w": "he",
+   "s": 215.46,
+   "e": 215.6
+  },
+  {
+   "c": 32,
+   "i": 17,
+   "w": "couldn't",
+   "s": 215.6,
+   "e": 215.84
+  },
+  {
+   "c": 32,
+   "i": 18,
+   "w": "find",
+   "s": 215.84,
+   "e": 216.02
+  },
+  {
+   "c": 32,
+   "i": 19,
+   "w": "a",
+   "s": 216.02,
+   "e": 216.18
+  },
+  {
+   "c": 32,
+   "i": 20,
+   "w": "support",
+   "s": 216.18,
+   "e": 216.4
+  },
+  {
+   "c": 32,
+   "i": 21,
+   "w": "ticket",
+   "s": 216.4,
+   "e": 216.84
+  },
+  {
+   "c": 32,
+   "i": 22,
+   "w": "that",
+   "s": 216.84,
+   "e": 217.1
+  },
+  {
+   "c": 32,
+   "i": 23,
+   "w": "matches",
+   "s": 217.1,
+   "e": 217.52
+  },
+  {
+   "c": 32,
+   "i": 24,
+   "w": "Leo's,",
+   "s": 217.52,
+   "e": 218.24
+  },
+  {
+   "c": 32,
+   "i": 25,
+   "w": "and",
+   "s": 218.44,
+   "e": 218.7
+  },
+  {
+   "c": 32,
+   "i": 26,
+   "w": "he",
+   "s": 218.7,
+   "e": 218.78
+  },
+  {
+   "c": 32,
+   "i": 27,
+   "w": "called",
+   "s": 218.78,
+   "e": 218.94
+  },
+  {
+   "c": 32,
+   "i": 28,
+   "w": "the",
+   "s": 218.94,
+   "e": 219.18
+  },
+  {
+   "c": 32,
+   "i": 29,
+   "w": "whole",
+   "s": 219.18,
+   "e": 219.36
+  },
+  {
+   "c": 32,
+   "i": 30,
+   "w": "thing",
+   "s": 219.36,
+   "e": 219.74
+  },
+  {
+   "c": 32,
+   "i": 31,
+   "w": "pretty",
+   "s": 219.74,
+   "e": 220.04
+  },
+  {
+   "c": 32,
+   "i": 32,
+   "w": "unlikely.",
+   "s": 220.04,
+   "e": 220.48
+  },
+  {
+   "c": 33,
+   "i": 0,
+   "w": "Leo",
+   "s": 221.48,
+   "e": 221.48
+  },
+  {
+   "c": 33,
+   "i": 1,
+   "w": "also",
+   "s": 221.48,
+   "e": 221.82
+  },
+  {
+   "c": 33,
+   "i": 2,
+   "w": "says",
+   "s": 221.82,
+   "e": 222.16
+  },
+  {
+   "c": 33,
+   "i": 3,
+   "w": "his",
+   "s": 222.16,
+   "e": 222.34
+  },
+  {
+   "c": 33,
+   "i": 4,
+   "w": "motherboard",
+   "s": 222.34,
+   "e": 222.72
+  },
+  {
+   "c": 33,
+   "i": 5,
+   "w": "and",
+   "s": 222.72,
+   "e": 223.1
+  },
+  {
+   "c": 33,
+   "i": 6,
+   "w": "his",
+   "s": 223.1,
+   "e": 223.28
+  },
+  {
+   "c": 33,
+   "i": 7,
+   "w": "SSD",
+   "s": 223.28,
+   "e": 223.7
+  },
+  {
+   "c": 33,
+   "i": 8,
+   "w": "got",
+   "s": 223.7,
+   "e": 224.22
+  },
+  {
+   "c": 33,
+   "i": 9,
+   "w": "flagged",
+   "s": 224.22,
+   "e": 224.46
+  },
+  {
+   "c": 33,
+   "i": 10,
+   "w": "too.",
+   "s": 224.46,
+   "e": 224.96
+  },
+  {
+   "c": 33,
+   "i": 11,
+   "w": "Riot",
+   "s": 225.6,
+   "e": 225.92
+  },
+  {
+   "c": 33,
+   "i": 12,
+   "w": "says",
+   "s": 225.92,
+   "e": 226.2
+  },
+  {
+   "c": 33,
+   "i": 13,
+   "w": "no.",
+   "s": 226.2,
+   "e": 226.56
+  },
+  {
+   "c": 33,
+   "i": 14,
+   "w": "When",
+   "s": 227.12,
+   "e": 227.3
+  },
+  {
+   "c": 33,
+   "i": 15,
+   "w": "one",
+   "s": 227.3,
+   "e": 227.48
+  },
+  {
+   "c": 33,
+   "i": 16,
+   "w": "part",
+   "s": 227.48,
+   "e": 227.74
+  },
+  {
+   "c": 33,
+   "i": 17,
+   "w": "matches,",
+   "s": 227.74,
+   "e": 228.22
+  },
+  {
+   "c": 33,
+   "i": 18,
+   "w": "it",
+   "s": 228.7,
+   "e": 228.84
+  },
+  {
+   "c": 33,
+   "i": 19,
+   "w": "doesn't",
+   "s": 228.84,
+   "e": 229.14
+  },
+  {
+   "c": 33,
+   "i": 20,
+   "w": "blacklist",
+   "s": 229.14,
+   "e": 229.32
+  },
+  {
+   "c": 33,
+   "i": 21,
+   "w": "everything",
+   "s": 229.32,
+   "e": 229.98
+  },
+  {
+   "c": 33,
+   "i": 22,
+   "w": "else",
+   "s": 229.98,
+   "e": 230.42
+  },
+  {
+   "c": 33,
+   "i": 23,
+   "w": "in",
+   "s": 230.42,
+   "e": 230.6
+  },
+  {
+   "c": 33,
+   "i": 24,
+   "w": "your",
+   "s": 230.6,
+   "e": 230.7
+  },
+  {
+   "c": 33,
+   "i": 25,
+   "w": "PC.",
+   "s": 230.7,
+   "e": 230.88
+  },
+  {
+   "c": 34,
+   "i": 0,
+   "w": "So",
+   "s": 231.64,
+   "e": 231.78
+  },
+  {
+   "c": 34,
+   "i": 1,
+   "w": "who's",
+   "s": 231.78,
+   "e": 232.02
+  },
+  {
+   "c": 34,
+   "i": 2,
+   "w": "telling",
+   "s": 232.02,
+   "e": 232.24
+  },
+  {
+   "c": 34,
+   "i": 3,
+   "w": "the",
+   "s": 232.24,
+   "e": 232.44
+  },
+  {
+   "c": 34,
+   "i": 4,
+   "w": "truth?",
+   "s": 232.44,
+   "e": 232.66
+  },
+  {
+   "c": 34,
+   "i": 5,
+   "w": "Honestly…",
+   "s": 233.14,
+   "e": 233.36
+  },
+  {
+   "c": 34,
+   "i": 6,
+   "w": "we",
+   "s": 233.86,
+   "e": 233.92
+  },
+  {
+   "c": 34,
+   "i": 7,
+   "w": "don't",
+   "s": 233.92,
+   "e": 234.12
+  },
+  {
+   "c": 34,
+   "i": 8,
+   "w": "fully",
+   "s": 234.12,
+   "e": 234.26
+  },
+  {
+   "c": 34,
+   "i": 9,
+   "w": "know",
+   "s": 234.26,
+   "e": 234.58
+  },
+  {
+   "c": 34,
+   "i": 10,
+   "w": "yet.",
+   "s": 234.58,
+   "e": 234.86
+  },
+  {
+   "c": 35,
+   "i": 0,
+   "w": "But",
+   "s": 235.34,
+   "e": 235.5
+  },
+  {
+   "c": 35,
+   "i": 1,
+   "w": "Riot",
+   "s": 235.5,
+   "e": 235.74
+  },
+  {
+   "c": 35,
+   "i": 2,
+   "w": "did",
+   "s": 235.74,
+   "e": 236.04
+  },
+  {
+   "c": 35,
+   "i": 3,
+   "w": "confirm",
+   "s": 236.04,
+   "e": 236.38
+  },
+  {
+   "c": 35,
+   "i": 4,
+   "w": "two",
+   "s": 236.38,
+   "e": 236.82
+  },
+  {
+   "c": 35,
+   "i": 5,
+   "w": "things.",
+   "s": 236.82,
+   "e": 237.16
+  },
+  {
+   "c": 35,
+   "i": 6,
+   "w": "One,",
+   "s": 237.9,
+   "e": 238.02
+  },
+  {
+   "c": 35,
+   "i": 7,
+   "w": "its",
+   "s": 238.28,
+   "e": 238.58
+  },
+  {
+   "c": 35,
+   "i": 8,
+   "w": "hardware",
+   "s": 238.58,
+   "e": 238.82
+  },
+  {
+   "c": 35,
+   "i": 9,
+   "w": "bans",
+   "s": 238.82,
+   "e": 239.3
+  },
+  {
+   "c": 35,
+   "i": 10,
+   "w": "last",
+   "s": 239.3,
+   "e": 239.58
+  },
+  {
+   "c": 35,
+   "i": 11,
+   "w": "four",
+   "s": 239.58,
+   "e": 239.96
+  },
+  {
+   "c": 35,
+   "i": 12,
+   "w": "months,",
+   "s": 239.96,
+   "e": 240.24
+  },
+  {
+   "c": 35,
+   "i": 13,
+   "w": "at",
+   "s": 240.24,
+   "e": 240.52
+  },
+  {
+   "c": 35,
+   "i": 14,
+   "w": "most.",
+   "s": 240.52,
+   "e": 240.68
+  },
+  {
+   "c": 35,
+   "i": 15,
+   "w": "Two,",
+   "s": 241.5,
+   "e": 241.62
+  },
+  {
+   "c": 35,
+   "i": 16,
+   "w": "they",
+   "s": 241.88,
+   "e": 242.06
+  },
+  {
+   "c": 35,
+   "i": 17,
+   "w": "only",
+   "s": 242.06,
+   "e": 242.28
+  },
+  {
+   "c": 35,
+   "i": 18,
+   "w": "apply",
+   "s": 242.28,
+   "e": 242.7
+  },
+  {
+   "c": 35,
+   "i": 19,
+   "w": "to",
+   "s": 242.7,
+   "e": 242.96
+  },
+  {
+   "c": 35,
+   "i": 20,
+   "w": "the",
+   "s": 242.96,
+   "e": 243.06
+  },
+  {
+   "c": 35,
+   "i": 21,
+   "w": "game",
+   "s": 243.06,
+   "e": 243.34
+  },
+  {
+   "c": 35,
+   "i": 22,
+   "w": "where",
+   "s": 243.34,
+   "e": 243.56
+  },
+  {
+   "c": 35,
+   "i": 23,
+   "w": "the",
+   "s": 243.56,
+   "e": 243.68
+  },
+  {
+   "c": 35,
+   "i": 24,
+   "w": "cheating",
+   "s": 243.68,
+   "e": 243.9
+  },
+  {
+   "c": 35,
+   "i": 25,
+   "w": "happened.",
+   "s": 243.9,
+   "e": 244.5
+  },
+  {
+   "c": 36,
+   "i": 0,
+   "w": "So",
+   "s": 244.92,
+   "e": 245.1
+  },
+  {
+   "c": 36,
+   "i": 1,
+   "w": "if",
+   "s": 245.1,
+   "e": 245.22
+  },
+  {
+   "c": 36,
+   "i": 2,
+   "w": "Chip",
+   "s": 245.22,
+   "e": 245.42
+  },
+  {
+   "c": 36,
+   "i": 3,
+   "w": "was",
+   "s": 245.42,
+   "e": 245.68
+  },
+  {
+   "c": 36,
+   "i": 4,
+   "w": "banned",
+   "s": 245.68,
+   "e": 245.94
+  },
+  {
+   "c": 36,
+   "i": 5,
+   "w": "on",
+   "s": 245.94,
+   "e": 246.26
+  },
+  {
+   "c": 36,
+   "i": 6,
+   "w": "August",
+   "s": 246.26,
+   "e": 246.56
+  },
+  {
+   "c": 36,
+   "i": 7,
+   "w": "twelfth…",
+   "s": 246.56,
+   "e": 247.44
+  },
+  {
+   "c": 36,
+   "i": 8,
+   "w": "his",
+   "s": 247.64,
+   "e": 247.8
+  },
+  {
+   "c": 36,
+   "i": 9,
+   "w": "sentence",
+   "s": 247.8,
+   "e": 248.08
+  },
+  {
+   "c": 36,
+   "i": 10,
+   "w": "should",
+   "s": 248.08,
+   "e": 248.44
+  },
+  {
+   "c": 36,
+   "i": 11,
+   "w": "end",
+   "s": 248.44,
+   "e": 248.74
+  },
+  {
+   "c": 36,
+   "i": 12,
+   "w": "around",
+   "s": 248.74,
+   "e": 249.12
+  },
+  {
+   "c": 36,
+   "i": 13,
+   "w": "the",
+   "s": 249.12,
+   "e": 249.32
+  },
+  {
+   "c": 36,
+   "i": 14,
+   "w": "middle",
+   "s": 249.32,
+   "e": 249.52
+  },
+  {
+   "c": 36,
+   "i": 15,
+   "w": "of",
+   "s": 249.52,
+   "e": 249.66
+  },
+  {
+   "c": 36,
+   "i": 16,
+   "w": "December.",
+   "s": 249.66,
+   "e": 249.96
+  },
+  {
+   "c": 37,
+   "i": 0,
+   "w": "And",
+   "s": 250.76,
+   "e": 250.92
+  },
+  {
+   "c": 37,
+   "i": 1,
+   "w": "that's",
+   "s": 250.92,
+   "e": 251.16
+  },
+  {
+   "c": 37,
+   "i": 2,
+   "w": "the",
+   "s": 251.16,
+   "e": 251.26
+  },
+  {
+   "c": 37,
+   "i": 3,
+   "w": "part",
+   "s": 251.26,
+   "e": 251.5
+  },
+  {
+   "c": 37,
+   "i": 4,
+   "w": "that",
+   "s": 251.5,
+   "e": 251.7
+  },
+  {
+   "c": 37,
+   "i": 5,
+   "w": "actually",
+   "s": 251.7,
+   "e": 252.08
+  },
+  {
+   "c": 37,
+   "i": 6,
+   "w": "hurts.",
+   "s": 252.08,
+   "e": 252.46
+  },
+  {
+   "c": 37,
+   "i": 7,
+   "w": "You",
+   "s": 253.12,
+   "e": 253.2
+  },
+  {
+   "c": 37,
+   "i": 8,
+   "w": "save",
+   "s": 253.2,
+   "e": 253.48
+  },
+  {
+   "c": 37,
+   "i": 9,
+   "w": "up.",
+   "s": 253.48,
+   "e": 253.74
+  },
+  {
+   "c": 37,
+   "i": 10,
+   "w": "You",
+   "s": 254.16,
+   "e": 254.32
+  },
+  {
+   "c": 37,
+   "i": 11,
+   "w": "hunt",
+   "s": 254.32,
+   "e": 254.52
+  },
+  {
+   "c": 37,
+   "i": 12,
+   "w": "for",
+   "s": 254.52,
+   "e": 254.76
+  },
+  {
+   "c": 37,
+   "i": 13,
+   "w": "a",
+   "s": 254.76,
+   "e": 254.86
+  },
+  {
+   "c": 37,
+   "i": 14,
+   "w": "good",
+   "s": 254.86,
+   "e": 255.02
+  },
+  {
+   "c": 37,
+   "i": 15,
+   "w": "deal.",
+   "s": 255.02,
+   "e": 255.32
+  },
+  {
+   "c": 37,
+   "i": 16,
+   "w": "You",
+   "s": 255.8,
+   "e": 255.9
+  },
+  {
+   "c": 37,
+   "i": 17,
+   "w": "build",
+   "s": 255.9,
+   "e": 256.12
+  },
+  {
+   "c": 37,
+   "i": 18,
+   "w": "your",
+   "s": 256.12,
+   "e": 256.28
+  },
+  {
+   "c": 37,
+   "i": 19,
+   "w": "setup",
+   "s": 256.28,
+   "e": 256.6
+  },
+  {
+   "c": 37,
+   "i": 20,
+   "w": "piece",
+   "s": 256.6,
+   "e": 256.92
+  },
+  {
+   "c": 37,
+   "i": 21,
+   "w": "by",
+   "s": 256.92,
+   "e": 257.22
+  },
+  {
+   "c": 37,
+   "i": 22,
+   "w": "piece…",
+   "s": 257.22,
+   "e": 257.56
+  },
+  {
+   "c": 37,
+   "i": 23,
+   "w": "and",
+   "s": 257.96,
+   "e": 258.16
+  },
+  {
+   "c": 37,
+   "i": 24,
+   "w": "you",
+   "s": 258.16,
+   "e": 258.26
+  },
+  {
+   "c": 37,
+   "i": 25,
+   "w": "end",
+   "s": 258.26,
+   "e": 258.44
+  },
+  {
+   "c": 37,
+   "i": 26,
+   "w": "up",
+   "s": 258.44,
+   "e": 258.62
+  },
+  {
+   "c": 37,
+   "i": 27,
+   "w": "paying",
+   "s": 258.62,
+   "e": 258.96
+  },
+  {
+   "c": 37,
+   "i": 28,
+   "w": "for",
+   "s": 258.96,
+   "e": 259.24
+  },
+  {
+   "c": 37,
+   "i": 29,
+   "w": "someone",
+   "s": 259.24,
+   "e": 259.56
+  },
+  {
+   "c": 37,
+   "i": 30,
+   "w": "else's",
+   "s": 259.56,
+   "e": 259.98
+  },
+  {
+   "c": 37,
+   "i": 31,
+   "w": "mistake.",
+   "s": 259.98,
+   "e": 260.52
+  },
+  {
+   "c": 38,
+   "i": 0,
+   "w": "And",
+   "s": 261.06,
+   "e": 261.22
+  },
+  {
+   "c": 38,
+   "i": 1,
+   "w": "the",
+   "s": 261.22,
+   "e": 261.28
+  },
+  {
+   "c": 38,
+   "i": 2,
+   "w": "worst",
+   "s": 261.28,
+   "e": 261.48
+  },
+  {
+   "c": 38,
+   "i": 3,
+   "w": "part?",
+   "s": 261.48,
+   "e": 261.88
+  },
+  {
+   "c": 38,
+   "i": 4,
+   "w": "The",
+   "s": 262.32,
+   "e": 262.5
+  },
+  {
+   "c": 38,
+   "i": 5,
+   "w": "system",
+   "s": 262.5,
+   "e": 262.78
+  },
+  {
+   "c": 38,
+   "i": 6,
+   "w": "did",
+   "s": 262.78,
+   "e": 263.02
+  },
+  {
+   "c": 38,
+   "i": 7,
+   "w": "exactly",
+   "s": 263.02,
+   "e": 263.3
+  },
+  {
+   "c": 38,
+   "i": 8,
+   "w": "what",
+   "s": 263.3,
+   "e": 263.78
+  },
+  {
+   "c": 38,
+   "i": 9,
+   "w": "it",
+   "s": 263.78,
+   "e": 263.86
+  },
+  {
+   "c": 38,
+   "i": 10,
+   "w": "was",
+   "s": 263.86,
+   "e": 263.98
+  },
+  {
+   "c": 38,
+   "i": 11,
+   "w": "built",
+   "s": 263.98,
+   "e": 264.2
+  },
+  {
+   "c": 38,
+   "i": 12,
+   "w": "to",
+   "s": 264.2,
+   "e": 264.42
+  },
+  {
+   "c": 38,
+   "i": 13,
+   "w": "do.",
+   "s": 264.42,
+   "e": 264.64
+  },
+  {
+   "c": 38,
+   "i": 14,
+   "w": "Just…",
+   "s": 265.06,
+   "e": 265.34
+  },
+  {
+   "c": 38,
+   "i": 15,
+   "w": "to",
+   "s": 265.34,
+   "e": 265.66
+  },
+  {
+   "c": 38,
+   "i": 16,
+   "w": "the",
+   "s": 265.66,
+   "e": 265.78
+  },
+  {
+   "c": 38,
+   "i": 17,
+   "w": "wrong",
+   "s": 265.78,
+   "e": 265.96
+  },
+  {
+   "c": 38,
+   "i": 18,
+   "w": "person.",
+   "s": 265.96,
+   "e": 266.52
+  },
+  {
+   "c": 39,
+   "i": 0,
+   "w": "And",
+   "s": 266.98,
+   "e": 267.12
+  },
+  {
+   "c": 39,
+   "i": 1,
+   "w": "right",
+   "s": 267.12,
+   "e": 267.28
+  },
+  {
+   "c": 39,
+   "i": 2,
+   "w": "now,",
+   "s": 267.28,
+   "e": 267.68
+  },
+  {
+   "c": 39,
+   "i": 3,
+   "w": "there's",
+   "s": 268.06,
+   "e": 268.32
+  },
+  {
+   "c": 39,
+   "i": 4,
+   "w": "no",
+   "s": 268.32,
+   "e": 268.52
+  },
+  {
+   "c": 39,
+   "i": 5,
+   "w": "real",
+   "s": 268.52,
+   "e": 268.76
+  },
+  {
+   "c": 39,
+   "i": 6,
+   "w": "way",
+   "s": 268.76,
+   "e": 269.14
+  },
+  {
+   "c": 39,
+   "i": 7,
+   "w": "to",
+   "s": 269.14,
+   "e": 269.24
+  },
+  {
+   "c": 39,
+   "i": 8,
+   "w": "check",
+   "s": 269.24,
+   "e": 269.48
+  },
+  {
+   "c": 39,
+   "i": 9,
+   "w": "a",
+   "s": 269.48,
+   "e": 269.6
+  },
+  {
+   "c": 39,
+   "i": 10,
+   "w": "used",
+   "s": 269.6,
+   "e": 269.94
+  },
+  {
+   "c": 39,
+   "i": 11,
+   "w": "CPU",
+   "s": 269.94,
+   "e": 270.46
+  },
+  {
+   "c": 39,
+   "i": 12,
+   "w": "for",
+   "s": 270.46,
+   "e": 271.04
+  },
+  {
+   "c": 39,
+   "i": 13,
+   "w": "a",
+   "s": 271.04,
+   "e": 271.14
+  },
+  {
+   "c": 39,
+   "i": 14,
+   "w": "ban",
+   "s": 271.14,
+   "e": 271.4
+  },
+  {
+   "c": 39,
+   "i": 15,
+   "w": "before",
+   "s": 271.4,
+   "e": 271.76
+  },
+  {
+   "c": 39,
+   "i": 16,
+   "w": "you",
+   "s": 271.76,
+   "e": 271.94
+  },
+  {
+   "c": 39,
+   "i": 17,
+   "w": "buy",
+   "s": 271.94,
+   "e": 272.14
+  },
+  {
+   "c": 39,
+   "i": 18,
+   "w": "it.",
+   "s": 272.14,
+   "e": 272.4
+  },
+  {
+   "c": 40,
+   "i": 0,
+   "w": "So",
+   "s": 272.68,
+   "e": 272.9
+  },
+  {
+   "c": 40,
+   "i": 1,
+   "w": "here's",
+   "s": 272.9,
+   "e": 273.3
+  },
+  {
+   "c": 40,
+   "i": 2,
+   "w": "how",
+   "s": 273.3,
+   "e": 273.46
+  },
+  {
+   "c": 40,
+   "i": 3,
+   "w": "to",
+   "s": 273.46,
+   "e": 273.6
+  },
+  {
+   "c": 40,
+   "i": 4,
+   "w": "protect",
+   "s": 273.6,
+   "e": 273.84
+  },
+  {
+   "c": 40,
+   "i": 5,
+   "w": "yourself.",
+   "s": 273.84,
+   "e": 274.26
+  },
+  {
+   "c": 41,
+   "i": 0,
+   "w": "One.",
+   "s": 274.82,
+   "e": 274.94
+  },
+  {
+   "c": 41,
+   "i": 1,
+   "w": "Buy",
+   "s": 274.98,
+   "e": 275.22
+  },
+  {
+   "c": 41,
+   "i": 2,
+   "w": "from",
+   "s": 275.22,
+   "e": 275.5
+  },
+  {
+   "c": 41,
+   "i": 3,
+   "w": "a",
+   "s": 275.5,
+   "e": 275.58
+  },
+  {
+   "c": 41,
+   "i": 4,
+   "w": "seller",
+   "s": 275.58,
+   "e": 275.84
+  },
+  {
+   "c": 41,
+   "i": 5,
+   "w": "or",
+   "s": 275.84,
+   "e": 276.14
+  },
+  {
+   "c": 41,
+   "i": 6,
+   "w": "a",
+   "s": 276.14,
+   "e": 276.24
+  },
+  {
+   "c": 41,
+   "i": 7,
+   "w": "marketplace",
+   "s": 276.24,
+   "e": 276.56
+  },
+  {
+   "c": 41,
+   "i": 8,
+   "w": "with",
+   "s": 276.56,
+   "e": 277.06
+  },
+  {
+   "c": 41,
+   "i": 9,
+   "w": "a",
+   "s": 277.06,
+   "e": 277.14
+  },
+  {
+   "c": 41,
+   "i": 10,
+   "w": "return",
+   "s": 277.14,
+   "e": 277.4
+  },
+  {
+   "c": 41,
+   "i": 11,
+   "w": "window.",
+   "s": 277.4,
+   "e": 277.76
+  },
+  {
+   "c": 41,
+   "i": 12,
+   "w": "Two.",
+   "s": 277.76,
+   "e": 278.56
+  },
+  {
+   "c": 41,
+   "i": 13,
+   "w": "The",
+   "s": 279.16,
+   "e": 279.28
+  },
+  {
+   "c": 41,
+   "i": 14,
+   "w": "day",
+   "s": 279.28,
+   "e": 279.44
+  },
+  {
+   "c": 41,
+   "i": 15,
+   "w": "it",
+   "s": 279.44,
+   "e": 279.58
+  },
+  {
+   "c": 41,
+   "i": 16,
+   "w": "arrives,",
+   "s": 279.58,
+   "e": 279.9
+  },
+  {
+   "c": 41,
+   "i": 17,
+   "w": "test",
+   "s": 279.9,
+   "e": 280.11
+  },
+  {
+   "c": 41,
+   "i": 18,
+   "w": "it",
+   "s": 280.11,
+   "e": 280.32
+  },
+  {
+   "c": 41,
+   "i": 19,
+   "w": "in",
+   "s": 280.32,
+   "e": 280.64
+  },
+  {
+   "c": 41,
+   "i": 20,
+   "w": "every",
+   "s": 280.64,
+   "e": 280.84
+  },
+  {
+   "c": 41,
+   "i": 21,
+   "w": "game",
+   "s": 280.84,
+   "e": 281.22
+  },
+  {
+   "c": 41,
+   "i": 22,
+   "w": "you",
+   "s": 281.22,
+   "e": 281.4
+  },
+  {
+   "c": 41,
+   "i": 23,
+   "w": "play",
+   "s": 281.4,
+   "e": 281.64
+  },
+  {
+   "c": 41,
+   "i": 24,
+   "w": "with",
+   "s": 281.64,
+   "e": 281.82
+  },
+  {
+   "c": 41,
+   "i": 25,
+   "w": "anti-cheat.",
+   "s": 281.82,
+   "e": 282.49
+  },
+  {
+   "c": 41,
+   "i": 26,
+   "w": "Three.",
+   "s": 282.49,
+   "e": 283.16
+  },
+  {
+   "c": 41,
+   "i": 27,
+   "w": "Keep",
+   "s": 283.76,
+   "e": 283.94
+  },
+  {
+   "c": 41,
+   "i": 28,
+   "w": "the",
+   "s": 283.94,
+   "e": 284.14
+  },
+  {
+   "c": 41,
+   "i": 29,
+   "w": "receipt",
+   "s": 284.14,
+   "e": 284.44
+  },
+  {
+   "c": 41,
+   "i": 30,
+   "w": "and",
+   "s": 284.44,
+   "e": 284.74
+  },
+  {
+   "c": 41,
+   "i": 31,
+   "w": "your",
+   "s": 284.74,
+   "e": 284.86
+  },
+  {
+   "c": 41,
+   "i": 32,
+   "w": "chat",
+   "s": 284.86,
+   "e": 285.14
+  },
+  {
+   "c": 41,
+   "i": 33,
+   "w": "with",
+   "s": 285.14,
+   "e": 285.42
+  },
+  {
+   "c": 41,
+   "i": 34,
+   "w": "the",
+   "s": 285.42,
+   "e": 285.54
+  },
+  {
+   "c": 41,
+   "i": 35,
+   "w": "seller.",
+   "s": 285.54,
+   "e": 285.8
+  },
+  {
+   "c": 41,
+   "i": 36,
+   "w": "And",
+   "s": 286.32,
+   "e": 286.32
+  },
+  {
+   "c": 41,
+   "i": 37,
+   "w": "four.",
+   "s": 286.32,
+   "e": 286.66
+  },
+  {
+   "c": 41,
+   "i": 38,
+   "w": "If",
+   "s": 287.08,
+   "e": 287.28
+  },
+  {
+   "c": 41,
+   "i": 39,
+   "w": "you",
+   "s": 287.28,
+   "e": 287.4
+  },
+  {
+   "c": 41,
+   "i": 40,
+   "w": "get",
+   "s": 287.4,
+   "e": 287.56
+  },
+  {
+   "c": 41,
+   "i": 41,
+   "w": "hit,",
+   "s": 287.56,
+   "e": 287.76
+  },
+  {
+   "c": 41,
+   "i": 42,
+   "w": "contact",
+   "s": 288.02,
+   "e": 288.4
+  },
+  {
+   "c": 41,
+   "i": 43,
+   "w": "the",
+   "s": 288.4,
+   "e": 288.66
+  },
+  {
+   "c": 41,
+   "i": 44,
+   "w": "game's",
+   "s": 288.66,
+   "e": 289.06
+  },
+  {
+   "c": 41,
+   "i": 45,
+   "w": "support.",
+   "s": 289.06,
+   "e": 289.28
+  },
+  {
+   "c": 41,
+   "i": 46,
+   "w": "Riot",
+   "s": 289.98,
+   "e": 290.24
+  },
+  {
+   "c": 41,
+   "i": 47,
+   "w": "says",
+   "s": 290.24,
+   "e": 290.58
+  },
+  {
+   "c": 41,
+   "i": 48,
+   "w": "they'll",
+   "s": 290.58,
+   "e": 290.9
+  },
+  {
+   "c": 41,
+   "i": 49,
+   "w": "tell",
+   "s": 290.9,
+   "e": 291.12
+  },
+  {
+   "c": 41,
+   "i": 50,
+   "w": "you",
+   "s": 291.12,
+   "e": 291.3
+  },
+  {
+   "c": 41,
+   "i": 51,
+   "w": "how",
+   "s": 291.3,
+   "e": 291.48
+  },
+  {
+   "c": 41,
+   "i": 52,
+   "w": "long",
+   "s": 291.48,
+   "e": 291.74
+  },
+  {
+   "c": 41,
+   "i": 53,
+   "w": "the",
+   "s": 291.74,
+   "e": 291.98
+  },
+  {
+   "c": 41,
+   "i": 54,
+   "w": "ban",
+   "s": 291.98,
+   "e": 292.16
+  },
+  {
+   "c": 41,
+   "i": 55,
+   "w": "has",
+   "s": 292.16,
+   "e": 292.36
+  },
+  {
+   "c": 41,
+   "i": 56,
+   "w": "left.",
+   "s": 292.36,
+   "e": 292.6
+  },
+  {
+   "c": 42,
+   "i": 0,
+   "w": "Because",
+   "s": 293.16,
+   "e": 293.36
+  },
+  {
+   "c": 42,
+   "i": 1,
+   "w": "some",
+   "s": 293.36,
+   "e": 293.56
+  },
+  {
+   "c": 42,
+   "i": 2,
+   "w": "anti-cheat",
+   "s": 293.56,
+   "e": 294.3
+  },
+  {
+   "c": 42,
+   "i": 3,
+   "w": "systems",
+   "s": 294.3,
+   "e": 294.8
+  },
+  {
+   "c": 42,
+   "i": 4,
+   "w": "give",
+   "s": 294.8,
+   "e": 295.02
+  },
+  {
+   "c": 42,
+   "i": 5,
+   "w": "temporary",
+   "s": 295.02,
+   "e": 295.5
+  },
+  {
+   "c": 42,
+   "i": 6,
+   "w": "hardware",
+   "s": 295.5,
+   "e": 295.9
+  },
+  {
+   "c": 42,
+   "i": 7,
+   "w": "bans…",
+   "s": 295.9,
+   "e": 296.34
+  },
+  {
+   "c": 42,
+   "i": 8,
+   "w": "and",
+   "s": 296.98,
+   "e": 297.08
+  },
+  {
+   "c": 42,
+   "i": 9,
+   "w": "some",
+   "s": 297.08,
+   "e": 297.28
+  },
+  {
+   "c": 42,
+   "i": 10,
+   "w": "don't.",
+   "s": 297.28,
+   "e": 297.76
+  },
+  {
+   "c": 43,
+   "i": 0,
+   "w": "As",
+   "s": 298.14,
+   "e": 298.34
+  },
+  {
+   "c": 43,
+   "i": 1,
+   "w": "for",
+   "s": 298.34,
+   "e": 298.52
+  },
+  {
+   "c": 43,
+   "i": 2,
+   "w": "Chip?",
+   "s": 298.52,
+   "e": 298.74
+  },
+  {
+   "c": 43,
+   "i": 3,
+   "w": "He's",
+   "s": 299.2,
+   "e": 299.38
+  },
+  {
+   "c": 43,
+   "i": 4,
+   "w": "not",
+   "s": 299.38,
+   "e": 299.56
+  },
+  {
+   "c": 43,
+   "i": 5,
+   "w": "a",
+   "s": 299.56,
+   "e": 299.68
+  },
+  {
+   "c": 43,
+   "i": 6,
+   "w": "cheater.",
+   "s": 299.68,
+   "e": 300.06
+  },
+  {
+   "c": 43,
+   "i": 7,
+   "w": "He",
+   "s": 300.46,
+   "e": 300.56
+  },
+  {
+   "c": 43,
+   "i": 8,
+   "w": "just",
+   "s": 300.56,
+   "e": 300.7
+  },
+  {
+   "c": 43,
+   "i": 9,
+   "w": "had",
+   "s": 300.7,
+   "e": 300.88
+  },
+  {
+   "c": 43,
+   "i": 10,
+   "w": "a",
+   "s": 300.88,
+   "e": 300.98
+  },
+  {
+   "c": 43,
+   "i": 11,
+   "w": "really",
+   "s": 300.98,
+   "e": 301.22
+  },
+  {
+   "c": 43,
+   "i": 12,
+   "w": "bad",
+   "s": 301.22,
+   "e": 301.6
+  },
+  {
+   "c": 43,
+   "i": 13,
+   "w": "roommate.",
+   "s": 301.6,
+   "e": 301.88
+  },
+  {
+   "c": 44,
+   "i": 0,
+   "w": "Somewhere",
+   "s": 302.38,
+   "e": 302.7
+  },
+  {
+   "c": 44,
+   "i": 1,
+   "w": "in",
+   "s": 302.7,
+   "e": 303.06
+  },
+  {
+   "c": 44,
+   "i": 2,
+   "w": "Germany,",
+   "s": 303.06,
+   "e": 303.34
+  },
+  {
+   "c": 44,
+   "i": 3,
+   "w": "a",
+   "s": 303.92,
+   "e": 304.08
+  },
+  {
+   "c": 44,
+   "i": 4,
+   "w": "little",
+   "s": 304.08,
+   "e": 304.26
+  },
+  {
+   "c": 44,
+   "i": 5,
+   "w": "Ryzen",
+   "s": 304.26,
+   "e": 304.6
+  },
+  {
+   "c": 44,
+   "i": 6,
+   "w": "is",
+   "s": 304.6,
+   "e": 304.98
+  },
+  {
+   "c": 44,
+   "i": 7,
+   "w": "counting",
+   "s": 304.98,
+   "e": 305.2
+  },
+  {
+   "c": 44,
+   "i": 8,
+   "w": "down",
+   "s": 305.2,
+   "e": 305.62
+  },
+  {
+   "c": 44,
+   "i": 9,
+   "w": "the",
+   "s": 305.62,
+   "e": 305.78
+  },
+  {
+   "c": 44,
+   "i": 10,
+   "w": "days",
+   "s": 305.78,
+   "e": 306
+  },
+  {
+   "c": 44,
+   "i": 11,
+   "w": "until",
+   "s": 306,
+   "e": 306.44
+  },
+  {
+   "c": 44,
+   "i": 12,
+   "w": "December.",
+   "s": 306.44,
+   "e": 306.96
+  },
+  {
+   "c": 45,
+   "i": 0,
+   "w": "So",
+   "s": 307.583,
+   "e": 307.949
+  },
+  {
+   "c": 45,
+   "i": 1,
+   "w": "tell",
+   "s": 307.7,
+   "e": 307.94
+  },
+  {
+   "c": 45,
+   "i": 2,
+   "w": "me",
+   "s": 307.94,
+   "e": 308.16
+  },
+  {
+   "c": 45,
+   "i": 3,
+   "w": "in",
+   "s": 308.16,
+   "e": 308.32
+  },
+  {
+   "c": 45,
+   "i": 4,
+   "w": "the",
+   "s": 308.32,
+   "e": 308.42
+  },
+  {
+   "c": 45,
+   "i": 5,
+   "w": "comments.",
+   "s": 308.42,
+   "e": 308.8
+  },
+  {
+   "c": 45,
+   "i": 6,
+   "w": "Would",
+   "s": 309.52,
+   "e": 309.54
+  },
+  {
+   "c": 45,
+   "i": 7,
+   "w": "you",
+   "s": 309.54,
+   "e": 309.68
+  },
+  {
+   "c": 45,
+   "i": 8,
+   "w": "ever",
+   "s": 309.68,
+   "e": 309.9
+  },
+  {
+   "c": 45,
+   "i": 9,
+   "w": "buy",
+   "s": 309.9,
+   "e": 310.2
+  },
+  {
+   "c": 45,
+   "i": 10,
+   "w": "a",
+   "s": 310.2,
+   "e": 310.38
+  },
+  {
+   "c": 45,
+   "i": 11,
+   "w": "used",
+   "s": 310.38,
+   "e": 310.72
+  },
+  {
+   "c": 45,
+   "i": 12,
+   "w": "CPU",
+   "s": 310.72,
+   "e": 311.1
+  },
+  {
+   "c": 45,
+   "i": 13,
+   "w": "again?",
+   "s": 311.1,
+   "e": 311.9
+  },
+  {
+   "c": 45,
+   "i": 14,
+   "w": "And",
+   "s": 312.56,
+   "e": 312.64
+  },
+  {
+   "c": 45,
+   "i": 15,
+   "w": "subscribe,",
+   "s": 312.64,
+   "e": 312.96
+  },
+  {
+   "c": 45,
+   "i": 16,
+   "w": "because",
+   "s": 312.96,
+   "e": 313.68
+  },
+  {
+   "c": 45,
+   "i": 17,
+   "w": "next",
+   "s": 313.68,
+   "e": 313.9
+  },
+  {
+   "c": 45,
+   "i": 18,
+   "w": "time,",
+   "s": 313.9,
+   "e": 314.32
+  },
+  {
+   "c": 45,
+   "i": 19,
+   "w": "we're",
+   "s": 314.32,
+   "e": 314.84
+  },
+  {
+   "c": 45,
+   "i": 20,
+   "w": "finding",
+   "s": 314.84,
+   "e": 315.14
+  },
+  {
+   "c": 45,
+   "i": 21,
+   "w": "out",
+   "s": 315.14,
+   "e": 315.46
+  },
+  {
+   "c": 45,
+   "i": 22,
+   "w": "what",
+   "s": 315.46,
+   "e": 315.7
+  },
+  {
+   "c": 45,
+   "i": 23,
+   "w": "else",
+   "s": 315.7,
+   "e": 315.9
+  },
+  {
+   "c": 45,
+   "i": 24,
+   "w": "your",
+   "s": 315.9,
+   "e": 316.1
+  },
+  {
+   "c": 45,
+   "i": 25,
+   "w": "hardware",
+   "s": 316.1,
+   "e": 316.5
+  },
+  {
+   "c": 45,
+   "i": 26,
+   "w": "secretly",
+   "s": 316.5,
+   "e": 317.04
+  },
+  {
+   "c": 45,
+   "i": 27,
+   "w": "remembers",
+   "s": 317.04,
+   "e": 317.66
+  },
+  {
+   "c": 45,
+   "i": 28,
+   "w": "about",
+   "s": 317.66,
+   "e": 318.22
+  },
+  {
+   "c": 45,
+   "i": 29,
+   "w": "you.",
+   "s": 318.22,
+   "e": 318.48
+  },
+  {
+   "c": 46,
+   "i": 0,
+   "w": "See",
+   "s": 318.88,
+   "e": 318.98
+  },
+  {
+   "c": 46,
+   "i": 1,
+   "w": "you,",
+   "s": 318.98,
+   "e": 319.16
+  },
+  {
+   "c": 46,
+   "i": 2,
+   "w": "Chip.",
+   "s": 319.16,
+   "e": 319.38
+  }
+ ],
+ "events": [
+  {
+   "t": 15.02,
+   "type": "dundun"
+  },
+  {
+   "t": 32.455,
+   "type": "title"
+  }
+ ]
+}

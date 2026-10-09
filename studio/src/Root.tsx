@@ -7,6 +7,9 @@ import { TL, EASE, ramp } from './lib/time';
 import { SECTIONS } from './sections';
 import { ShortMain } from './short/Short';
 import { STL } from './short/stime';
+import { Cast } from './cpu/Cast';
+import { CpuMain } from './cpu/Main';
+import { CTL } from './cpu/ctime';
 
 const FPS = 30;
 type Trans = 'cut' | 'whip' | 'scale' | 'wipe';
@@ -92,6 +95,8 @@ const WipeOver: React.FC<{ at: number; color: string }> = ({ at, color }) => {
 export const Root: React.FC = () => (
   <>
     <Composition id="SmartTV" component={Main} width={1920} height={1080} fps={FPS} durationInFrames={Math.ceil(TL.duration * FPS)} />
+    <Composition id="CursedCPU" component={CpuMain} width={1920} height={1080} fps={FPS} durationInFrames={Math.ceil(CTL.duration * FPS)} />
+    <Composition id="CpuCast" component={Cast} width={1920} height={1080} fps={FPS} durationInFrames={60} />
     <Composition id="Short" component={ShortMain} width={1080} height={1920} fps={FPS} durationInFrames={Math.ceil(STL.duration * FPS)} />
     {SECTIONS.map((s, i) => (
       <Composition key={i} id={`S${i}`} component={Main} width={1920} height={1080} fps={FPS} durationInFrames={Math.ceil(TL.duration * FPS)} />
