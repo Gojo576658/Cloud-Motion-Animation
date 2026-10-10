@@ -11,11 +11,11 @@ Chip is a CPU.
 A Ryzen 7 5800X3D, to be exact.
 
 4
-00:00:08,140 --> 00:00:10,910
+00:00:08,140 --> 00:00:10,940
 One of the best gaming processors ever made.
 
 5
-00:00:10,960 --> 00:00:13,030
+00:00:10,960 --> 00:00:13,060
 Chip has never cheated in his life.
 
 6
@@ -23,31 +23,31 @@ Chip has never cheated in his life.
 Not once.
 
 7
-00:00:14,300 --> 00:00:14,470
+00:00:14,300 --> 00:00:14,600
 And yet…
 
 8
-00:00:14,520 --> 00:00:15,720
+00:00:14,600 --> 00:00:15,720
 Chip is banned.
 
 9
-00:00:16,120 --> 00:00:17,050
+00:00:16,120 --> 00:00:17,080
 Not an account.
 
 10
-00:00:17,100 --> 00:00:17,850
+00:00:17,100 --> 00:00:17,880
 Not a player.
 
 11
-00:00:17,900 --> 00:00:18,970
+00:00:17,900 --> 00:00:19,000
 The chip itself.
 
 12
-00:00:19,020 --> 00:00:20,370
+00:00:19,020 --> 00:00:20,400
 And the guy who paid for him?
 
 13
-00:00:20,420 --> 00:00:22,570
+00:00:20,420 --> 00:00:22,600
 Did absolutely nothing wrong.
 
 14
@@ -55,15 +55,15 @@ Did absolutely nothing wrong.
 This really happened, just a few weeks ago.
 
 15
-00:00:25,520 --> 00:00:27,030
+00:00:25,520 --> 00:00:27,060
 And by the end of this video,
 
 16
-00:00:27,080 --> 00:00:29,350
+00:00:27,080 --> 00:00:29,380
 you'll know why your next used PC part
 
 17
-00:00:29,400 --> 00:00:30,170
+00:00:29,400 --> 00:00:30,200
 might come with…
 
 18
@@ -71,7 +71,7 @@ might come with…
 a criminal record.
 
 19
-00:00:34,200 --> 00:00:34,870
+00:00:34,200 --> 00:00:34,900
 Okay.
 
 20
@@ -79,15 +79,15 @@ Okay.
 Meet Leo.
 
 21
-00:00:36,020 --> 00:00:37,270
+00:00:36,020 --> 00:00:37,300
 That's not his real name,
 
 22
-00:00:37,320 --> 00:00:38,630
+00:00:37,320 --> 00:00:38,660
 but he's a gamer in Germany,
 
 23
-00:00:38,680 --> 00:00:40,710
+00:00:38,680 --> 00:00:40,740
 and he just found a deal.
 
 24
@@ -95,7 +95,7 @@ and he just found a deal.
 A used 5800X3D, on Kleinanzeigen.
 
 25
-00:00:44,760 --> 00:00:48,110
+00:00:44,760 --> 00:00:48,120
 Basically Germany's giant online flea market.
 
 26
@@ -111,27 +111,27 @@ Great chip.
 What could possibly go wrong?
 
 29
-00:00:52,580 --> 00:00:52,530
+00:00:52,580 --> 00:00:52,880
 Spoiler.
 
 30
-00:00:52,580 --> 00:00:53,480
+00:00:52,880 --> 00:00:53,480
 Everything.
 
 31
-00:00:53,960 --> 00:00:55,350
+00:00:53,960 --> 00:00:55,380
 September twenty-first.
 
 32
-00:00:55,400 --> 00:00:55,690
+00:00:55,400 --> 00:00:55,720
 Chip arrives.
 
 33
-00:00:55,740 --> 00:00:57,630
+00:00:55,740 --> 00:00:57,660
 Leo installs him.
 
 34
-00:00:57,680 --> 00:00:58,790
+00:00:57,680 --> 00:00:58,820
 Windows boots.
 
 35
@@ -139,11 +139,11 @@ Windows boots.
 Everything works.
 
 36
-00:01:00,120 --> 00:01:01,650
+00:01:00,120 --> 00:01:01,680
 Leo opens Valorant…
 
 37
-00:01:01,700 --> 00:01:02,970
+00:01:01,700 --> 00:01:03,000
 …and the game kicks him out.
 
 38
@@ -151,11 +151,11 @@ Leo opens Valorant…
 Instantly.
 
 39
-00:01:04,160 --> 00:01:06,530
+00:01:04,160 --> 00:01:06,560
 So Leo does what every gamer does.
 
 40
-00:01:06,580 --> 00:01:07,630
+00:01:06,580 --> 00:01:07,660
 He restarts.
 
 41
@@ -167,15 +167,15 @@ He updates his drivers.
 He reinstalls the game.
 
 43
-00:01:11,200 --> 00:01:12,830
+00:01:11,200 --> 00:01:12,860
 He turns it off and on again.
 
 44
-00:01:12,880 --> 00:01:13,590
+00:01:12,880 --> 00:01:13,620
 Kicked.
 
 45
-00:01:13,640 --> 00:01:16,450
+00:01:13,640 --> 00:01:16,480
 Leo puts his old CPU back in…
 
 46
@@ -183,15 +183,15 @@ Leo puts his old CPU back in…
 and Valorant works perfectly.
 
 47
-00:01:18,540 --> 00:01:19,210
+00:01:18,540 --> 00:01:19,240
 Put Chip in?
 
 48
-00:01:19,260 --> 00:01:19,850
+00:01:19,260 --> 00:01:19,880
 Kicked.
 
 49
-00:01:19,900 --> 00:01:20,770
+00:01:19,900 --> 00:01:20,800
 Take Chip out?
 
 50
@@ -199,7 +199,7 @@ Take Chip out?
 Fine.
 
 51
-00:01:21,580 --> 00:01:23,530
+00:01:21,580 --> 00:01:23,560
 So Leo writes to Riot support.
 
 52
@@ -211,7 +211,7 @@ And the answer is a little terrifying.
 According to Leo,
 
 54
-00:01:27,360 --> 00:01:29,950
+00:01:27,360 --> 00:01:29,980
 support told him this exact processor had
 
 55
@@ -219,23 +219,23 @@ support told him this exact processor had
 been hardware banned on August twelfth.
 
 56
-00:01:32,460 --> 00:01:34,290
+00:01:32,460 --> 00:01:34,320
 That's more than a month before he even
 
 57
-00:01:34,340 --> 00:01:35,270
+00:01:34,340 --> 00:01:35,300
 bought it.
 
 58
-00:01:35,320 --> 00:01:35,490
+00:01:35,320 --> 00:01:35,620
 Chip…
 
 59
-00:01:35,540 --> 00:01:36,640
+00:01:35,620 --> 00:01:36,640
 had a past.
 
 60
-00:01:37,200 --> 00:01:38,370
+00:01:37,200 --> 00:01:38,400
 Let's rewind.
 
 61
@@ -243,15 +243,15 @@ Let's rewind.
 Summer 2026.
 
 62
-00:01:40,100 --> 00:01:41,450
+00:01:40,100 --> 00:01:41,480
 Chip lived with a different owner.
 
 63
-00:01:41,500 --> 00:01:42,390
+00:01:41,500 --> 00:01:42,420
 And that owner…
 
 64
-00:01:42,440 --> 00:01:44,150
+00:01:42,440 --> 00:01:44,180
 was not playing fair.
 
 65
@@ -259,7 +259,7 @@ was not playing fair.
 Cheats were detected.
 
 66
-00:01:45,760 --> 00:01:46,730
+00:01:45,760 --> 00:01:46,760
 Riot dropped the hammer.
 
 67
@@ -267,7 +267,7 @@ Riot dropped the hammer.
 And the ban didn't just hit an account.
 
 68
-00:01:49,440 --> 00:01:50,070
+00:01:49,440 --> 00:01:50,100
 It hit the hardware.
 
 69
@@ -275,7 +275,7 @@ It hit the hardware.
 Including Chip.
 
 70
-00:01:51,886 --> 00:01:53,570
+00:01:51,886 --> 00:01:53,600
 And then, the previous owner did the most
 
 71
@@ -287,7 +287,7 @@ natural thing in the world.
 He sold it.
 
 73
-00:01:57,780 --> 00:01:58,530
+00:01:57,780 --> 00:01:58,560
 But wait.
 
 74
@@ -295,11 +295,11 @@ But wait.
 How do you even ban a piece of silicon?
 
 75
-00:02:00,780 --> 00:02:01,850
+00:02:00,780 --> 00:02:01,880
 Chip doesn't have a name.
 
 76
-00:02:01,900 --> 00:02:02,590
+00:02:01,900 --> 00:02:02,620
 Or an email.
 
 77
@@ -307,7 +307,7 @@ Or an email.
 Or a face.
 
 78
-00:02:04,080 --> 00:02:04,350
+00:02:04,080 --> 00:02:04,380
 Well…
 
 79
@@ -319,11 +319,11 @@ this one does.
 To understand this, you need to meet Vanguard.
 
 81
-00:02:08,220 --> 00:02:09,770
+00:02:08,220 --> 00:02:09,780
 Riot's anti-cheat.
 
 82
-00:02:09,820 --> 00:02:11,470
+00:02:09,820 --> 00:02:11,500
 Vanguard doesn't live in some normal
 
 83
@@ -331,11 +331,11 @@ Vanguard doesn't live in some normal
 corner of your PC.
 
 84
-00:02:13,520 --> 00:02:15,730
+00:02:13,520 --> 00:02:15,760
 It runs in the kernel, the deepest and
 
 85
-00:02:15,780 --> 00:02:17,570
+00:02:15,780 --> 00:02:17,600
 most powerful layer of your system,
 
 86
@@ -351,7 +351,7 @@ Before your desktop.
 Before your wallpaper.
 
 89
-00:02:23,660 --> 00:02:24,590
+00:02:23,660 --> 00:02:24,620
 Before you.
 
 90
@@ -359,7 +359,7 @@ Before you.
 Think of Valorant as a club,
 
 91
-00:02:26,740 --> 00:02:28,610
+00:02:26,740 --> 00:02:28,640
 and Vanguard as the bouncer who never
 
 92
@@ -375,15 +375,15 @@ But computers don't have faces.
 So what does the bouncer actually remember?
 
 95
-00:02:34,840 --> 00:02:36,230
+00:02:34,840 --> 00:02:36,260
 Here's the clever part.
 
 96
-00:02:36,280 --> 00:02:38,430
+00:02:36,280 --> 00:02:38,460
 On Windows 11, Valorant needs something
 
 97
-00:02:38,480 --> 00:02:41,030
+00:02:38,480 --> 00:02:41,060
 called TPM 2.0.
 
 98
@@ -391,7 +391,7 @@ called TPM 2.0.
 A tiny security vault that stores secret keys.
 
 99
-00:02:44,900 --> 00:02:47,870
+00:02:44,900 --> 00:02:47,900
 And on AMD Ryzen chips, that vault isn't a
 
 100
@@ -403,7 +403,7 @@ separate part.
 It's built right inside the processor.
 
 102
-00:02:51,560 --> 00:02:53,150
+00:02:51,560 --> 00:02:53,180
 So when you buy a used Ryzen,
 
 103
@@ -411,11 +411,11 @@ So when you buy a used Ryzen,
 you're not just buying a CPU.
 
 104
-00:02:55,500 --> 00:02:56,930
+00:02:55,500 --> 00:02:56,960
 You're buying its vault.
 
 105
-00:02:56,980 --> 00:02:57,870
+00:02:56,980 --> 00:02:57,900
 Its keys.
 
 106
@@ -427,7 +427,7 @@ Its identity.
 Riot hasn't said exactly what it reads.
 
 108
-00:03:01,600 --> 00:03:03,390
+00:03:01,600 --> 00:03:03,420
 But experts suspect a unique key,
 
 109
@@ -435,35 +435,35 @@ But experts suspect a unique key,
 created inside that vault when the chip is made.
 
 110
-00:03:13,680 --> 00:03:08,724
+00:03:07,621 --> 00:03:08,754
 Reinstall Windows?
 
 111
-00:03:08,774 --> 00:03:09,530
+00:03:08,774 --> 00:03:09,560
 Same key.
 
 112
-00:03:09,580 --> 00:03:10,336
+00:03:09,580 --> 00:03:10,366
 New account?
 
 113
-00:03:10,386 --> 00:03:11,142
+00:03:10,386 --> 00:03:11,172
 Same key.
 
 114
-00:03:11,192 --> 00:03:12,351
+00:03:11,192 --> 00:03:12,381
 Brand-new game install?
 
 115
-00:03:12,401 --> 00:03:13,910
+00:03:12,401 --> 00:03:13,940
 You guessed it.
 
 116
-00:03:13,960 --> 00:03:15,810
+00:03:13,960 --> 00:03:15,840
 Every time you launch Valorant,
 
 117
-00:03:15,860 --> 00:03:17,630
+00:03:15,860 --> 00:03:17,660
 Vanguard checks your hardware against
 
 118
@@ -475,7 +475,7 @@ Riot's ban list.
 And if a part matches a banned machine…
 
 120
-00:03:21,840 --> 00:03:23,270
+00:03:21,840 --> 00:03:23,300
 the door stays shut.
 
 121
@@ -491,23 +491,23 @@ Chip is that guy.
 But here's the plot twist.
 
 124
-00:03:29,380 --> 00:03:30,690
+00:03:29,380 --> 00:03:30,720
 Riot's head of anti-cheat,
 
 125
-00:03:30,740 --> 00:03:33,610
+00:03:30,740 --> 00:03:33,640
 Phillip Koskinas, says parts of this story
 
 126
-00:03:33,660 --> 00:03:35,110
+00:03:33,660 --> 00:03:35,140
 don't add up.
 
 127
-00:03:35,160 --> 00:03:36,790
+00:03:35,160 --> 00:03:36,820
 He says he couldn't find a support ticket
 
 128
-00:03:36,840 --> 00:03:39,130
+00:03:36,840 --> 00:03:39,160
 that matches Leo's, and he called the
 
 129
@@ -515,7 +515,7 @@ that matches Leo's, and he called the
 whole thing pretty unlikely.
 
 130
-00:03:41,480 --> 00:03:43,650
+00:03:41,480 --> 00:03:43,680
 Leo also says his motherboard and his SSD
 
 131
@@ -527,7 +527,7 @@ got flagged too.
 Riot says no.
 
 133
-00:03:47,120 --> 00:03:49,090
+00:03:47,120 --> 00:03:49,120
 When one part matches, it doesn't
 
 134
@@ -535,15 +535,15 @@ When one part matches, it doesn't
 blacklist everything else in your PC.
 
 135
-00:03:51,640 --> 00:03:53,090
+00:03:51,640 --> 00:03:53,120
 So who's telling the truth?
 
 136
-00:03:53,140 --> 00:03:53,810
+00:03:53,140 --> 00:03:53,840
 Honestly…
 
 137
-00:03:53,860 --> 00:03:55,290
+00:03:53,860 --> 00:03:55,320
 we don't fully know yet.
 
 138
@@ -551,7 +551,7 @@ we don't fully know yet.
 But Riot did confirm two things.
 
 139
-00:03:57,900 --> 00:04:00,190
+00:03:57,900 --> 00:04:00,220
 One, its hardware bans last four months,
 
 140
@@ -559,19 +559,19 @@ One, its hardware bans last four months,
 at most.
 
 141
-00:04:01,500 --> 00:04:03,630
+00:04:01,500 --> 00:04:03,660
 Two, they only apply to the game where the
 
 142
-00:04:03,680 --> 00:04:04,870
+00:04:03,680 --> 00:04:04,900
 cheating happened.
 
 143
-00:04:04,920 --> 00:04:07,590
+00:04:04,920 --> 00:04:07,620
 So if Chip was banned on August twelfth…
 
 144
-00:04:07,640 --> 00:04:09,470
+00:04:07,640 --> 00:04:09,500
 his sentence should end around the middle
 
 145
@@ -583,47 +583,47 @@ of December.
 And that's the part that actually hurts.
 
 147
-00:04:13,120 --> 00:04:14,110
+00:04:13,120 --> 00:04:14,140
 You save up.
 
 148
-00:04:14,160 --> 00:04:15,750
+00:04:14,160 --> 00:04:15,780
 You hunt for a good deal.
 
 149
-00:04:15,800 --> 00:04:17,910
+00:04:15,800 --> 00:04:17,940
 You build your setup piece by piece…
 
 150
-00:04:17,960 --> 00:04:21,010
+00:04:17,960 --> 00:04:21,020
 and you end up paying for someone else's mistake.
 
 151
-00:04:21,060 --> 00:04:22,270
+00:04:21,060 --> 00:04:22,300
 And the worst part?
 
 152
-00:04:22,320 --> 00:04:24,150
+00:04:22,320 --> 00:04:24,180
 The system did exactly what it was built
 
 153
-00:04:24,200 --> 00:04:25,010
+00:04:24,200 --> 00:04:25,040
 to do.
 
 154
-00:04:25,060 --> 00:04:25,290
+00:04:25,060 --> 00:04:25,360
 Just…
 
 155
-00:04:25,340 --> 00:04:26,930
+00:04:25,360 --> 00:04:26,960
 to the wrong person.
 
 156
-00:04:26,980 --> 00:04:29,190
+00:04:26,980 --> 00:04:29,220
 And right now, there's no real way to
 
 157
-00:04:29,240 --> 00:04:32,630
+00:04:29,240 --> 00:04:32,660
 check a used CPU for a ban before you buy it.
 
 158
@@ -631,15 +631,15 @@ check a used CPU for a ban before you buy it.
 So here's how to protect yourself.
 
 159
-00:04:34,820 --> 00:04:34,930
+00:04:34,820 --> 00:04:35,120
 One.
 
 160
-00:04:34,980 --> 00:04:37,090
+00:04:35,120 --> 00:04:37,120
 Buy from a seller or a marketplace with a
 
 161
-00:04:37,140 --> 00:04:37,710
+00:04:37,140 --> 00:04:37,740
 return window.
 
 162
@@ -647,11 +647,11 @@ return window.
 Two.
 
 163
-00:04:39,160 --> 00:04:41,170
+00:04:39,160 --> 00:04:41,200
 The day it arrives, test it in every game
 
 164
-00:04:41,220 --> 00:04:42,440
+00:04:41,220 --> 00:04:42,470
 you play with anti-cheat.
 
 165
@@ -659,11 +659,11 @@ you play with anti-cheat.
 Three.
 
 166
-00:04:43,760 --> 00:04:46,270
+00:04:43,760 --> 00:04:46,300
 Keep the receipt and your chat with the seller.
 
 167
-00:04:46,320 --> 00:04:47,030
+00:04:46,320 --> 00:04:47,060
 And four.
 
 168
@@ -671,7 +671,7 @@ And four.
 If you get hit, contact the game's support.
 
 169
-00:04:49,980 --> 00:04:51,930
+00:04:49,980 --> 00:04:51,960
 Riot says they'll tell you how long the
 
 170
@@ -679,7 +679,7 @@ Riot says they'll tell you how long the
 ban has left.
 
 171
-00:04:53,160 --> 00:04:54,970
+00:04:53,160 --> 00:04:55,000
 Because some anti-cheat systems give
 
 172
@@ -687,23 +687,23 @@ Because some anti-cheat systems give
 temporary hardware bans…
 
 173
-00:04:56,980 --> 00:04:58,090
+00:04:56,980 --> 00:04:58,120
 and some don't.
 
 174
-00:04:58,140 --> 00:04:59,150
+00:04:58,140 --> 00:04:59,180
 As for Chip?
 
 175
-00:04:59,200 --> 00:05:00,410
+00:04:59,200 --> 00:05:00,440
 He's not a cheater.
 
 176
-00:05:00,460 --> 00:05:02,330
+00:05:00,460 --> 00:05:02,360
 He just had a really bad roommate.
 
 177
-00:05:02,380 --> 00:05:04,930
+00:05:02,380 --> 00:05:04,960
 Somewhere in Germany, a little Ryzen is
 
 178
@@ -719,15 +719,15 @@ So tell me in the comments.
 Would you ever buy a used CPU again?
 
 181
-00:05:12,560 --> 00:05:14,270
+00:05:12,560 --> 00:05:14,300
 And subscribe, because next time,
 
 182
-00:05:14,320 --> 00:05:16,450
+00:05:14,320 --> 00:05:16,480
 we're finding out what else your hardware
 
 183
-00:05:16,500 --> 00:05:18,830
+00:05:16,500 --> 00:05:18,860
 secretly remembers about you.
 
 184
