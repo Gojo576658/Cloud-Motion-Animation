@@ -1,0 +1,7992 @@
+{
+ "fps": 30,
+ "offset": 0.6,
+ "duration": 398.065,
+ "bpm": 84,
+ "scenes": [
+  {
+   "index": 0,
+   "title": "Cold Open",
+   "start": 0,
+   "end": 38.08
+  },
+  {
+   "index": 1,
+   "title": "The Cartoon That Paid in Bitcoin",
+   "start": 38.08,
+   "end": 100.897
+  },
+  {
+   "index": 2,
+   "title": "Eight Guesses",
+   "start": 100.897,
+   "end": 153.863
+  },
+  {
+   "index": 3,
+   "title": "Why Nobody Can Open It",
+   "start": 153.863,
+   "end": 191.942
+  },
+  {
+   "index": 4,
+   "title": "The Heist",
+   "start": 191.942,
+   "end": 259.27
+  },
+  {
+   "index": 5,
+   "title": "The Offer",
+   "start": 259.27,
+   "end": 309.435
+  },
+  {
+   "index": 6,
+   "title": "He's Not Alone",
+   "start": 309.435,
+   "end": 341.359
+  },
+  {
+   "index": 7,
+   "title": "Protect Yourself",
+   "start": 341.359,
+   "end": 376.233
+  },
+  {
+   "index": 8,
+   "title": "Outro",
+   "start": 376.233,
+   "end": 398.065
+  }
+ ],
+ "sections": [
+  {
+   "index": 0,
+   "title": "open",
+   "mood": "open",
+   "bpm": 84,
+   "start": 0,
+   "end": 38.18
+  },
+  {
+   "index": 1,
+   "title": "warm",
+   "mood": "warm",
+   "bpm": 100,
+   "start": 38.18,
+   "end": 68.499
+  },
+  {
+   "index": 2,
+   "title": "inside",
+   "mood": "inside",
+   "bpm": 84,
+   "start": 68.499,
+   "end": 98.248
+  },
+  {
+   "index": 3,
+   "title": "drop",
+   "mood": "drop",
+   "bpm": 84,
+   "start": 98.248,
+   "end": 101.097
+  },
+  {
+   "index": 4,
+   "title": "invest",
+   "mood": "invest",
+   "bpm": 84,
+   "start": 101.097,
+   "end": 115.701
+  },
+  {
+   "index": 5,
+   "title": "audio",
+   "mood": "audio",
+   "bpm": 84,
+   "start": 115.701,
+   "end": 125.358
+  },
+  {
+   "index": 6,
+   "title": "drop",
+   "mood": "drop",
+   "bpm": 84,
+   "start": 125.358,
+   "end": 129.717
+  },
+  {
+   "index": 7,
+   "title": "sad",
+   "mood": "sad",
+   "bpm": 100,
+   "start": 129.717,
+   "end": 141.353
+  },
+  {
+   "index": 8,
+   "title": "money",
+   "mood": "money",
+   "bpm": 84,
+   "start": 141.353,
+   "end": 153.963
+  },
+  {
+   "index": 9,
+   "title": "inside",
+   "mood": "inside",
+   "bpm": 84,
+   "start": 153.963,
+   "end": 184.13
+  },
+  {
+   "index": 10,
+   "title": "drop",
+   "mood": "drop",
+   "bpm": 84,
+   "start": 184.13,
+   "end": 186.467
+  },
+  {
+   "index": 11,
+   "title": "calm",
+   "mood": "calm",
+   "bpm": 84,
+   "start": 186.467,
+   "end": 192.042
+  },
+  {
+   "index": 12,
+   "title": "sneaky",
+   "mood": "sneaky",
+   "bpm": 100,
+   "start": 192.042,
+   "end": 226.083
+  },
+  {
+   "index": 13,
+   "title": "tech",
+   "mood": "tech",
+   "bpm": 100,
+   "start": 226.083,
+   "end": 244.55
+  },
+  {
+   "index": 14,
+   "title": "drop",
+   "mood": "drop",
+   "bpm": 100,
+   "start": 244.55,
+   "end": 247.184
+  },
+  {
+   "index": 15,
+   "title": "bright",
+   "mood": "bright",
+   "bpm": 100,
+   "start": 247.184,
+   "end": 249.378
+  },
+  {
+   "index": 16,
+   "title": "twist",
+   "mood": "twist",
+   "bpm": 100,
+   "start": 249.378,
+   "end": 259.37
+  },
+  {
+   "index": 17,
+   "title": "network",
+   "mood": "network",
+   "bpm": 84,
+   "start": 259.37,
+   "end": 265.242
+  },
+  {
+   "index": 18,
+   "title": "hack",
+   "mood": "hack",
+   "bpm": 84,
+   "start": 265.242,
+   "end": 278.189
+  },
+  {
+   "index": 19,
+   "title": "drop",
+   "mood": "drop",
+   "bpm": 84,
+   "start": 278.189,
+   "end": 280.77
+  },
+  {
+   "index": 20,
+   "title": "mystery",
+   "mood": "mystery",
+   "bpm": 100,
+   "start": 280.77,
+   "end": 286.049
+  },
+  {
+   "index": 21,
+   "title": "drop",
+   "mood": "drop",
+   "bpm": 100,
+   "start": 286.049,
+   "end": 287.099
+  },
+  {
+   "index": 22,
+   "title": "twist",
+   "mood": "twist",
+   "bpm": 100,
+   "start": 287.099,
+   "end": 298.028
+  },
+  {
+   "index": 23,
+   "title": "open",
+   "mood": "open",
+   "bpm": 84,
+   "start": 298.028,
+   "end": 309.535
+  },
+  {
+   "index": 24,
+   "title": "calm",
+   "mood": "calm",
+   "bpm": 84,
+   "start": 309.535,
+   "end": 341.459
+  },
+  {
+   "index": 25,
+   "title": "fix",
+   "mood": "fix",
+   "bpm": 84,
+   "start": 341.459,
+   "end": 364.354
+  },
+  {
+   "index": 26,
+   "title": "warm",
+   "mood": "warm",
+   "bpm": 100,
+   "start": 364.354,
+   "end": 376.433
+  },
+  {
+   "index": 27,
+   "title": "calm",
+   "mood": "calm",
+   "bpm": 84,
+   "start": 376.433,
+   "end": 390.646
+  },
+  {
+   "index": 28,
+   "title": "open",
+   "mood": "open",
+   "bpm": 84,
+   "start": 390.646,
+   "end": 398.065
+  }
+ ],
+ "cues": [
+  {
+   "id": 0,
+   "section": 0,
+   "voice": "am_michael",
+   "start": 0.6,
+   "end": 4.687,
+   "vStart": 0,
+   "vEnd": 4.087,
+   "text": "This little USB drive holds more than half a billion dollars."
+  },
+  {
+   "id": 1,
+   "section": 0,
+   "voice": "am_michael",
+   "start": 5.187,
+   "end": 6.762,
+   "vStart": 4.587,
+   "vEnd": 6.162,
+   "text": "And it has two guesses left."
+  },
+  {
+   "id": 2,
+   "section": 0,
+   "voice": "am_michael",
+   "start": 7.462,
+   "end": 12.962,
+   "vStart": 6.862,
+   "vEnd": 12.362,
+   "text": "Get the password wrong two more times… and it destroys everything inside. Forever."
+  },
+  {
+   "id": 3,
+   "section": 0,
+   "voice": "am_onyx",
+   "start": 13.312,
+   "end": 14.634,
+   "vStart": 12.712,
+   "vEnd": 14.034,
+   "text": "Go on. Try."
+  },
+  {
+   "id": 4,
+   "section": 0,
+   "voice": "am_michael",
+   "start": 15.234,
+   "end": 21.278,
+   "vStart": 14.634,
+   "vEnd": 20.678,
+   "text": "The man who owns it knows this. He's known it for years. And the drive is still sitting there… locked."
+  },
+  {
+   "id": 5,
+   "section": 0,
+   "voice": "am_michael",
+   "start": 21.778,
+   "end": 27.879,
+   "vStart": 21.178,
+   "vEnd": 27.279,
+   "text": "So what's on it? How did one forgotten password become one of the most expensive mistakes in tech?"
+  },
+  {
+   "id": 6,
+   "section": 0,
+   "voice": "am_michael",
+   "start": 28.129,
+   "end": 32.392,
+   "vStart": 27.529,
+   "vEnd": 31.792,
+   "text": "And when a team of hackers offered to break it open… why did he say no?"
+  },
+  {
+   "id": 7,
+   "section": 0,
+   "voice": "am_michael",
+   "start": 32.992,
+   "end": 35.88,
+   "vStart": 32.392,
+   "vEnd": 35.28,
+   "text": "This is the story of the drive that never forgets."
+  },
+  {
+   "id": 8,
+   "section": 1,
+   "voice": "am_michael",
+   "start": 38.48,
+   "end": 49.259,
+   "vStart": 37.88,
+   "vEnd": 48.659,
+   "text": "Meet Stefan Thomas. A programmer. Back in 2011, almost nobody had heard of Bitcoin. And Stefan made an animated video explaining what it was."
+  },
+  {
+   "id": 9,
+   "section": 1,
+   "voice": "am_michael",
+   "start": 49.559,
+   "end": 51.512,
+   "vStart": 48.959,
+   "vEnd": 50.912,
+   "text": "Yes. A cartoon. Like this one."
+  },
+  {
+   "id": 10,
+   "section": 1,
+   "voice": "am_michael",
+   "start": 52.412,
+   "end": 56.077,
+   "vStart": 51.812,
+   "vEnd": 55.477,
+   "text": "And for that video, he was paid seven thousand and two bitcoin."
+  },
+  {
+   "id": 11,
+   "section": 1,
+   "voice": "am_michael",
+   "start": 56.577,
+   "end": 61.891,
+   "vStart": 55.977,
+   "vEnd": 61.291,
+   "text": "Back then, bitcoin was worth almost nothing. So seven thousand of them? Pocket money."
+  },
+  {
+   "id": 12,
+   "section": 1,
+   "voice": "am_michael",
+   "start": 62.491,
+   "end": 68.399,
+   "vStart": 61.891,
+   "vEnd": 67.799,
+   "text": "But Stefan was careful. He put the keys to those coins on a special drive called an IronKey."
+  },
+  {
+   "id": 13,
+   "section": 1,
+   "voice": "am_michael",
+   "start": 68.699,
+   "end": 80.295,
+   "vStart": 68.099,
+   "vEnd": 79.695,
+   "text": "And the IronKey is not a normal USB stick. It's built like a tiny safe. Military-grade encryption. A secure chip inside. And one very famous rule."
+  },
+  {
+   "id": 14,
+   "section": 1,
+   "voice": "am_michael",
+   "start": 80.895,
+   "end": 92.571,
+   "vStart": 80.295,
+   "vEnd": 91.971,
+   "text": "Ten guesses. Get the password wrong ten times in a row, and the drive wipes its own secret key. The data is gone. No undo. No reset. No customer service."
+  },
+  {
+   "id": 15,
+   "section": 1,
+   "voice": "am_michael",
+   "start": 93.171,
+   "end": 97.648,
+   "vStart": 92.571,
+   "vEnd": 97.048,
+   "text": "So Stefan picked a strong password. He wrote it down on a piece of paper."
+  },
+  {
+   "id": 16,
+   "section": 1,
+   "voice": "am_michael",
+   "start": 98.348,
+   "end": 99.897,
+   "vStart": 97.748,
+   "vEnd": 99.297,
+   "text": "And then… he lost the paper."
+  },
+  {
+   "id": 17,
+   "section": 2,
+   "voice": "am_michael",
+   "start": 101.297,
+   "end": 104.335,
+   "vStart": 100.697,
+   "vEnd": 103.735,
+   "text": "At first, it didn't matter much. Bitcoin was cheap."
+  },
+  {
+   "id": 18,
+   "section": 2,
+   "voice": "am_michael",
+   "start": 104.635,
+   "end": 109.799,
+   "vStart": 104.035,
+   "vEnd": 109.199,
+   "text": "But then bitcoin started climbing. A hundred dollars. A thousand. Ten thousand."
+  },
+  {
+   "id": 19,
+   "section": 2,
+   "voice": "am_michael",
+   "start": 110.099,
+   "end": 115.401,
+   "vStart": 109.499,
+   "vEnd": 114.801,
+   "text": "And every time the price went up, that little drive got more valuable… and more locked."
+  },
+  {
+   "id": 20,
+   "section": 2,
+   "voice": "am_michael",
+   "start": 115.901,
+   "end": 120.878,
+   "vStart": 115.301,
+   "vEnd": 120.278,
+   "text": "So Stefan started guessing. His usual passwords. The ones he always used."
+  },
+  {
+   "id": 21,
+   "section": 2,
+   "voice": "am_michael",
+   "start": 121.278,
+   "end": 125.258,
+   "vStart": 120.678,
+   "vEnd": 124.658,
+   "text": "Guess one. Wrong. Guess two. Wrong. Three… four… five… six… seven…"
+  },
+  {
+   "id": 22,
+   "section": 2,
+   "voice": "am_michael",
+   "start": 125.458,
+   "end": 127.156,
+   "vStart": 124.858,
+   "vEnd": 126.556,
+   "text": "Eight guesses. Eight misses."
+  },
+  {
+   "id": 23,
+   "section": 2,
+   "voice": "am_michael",
+   "start": 128.256,
+   "end": 129.017,
+   "vStart": 127.656,
+   "vEnd": 128.417,
+   "text": "Two left."
+  },
+  {
+   "id": 24,
+   "section": 2,
+   "voice": "am_michael",
+   "start": 130.017,
+   "end": 140.753,
+   "vStart": 129.417,
+   "vEnd": 140.153,
+   "text": "He told the New York Times: “I would just lay in bed and think about it. Then I would go to the computer with some new strategy, and it wouldn't work, and I would be desperate again.”"
+  },
+  {
+   "id": 25,
+   "section": 2,
+   "voice": "am_michael",
+   "start": 141.553,
+   "end": 153.463,
+   "vStart": 140.953,
+   "vEnd": 152.863,
+   "text": "By 2021, the coins on that drive were worth about two hundred and twenty million dollars. And at bitcoin's peak, in October 2025? Close to nine hundred million."
+  },
+  {
+   "id": 26,
+   "section": 3,
+   "voice": "am_michael",
+   "start": 154.263,
+   "end": 159.864,
+   "vStart": 153.663,
+   "vEnd": 159.264,
+   "text": "So why not just… break it open? Plug it into a computer and try a million passwords?"
+  },
+  {
+   "id": 27,
+   "section": 3,
+   "voice": "am_michael",
+   "start": 160.264,
+   "end": 161.998,
+   "vStart": 159.664,
+   "vEnd": 161.398,
+   "text": "Because the IronKey remembers."
+  },
+  {
+   "id": 28,
+   "section": 3,
+   "voice": "am_michael",
+   "start": 162.598,
+   "end": 170.521,
+   "vStart": 161.998,
+   "vEnd": 169.921,
+   "text": "Every wrong guess is counted inside its secure chip. Unplug it, wait a year, plug it back in… the counter is still there."
+  },
+  {
+   "id": 29,
+   "section": 3,
+   "voice": "am_michael",
+   "start": 171.221,
+   "end": 176.312,
+   "vStart": 170.621,
+   "vEnd": 175.712,
+   "text": "The chip is sealed under tough epoxy, built to resist exactly this kind of attack."
+  },
+  {
+   "id": 30,
+   "section": 3,
+   "voice": "am_michael",
+   "start": 176.612,
+   "end": 183.63,
+   "vStart": 176.012,
+   "vEnd": 183.03,
+   "text": "Even Kingston, the company that makes IronKeys today, said it couldn't help. No backdoor. No master password."
+  },
+  {
+   "id": 31,
+   "section": 3,
+   "voice": "am_michael",
+   "start": 184.23,
+   "end": 185.867,
+   "vStart": 183.63,
+   "vEnd": 185.267,
+   "text": "So it's impossible. Right?"
+  },
+  {
+   "id": 32,
+   "section": 3,
+   "voice": "am_onyx",
+   "start": 186.667,
+   "end": 191.742,
+   "vStart": 186.067,
+   "vEnd": 191.142,
+   "text": "Want to know if anyone ever cracks me? Subscribe. I'll wait. I'm very good at waiting."
+  },
+  {
+   "id": 33,
+   "section": 4,
+   "voice": "am_michael",
+   "start": 192.342,
+   "end": 196.088,
+   "vStart": 191.742,
+   "vEnd": 195.488,
+   "text": "Not quite. Because someone has pulled off something like this before."
+  },
+  {
+   "id": 34,
+   "section": 4,
+   "voice": "am_michael",
+   "start": 196.488,
+   "end": 203.477,
+   "vStart": 195.888,
+   "vEnd": 202.877,
+   "text": "Meet Joe Grand, a hardware hacker. In 2021, he took on a challenge from a man named Dan Reich."
+  },
+  {
+   "id": 35,
+   "section": 4,
+   "voice": "am_michael",
+   "start": 203.677,
+   "end": 211.789,
+   "vStart": 203.077,
+   "vEnd": 211.189,
+   "text": "Dan's crypto wallet, a little device called a Trezor, held about two million dollars in crypto. And he'd forgotten the PIN."
+  },
+  {
+   "id": 36,
+   "section": 4,
+   "voice": "am_michael",
+   "start": 212.189,
+   "end": 218.538,
+   "vStart": 211.589,
+   "vEnd": 217.938,
+   "text": "Dan and a friend had already guessed wrong twelve times. After sixteen, the wallet would wipe itself."
+  },
+  {
+   "id": 37,
+   "section": 4,
+   "voice": "am_michael",
+   "start": 218.838,
+   "end": 222.366,
+   "vStart": 218.238,
+   "vEnd": 221.766,
+   "text": "And every wrong guess made them wait longer before the next try."
+  },
+  {
+   "id": 38,
+   "section": 4,
+   "voice": "am_michael",
+   "start": 222.766,
+   "end": 225.883,
+   "vStart": 222.166,
+   "vEnd": 225.283,
+   "text": "So Joe didn't guess. He attacked the hardware itself."
+  },
+  {
+   "id": 39,
+   "section": 4,
+   "voice": "am_michael",
+   "start": 226.283,
+   "end": 241.381,
+   "vStart": 225.683,
+   "vEnd": 240.781,
+   "text": "He found that during a firmware update, the wallet copies its PIN into the chip's temporary memory. That memory is protected… but Joe hit the chip with a tiny, perfectly timed glitch in its power, and tricked it into letting him read it."
+  },
+  {
+   "id": 40,
+   "section": 4,
+   "voice": "am_michael",
+   "start": 241.781,
+   "end": 244.15,
+   "vStart": 241.181,
+   "vEnd": 243.55,
+   "text": "It took about twelve weeks of trial and error."
+  },
+  {
+   "id": 41,
+   "section": 4,
+   "voice": "am_michael",
+   "start": 244.65,
+   "end": 246.784,
+   "vStart": 244.05,
+   "vEnd": 246.184,
+   "text": "And then… the PIN popped up on his screen."
+  },
+  {
+   "id": 42,
+   "section": 4,
+   "voice": "am_michael",
+   "start": 247.384,
+   "end": 248.978,
+   "vStart": 246.784,
+   "vEnd": 248.378,
+   "text": "Two million dollars. Back."
+  },
+  {
+   "id": 43,
+   "section": 4,
+   "voice": "am_michael",
+   "start": 249.578,
+   "end": 259.07,
+   "vStart": 248.978,
+   "vEnd": 258.47,
+   "text": "But here's the catch. That trick used a flaw Trezor had already fixed back in 2017. Stefan's IronKey is a different, tougher machine."
+  },
+  {
+   "id": 44,
+   "section": 5,
+   "voice": "am_michael",
+   "start": 259.67,
+   "end": 265.142,
+   "vStart": 259.07,
+   "vEnd": 264.542,
+   "text": "Then, in 2023, a security company called Unciphered said it had done it."
+  },
+  {
+   "id": 45,
+   "section": 5,
+   "voice": "am_michael",
+   "start": 265.442,
+   "end": 274.938,
+   "vStart": 264.842,
+   "vEnd": 274.338,
+   "text": "Working with Wired, they took an IronKey of the same model as Stefan's, carved out its secure chip, dissolved the protective epoxy with acid…"
+  },
+  {
+   "id": 46,
+   "section": 5,
+   "voice": "am_michael",
+   "start": 275.088,
+   "end": 278.139,
+   "vStart": 274.488,
+   "vEnd": 277.539,
+   "text": "…and ran about two hundred trillion password guesses."
+  },
+  {
+   "id": 47,
+   "section": 5,
+   "voice": "am_michael",
+   "start": 279.239,
+   "end": 280.07,
+   "vStart": 278.639,
+   "vEnd": 279.47,
+   "text": "It opened."
+  },
+  {
+   "id": 48,
+   "section": 5,
+   "voice": "am_michael",
+   "start": 280.97,
+   "end": 284.336,
+   "vStart": 280.37,
+   "vEnd": 283.736,
+   "text": "So they made Stefan an offer: let us unlock your drive."
+  },
+  {
+   "id": 49,
+   "section": 5,
+   "voice": "am_michael",
+   "start": 284.736,
+   "end": 285.999,
+   "vStart": 284.136,
+   "vEnd": 285.399,
+   "text": "And Stefan… said no."
+  },
+  {
+   "id": 50,
+   "section": 5,
+   "voice": "am_michael",
+   "start": 287.199,
+   "end": 290.206,
+   "vStart": 286.599,
+   "vEnd": 289.606,
+   "text": "Why would anyone say no to half a billion dollars?"
+  },
+  {
+   "id": 51,
+   "section": 5,
+   "voice": "am_michael",
+   "start": 290.706,
+   "end": 297.828,
+   "vStart": 290.106,
+   "vEnd": 297.228,
+   "text": "Because, according to reports, he had already hired another team. And he'd agreed to give them a share if they succeeded."
+  },
+  {
+   "id": 52,
+   "section": 5,
+   "voice": "am_michael",
+   "start": 298.228,
+   "end": 302.811,
+   "vStart": 297.628,
+   "vEnd": 302.211,
+   "text": "So somewhere, maybe right now, someone may be trying to break into that drive."
+  },
+  {
+   "id": 53,
+   "section": 5,
+   "voice": "am_michael",
+   "start": 303.211,
+   "end": 309.035,
+   "vStart": 302.611,
+   "vEnd": 308.435,
+   "text": "Has anyone succeeded? As of today, there's no public confirmation that it's been opened."
+  },
+  {
+   "id": 54,
+   "section": 6,
+   "voice": "am_michael",
+   "start": 309.835,
+   "end": 311.612,
+   "vStart": 309.235,
+   "vEnd": 311.012,
+   "text": "And Stefan isn't the only one."
+  },
+  {
+   "id": 55,
+   "section": 6,
+   "voice": "am_michael",
+   "start": 311.912,
+   "end": 327.789,
+   "vStart": 311.312,
+   "vEnd": 327.189,
+   "text": "In Wales, a man named James Howells says he threw away a hard drive with around eight thousand bitcoin on it, back in 2013. It's buried in a landfill. He spent years in court trying to dig it up. In 2025, he lost."
+  },
+  {
+   "id": 56,
+   "section": 6,
+   "voice": "am_michael",
+   "start": 328.389,
+   "end": 341.159,
+   "vStart": 327.789,
+   "vEnd": 340.559,
+   "text": "One estimate, from the blockchain firm Chainalysis, suggested that up to one in five bitcoins may be lost forever. Forgotten passwords. Thrown-out drives. Owners who never told anyone."
+  },
+  {
+   "id": 57,
+   "section": 7,
+   "voice": "am_michael",
+   "start": 341.759,
+   "end": 344.487,
+   "vStart": 341.159,
+   "vEnd": 343.887,
+   "text": "So how do you make sure this never happens to you?"
+  },
+  {
+   "id": 58,
+   "section": 7,
+   "voice": "am_michael",
+   "start": 344.787,
+   "end": 349.137,
+   "vStart": 344.187,
+   "vEnd": 348.537,
+   "text": "One. Use a password manager, so your brain isn't the only backup."
+  },
+  {
+   "id": 59,
+   "section": 7,
+   "voice": "am_michael",
+   "start": 349.387,
+   "end": 355.794,
+   "vStart": 348.787,
+   "vEnd": 355.194,
+   "text": "Two. Write down your recovery codes, and keep copies in two safe places. Not one piece of paper."
+  },
+  {
+   "id": 60,
+   "section": 7,
+   "voice": "am_michael",
+   "start": 356.044,
+   "end": 358.267,
+   "vStart": 355.444,
+   "vEnd": 357.667,
+   "text": "Three. Test your backup before you need it."
+  },
+  {
+   "id": 61,
+   "section": 7,
+   "voice": "am_michael",
+   "start": 358.517,
+   "end": 364.054,
+   "vStart": 357.917,
+   "vEnd": 363.454,
+   "text": "And four. Make sure someone you trust knows how to find it, if something ever happens to you."
+  },
+  {
+   "id": 62,
+   "section": 7,
+   "voice": "am_michael",
+   "start": 364.654,
+   "end": 375.833,
+   "vStart": 364.054,
+   "vEnd": 375.233,
+   "text": "Stefan called it a painful memory, and said he hopes others can learn from his mistakes. He said he was depressed for a few weeks… then decided to look forward, and keep building."
+  },
+  {
+   "id": 63,
+   "section": 8,
+   "voice": "am_michael",
+   "start": 376.633,
+   "end": 386.294,
+   "vStart": 376.033,
+   "vEnd": 385.694,
+   "text": "So here's my question. Two guesses. More than half a billion dollars. Would you try them yourself… or hand the drive to a hacker? Tell me in the comments."
+  },
+  {
+   "id": 64,
+   "section": 8,
+   "voice": "am_michael",
+   "start": 386.694,
+   "end": 390.346,
+   "vStart": 386.094,
+   "vEnd": 389.746,
+   "text": "And subscribe, because next time, we're going to that landfill."
+  },
+  {
+   "id": 65,
+   "section": 8,
+   "voice": "am_puck",
+   "start": 390.846,
+   "end": 392.474,
+   "vStart": 390.246,
+   "vEnd": 391.874,
+   "text": "And I thought my sentence was bad."
+  },
+  {
+   "id": 66,
+   "section": 8,
+   "voice": "am_onyx",
+   "start": 392.874,
+   "end": 394.865,
+   "vStart": 392.274,
+   "vEnd": 394.265,
+   "text": "Two guesses. I'll be waiting."
+  }
+ ],
+ "hooks": [],
+ "words": [
+  {
+   "c": 0,
+   "i": 0,
+   "w": "This",
+   "s": 0.6,
+   "e": 0.74
+  },
+  {
+   "c": 0,
+   "i": 1,
+   "w": "little",
+   "s": 0.74,
+   "e": 0.96
+  },
+  {
+   "c": 0,
+   "i": 2,
+   "w": "USB",
+   "s": 0.96,
+   "e": 1.46
+  },
+  {
+   "c": 0,
+   "i": 3,
+   "w": "drive",
+   "s": 1.46,
+   "e": 2.04
+  },
+  {
+   "c": 0,
+   "i": 4,
+   "w": "holds",
+   "s": 2.04,
+   "e": 2.68
+  },
+  {
+   "c": 0,
+   "i": 5,
+   "w": "more",
+   "s": 2.68,
+   "e": 2.98
+  },
+  {
+   "c": 0,
+   "i": 6,
+   "w": "than",
+   "s": 2.98,
+   "e": 3.14
+  },
+  {
+   "c": 0,
+   "i": 7,
+   "w": "half",
+   "s": 3.14,
+   "e": 3.4
+  },
+  {
+   "c": 0,
+   "i": 8,
+   "w": "a",
+   "s": 3.4,
+   "e": 3.58
+  },
+  {
+   "c": 0,
+   "i": 9,
+   "w": "billion",
+   "s": 3.58,
+   "e": 3.84
+  },
+  {
+   "c": 0,
+   "i": 10,
+   "w": "dollars.",
+   "s": 3.84,
+   "e": 4.42
+  },
+  {
+   "c": 1,
+   "i": 0,
+   "w": "And",
+   "s": 5.137,
+   "e": 5.277
+  },
+  {
+   "c": 1,
+   "i": 1,
+   "w": "it",
+   "s": 5.277,
+   "e": 5.357
+  },
+  {
+   "c": 1,
+   "i": 2,
+   "w": "has",
+   "s": 5.357,
+   "e": 5.457
+  },
+  {
+   "c": 1,
+   "i": 3,
+   "w": "two",
+   "s": 5.457,
+   "e": 5.697
+  },
+  {
+   "c": 1,
+   "i": 4,
+   "w": "guesses",
+   "s": 5.697,
+   "e": 6.117
+  },
+  {
+   "c": 1,
+   "i": 5,
+   "w": "left.",
+   "s": 6.117,
+   "e": 6.497
+  },
+  {
+   "c": 2,
+   "i": 0,
+   "w": "Get",
+   "s": 7.412,
+   "e": 7.532
+  },
+  {
+   "c": 2,
+   "i": 1,
+   "w": "the",
+   "s": 7.532,
+   "e": 7.632
+  },
+  {
+   "c": 2,
+   "i": 2,
+   "w": "password",
+   "s": 7.632,
+   "e": 8.012
+  },
+  {
+   "c": 2,
+   "i": 3,
+   "w": "wrong",
+   "s": 8.012,
+   "e": 8.352
+  },
+  {
+   "c": 2,
+   "i": 4,
+   "w": "two",
+   "s": 8.352,
+   "e": 8.632
+  },
+  {
+   "c": 2,
+   "i": 5,
+   "w": "more",
+   "s": 8.632,
+   "e": 8.852
+  },
+  {
+   "c": 2,
+   "i": 6,
+   "w": "times…",
+   "s": 8.852,
+   "e": 9.952
+  },
+  {
+   "c": 2,
+   "i": 7,
+   "w": "and",
+   "s": 9.952,
+   "e": 9.952
+  },
+  {
+   "c": 2,
+   "i": 8,
+   "w": "it",
+   "s": 9.952,
+   "e": 10.032
+  },
+  {
+   "c": 2,
+   "i": 9,
+   "w": "destroys",
+   "s": 10.032,
+   "e": 10.392
+  },
+  {
+   "c": 2,
+   "i": 10,
+   "w": "everything",
+   "s": 10.392,
+   "e": 11.012
+  },
+  {
+   "c": 2,
+   "i": 11,
+   "w": "inside.",
+   "s": 11.012,
+   "e": 11.412
+  },
+  {
+   "c": 2,
+   "i": 12,
+   "w": "Forever.",
+   "s": 12.532,
+   "e": 12.532
+  },
+  {
+   "c": 3,
+   "i": 0,
+   "w": "Go",
+   "s": 13.262,
+   "e": 13.502
+  },
+  {
+   "c": 3,
+   "i": 1,
+   "w": "on.",
+   "s": 13.502,
+   "e": 13.822
+  },
+  {
+   "c": 3,
+   "i": 2,
+   "w": "Try.",
+   "s": 13.822,
+   "e": 14.242
+  },
+  {
+   "c": 4,
+   "i": 0,
+   "w": "The",
+   "s": 15.184,
+   "e": 15.284
+  },
+  {
+   "c": 4,
+   "i": 1,
+   "w": "man",
+   "s": 15.284,
+   "e": 15.504
+  },
+  {
+   "c": 4,
+   "i": 2,
+   "w": "who",
+   "s": 15.504,
+   "e": 15.664
+  },
+  {
+   "c": 4,
+   "i": 3,
+   "w": "owns",
+   "s": 15.664,
+   "e": 15.944
+  },
+  {
+   "c": 4,
+   "i": 4,
+   "w": "it",
+   "s": 15.944,
+   "e": 16.184
+  },
+  {
+   "c": 4,
+   "i": 5,
+   "w": "knows",
+   "s": 16.184,
+   "e": 16.424
+  },
+  {
+   "c": 4,
+   "i": 6,
+   "w": "this.",
+   "s": 16.424,
+   "e": 16.704
+  },
+  {
+   "c": 4,
+   "i": 7,
+   "w": "He's",
+   "s": 17.364,
+   "e": 17.484
+  },
+  {
+   "c": 4,
+   "i": 8,
+   "w": "known",
+   "s": 17.484,
+   "e": 17.644
+  },
+  {
+   "c": 4,
+   "i": 9,
+   "w": "it",
+   "s": 17.644,
+   "e": 17.824
+  },
+  {
+   "c": 4,
+   "i": 10,
+   "w": "for",
+   "s": 17.824,
+   "e": 17.964
+  },
+  {
+   "c": 4,
+   "i": 11,
+   "w": "years.",
+   "s": 17.964,
+   "e": 18.304
+  },
+  {
+   "c": 4,
+   "i": 12,
+   "w": "And",
+   "s": 19.004,
+   "e": 19.004
+  },
+  {
+   "c": 4,
+   "i": 13,
+   "w": "the",
+   "s": 19.004,
+   "e": 19.104
+  },
+  {
+   "c": 4,
+   "i": 14,
+   "w": "drive",
+   "s": 19.104,
+   "e": 19.324
+  },
+  {
+   "c": 4,
+   "i": 15,
+   "w": "is",
+   "s": 19.324,
+   "e": 19.604
+  },
+  {
+   "c": 4,
+   "i": 16,
+   "w": "still",
+   "s": 19.604,
+   "e": 19.824
+  },
+  {
+   "c": 4,
+   "i": 17,
+   "w": "sitting",
+   "s": 19.824,
+   "e": 20.184
+  },
+  {
+   "c": 4,
+   "i": 18,
+   "w": "there…",
+   "s": 20.184,
+   "e": 20.804
+  },
+  {
+   "c": 4,
+   "i": 19,
+   "w": "locked.",
+   "s": 20.804,
+   "e": 20.904
+  },
+  {
+   "c": 5,
+   "i": 0,
+   "w": "So",
+   "s": 21.728,
+   "e": 21.888
+  },
+  {
+   "c": 5,
+   "i": 1,
+   "w": "what's",
+   "s": 21.888,
+   "e": 22.168
+  },
+  {
+   "c": 5,
+   "i": 2,
+   "w": "on",
+   "s": 22.168,
+   "e": 22.368
+  },
+  {
+   "c": 5,
+   "i": 3,
+   "w": "it?",
+   "s": 22.368,
+   "e": 22.508
+  },
+  {
+   "c": 5,
+   "i": 4,
+   "w": "How",
+   "s": 23.148,
+   "e": 23.208
+  },
+  {
+   "c": 5,
+   "i": 5,
+   "w": "did",
+   "s": 23.208,
+   "e": 23.408
+  },
+  {
+   "c": 5,
+   "i": 6,
+   "w": "one",
+   "s": 23.408,
+   "e": 23.588
+  },
+  {
+   "c": 5,
+   "i": 7,
+   "w": "forgotten",
+   "s": 23.588,
+   "e": 23.988
+  },
+  {
+   "c": 5,
+   "i": 8,
+   "w": "password",
+   "s": 23.988,
+   "e": 24.648
+  },
+  {
+   "c": 5,
+   "i": 9,
+   "w": "become",
+   "s": 24.648,
+   "e": 25.148
+  },
+  {
+   "c": 5,
+   "i": 10,
+   "w": "one",
+   "s": 25.148,
+   "e": 25.428
+  },
+  {
+   "c": 5,
+   "i": 11,
+   "w": "of",
+   "s": 25.428,
+   "e": 25.508
+  },
+  {
+   "c": 5,
+   "i": 12,
+   "w": "the",
+   "s": 25.508,
+   "e": 25.628
+  },
+  {
+   "c": 5,
+   "i": 13,
+   "w": "most",
+   "s": 25.628,
+   "e": 25.808
+  },
+  {
+   "c": 5,
+   "i": 14,
+   "w": "expensive",
+   "s": 25.808,
+   "e": 26.408
+  },
+  {
+   "c": 5,
+   "i": 15,
+   "w": "mistakes",
+   "s": 26.408,
+   "e": 27.028
+  },
+  {
+   "c": 5,
+   "i": 16,
+   "w": "in",
+   "s": 27.028,
+   "e": 27.368
+  },
+  {
+   "c": 5,
+   "i": 17,
+   "w": "tech?",
+   "s": 27.368,
+   "e": 27.628
+  },
+  {
+   "c": 6,
+   "i": 0,
+   "w": "And",
+   "s": 28.079,
+   "e": 28.199
+  },
+  {
+   "c": 6,
+   "i": 1,
+   "w": "when",
+   "s": 28.199,
+   "e": 28.319
+  },
+  {
+   "c": 6,
+   "i": 2,
+   "w": "a",
+   "s": 28.319,
+   "e": 28.379
+  },
+  {
+   "c": 6,
+   "i": 3,
+   "w": "team",
+   "s": 28.379,
+   "e": 28.659
+  },
+  {
+   "c": 6,
+   "i": 4,
+   "w": "of",
+   "s": 28.659,
+   "e": 28.799
+  },
+  {
+   "c": 6,
+   "i": 5,
+   "w": "hackers",
+   "s": 28.799,
+   "e": 29.139
+  },
+  {
+   "c": 6,
+   "i": 6,
+   "w": "offered",
+   "s": 29.139,
+   "e": 29.579
+  },
+  {
+   "c": 6,
+   "i": 7,
+   "w": "to",
+   "s": 29.579,
+   "e": 29.819
+  },
+  {
+   "c": 6,
+   "i": 8,
+   "w": "break",
+   "s": 29.819,
+   "e": 30.079
+  },
+  {
+   "c": 6,
+   "i": 9,
+   "w": "it",
+   "s": 30.079,
+   "e": 30.259
+  },
+  {
+   "c": 6,
+   "i": 10,
+   "w": "open…",
+   "s": 30.259,
+   "e": 31.319
+  },
+  {
+   "c": 6,
+   "i": 11,
+   "w": "why",
+   "s": 31.319,
+   "e": 31.379
+  },
+  {
+   "c": 6,
+   "i": 12,
+   "w": "did",
+   "s": 31.379,
+   "e": 31.539
+  },
+  {
+   "c": 6,
+   "i": 13,
+   "w": "he",
+   "s": 31.539,
+   "e": 31.639
+  },
+  {
+   "c": 6,
+   "i": 14,
+   "w": "say",
+   "s": 31.639,
+   "e": 31.839
+  },
+  {
+   "c": 6,
+   "i": 15,
+   "w": "no?",
+   "s": 31.839,
+   "e": 32.179
+  },
+  {
+   "c": 7,
+   "i": 0,
+   "w": "This",
+   "s": 32.942,
+   "e": 33.122
+  },
+  {
+   "c": 7,
+   "i": 1,
+   "w": "is",
+   "s": 33.122,
+   "e": 33.282
+  },
+  {
+   "c": 7,
+   "i": 2,
+   "w": "the",
+   "s": 33.282,
+   "e": 33.422
+  },
+  {
+   "c": 7,
+   "i": 3,
+   "w": "story",
+   "s": 33.422,
+   "e": 33.762
+  },
+  {
+   "c": 7,
+   "i": 4,
+   "w": "of",
+   "s": 33.762,
+   "e": 34.002
+  },
+  {
+   "c": 7,
+   "i": 5,
+   "w": "the",
+   "s": 34.002,
+   "e": 34.122
+  },
+  {
+   "c": 7,
+   "i": 6,
+   "w": "drive",
+   "s": 34.122,
+   "e": 34.382
+  },
+  {
+   "c": 7,
+   "i": 7,
+   "w": "that",
+   "s": 34.382,
+   "e": 34.862
+  },
+  {
+   "c": 7,
+   "i": 8,
+   "w": "never",
+   "s": 34.862,
+   "e": 35.082
+  },
+  {
+   "c": 7,
+   "i": 9,
+   "w": "forgets.",
+   "s": 35.082,
+   "e": 35.682
+  },
+  {
+   "c": 8,
+   "i": 0,
+   "w": "Meet",
+   "s": 38.43,
+   "e": 38.63
+  },
+  {
+   "c": 8,
+   "i": 1,
+   "w": "Stefan",
+   "s": 38.63,
+   "e": 38.97
+  },
+  {
+   "c": 8,
+   "i": 2,
+   "w": "Thomas.",
+   "s": 38.97,
+   "e": 39.35
+  },
+  {
+   "c": 8,
+   "i": 3,
+   "w": "A",
+   "s": 40.25,
+   "e": 40.27
+  },
+  {
+   "c": 8,
+   "i": 4,
+   "w": "programmer.",
+   "s": 40.27,
+   "e": 40.65
+  },
+  {
+   "c": 8,
+   "i": 5,
+   "w": "Back",
+   "s": 41.75,
+   "e": 41.75
+  },
+  {
+   "c": 8,
+   "i": 6,
+   "w": "in",
+   "s": 41.75,
+   "e": 41.97
+  },
+  {
+   "c": 8,
+   "i": 7,
+   "w": "2011,",
+   "s": 41.97,
+   "e": 42.59
+  },
+  {
+   "c": 8,
+   "i": 8,
+   "w": "almost",
+   "s": 42.97,
+   "e": 43.35
+  },
+  {
+   "c": 8,
+   "i": 9,
+   "w": "nobody",
+   "s": 43.35,
+   "e": 43.91
+  },
+  {
+   "c": 8,
+   "i": 10,
+   "w": "had",
+   "s": 43.91,
+   "e": 44.15
+  },
+  {
+   "c": 8,
+   "i": 11,
+   "w": "heard",
+   "s": 44.15,
+   "e": 44.35
+  },
+  {
+   "c": 8,
+   "i": 12,
+   "w": "of",
+   "s": 44.35,
+   "e": 44.49
+  },
+  {
+   "c": 8,
+   "i": 13,
+   "w": "Bitcoin.",
+   "s": 44.49,
+   "e": 44.69
+  },
+  {
+   "c": 8,
+   "i": 14,
+   "w": "And",
+   "s": 45.61,
+   "e": 45.61
+  },
+  {
+   "c": 8,
+   "i": 15,
+   "w": "Stefan",
+   "s": 45.61,
+   "e": 45.87
+  },
+  {
+   "c": 8,
+   "i": 16,
+   "w": "made",
+   "s": 45.87,
+   "e": 46.29
+  },
+  {
+   "c": 8,
+   "i": 17,
+   "w": "an",
+   "s": 46.29,
+   "e": 46.45
+  },
+  {
+   "c": 8,
+   "i": 18,
+   "w": "animated",
+   "s": 46.45,
+   "e": 46.89
+  },
+  {
+   "c": 8,
+   "i": 19,
+   "w": "video",
+   "s": 46.89,
+   "e": 47.55
+  },
+  {
+   "c": 8,
+   "i": 20,
+   "w": "explaining",
+   "s": 47.55,
+   "e": 48.01
+  },
+  {
+   "c": 8,
+   "i": 21,
+   "w": "what",
+   "s": 48.01,
+   "e": 48.53
+  },
+  {
+   "c": 8,
+   "i": 22,
+   "w": "it",
+   "s": 48.53,
+   "e": 48.63
+  },
+  {
+   "c": 8,
+   "i": 23,
+   "w": "was.",
+   "s": 48.63,
+   "e": 48.91
+  },
+  {
+   "c": 9,
+   "i": 0,
+   "w": "Yes.",
+   "s": 49.509,
+   "e": 49.749
+  },
+  {
+   "c": 9,
+   "i": 1,
+   "w": "A",
+   "s": 50.009,
+   "e": 50.029
+  },
+  {
+   "c": 9,
+   "i": 2,
+   "w": "cartoon.",
+   "s": 50.029,
+   "e": 50.389
+  },
+  {
+   "c": 9,
+   "i": 3,
+   "w": "Like",
+   "s": 50.729,
+   "e": 50.829
+  },
+  {
+   "c": 9,
+   "i": 4,
+   "w": "this",
+   "s": 50.829,
+   "e": 51.049
+  },
+  {
+   "c": 9,
+   "i": 5,
+   "w": "one.",
+   "s": 51.049,
+   "e": 51.329
+  },
+  {
+   "c": 10,
+   "i": 0,
+   "w": "And",
+   "s": 52.362,
+   "e": 52.482
+  },
+  {
+   "c": 10,
+   "i": 1,
+   "w": "for",
+   "s": 52.482,
+   "e": 52.602
+  },
+  {
+   "c": 10,
+   "i": 2,
+   "w": "that",
+   "s": 52.602,
+   "e": 52.782
+  },
+  {
+   "c": 10,
+   "i": 3,
+   "w": "video,",
+   "s": 52.782,
+   "e": 53.142
+  },
+  {
+   "c": 10,
+   "i": 4,
+   "w": "he",
+   "s": 53.562,
+   "e": 53.662
+  },
+  {
+   "c": 10,
+   "i": 5,
+   "w": "was",
+   "s": 53.662,
+   "e": 53.762
+  },
+  {
+   "c": 10,
+   "i": 6,
+   "w": "paid",
+   "s": 53.762,
+   "e": 53.942
+  },
+  {
+   "c": 10,
+   "i": 7,
+   "w": "seven",
+   "s": 53.942,
+   "e": 54.482
+  },
+  {
+   "c": 10,
+   "i": 8,
+   "w": "thousand",
+   "s": 54.482,
+   "e": 55.002
+  },
+  {
+   "c": 10,
+   "i": 9,
+   "w": "and",
+   "s": 55.002,
+   "e": 55.202
+  },
+  {
+   "c": 10,
+   "i": 10,
+   "w": "two",
+   "s": 55.202,
+   "e": 55.402
+  },
+  {
+   "c": 10,
+   "i": 11,
+   "w": "bitcoin.",
+   "s": 55.402,
+   "e": 55.642
+  },
+  {
+   "c": 11,
+   "i": 0,
+   "w": "Back",
+   "s": 56.527,
+   "e": 56.727
+  },
+  {
+   "c": 11,
+   "i": 1,
+   "w": "then,",
+   "s": 56.727,
+   "e": 56.947
+  },
+  {
+   "c": 11,
+   "i": 2,
+   "w": "bitcoin",
+   "s": 57.067,
+   "e": 57.227
+  },
+  {
+   "c": 11,
+   "i": 3,
+   "w": "was",
+   "s": 57.227,
+   "e": 57.727
+  },
+  {
+   "c": 11,
+   "i": 4,
+   "w": "worth",
+   "s": 57.727,
+   "e": 57.947
+  },
+  {
+   "c": 11,
+   "i": 5,
+   "w": "almost",
+   "s": 57.947,
+   "e": 58.247
+  },
+  {
+   "c": 11,
+   "i": 6,
+   "w": "nothing.",
+   "s": 58.247,
+   "e": 58.807
+  },
+  {
+   "c": 11,
+   "i": 7,
+   "w": "So",
+   "s": 59.407,
+   "e": 59.427
+  },
+  {
+   "c": 11,
+   "i": 8,
+   "w": "seven",
+   "s": 59.427,
+   "e": 59.847
+  },
+  {
+   "c": 11,
+   "i": 9,
+   "w": "thousand",
+   "s": 59.847,
+   "e": 60.267
+  },
+  {
+   "c": 11,
+   "i": 10,
+   "w": "of",
+   "s": 60.267,
+   "e": 60.507
+  },
+  {
+   "c": 11,
+   "i": 11,
+   "w": "them?",
+   "s": 60.507,
+   "e": 60.647
+  },
+  {
+   "c": 11,
+   "i": 12,
+   "w": "Pocket",
+   "s": 61.127,
+   "e": 61.307
+  },
+  {
+   "c": 11,
+   "i": 13,
+   "w": "money.",
+   "s": 61.307,
+   "e": 61.627
+  },
+  {
+   "c": 12,
+   "i": 0,
+   "w": "But",
+   "s": 62.441,
+   "e": 62.581
+  },
+  {
+   "c": 12,
+   "i": 1,
+   "w": "Stefan",
+   "s": 62.581,
+   "e": 62.801
+  },
+  {
+   "c": 12,
+   "i": 2,
+   "w": "was",
+   "s": 62.801,
+   "e": 63.181
+  },
+  {
+   "c": 12,
+   "i": 3,
+   "w": "careful.",
+   "s": 63.181,
+   "e": 63.541
+  },
+  {
+   "c": 12,
+   "i": 4,
+   "w": "He",
+   "s": 64.341,
+   "e": 64.361
+  },
+  {
+   "c": 12,
+   "i": 5,
+   "w": "put",
+   "s": 64.361,
+   "e": 64.501
+  },
+  {
+   "c": 12,
+   "i": 6,
+   "w": "the",
+   "s": 64.501,
+   "e": 64.621
+  },
+  {
+   "c": 12,
+   "i": 7,
+   "w": "keys",
+   "s": 64.621,
+   "e": 64.881
+  },
+  {
+   "c": 12,
+   "i": 8,
+   "w": "to",
+   "s": 64.881,
+   "e": 65.141
+  },
+  {
+   "c": 12,
+   "i": 9,
+   "w": "those",
+   "s": 65.141,
+   "e": 65.321
+  },
+  {
+   "c": 12,
+   "i": 10,
+   "w": "coins",
+   "s": 65.321,
+   "e": 65.601
+  },
+  {
+   "c": 12,
+   "i": 11,
+   "w": "on",
+   "s": 65.601,
+   "e": 66.001
+  },
+  {
+   "c": 12,
+   "i": 12,
+   "w": "a",
+   "s": 66.001,
+   "e": 66.061
+  },
+  {
+   "c": 12,
+   "i": 13,
+   "w": "special",
+   "s": 66.061,
+   "e": 66.321
+  },
+  {
+   "c": 12,
+   "i": 14,
+   "w": "drive",
+   "s": 66.321,
+   "e": 66.761
+  },
+  {
+   "c": 12,
+   "i": 15,
+   "w": "called",
+   "s": 66.761,
+   "e": 67.301
+  },
+  {
+   "c": 12,
+   "i": 16,
+   "w": "an",
+   "s": 67.301,
+   "e": 67.461
+  },
+  {
+   "c": 12,
+   "i": 17,
+   "w": "IronKey.",
+   "s": 67.461,
+   "e": 68.121
+  },
+  {
+   "c": 13,
+   "i": 0,
+   "w": "And",
+   "s": 68.649,
+   "e": 68.769
+  },
+  {
+   "c": 13,
+   "i": 1,
+   "w": "the",
+   "s": 68.769,
+   "e": 68.849
+  },
+  {
+   "c": 13,
+   "i": 2,
+   "w": "IronKey",
+   "s": 68.849,
+   "e": 69.489
+  },
+  {
+   "c": 13,
+   "i": 3,
+   "w": "is",
+   "s": 69.489,
+   "e": 69.789
+  },
+  {
+   "c": 13,
+   "i": 4,
+   "w": "not",
+   "s": 69.789,
+   "e": 70.009
+  },
+  {
+   "c": 13,
+   "i": 5,
+   "w": "a",
+   "s": 70.009,
+   "e": 70.129
+  },
+  {
+   "c": 13,
+   "i": 6,
+   "w": "normal",
+   "s": 70.129,
+   "e": 70.569
+  },
+  {
+   "c": 13,
+   "i": 7,
+   "w": "USB",
+   "s": 70.569,
+   "e": 70.969
+  },
+  {
+   "c": 13,
+   "i": 8,
+   "w": "stick.",
+   "s": 70.969,
+   "e": 71.569
+  },
+  {
+   "c": 13,
+   "i": 9,
+   "w": "It's",
+   "s": 72.269,
+   "e": 72.369
+  },
+  {
+   "c": 13,
+   "i": 10,
+   "w": "built",
+   "s": 72.369,
+   "e": 72.549
+  },
+  {
+   "c": 13,
+   "i": 11,
+   "w": "like",
+   "s": 72.549,
+   "e": 72.809
+  },
+  {
+   "c": 13,
+   "i": 12,
+   "w": "a",
+   "s": 72.809,
+   "e": 72.949
+  },
+  {
+   "c": 13,
+   "i": 13,
+   "w": "tiny",
+   "s": 72.949,
+   "e": 73.269
+  },
+  {
+   "c": 13,
+   "i": 14,
+   "w": "safe.",
+   "s": 73.269,
+   "e": 73.689
+  },
+  {
+   "c": 13,
+   "i": 15,
+   "w": "Military-grade",
+   "s": 74.449,
+   "e": 75.249
+  },
+  {
+   "c": 13,
+   "i": 16,
+   "w": "encryption.",
+   "s": 75.249,
+   "e": 75.629
+  },
+  {
+   "c": 13,
+   "i": 17,
+   "w": "A",
+   "s": 76.549,
+   "e": 76.569
+  },
+  {
+   "c": 13,
+   "i": 18,
+   "w": "secure",
+   "s": 76.569,
+   "e": 76.889
+  },
+  {
+   "c": 13,
+   "i": 19,
+   "w": "chip",
+   "s": 76.889,
+   "e": 77.289
+  },
+  {
+   "c": 13,
+   "i": 20,
+   "w": "inside.",
+   "s": 77.289,
+   "e": 77.509
+  },
+  {
+   "c": 13,
+   "i": 21,
+   "w": "And",
+   "s": 78.469,
+   "e": 78.489
+  },
+  {
+   "c": 13,
+   "i": 22,
+   "w": "one",
+   "s": 78.489,
+   "e": 78.689
+  },
+  {
+   "c": 13,
+   "i": 23,
+   "w": "very",
+   "s": 78.689,
+   "e": 79.089
+  },
+  {
+   "c": 13,
+   "i": 24,
+   "w": "famous",
+   "s": 79.089,
+   "e": 79.689
+  },
+  {
+   "c": 13,
+   "i": 25,
+   "w": "rule.",
+   "s": 79.689,
+   "e": 79.969
+  },
+  {
+   "c": 14,
+   "i": 0,
+   "w": "Ten",
+   "s": 80.845,
+   "e": 81.065
+  },
+  {
+   "c": 14,
+   "i": 1,
+   "w": "guesses.",
+   "s": 81.065,
+   "e": 81.345
+  },
+  {
+   "c": 14,
+   "i": 2,
+   "w": "Get",
+   "s": 82.265,
+   "e": 82.285
+  },
+  {
+   "c": 14,
+   "i": 3,
+   "w": "the",
+   "s": 82.285,
+   "e": 82.385
+  },
+  {
+   "c": 14,
+   "i": 4,
+   "w": "password",
+   "s": 82.385,
+   "e": 82.785
+  },
+  {
+   "c": 14,
+   "i": 5,
+   "w": "wrong",
+   "s": 82.785,
+   "e": 83.105
+  },
+  {
+   "c": 14,
+   "i": 6,
+   "w": "ten",
+   "s": 83.105,
+   "e": 83.425
+  },
+  {
+   "c": 14,
+   "i": 7,
+   "w": "times",
+   "s": 83.425,
+   "e": 83.805
+  },
+  {
+   "c": 14,
+   "i": 8,
+   "w": "in",
+   "s": 83.805,
+   "e": 84.005
+  },
+  {
+   "c": 14,
+   "i": 9,
+   "w": "a",
+   "s": 84.005,
+   "e": 84.085
+  },
+  {
+   "c": 14,
+   "i": 10,
+   "w": "row,",
+   "s": 84.085,
+   "e": 84.325
+  },
+  {
+   "c": 14,
+   "i": 11,
+   "w": "and",
+   "s": 84.565,
+   "e": 84.585
+  },
+  {
+   "c": 14,
+   "i": 12,
+   "w": "the",
+   "s": 84.585,
+   "e": 84.705
+  },
+  {
+   "c": 14,
+   "i": 13,
+   "w": "drive",
+   "s": 84.705,
+   "e": 84.965
+  },
+  {
+   "c": 14,
+   "i": 14,
+   "w": "wipes",
+   "s": 84.965,
+   "e": 85.425
+  },
+  {
+   "c": 14,
+   "i": 15,
+   "w": "its",
+   "s": 85.425,
+   "e": 85.685
+  },
+  {
+   "c": 14,
+   "i": 16,
+   "w": "own",
+   "s": 85.685,
+   "e": 85.905
+  },
+  {
+   "c": 14,
+   "i": 17,
+   "w": "secret",
+   "s": 85.905,
+   "e": 86.265
+  },
+  {
+   "c": 14,
+   "i": 18,
+   "w": "key.",
+   "s": 86.265,
+   "e": 86.625
+  },
+  {
+   "c": 14,
+   "i": 19,
+   "w": "The",
+   "s": 87.425,
+   "e": 87.485
+  },
+  {
+   "c": 14,
+   "i": 20,
+   "w": "data",
+   "s": 87.485,
+   "e": 87.685
+  },
+  {
+   "c": 14,
+   "i": 21,
+   "w": "is",
+   "s": 87.685,
+   "e": 87.985
+  },
+  {
+   "c": 14,
+   "i": 22,
+   "w": "gone.",
+   "s": 87.985,
+   "e": 88.245
+  },
+  {
+   "c": 14,
+   "i": 23,
+   "w": "No",
+   "s": 88.965,
+   "e": 89.025
+  },
+  {
+   "c": 14,
+   "i": 24,
+   "w": "undo.",
+   "s": 89.025,
+   "e": 89.345
+  },
+  {
+   "c": 14,
+   "i": 25,
+   "w": "No",
+   "s": 90.165,
+   "e": 90.225
+  },
+  {
+   "c": 14,
+   "i": 26,
+   "w": "reset.",
+   "s": 90.225,
+   "e": 90.545
+  },
+  {
+   "c": 14,
+   "i": 27,
+   "w": "No",
+   "s": 91.245,
+   "e": 91.305
+  },
+  {
+   "c": 14,
+   "i": 28,
+   "w": "customer",
+   "s": 91.305,
+   "e": 91.725
+  },
+  {
+   "c": 14,
+   "i": 29,
+   "w": "service.",
+   "s": 91.725,
+   "e": 92.185
+  },
+  {
+   "c": 15,
+   "i": 0,
+   "w": "So",
+   "s": 93.121,
+   "e": 93.301
+  },
+  {
+   "c": 15,
+   "i": 1,
+   "w": "Stefan",
+   "s": 93.301,
+   "e": 93.561
+  },
+  {
+   "c": 15,
+   "i": 2,
+   "w": "picked",
+   "s": 93.561,
+   "e": 93.921
+  },
+  {
+   "c": 15,
+   "i": 3,
+   "w": "a",
+   "s": 93.921,
+   "e": 94.141
+  },
+  {
+   "c": 15,
+   "i": 4,
+   "w": "strong",
+   "s": 94.141,
+   "e": 94.401
+  },
+  {
+   "c": 15,
+   "i": 5,
+   "w": "password.",
+   "s": 94.401,
+   "e": 95.021
+  },
+  {
+   "c": 15,
+   "i": 6,
+   "w": "He",
+   "s": 95.781,
+   "e": 95.821
+  },
+  {
+   "c": 15,
+   "i": 7,
+   "w": "wrote",
+   "s": 95.821,
+   "e": 95.981
+  },
+  {
+   "c": 15,
+   "i": 8,
+   "w": "it",
+   "s": 95.981,
+   "e": 96.141
+  },
+  {
+   "c": 15,
+   "i": 9,
+   "w": "down",
+   "s": 96.141,
+   "e": 96.421
+  },
+  {
+   "c": 15,
+   "i": 10,
+   "w": "on",
+   "s": 96.421,
+   "e": 96.681
+  },
+  {
+   "c": 15,
+   "i": 11,
+   "w": "a",
+   "s": 96.681,
+   "e": 96.741
+  },
+  {
+   "c": 15,
+   "i": 12,
+   "w": "piece",
+   "s": 96.741,
+   "e": 96.921
+  },
+  {
+   "c": 15,
+   "i": 13,
+   "w": "of",
+   "s": 96.921,
+   "e": 97.081
+  },
+  {
+   "c": 15,
+   "i": 14,
+   "w": "paper.",
+   "s": 97.081,
+   "e": 97.461
+  },
+  {
+   "c": 16,
+   "i": 0,
+   "w": "And",
+   "s": 98.298,
+   "e": 98.438
+  },
+  {
+   "c": 16,
+   "i": 1,
+   "w": "then…",
+   "s": 98.438,
+   "e": 98.618
+  },
+  {
+   "c": 16,
+   "i": 2,
+   "w": "he",
+   "s": 98.618,
+   "e": 98.918
+  },
+  {
+   "c": 16,
+   "i": 3,
+   "w": "lost",
+   "s": 98.918,
+   "e": 99.118
+  },
+  {
+   "c": 16,
+   "i": 4,
+   "w": "the",
+   "s": 99.118,
+   "e": 99.358
+  },
+  {
+   "c": 16,
+   "i": 5,
+   "w": "paper.",
+   "s": 99.358,
+   "e": 99.598
+  },
+  {
+   "c": 17,
+   "i": 0,
+   "w": "At",
+   "s": 101.247,
+   "e": 101.387
+  },
+  {
+   "c": 17,
+   "i": 1,
+   "w": "first,",
+   "s": 101.387,
+   "e": 101.607
+  },
+  {
+   "c": 17,
+   "i": 2,
+   "w": "it",
+   "s": 101.807,
+   "e": 101.847
+  },
+  {
+   "c": 17,
+   "i": 3,
+   "w": "didn't",
+   "s": 101.847,
+   "e": 102.067
+  },
+  {
+   "c": 17,
+   "i": 4,
+   "w": "matter",
+   "s": 102.067,
+   "e": 102.207
+  },
+  {
+   "c": 17,
+   "i": 5,
+   "w": "much.",
+   "s": 102.207,
+   "e": 102.667
+  },
+  {
+   "c": 17,
+   "i": 6,
+   "w": "Bitcoin",
+   "s": 103.267,
+   "e": 103.267
+  },
+  {
+   "c": 17,
+   "i": 7,
+   "w": "was",
+   "s": 103.267,
+   "e": 103.727
+  },
+  {
+   "c": 17,
+   "i": 8,
+   "w": "cheap.",
+   "s": 103.727,
+   "e": 104.007
+  },
+  {
+   "c": 18,
+   "i": 0,
+   "w": "But",
+   "s": 104.585,
+   "e": 104.685
+  },
+  {
+   "c": 18,
+   "i": 1,
+   "w": "then",
+   "s": 104.685,
+   "e": 104.845
+  },
+  {
+   "c": 18,
+   "i": 2,
+   "w": "bitcoin",
+   "s": 104.845,
+   "e": 105.065
+  },
+  {
+   "c": 18,
+   "i": 3,
+   "w": "started",
+   "s": 105.065,
+   "e": 105.725
+  },
+  {
+   "c": 18,
+   "i": 4,
+   "w": "climbing.",
+   "s": 105.725,
+   "e": 106.005
+  },
+  {
+   "c": 18,
+   "i": 5,
+   "w": "A",
+   "s": 106.845,
+   "e": 106.845
+  },
+  {
+   "c": 18,
+   "i": 6,
+   "w": "hundred",
+   "s": 106.845,
+   "e": 107.065
+  },
+  {
+   "c": 18,
+   "i": 7,
+   "w": "dollars.",
+   "s": 107.065,
+   "e": 107.525
+  },
+  {
+   "c": 18,
+   "i": 8,
+   "w": "A",
+   "s": 108.065,
+   "e": 108.105
+  },
+  {
+   "c": 18,
+   "i": 9,
+   "w": "thousand.",
+   "s": 108.105,
+   "e": 108.585
+  },
+  {
+   "c": 18,
+   "i": 10,
+   "w": "Ten",
+   "s": 108.905,
+   "e": 109.025
+  },
+  {
+   "c": 18,
+   "i": 11,
+   "w": "thousand.",
+   "s": 109.025,
+   "e": 109.465
+  },
+  {
+   "c": 19,
+   "i": 0,
+   "w": "And",
+   "s": 110.049,
+   "e": 110.169
+  },
+  {
+   "c": 19,
+   "i": 1,
+   "w": "every",
+   "s": 110.169,
+   "e": 110.369
+  },
+  {
+   "c": 19,
+   "i": 2,
+   "w": "time",
+   "s": 110.369,
+   "e": 110.749
+  },
+  {
+   "c": 19,
+   "i": 3,
+   "w": "the",
+   "s": 110.749,
+   "e": 110.929
+  },
+  {
+   "c": 19,
+   "i": 4,
+   "w": "price",
+   "s": 110.929,
+   "e": 111.169
+  },
+  {
+   "c": 19,
+   "i": 5,
+   "w": "went",
+   "s": 111.169,
+   "e": 111.429
+  },
+  {
+   "c": 19,
+   "i": 6,
+   "w": "up,",
+   "s": 111.429,
+   "e": 111.629
+  },
+  {
+   "c": 19,
+   "i": 7,
+   "w": "that",
+   "s": 112.109,
+   "e": 112.229
+  },
+  {
+   "c": 19,
+   "i": 8,
+   "w": "little",
+   "s": 112.229,
+   "e": 112.429
+  },
+  {
+   "c": 19,
+   "i": 9,
+   "w": "drive",
+   "s": 112.429,
+   "e": 112.789
+  },
+  {
+   "c": 19,
+   "i": 10,
+   "w": "got",
+   "s": 112.789,
+   "e": 113.149
+  },
+  {
+   "c": 19,
+   "i": 11,
+   "w": "more",
+   "s": 113.149,
+   "e": 113.409
+  },
+  {
+   "c": 19,
+   "i": 12,
+   "w": "valuable…",
+   "s": 113.409,
+   "e": 114.489
+  },
+  {
+   "c": 19,
+   "i": 13,
+   "w": "and",
+   "s": 114.489,
+   "e": 114.529
+  },
+  {
+   "c": 19,
+   "i": 14,
+   "w": "more",
+   "s": 114.529,
+   "e": 114.729
+  },
+  {
+   "c": 19,
+   "i": 15,
+   "w": "locked.",
+   "s": 114.729,
+   "e": 115.069
+  },
+  {
+   "c": 20,
+   "i": 0,
+   "w": "So",
+   "s": 115.901,
+   "e": 116.316
+  },
+  {
+   "c": 20,
+   "i": 1,
+   "w": "Stefan",
+   "s": 115.78,
+   "e": 116.491
+  },
+  {
+   "c": 20,
+   "i": 2,
+   "w": "started",
+   "s": 116.651,
+   "e": 116.651
+  },
+  {
+   "c": 20,
+   "i": 3,
+   "w": "guessing.",
+   "s": 116.651,
+   "e": 117.171
+  },
+  {
+   "c": 20,
+   "i": 4,
+   "w": "His",
+   "s": 117.871,
+   "e": 117.911
+  },
+  {
+   "c": 20,
+   "i": 5,
+   "w": "usual",
+   "s": 117.911,
+   "e": 118.271
+  },
+  {
+   "c": 20,
+   "i": 6,
+   "w": "passwords.",
+   "s": 118.271,
+   "e": 118.791
+  },
+  {
+   "c": 20,
+   "i": 7,
+   "w": "The",
+   "s": 119.451,
+   "e": 119.451
+  },
+  {
+   "c": 20,
+   "i": 8,
+   "w": "ones",
+   "s": 119.451,
+   "e": 119.591
+  },
+  {
+   "c": 20,
+   "i": 9,
+   "w": "he",
+   "s": 119.591,
+   "e": 119.791
+  },
+  {
+   "c": 20,
+   "i": 10,
+   "w": "always",
+   "s": 119.791,
+   "e": 120.111
+  },
+  {
+   "c": 20,
+   "i": 11,
+   "w": "used.",
+   "s": 120.111,
+   "e": 120.531
+  },
+  {
+   "c": 21,
+   "i": 0,
+   "w": "Guess",
+   "s": 121.228,
+   "e": 121.408
+  },
+  {
+   "c": 21,
+   "i": 1,
+   "w": "one.",
+   "s": 121.408,
+   "e": 121.728
+  },
+  {
+   "c": 21,
+   "i": 2,
+   "w": "Wrong.",
+   "s": 121.928,
+   "e": 121.988
+  },
+  {
+   "c": 21,
+   "i": 3,
+   "w": "Guess",
+   "s": 122.368,
+   "e": 122.428
+  },
+  {
+   "c": 21,
+   "i": 4,
+   "w": "two.",
+   "s": 122.428,
+   "e": 122.708
+  },
+  {
+   "c": 21,
+   "i": 5,
+   "w": "Wrong.",
+   "s": 123.108,
+   "e": 123.208
+  },
+  {
+   "c": 21,
+   "i": 6,
+   "w": "Three…",
+   "s": 123.428,
+   "e": 123.748
+  },
+  {
+   "c": 21,
+   "i": 7,
+   "w": "four…",
+   "s": 123.748,
+   "e": 124.028
+  },
+  {
+   "c": 21,
+   "i": 8,
+   "w": "five…",
+   "s": 124.028,
+   "e": 124.528
+  },
+  {
+   "c": 21,
+   "i": 9,
+   "w": "six…",
+   "s": 124.528,
+   "e": 125.088
+  },
+  {
+   "c": 21,
+   "i": 10,
+   "w": "seven…",
+   "s": 125.088,
+   "e": 125.328
+  },
+  {
+   "c": 22,
+   "i": 0,
+   "w": "Eight",
+   "s": 125.408,
+   "e": 125.588
+  },
+  {
+   "c": 22,
+   "i": 1,
+   "w": "guesses.",
+   "s": 125.588,
+   "e": 125.968
+  },
+  {
+   "c": 22,
+   "i": 2,
+   "w": "Eight",
+   "s": 126.408,
+   "e": 126.488
+  },
+  {
+   "c": 22,
+   "i": 3,
+   "w": "misses.",
+   "s": 126.488,
+   "e": 126.808
+  },
+  {
+   "c": 23,
+   "i": 0,
+   "w": "Two",
+   "s": 128.206,
+   "e": 128.386
+  },
+  {
+   "c": 23,
+   "i": 1,
+   "w": "left.",
+   "s": 128.386,
+   "e": 128.686
+  },
+  {
+   "c": 24,
+   "i": 0,
+   "w": "He",
+   "s": 130.047,
+   "e": 130.807
+  },
+  {
+   "c": 24,
+   "i": 1,
+   "w": "told",
+   "s": 130.807,
+   "e": 131.567
+  },
+  {
+   "c": 24,
+   "i": 2,
+   "w": "the",
+   "s": 131.567,
+   "e": 132.327
+  },
+  {
+   "c": 24,
+   "i": 3,
+   "w": "New",
+   "s": 132.327,
+   "e": 133.087
+  },
+  {
+   "c": 24,
+   "i": 4,
+   "w": "York",
+   "s": 133.087,
+   "e": 133.847
+  },
+  {
+   "c": 24,
+   "i": 5,
+   "w": "Times:",
+   "s": 133.847,
+   "e": 134.607
+  },
+  {
+   "c": 24,
+   "i": 6,
+   "w": "“I",
+   "s": 134.607,
+   "e": 135.367
+  },
+  {
+   "c": 24,
+   "i": 7,
+   "w": "would",
+   "s": 135.367,
+   "e": 136.127
+  },
+  {
+   "c": 24,
+   "i": 8,
+   "w": "just",
+   "s": 136.127,
+   "e": 136.887
+  },
+  {
+   "c": 24,
+   "i": 9,
+   "w": "lay",
+   "s": 136.887,
+   "e": 137.647
+  },
+  {
+   "c": 24,
+   "i": 10,
+   "w": "in",
+   "s": 137.647,
+   "e": 138.407
+  },
+  {
+   "c": 24,
+   "i": 11,
+   "w": "bed",
+   "s": 138.407,
+   "e": 139.167
+  },
+  {
+   "c": 24,
+   "i": 12,
+   "w": "and",
+   "s": 139.167,
+   "e": 139.927
+  },
+  {
+   "c": 24,
+   "i": 13,
+   "w": "think",
+   "s": 139.927,
+   "e": 140.687
+  },
+  {
+   "c": 24,
+   "i": 14,
+   "w": "about",
+   "s": 140.687,
+   "e": 140.687
+  },
+  {
+   "c": 24,
+   "i": 15,
+   "w": "it.",
+   "s": 140.687,
+   "e": 140.693
+  },
+  {
+   "c": 24,
+   "i": 16,
+   "w": "Then",
+   "s": 140.693,
+   "e": 140.7
+  },
+  {
+   "c": 24,
+   "i": 17,
+   "w": "I",
+   "s": 140.7,
+   "e": 140.706
+  },
+  {
+   "c": 24,
+   "i": 18,
+   "w": "would",
+   "s": 140.706,
+   "e": 140.712
+  },
+  {
+   "c": 24,
+   "i": 19,
+   "w": "go",
+   "s": 140.712,
+   "e": 140.719
+  },
+  {
+   "c": 24,
+   "i": 20,
+   "w": "to",
+   "s": 140.719,
+   "e": 140.725
+  },
+  {
+   "c": 24,
+   "i": 21,
+   "w": "the",
+   "s": 140.725,
+   "e": 140.731
+  },
+  {
+   "c": 24,
+   "i": 22,
+   "w": "computer",
+   "s": 140.731,
+   "e": 140.738
+  },
+  {
+   "c": 24,
+   "i": 23,
+   "w": "with",
+   "s": 140.738,
+   "e": 140.744
+  },
+  {
+   "c": 24,
+   "i": 24,
+   "w": "some",
+   "s": 140.744,
+   "e": 140.751
+  },
+  {
+   "c": 24,
+   "i": 25,
+   "w": "new",
+   "s": 140.751,
+   "e": 140.757
+  },
+  {
+   "c": 24,
+   "i": 26,
+   "w": "strategy,",
+   "s": 140.757,
+   "e": 140.763
+  },
+  {
+   "c": 24,
+   "i": 27,
+   "w": "and",
+   "s": 140.763,
+   "e": 140.77
+  },
+  {
+   "c": 24,
+   "i": 28,
+   "w": "it",
+   "s": 140.77,
+   "e": 140.776
+  },
+  {
+   "c": 24,
+   "i": 29,
+   "w": "wouldn't",
+   "s": 140.776,
+   "e": 140.782
+  },
+  {
+   "c": 24,
+   "i": 30,
+   "w": "work,",
+   "s": 140.782,
+   "e": 140.789
+  },
+  {
+   "c": 24,
+   "i": 31,
+   "w": "and",
+   "s": 140.789,
+   "e": 140.795
+  },
+  {
+   "c": 24,
+   "i": 32,
+   "w": "I",
+   "s": 140.795,
+   "e": 140.801
+  },
+  {
+   "c": 24,
+   "i": 33,
+   "w": "would",
+   "s": 140.801,
+   "e": 140.808
+  },
+  {
+   "c": 24,
+   "i": 34,
+   "w": "be",
+   "s": 140.808,
+   "e": 140.814
+  },
+  {
+   "c": 24,
+   "i": 35,
+   "w": "desperate",
+   "s": 140.814,
+   "e": 140.821
+  },
+  {
+   "c": 24,
+   "i": 36,
+   "w": "again.”",
+   "s": 140.821,
+   "e": 140.827
+  },
+  {
+   "c": 25,
+   "i": 0,
+   "w": "By",
+   "s": 141.503,
+   "e": 141.623
+  },
+  {
+   "c": 25,
+   "i": 1,
+   "w": "2021,",
+   "s": 141.623,
+   "e": 142.263
+  },
+  {
+   "c": 25,
+   "i": 2,
+   "w": "the",
+   "s": 142.963,
+   "e": 143.183
+  },
+  {
+   "c": 25,
+   "i": 3,
+   "w": "coins",
+   "s": 143.183,
+   "e": 143.403
+  },
+  {
+   "c": 25,
+   "i": 4,
+   "w": "on",
+   "s": 143.403,
+   "e": 143.763
+  },
+  {
+   "c": 25,
+   "i": 5,
+   "w": "that",
+   "s": 143.763,
+   "e": 143.923
+  },
+  {
+   "c": 25,
+   "i": 6,
+   "w": "drive",
+   "s": 143.923,
+   "e": 144.203
+  },
+  {
+   "c": 25,
+   "i": 7,
+   "w": "were",
+   "s": 144.203,
+   "e": 144.523
+  },
+  {
+   "c": 25,
+   "i": 8,
+   "w": "worth",
+   "s": 144.523,
+   "e": 144.783
+  },
+  {
+   "c": 25,
+   "i": 9,
+   "w": "about",
+   "s": 144.783,
+   "e": 145.063
+  },
+  {
+   "c": 25,
+   "i": 10,
+   "w": "two",
+   "s": 145.063,
+   "e": 145.363
+  },
+  {
+   "c": 25,
+   "i": 11,
+   "w": "hundred",
+   "s": 145.363,
+   "e": 145.803
+  },
+  {
+   "c": 25,
+   "i": 12,
+   "w": "and",
+   "s": 145.803,
+   "e": 145.983
+  },
+  {
+   "c": 25,
+   "i": 13,
+   "w": "twenty",
+   "s": 145.983,
+   "e": 146.263
+  },
+  {
+   "c": 25,
+   "i": 14,
+   "w": "million",
+   "s": 146.263,
+   "e": 146.703
+  },
+  {
+   "c": 25,
+   "i": 15,
+   "w": "dollars.",
+   "s": 146.703,
+   "e": 147.203
+  },
+  {
+   "c": 25,
+   "i": 16,
+   "w": "And",
+   "s": 147.943,
+   "e": 148.023
+  },
+  {
+   "c": 25,
+   "i": 17,
+   "w": "at",
+   "s": 148.023,
+   "e": 148.123
+  },
+  {
+   "c": 25,
+   "i": 18,
+   "w": "bitcoin's",
+   "s": 148.123,
+   "e": 148.823
+  },
+  {
+   "c": 25,
+   "i": 19,
+   "w": "peak,",
+   "s": 148.823,
+   "e": 149.003
+  },
+  {
+   "c": 25,
+   "i": 20,
+   "w": "in",
+   "s": 149.563,
+   "e": 149.583
+  },
+  {
+   "c": 25,
+   "i": 21,
+   "w": "October",
+   "s": 149.583,
+   "e": 149.763
+  },
+  {
+   "c": 25,
+   "i": 22,
+   "w": "2025?",
+   "s": 149.763,
+   "e": 150.683
+  },
+  {
+   "c": 25,
+   "i": 23,
+   "w": "Close",
+   "s": 151.683,
+   "e": 151.903
+  },
+  {
+   "c": 25,
+   "i": 24,
+   "w": "to",
+   "s": 151.903,
+   "e": 152.163
+  },
+  {
+   "c": 25,
+   "i": 25,
+   "w": "nine",
+   "s": 152.163,
+   "e": 152.403
+  },
+  {
+   "c": 25,
+   "i": 26,
+   "w": "hundred",
+   "s": 152.403,
+   "e": 152.863
+  },
+  {
+   "c": 25,
+   "i": 27,
+   "w": "million.",
+   "s": 152.863,
+   "e": 153.123
+  },
+  {
+   "c": 26,
+   "i": 0,
+   "w": "So",
+   "s": 154.213,
+   "e": 154.373
+  },
+  {
+   "c": 26,
+   "i": 1,
+   "w": "why",
+   "s": 154.373,
+   "e": 154.573
+  },
+  {
+   "c": 26,
+   "i": 2,
+   "w": "not",
+   "s": 154.573,
+   "e": 154.773
+  },
+  {
+   "c": 26,
+   "i": 3,
+   "w": "just…",
+   "s": 154.773,
+   "e": 155.653
+  },
+  {
+   "c": 26,
+   "i": 4,
+   "w": "break",
+   "s": 155.653,
+   "e": 155.733
+  },
+  {
+   "c": 26,
+   "i": 5,
+   "w": "it",
+   "s": 155.733,
+   "e": 155.913
+  },
+  {
+   "c": 26,
+   "i": 6,
+   "w": "open?",
+   "s": 155.913,
+   "e": 156.073
+  },
+  {
+   "c": 26,
+   "i": 7,
+   "w": "Plug",
+   "s": 156.933,
+   "e": 156.933
+  },
+  {
+   "c": 26,
+   "i": 8,
+   "w": "it",
+   "s": 156.933,
+   "e": 157.093
+  },
+  {
+   "c": 26,
+   "i": 9,
+   "w": "into",
+   "s": 157.093,
+   "e": 157.253
+  },
+  {
+   "c": 26,
+   "i": 10,
+   "w": "a",
+   "s": 157.253,
+   "e": 157.373
+  },
+  {
+   "c": 26,
+   "i": 11,
+   "w": "computer",
+   "s": 157.373,
+   "e": 157.673
+  },
+  {
+   "c": 26,
+   "i": 12,
+   "w": "and",
+   "s": 157.673,
+   "e": 158.053
+  },
+  {
+   "c": 26,
+   "i": 13,
+   "w": "try",
+   "s": 158.053,
+   "e": 158.273
+  },
+  {
+   "c": 26,
+   "i": 14,
+   "w": "a",
+   "s": 158.273,
+   "e": 158.493
+  },
+  {
+   "c": 26,
+   "i": 15,
+   "w": "million",
+   "s": 158.493,
+   "e": 158.753
+  },
+  {
+   "c": 26,
+   "i": 16,
+   "w": "passwords?",
+   "s": 158.753,
+   "e": 159.213
+  },
+  {
+   "c": 27,
+   "i": 0,
+   "w": "Because",
+   "s": 160.214,
+   "e": 160.434
+  },
+  {
+   "c": 27,
+   "i": 1,
+   "w": "the",
+   "s": 160.434,
+   "e": 160.574
+  },
+  {
+   "c": 27,
+   "i": 2,
+   "w": "IronKey",
+   "s": 160.574,
+   "e": 161.154
+  },
+  {
+   "c": 27,
+   "i": 3,
+   "w": "remembers.",
+   "s": 161.154,
+   "e": 161.634
+  },
+  {
+   "c": 28,
+   "i": 0,
+   "w": "Every",
+   "s": 162.548,
+   "e": 162.808
+  },
+  {
+   "c": 28,
+   "i": 1,
+   "w": "wrong",
+   "s": 162.808,
+   "e": 163.048
+  },
+  {
+   "c": 28,
+   "i": 2,
+   "w": "guess",
+   "s": 163.048,
+   "e": 163.448
+  },
+  {
+   "c": 28,
+   "i": 3,
+   "w": "is",
+   "s": 163.448,
+   "e": 163.668
+  },
+  {
+   "c": 28,
+   "i": 4,
+   "w": "counted",
+   "s": 163.668,
+   "e": 163.948
+  },
+  {
+   "c": 28,
+   "i": 5,
+   "w": "inside",
+   "s": 163.948,
+   "e": 164.608
+  },
+  {
+   "c": 28,
+   "i": 6,
+   "w": "its",
+   "s": 164.608,
+   "e": 164.808
+  },
+  {
+   "c": 28,
+   "i": 7,
+   "w": "secure",
+   "s": 164.808,
+   "e": 165.148
+  },
+  {
+   "c": 28,
+   "i": 8,
+   "w": "chip.",
+   "s": 165.148,
+   "e": 165.448
+  },
+  {
+   "c": 28,
+   "i": 9,
+   "w": "Unplug",
+   "s": 166.068,
+   "e": 166.588
+  },
+  {
+   "c": 28,
+   "i": 10,
+   "w": "it,",
+   "s": 166.588,
+   "e": 166.848
+  },
+  {
+   "c": 28,
+   "i": 11,
+   "w": "wait",
+   "s": 167.148,
+   "e": 167.348
+  },
+  {
+   "c": 28,
+   "i": 12,
+   "w": "a",
+   "s": 167.348,
+   "e": 167.528
+  },
+  {
+   "c": 28,
+   "i": 13,
+   "w": "year,",
+   "s": 167.528,
+   "e": 167.788
+  },
+  {
+   "c": 28,
+   "i": 14,
+   "w": "plug",
+   "s": 168.328,
+   "e": 168.368
+  },
+  {
+   "c": 28,
+   "i": 15,
+   "w": "it",
+   "s": 168.368,
+   "e": 168.548
+  },
+  {
+   "c": 28,
+   "i": 16,
+   "w": "back",
+   "s": 168.548,
+   "e": 168.788
+  },
+  {
+   "c": 28,
+   "i": 17,
+   "w": "in…",
+   "s": 168.788,
+   "e": 169.028
+  },
+  {
+   "c": 28,
+   "i": 18,
+   "w": "the",
+   "s": 169.028,
+   "e": 169.168
+  },
+  {
+   "c": 28,
+   "i": 19,
+   "w": "counter",
+   "s": 169.168,
+   "e": 169.428
+  },
+  {
+   "c": 28,
+   "i": 20,
+   "w": "is",
+   "s": 169.428,
+   "e": 169.808
+  },
+  {
+   "c": 28,
+   "i": 21,
+   "w": "still",
+   "s": 169.808,
+   "e": 170.028
+  },
+  {
+   "c": 28,
+   "i": 22,
+   "w": "there.",
+   "s": 170.028,
+   "e": 170.348
+  },
+  {
+   "c": 29,
+   "i": 0,
+   "w": "The",
+   "s": 171.171,
+   "e": 171.291
+  },
+  {
+   "c": 29,
+   "i": 1,
+   "w": "chip",
+   "s": 171.291,
+   "e": 171.511
+  },
+  {
+   "c": 29,
+   "i": 2,
+   "w": "is",
+   "s": 171.511,
+   "e": 171.751
+  },
+  {
+   "c": 29,
+   "i": 3,
+   "w": "sealed",
+   "s": 171.751,
+   "e": 172.031
+  },
+  {
+   "c": 29,
+   "i": 4,
+   "w": "under",
+   "s": 172.031,
+   "e": 172.311
+  },
+  {
+   "c": 29,
+   "i": 5,
+   "w": "tough",
+   "s": 172.311,
+   "e": 172.631
+  },
+  {
+   "c": 29,
+   "i": 6,
+   "w": "epoxy,",
+   "s": 172.631,
+   "e": 173.171
+  },
+  {
+   "c": 29,
+   "i": 7,
+   "w": "built",
+   "s": 173.911,
+   "e": 174.051
+  },
+  {
+   "c": 29,
+   "i": 8,
+   "w": "to",
+   "s": 174.051,
+   "e": 174.231
+  },
+  {
+   "c": 29,
+   "i": 9,
+   "w": "resist",
+   "s": 174.231,
+   "e": 174.511
+  },
+  {
+   "c": 29,
+   "i": 10,
+   "w": "exactly",
+   "s": 174.511,
+   "e": 175.151
+  },
+  {
+   "c": 29,
+   "i": 11,
+   "w": "this",
+   "s": 175.151,
+   "e": 175.551
+  },
+  {
+   "c": 29,
+   "i": 12,
+   "w": "kind",
+   "s": 175.551,
+   "e": 175.751
+  },
+  {
+   "c": 29,
+   "i": 13,
+   "w": "of",
+   "s": 175.751,
+   "e": 175.871
+  },
+  {
+   "c": 29,
+   "i": 14,
+   "w": "attack.",
+   "s": 175.871,
+   "e": 176.151
+  },
+  {
+   "c": 30,
+   "i": 0,
+   "w": "Even",
+   "s": 176.562,
+   "e": 176.802
+  },
+  {
+   "c": 30,
+   "i": 1,
+   "w": "Kingston,",
+   "s": 176.802,
+   "e": 177.082
+  },
+  {
+   "c": 30,
+   "i": 2,
+   "w": "the",
+   "s": 177.502,
+   "e": 177.582
+  },
+  {
+   "c": 30,
+   "i": 3,
+   "w": "company",
+   "s": 177.582,
+   "e": 177.902
+  },
+  {
+   "c": 30,
+   "i": 4,
+   "w": "that",
+   "s": 177.902,
+   "e": 178.162
+  },
+  {
+   "c": 30,
+   "i": 5,
+   "w": "makes",
+   "s": 178.162,
+   "e": 178.402
+  },
+  {
+   "c": 30,
+   "i": 6,
+   "w": "IronKeys",
+   "s": 178.402,
+   "e": 179.062
+  },
+  {
+   "c": 30,
+   "i": 7,
+   "w": "today,",
+   "s": 179.062,
+   "e": 179.562
+  },
+  {
+   "c": 30,
+   "i": 8,
+   "w": "said",
+   "s": 179.802,
+   "e": 179.922
+  },
+  {
+   "c": 30,
+   "i": 9,
+   "w": "it",
+   "s": 179.922,
+   "e": 180.022
+  },
+  {
+   "c": 30,
+   "i": 10,
+   "w": "couldn't",
+   "s": 180.022,
+   "e": 180.262
+  },
+  {
+   "c": 30,
+   "i": 11,
+   "w": "help.",
+   "s": 180.262,
+   "e": 180.462
+  },
+  {
+   "c": 30,
+   "i": 12,
+   "w": "No",
+   "s": 181.202,
+   "e": 181.222
+  },
+  {
+   "c": 30,
+   "i": 13,
+   "w": "backdoor.",
+   "s": 181.222,
+   "e": 181.542
+  },
+  {
+   "c": 30,
+   "i": 14,
+   "w": "No",
+   "s": 182.242,
+   "e": 182.282
+  },
+  {
+   "c": 30,
+   "i": 15,
+   "w": "master",
+   "s": 182.282,
+   "e": 182.622
+  },
+  {
+   "c": 30,
+   "i": 16,
+   "w": "password.",
+   "s": 182.622,
+   "e": 183.102
+  },
+  {
+   "c": 31,
+   "i": 0,
+   "w": "So",
+   "s": 184.18,
+   "e": 184.34
+  },
+  {
+   "c": 31,
+   "i": 1,
+   "w": "it's",
+   "s": 184.34,
+   "e": 184.52
+  },
+  {
+   "c": 31,
+   "i": 2,
+   "w": "impossible.",
+   "s": 184.52,
+   "e": 184.88
+  },
+  {
+   "c": 31,
+   "i": 3,
+   "w": "Right?",
+   "s": 185.48,
+   "e": 185.62
+  },
+  {
+   "c": 32,
+   "i": 0,
+   "w": "Want",
+   "s": 186.617,
+   "e": 186.797
+  },
+  {
+   "c": 32,
+   "i": 1,
+   "w": "to",
+   "s": 186.797,
+   "e": 186.917
+  },
+  {
+   "c": 32,
+   "i": 2,
+   "w": "know",
+   "s": 186.917,
+   "e": 187.097
+  },
+  {
+   "c": 32,
+   "i": 3,
+   "w": "if",
+   "s": 187.097,
+   "e": 187.257
+  },
+  {
+   "c": 32,
+   "i": 4,
+   "w": "anyone",
+   "s": 187.257,
+   "e": 187.477
+  },
+  {
+   "c": 32,
+   "i": 5,
+   "w": "ever",
+   "s": 187.477,
+   "e": 187.777
+  },
+  {
+   "c": 32,
+   "i": 6,
+   "w": "cracks",
+   "s": 187.777,
+   "e": 188.057
+  },
+  {
+   "c": 32,
+   "i": 7,
+   "w": "me?",
+   "s": 188.057,
+   "e": 188.397
+  },
+  {
+   "c": 32,
+   "i": 8,
+   "w": "Subscribe.",
+   "s": 188.737,
+   "e": 189.117
+  },
+  {
+   "c": 32,
+   "i": 9,
+   "w": "I'll",
+   "s": 189.677,
+   "e": 189.777
+  },
+  {
+   "c": 32,
+   "i": 10,
+   "w": "wait.",
+   "s": 189.777,
+   "e": 190.037
+  },
+  {
+   "c": 32,
+   "i": 11,
+   "w": "I'm",
+   "s": 190.377,
+   "e": 190.537
+  },
+  {
+   "c": 32,
+   "i": 12,
+   "w": "very",
+   "s": 190.537,
+   "e": 190.737
+  },
+  {
+   "c": 32,
+   "i": 13,
+   "w": "good",
+   "s": 190.737,
+   "e": 191.017
+  },
+  {
+   "c": 32,
+   "i": 14,
+   "w": "at",
+   "s": 191.017,
+   "e": 191.137
+  },
+  {
+   "c": 32,
+   "i": 15,
+   "w": "waiting.",
+   "s": 191.137,
+   "e": 191.437
+  },
+  {
+   "c": 33,
+   "i": 0,
+   "w": "Not",
+   "s": 192.292,
+   "e": 192.532
+  },
+  {
+   "c": 33,
+   "i": 1,
+   "w": "quite.",
+   "s": 192.532,
+   "e": 192.852
+  },
+  {
+   "c": 33,
+   "i": 2,
+   "w": "Because",
+   "s": 193.672,
+   "e": 193.672
+  },
+  {
+   "c": 33,
+   "i": 3,
+   "w": "someone",
+   "s": 193.672,
+   "e": 193.992
+  },
+  {
+   "c": 33,
+   "i": 4,
+   "w": "has",
+   "s": 193.992,
+   "e": 194.172
+  },
+  {
+   "c": 33,
+   "i": 5,
+   "w": "pulled",
+   "s": 194.172,
+   "e": 194.452
+  },
+  {
+   "c": 33,
+   "i": 6,
+   "w": "off",
+   "s": 194.452,
+   "e": 194.652
+  },
+  {
+   "c": 33,
+   "i": 7,
+   "w": "something",
+   "s": 194.652,
+   "e": 194.912
+  },
+  {
+   "c": 33,
+   "i": 8,
+   "w": "like",
+   "s": 194.912,
+   "e": 195.212
+  },
+  {
+   "c": 33,
+   "i": 9,
+   "w": "this",
+   "s": 195.212,
+   "e": 195.432
+  },
+  {
+   "c": 33,
+   "i": 10,
+   "w": "before.",
+   "s": 195.432,
+   "e": 195.752
+  },
+  {
+   "c": 34,
+   "i": 0,
+   "w": "Meet",
+   "s": 196.438,
+   "e": 196.658
+  },
+  {
+   "c": 34,
+   "i": 1,
+   "w": "Joe",
+   "s": 196.658,
+   "e": 196.978
+  },
+  {
+   "c": 34,
+   "i": 2,
+   "w": "Grand,",
+   "s": 196.978,
+   "e": 197.318
+  },
+  {
+   "c": 34,
+   "i": 3,
+   "w": "a",
+   "s": 197.798,
+   "e": 197.898
+  },
+  {
+   "c": 34,
+   "i": 4,
+   "w": "hardware",
+   "s": 197.898,
+   "e": 198.178
+  },
+  {
+   "c": 34,
+   "i": 5,
+   "w": "hacker.",
+   "s": 198.178,
+   "e": 198.738
+  },
+  {
+   "c": 34,
+   "i": 6,
+   "w": "In",
+   "s": 199.538,
+   "e": 199.558
+  },
+  {
+   "c": 34,
+   "i": 7,
+   "w": "2021,",
+   "s": 199.558,
+   "e": 200.118
+  },
+  {
+   "c": 34,
+   "i": 8,
+   "w": "he",
+   "s": 200.738,
+   "e": 200.818
+  },
+  {
+   "c": 34,
+   "i": 9,
+   "w": "took",
+   "s": 200.818,
+   "e": 200.958
+  },
+  {
+   "c": 34,
+   "i": 10,
+   "w": "on",
+   "s": 200.958,
+   "e": 201.098
+  },
+  {
+   "c": 34,
+   "i": 11,
+   "w": "a",
+   "s": 201.098,
+   "e": 201.178
+  },
+  {
+   "c": 34,
+   "i": 12,
+   "w": "challenge",
+   "s": 201.178,
+   "e": 201.578
+  },
+  {
+   "c": 34,
+   "i": 13,
+   "w": "from",
+   "s": 201.578,
+   "e": 201.838
+  },
+  {
+   "c": 34,
+   "i": 14,
+   "w": "a",
+   "s": 201.838,
+   "e": 201.918
+  },
+  {
+   "c": 34,
+   "i": 15,
+   "w": "man",
+   "s": 201.918,
+   "e": 202.178
+  },
+  {
+   "c": 34,
+   "i": 16,
+   "w": "named",
+   "s": 202.178,
+   "e": 202.558
+  },
+  {
+   "c": 34,
+   "i": 17,
+   "w": "Dan",
+   "s": 202.558,
+   "e": 202.858
+  },
+  {
+   "c": 34,
+   "i": 18,
+   "w": "Reich.",
+   "s": 202.858,
+   "e": 203.158
+  },
+  {
+   "c": 35,
+   "i": 0,
+   "w": "Dan's",
+   "s": 203.627,
+   "e": 204.087
+  },
+  {
+   "c": 35,
+   "i": 1,
+   "w": "crypto",
+   "s": 204.087,
+   "e": 204.327
+  },
+  {
+   "c": 35,
+   "i": 2,
+   "w": "wallet,",
+   "s": 204.327,
+   "e": 204.847
+  },
+  {
+   "c": 35,
+   "i": 3,
+   "w": "a",
+   "s": 205.227,
+   "e": 205.427
+  },
+  {
+   "c": 35,
+   "i": 4,
+   "w": "little",
+   "s": 205.427,
+   "e": 205.587
+  },
+  {
+   "c": 35,
+   "i": 5,
+   "w": "device",
+   "s": 205.587,
+   "e": 205.927
+  },
+  {
+   "c": 35,
+   "i": 6,
+   "w": "called",
+   "s": 205.927,
+   "e": 206.407
+  },
+  {
+   "c": 35,
+   "i": 7,
+   "w": "a",
+   "s": 206.407,
+   "e": 206.547
+  },
+  {
+   "c": 35,
+   "i": 8,
+   "w": "Trezor,",
+   "s": 206.547,
+   "e": 207.067
+  },
+  {
+   "c": 35,
+   "i": 9,
+   "w": "held",
+   "s": 207.327,
+   "e": 207.547
+  },
+  {
+   "c": 35,
+   "i": 10,
+   "w": "about",
+   "s": 207.547,
+   "e": 207.827
+  },
+  {
+   "c": 35,
+   "i": 11,
+   "w": "two",
+   "s": 207.827,
+   "e": 208.187
+  },
+  {
+   "c": 35,
+   "i": 12,
+   "w": "million",
+   "s": 208.187,
+   "e": 208.487
+  },
+  {
+   "c": 35,
+   "i": 13,
+   "w": "dollars",
+   "s": 208.487,
+   "e": 209.127
+  },
+  {
+   "c": 35,
+   "i": 14,
+   "w": "in",
+   "s": 209.127,
+   "e": 209.247
+  },
+  {
+   "c": 35,
+   "i": 15,
+   "w": "crypto.",
+   "s": 209.247,
+   "e": 209.527
+  },
+  {
+   "c": 35,
+   "i": 16,
+   "w": "And",
+   "s": 210.467,
+   "e": 210.527
+  },
+  {
+   "c": 35,
+   "i": 17,
+   "w": "he'd",
+   "s": 210.527,
+   "e": 210.687
+  },
+  {
+   "c": 35,
+   "i": 18,
+   "w": "forgotten",
+   "s": 210.687,
+   "e": 210.927
+  },
+  {
+   "c": 35,
+   "i": 19,
+   "w": "the",
+   "s": 210.927,
+   "e": 211.307
+  },
+  {
+   "c": 35,
+   "i": 20,
+   "w": "PIN.",
+   "s": 211.307,
+   "e": 211.527
+  },
+  {
+   "c": 36,
+   "i": 0,
+   "w": "Dan",
+   "s": 212.139,
+   "e": 212.319
+  },
+  {
+   "c": 36,
+   "i": 1,
+   "w": "and",
+   "s": 212.319,
+   "e": 212.499
+  },
+  {
+   "c": 36,
+   "i": 2,
+   "w": "a",
+   "s": 212.499,
+   "e": 212.579
+  },
+  {
+   "c": 36,
+   "i": 3,
+   "w": "friend",
+   "s": 212.579,
+   "e": 212.859
+  },
+  {
+   "c": 36,
+   "i": 4,
+   "w": "had",
+   "s": 212.859,
+   "e": 213.099
+  },
+  {
+   "c": 36,
+   "i": 5,
+   "w": "already",
+   "s": 213.099,
+   "e": 213.339
+  },
+  {
+   "c": 36,
+   "i": 6,
+   "w": "guessed",
+   "s": 213.339,
+   "e": 213.639
+  },
+  {
+   "c": 36,
+   "i": 7,
+   "w": "wrong",
+   "s": 213.639,
+   "e": 213.919
+  },
+  {
+   "c": 36,
+   "i": 8,
+   "w": "twelve",
+   "s": 213.919,
+   "e": 214.339
+  },
+  {
+   "c": 36,
+   "i": 9,
+   "w": "times.",
+   "s": 214.339,
+   "e": 214.699
+  },
+  {
+   "c": 36,
+   "i": 10,
+   "w": "After",
+   "s": 215.799,
+   "e": 215.799
+  },
+  {
+   "c": 36,
+   "i": 11,
+   "w": "sixteen,",
+   "s": 215.799,
+   "e": 216.179
+  },
+  {
+   "c": 36,
+   "i": 12,
+   "w": "the",
+   "s": 216.899,
+   "e": 216.979
+  },
+  {
+   "c": 36,
+   "i": 13,
+   "w": "wallet",
+   "s": 216.979,
+   "e": 217.199
+  },
+  {
+   "c": 36,
+   "i": 14,
+   "w": "would",
+   "s": 217.199,
+   "e": 217.519
+  },
+  {
+   "c": 36,
+   "i": 15,
+   "w": "wipe",
+   "s": 217.519,
+   "e": 217.759
+  },
+  {
+   "c": 36,
+   "i": 16,
+   "w": "itself.",
+   "s": 217.759,
+   "e": 218.199
+  },
+  {
+   "c": 37,
+   "i": 0,
+   "w": "And",
+   "s": 218.788,
+   "e": 218.908
+  },
+  {
+   "c": 37,
+   "i": 1,
+   "w": "every",
+   "s": 218.908,
+   "e": 219.148
+  },
+  {
+   "c": 37,
+   "i": 2,
+   "w": "wrong",
+   "s": 219.148,
+   "e": 219.428
+  },
+  {
+   "c": 37,
+   "i": 3,
+   "w": "guess",
+   "s": 219.428,
+   "e": 219.828
+  },
+  {
+   "c": 37,
+   "i": 4,
+   "w": "made",
+   "s": 219.828,
+   "e": 220.168
+  },
+  {
+   "c": 37,
+   "i": 5,
+   "w": "them",
+   "s": 220.168,
+   "e": 220.348
+  },
+  {
+   "c": 37,
+   "i": 6,
+   "w": "wait",
+   "s": 220.348,
+   "e": 220.568
+  },
+  {
+   "c": 37,
+   "i": 7,
+   "w": "longer",
+   "s": 220.568,
+   "e": 221.008
+  },
+  {
+   "c": 37,
+   "i": 8,
+   "w": "before",
+   "s": 221.008,
+   "e": 221.448
+  },
+  {
+   "c": 37,
+   "i": 9,
+   "w": "the",
+   "s": 221.448,
+   "e": 221.648
+  },
+  {
+   "c": 37,
+   "i": 10,
+   "w": "next",
+   "s": 221.648,
+   "e": 221.808
+  },
+  {
+   "c": 37,
+   "i": 11,
+   "w": "try.",
+   "s": 221.808,
+   "e": 222.188
+  },
+  {
+   "c": 38,
+   "i": 0,
+   "w": "So",
+   "s": 222.856,
+   "e": 222.936
+  },
+  {
+   "c": 38,
+   "i": 1,
+   "w": "Joe",
+   "s": 222.936,
+   "e": 223.096
+  },
+  {
+   "c": 38,
+   "i": 2,
+   "w": "didn't",
+   "s": 223.096,
+   "e": 223.456
+  },
+  {
+   "c": 38,
+   "i": 3,
+   "w": "guess.",
+   "s": 223.456,
+   "e": 223.616
+  },
+  {
+   "c": 38,
+   "i": 4,
+   "w": "He",
+   "s": 224.216,
+   "e": 224.256
+  },
+  {
+   "c": 38,
+   "i": 5,
+   "w": "attacked",
+   "s": 224.256,
+   "e": 224.516
+  },
+  {
+   "c": 38,
+   "i": 6,
+   "w": "the",
+   "s": 224.516,
+   "e": 224.776
+  },
+  {
+   "c": 38,
+   "i": 7,
+   "w": "hardware",
+   "s": 224.776,
+   "e": 224.976
+  },
+  {
+   "c": 38,
+   "i": 8,
+   "w": "itself.",
+   "s": 224.976,
+   "e": 225.516
+  },
+  {
+   "c": 39,
+   "i": 0,
+   "w": "He",
+   "s": 226.233,
+   "e": 226.333
+  },
+  {
+   "c": 39,
+   "i": 1,
+   "w": "found",
+   "s": 226.333,
+   "e": 226.573
+  },
+  {
+   "c": 39,
+   "i": 2,
+   "w": "that",
+   "s": 226.573,
+   "e": 226.833
+  },
+  {
+   "c": 39,
+   "i": 3,
+   "w": "during",
+   "s": 226.833,
+   "e": 227.133
+  },
+  {
+   "c": 39,
+   "i": 4,
+   "w": "a",
+   "s": 227.133,
+   "e": 227.313
+  },
+  {
+   "c": 39,
+   "i": 5,
+   "w": "firmware",
+   "s": 227.313,
+   "e": 227.573
+  },
+  {
+   "c": 39,
+   "i": 6,
+   "w": "update,",
+   "s": 227.573,
+   "e": 228.173
+  },
+  {
+   "c": 39,
+   "i": 7,
+   "w": "the",
+   "s": 228.733,
+   "e": 228.773
+  },
+  {
+   "c": 39,
+   "i": 8,
+   "w": "wallet",
+   "s": 228.773,
+   "e": 229.013
+  },
+  {
+   "c": 39,
+   "i": 9,
+   "w": "copies",
+   "s": 229.013,
+   "e": 229.433
+  },
+  {
+   "c": 39,
+   "i": 10,
+   "w": "its",
+   "s": 229.433,
+   "e": 229.833
+  },
+  {
+   "c": 39,
+   "i": 11,
+   "w": "PIN",
+   "s": 229.833,
+   "e": 230.133
+  },
+  {
+   "c": 39,
+   "i": 12,
+   "w": "into",
+   "s": 230.133,
+   "e": 230.433
+  },
+  {
+   "c": 39,
+   "i": 13,
+   "w": "the",
+   "s": 230.433,
+   "e": 230.573
+  },
+  {
+   "c": 39,
+   "i": 14,
+   "w": "chip's",
+   "s": 230.573,
+   "e": 230.973
+  },
+  {
+   "c": 39,
+   "i": 15,
+   "w": "temporary",
+   "s": 230.973,
+   "e": 231.353
+  },
+  {
+   "c": 39,
+   "i": 16,
+   "w": "memory.",
+   "s": 231.353,
+   "e": 231.753
+  },
+  {
+   "c": 39,
+   "i": 17,
+   "w": "That",
+   "s": 232.633,
+   "e": 232.793
+  },
+  {
+   "c": 39,
+   "i": 18,
+   "w": "memory",
+   "s": 232.793,
+   "e": 233.153
+  },
+  {
+   "c": 39,
+   "i": 19,
+   "w": "is",
+   "s": 233.153,
+   "e": 233.453
+  },
+  {
+   "c": 39,
+   "i": 20,
+   "w": "protected…",
+   "s": 233.453,
+   "e": 234.673
+  },
+  {
+   "c": 39,
+   "i": 21,
+   "w": "but",
+   "s": 234.673,
+   "e": 234.713
+  },
+  {
+   "c": 39,
+   "i": 22,
+   "w": "Joe",
+   "s": 234.713,
+   "e": 234.933
+  },
+  {
+   "c": 39,
+   "i": 23,
+   "w": "hit",
+   "s": 234.933,
+   "e": 235.293
+  },
+  {
+   "c": 39,
+   "i": 24,
+   "w": "the",
+   "s": 235.293,
+   "e": 235.473
+  },
+  {
+   "c": 39,
+   "i": 25,
+   "w": "chip",
+   "s": 235.473,
+   "e": 235.733
+  },
+  {
+   "c": 39,
+   "i": 26,
+   "w": "with",
+   "s": 235.733,
+   "e": 236.013
+  },
+  {
+   "c": 39,
+   "i": 27,
+   "w": "a",
+   "s": 236.013,
+   "e": 236.093
+  },
+  {
+   "c": 39,
+   "i": 28,
+   "w": "tiny,",
+   "s": 236.093,
+   "e": 236.473
+  },
+  {
+   "c": 39,
+   "i": 29,
+   "w": "perfectly",
+   "s": 236.853,
+   "e": 237.213
+  },
+  {
+   "c": 39,
+   "i": 30,
+   "w": "timed",
+   "s": 237.213,
+   "e": 237.773
+  },
+  {
+   "c": 39,
+   "i": 31,
+   "w": "glitch",
+   "s": 237.773,
+   "e": 238.133
+  },
+  {
+   "c": 39,
+   "i": 32,
+   "w": "in",
+   "s": 238.133,
+   "e": 238.433
+  },
+  {
+   "c": 39,
+   "i": 33,
+   "w": "its",
+   "s": 238.433,
+   "e": 238.573
+  },
+  {
+   "c": 39,
+   "i": 34,
+   "w": "power,",
+   "s": 238.573,
+   "e": 238.993
+  },
+  {
+   "c": 39,
+   "i": 35,
+   "w": "and",
+   "s": 239.573,
+   "e": 239.633
+  },
+  {
+   "c": 39,
+   "i": 36,
+   "w": "tricked",
+   "s": 239.633,
+   "e": 239.853
+  },
+  {
+   "c": 39,
+   "i": 37,
+   "w": "it",
+   "s": 239.853,
+   "e": 240.093
+  },
+  {
+   "c": 39,
+   "i": 38,
+   "w": "into",
+   "s": 240.093,
+   "e": 240.293
+  },
+  {
+   "c": 39,
+   "i": 39,
+   "w": "letting",
+   "s": 240.293,
+   "e": 240.553
+  },
+  {
+   "c": 39,
+   "i": 40,
+   "w": "him",
+   "s": 240.553,
+   "e": 240.853
+  },
+  {
+   "c": 39,
+   "i": 41,
+   "w": "read",
+   "s": 240.853,
+   "e": 241.113
+  },
+  {
+   "c": 39,
+   "i": 42,
+   "w": "it.",
+   "s": 241.113,
+   "e": 241.313
+  },
+  {
+   "c": 40,
+   "i": 0,
+   "w": "It",
+   "s": 241.731,
+   "e": 241.851
+  },
+  {
+   "c": 40,
+   "i": 1,
+   "w": "took",
+   "s": 241.851,
+   "e": 241.991
+  },
+  {
+   "c": 40,
+   "i": 2,
+   "w": "about",
+   "s": 241.991,
+   "e": 242.171
+  },
+  {
+   "c": 40,
+   "i": 3,
+   "w": "twelve",
+   "s": 242.171,
+   "e": 242.471
+  },
+  {
+   "c": 40,
+   "i": 4,
+   "w": "weeks",
+   "s": 242.471,
+   "e": 242.771
+  },
+  {
+   "c": 40,
+   "i": 5,
+   "w": "of",
+   "s": 242.771,
+   "e": 242.971
+  },
+  {
+   "c": 40,
+   "i": 6,
+   "w": "trial",
+   "s": 242.971,
+   "e": 243.231
+  },
+  {
+   "c": 40,
+   "i": 7,
+   "w": "and",
+   "s": 243.231,
+   "e": 243.611
+  },
+  {
+   "c": 40,
+   "i": 8,
+   "w": "error.",
+   "s": 243.611,
+   "e": 243.931
+  },
+  {
+   "c": 41,
+   "i": 0,
+   "w": "And",
+   "s": 244.6,
+   "e": 244.74
+  },
+  {
+   "c": 41,
+   "i": 1,
+   "w": "then…",
+   "s": 244.74,
+   "e": 245.2
+  },
+  {
+   "c": 41,
+   "i": 2,
+   "w": "the",
+   "s": 245.2,
+   "e": 245.22
+  },
+  {
+   "c": 41,
+   "i": 3,
+   "w": "PIN",
+   "s": 245.22,
+   "e": 245.44
+  },
+  {
+   "c": 41,
+   "i": 4,
+   "w": "popped",
+   "s": 245.44,
+   "e": 245.86
+  },
+  {
+   "c": 41,
+   "i": 5,
+   "w": "up",
+   "s": 245.86,
+   "e": 246.02
+  },
+  {
+   "c": 41,
+   "i": 6,
+   "w": "on",
+   "s": 246.02,
+   "e": 246.18
+  },
+  {
+   "c": 41,
+   "i": 7,
+   "w": "his",
+   "s": 246.18,
+   "e": 246.26
+  },
+  {
+   "c": 41,
+   "i": 8,
+   "w": "screen.",
+   "s": 246.26,
+   "e": 246.54
+  },
+  {
+   "c": 42,
+   "i": 0,
+   "w": "Two",
+   "s": 247.334,
+   "e": 247.494
+  },
+  {
+   "c": 42,
+   "i": 1,
+   "w": "million",
+   "s": 247.494,
+   "e": 247.734
+  },
+  {
+   "c": 42,
+   "i": 2,
+   "w": "dollars.",
+   "s": 247.734,
+   "e": 248.274
+  },
+  {
+   "c": 42,
+   "i": 3,
+   "w": "Back.",
+   "s": 248.554,
+   "e": 248.694
+  },
+  {
+   "c": 43,
+   "i": 0,
+   "w": "But",
+   "s": 249.528,
+   "e": 249.648
+  },
+  {
+   "c": 43,
+   "i": 1,
+   "w": "here's",
+   "s": 249.648,
+   "e": 249.928
+  },
+  {
+   "c": 43,
+   "i": 2,
+   "w": "the",
+   "s": 249.928,
+   "e": 250.048
+  },
+  {
+   "c": 43,
+   "i": 3,
+   "w": "catch.",
+   "s": 250.048,
+   "e": 250.308
+  },
+  {
+   "c": 43,
+   "i": 4,
+   "w": "That",
+   "s": 251.208,
+   "e": 251.208
+  },
+  {
+   "c": 43,
+   "i": 5,
+   "w": "trick",
+   "s": 251.208,
+   "e": 251.448
+  },
+  {
+   "c": 43,
+   "i": 6,
+   "w": "used",
+   "s": 251.448,
+   "e": 251.808
+  },
+  {
+   "c": 43,
+   "i": 7,
+   "w": "a",
+   "s": 251.808,
+   "e": 251.968
+  },
+  {
+   "c": 43,
+   "i": 8,
+   "w": "flaw",
+   "s": 251.968,
+   "e": 252.168
+  },
+  {
+   "c": 43,
+   "i": 9,
+   "w": "Trezor",
+   "s": 252.168,
+   "e": 252.728
+  },
+  {
+   "c": 43,
+   "i": 10,
+   "w": "had",
+   "s": 252.728,
+   "e": 252.868
+  },
+  {
+   "c": 43,
+   "i": 11,
+   "w": "already",
+   "s": 252.868,
+   "e": 253.168
+  },
+  {
+   "c": 43,
+   "i": 12,
+   "w": "fixed",
+   "s": 253.168,
+   "e": 253.528
+  },
+  {
+   "c": 43,
+   "i": 13,
+   "w": "back",
+   "s": 253.528,
+   "e": 253.808
+  },
+  {
+   "c": 43,
+   "i": 14,
+   "w": "in",
+   "s": 253.808,
+   "e": 254.068
+  },
+  {
+   "c": 43,
+   "i": 15,
+   "w": "2017.",
+   "s": 254.068,
+   "e": 254.788
+  },
+  {
+   "c": 43,
+   "i": 16,
+   "w": "Stefan's",
+   "s": 255.748,
+   "e": 256.228
+  },
+  {
+   "c": 43,
+   "i": 17,
+   "w": "IronKey",
+   "s": 256.228,
+   "e": 256.928
+  },
+  {
+   "c": 43,
+   "i": 18,
+   "w": "is",
+   "s": 256.928,
+   "e": 257.308
+  },
+  {
+   "c": 43,
+   "i": 19,
+   "w": "a",
+   "s": 257.308,
+   "e": 257.428
+  },
+  {
+   "c": 43,
+   "i": 20,
+   "w": "different,",
+   "s": 257.428,
+   "e": 257.688
+  },
+  {
+   "c": 43,
+   "i": 21,
+   "w": "tougher",
+   "s": 257.688,
+   "e": 258.288
+  },
+  {
+   "c": 43,
+   "i": 22,
+   "w": "machine.",
+   "s": 258.288,
+   "e": 258.748
+  },
+  {
+   "c": 44,
+   "i": 0,
+   "w": "Then,",
+   "s": 259.62,
+   "e": 259.86
+  },
+  {
+   "c": 44,
+   "i": 1,
+   "w": "in",
+   "s": 260.1,
+   "e": 260.18
+  },
+  {
+   "c": 44,
+   "i": 2,
+   "w": "2023,",
+   "s": 260.18,
+   "e": 261
+  },
+  {
+   "c": 44,
+   "i": 3,
+   "w": "a",
+   "s": 261.52,
+   "e": 261.8
+  },
+  {
+   "c": 44,
+   "i": 4,
+   "w": "security",
+   "s": 261.8,
+   "e": 262.16
+  },
+  {
+   "c": 44,
+   "i": 5,
+   "w": "company",
+   "s": 262.16,
+   "e": 262.86
+  },
+  {
+   "c": 44,
+   "i": 6,
+   "w": "called",
+   "s": 262.86,
+   "e": 263.24
+  },
+  {
+   "c": 44,
+   "i": 7,
+   "w": "Unciphered",
+   "s": 263.24,
+   "e": 264.18
+  },
+  {
+   "c": 44,
+   "i": 8,
+   "w": "said",
+   "s": 264.18,
+   "e": 264.42
+  },
+  {
+   "c": 44,
+   "i": 9,
+   "w": "it",
+   "s": 264.42,
+   "e": 264.56
+  },
+  {
+   "c": 44,
+   "i": 10,
+   "w": "had",
+   "s": 264.56,
+   "e": 264.66
+  },
+  {
+   "c": 44,
+   "i": 11,
+   "w": "done",
+   "s": 264.66,
+   "e": 264.94
+  },
+  {
+   "c": 44,
+   "i": 12,
+   "w": "it.",
+   "s": 264.94,
+   "e": 265.1
+  },
+  {
+   "c": 45,
+   "i": 0,
+   "w": "Working",
+   "s": 265.392,
+   "e": 265.672
+  },
+  {
+   "c": 45,
+   "i": 1,
+   "w": "with",
+   "s": 265.672,
+   "e": 265.892
+  },
+  {
+   "c": 45,
+   "i": 2,
+   "w": "Wired,",
+   "s": 265.892,
+   "e": 266.212
+  },
+  {
+   "c": 45,
+   "i": 3,
+   "w": "they",
+   "s": 266.892,
+   "e": 267.012
+  },
+  {
+   "c": 45,
+   "i": 4,
+   "w": "took",
+   "s": 267.012,
+   "e": 267.192
+  },
+  {
+   "c": 45,
+   "i": 5,
+   "w": "an",
+   "s": 267.192,
+   "e": 267.332
+  },
+  {
+   "c": 45,
+   "i": 6,
+   "w": "IronKey",
+   "s": 267.332,
+   "e": 268.052
+  },
+  {
+   "c": 45,
+   "i": 7,
+   "w": "of",
+   "s": 268.052,
+   "e": 268.272
+  },
+  {
+   "c": 45,
+   "i": 8,
+   "w": "the",
+   "s": 268.272,
+   "e": 268.392
+  },
+  {
+   "c": 45,
+   "i": 9,
+   "w": "same",
+   "s": 268.392,
+   "e": 268.632
+  },
+  {
+   "c": 45,
+   "i": 10,
+   "w": "model",
+   "s": 268.632,
+   "e": 269.012
+  },
+  {
+   "c": 45,
+   "i": 11,
+   "w": "as",
+   "s": 269.012,
+   "e": 269.312
+  },
+  {
+   "c": 45,
+   "i": 12,
+   "w": "Stefan's,",
+   "s": 269.312,
+   "e": 269.972
+  },
+  {
+   "c": 45,
+   "i": 13,
+   "w": "carved",
+   "s": 270.332,
+   "e": 270.572
+  },
+  {
+   "c": 45,
+   "i": 14,
+   "w": "out",
+   "s": 270.572,
+   "e": 270.972
+  },
+  {
+   "c": 45,
+   "i": 15,
+   "w": "its",
+   "s": 270.972,
+   "e": 271.152
+  },
+  {
+   "c": 45,
+   "i": 16,
+   "w": "secure",
+   "s": 271.152,
+   "e": 271.472
+  },
+  {
+   "c": 45,
+   "i": 17,
+   "w": "chip,",
+   "s": 271.472,
+   "e": 271.812
+  },
+  {
+   "c": 45,
+   "i": 18,
+   "w": "dissolved",
+   "s": 272.212,
+   "e": 272.552
+  },
+  {
+   "c": 45,
+   "i": 19,
+   "w": "the",
+   "s": 272.552,
+   "e": 272.992
+  },
+  {
+   "c": 45,
+   "i": 20,
+   "w": "protective",
+   "s": 272.992,
+   "e": 273.332
+  },
+  {
+   "c": 45,
+   "i": 21,
+   "w": "epoxy",
+   "s": 273.332,
+   "e": 273.852
+  },
+  {
+   "c": 45,
+   "i": 22,
+   "w": "with",
+   "s": 273.852,
+   "e": 274.212
+  },
+  {
+   "c": 45,
+   "i": 23,
+   "w": "acid…",
+   "s": 274.212,
+   "e": 275.012
+  },
+  {
+   "c": 46,
+   "i": 0,
+   "w": "…and",
+   "s": 275.038,
+   "e": 275.178
+  },
+  {
+   "c": 46,
+   "i": 1,
+   "w": "ran",
+   "s": 275.178,
+   "e": 275.338
+  },
+  {
+   "c": 46,
+   "i": 2,
+   "w": "about",
+   "s": 275.338,
+   "e": 275.638
+  },
+  {
+   "c": 46,
+   "i": 3,
+   "w": "two",
+   "s": 275.638,
+   "e": 275.998
+  },
+  {
+   "c": 46,
+   "i": 4,
+   "w": "hundred",
+   "s": 275.998,
+   "e": 276.318
+  },
+  {
+   "c": 46,
+   "i": 5,
+   "w": "trillion",
+   "s": 276.318,
+   "e": 276.718
+  },
+  {
+   "c": 46,
+   "i": 6,
+   "w": "password",
+   "s": 276.718,
+   "e": 277.298
+  },
+  {
+   "c": 46,
+   "i": 7,
+   "w": "guesses.",
+   "s": 277.298,
+   "e": 277.698
+  },
+  {
+   "c": 47,
+   "i": 0,
+   "w": "It",
+   "s": 279.189,
+   "e": 279.369
+  },
+  {
+   "c": 47,
+   "i": 1,
+   "w": "opened.",
+   "s": 279.369,
+   "e": 279.709
+  },
+  {
+   "c": 48,
+   "i": 0,
+   "w": "So",
+   "s": 280.92,
+   "e": 281.08
+  },
+  {
+   "c": 48,
+   "i": 1,
+   "w": "they",
+   "s": 281.08,
+   "e": 281.18
+  },
+  {
+   "c": 48,
+   "i": 2,
+   "w": "made",
+   "s": 281.18,
+   "e": 281.34
+  },
+  {
+   "c": 48,
+   "i": 3,
+   "w": "Stefan",
+   "s": 281.34,
+   "e": 281.7
+  },
+  {
+   "c": 48,
+   "i": 4,
+   "w": "an",
+   "s": 281.7,
+   "e": 281.94
+  },
+  {
+   "c": 48,
+   "i": 5,
+   "w": "offer:",
+   "s": 281.94,
+   "e": 282.26
+  },
+  {
+   "c": 48,
+   "i": 6,
+   "w": "let",
+   "s": 282.78,
+   "e": 282.9
+  },
+  {
+   "c": 48,
+   "i": 7,
+   "w": "us",
+   "s": 282.9,
+   "e": 283
+  },
+  {
+   "c": 48,
+   "i": 8,
+   "w": "unlock",
+   "s": 283,
+   "e": 283.4
+  },
+  {
+   "c": 48,
+   "i": 9,
+   "w": "your",
+   "s": 283.4,
+   "e": 283.74
+  },
+  {
+   "c": 48,
+   "i": 10,
+   "w": "drive.",
+   "s": 283.74,
+   "e": 284.08
+  },
+  {
+   "c": 49,
+   "i": 0,
+   "w": "And",
+   "s": 284.686,
+   "e": 284.826
+  },
+  {
+   "c": 49,
+   "i": 1,
+   "w": "Stefan…",
+   "s": 284.826,
+   "e": 285.046
+  },
+  {
+   "c": 49,
+   "i": 2,
+   "w": "said",
+   "s": 285.046,
+   "e": 285.466
+  },
+  {
+   "c": 49,
+   "i": 3,
+   "w": "no.",
+   "s": 285.466,
+   "e": 285.746
+  },
+  {
+   "c": 50,
+   "i": 0,
+   "w": "Why",
+   "s": 287.149,
+   "e": 287.349
+  },
+  {
+   "c": 50,
+   "i": 1,
+   "w": "would",
+   "s": 287.349,
+   "e": 287.529
+  },
+  {
+   "c": 50,
+   "i": 2,
+   "w": "anyone",
+   "s": 287.529,
+   "e": 287.809
+  },
+  {
+   "c": 50,
+   "i": 3,
+   "w": "say",
+   "s": 287.809,
+   "e": 288.229
+  },
+  {
+   "c": 50,
+   "i": 4,
+   "w": "no",
+   "s": 288.229,
+   "e": 288.569
+  },
+  {
+   "c": 50,
+   "i": 5,
+   "w": "to",
+   "s": 288.569,
+   "e": 288.749
+  },
+  {
+   "c": 50,
+   "i": 6,
+   "w": "half",
+   "s": 288.749,
+   "e": 288.949
+  },
+  {
+   "c": 50,
+   "i": 7,
+   "w": "a",
+   "s": 288.949,
+   "e": 289.109
+  },
+  {
+   "c": 50,
+   "i": 8,
+   "w": "billion",
+   "s": 289.109,
+   "e": 289.389
+  },
+  {
+   "c": 50,
+   "i": 9,
+   "w": "dollars?",
+   "s": 289.389,
+   "e": 289.909
+  },
+  {
+   "c": 51,
+   "i": 0,
+   "w": "Because,",
+   "s": 290.656,
+   "e": 290.916
+  },
+  {
+   "c": 51,
+   "i": 1,
+   "w": "according",
+   "s": 291.176,
+   "e": 291.536
+  },
+  {
+   "c": 51,
+   "i": 2,
+   "w": "to",
+   "s": 291.536,
+   "e": 291.736
+  },
+  {
+   "c": 51,
+   "i": 3,
+   "w": "reports,",
+   "s": 291.736,
+   "e": 292.056
+  },
+  {
+   "c": 51,
+   "i": 4,
+   "w": "he",
+   "s": 292.676,
+   "e": 292.836
+  },
+  {
+   "c": 51,
+   "i": 5,
+   "w": "had",
+   "s": 292.836,
+   "e": 292.936
+  },
+  {
+   "c": 51,
+   "i": 6,
+   "w": "already",
+   "s": 292.936,
+   "e": 293.216
+  },
+  {
+   "c": 51,
+   "i": 7,
+   "w": "hired",
+   "s": 293.216,
+   "e": 293.656
+  },
+  {
+   "c": 51,
+   "i": 8,
+   "w": "another",
+   "s": 293.656,
+   "e": 293.976
+  },
+  {
+   "c": 51,
+   "i": 9,
+   "w": "team.",
+   "s": 293.976,
+   "e": 294.356
+  },
+  {
+   "c": 51,
+   "i": 10,
+   "w": "And",
+   "s": 295.076,
+   "e": 295.176
+  },
+  {
+   "c": 51,
+   "i": 11,
+   "w": "he'd",
+   "s": 295.176,
+   "e": 295.376
+  },
+  {
+   "c": 51,
+   "i": 12,
+   "w": "agreed",
+   "s": 295.376,
+   "e": 295.656
+  },
+  {
+   "c": 51,
+   "i": 13,
+   "w": "to",
+   "s": 295.656,
+   "e": 295.896
+  },
+  {
+   "c": 51,
+   "i": 14,
+   "w": "give",
+   "s": 295.896,
+   "e": 296.076
+  },
+  {
+   "c": 51,
+   "i": 15,
+   "w": "them",
+   "s": 296.076,
+   "e": 296.236
+  },
+  {
+   "c": 51,
+   "i": 16,
+   "w": "a",
+   "s": 296.236,
+   "e": 296.336
+  },
+  {
+   "c": 51,
+   "i": 17,
+   "w": "share",
+   "s": 296.336,
+   "e": 296.596
+  },
+  {
+   "c": 51,
+   "i": 18,
+   "w": "if",
+   "s": 296.596,
+   "e": 296.876
+  },
+  {
+   "c": 51,
+   "i": 19,
+   "w": "they",
+   "s": 296.876,
+   "e": 297.036
+  },
+  {
+   "c": 51,
+   "i": 20,
+   "w": "succeeded.",
+   "s": 297.036,
+   "e": 297.456
+  },
+  {
+   "c": 52,
+   "i": 0,
+   "w": "So",
+   "s": 298.178,
+   "e": 298.378
+  },
+  {
+   "c": 52,
+   "i": 1,
+   "w": "somewhere,",
+   "s": 298.378,
+   "e": 298.778
+  },
+  {
+   "c": 52,
+   "i": 2,
+   "w": "maybe",
+   "s": 299.078,
+   "e": 299.358
+  },
+  {
+   "c": 52,
+   "i": 3,
+   "w": "right",
+   "s": 299.358,
+   "e": 299.618
+  },
+  {
+   "c": 52,
+   "i": 4,
+   "w": "now,",
+   "s": 299.618,
+   "e": 299.938
+  },
+  {
+   "c": 52,
+   "i": 5,
+   "w": "someone",
+   "s": 300.358,
+   "e": 300.698
+  },
+  {
+   "c": 52,
+   "i": 6,
+   "w": "may",
+   "s": 300.698,
+   "e": 300.938
+  },
+  {
+   "c": 52,
+   "i": 7,
+   "w": "be",
+   "s": 300.938,
+   "e": 301.058
+  },
+  {
+   "c": 52,
+   "i": 8,
+   "w": "trying",
+   "s": 301.058,
+   "e": 301.278
+  },
+  {
+   "c": 52,
+   "i": 9,
+   "w": "to",
+   "s": 301.278,
+   "e": 301.438
+  },
+  {
+   "c": 52,
+   "i": 10,
+   "w": "break",
+   "s": 301.438,
+   "e": 301.638
+  },
+  {
+   "c": 52,
+   "i": 11,
+   "w": "into",
+   "s": 301.638,
+   "e": 301.878
+  },
+  {
+   "c": 52,
+   "i": 12,
+   "w": "that",
+   "s": 301.878,
+   "e": 302.098
+  },
+  {
+   "c": 52,
+   "i": 13,
+   "w": "drive.",
+   "s": 302.098,
+   "e": 302.358
+  },
+  {
+   "c": 53,
+   "i": 0,
+   "w": "Has",
+   "s": 303.161,
+   "e": 303.341
+  },
+  {
+   "c": 53,
+   "i": 1,
+   "w": "anyone",
+   "s": 303.341,
+   "e": 303.641
+  },
+  {
+   "c": 53,
+   "i": 2,
+   "w": "succeeded?",
+   "s": 303.641,
+   "e": 304.261
+  },
+  {
+   "c": 53,
+   "i": 3,
+   "w": "As",
+   "s": 305.081,
+   "e": 305.201
+  },
+  {
+   "c": 53,
+   "i": 4,
+   "w": "of",
+   "s": 305.201,
+   "e": 305.321
+  },
+  {
+   "c": 53,
+   "i": 5,
+   "w": "today,",
+   "s": 305.321,
+   "e": 305.761
+  },
+  {
+   "c": 53,
+   "i": 6,
+   "w": "there's",
+   "s": 306.061,
+   "e": 306.381
+  },
+  {
+   "c": 53,
+   "i": 7,
+   "w": "no",
+   "s": 306.381,
+   "e": 306.561
+  },
+  {
+   "c": 53,
+   "i": 8,
+   "w": "public",
+   "s": 306.561,
+   "e": 306.901
+  },
+  {
+   "c": 53,
+   "i": 9,
+   "w": "confirmation",
+   "s": 306.901,
+   "e": 307.361
+  },
+  {
+   "c": 53,
+   "i": 10,
+   "w": "that",
+   "s": 307.361,
+   "e": 308.081
+  },
+  {
+   "c": 53,
+   "i": 11,
+   "w": "it's",
+   "s": 308.081,
+   "e": 308.281
+  },
+  {
+   "c": 53,
+   "i": 12,
+   "w": "been",
+   "s": 308.281,
+   "e": 308.401
+  },
+  {
+   "c": 53,
+   "i": 13,
+   "w": "opened.",
+   "s": 308.401,
+   "e": 308.701
+  },
+  {
+   "c": 54,
+   "i": 0,
+   "w": "And",
+   "s": 309.785,
+   "e": 309.925
+  },
+  {
+   "c": 54,
+   "i": 1,
+   "w": "Stefan",
+   "s": 309.925,
+   "e": 310.185
+  },
+  {
+   "c": 54,
+   "i": 2,
+   "w": "isn't",
+   "s": 310.185,
+   "e": 310.745
+  },
+  {
+   "c": 54,
+   "i": 3,
+   "w": "the",
+   "s": 310.745,
+   "e": 310.865
+  },
+  {
+   "c": 54,
+   "i": 4,
+   "w": "only",
+   "s": 310.865,
+   "e": 311.105
+  },
+  {
+   "c": 54,
+   "i": 5,
+   "w": "one.",
+   "s": 311.105,
+   "e": 311.505
+  },
+  {
+   "c": 55,
+   "i": 0,
+   "w": "In",
+   "s": 311.862,
+   "e": 312.002
+  },
+  {
+   "c": 55,
+   "i": 1,
+   "w": "Wales,",
+   "s": 312.002,
+   "e": 312.262
+  },
+  {
+   "c": 55,
+   "i": 2,
+   "w": "a",
+   "s": 312.762,
+   "e": 312.842
+  },
+  {
+   "c": 55,
+   "i": 3,
+   "w": "man",
+   "s": 312.842,
+   "e": 313.062
+  },
+  {
+   "c": 55,
+   "i": 4,
+   "w": "named",
+   "s": 313.062,
+   "e": 313.342
+  },
+  {
+   "c": 55,
+   "i": 5,
+   "w": "James",
+   "s": 313.342,
+   "e": 313.782
+  },
+  {
+   "c": 55,
+   "i": 6,
+   "w": "Howells",
+   "s": 313.782,
+   "e": 314.262
+  },
+  {
+   "c": 55,
+   "i": 7,
+   "w": "says",
+   "s": 314.262,
+   "e": 314.562
+  },
+  {
+   "c": 55,
+   "i": 8,
+   "w": "he",
+   "s": 314.562,
+   "e": 314.742
+  },
+  {
+   "c": 55,
+   "i": 9,
+   "w": "threw",
+   "s": 314.742,
+   "e": 314.942
+  },
+  {
+   "c": 55,
+   "i": 10,
+   "w": "away",
+   "s": 314.942,
+   "e": 315.362
+  },
+  {
+   "c": 55,
+   "i": 11,
+   "w": "a",
+   "s": 315.362,
+   "e": 315.542
+  },
+  {
+   "c": 55,
+   "i": 12,
+   "w": "hard",
+   "s": 315.542,
+   "e": 315.842
+  },
+  {
+   "c": 55,
+   "i": 13,
+   "w": "drive",
+   "s": 315.842,
+   "e": 316.282
+  },
+  {
+   "c": 55,
+   "i": 14,
+   "w": "with",
+   "s": 316.282,
+   "e": 316.662
+  },
+  {
+   "c": 55,
+   "i": 15,
+   "w": "around",
+   "s": 316.662,
+   "e": 316.882
+  },
+  {
+   "c": 55,
+   "i": 16,
+   "w": "eight",
+   "s": 316.882,
+   "e": 317.342
+  },
+  {
+   "c": 55,
+   "i": 17,
+   "w": "thousand",
+   "s": 317.342,
+   "e": 317.882
+  },
+  {
+   "c": 55,
+   "i": 18,
+   "w": "bitcoin",
+   "s": 317.882,
+   "e": 318.142
+  },
+  {
+   "c": 55,
+   "i": 19,
+   "w": "on",
+   "s": 318.142,
+   "e": 318.682
+  },
+  {
+   "c": 55,
+   "i": 20,
+   "w": "it,",
+   "s": 318.682,
+   "e": 318.862
+  },
+  {
+   "c": 55,
+   "i": 21,
+   "w": "back",
+   "s": 319.182,
+   "e": 319.402
+  },
+  {
+   "c": 55,
+   "i": 22,
+   "w": "in",
+   "s": 319.402,
+   "e": 319.642
+  },
+  {
+   "c": 55,
+   "i": 23,
+   "w": "2013.",
+   "s": 319.642,
+   "e": 320.102
+  },
+  {
+   "c": 55,
+   "i": 24,
+   "w": "It's",
+   "s": 320.962,
+   "e": 321.182
+  },
+  {
+   "c": 55,
+   "i": 25,
+   "w": "buried",
+   "s": 321.182,
+   "e": 321.422
+  },
+  {
+   "c": 55,
+   "i": 26,
+   "w": "in",
+   "s": 321.422,
+   "e": 321.802
+  },
+  {
+   "c": 55,
+   "i": 27,
+   "w": "a",
+   "s": 321.802,
+   "e": 321.902
+  },
+  {
+   "c": 55,
+   "i": 28,
+   "w": "landfill.",
+   "s": 321.902,
+   "e": 322.262
+  },
+  {
+   "c": 55,
+   "i": 29,
+   "w": "He",
+   "s": 323.062,
+   "e": 323.102
+  },
+  {
+   "c": 55,
+   "i": 30,
+   "w": "spent",
+   "s": 323.102,
+   "e": 323.322
+  },
+  {
+   "c": 55,
+   "i": 31,
+   "w": "years",
+   "s": 323.322,
+   "e": 323.642
+  },
+  {
+   "c": 55,
+   "i": 32,
+   "w": "in",
+   "s": 323.642,
+   "e": 323.942
+  },
+  {
+   "c": 55,
+   "i": 33,
+   "w": "court",
+   "s": 323.942,
+   "e": 324.202
+  },
+  {
+   "c": 55,
+   "i": 34,
+   "w": "trying",
+   "s": 324.202,
+   "e": 324.642
+  },
+  {
+   "c": 55,
+   "i": 35,
+   "w": "to",
+   "s": 324.642,
+   "e": 324.802
+  },
+  {
+   "c": 55,
+   "i": 36,
+   "w": "dig",
+   "s": 324.802,
+   "e": 324.962
+  },
+  {
+   "c": 55,
+   "i": 37,
+   "w": "it",
+   "s": 324.962,
+   "e": 325.102
+  },
+  {
+   "c": 55,
+   "i": 38,
+   "w": "up.",
+   "s": 325.102,
+   "e": 325.322
+  },
+  {
+   "c": 55,
+   "i": 39,
+   "w": "In",
+   "s": 325.782,
+   "e": 325.942
+  },
+  {
+   "c": 55,
+   "i": 40,
+   "w": "2025,",
+   "s": 325.942,
+   "e": 326.462
+  },
+  {
+   "c": 55,
+   "i": 41,
+   "w": "he",
+   "s": 326.482,
+   "e": 327.162
+  },
+  {
+   "c": 55,
+   "i": 42,
+   "w": "lost.",
+   "s": 327.162,
+   "e": 327.422
+  },
+  {
+   "c": 56,
+   "i": 0,
+   "w": "One",
+   "s": 328.339,
+   "e": 328.539
+  },
+  {
+   "c": 56,
+   "i": 1,
+   "w": "estimate,",
+   "s": 328.539,
+   "e": 328.899
+  },
+  {
+   "c": 56,
+   "i": 2,
+   "w": "from",
+   "s": 328.899,
+   "e": 329.299
+  },
+  {
+   "c": 56,
+   "i": 3,
+   "w": "the",
+   "s": 329.299,
+   "e": 329.419
+  },
+  {
+   "c": 56,
+   "i": 4,
+   "w": "blockchain",
+   "s": 329.419,
+   "e": 329.739
+  },
+  {
+   "c": 56,
+   "i": 5,
+   "w": "firm",
+   "s": 329.739,
+   "e": 330.279
+  },
+  {
+   "c": 56,
+   "i": 6,
+   "w": "Chainalysis,",
+   "s": 330.279,
+   "e": 331.019
+  },
+  {
+   "c": 56,
+   "i": 7,
+   "w": "suggested",
+   "s": 331.019,
+   "e": 331.999
+  },
+  {
+   "c": 56,
+   "i": 8,
+   "w": "that",
+   "s": 331.999,
+   "e": 332.439
+  },
+  {
+   "c": 56,
+   "i": 9,
+   "w": "up",
+   "s": 332.439,
+   "e": 332.599
+  },
+  {
+   "c": 56,
+   "i": 10,
+   "w": "to",
+   "s": 332.599,
+   "e": 332.759
+  },
+  {
+   "c": 56,
+   "i": 11,
+   "w": "one",
+   "s": 332.759,
+   "e": 332.959
+  },
+  {
+   "c": 56,
+   "i": 12,
+   "w": "in",
+   "s": 332.959,
+   "e": 333.059
+  },
+  {
+   "c": 56,
+   "i": 13,
+   "w": "five",
+   "s": 333.059,
+   "e": 333.379
+  },
+  {
+   "c": 56,
+   "i": 14,
+   "w": "bitcoins",
+   "s": 333.379,
+   "e": 333.659
+  },
+  {
+   "c": 56,
+   "i": 15,
+   "w": "may",
+   "s": 333.659,
+   "e": 334.259
+  },
+  {
+   "c": 56,
+   "i": 16,
+   "w": "be",
+   "s": 334.259,
+   "e": 334.399
+  },
+  {
+   "c": 56,
+   "i": 17,
+   "w": "lost",
+   "s": 334.399,
+   "e": 334.659
+  },
+  {
+   "c": 56,
+   "i": 18,
+   "w": "forever.",
+   "s": 334.659,
+   "e": 335.079
+  },
+  {
+   "c": 56,
+   "i": 19,
+   "w": "Forgotten",
+   "s": 336.139,
+   "e": 336.139
+  },
+  {
+   "c": 56,
+   "i": 20,
+   "w": "passwords.",
+   "s": 336.139,
+   "e": 336.699
+  },
+  {
+   "c": 56,
+   "i": 21,
+   "w": "Thrown-out",
+   "s": 337.679,
+   "e": 338.119
+  },
+  {
+   "c": 56,
+   "i": 22,
+   "w": "drives.",
+   "s": 338.119,
+   "e": 338.399
+  },
+  {
+   "c": 56,
+   "i": 23,
+   "w": "Owners",
+   "s": 339.619,
+   "e": 339.619
+  },
+  {
+   "c": 56,
+   "i": 24,
+   "w": "who",
+   "s": 339.619,
+   "e": 339.859
+  },
+  {
+   "c": 56,
+   "i": 25,
+   "w": "never",
+   "s": 339.859,
+   "e": 340.079
+  },
+  {
+   "c": 56,
+   "i": 26,
+   "w": "told",
+   "s": 340.079,
+   "e": 340.359
+  },
+  {
+   "c": 56,
+   "i": 27,
+   "w": "anyone.",
+   "s": 340.359,
+   "e": 340.999
+  },
+  {
+   "c": 57,
+   "i": 0,
+   "w": "So",
+   "s": 341.709,
+   "e": 341.869
+  },
+  {
+   "c": 57,
+   "i": 1,
+   "w": "how",
+   "s": 341.869,
+   "e": 342.029
+  },
+  {
+   "c": 57,
+   "i": 2,
+   "w": "do",
+   "s": 342.029,
+   "e": 342.189
+  },
+  {
+   "c": 57,
+   "i": 3,
+   "w": "you",
+   "s": 342.189,
+   "e": 342.269
+  },
+  {
+   "c": 57,
+   "i": 4,
+   "w": "make",
+   "s": 342.269,
+   "e": 342.489
+  },
+  {
+   "c": 57,
+   "i": 5,
+   "w": "sure",
+   "s": 342.489,
+   "e": 342.729
+  },
+  {
+   "c": 57,
+   "i": 6,
+   "w": "this",
+   "s": 342.729,
+   "e": 342.989
+  },
+  {
+   "c": 57,
+   "i": 7,
+   "w": "never",
+   "s": 342.989,
+   "e": 343.449
+  },
+  {
+   "c": 57,
+   "i": 8,
+   "w": "happens",
+   "s": 343.449,
+   "e": 343.889
+  },
+  {
+   "c": 57,
+   "i": 9,
+   "w": "to",
+   "s": 343.889,
+   "e": 344.149
+  },
+  {
+   "c": 57,
+   "i": 10,
+   "w": "you?",
+   "s": 344.149,
+   "e": 344.329
+  },
+  {
+   "c": 58,
+   "i": 0,
+   "w": "One.",
+   "s": 344.737,
+   "e": 344.977
+  },
+  {
+   "c": 58,
+   "i": 1,
+   "w": "Use",
+   "s": 345.257,
+   "e": 345.397
+  },
+  {
+   "c": 58,
+   "i": 2,
+   "w": "a",
+   "s": 345.397,
+   "e": 345.537
+  },
+  {
+   "c": 58,
+   "i": 3,
+   "w": "password",
+   "s": 345.537,
+   "e": 345.897
+  },
+  {
+   "c": 58,
+   "i": 4,
+   "w": "manager,",
+   "s": 345.897,
+   "e": 346.337
+  },
+  {
+   "c": 58,
+   "i": 5,
+   "w": "so",
+   "s": 347.077,
+   "e": 347.157
+  },
+  {
+   "c": 58,
+   "i": 6,
+   "w": "your",
+   "s": 347.157,
+   "e": 347.317
+  },
+  {
+   "c": 58,
+   "i": 7,
+   "w": "brain",
+   "s": 347.317,
+   "e": 347.657
+  },
+  {
+   "c": 58,
+   "i": 8,
+   "w": "isn't",
+   "s": 347.657,
+   "e": 348.017
+  },
+  {
+   "c": 58,
+   "i": 9,
+   "w": "the",
+   "s": 348.017,
+   "e": 348.097
+  },
+  {
+   "c": 58,
+   "i": 10,
+   "w": "only",
+   "s": 348.097,
+   "e": 348.357
+  },
+  {
+   "c": 58,
+   "i": 11,
+   "w": "backup.",
+   "s": 348.357,
+   "e": 348.777
+  },
+  {
+   "c": 59,
+   "i": 0,
+   "w": "Two.",
+   "s": 349.337,
+   "e": 349.557
+  },
+  {
+   "c": 59,
+   "i": 1,
+   "w": "Write",
+   "s": 349.997,
+   "e": 350.037
+  },
+  {
+   "c": 59,
+   "i": 2,
+   "w": "down",
+   "s": 350.037,
+   "e": 350.417
+  },
+  {
+   "c": 59,
+   "i": 3,
+   "w": "your",
+   "s": 350.417,
+   "e": 350.597
+  },
+  {
+   "c": 59,
+   "i": 4,
+   "w": "recovery",
+   "s": 350.597,
+   "e": 350.817
+  },
+  {
+   "c": 59,
+   "i": 5,
+   "w": "codes,",
+   "s": 350.817,
+   "e": 351.417
+  },
+  {
+   "c": 59,
+   "i": 6,
+   "w": "and",
+   "s": 351.757,
+   "e": 351.777
+  },
+  {
+   "c": 59,
+   "i": 7,
+   "w": "keep",
+   "s": 351.777,
+   "e": 352.037
+  },
+  {
+   "c": 59,
+   "i": 8,
+   "w": "copies",
+   "s": 352.037,
+   "e": 352.337
+  },
+  {
+   "c": 59,
+   "i": 9,
+   "w": "in",
+   "s": 352.337,
+   "e": 352.757
+  },
+  {
+   "c": 59,
+   "i": 10,
+   "w": "two",
+   "s": 352.757,
+   "e": 352.937
+  },
+  {
+   "c": 59,
+   "i": 11,
+   "w": "safe",
+   "s": 352.937,
+   "e": 353.217
+  },
+  {
+   "c": 59,
+   "i": 12,
+   "w": "places.",
+   "s": 353.217,
+   "e": 353.657
+  },
+  {
+   "c": 59,
+   "i": 13,
+   "w": "Not",
+   "s": 354.537,
+   "e": 354.537
+  },
+  {
+   "c": 59,
+   "i": 14,
+   "w": "one",
+   "s": 354.537,
+   "e": 354.797
+  },
+  {
+   "c": 59,
+   "i": 15,
+   "w": "piece",
+   "s": 354.797,
+   "e": 355.037
+  },
+  {
+   "c": 59,
+   "i": 16,
+   "w": "of",
+   "s": 355.037,
+   "e": 355.237
+  },
+  {
+   "c": 59,
+   "i": 17,
+   "w": "paper.",
+   "s": 355.237,
+   "e": 355.577
+  },
+  {
+   "c": 60,
+   "i": 0,
+   "w": "Three.",
+   "s": 355.994,
+   "e": 356.294
+  },
+  {
+   "c": 60,
+   "i": 1,
+   "w": "Test",
+   "s": 356.634,
+   "e": 356.754
+  },
+  {
+   "c": 60,
+   "i": 2,
+   "w": "your",
+   "s": 356.754,
+   "e": 356.934
+  },
+  {
+   "c": 60,
+   "i": 3,
+   "w": "backup",
+   "s": 356.934,
+   "e": 357.174
+  },
+  {
+   "c": 60,
+   "i": 4,
+   "w": "before",
+   "s": 357.174,
+   "e": 357.654
+  },
+  {
+   "c": 60,
+   "i": 5,
+   "w": "you",
+   "s": 357.654,
+   "e": 357.834
+  },
+  {
+   "c": 60,
+   "i": 6,
+   "w": "need",
+   "s": 357.834,
+   "e": 357.994
+  },
+  {
+   "c": 60,
+   "i": 7,
+   "w": "it.",
+   "s": 357.994,
+   "e": 358.214
+  },
+  {
+   "c": 61,
+   "i": 0,
+   "w": "And",
+   "s": 358.467,
+   "e": 358.607
+  },
+  {
+   "c": 61,
+   "i": 1,
+   "w": "four.",
+   "s": 358.607,
+   "e": 358.867
+  },
+  {
+   "c": 61,
+   "i": 2,
+   "w": "Make",
+   "s": 359.567,
+   "e": 359.607
+  },
+  {
+   "c": 61,
+   "i": 3,
+   "w": "sure",
+   "s": 359.607,
+   "e": 359.807
+  },
+  {
+   "c": 61,
+   "i": 4,
+   "w": "someone",
+   "s": 359.807,
+   "e": 360.187
+  },
+  {
+   "c": 61,
+   "i": 5,
+   "w": "you",
+   "s": 360.187,
+   "e": 360.367
+  },
+  {
+   "c": 61,
+   "i": 6,
+   "w": "trust",
+   "s": 360.367,
+   "e": 360.587
+  },
+  {
+   "c": 61,
+   "i": 7,
+   "w": "knows",
+   "s": 360.587,
+   "e": 361.007
+  },
+  {
+   "c": 61,
+   "i": 8,
+   "w": "how",
+   "s": 361.007,
+   "e": 361.347
+  },
+  {
+   "c": 61,
+   "i": 9,
+   "w": "to",
+   "s": 361.347,
+   "e": 361.487
+  },
+  {
+   "c": 61,
+   "i": 10,
+   "w": "find",
+   "s": 361.487,
+   "e": 361.827
+  },
+  {
+   "c": 61,
+   "i": 11,
+   "w": "it,",
+   "s": 361.827,
+   "e": 362.007
+  },
+  {
+   "c": 61,
+   "i": 12,
+   "w": "if",
+   "s": 362.267,
+   "e": 362.447
+  },
+  {
+   "c": 61,
+   "i": 13,
+   "w": "something",
+   "s": 362.447,
+   "e": 362.707
+  },
+  {
+   "c": 61,
+   "i": 14,
+   "w": "ever",
+   "s": 362.707,
+   "e": 363.067
+  },
+  {
+   "c": 61,
+   "i": 15,
+   "w": "happens",
+   "s": 363.067,
+   "e": 363.427
+  },
+  {
+   "c": 61,
+   "i": 16,
+   "w": "to",
+   "s": 363.427,
+   "e": 363.687
+  },
+  {
+   "c": 61,
+   "i": 17,
+   "w": "you.",
+   "s": 363.887,
+   "e": 363.967
+  },
+  {
+   "c": 62,
+   "i": 0,
+   "w": "Stefan",
+   "s": 364.604,
+   "e": 364.864
+  },
+  {
+   "c": 62,
+   "i": 1,
+   "w": "called",
+   "s": 364.864,
+   "e": 365.284
+  },
+  {
+   "c": 62,
+   "i": 2,
+   "w": "it",
+   "s": 365.284,
+   "e": 365.544
+  },
+  {
+   "c": 62,
+   "i": 3,
+   "w": "a",
+   "s": 365.544,
+   "e": 365.604
+  },
+  {
+   "c": 62,
+   "i": 4,
+   "w": "painful",
+   "s": 365.604,
+   "e": 365.864
+  },
+  {
+   "c": 62,
+   "i": 5,
+   "w": "memory,",
+   "s": 365.864,
+   "e": 366.544
+  },
+  {
+   "c": 62,
+   "i": 6,
+   "w": "and",
+   "s": 366.964,
+   "e": 367.064
+  },
+  {
+   "c": 62,
+   "i": 7,
+   "w": "said",
+   "s": 367.064,
+   "e": 367.284
+  },
+  {
+   "c": 62,
+   "i": 8,
+   "w": "he",
+   "s": 367.284,
+   "e": 367.484
+  },
+  {
+   "c": 62,
+   "i": 9,
+   "w": "hopes",
+   "s": 367.484,
+   "e": 367.704
+  },
+  {
+   "c": 62,
+   "i": 10,
+   "w": "others",
+   "s": 367.704,
+   "e": 368.124
+  },
+  {
+   "c": 62,
+   "i": 11,
+   "w": "can",
+   "s": 368.124,
+   "e": 368.404
+  },
+  {
+   "c": 62,
+   "i": 12,
+   "w": "learn",
+   "s": 368.404,
+   "e": 368.664
+  },
+  {
+   "c": 62,
+   "i": 13,
+   "w": "from",
+   "s": 368.664,
+   "e": 368.984
+  },
+  {
+   "c": 62,
+   "i": 14,
+   "w": "his",
+   "s": 368.984,
+   "e": 369.124
+  },
+  {
+   "c": 62,
+   "i": 15,
+   "w": "mistakes.",
+   "s": 369.124,
+   "e": 369.504
+  },
+  {
+   "c": 62,
+   "i": 16,
+   "w": "He",
+   "s": 370.404,
+   "e": 370.504
+  },
+  {
+   "c": 62,
+   "i": 17,
+   "w": "said",
+   "s": 370.504,
+   "e": 370.704
+  },
+  {
+   "c": 62,
+   "i": 18,
+   "w": "he",
+   "s": 370.704,
+   "e": 370.864
+  },
+  {
+   "c": 62,
+   "i": 19,
+   "w": "was",
+   "s": 370.864,
+   "e": 371.004
+  },
+  {
+   "c": 62,
+   "i": 20,
+   "w": "depressed",
+   "s": 371.004,
+   "e": 371.284
+  },
+  {
+   "c": 62,
+   "i": 21,
+   "w": "for",
+   "s": 371.284,
+   "e": 371.764
+  },
+  {
+   "c": 62,
+   "i": 22,
+   "w": "a",
+   "s": 371.764,
+   "e": 371.884
+  },
+  {
+   "c": 62,
+   "i": 23,
+   "w": "few",
+   "s": 371.884,
+   "e": 372.064
+  },
+  {
+   "c": 62,
+   "i": 24,
+   "w": "weeks…",
+   "s": 372.064,
+   "e": 373.244
+  },
+  {
+   "c": 62,
+   "i": 25,
+   "w": "then",
+   "s": 373.244,
+   "e": 373.244
+  },
+  {
+   "c": 62,
+   "i": 26,
+   "w": "decided",
+   "s": 373.244,
+   "e": 373.644
+  },
+  {
+   "c": 62,
+   "i": 27,
+   "w": "to",
+   "s": 373.644,
+   "e": 373.904
+  },
+  {
+   "c": 62,
+   "i": 28,
+   "w": "look",
+   "s": 373.904,
+   "e": 374.084
+  },
+  {
+   "c": 62,
+   "i": 29,
+   "w": "forward,",
+   "s": 374.084,
+   "e": 374.484
+  },
+  {
+   "c": 62,
+   "i": 30,
+   "w": "and",
+   "s": 374.824,
+   "e": 374.964
+  },
+  {
+   "c": 62,
+   "i": 31,
+   "w": "keep",
+   "s": 374.964,
+   "e": 375.144
+  },
+  {
+   "c": 62,
+   "i": 32,
+   "w": "building.",
+   "s": 375.144,
+   "e": 375.604
+  },
+  {
+   "c": 63,
+   "i": 0,
+   "w": "So",
+   "s": 376.583,
+   "e": 376.763
+  },
+  {
+   "c": 63,
+   "i": 1,
+   "w": "here's",
+   "s": 376.763,
+   "e": 377.083
+  },
+  {
+   "c": 63,
+   "i": 2,
+   "w": "my",
+   "s": 377.083,
+   "e": 377.243
+  },
+  {
+   "c": 63,
+   "i": 3,
+   "w": "question.",
+   "s": 377.243,
+   "e": 377.643
+  },
+  {
+   "c": 63,
+   "i": 4,
+   "w": "Two",
+   "s": 378.323,
+   "e": 378.323
+  },
+  {
+   "c": 63,
+   "i": 5,
+   "w": "guesses.",
+   "s": 378.323,
+   "e": 378.603
+  },
+  {
+   "c": 63,
+   "i": 6,
+   "w": "More",
+   "s": 379.423,
+   "e": 379.423
+  },
+  {
+   "c": 63,
+   "i": 7,
+   "w": "than",
+   "s": 379.423,
+   "e": 379.623
+  },
+  {
+   "c": 63,
+   "i": 8,
+   "w": "half",
+   "s": 379.623,
+   "e": 379.903
+  },
+  {
+   "c": 63,
+   "i": 9,
+   "w": "a",
+   "s": 379.903,
+   "e": 380.063
+  },
+  {
+   "c": 63,
+   "i": 10,
+   "w": "billion",
+   "s": 380.063,
+   "e": 380.323
+  },
+  {
+   "c": 63,
+   "i": 11,
+   "w": "dollars.",
+   "s": 380.323,
+   "e": 380.903
+  },
+  {
+   "c": 63,
+   "i": 12,
+   "w": "Would",
+   "s": 381.523,
+   "e": 381.583
+  },
+  {
+   "c": 63,
+   "i": 13,
+   "w": "you",
+   "s": 381.583,
+   "e": 381.683
+  },
+  {
+   "c": 63,
+   "i": 14,
+   "w": "try",
+   "s": 381.683,
+   "e": 381.923
+  },
+  {
+   "c": 63,
+   "i": 15,
+   "w": "them",
+   "s": 381.923,
+   "e": 382.163
+  },
+  {
+   "c": 63,
+   "i": 16,
+   "w": "yourself…",
+   "s": 382.163,
+   "e": 382.643
+  },
+  {
+   "c": 63,
+   "i": 17,
+   "w": "or",
+   "s": 382.963,
+   "e": 382.983
+  },
+  {
+   "c": 63,
+   "i": 18,
+   "w": "hand",
+   "s": 382.983,
+   "e": 383.283
+  },
+  {
+   "c": 63,
+   "i": 19,
+   "w": "the",
+   "s": 383.283,
+   "e": 383.463
+  },
+  {
+   "c": 63,
+   "i": 20,
+   "w": "drive",
+   "s": 383.463,
+   "e": 383.663
+  },
+  {
+   "c": 63,
+   "i": 21,
+   "w": "to",
+   "s": 383.663,
+   "e": 384.063
+  },
+  {
+   "c": 63,
+   "i": 22,
+   "w": "a",
+   "s": 384.063,
+   "e": 384.183
+  },
+  {
+   "c": 63,
+   "i": 23,
+   "w": "hacker?",
+   "s": 384.183,
+   "e": 384.463
+  },
+  {
+   "c": 63,
+   "i": 24,
+   "w": "Tell",
+   "s": 385.123,
+   "e": 385.183
+  },
+  {
+   "c": 63,
+   "i": 25,
+   "w": "me",
+   "s": 385.183,
+   "e": 385.383
+  },
+  {
+   "c": 63,
+   "i": 26,
+   "w": "in",
+   "s": 385.383,
+   "e": 385.503
+  },
+  {
+   "c": 63,
+   "i": 27,
+   "w": "the",
+   "s": 385.503,
+   "e": 385.603
+  },
+  {
+   "c": 63,
+   "i": 28,
+   "w": "comments.",
+   "s": 385.603,
+   "e": 385.923
+  },
+  {
+   "c": 64,
+   "i": 0,
+   "w": "And",
+   "s": 386.644,
+   "e": 386.764
+  },
+  {
+   "c": 64,
+   "i": 1,
+   "w": "subscribe,",
+   "s": 386.764,
+   "e": 387.104
+  },
+  {
+   "c": 64,
+   "i": 2,
+   "w": "because",
+   "s": 387.444,
+   "e": 387.724
+  },
+  {
+   "c": 64,
+   "i": 3,
+   "w": "next",
+   "s": 387.724,
+   "e": 387.924
+  },
+  {
+   "c": 64,
+   "i": 4,
+   "w": "time,",
+   "s": 387.924,
+   "e": 388.424
+  },
+  {
+   "c": 64,
+   "i": 5,
+   "w": "we're",
+   "s": 388.844,
+   "e": 389.024
+  },
+  {
+   "c": 64,
+   "i": 6,
+   "w": "going",
+   "s": 389.024,
+   "e": 389.224
+  },
+  {
+   "c": 64,
+   "i": 7,
+   "w": "to",
+   "s": 389.224,
+   "e": 389.444
+  },
+  {
+   "c": 64,
+   "i": 8,
+   "w": "that",
+   "s": 389.444,
+   "e": 389.584
+  },
+  {
+   "c": 64,
+   "i": 9,
+   "w": "landfill.",
+   "s": 389.584,
+   "e": 389.944
+  },
+  {
+   "c": 65,
+   "i": 0,
+   "w": "And",
+   "s": 390.846,
+   "e": 391.079
+  },
+  {
+   "c": 65,
+   "i": 1,
+   "w": "I",
+   "s": 390.916,
+   "e": 391.016
+  },
+  {
+   "c": 65,
+   "i": 2,
+   "w": "thought",
+   "s": 391.016,
+   "e": 391.196
+  },
+  {
+   "c": 65,
+   "i": 3,
+   "w": "my",
+   "s": 391.196,
+   "e": 391.336
+  },
+  {
+   "c": 65,
+   "i": 4,
+   "w": "sentence",
+   "s": 391.336,
+   "e": 391.616
+  },
+  {
+   "c": 65,
+   "i": 5,
+   "w": "was",
+   "s": 391.616,
+   "e": 391.936
+  },
+  {
+   "c": 65,
+   "i": 6,
+   "w": "bad.",
+   "s": 391.936,
+   "e": 392.216
+  },
+  {
+   "c": 66,
+   "i": 0,
+   "w": "Two",
+   "s": 392.824,
+   "e": 393.004
+  },
+  {
+   "c": 66,
+   "i": 1,
+   "w": "guesses.",
+   "s": 393.004,
+   "e": 393.344
+  },
+  {
+   "c": 66,
+   "i": 2,
+   "w": "I'll",
+   "s": 393.844,
+   "e": 393.964
+  },
+  {
+   "c": 66,
+   "i": 3,
+   "w": "be",
+   "s": 393.964,
+   "e": 394.104
+  },
+  {
+   "c": 66,
+   "i": 4,
+   "w": "waiting.",
+   "s": 394.104,
+   "e": 394.464
+  }
+ ],
+ "events": [
+  {
+   "t": 36.23,
+   "type": "impact"
+  },
+  {
+   "t": 36.28,
+   "type": "title"
+  },
+  {
+   "t": 279.47,
+   "type": "impact"
+  }
+ ]
+}

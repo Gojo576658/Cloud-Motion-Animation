@@ -7,6 +7,9 @@ import { TL, EASE, ramp } from './lib/time';
 import { SECTIONS } from './sections';
 import { ShortMain } from './short/Short';
 import { CpuShort } from './cshort/Main';
+import { TgKit } from './tg/KitSheet';
+import { TwoGuesses } from './tg/Main';
+import { TTL } from './tg/ttime';
 import { KTL } from './cshort/ktime';
 import { STL } from './short/stime';
 import { Cast } from './cpu/Cast';
@@ -99,6 +102,8 @@ export const Root: React.FC = () => (
     <Composition id="SmartTV" component={Main} width={1920} height={1080} fps={FPS} durationInFrames={Math.ceil(TL.duration * FPS)} />
     <Composition id="CursedCPU" component={CpuMain} width={1920} height={1080} fps={FPS} durationInFrames={Math.ceil(CTL.duration * FPS)} />
     <Composition id="CpuCast" component={Cast} width={1920} height={1080} fps={FPS} durationInFrames={60} />
+    <Composition id="TwoGuesses" component={TwoGuesses} width={1920} height={1080} fps={FPS} durationInFrames={Math.ceil(TTL.duration * FPS)} />
+    <Composition id="TgKit" component={TgKit} width={1920} height={1080} fps={FPS} durationInFrames={90} />
     <Composition id="CpuShort" component={CpuShort} width={1080} height={1920} fps={FPS} durationInFrames={Math.ceil(KTL.duration * FPS)} />
     <Composition id="Short" component={ShortMain} width={1080} height={1920} fps={FPS} durationInFrames={Math.ceil(STL.duration * FPS)} />
     {SECTIONS.map((s, i) => (

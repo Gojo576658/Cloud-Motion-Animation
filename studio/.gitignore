@@ -13,3 +13,5 @@ audio/out-cpu/
 audio/score-cpu.log
 public/cshort/*.wav
 audio/out-cshort/
+audio/out-tg/
+public/tg/*.wav

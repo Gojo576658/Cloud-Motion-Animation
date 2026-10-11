@@ -1,0 +1,349 @@
+[
+ {
+  "s": 0,
+  "gap": 0.5,
+  "text": "This little USB drive holds more than half a billion dollars."
+ },
+ {
+  "s": 0,
+  "gap": 0.7,
+  "text": "And it has two guesses left."
+ },
+ {
+  "s": 0,
+  "gap": 0.35,
+  "text": "Get the password wrong two more times… and it destroys everything inside. Forever."
+ },
+ {
+  "s": 0,
+  "gap": 0.6,
+  "text": "Go on. Try.",
+  "voice": "am_onyx",
+  "speed": 0.92,
+  "pitch": 0.9
+ },
+ {
+  "s": 0,
+  "gap": 0.5,
+  "text": "The man who owns it knows this. He's known it for years. And the drive is still sitting there… locked."
+ },
+ {
+  "s": 0,
+  "gap": 0.25,
+  "text": "So what's on it? How did one forgotten password become one of the most expensive mistakes in tech?"
+ },
+ {
+  "s": 0,
+  "gap": 0.6,
+  "text": "And when a team of hackers offered to break it open… why did he say no?"
+ },
+ {
+  "s": 0,
+  "gap": 2.6,
+  "text": "This is the story of the drive that never forgets."
+ },
+ {
+  "s": 1,
+  "gap": 0.3,
+  "text": "Meet Stefan Thomas. A programmer. Back in 2011, almost nobody had heard of Bitcoin. And Stefan made an animated video explaining what it was."
+ },
+ {
+  "s": 1,
+  "gap": 0.9,
+  "text": "Yes. A cartoon. Like this one."
+ },
+ {
+  "s": 1,
+  "gap": 0.5,
+  "text": "And for that video, he was paid seven thousand and two bitcoin."
+ },
+ {
+  "s": 1,
+  "gap": 0.6,
+  "text": "Back then, bitcoin was worth almost nothing. So seven thousand of them? Pocket money."
+ },
+ {
+  "s": 1,
+  "gap": 0.3,
+  "text": "But Stefan was careful. He put the keys to those coins on a special drive called an IronKey."
+ },
+ {
+  "s": 1,
+  "gap": 0.6,
+  "text": "And the IronKey is not a normal USB stick. It's built like a tiny safe. Military-grade encryption. A secure chip inside. And one very famous rule."
+ },
+ {
+  "s": 1,
+  "gap": 0.6,
+  "text": "Ten guesses. Get the password wrong ten times in a row, and the drive wipes its own secret key. The data is gone. No undo. No reset. No customer service."
+ },
+ {
+  "s": 1,
+  "gap": 0.7,
+  "text": "So Stefan picked a strong password. He wrote it down on a piece of paper."
+ },
+ {
+  "s": 1,
+  "gap": 1.4,
+  "text": "And then… he lost the paper."
+ },
+ {
+  "s": 2,
+  "gap": 0.3,
+  "text": "At first, it didn't matter much. Bitcoin was cheap."
+ },
+ {
+  "s": 2,
+  "gap": 0.3,
+  "text": "But then bitcoin started climbing. A hundred dollars. A thousand. Ten thousand."
+ },
+ {
+  "s": 2,
+  "gap": 0.5,
+  "text": "And every time the price went up, that little drive got more valuable… and more locked."
+ },
+ {
+  "s": 2,
+  "gap": 0.4,
+  "text": "So Stefan started guessing. His usual passwords. The ones he always used."
+ },
+ {
+  "s": 2,
+  "gap": 0.2,
+  "text": "Guess one. Wrong. Guess two. Wrong. Three… four… five… six… seven…"
+ },
+ {
+  "s": 2,
+  "gap": 1.1,
+  "text": "Eight guesses. Eight misses."
+ },
+ {
+  "s": 2,
+  "gap": 1.0,
+  "text": "Two left."
+ },
+ {
+  "s": 2,
+  "gap": 0.8,
+  "text": "He told the New York Times: “I would just lay in bed and think about it. Then I would go to the computer with some new strategy, and it wouldn't work, and I would be desperate again.”"
+ },
+ {
+  "s": 2,
+  "gap": 0.8,
+  "text": "By 2021, the coins on that drive were worth about two hundred and twenty million dollars. And at bitcoin's peak, in October 2025? Close to nine hundred million."
+ },
+ {
+  "s": 3,
+  "gap": 0.4,
+  "text": "So why not just… break it open? Plug it into a computer and try a million passwords?"
+ },
+ {
+  "s": 3,
+  "gap": 0.6,
+  "text": "Because the IronKey remembers."
+ },
+ {
+  "s": 3,
+  "gap": 0.7,
+  "text": "Every wrong guess is counted inside its secure chip. Unplug it, wait a year, plug it back in… the counter is still there."
+ },
+ {
+  "s": 3,
+  "gap": 0.3,
+  "text": "The chip is sealed under tough epoxy, built to resist exactly this kind of attack."
+ },
+ {
+  "s": 3,
+  "gap": 0.6,
+  "text": "Even Kingston, the company that makes IronKeys today, said it couldn't help. No backdoor. No master password."
+ },
+ {
+  "s": 3,
+  "gap": 0.8,
+  "text": "So it's impossible. Right?"
+ },
+ {
+  "s": 3,
+  "gap": 0.6,
+  "text": "Want to know if anyone ever cracks me? Subscribe. I'll wait. I'm very good at waiting.",
+  "voice": "am_onyx",
+  "speed": 0.92,
+  "pitch": 0.9
+ },
+ {
+  "s": 4,
+  "gap": 0.4,
+  "text": "Not quite. Because someone has pulled off something like this before."
+ },
+ {
+  "s": 4,
+  "gap": 0.2,
+  "text": "Meet Joe Grand, a hardware hacker. In 2021, he took on a challenge from a man named Dan Reich."
+ },
+ {
+  "s": 4,
+  "gap": 0.4,
+  "text": "Dan's crypto wallet, a little device called a Trezor, held about two million dollars in crypto. And he'd forgotten the PIN."
+ },
+ {
+  "s": 4,
+  "gap": 0.3,
+  "text": "Dan and a friend had already guessed wrong twelve times. After sixteen, the wallet would wipe itself."
+ },
+ {
+  "s": 4,
+  "gap": 0.4,
+  "text": "And every wrong guess made them wait longer before the next try."
+ },
+ {
+  "s": 4,
+  "gap": 0.4,
+  "text": "So Joe didn't guess. He attacked the hardware itself."
+ },
+ {
+  "s": 4,
+  "gap": 0.4,
+  "text": "He found that during a firmware update, the wallet copies its PIN into the chip's temporary memory. That memory is protected… but Joe hit the chip with a tiny, perfectly timed glitch in its power, and tricked it into letting him read it."
+ },
+ {
+  "s": 4,
+  "gap": 0.5,
+  "text": "It took about twelve weeks of trial and error."
+ },
+ {
+  "s": 4,
+  "gap": 0.6,
+  "text": "And then… the PIN popped up on his screen."
+ },
+ {
+  "s": 4,
+  "gap": 0.6,
+  "text": "Two million dollars. Back."
+ },
+ {
+  "s": 4,
+  "gap": 0.6,
+  "text": "But here's the catch. That trick used a flaw Trezor had already fixed back in 2017. Stefan's IronKey is a different, tougher machine."
+ },
+ {
+  "s": 5,
+  "gap": 0.3,
+  "text": "Then, in 2023, a security company called Unciphered said it had done it."
+ },
+ {
+  "s": 5,
+  "gap": 0.15,
+  "text": "Working with Wired, they took an IronKey of the same model as Stefan's, carved out its secure chip, dissolved the protective epoxy with acid…"
+ },
+ {
+  "s": 5,
+  "gap": 1.1,
+  "text": "…and ran about two hundred trillion password guesses."
+ },
+ {
+  "s": 5,
+  "gap": 0.9,
+  "text": "It opened."
+ },
+ {
+  "s": 5,
+  "gap": 0.4,
+  "text": "So they made Stefan an offer: let us unlock your drive."
+ },
+ {
+  "s": 5,
+  "gap": 1.2,
+  "text": "And Stefan… said no."
+ },
+ {
+  "s": 5,
+  "gap": 0.5,
+  "text": "Why would anyone say no to half a billion dollars?"
+ },
+ {
+  "s": 5,
+  "gap": 0.4,
+  "text": "Because, according to reports, he had already hired another team. And he'd agreed to give them a share if they succeeded."
+ },
+ {
+  "s": 5,
+  "gap": 0.4,
+  "text": "So somewhere, maybe right now, someone may be trying to break into that drive."
+ },
+ {
+  "s": 5,
+  "gap": 0.8,
+  "text": "Has anyone succeeded? As of today, there's no public confirmation that it's been opened."
+ },
+ {
+  "s": 6,
+  "gap": 0.3,
+  "text": "And Stefan isn't the only one."
+ },
+ {
+  "s": 6,
+  "gap": 0.6,
+  "text": "In Wales, a man named James Howells says he threw away a hard drive with around eight thousand bitcoin on it, back in 2013. It's buried in a landfill. He spent years in court trying to dig it up. In 2025, he lost."
+ },
+ {
+  "s": 6,
+  "gap": 0.6,
+  "text": "One estimate, from the blockchain firm Chainalysis, suggested that up to one in five bitcoins may be lost forever. Forgotten passwords. Thrown-out drives. Owners who never told anyone."
+ },
+ {
+  "s": 7,
+  "gap": 0.3,
+  "text": "So how do you make sure this never happens to you?"
+ },
+ {
+  "s": 7,
+  "gap": 0.25,
+  "text": "One. Use a password manager, so your brain isn't the only backup."
+ },
+ {
+  "s": 7,
+  "gap": 0.25,
+  "text": "Two. Write down your recovery codes, and keep copies in two safe places. Not one piece of paper."
+ },
+ {
+  "s": 7,
+  "gap": 0.25,
+  "text": "Three. Test your backup before you need it."
+ },
+ {
+  "s": 7,
+  "gap": 0.6,
+  "text": "And four. Make sure someone you trust knows how to find it, if something ever happens to you."
+ },
+ {
+  "s": 7,
+  "gap": 0.8,
+  "text": "Stefan called it a painful memory, and said he hopes others can learn from his mistakes. He said he was depressed for a few weeks… then decided to look forward, and keep building."
+ },
+ {
+  "s": 8,
+  "gap": 0.4,
+  "text": "So here's my question. Two guesses. More than half a billion dollars. Would you try them yourself… or hand the drive to a hacker? Tell me in the comments."
+ },
+ {
+  "s": 8,
+  "gap": 0.5,
+  "text": "And subscribe, because next time, we're going to that landfill."
+ },
+ {
+  "s": 8,
+  "gap": 0.4,
+  "text": "And I thought my sentence was bad.",
+  "voice": "am_puck",
+  "speed": 0.8,
+  "pitch": 1.25
+ },
+ {
+  "s": 8,
+  "gap": 0.0,
+  "text": "Two guesses. I'll be waiting.",
+  "voice": "am_onyx",
+  "speed": 0.92,
+  "pitch": 0.9
+ }
+]
