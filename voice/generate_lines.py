@@ -1,5 +1,6 @@
 # Generic narration builder: python generate_lines.py <lines.json> <outdir> [speed]
-# lines.json = [{"s": section, "gap": pause_after_seconds, "text": "..."}]; Kokoro am_michael.
+# lines.json = [{"s": section, "gap": pause_after_seconds, "text": "...", optional "voice", "speed", "pitch"}];
+# default voice Kokoro am_michael. "pitch" > 1 raises pitch (and tempo) by resampling: a cartoon character voice.
 import json, re, sys
 import numpy as np, soundfile as sf
 from kokoro_onnx import Kokoro
@@ -14,10 +15,13 @@ parts, timing, t = [], [], 0.0
 for i, l in enumerate(lines):
     say = l["text"]
     for a, b in fix: say = re.sub(a, b, say)
-    audio, sr = k.create(say, voice="am_michael", speed=SPEED, lang="en-us")
+    audio, sr = k.create(say, voice=l.get("voice", "am_michael"), speed=l.get("speed", SPEED), lang="en-us")
+    if l.get("pitch", 1) != 1:
+        n = int(len(audio) / l["pitch"])
+        audio = np.interp(np.linspace(0, len(audio) - 1, n), np.arange(len(audio)), audio).astype(np.float32)
     nz = np.where(np.abs(audio) > 0.01)[0]
     audio = audio[max(0, nz[0] - 240): nz[-1] + 1200] if len(nz) else audio
-    timing.append({"id": i, "section": l["s"], "start": round(t, 3), "end": round(t + len(audio) / sr, 3), "text": l["text"]})
+    timing.append({"id": i, "section": l["s"], "start": round(t, 3), "end": round(t + len(audio) / sr, 3), "text": l["text"], "voice": l.get("voice", "am_michael")})
     parts.append(audio.astype(np.float32)); t += len(audio) / sr
     if l["gap"]: parts.append(np.zeros(int(l["gap"] * sr), dtype=np.float32)); t += l["gap"]
     print(f"{i:2d} {timing[-1]['start']:7.2f} {timing[-1]['end']:7.2f}", flush=True)
