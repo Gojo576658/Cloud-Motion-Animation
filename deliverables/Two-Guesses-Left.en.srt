@@ -1,0 +1,835 @@
+1
+00:00:00,600 --> 00:00:03,380
+This little USB drive holds more than half
+
+2
+00:00:03,400 --> 00:00:04,920
+a billion dollars.
+
+3
+00:00:05,137 --> 00:00:06,997
+And it has two guesses left.
+
+4
+00:00:07,412 --> 00:00:09,932
+Get the password wrong two more times…
+
+5
+00:00:09,952 --> 00:00:11,912
+and it destroys everything inside.
+
+6
+00:00:12,532 --> 00:00:13,032
+Forever.
+
+7
+00:00:13,262 --> 00:00:13,802
+Go on.
+
+8
+00:00:13,822 --> 00:00:14,742
+Try.
+
+9
+00:00:15,184 --> 00:00:17,204
+The man who owns it knows this.
+
+10
+00:00:17,364 --> 00:00:18,804
+He's known it for years.
+
+11
+00:00:19,004 --> 00:00:20,784
+And the drive is still sitting there…
+
+12
+00:00:20,804 --> 00:00:21,404
+locked.
+
+13
+00:00:21,728 --> 00:00:23,008
+So what's on it?
+
+14
+00:00:23,148 --> 00:00:25,408
+How did one forgotten password become one
+
+15
+00:00:25,428 --> 00:00:28,059
+of the most expensive mistakes in tech?
+
+16
+00:00:28,079 --> 00:00:29,799
+And when a team of hackers offered to
+
+17
+00:00:29,819 --> 00:00:31,299
+break it open…
+
+18
+00:00:31,319 --> 00:00:32,679
+why did he say no?
+
+19
+00:00:32,942 --> 00:00:36,182
+This is the story of the drive that never forgets.
+
+20
+00:00:38,430 --> 00:00:39,850
+Meet Stefan Thomas.
+
+21
+00:00:40,250 --> 00:00:41,150
+A programmer.
+
+22
+00:00:41,750 --> 00:00:45,190
+Back in 2011, almost nobody had heard of Bitcoin.
+
+23
+00:00:45,610 --> 00:00:47,530
+And Stefan made an animated video
+
+24
+00:00:47,550 --> 00:00:49,410
+explaining what it was.
+
+25
+00:00:49,509 --> 00:00:49,989
+Yes.
+
+26
+00:00:50,009 --> 00:00:50,709
+A cartoon.
+
+27
+00:00:50,729 --> 00:00:51,829
+Like this one.
+
+28
+00:00:52,362 --> 00:00:54,462
+And for that video, he was paid seven
+
+29
+00:00:54,482 --> 00:00:56,142
+thousand and two bitcoin.
+
+30
+00:00:56,527 --> 00:00:59,307
+Back then, bitcoin was worth almost nothing.
+
+31
+00:00:59,407 --> 00:01:01,107
+So seven thousand of them?
+
+32
+00:01:01,127 --> 00:01:02,127
+Pocket money.
+
+33
+00:01:02,441 --> 00:01:04,041
+But Stefan was careful.
+
+34
+00:01:04,341 --> 00:01:06,041
+He put the keys to those coins on a
+
+35
+00:01:06,061 --> 00:01:08,621
+special drive called an IronKey.
+
+36
+00:01:08,649 --> 00:01:12,069
+And the IronKey is not a normal USB stick.
+
+37
+00:01:12,269 --> 00:01:14,189
+It's built like a tiny safe.
+
+38
+00:01:14,449 --> 00:01:16,129
+Military-grade encryption.
+
+39
+00:01:16,549 --> 00:01:18,009
+A secure chip inside.
+
+40
+00:01:18,469 --> 00:01:20,469
+And one very famous rule.
+
+41
+00:01:20,845 --> 00:01:21,845
+Ten guesses.
+
+42
+00:01:22,265 --> 00:01:24,545
+Get the password wrong ten times in a row,
+
+43
+00:01:24,565 --> 00:01:27,125
+and the drive wipes its own secret key.
+
+44
+00:01:27,425 --> 00:01:28,745
+The data is gone.
+
+45
+00:01:28,965 --> 00:01:29,845
+No undo.
+
+46
+00:01:30,165 --> 00:01:31,045
+No reset.
+
+47
+00:01:31,245 --> 00:01:32,685
+No customer service.
+
+48
+00:01:33,121 --> 00:01:35,521
+So Stefan picked a strong password.
+
+49
+00:01:35,781 --> 00:01:37,961
+He wrote it down on a piece of paper.
+
+50
+00:01:38,298 --> 00:01:38,598
+And then…
+
+51
+00:01:38,618 --> 00:01:40,098
+he lost the paper.
+
+52
+00:01:41,247 --> 00:01:43,167
+At first, it didn't matter much.
+
+53
+00:01:43,267 --> 00:01:44,507
+Bitcoin was cheap.
+
+54
+00:01:44,585 --> 00:01:46,505
+But then bitcoin started climbing.
+
+55
+00:01:46,845 --> 00:01:48,025
+A hundred dollars.
+
+56
+00:01:48,065 --> 00:01:48,885
+A thousand.
+
+57
+00:01:48,905 --> 00:01:49,965
+Ten thousand.
+
+58
+00:01:50,049 --> 00:01:52,089
+And every time the price went up,
+
+59
+00:01:52,109 --> 00:01:54,469
+that little drive got more valuable…
+
+60
+00:01:54,489 --> 00:01:55,049
+and more locked.
+
+61
+00:01:55,069 --> 00:01:57,671
+So Stefan started guessing.
+
+62
+00:01:57,871 --> 00:01:59,291
+His usual passwords.
+
+63
+00:01:59,451 --> 00:02:01,031
+The ones he always used.
+
+64
+00:02:01,228 --> 00:02:01,908
+Guess one.
+
+65
+00:02:01,928 --> 00:02:02,348
+Wrong.
+
+66
+00:02:02,368 --> 00:02:03,088
+Guess two.
+
+67
+00:02:03,108 --> 00:02:03,408
+Wrong.
+
+68
+00:02:03,428 --> 00:02:03,728
+Three…
+
+69
+00:02:03,748 --> 00:02:04,048
+four…
+
+70
+00:02:04,048 --> 00:02:04,508
+five…
+
+71
+00:02:04,528 --> 00:02:05,068
+six…
+
+72
+00:02:05,088 --> 00:02:05,388
+seven…
+
+73
+00:02:05,408 --> 00:02:06,388
+Eight guesses.
+
+74
+00:02:06,408 --> 00:02:07,308
+Eight misses.
+
+75
+00:02:08,206 --> 00:02:09,186
+Two left.
+
+76
+00:02:10,047 --> 00:02:16,867
+He told the New York Times: “I would just
+
+77
+00:02:16,887 --> 00:02:20,673
+lay in bed and think about it.
+
+78
+00:02:20,693 --> 00:02:20,993
+Then I would go to the computer with some
+
+79
+00:02:20,993 --> 00:02:21,293
+new strategy, and it wouldn't work,
+
+80
+00:02:21,293 --> 00:02:21,593
+and I would be desperate again.”
+
+81
+00:02:21,593 --> 00:02:22,763
+By 2021,
+
+82
+00:02:22,963 --> 00:02:25,043
+the coins on that drive were worth about
+
+83
+00:02:25,063 --> 00:02:27,703
+two hundred and twenty million dollars.
+
+84
+00:02:27,943 --> 00:02:31,183
+And at bitcoin's peak, in October 2025?
+
+85
+00:02:31,683 --> 00:02:33,623
+Close to nine hundred million.
+
+86
+00:02:34,213 --> 00:02:35,633
+So why not just…
+
+87
+00:02:35,653 --> 00:02:36,573
+break it open?
+
+88
+00:02:36,933 --> 00:02:39,713
+Plug it into a computer and try a million passwords?
+
+89
+00:02:40,214 --> 00:02:42,134
+Because the IronKey remembers.
+
+90
+00:02:42,548 --> 00:02:44,788
+Every wrong guess is counted inside its
+
+91
+00:02:44,808 --> 00:02:45,948
+secure chip.
+
+92
+00:02:46,068 --> 00:02:49,008
+Unplug it, wait a year, plug it back in…
+
+93
+00:02:49,028 --> 00:02:50,848
+the counter is still there.
+
+94
+00:02:51,171 --> 00:02:53,671
+The chip is sealed under tough epoxy,
+
+95
+00:02:53,911 --> 00:02:56,542
+built to resist exactly this kind of attack.
+
+96
+00:02:56,562 --> 00:02:58,382
+Even Kingston, the company that makes
+
+97
+00:02:58,402 --> 00:03:00,962
+IronKeys today, said it couldn't help.
+
+98
+00:03:01,202 --> 00:03:02,042
+No backdoor.
+
+99
+00:03:02,242 --> 00:03:03,602
+No master password.
+
+100
+00:03:04,180 --> 00:03:05,380
+So it's impossible.
+
+101
+00:03:05,480 --> 00:03:06,120
+Right?
+
+102
+00:03:06,617 --> 00:03:08,717
+Want to know if anyone ever cracks me?
+
+103
+00:03:08,737 --> 00:03:09,617
+Subscribe.
+
+104
+00:03:09,677 --> 00:03:10,357
+I'll wait.
+
+105
+00:03:10,377 --> 00:03:11,937
+I'm very good at waiting.
+
+106
+00:03:12,292 --> 00:03:13,352
+Not quite.
+
+107
+00:03:13,672 --> 00:03:14,892
+Because someone has pulled off something
+
+108
+00:03:14,912 --> 00:03:16,252
+like this before.
+
+109
+00:03:16,438 --> 00:03:19,238
+Meet Joe Grand, a hardware hacker.
+
+110
+00:03:19,538 --> 00:03:20,618
+In 2021,
+
+111
+00:03:20,738 --> 00:03:22,538
+he took on a challenge from a man named
+
+112
+00:03:22,558 --> 00:03:23,607
+Dan Reich.
+
+113
+00:03:23,627 --> 00:03:25,907
+Dan's crypto wallet, a little device
+
+114
+00:03:25,927 --> 00:03:28,467
+called a Trezor, held about two million
+
+115
+00:03:28,487 --> 00:03:30,027
+dollars in crypto.
+
+116
+00:03:30,467 --> 00:03:32,027
+And he'd forgotten the PIN.
+
+117
+00:03:32,139 --> 00:03:33,899
+Dan and a friend had already guessed wrong
+
+118
+00:03:33,919 --> 00:03:35,199
+twelve times.
+
+119
+00:03:35,799 --> 00:03:36,679
+After sixteen,
+
+120
+00:03:36,899 --> 00:03:38,699
+the wallet would wipe itself.
+
+121
+00:03:38,788 --> 00:03:40,548
+And every wrong guess made them wait
+
+122
+00:03:40,568 --> 00:03:42,688
+longer before the next try.
+
+123
+00:03:42,856 --> 00:03:44,116
+So Joe didn't guess.
+
+124
+00:03:44,216 --> 00:03:46,016
+He attacked the hardware itself.
+
+125
+00:03:46,233 --> 00:03:48,673
+He found that during a firmware update,
+
+126
+00:03:48,733 --> 00:03:50,953
+the wallet copies its PIN into the chip's
+
+127
+00:03:50,973 --> 00:03:52,253
+temporary memory.
+
+128
+00:03:52,633 --> 00:03:54,653
+That memory is protected…
+
+129
+00:03:54,673 --> 00:03:56,833
+but Joe hit the chip with a tiny,
+
+130
+00:03:56,853 --> 00:03:59,493
+perfectly timed glitch in its power,
+
+131
+00:03:59,573 --> 00:04:01,711
+and tricked it into letting him read it.
+
+132
+00:04:01,731 --> 00:04:04,431
+It took about twelve weeks of trial and error.
+
+133
+00:04:04,600 --> 00:04:05,180
+And then…
+
+134
+00:04:05,200 --> 00:04:07,040
+the PIN popped up on his screen.
+
+135
+00:04:07,334 --> 00:04:08,534
+Two million dollars.
+
+136
+00:04:08,554 --> 00:04:09,194
+Back.
+
+137
+00:04:09,528 --> 00:04:10,808
+But here's the catch.
+
+138
+00:04:11,208 --> 00:04:13,148
+That trick used a flaw Trezor had already
+
+139
+00:04:13,168 --> 00:04:15,288
+fixed back in 2017.
+
+140
+00:04:15,748 --> 00:04:17,668
+Stefan's IronKey is a different,
+
+141
+00:04:17,688 --> 00:04:19,248
+tougher machine.
+
+142
+00:04:19,620 --> 00:04:23,220
+Then, in 2023, a security company called
+
+143
+00:04:23,240 --> 00:04:25,372
+Unciphered said it had done it.
+
+144
+00:04:25,392 --> 00:04:26,712
+Working with Wired,
+
+145
+00:04:26,892 --> 00:04:29,292
+they took an IronKey of the same model as
+
+146
+00:04:29,312 --> 00:04:32,192
+Stefan's, carved out its secure chip,
+
+147
+00:04:32,212 --> 00:04:35,018
+dissolved the protective epoxy with acid…
+
+148
+00:04:35,038 --> 00:04:36,698
+…and ran about two hundred trillion
+
+149
+00:04:36,718 --> 00:04:38,198
+password guesses.
+
+150
+00:04:39,189 --> 00:04:40,209
+It opened.
+
+151
+00:04:40,920 --> 00:04:42,980
+So they made Stefan an offer: let us
+
+152
+00:04:43,000 --> 00:04:44,580
+unlock your drive.
+
+153
+00:04:44,686 --> 00:04:45,026
+And Stefan…
+
+154
+00:04:45,046 --> 00:04:46,246
+said no.
+
+155
+00:04:47,149 --> 00:04:50,409
+Why would anyone say no to half a billion dollars?
+
+156
+00:04:50,656 --> 00:04:52,556
+Because, according to reports,
+
+157
+00:04:52,676 --> 00:04:54,856
+he had already hired another team.
+
+158
+00:04:55,076 --> 00:04:56,856
+And he'd agreed to give them a share if
+
+159
+00:04:56,876 --> 00:04:57,956
+they succeeded.
+
+160
+00:04:58,178 --> 00:05:00,338
+So somewhere, maybe right now,
+
+161
+00:05:00,358 --> 00:05:02,858
+someone may be trying to break into that drive.
+
+162
+00:05:03,161 --> 00:05:04,761
+Has anyone succeeded?
+
+163
+00:05:05,081 --> 00:05:06,881
+As of today, there's no public
+
+164
+00:05:06,901 --> 00:05:09,201
+confirmation that it's been opened.
+
+165
+00:05:09,785 --> 00:05:11,842
+And Stefan isn't the only one.
+
+166
+00:05:11,862 --> 00:05:14,542
+In Wales, a man named James Howells says
+
+167
+00:05:14,562 --> 00:05:16,862
+he threw away a hard drive with around
+
+168
+00:05:16,882 --> 00:05:19,162
+eight thousand bitcoin on it,
+
+169
+00:05:19,182 --> 00:05:20,602
+back in 2013.
+
+170
+00:05:20,962 --> 00:05:22,762
+It's buried in a landfill.
+
+171
+00:05:23,062 --> 00:05:25,762
+He spent years in court trying to dig it up.
+
+172
+00:05:25,782 --> 00:05:27,922
+In 2025, he lost.
+
+173
+00:05:28,339 --> 00:05:30,259
+One estimate, from the blockchain firm
+
+174
+00:05:30,279 --> 00:05:33,039
+Chainalysis, suggested that up to one in
+
+175
+00:05:33,059 --> 00:05:35,579
+five bitcoins may be lost forever.
+
+176
+00:05:36,139 --> 00:05:37,199
+Forgotten passwords.
+
+177
+00:05:37,679 --> 00:05:38,899
+Thrown-out drives.
+
+178
+00:05:39,619 --> 00:05:41,499
+Owners who never told anyone.
+
+179
+00:05:41,709 --> 00:05:43,869
+So how do you make sure this never happens
+
+180
+00:05:43,889 --> 00:05:44,717
+to you?
+
+181
+00:05:44,737 --> 00:05:45,237
+One.
+
+182
+00:05:45,257 --> 00:05:46,837
+Use a password manager,
+
+183
+00:05:47,077 --> 00:05:49,277
+so your brain isn't the only backup.
+
+184
+00:05:49,337 --> 00:05:49,977
+Two.
+
+185
+00:05:49,997 --> 00:05:51,737
+Write down your recovery codes,
+
+186
+00:05:51,757 --> 00:05:54,157
+and keep copies in two safe places.
+
+187
+00:05:54,537 --> 00:05:55,974
+Not one piece of paper.
+
+188
+00:05:55,994 --> 00:05:56,614
+Three.
+
+189
+00:05:56,634 --> 00:05:58,447
+Test your backup before you need it.
+
+190
+00:05:58,467 --> 00:05:59,367
+And four.
+
+191
+00:05:59,567 --> 00:06:01,467
+Make sure someone you trust knows how to
+
+192
+00:06:01,487 --> 00:06:04,467
+find it, if something ever happens to you.
+
+193
+00:06:04,604 --> 00:06:06,944
+Stefan called it a painful memory,
+
+194
+00:06:06,964 --> 00:06:08,964
+and said he hopes others can learn from
+
+195
+00:06:08,984 --> 00:06:10,004
+his mistakes.
+
+196
+00:06:10,404 --> 00:06:13,224
+He said he was depressed for a few weeks…
+
+197
+00:06:13,244 --> 00:06:14,804
+then decided to look forward,
+
+198
+00:06:14,824 --> 00:06:16,104
+and keep building.
+
+199
+00:06:16,583 --> 00:06:18,143
+So here's my question.
+
+200
+00:06:18,323 --> 00:06:19,103
+Two guesses.
+
+201
+00:06:19,423 --> 00:06:21,403
+More than half a billion dollars.
+
+202
+00:06:21,523 --> 00:06:22,943
+Would you try them yourself…
+
+203
+00:06:22,963 --> 00:06:24,963
+or hand the drive to a hacker?
+
+204
+00:06:25,123 --> 00:06:26,423
+Tell me in the comments.
+
+205
+00:06:26,644 --> 00:06:28,824
+And subscribe, because next time,
+
+206
+00:06:28,844 --> 00:06:30,444
+we're going to that landfill.
+
+207
+00:06:30,846 --> 00:06:32,716
+And I thought my sentence was bad.
+
+208
+00:06:32,824 --> 00:06:33,824
+Two guesses.
+
+209
+00:06:33,844 --> 00:06:34,964
+I'll be waiting.
