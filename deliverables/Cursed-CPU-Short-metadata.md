@@ -1,6 +1,6 @@
 # Cursed CPU Short — upload kit (MechivioTech)
 
-**Video:** `Cursed-CPU-Short-1080x1920-MASTER.mp4` (1080×1920, 30 fps, 45 s, loops, −14 LUFS)
+**Video:** `Cursed-CPU-Short-1080x1920-MASTER.mp4` (1080×1920, 30 fps, 50 s, loops, −14 LUFS)
 
 ## Title
 Cheating in Valorant Gets Your CPU Banned 💀

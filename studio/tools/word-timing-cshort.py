@@ -5,8 +5,14 @@ import whisper
 
 voice = json.load(open('../voice/out-cshort/timing.json'))
 model = whisper.load_model(sys.argv[1] if len(sys.argv) > 1 else 'base.en')
-res = model.transcribe('../voice/out-cshort/voiceover.wav', word_timestamps=True, language='en', condition_on_previous_text=False)
-heard = [w for seg in res['segments'] for w in seg.get('words', [])]
+# transcribe each line on its own (one long pass loses sync after the pitched character voice)
+audio = whisper.load_audio('../voice/out-cshort/voiceover.wav')
+heard = []
+for c in voice['cues']:
+    a0 = max(0, int((c['start'] - 0.05) * 16000)); clip = audio[a0:int((c['end'] + 0.1) * 16000)]
+    res = model.transcribe(clip, word_timestamps=True, language='en', condition_on_previous_text=False, initial_prompt=c['text'])
+    for seg in res['segments']:
+        for w in seg.get('words', []): heard.append({**w, 'start': w['start'] + a0 / 16000, 'end': w['end'] + a0 / 16000})
 norm = lambda s: re.sub(r"[^a-z0-9']", '', s.lower().replace('’', "'"))
 
 # script words with their cue ids

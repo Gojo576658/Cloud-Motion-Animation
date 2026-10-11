@@ -1,17 +1,83 @@
 [
- {"s": 0, "gap": 0.32, "text": "Valorant didn't ban the player."},
- {"s": 0, "gap": 0.22, "text": "It banned the CPU."},
- {"s": 1, "gap": 0.18, "text": "Its old owner cheated. Like… a lot."},
- {"s": 2, "gap": 0.08, "text": "So Riot didn't just ban his account. It banned his hardware."},
- {"s": 2, "gap": 0.3, "text": "Wait! What did I do?!", "voice": "am_puck", "speed": 0.95, "pitch": 1.28},
- {"s": 3, "gap": 0.85, "text": "So he did the most normal thing ever. He sold it."},
- {"s": 4, "gap": 0.12, "text": "Meet Leo. Found a great deal. Never cheated once."},
- {"s": 4, "gap": 0.45, "text": "He opens Valorant… kicked."},
- {"s": 5, "gap": 0.35, "text": "He saved up. He did everything right… and paid for someone else's mistake."},
- {"s": 6, "gap": 0.3, "text": "Hey… every like takes one day off my sentence. And subscribe… it gets lonely in here.", "voice": "am_puck", "speed": 0.95, "pitch": 1.28},
- {"s": 7, "gap": 0.12, "text": "How? Your CPU has a tiny vault with a secret key."},
- {"s": 7, "gap": 0.25, "text": "New Windows? Same key. New account? Same key."},
- {"s": 8, "gap": 0.1, "text": "Good news: Riot says hardware bans last four months, max."},
- {"s": 8, "gap": 0.3, "text": "Plot twist? Riot doesn't fully buy Leo's story."},
- {"s": 9, "gap": 0.0, "text": "The full story is on my channel. So remember:"}
+ {
+  "s": 0,
+  "gap": 0.32,
+  "text": "Valorant didn't ban the player."
+ },
+ {
+  "s": 0,
+  "gap": 0.3,
+  "text": "It banned the CPU."
+ },
+ {
+  "s": 1,
+  "gap": 0.3,
+  "text": "Its old owner cheated. Like… a lot."
+ },
+ {
+  "s": 2,
+  "gap": 0.08,
+  "text": "So Riot didn't just ban his account. It banned his hardware."
+ },
+ {
+  "s": 2,
+  "gap": 0.4,
+  "text": "Wait! What did I do?!",
+  "voice": "am_puck",
+  "speed": 0.8,
+  "pitch": 1.25
+ },
+ {
+  "s": 3,
+  "gap": 0.85,
+  "text": "So he did the most normal thing ever. He sold it."
+ },
+ {
+  "s": 4,
+  "gap": 0.12,
+  "text": "Meet Leo. Found a great deal. Never cheated once."
+ },
+ {
+  "s": 4,
+  "gap": 0.55,
+  "text": "He opens Valorant… kicked."
+ },
+ {
+  "s": 5,
+  "gap": 0.45,
+  "text": "He saved up. He did everything right… and paid for someone else's mistake."
+ },
+ {
+  "s": 6,
+  "gap": 0.4,
+  "text": "Hey… every like takes one day off my sentence. And subscribe… it gets lonely in here.",
+  "voice": "am_puck",
+  "speed": 0.8,
+  "pitch": 1.25
+ },
+ {
+  "s": 7,
+  "gap": 0.12,
+  "text": "How? Your CPU has a tiny vault with a secret key."
+ },
+ {
+  "s": 7,
+  "gap": 0.35,
+  "text": "New Windows? Same key. New account? Same key."
+ },
+ {
+  "s": 8,
+  "gap": 0.1,
+  "text": "Good news: Riot says hardware bans last four months, max."
+ },
+ {
+  "s": 8,
+  "gap": 0.4,
+  "text": "Plot twist? Riot doesn't fully buy Leo's story."
+ },
+ {
+  "s": 9,
+  "gap": 0.0,
+  "text": "The full story is on my channel. So remember:"
+ }
 ]
