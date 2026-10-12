@@ -17,3 +17,5 @@ audio/out-tg/
 public/tg/*.wav
 audio/out-bf/
 public/bf/*.wav
+audio/out-bfs/
+public/bfs/*.wav

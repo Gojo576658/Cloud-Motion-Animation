@@ -1,0 +1,9 @@
+[
+ {"s": 0, "gap": 0.3, "text": "One extra number crashed eight and a half million computers."},
+ {"s": 0, "gap": 0.25, "text": "The security software expected twenty boxes on a form. The update had twenty-one."},
+ {"s": 1, "gap": 0.15, "text": "Eighteen. Nineteen. Twenty…", "voice": "bm_george", "speed": 0.95, "pitch": 1.08},
+ {"s": 1, "gap": 0.35, "text": "Twenty… one?", "voice": "bm_george", "speed": 0.85, "pitch": 1.08},
+ {"s": 2, "gap": 0.2, "text": "Crash. Airports, banks, hospitals. Blue screens everywhere."},
+ {"s": 2, "gap": 0.25, "text": "And the fix couldn't be downloaded. Someone had to walk to every single computer… by hand."},
+ {"s": 3, "gap": 0.0, "text": "The whole story is on my channel."}
+]
