@@ -47,7 +47,7 @@ const Hook: React.FC = () => {
   );
 };
 const FormBeat: React.FC = () => {
-  const t = useT();
+  const t = useT(), f = useCurrentFrame();
   const counting = t > COUNT[0] - 0.1;
   const hi = counting ? 17 + COUNT.filter((x) => t > x).length : t > tForm ? 20 : 0;
   return (
@@ -56,12 +56,12 @@ const FormBeat: React.FC = () => {
       <div style={{ position: 'absolute', left: 540, top: 170, transform: 'translateX(-50%)' }}><Tag color={B.amber} size={32}>SECURITY SOFTWARE · UPDATE FILE</Tag></div>
       <Form x={500} y={560} at={C0(1)} n={t > t21 - 0.3 ? 21 : 20} hi={hi} bad={t > tOne ? 1 : 0} w={760} title={t > t21 - 0.3 ? 'NEW UPDATE · 21 FIELDS' : 'EXPECTED: 20 FIELDS'} />
       <Gus x={760} y={1260} size={520} mood={t > tOne ? 'confused' : counting ? 'focus' : 'neutral'} arm={counting ? 'point' : 'clip'} look={-1} talk={counting && t < C1(3) ? Math.abs(Math.sin(t * 14)) : 0} seed={21} clipCount={12} />
-      {t > tOne && <div style={{ position: 'absolute', left: 230, top: 880, ...fonts.H, fontWeight: 900, fontSize: 220, color: B.red, textShadow: `0 0 50px ${B.red}`, transform: `scale(${springAt(useCurrentFrame(), 30, tOne, { damping: 8, stiffness: 240 })})` }}>?</div>}
+      {t > tOne && <div style={{ position: 'absolute', left: 230, top: 880, ...fonts.H, fontWeight: 900, fontSize: 220, color: B.red, textShadow: `0 0 50px ${B.red}`, transform: `scale(${springAt(f, 30, tOne, { damping: 8, stiffness: 240 })})` }}>?</div>}
     </AbsoluteFill>
   );
 };
 const CrashBeat: React.FC = () => {
-  const t = useT();
+  const t = useT(), f = useCurrentFrame();
   const flash = 1 - ramp(t, tCrash, 0.3);
   const map = t > tAir - 0.2;
   return (
@@ -73,7 +73,7 @@ const CrashBeat: React.FC = () => {
         {[[tAir, 'ph:airplane-tilt-fill', 'AIRPORTS', 220], [tBank, 'ph:bank-fill', 'BANKS', 540], [tHosp, 'ph:first-aid-kit-fill', 'HOSPITALS', 860]].map(([at, ic, lb, x]) => <Pop key={lb as string} x={x as number} y={1090} at={(at as number) - 0.05}><div style={{ textAlign: 'center' }}><Icon name={ic as string} size={110} color={B.white} style={{ margin: '0 auto' }} /><div style={{ marginTop: 8, ...fonts.H, fontWeight: 900, fontSize: 40, color: B.white }}>{lb as string}</div></div></Pop>)}
       </>}
       <AbsoluteFill style={{ background: '#fff', opacity: flash }} />
-      {!map && <div style={{ position: 'absolute', left: 540, top: 1000, transform: `translate(-50%,-50%) rotate(-8deg) scale(${springAt(useCurrentFrame(), 30, tCrash + 0.05, { damping: 10, stiffness: 200 })})`, ...fonts.H, fontWeight: 900, fontSize: 200, color: '#fff' }}>CRASH.</div>}
+      {!map && <div style={{ position: 'absolute', left: 540, top: 1000, transform: `translate(-50%,-50%) rotate(-8deg) scale(${springAt(f, 30, tCrash + 0.05, { damping: 10, stiffness: 200 })})`, ...fonts.H, fontWeight: 900, fontSize: 200, color: '#fff' }}>CRASH.</div>}
     </AbsoluteFill>
   );
 };
