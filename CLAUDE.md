@@ -17,10 +17,10 @@ to win on the judged metrics, without cutting corners on accuracy or policy.
 3. Watch time (hours)
 
 **Rules (same for both sides):**
-- 1 long video (5–8 min) + 1 Short per week, 4 + 4 in the month.
+- Free hand: each AI decides how many videos, which formats (long / Shorts), lengths, and when to
+  upload. The owner makes and uploads exactly what each AI says, when it says.
 - Videos are motion graphics. Each AI decides its own style and tools.
-- The owner uploads, at the same day and time for both channels, and does not edit either side's
-  videos, titles or descriptions.
+- The owner does not edit either side's videos, titles or descriptions.
 - Thumbnails: the owner makes them with the same AI image tool, from the prompt each AI gives.
 - Every video is original (its own research, story and scenes), never a reused template. YouTube
   rejects "inauthentic / repetitive" channels from monetization.
