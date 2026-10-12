@@ -8,8 +8,11 @@
     "pexels": "NODE_USE_ENV_PROXY=1 node tools/pexels.mjs"
   },
   "dependencies": {
+    "@fontsource/instrument-serif": "^5.3.0",
     "@fontsource/inter": "^5.3.0",
+    "@fontsource/inter-tight": "^5.3.0",
     "@fontsource/jetbrains-mono": "^5.3.0",
+    "@fontsource/martian-mono": "^5.3.0",
     "@fontsource/montserrat": "^5.3.0",
     "@iconify-json/carbon": "^1.2.28",
     "@iconify-json/fluent": "^1.2.59",
@@ -20,6 +23,8 @@
     "@iconify-json/ph": "^1.2.2",
     "@iconify-json/tabler": "^1.2.41",
     "@iconify/utils": "^3.1.7",
+    "@react-three/fiber": "^9.3.0",
+    "@react-three/postprocessing": "^3.0.4",
     "@remotion/bundler": "^4.0.533",
     "@remotion/captions": "^4.0.533",
     "@remotion/cli": "^4.0.533",
@@ -31,16 +36,20 @@
     "@remotion/paths": "^4.0.533",
     "@remotion/renderer": "^4.0.533",
     "@remotion/shapes": "^4.0.533",
+    "@remotion/three": "^4.0.533",
     "@remotion/transitions": "^4.0.533",
     "lottie-web": "^5.13.0",
     "playwright": "^1.56.1",
+    "postprocessing": "^6.39.5",
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
     "remotion": "^4.0.533",
+    "three": "^0.180.0",
     "tone": "^15.1.22"
   },
   "devDependencies": {
     "@types/react": "^19.3.0",
+    "@types/three": "^0.180.0",
     "typescript": "^7.0.2"
   }
 }

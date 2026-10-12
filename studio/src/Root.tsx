@@ -8,6 +8,7 @@ import { SECTIONS } from './sections';
 import { ShortMain } from './short/Short';
 import { CpuShort } from './cshort/Main';
 import { TgKit } from './tg/KitSheet';
+import { Test3D } from './tg3d/Test3D';
 import { TwoGuesses } from './tg/Main';
 import { TTL } from './tg/ttime';
 import { KTL } from './cshort/ktime';
@@ -103,6 +104,7 @@ export const Root: React.FC = () => (
     <Composition id="CursedCPU" component={CpuMain} width={1920} height={1080} fps={FPS} durationInFrames={Math.ceil(CTL.duration * FPS)} />
     <Composition id="CpuCast" component={Cast} width={1920} height={1080} fps={FPS} durationInFrames={60} />
     <Composition id="TwoGuesses" component={TwoGuesses} width={1920} height={1080} fps={FPS} durationInFrames={Math.ceil(TTL.duration * FPS)} />
+    <Composition id="Test3D" component={Test3D} width={1920} height={1080} fps={FPS} durationInFrames={120} />
     <Composition id="TgKit" component={TgKit} width={1920} height={1080} fps={FPS} durationInFrames={90} />
     <Composition id="CpuShort" component={CpuShort} width={1080} height={1920} fps={FPS} durationInFrames={Math.ceil(KTL.duration * FPS)} />
     <Composition id="Short" component={ShortMain} width={1080} height={1920} fps={FPS} durationInFrames={Math.ceil(STL.duration * FPS)} />
