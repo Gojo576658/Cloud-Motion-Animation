@@ -12,6 +12,6 @@ const f = [
   `[voice][duck]amix=inputs=2:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11,atrim=0:${D},aresample=48000[out]`,
 ];
 fs.mkdirSync('public/tg', { recursive: true });
-const r = spawnSync('ffmpeg', ['-y', '-loglevel', 'error', '-i', '../voice/out-tg/voiceover.wav', '-i', 'audio/out-tg/score.wav', '-filter_complex', f.join(';'), '-map', '[out]', '-ac', '2', '-c:a', 'pcm_s16le', 'public/tg/soundtrack.wav'], { stdio: 'inherit' });
+const r = spawnSync('ffmpeg', ['-y', '-loglevel', 'error', '-i', '../voice/out-tg2/voiceover.wav', '-i', 'audio/out-tg/score.wav', '-filter_complex', f.join(';'), '-map', '[out]', '-ac', '2', '-c:a', 'pcm_s16le', 'public/tg/soundtrack.wav'], { stdio: 'inherit' });
 if (r.status) process.exit(r.status);
 console.log(`soundtrack: public/tg/soundtrack.wav (${D.toFixed(2)}s)`);

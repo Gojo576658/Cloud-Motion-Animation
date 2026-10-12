@@ -4,7 +4,8 @@
 import React from 'react';
 import { AbsoluteFill } from 'remotion';
 import { Icon } from '../components/Icon';
-import { C, fonts } from '../lib/theme';
+import { C } from '../lib/theme';
+import { fonts } from './type';
 import { EASE, ramp, springAt, clamp, lerp, rng } from '../lib/time';
 import type { SfxEvent } from '../lib/sfx';
 import { C0, C1, P, PE, W } from './ttime';
@@ -12,12 +13,13 @@ import { useTF, P as COL, camAt, Layer, Ike, Vault, Person, Robot, QuoteCard, Po
 import { Stamp, Burst } from '../cpu/fx';
 
 // ================================================================ ACT 2 · eight guesses
-const tCheap = C0(17), tClimb = C0(18), tP100 = P(18, 'A hundred'), tP1k = P(18, 'A thousand'), tP10k = P(18, 'Ten thousand');
-const tValuable = P(19, 'more valuable'), tMoreLocked = P(19, 'and more locked');
-const tGuessing = C0(20), tUsual = P(20, 'His usual');
-const MISS = [W(21, 2), W(21, 5), W(21, 6), W(21, 7), W(21, 8), W(21, 9), W(21, 10), P(22, 'Eight guesses')];
-const tTwoLeft = C0(23), tQuote = C0(24), tLay = P(24, 'I would just'), tMoney = C0(25), t220 = P(25, 'two hundred'), t900 = P(25, 'Close to nine');
-export const a2NoCaptions: [number, number][] = [[tTwoLeft - 0.1, C1(23) + 0.6]];
+const tCheap = C0(18), tClimb = P(19, 'Then the price'), tP100 = P(19, 'A hundred'), tP1k = P(19, 'A thousand'), tP10k = P(19, 'Ten thousand');
+const tValuable = P(20, 'every time'), tMoreLocked = P(20, 'got heavier');
+const tGuessing = C0(21), tUsual = P(21, 'The passwords');
+const MISS = [W(22, 0), W(22, 1), W(22, 2), W(22, 3), W(22, 4), W(22, 5), W(22, 6), C0(23)];
+const tTwoLeft = C0(24), tQuote = C0(25), tLay = P(25, 'I would just'), tNight = P(26, 'every single night'), tMoney = C0(27), t220 = P(27, 'two hundred'), t900 = P(27, 'close to nine');
+const tBreakQ = P(28, 'break it open');
+export const a2NoCaptions: [number, number][] = [[tTwoLeft - 0.1, C1(24) + 0.6]];
 export const a2Sfx: SfxEvent[] = [
   { t: tCheap, name: 'tick', vol: 0.3, note: 'Ike naps' }, { t: tClimb, name: 'riser', vol: 0.3, dur: 5 },
   ...[tP100, tP1k, tP10k].map((x, i) => ({ t: x, name: 'woodHit' as const, vol: 0.35 + i * 0.1, note: 'shelf sags' })), { t: tP10k + 0.3, name: 'glassHit', vol: 0.35, note: 'crack' },
@@ -108,6 +110,7 @@ export const A2: React.FC = () => {
         <div style={{ position: 'absolute', left: 1180, top: 870, width: 700, height: 120, borderRadius: 20, background: '#3a4a7a' }} />
         <div style={{ position: 'absolute', left: 1190, top: 850, width: 200, height: 60, borderRadius: 30, background: '#e8ecf4' }} />
         <div style={{ position: 'absolute', left: 1250, top: 760, transform: 'rotate(-90deg)', transformOrigin: '50% 100%' }}><Person kind="stefan" x={0} y={200} size={300} mood="sad" look={0} seed={25} /></div>
+        {t > tNight - 0.1 && <Pop x={840} y={150} at={tNight - 0.05}><Mono size={34} color={COL.red}>EVERY · SINGLE · NIGHT</Mono></Pop>}
         <QuoteCard x={840} y={430} w={1180} at={tLay - 0.2} text="I would just lay in bed and think about it. Then I would go to the computer with some new strategy, and it wouldn't work, and I would be desperate again." source="STEFAN THOMAS, TO THE NEW YORK TIMES (2021)" size={42} />
       </AbsoluteFill>
     );
@@ -127,15 +130,16 @@ export const A2: React.FC = () => {
         ))}
       </div>
       <Ike x={1480} y={900} size={520} count={8} eye="smug" seed={26} />
+      {t > tBreakQ - 0.1 && <Pop x={1480} y={300} at={tBreakQ - 0.05} rot={-8}><Icon name="ph:hammer-fill" size={190} color={COL.steel2} /></Pop>}
     </AbsoluteFill>
   );
 };
 
 // ================================================================ ACT 3 · why nobody can open it
-const tBreak = C0(26), tPlug = P(26, 'Plug it'), tMillion = P(26, 'a million'), tRemembers = C0(27);
-const tEvery = C0(28), tUnplug = P(28, 'Unplug'), tYear = P(28, 'wait a year'), tBack = P(28, 'plug it back'), tStill = P(28, 'the counter');
-const tEpoxy = C0(29), tResist = P(29, 'built to resist'), tKing = C0(30), tBackdoor = P(30, 'No backdoor'), tMaster = P(30, 'No master');
-const tImpossible = C0(31), tRight = P(31, 'Right'), tIke = C0(32), tSub = P(32, 'Subscribe'), tWait = P(32, "I'll wait");
+const tBreak = C0(29) - 0.3, tPlug = C0(29), tRemembers = P(29, 'remembers'), tMillion = P(30, 'counted');
+const tEvery = C0(30), tUnplug = P(30, 'Unplug'), tYear = P(30, 'drawer'), tBack = P(30, 'plug it back'), tStill = P(30, 'still eight');
+const tEpoxy = C0(31), tResist = P(31, 'hard epoxy'), tKing = C0(32), tBackdoor = P(32, 'No backdoor'), tMaster = P(32, 'No master');
+const tImpossible = C0(33), tRight = P(33, 'Right'), tIke = C0(34), tSub = P(34, 'subscribe'), tWait = P(34, 'very good at waiting');
 export const a3NoCaptions: [number, number][] = [];
 export const a3Sfx: SfxEvent[] = [
   { t: tBreak + 0.2, name: 'machine', vol: 0.4, note: 'robot' }, { t: tPlug, name: 'clickModern', vol: 0.45, note: 'plug in' }, { t: tMillion, name: 'typing', vol: 0.35, dur: 1.6 },
@@ -165,7 +169,7 @@ export const A3: React.FC = () => {
         <svg style={{ position: 'absolute', left: 0, top: 0 }} width="1920" height="1080">{plugged && <path d="M560 760 C 700 860, 820 520, 960 460" stroke="#2a3040" strokeWidth="14" fill="none" strokeLinecap="round" />}</svg>
         <Robot x={500} y={1040} size={380} beard={beard} tilt={-faint * 80} eyes={faint > 0.5 ? 'x' : 'on'} dizzy={faint > 0.8} />
         {t > tMillion - 0.1 && t < tUnplug && <div style={{ position: 'absolute', left: 240, top: 200, padding: '18px 26px', borderRadius: 14, background: 'rgba(5,7,13,.9)', border: `2px solid ${COL.cyan}55`, fontFamily: fonts.mono, fontWeight: 700, fontSize: 32, color: COL.cyan, lineHeight: 1.4 }}>BRUTE FORCE…<br />TRYING #{String(tries).padStart(6, '0')}{look ? <><br /><span style={{ color: COL.red }}>⚠ 2 TRIES LEFT</span></> : ''}</div>}
-        {t > tYear && t < tBack + 0.3 && <div style={{ position: 'absolute', left: 1330, top: 240, transform: 'rotate(4deg)', width: 260, padding: 20, borderRadius: 14, background: '#f4efe2', textAlign: 'center' }}><Mono size={22} color="#6b6250">1 YEAR LATER</Mono><div style={{ fontFamily: fonts.head, fontWeight: 900, fontSize: 80, color: '#2a2a35' }}>{['JAN', 'APR', 'JUL', 'OCT', 'JAN'][Math.min(4, Math.floor(ramp(t, tYear, 1.4) * 5))]}</div></div>}
+        {t > tYear && t < tBack + 0.3 && <div style={{ position: 'absolute', left: 1330, top: 240, transform: 'rotate(4deg)', width: 260, padding: 20, borderRadius: 14, background: '#f4efe2', textAlign: 'center' }}><Mono size={22} color="#6b6250">1 YEAR LATER</Mono><div style={{ ...fonts.H, fontWeight: 900, fontSize: 80, color: '#2a2a35' }}>{['JAN', 'APR', 'JUL', 'OCT', 'JAN'][Math.min(4, Math.floor(ramp(t, tYear, 1.4) * 5))]}</div></div>}
         {t > tBack + 0.1 && <Pop x={960} y={300} at={tBack + 0.1}><div style={{ padding: '10px 26px', borderRadius: 14, background: 'rgba(7,11,22,.9)', border: `3px solid ${COL.red}`, fontFamily: fonts.mono, fontWeight: 700, fontSize: 52, color: COL.red }}>STILL 8/10</div></Pop>}
       </AbsoluteFill>
     );
@@ -185,13 +189,13 @@ export const A3: React.FC = () => {
         </> : <>
           <Pop x={600} y={460} at={tKing}><div style={{ width: 760, padding: '34px 40px', borderRadius: 24, background: '#f3f4f8', boxShadow: '0 30px 80px rgba(0,0,0,.5)', fontFamily: fonts.body, color: '#1a1d2a' }}>
             <Mono size={22} color="#5a6274">SUPPORT · KINGSTON (2021)</Mono>
-            <div style={{ fontFamily: fonts.head, fontWeight: 900, fontSize: 52, lineHeight: 1.1, marginTop: 14 }}>No way to recover the data.</div>
+            <div style={{ ...fonts.H, fontWeight: 900, fontSize: 52, lineHeight: 1.1, marginTop: 14 }}>No way to recover the data.</div>
             <div style={{ fontWeight: 600, fontSize: 30, color: '#5a6274', marginTop: 10 }}>No backup password. By design.</div>
           </div></Pop>
           {/* the backdoor */}
           <div style={{ position: 'absolute', left: 1240, top: 230, width: 420, height: 620, borderRadius: '16px 16px 0 0', background: '#05070d', boxShadow: 'inset 0 0 0 12px #2a2f3d' }}>
             <div style={{ position: 'absolute', inset: 0, borderRadius: '16px 16px 0 0', background: 'linear-gradient(160deg,#3b4256,#232838)', transformOrigin: '0 50%', transform: `perspective(900px) rotateY(${-door * 60}deg)` }}>
-              <div style={{ position: 'absolute', left: 40, right: 40, top: 60, padding: '14px 0', borderRadius: 10, background: COL.red, textAlign: 'center', fontFamily: fonts.head, fontWeight: 900, fontSize: 40, color: '#fff' }}>NO BACKDOOR</div>
+              <div style={{ position: 'absolute', left: 40, right: 40, top: 60, padding: '14px 0', borderRadius: 10, background: COL.red, textAlign: 'center', ...fonts.H, fontWeight: 900, fontSize: 40, color: '#fff' }}>NO BACKDOOR</div>
               <div style={{ position: 'absolute', right: 34, top: 320, width: 26, height: 26, borderRadius: '50%', background: '#d8b45a' }} />
             </div>
           </div>
@@ -202,7 +206,7 @@ export const A3: React.FC = () => {
   }
   // ---- "impossible… right?" + Ike's subscribe line
   const cam = camAt(t, [[tImpossible - 0.2, 0, 0, 1], [tIke, 0, -80, 1.25], [tIke + 0.5, 0, 0, 1]]);
-  const talk = t > tIke && t < C1(32) ? Math.abs(Math.sin(t * 16)) : 0;
+  const talk = t > tIke && t < C1(34) ? Math.abs(Math.sin(t * 16)) : 0;
   const subbed = t > tSub;
   return (
     <AbsoluteFill>
@@ -210,7 +214,7 @@ export const A3: React.FC = () => {
       <Layer cam={cam} d={1}><Ike x={t > tIke ? 760 : 960} y={812} size={520} count={8} eye={t > tImpossible + 0.3 ? 'smug' : 'open'} talk={talk} seed={33} /></Layer>
       {t > tIke + 0.2 && <Pop x={1340} y={520} at={tIke + 0.2}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 20, transform: `scale(${t > tSub - 0.05 && t < tSub + 0.1 ? 0.92 : 1})` }}>
-          <div style={{ padding: '22px 46px', borderRadius: 60, background: subbed ? '#3a4152' : COL.red, fontFamily: fonts.head, fontWeight: 900, fontSize: 48, color: '#fff', boxShadow: subbed ? 'none' : `0 0 50px ${COL.red}88` }}>{subbed ? 'SUBSCRIBED' : 'SUBSCRIBE'}</div>
+          <div style={{ padding: '22px 46px', borderRadius: 60, background: subbed ? '#3a4152' : COL.red, ...fonts.H, fontWeight: 900, fontSize: 48, color: '#fff', boxShadow: subbed ? 'none' : `0 0 50px ${COL.red}88` }}>{subbed ? 'SUBSCRIBED' : 'SUBSCRIBE'}</div>
           <div style={{ transform: `rotate(${t > tSub + 0.4 ? Math.sin((t - tSub) * 30) * 22 * Math.max(0, 1 - (t - tSub - 0.4) * 1.2) : 0}deg)`, transformOrigin: '50% 10%' }}><Icon name={t > tSub + 0.4 ? 'ph:bell-ringing-fill' : 'ph:bell-bold'} size={80} color={t > tSub + 0.4 ? COL.amber : C.ink} /></div>
         </div>
       </Pop>}

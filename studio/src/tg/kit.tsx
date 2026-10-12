@@ -3,7 +3,8 @@
 // and a parallax camera for 2.5D depth.
 import React from 'react';
 import { AbsoluteFill, useCurrentFrame, useVideoConfig } from 'remotion';
-import { C, fonts } from '../lib/theme';
+import { C } from '../lib/theme';
+import { fonts, serifAccent } from './type';
 import { EASE, ramp, springAt, clamp, lerp, rng, track } from '../lib/time';
 
 export const useTF = () => { const f = useCurrentFrame(); const { fps } = useVideoConfig(); return { f, fps, t: f / fps }; };
@@ -136,7 +137,7 @@ export const QuoteCard: React.FC<{ x: number; y: number; w?: number; at: number;
   const s = springAt(f, fps, at, { damping: 16, stiffness: 140 });
   return (
     <div style={{ position: 'absolute', left: x, top: y, width: w, transform: `translate(-50%,-50%) translateY(${(1 - s) * 40}px) rotate(-1.2deg)`, opacity: clamp(s * 1.4), padding: '44px 56px 34px', background: '#f1ead9', clipPath: 'polygon(0 2%, 4% 0, 12% 2%, 22% 0, 35% 1.5%, 50% 0, 64% 2%, 78% 0, 90% 1.6%, 100% 0, 99% 50%, 100% 100%, 88% 98%, 72% 100%, 58% 98.5%, 42% 100%, 28% 98%, 14% 100%, 0 98%, 1% 50%)', boxShadow: '0 30px 80px rgba(0,0,0,.5)' }}>
-      <div style={{ fontFamily: fonts.head, fontWeight: 900, fontSize: 110, lineHeight: 0.6, color: '#b3261e', height: 50 }}>“</div>
+      <div style={{ ...fonts.H, fontWeight: 900, fontSize: 110, lineHeight: 0.6, color: '#b3261e', height: 50 }}>“</div>
       <div style={{ fontFamily: fonts.body, fontWeight: 600, fontSize: size, lineHeight: 1.3, color: '#22201c' }}>{text}</div>
       <div style={{ marginTop: 22, fontFamily: fonts.mono, fontWeight: 700, fontSize: 22, color: '#6b6250', letterSpacing: '0.06em' }}>— {source}</div>
     </div>
@@ -150,8 +151,8 @@ export const CaseCard: React.FC<{ x: number; y: number; at: number; text: string
   return (
     <div style={{ position: 'absolute', left: x, top: y, width: 420, height: 300, transform: `translate(-50%,-50%) translateY(${(1 - s) * -80}px) rotate(${rot}deg)`, opacity: clamp(s * 1.5) }}>
       <div style={{ position: 'absolute', left: 0, top: 0, width: 160, height: 40, borderRadius: '12px 12px 0 0', background: '#c79a5a' }} />
-      <div style={{ position: 'absolute', left: 0, top: 30, right: 0, bottom: 0, borderRadius: '0 14px 14px 14px', background: 'linear-gradient(160deg,#e2bf83,#c79a5a)', boxShadow: '0 24px 60px rgba(0,0,0,.5)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: fonts.head, fontWeight: 900, fontSize: 52, color: '#3a2610', textAlign: 'center', lineHeight: 1.05, padding: 20 }}>{text}</div>
-      {st > 0 && <div style={{ position: 'absolute', right: -20, top: 40, transform: `rotate(14deg) scale(${3 - 2 * st})`, opacity: st, padding: '4px 18px', border: `6px solid ${P.red}`, borderRadius: 10, fontFamily: fonts.head, fontWeight: 900, fontSize: 64, color: P.red }}>{stamp}</div>}
+      <div style={{ position: 'absolute', left: 0, top: 30, right: 0, bottom: 0, borderRadius: '0 14px 14px 14px', background: 'linear-gradient(160deg,#e2bf83,#c79a5a)', boxShadow: '0 24px 60px rgba(0,0,0,.5)', display: 'flex', alignItems: 'center', justifyContent: 'center', ...fonts.H, fontWeight: 900, fontSize: 52, color: '#3a2610', textAlign: 'center', lineHeight: 1.05, padding: 20 }}>{text}</div>
+      {st > 0 && <div style={{ position: 'absolute', right: -20, top: 40, transform: `rotate(14deg) scale(${3 - 2 * st})`, opacity: st, padding: '4px 18px', border: `6px solid ${P.red}`, borderRadius: 10, ...fonts.H, fontWeight: 900, fontSize: 64, color: P.red }}>{stamp}</div>}
     </div>
   );
 };
@@ -160,7 +161,7 @@ export const CaseCard: React.FC<{ x: number; y: number; at: number; text: string
 export const Coin: React.FC<{ x: number; y: number; size?: number; spin?: number; grey?: number; opacity?: number }> = ({ x, y, size = 90, spin = 0, grey = 0, opacity = 1 }) => {
   const sx = Math.cos(spin);
   return (
-    <div style={{ position: 'absolute', left: x - size / 2, top: y - size / 2, width: size, height: size, borderRadius: '50%', transform: `scaleX(${Math.max(0.08, Math.abs(sx))})`, opacity, filter: grey ? `grayscale(${grey}) brightness(${1 - grey * 0.5})` : undefined, background: 'radial-gradient(circle at 35% 30%, #fff1b8, #f7b23b 45%, #b07a10 100%)', boxShadow: `inset 0 0 0 ${size * 0.07}px #c98c1a, 0 ${size * 0.08}px ${size * 0.2}px rgba(0,0,0,.45)`, display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: fonts.head, fontWeight: 900, fontSize: size * 0.55, color: '#8a5a08' }}>{sx > 0 ? '₿' : ''}</div>
+    <div style={{ position: 'absolute', left: x - size / 2, top: y - size / 2, width: size, height: size, borderRadius: '50%', transform: `scaleX(${Math.max(0.08, Math.abs(sx))})`, opacity, filter: grey ? `grayscale(${grey}) brightness(${1 - grey * 0.5})` : undefined, background: 'radial-gradient(circle at 35% 30%, #fff1b8, #f7b23b 45%, #b07a10 100%)', boxShadow: `inset 0 0 0 ${size * 0.07}px #c98c1a, 0 ${size * 0.08}px ${size * 0.2}px rgba(0,0,0,.45)`, display: 'flex', alignItems: 'center', justifyContent: 'center', ...fonts.H, fontWeight: 900, fontSize: size * 0.55, color: '#8a5a08' }}>{sx > 0 ? '₿' : ''}</div>
   );
 };
 
@@ -248,9 +249,37 @@ export const Count: React.FC<{ from?: number; to: number; at: number; d?: number
   const { t } = useTF();
   return <>{fmt(lerp(from, to, ramp(t, at, d, EASE.out)))}</>;
 };
-export const Title: React.FC<{ children: React.ReactNode; size?: number; color?: string; spacing?: string }> = ({ children, size = 72, color = '#fff', spacing = '0.02em' }) => (
-  <div style={{ fontFamily: fonts.head, fontWeight: 900, fontSize: size, lineHeight: 1.02, color, letterSpacing: spacing, whiteSpace: 'nowrap', textShadow: '0 8px 30px rgba(0,0,0,.6)' }}>{children}</div>
+export const Title: React.FC<{ children: React.ReactNode; size?: number; color?: string; spacing?: string }> = ({ children, size = 72, color = '#fff', spacing = '-0.03em' }) => (
+  <div style={{ ...fonts.H, fontWeight: 900, fontSize: size, lineHeight: 1.02, color, letterSpacing: spacing, whiteSpace: 'nowrap', textShadow: '0 8px 30px rgba(0,0,0,.6)' }}>{children}</div>
 );
 export const Mono: React.FC<{ children: React.ReactNode; size?: number; color?: string }> = ({ children, size = 26, color = C.dim }) => (
-  <div style={{ fontFamily: fonts.mono, fontWeight: 700, fontSize: size, letterSpacing: '0.12em', color, whiteSpace: 'nowrap' }}>{children}</div>
+  <div style={{ fontFamily: fonts.mono, fontWeight: 700, fontSize: size * 0.82, letterSpacing: '0.16em', color, whiteSpace: 'nowrap' }}>{children}</div>
 );
+
+// Zyvavo-style kinetic headline: each word rises out of its own mask, staggered; `serif` words switch to the
+// italic Instrument Serif accent. Exits drop the words back down, faster than they came.
+export type KWord = { w: string; serif?: boolean; color?: string; br?: boolean };
+export const Kinetic: React.FC<{ words: KWord[]; at: number; out?: number; size?: number; stagger?: number; color?: string; align?: 'left' | 'center'; spacing?: string }> = ({ words, at, out, size = 120, stagger = 0.07, color = '#f2f5f9', align = 'center', spacing = '-0.05em' }) => {
+  const { t } = useTF();
+  const lines: KWord[][] = [[]];
+  words.forEach((w) => { if (w.br) lines.push([]); lines[lines.length - 1].push(w); });
+  let k = 0;
+  return (
+    <div style={{ textAlign: align, lineHeight: 0.98 }}>
+      {lines.map((ln, li) => (
+        <div key={li} style={{ display: 'flex', justifyContent: align === 'center' ? 'center' : 'flex-start', gap: size * 0.22 }}>
+          {ln.map((w) => {
+            const i = k++;
+            const u = ramp(t, at + i * stagger, 0.55, EASE.out), x = out != null ? ramp(t, out + i * 0.03, 0.3, EASE.in) : 0;
+            const style = w.serif ? { ...serifAccent, fontSize: size * 1.12 } : { ...fonts.H, letterSpacing: spacing, fontWeight: 800, fontSize: size };
+            return (
+              <span key={i} style={{ display: 'inline-block', overflow: 'hidden', padding: `0 ${size * 0.04}px ${size * 0.12}px`, margin: `0 -${size * 0.04}px -${size * 0.12}px` }}>
+                <span style={{ display: 'inline-block', ...style, color: w.color ?? color, transform: `translateY(${(1 - u) * 105 + x * 105}%) rotate(${(1 - u) * 6}deg)`, transformOrigin: '0% 100%', whiteSpace: 'nowrap', textShadow: '0 10px 40px rgba(0,0,0,.55)' }}>{w.w}</span>
+              </span>
+            );
+          })}
+        </div>
+      ))}
+    </div>
+  );
+};

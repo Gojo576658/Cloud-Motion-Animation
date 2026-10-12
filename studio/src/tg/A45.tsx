@@ -4,7 +4,8 @@
 import React from 'react';
 import { AbsoluteFill } from 'remotion';
 import { Icon } from '../components/Icon';
-import { C, fonts } from '../lib/theme';
+import { C } from '../lib/theme';
+import { fonts } from './type';
 import { EASE, ramp, springAt, clamp, lerp, rng } from '../lib/time';
 import type { SfxEvent } from '../lib/sfx';
 import { C0, C1, P, PE, S1 } from './ttime';
@@ -25,10 +26,10 @@ const Wallet: React.FC<{ x: number; y: number; w?: number; text?: string; color?
 );
 
 // ================================================================ ACT 4 · the heist
-const tNot = C0(33), tJoe = P(34, 'Meet Joe'), tDan = P(34, 'a man named'), t2M = P(35, 'two million'), tForgot = P(35, "he'd forgotten");
-const t12 = P(36, 'twelve'), t16 = P(36, 'sixteen'), tWipe = P(36, 'wipe itself'), tLonger = P(37, 'wait longer');
-const tAttack = P(38, 'He attacked'), tFirm = P(39, 'firmware update'), tCopies = P(39, 'copies its PIN'), tProt = P(39, 'is protected'), tGlitch = P(39, 'glitch'), tTrick = P(39, 'tricked it'), tRead = P(39, 'read it');
-const tWeeks = C0(40), tPopped = P(41, 'popped up'), tMillion = C0(42), tCatch = P(43, 'the catch'), tFixed = P(43, 'already fixed'), tTough = P(43, 'tougher');
+const tNot = C0(35), tJoe = P(36, 'Meet Joe'), tDan = P(36, 'a man named'), t2M = P(36, 'two million'), tForgot = P(36, "He'd forgotten");
+const t12 = P(37, 'Twelve'), t16 = P(37, 'sixteen'), tWipe = P(37, 'wipes itself'), tLonger = P(37, 'Four tries');
+const tAttack = C0(38), tFirm = P(39, 'firmware update'), tCopies = P(39, 'copies its PIN'), tProt = P(39, 'That memory'), tGlitch = P(40, 'glitch'), tTrick = P(40, 'split second'), tRead = P(40, 'lock blinked');
+const tWeeks = C0(41), tPopped = P(42, 'PIN appeared'), tMillion = C0(43), tCatch = C0(44), tFixed = P(45, 'fixed back'), tTough = P(45, 'tougher');
 export const a4NoCaptions: [number, number][] = [];
 export const a4Sfx: SfxEvent[] = [
   { t: tNot - 0.1, name: 'scratch', vol: 0.45 }, { t: tNot + 0.3, name: 'door', vol: 0.45, note: 'hidden door' }, { t: tJoe - 0.1, name: 'powerUp', vol: 0.35, note: 'neon lab' },
@@ -62,7 +63,7 @@ export const A4: React.FC = () => {
           <Person kind="dan" x={1420} y={1120} size={520} mood={t > tForgot ? 'worried' : 'smile'} look={-1} seed={42} />
           <Wallet x={1560} y={1020} w={170} text={used ? `${used}/16` : 'PIN?'} color={used ? COL.red : COL.cyan} />
         </div>}
-        {t > t2M - 0.1 && t < t12 - 0.1 && <Pop x={1420} y={260} at={t2M - 0.1}><div style={{ padding: '14px 30px', borderRadius: 16, background: 'rgba(7,11,22,.85)', border: `3px solid ${COL.gold}`, textAlign: 'center' }}><div style={{ fontFamily: fonts.mono, fontWeight: 700, fontSize: 54, color: COL.gold }}>≈ $2M</div><div style={{ fontFamily: fonts.head, fontWeight: 900, fontSize: 26, color: C.ink }}>IN CRYPTO</div>{t > tForgot && <div style={{ fontFamily: fonts.mono, fontWeight: 700, fontSize: 36, color: COL.red, marginTop: 6 }}>PIN: ????</div>}</div></Pop>}
+        {t > t2M - 0.1 && t < t12 - 0.1 && <Pop x={1420} y={260} at={t2M - 0.1}><div style={{ padding: '14px 30px', borderRadius: 16, background: 'rgba(7,11,22,.85)', border: `3px solid ${COL.gold}`, textAlign: 'center' }}><div style={{ fontFamily: fonts.mono, fontWeight: 700, fontSize: 54, color: COL.gold }}>≈ $2M</div><div style={{ ...fonts.H, fontWeight: 900, fontSize: 26, color: C.ink }}>IN CRYPTO</div>{t > tForgot && <div style={{ fontFamily: fonts.mono, fontWeight: 700, fontSize: 36, color: COL.red, marginTop: 6 }}>PIN: ????</div>}</div></Pop>}
         {t > t12 - 0.1 && <Pop x={1180} y={250} at={t12 - 0.1}><div style={{ padding: '18px 26px', borderRadius: 16, background: 'rgba(7,11,22,.9)', border: `3px solid ${COL.red}`, textAlign: 'center' }}>
           <div style={{ display: 'flex', gap: 6 }}>{Array.from({ length: 16 }, (_, i) => <div key={i} style={{ width: 22, height: 40, borderRadius: 4, background: i < 12 ? '#3a2228' : COL.red, boxShadow: i >= 12 ? `0 0 10px ${COL.red}` : 'none', opacity: i >= 12 && t > t16 ? 0.6 + 0.4 * Math.sin(t * 10) : 1 }} />)}</div>
           <div style={{ marginTop: 12, fontFamily: fonts.mono, fontWeight: 700, fontSize: 30, color: COL.red }}>12 WRONG · WIPES AT 16</div>
@@ -128,17 +129,17 @@ export const A4: React.FC = () => {
         {freeze && <AbsoluteFill style={{ background: 'rgba(0,0,0,.35)', backdropFilter: 'grayscale(1)' }} />}
         {freeze && <div style={{ position: 'absolute', left: 0, top: 0, transform: `translateX(${(1 - ramp(t, tTough - 0.5, 0.6, EASE.out)) * 900}px)` }}><Ike x={1500} y={1000} size={440} count={8} eye="smug" seed={47} /></div>}
         {t > tFixed && <Stamp x={760} y={720} at={tFixed} text="FIXED IN 2017" size={70} rot={-6} color={COL.amber} />}
-        {t > tTough && <Pop x={1500} y={470} at={tTough}><div style={{ padding: '10px 22px', borderRadius: 12, background: 'rgba(7,11,22,.9)', border: `2px solid ${COL.red}`, fontFamily: fonts.head, fontWeight: 900, fontSize: 36, color: COL.red, whiteSpace: 'nowrap' }}>DIFFERENT. TOUGHER.</div></Pop>}
+        {t > tTough && <Pop x={1500} y={470} at={tTough}><div style={{ padding: '10px 22px', borderRadius: 12, background: 'rgba(7,11,22,.9)', border: `2px solid ${COL.red}`, ...fonts.H, fontWeight: 900, fontSize: 36, color: COL.red, whiteSpace: 'nowrap' }}>DIFFERENT. TOUGHER.</div></Pop>}
       </>}
     </AbsoluteFill>
   );
 };
 
 // ================================================================ ACT 5 · the offer
-const t2023 = C0(44), tUnc = P(44, 'Unciphered'), tWired = C0(45), tCarved = P(45, 'carved out'), tDissolve = P(45, 'dissolved'), tTrillion = P(46, 'two hundred');
-const tOpened = C0(47), tOffer = C0(48), tLetUs = P(48, 'let us'), tSaidNo = P(49, 'said no'), tWhy = C0(50), tReports = C0(51), tTeam = P(51, 'another team'), tShare = P(51, 'a share');
-const tSomewhere = C0(52), tStatus = C0(53), tToday = P(53, 'As of today');
-export const a5NoCaptions: [number, number][] = [[C1(46) + 0.05, C1(47) + 0.2]];
+const t2023 = C0(46), tUnc = P(46, 'Unciphered'), tWired = C0(47), tCarved = P(47, 'carved out'), tDissolve = P(47, 'dissolved'), tTrillion = P(48, 'two hundred');
+const tOpened = C0(49), tOffer = C0(50), tLetUs = P(50, 'let us'), tSaidNo = P(51, 'said no'), tWhy = C0(52), tReports = C0(53), tTeam = P(53, 'another team'), tShare = P(53, 'a share');
+const tSomewhere = C0(54), tStatus = C0(55), tToday = P(55, 'as of today');
+export const a5NoCaptions: [number, number][] = [[C1(48) + 0.05, C1(49) + 0.2]];
 export const a5Sfx: SfxEvent[] = [
   { t: t2023 - 0.05, name: 'notify', vol: 0.4, note: 'news' }, { t: tUnc, name: 'stomp', vol: 0.45 },
   { t: tWired, name: 'machine', vol: 0.3, note: 'lab' }, { t: tCarved, name: 'techMove', vol: 0.4, note: 'chip lifted' }, { t: tDissolve, name: 'glitchStatic', vol: 0.3, dur: 1.6, note: 'acid hiss' }, { t: tDissolve + 0.3, name: 'gasp', vol: 0.35, note: 'Ike horrified' },
@@ -161,7 +162,7 @@ export const A5: React.FC = () => {
       <AbsoluteFill>
         <AbsoluteFill style={{ background: 'radial-gradient(ellipse at 50% 30%, #dff4fb, #9cc3d1 70%)' }} />
         <AbsoluteFill style={{ backgroundImage: 'linear-gradient(rgba(10,40,60,.06) 2px, transparent 2px), linear-gradient(90deg, rgba(10,40,60,.06) 2px, transparent 2px)', backgroundSize: '100px 100px' }} />
-        {t < tWired && <Pop x={960} y={460} at={t2023}><div style={{ width: 1100, padding: '30px 40px', borderRadius: 20, background: '#0b0f1a', boxShadow: '0 30px 80px rgba(0,0,0,.4)' }}><div style={{ display: 'flex', gap: 14, alignItems: 'center' }}><div style={{ padding: '6px 14px', background: COL.red, borderRadius: 8, fontFamily: fonts.head, fontWeight: 900, fontSize: 30, color: '#fff' }}>2023</div><Mono size={26} color={COL.steel2}>SECURITY NEWS</Mono></div><div style={{ marginTop: 18 }}><Title size={70} color="#fff">"IRONKEY CRACKED?"</Title></div>{t > tUnc && <div style={{ marginTop: 14 }}><Mono size={30} color={COL.cyan}>UNCIPHERED · A SECURITY COMPANY</Mono></div>}</div></Pop>}
+        {t < tWired && <Pop x={960} y={460} at={t2023}><div style={{ width: 1100, padding: '30px 40px', borderRadius: 20, background: '#0b0f1a', boxShadow: '0 30px 80px rgba(0,0,0,.4)' }}><div style={{ display: 'flex', gap: 14, alignItems: 'center' }}><div style={{ padding: '6px 14px', background: COL.red, borderRadius: 8, ...fonts.H, fontWeight: 900, fontSize: 30, color: '#fff' }}>2023</div><Mono size={26} color={COL.steel2}>SECURITY NEWS</Mono></div><div style={{ marginTop: 18 }}><Title size={70} color="#fff">"IRONKEY CRACKED?"</Title></div>{t > tUnc && <div style={{ marginTop: 14 }}><Mono size={30} color={COL.cyan}>UNCIPHERED · A SECURITY COMPANY</Mono></div>}</div></Pop>}
         {t >= tWired && !servers && <>
           {/* steel tray + test unit */}
           <div style={{ position: 'absolute', left: 460, top: 760, width: 1000, height: 60, borderRadius: 14, background: 'linear-gradient(180deg,#e8edf3,#aab4c3)', boxShadow: '0 30px 60px rgba(0,0,0,.25)' }} />
@@ -192,7 +193,7 @@ export const A5: React.FC = () => {
       <AbsoluteFill style={{ filter: fr ? 'grayscale(.85) contrast(1.1)' : undefined }}>
         <AbsoluteFill style={{ background: 'linear-gradient(90deg,#cfe7f0 0 50%,#101626 50% 100%)' }} />
         <div style={{ position: 'absolute', left: 958, top: 0, width: 4, height: 1080, background: '#000' }} />
-        <div style={{ position: 'absolute', left: 480, top: 380, transform: 'translate(-50%,-50%)', textAlign: 'center' }}><Icon name="ph:phone-call-fill" size={160} color="#0b3a4a" /><div style={{ marginTop: 10 }}><Mono size={30} color="#0b3a4a">UNCIPHERED</Mono></div>{t > tLetUs && <div style={{ marginTop: 18, padding: '14px 26px', borderRadius: 16, background: '#fff', fontFamily: fonts.head, fontWeight: 900, fontSize: 40, color: '#0b3a4a' }}>"Let us unlock it."</div>}</div>
+        <div style={{ position: 'absolute', left: 480, top: 380, transform: 'translate(-50%,-50%)', textAlign: 'center' }}><Icon name="ph:phone-call-fill" size={160} color="#0b3a4a" /><div style={{ marginTop: 10 }}><Mono size={30} color="#0b3a4a">UNCIPHERED</Mono></div>{t > tLetUs && <div style={{ marginTop: 18, padding: '14px 26px', borderRadius: 16, background: '#fff', ...fonts.H, fontWeight: 900, fontSize: 40, color: '#0b3a4a' }}>"Let us unlock it."</div>}</div>
         <Person kind="stefan" x={1440} y={1120} size={520} mood={declined ? 'neutral' : 'focused'} seed={54} look={-1} />
         <div style={{ position: 'absolute', left: 1180, top: 300, transform: `rotate(${!declined ? Math.sin(t * 50) * 6 : 0}deg)` }}><Icon name="ph:device-mobile-bold" size={150} color={C.ink} /></div>
         {declined && <Stamp x={1240} y={380} at={tSaidNo - 0.02} text="DECLINED" size={90} rot={-8} />}
@@ -203,10 +204,10 @@ export const A5: React.FC = () => {
       <AbsoluteFill>
         <Vault light={0.5} pedestal={false} />
         {t < tReports - 0.1 ? <>
-          <div style={{ position: 'absolute', left: 960, top: 500, transform: `translate(-50%,-50%) scale(${springAt(f, fps, tWhy - 0.05, { damping: 10, stiffness: 200 })})`, fontFamily: fonts.head, fontWeight: 900, fontSize: 520, color: COL.red, lineHeight: 1, textShadow: `0 0 80px ${COL.red}88` }}>?</div>
+          <div style={{ position: 'absolute', left: 960, top: 500, transform: `translate(-50%,-50%) scale(${springAt(f, fps, tWhy - 0.05, { damping: 10, stiffness: 200 })})`, ...fonts.H, fontWeight: 900, fontSize: 520, color: COL.red, lineHeight: 1, textShadow: `0 0 80px ${COL.red}88` }}>?</div>
           <div style={{ position: 'absolute', left: 1380, top: 160, transformOrigin: '50% 0', transform: `rotate(${swing}deg)` }}><div style={{ width: 4, height: 140, background: '#8c97a8', margin: '0 auto' }} /><div style={{ padding: '14px 26px', borderRadius: 14, background: 'rgba(7,11,22,.9)', border: `3px solid ${COL.gold}`, fontFamily: fonts.mono, fontWeight: 700, fontSize: 48, color: COL.gold, whiteSpace: 'nowrap' }}>≈ $580M</div></div>
         </> : <>
-          <Pop x={760} y={480} at={tTeam - 0.1}><div style={{ width: 760, padding: '36px 44px', borderRadius: 16, background: '#f4efe2', boxShadow: '0 30px 80px rgba(0,0,0,.5)', fontFamily: fonts.head, color: '#2a2a35' }}>
+          <Pop x={760} y={480} at={tTeam - 0.1}><div style={{ width: 760, padding: '36px 44px', borderRadius: 16, background: '#f4efe2', boxShadow: '0 30px 80px rgba(0,0,0,.5)', ...fonts.H, color: '#2a2a35' }}>
             <Mono size={22} color="#6b6250">AGREEMENT · ACCORDING TO REPORTS</Mono>
             <div style={{ fontWeight: 900, fontSize: 56, marginTop: 14 }}>ANOTHER TEAM</div>
             {t > tShare && <div style={{ fontWeight: 800, fontSize: 38, color: '#b3261e', marginTop: 8 }}>gets a share if they succeed</div>}

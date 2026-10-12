@@ -9,7 +9,7 @@ const KEY_RED = /^(microphone|mic|listening|recording|recorded|standby|offline|u
 const KEY_CYAN = /^(lg|wi-fi|network|internet|devices|router|tv|tvs|smart|acr|whisper|chip|buffer|wake|word|settings|guest|streaming)$/i;
 
 type Word = { w: string; s: number; e: number };
-export const Captions: React.FC<{ hide?: [number, number][]; y?: number; words?: Word[]; keyRed?: RegExp; keyCyan?: RegExp }> = ({ hide = [], y = 968, words = TL.words, keyRed = KEY_RED, keyCyan = KEY_CYAN }) => {
+export const Captions: React.FC<{ hide?: [number, number][]; y?: number; words?: Word[]; keyRed?: RegExp; keyCyan?: RegExp; font?: string; serifKeys?: boolean }> = ({ hide = [], y = 968, words = TL.words, keyRed = KEY_RED, keyCyan = KEY_CYAN, font = fonts.head, serifKeys = false }) => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = f / fps;
@@ -33,7 +33,7 @@ export const Captions: React.FC<{ hide?: [number, number][]; y?: number; words?:
   const pin = clamp((ms - page.startMs) / 120);
   return (
     <div style={{ position: 'absolute', left: 0, right: 0, top: y, display: 'flex', justifyContent: 'center', pointerEvents: 'none' }}>
-      <div style={{ padding: '10px 26px', borderRadius: 16, background: 'rgba(3,6,14,0.55)', transform: `translateY(${(1 - pin) * 14}px)`, opacity: pin, fontFamily: fonts.head, fontWeight: 800, fontSize: 50, letterSpacing: '-0.01em', color: C.ink, whiteSpace: 'nowrap', textShadow: '0 4px 18px rgba(0,0,0,.8)' }}>
+      <div style={{ padding: '10px 26px', borderRadius: 16, background: 'rgba(3,6,14,0.55)', transform: `translateY(${(1 - pin) * 14}px)`, opacity: pin, fontFamily: font, fontWeight: 800, fontSize: 50, letterSpacing: serifKeys ? '-0.025em' : '-0.01em', color: C.ink, whiteSpace: 'nowrap', textShadow: '0 4px 18px rgba(0,0,0,.8)' }}>
         {page.tokens.map((tok, i) => {
           const word = tok.text.trim().replace(/[.,!?…:;"“”]/g, '');
           const active = ms >= tok.fromMs && ms < tok.toMs;
@@ -41,7 +41,7 @@ export const Captions: React.FC<{ hide?: [number, number][]; y?: number; words?:
           const color = keyRed.test(word) ? C.red : keyCyan.test(word) ? C.cyan : C.ink;
           const pop = active ? 1 + 0.07 * clamp(1 - (ms - tok.fromMs) / 160) : 1;
           return (
-            <span key={i} style={{ display: 'inline-block', marginRight: i < page.tokens.length - 1 ? '0.34em' : 0, transformOrigin: '50% 80%', transform: `scale(${pop})`, color: active || past ? color : 'rgba(238,243,251,0.55)', textShadow: active && color !== C.ink ? `0 0 22px ${color}aa` : undefined }}>{tok.text.trim()}</span>
+            <span key={i} style={{ display: 'inline-block', marginRight: i < page.tokens.length - 1 ? '0.34em' : 0, transformOrigin: '50% 80%', transform: `scale(${pop})`, ...(serifKeys && color !== C.ink ? { fontFamily: "'Instrument Serif', serif", fontStyle: 'italic', fontWeight: 400, fontSize: '1.2em', lineHeight: 0.9, letterSpacing: '-0.01em' } : {}), color: active || past ? color : 'rgba(238,243,251,0.55)', textShadow: active && color !== C.ink ? `0 0 22px ${color}aa` : undefined }}>{tok.text.trim()}</span>
           );
         })}
       </div>

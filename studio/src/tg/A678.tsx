@@ -4,7 +4,8 @@
 import React from 'react';
 import { AbsoluteFill } from 'remotion';
 import { Icon } from '../components/Icon';
-import { C, fonts } from '../lib/theme';
+import { C } from '../lib/theme';
+import { fonts } from './type';
 import { EASE, ramp, springAt, clamp, lerp, rng } from '../lib/time';
 import type { SfxEvent } from '../lib/sfx';
 import { TTL, C0, C1, P, PE } from './ttime';
@@ -14,15 +15,14 @@ import { Chip } from '../cpu/chars';
 import { Cell } from '../cpu/fx';
 
 // ================================================================ ACT 6 · he's not alone
-const tAlone = C0(54), tWales = C0(55), tThrew = P(55, 'threw away'), t8000 = P(55, 'eight thousand'), tBuried = P(55, "It's buried"), tYears = P(55, 'He spent'), tLost = P(55, 'he lost');
-const tEst = C0(56), tFive = P(56, 'up to one in five'), tForgot = P(56, 'Forgotten passwords'), tThrown = P(56, 'Thrown-out'), tOwners = P(56, 'Owners who');
+const tAlone = C0(56), tWales = C0(57), tThrew = P(57, 'threw away'), t8000 = P(57, 'eight thousand'), tBuried = P(57, "It's buried"), tYears = P(57, 'He spent'), tLost = P(57, 'he lost');
+const tEst = C0(58), tFive = P(58, 'up to one in five'), tForgot = P(58, 'lost forever');
 export const a6NoCaptions: [number, number][] = [];
 export const a6Sfx: SfxEvent[] = [
   { t: tAlone, name: 'whooshDeep', vol: 0.4, note: 'pull back' }, { t: tWales - 0.1, name: 'swooshSlow', vol: 0.3 },
   { t: tThrew, name: 'paperSlide', vol: 0.3, note: 'drive tossed' }, { t: t8000, name: 'coins', vol: 0.35 }, { t: tBuried, name: 'whooshDeep', vol: 0.35, note: 'dig down' },
   { t: tYears, name: 'pagesFast', vol: 0.3 }, { t: tLost - 0.03, name: 'woodHit', vol: 0.75, note: 'gavel' }, { t: tLost + 0.3, name: 'sadTromboneSlow', vol: 0.25, dur: 1.6 },
   { t: tFive - 0.05, name: 'darkSweep', vol: 0.4, note: '1 in 5' }, { t: tFive + 0.6, name: 'fallWhistle', vol: 0.3 },
-  { t: tForgot, name: 'popUi', vol: 0.3 }, { t: tThrown, name: 'popUi', vol: 0.3 }, { t: tOwners, name: 'popUi', vol: 0.3 },
 ];
 export const A6: React.FC = () => {
   const { f, fps, t } = useTF();
@@ -53,27 +53,26 @@ export const A6: React.FC = () => {
         </AbsoluteFill>
         {/* rain */}
         <AbsoluteFill>{Array.from({ length: 70 }, (_, i) => { const x = r() * 1960, sp = 900 + r() * 500, y = ((t * sp + r() * 1100) % 1160) - 60; return <div key={i} style={{ position: 'absolute', left: x, top: y, width: 2, height: 34, background: 'rgba(220,230,240,.35)', transform: 'rotate(12deg)' }} />; })}</AbsoluteFill>
-        <div style={{ position: 'absolute', left: 80, top: 60, padding: '8px 18px', borderRadius: 10, background: 'rgba(7,11,22,.75)' }}><Mono size={26} color={C.ink}>NEWPORT, WALES · 2013</Mono></div>
+        <div style={{ position: 'absolute', left: 140, top: 96, padding: '8px 18px', borderRadius: 10, background: 'rgba(7,11,22,.75)' }}><Mono size={26} color={C.ink}>NEWPORT, WALES · 2013</Mono></div>
         {t > tLost - 0.05 && <Stamp x={1300} y={300} at={tLost - 0.03} text="CASE DISMISSED · 2025" size={64} rot={-6} />}
       </AbsoluteFill>
     );
   }
   // one in five
   const lost = ramp(t, tFive + 0.3, 0.8, EASE.in);
-  const grid = ramp(t, tForgot - 0.6, 0.8);
+  const grid = ramp(t, tFive - 0.4, 0.8);
   return (
     <AbsoluteFill>
       <Vault light={0.35} pedestal={false} />
       {grid < 1 && <div style={{ opacity: 1 - grid }}>{[0, 1, 2, 3, 4].map((i) => <Coin key={i} x={560 + i * 200} y={460 + (i === 4 ? lost * lost * 700 : 0)} size={170} spin={i === 4 ? lost * 6 : 0} grey={i === 4 ? lost : 0} />)}</div>}
       {grid > 0 && <div style={{ position: 'absolute', left: 960, top: 470, transform: 'translate(-50%,-50%)', display: 'grid', gridTemplateColumns: 'repeat(20, 54px)', gap: 10, opacity: grid }}>{Array.from({ length: 100 }, (_, i) => { const gone = (i * 37) % 5 === 0; const fade = gone ? ramp(t, tForgot + (i % 20) * 0.04, 0.6) : 0; return <div key={i} style={{ width: 54, height: 54, borderRadius: '50%', background: gone && fade > 0.5 ? '#2a2f3d' : 'radial-gradient(circle at 35% 30%, #fff1b8, #f7b23b 50%, #b07a10)', opacity: 1 - fade * 0.7 }} />; })}</div>}
       <Pop x={960} y={150} at={tFive - 0.05}><div style={{ textAlign: 'center' }}><Title size={84} color={COL.gold}>UP TO 1 IN 5 BITCOINS</Title><div style={{ marginTop: 6 }}><Mono size={24} color={C.dim}>MAY BE LOST FOREVER · CHAINALYSIS ESTIMATE (2017)</Mono></div></div></Pop>
-      {[[tForgot, 'ph:password-bold', 'FORGOTTEN PASSWORDS', 480], [tThrown, 'ph:trash-bold', 'THROWN-OUT DRIVES', 960], [tOwners, 'ph:users-three-bold', 'NOBODY ELSE KNEW', 1440]].map(([at, ic, lb, x]) => <Pop key={lb as string} x={x as number} y={820} at={(at as number) - 0.05}><div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: '12px 22px', borderRadius: 14, background: 'rgba(7,11,22,.88)', border: '2px solid rgba(255,255,255,.12)', fontFamily: fonts.head, fontWeight: 900, fontSize: 30, color: C.ink, whiteSpace: 'nowrap' }}><Icon name={ic as string} size={36} color={COL.red} />{lb as string}</div></Pop>)}
     </AbsoluteFill>
   );
 };
 
 // ================================================================ ACT 7 · protect yourself
-const tHow = C0(57), tT1 = C0(58), tT2 = C0(59), tNotOne = P(59, 'Not one piece'), tT3 = C0(60), tT4 = C0(61), tStefan = C0(62), tDep = P(62, 'He said he was'), tForward = P(62, 'look forward');
+const tHow = C0(59), tT1 = C0(60), tT2 = C0(61), tNotOne = P(61, 'Not one piece'), tT3 = C0(62), tT4 = C0(63), tStefan = C0(64), tDep = P(64, 'He said he was'), tForward = P(64, 'look forward');
 const TIPS = [
   { at: tT1, icon: 'ph:key-fill', a: 'USE A', b: 'PASSWORD MANAGER' },
   { at: tT2, icon: 'ph:vault-bold', a: 'RECOVERY CODES IN', b: 'TWO SAFE PLACES' },
@@ -93,17 +92,17 @@ export const A7: React.FC = () => {
     return (
       <AbsoluteFill>
         <AbsoluteFill style={{ background: 'radial-gradient(ellipse at 30% 40%, #10323a, #050b12 72%)' }} />
-        <Pop x={480} y={460} at={tHow - 0.1}><div style={{ textAlign: 'center' }}><Icon name="ph:shield-check-fill" size={180} color={COL.green} /><div style={{ marginTop: 10 }}><Title size={50}>DON'T LET YOUR<br />HARDWARE FORGET YOU</Title></div></div></Pop>
+        <Pop x={450} y={460} at={tHow - 0.1}><div style={{ textAlign: 'center' }}><Icon name="ph:shield-check-fill" size={180} color={COL.green} /><div style={{ marginTop: 10 }}><Title size={50}>DON'T LET YOUR<br />HARDWARE FORGET YOU</Title></div></div></Pop>
         {TIPS.map((x, k) => {
           if (t < x.at - 0.1) return null;
           const s = springAt(f, fps, x.at - 0.08, { damping: 15, stiffness: 180 });
           const done = t > x.at + 1.4;
-          const cx = 1160 + (k % 2) * 470, cy = 330 + Math.floor(k / 2) * 340;
+          const cx = 1090 + (k % 2) * 455, cy = 330 + Math.floor(k / 2) * 340;
           return (
             <div key={k} style={{ position: 'absolute', left: cx, top: cy, width: 430, height: 290, transform: `translate(-50%,-50%) translateY(${(1 - s) * 50}px)`, opacity: clamp(s * 1.6), borderRadius: 24, background: 'linear-gradient(160deg,#122636,#0a1520)', border: `3px solid ${done ? COL.green : 'rgba(255,255,255,.12)'}`, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 14, textAlign: 'center' }}>
-              <div style={{ position: 'absolute', left: 18, top: 12, fontFamily: fonts.head, fontWeight: 900, fontSize: 34, color: C.dim }}>{k + 1}</div>
+              <div style={{ position: 'absolute', left: 18, top: 12, ...fonts.H, fontWeight: 900, fontSize: 34, color: C.dim }}>{k + 1}</div>
               <Icon name={x.icon} size={86} color={done ? COL.green : C.ink} />
-              <div style={{ fontFamily: fonts.head, fontWeight: 800, fontSize: 28, color: C.ink, lineHeight: 1.15 }}>{x.a}<br /><span style={{ color: COL.cyan, fontWeight: 900 }}>{x.b}</span></div>
+              <div style={{ ...fonts.H, fontWeight: 800, fontSize: 28, color: C.ink, lineHeight: 1.15 }}>{x.a}<br /><span style={{ color: COL.cyan, fontWeight: 900 }}>{x.b}</span></div>
               {done && <div style={{ position: 'absolute', right: -18, top: -18, width: 64, height: 64, borderRadius: '50%', background: COL.green, display: 'flex', alignItems: 'center', justifyContent: 'center', transform: `scale(${springAt(f, fps, x.at + 1.4, { damping: 9, stiffness: 260 })})` }}><Icon name="ph:check-bold" size={40} color="#052014" /></div>}
             </div>
           );
@@ -130,7 +129,7 @@ export const A7: React.FC = () => {
 };
 
 // ================================================================ ACT 8 · outro
-const tQ = C0(63), tTwoG = P(63, 'Two guesses'), tWould = P(63, 'Would you'), tHand = P(63, 'or hand'), tTell = P(63, 'Tell me'), tNext = C0(64), tChip = C0(65), tIke = C0(66), tEnd = C1(66);
+const tQ = C0(65), tTwoG = P(65, 'Two guesses'), tWould = P(65, 'Would you'), tHand = P(65, 'or hand'), tTell = P(65, 'Tell me'), tNext = C0(66), tChip = C0(67), tIke = C0(68), tEnd = C1(68);
 export const a8NoCaptions: [number, number][] = [[tEnd + 0.2, TTL.duration + 1]];
 export const a8Sfx: SfxEvent[] = [
   { t: tTwoG, name: 'heartbeat', vol: 0.45 }, { t: tWould - 0.05, name: 'drumRoll', vol: 0.3, dur: 1.4 }, { t: tTell, name: 'clickModern', vol: 0.4, note: 'cursor' },
@@ -147,8 +146,8 @@ export const A8: React.FC = () => {
         <Vault light={0.55} />
         <Ike x={960} y={812} size={360} count={8} eye="smug" seed={81} />
         {t > tWould - 0.1 && <>
-          <Pop x={560} y={300} at={tWould - 0.05}><div style={{ padding: '26px 44px', borderRadius: 20, background: COL.red, fontFamily: fonts.head, fontWeight: 900, fontSize: 50, color: '#fff', boxShadow: `0 0 40px ${COL.red}88`, transform: `scale(${1 + Math.max(0, -hover) * 0.06})` }}>TRY IT MYSELF</div></Pop>
-          <Pop x={1360} y={300} at={tHand - 0.05}><div style={{ padding: '26px 44px', borderRadius: 20, background: COL.cyan, fontFamily: fonts.head, fontWeight: 900, fontSize: 50, color: '#04121a', boxShadow: `0 0 40px ${COL.cyan}88`, transform: `scale(${1 + Math.max(0, hover) * 0.06})` }}>CALL THE HACKER</div></Pop>
+          <Pop x={560} y={300} at={tWould - 0.05}><div style={{ padding: '26px 44px', borderRadius: 20, background: COL.red, ...fonts.H, fontWeight: 900, fontSize: 50, color: '#fff', boxShadow: `0 0 40px ${COL.red}88`, transform: `scale(${1 + Math.max(0, -hover) * 0.06})` }}>TRY IT MYSELF</div></Pop>
+          <Pop x={1360} y={300} at={tHand - 0.05}><div style={{ padding: '26px 44px', borderRadius: 20, background: COL.cyan, ...fonts.H, fontWeight: 900, fontSize: 50, color: '#04121a', boxShadow: `0 0 40px ${COL.cyan}88`, transform: `scale(${1 + Math.max(0, hover) * 0.06})` }}>CALL THE HACKER</div></Pop>
           {t > tHand && <div style={{ position: 'absolute', left: 960 + hover * 380, top: 330, filter: 'drop-shadow(0 6px 10px rgba(0,0,0,.5))' }}><Icon name="ph:hand-pointing-fill" size={90} color="#fff" /></div>}
           {t > tTell && <Pop x={960} y={470} at={tTell}><Mono size={32} color={COL.steel2}>TELL ME IN THE COMMENTS ↓</Mono></Pop>}
         </>}
@@ -182,7 +181,7 @@ export const A8: React.FC = () => {
         <Vault light={1 - fade * 0.6} />
         <Ike x={960} y={812} size={480} count={8} eye="narrow" glow={1 - fade * 0.8} talk={t < tEnd ? Math.abs(Math.sin(t * 16)) : 0} seed={83} />
       </AbsoluteFill>
-      {t > tEnd + 0.4 && <div style={{ position: 'absolute', left: 960, top: 960, transform: 'translate(-50%,-50%)', opacity: ramp(t, tEnd + 0.4, 0.6), fontFamily: fonts.head, fontWeight: 900, fontSize: 64, color: C.ink, whiteSpace: 'nowrap' }}>Mechivio<span style={{ color: COL.cyan }}>Tech</span></div>}
+      {t > tEnd + 0.4 && <div style={{ position: 'absolute', left: 960, top: 960, transform: 'translate(-50%,-50%)', opacity: ramp(t, tEnd + 0.4, 0.6), ...fonts.H, fontWeight: 900, fontSize: 64, color: C.ink, whiteSpace: 'nowrap' }}>Mechivio<span style={{ color: COL.cyan }}>Tech</span></div>}
     </AbsoluteFill>
   );
 };
