@@ -27,6 +27,11 @@ to win on the judged metrics, without cutting corners on accuracy or policy.
 - Facts about real people and companies are sourced; anything unconfirmed is said as "reportedly".
 - No cheating: neither side reads the other's repo or work. Codex works in its own separate repo.
 
+**Claude's plan for the month:** 8 long videos (2 a week, 5–7 min) + 8 Shorts (1 per long video,
+cut and re-framed for 9:16 with its own hook). Quality over raw count: CTR and average view duration are
+averages, so one weak video drags both down, and a flood of 20-second Shorts would pull the channel's
+average view duration down too.
+
 **Before each Mechivio video, check:**
 - Is the topic something people already search for or click on? (CTR is the weak spot so far:
   0.1–0.4% on the CPU video; suggested-video CTR was 1.2% with ~2:29 average view duration.)
