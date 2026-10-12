@@ -1,0 +1,715 @@
+1
+00:00:00,600 --> 00:00:02,520
+Imagine it's Friday morning.
+
+2
+00:00:02,720 --> 00:00:04,740
+You're at the airport, coffee in hand,
+
+3
+00:00:04,760 --> 00:00:05,800
+ready to fly.
+
+4
+00:00:06,039 --> 00:00:07,559
+And then every screen in the building
+
+5
+00:00:07,579 --> 00:00:08,859
+turns blue.
+
+6
+00:00:08,964 --> 00:00:10,164
+The check-in desks.
+
+7
+00:00:10,384 --> 00:00:11,484
+The departure boards.
+
+8
+00:00:11,504 --> 00:00:12,144
+The gates.
+
+9
+00:00:12,164 --> 00:00:12,944
+All of them.
+
+10
+00:00:12,964 --> 00:00:14,284
+Same blue screen.
+
+11
+00:00:14,449 --> 00:00:16,129
+And it's not just your airport.
+
+12
+00:00:16,409 --> 00:00:18,629
+It's happening in banks, hospitals,
+
+13
+00:00:18,689 --> 00:00:20,689
+supermarkets, TV stations…
+
+14
+00:00:20,709 --> 00:00:22,029
+all over the world.
+
+15
+00:00:22,169 --> 00:00:23,489
+At the same time.
+
+16
+00:00:23,727 --> 00:00:26,647
+This was July 19th, 2024.
+
+17
+00:00:26,967 --> 00:00:28,307
+And it wasn't a hack.
+
+18
+00:00:28,487 --> 00:00:29,807
+It was one file.
+
+19
+00:00:30,007 --> 00:00:32,707
+A file smaller than a photo on your phone.
+
+20
+00:00:32,867 --> 00:00:35,727
+With one tiny thing too many inside it.
+
+21
+00:00:35,804 --> 00:00:38,344
+This is how one extra number crashed eight
+
+22
+00:00:38,364 --> 00:00:40,084
+and a half million computers.
+
+23
+00:00:42,428 --> 00:00:44,248
+To understand what happened,
+
+24
+00:00:44,328 --> 00:00:45,748
+you need to meet the guard.
+
+25
+00:00:45,930 --> 00:00:46,530
+Hello.
+
+26
+00:00:46,550 --> 00:00:47,950
+I protect your computer.
+
+27
+00:00:48,050 --> 00:00:49,590
+Very important job.
+
+28
+00:00:49,795 --> 00:00:53,115
+Big companies don't just use normal antivirus.
+
+29
+00:00:53,495 --> 00:00:55,235
+They use security software like
+
+30
+00:00:55,255 --> 00:00:56,935
+CrowdStrike Falcon,
+
+31
+00:00:57,155 --> 00:00:59,435
+a guard that watches everything happening
+
+32
+00:00:59,455 --> 00:01:02,055
+on the computer, all the time.
+
+33
+00:01:02,081 --> 00:01:04,121
+And to see everything, the guard doesn't
+
+34
+00:01:04,141 --> 00:01:05,761
+stand at the front door.
+
+35
+00:01:05,941 --> 00:01:07,501
+It lives in the basement.
+
+36
+00:01:07,710 --> 00:01:09,830
+That basement is called the kernel.
+
+37
+00:01:10,210 --> 00:01:11,970
+It's the deepest part of Windows,
+
+38
+00:01:12,170 --> 00:01:14,210
+where the computer talks directly to its
+
+39
+00:01:14,230 --> 00:01:15,250
+own hardware.
+
+40
+00:01:15,507 --> 00:01:18,707
+Down there, the guard can stop almost any attack.
+
+41
+00:01:18,787 --> 00:01:19,967
+But there's a catch.
+
+42
+00:01:20,147 --> 00:01:22,207
+In the kernel, there's no such thing as a
+
+43
+00:01:22,227 --> 00:01:23,547
+small mistake.
+
+44
+00:01:23,963 --> 00:01:26,643
+If a normal app crashes, the app closes.
+
+45
+00:01:27,063 --> 00:01:28,923
+If something in the kernel crashes,
+
+46
+00:01:29,123 --> 00:01:31,934
+Windows has no safe way to keep going.
+
+47
+00:01:31,954 --> 00:01:34,454
+So it does the only safe thing it can.
+
+48
+00:01:34,634 --> 00:01:35,954
+It stops everything.
+
+49
+00:01:36,194 --> 00:01:37,914
+And shows you a blue screen.
+
+50
+00:01:38,524 --> 00:01:41,564
+Now, hackers invent new tricks every day.
+
+51
+00:01:41,744 --> 00:01:43,804
+So the guard needs new instructions every
+
+52
+00:01:43,824 --> 00:01:44,884
+day too.
+
+53
+00:01:44,942 --> 00:01:47,202
+CrowdStrike sends those instructions in
+
+54
+00:01:47,222 --> 00:01:49,782
+small update files, straight to millions
+
+55
+00:01:49,802 --> 00:01:50,802
+of computers.
+
+56
+00:01:51,402 --> 00:01:52,162
+No restart.
+
+57
+00:01:52,642 --> 00:01:54,062
+No button to click.
+
+58
+00:01:54,102 --> 00:01:55,062
+They just arrive.
+
+59
+00:01:55,364 --> 00:01:56,984
+Think of it like a delivery.
+
+60
+00:01:57,564 --> 00:01:59,524
+Every package comes with a form,
+
+61
+00:01:59,544 --> 00:02:01,884
+and the guard knows exactly how many boxes
+
+62
+00:02:01,904 --> 00:02:03,424
+are on that form.
+
+63
+00:02:03,555 --> 00:02:05,775
+For one type of form, the guard expected
+
+64
+00:02:05,795 --> 00:02:07,215
+twenty boxes.
+
+65
+00:02:07,662 --> 00:02:10,142
+At 4:09 in the morning, UTC,
+
+66
+00:02:10,422 --> 00:02:12,162
+a new update went out.
+
+67
+00:02:12,322 --> 00:02:14,222
+And that form had twenty-one.
+
+68
+00:02:14,292 --> 00:02:15,092
+Seventeen.
+
+69
+00:02:15,112 --> 00:02:15,792
+Eighteen.
+
+70
+00:02:15,812 --> 00:02:16,632
+Nineteen.
+
+71
+00:02:16,652 --> 00:02:17,372
+Twenty…
+
+72
+00:02:17,622 --> 00:02:18,502
+Twenty…
+
+73
+00:02:18,622 --> 00:02:19,262
+one?
+
+74
+00:02:19,784 --> 00:02:21,504
+When the guard reached for box number
+
+75
+00:02:21,524 --> 00:02:24,044
+twenty-one, it reached into memory that
+
+76
+00:02:24,064 --> 00:02:25,624
+didn't belong to it.
+
+77
+00:02:25,684 --> 00:02:27,504
+And in the kernel, that's fatal.
+
+78
+00:02:27,781 --> 00:02:28,561
+Crash.
+
+79
+00:02:29,296 --> 00:02:31,016
+But here's the cruel part.
+
+80
+00:02:31,256 --> 00:02:32,676
+When the computer restarted,
+
+81
+00:02:32,696 --> 00:02:35,096
+the guard woke up first, read the same
+
+82
+00:02:35,116 --> 00:02:36,336
+file again…
+
+83
+00:02:36,462 --> 00:02:37,602
+…and crashed again.
+
+84
+00:02:37,622 --> 00:02:38,362
+And again.
+
+85
+00:02:38,382 --> 00:02:39,202
+And again.
+
+86
+00:02:39,831 --> 00:02:41,951
+Within minutes, the blue screens spread
+
+87
+00:02:41,971 --> 00:02:43,251
+across the planet.
+
+88
+00:02:43,373 --> 00:02:44,773
+Flights were grounded.
+
+89
+00:02:45,013 --> 00:02:47,273
+Hospitals went back to pen and paper.
+
+90
+00:02:47,633 --> 00:02:48,973
+Payment machines stopped.
+
+91
+00:02:49,253 --> 00:02:51,733
+Some TV channels went off the air.
+
+92
+00:02:51,798 --> 00:02:54,558
+Microsoft later estimated that eight and a
+
+93
+00:02:54,578 --> 00:02:57,378
+half million Windows computers went down.
+
+94
+00:02:57,501 --> 00:02:59,261
+And here's the crazy part:
+
+95
+00:02:59,541 --> 00:03:01,321
+that was less than one percent of all
+
+96
+00:03:01,341 --> 00:03:02,641
+Windows machines.
+
+97
+00:03:03,095 --> 00:03:04,635
+Less than one percent.
+
+98
+00:03:04,855 --> 00:03:06,355
+But it was the one percent that runs
+
+99
+00:03:06,375 --> 00:03:08,615
+airports, banks and hospitals.
+
+100
+00:03:09,275 --> 00:03:11,115
+If this kind of story is your thing,
+
+101
+00:03:11,135 --> 00:03:12,115
+hit subscribe.
+
+102
+00:03:12,635 --> 00:03:15,035
+It's free, and unlike this update,
+
+103
+00:03:15,055 --> 00:03:16,535
+it won't crash anything.
+
+104
+00:03:16,842 --> 00:03:19,422
+CrowdStrike spotted the problem fast.
+
+105
+00:03:19,862 --> 00:03:21,662
+About an hour and twenty minutes after the
+
+106
+00:03:21,682 --> 00:03:23,813
+update went out, they pulled it.
+
+107
+00:03:23,833 --> 00:03:25,433
+Problem solved, right?
+
+108
+00:03:25,634 --> 00:03:26,834
+Not even close.
+
+109
+00:03:27,274 --> 00:03:28,974
+Because a computer stuck in a crash loop
+
+110
+00:03:28,994 --> 00:03:30,714
+can't download a fix.
+
+111
+00:03:31,105 --> 00:03:33,365
+So the fix had to be done by hand.
+
+112
+00:03:33,625 --> 00:03:35,465
+Someone had to walk up to each broken
+
+113
+00:03:35,485 --> 00:03:38,385
+computer, start it in safe mode,
+
+114
+00:03:38,405 --> 00:03:40,584
+find one file, and delete it.
+
+115
+00:03:40,604 --> 00:03:42,504
+One computer at a time.
+
+116
+00:03:42,704 --> 00:03:45,184
+Now imagine you're the IT person,
+
+117
+00:03:45,244 --> 00:03:47,904
+and your company has fifty thousand of them.
+
+118
+00:03:47,997 --> 00:03:50,117
+And many of those machines were encrypted
+
+119
+00:03:50,137 --> 00:03:51,557
+with BitLocker.
+
+120
+00:03:51,837 --> 00:03:54,277
+So before you could even delete the file,
+
+121
+00:03:54,337 --> 00:03:56,537
+you needed a long recovery key.
+
+122
+00:03:56,717 --> 00:03:58,297
+For every single machine.
+
+123
+00:03:58,705 --> 00:04:00,885
+Some companies reportedly kept those keys
+
+124
+00:04:00,905 --> 00:04:02,505
+on servers…
+
+125
+00:04:02,525 --> 00:04:03,745
+that had also crashed.
+
+126
+00:04:04,442 --> 00:04:05,662
+It took days.
+
+127
+00:04:05,922 --> 00:04:08,682
+CrowdStrike said that by July 29th,
+
+128
+00:04:08,702 --> 00:04:10,122
+ten days later,
+
+129
+00:04:10,282 --> 00:04:12,182
+about ninety-nine percent of its Windows
+
+130
+00:04:12,202 --> 00:04:14,142
+sensors were back online.
+
+131
+00:04:14,468 --> 00:04:17,168
+So how much did one extra number cost?
+
+132
+00:04:17,349 --> 00:04:19,569
+Delta Air Lines says it had to cancel
+
+133
+00:04:19,589 --> 00:04:21,829
+about seven thousand flights,
+
+134
+00:04:21,869 --> 00:04:24,389
+affecting more than a million passengers.
+
+135
+00:04:25,049 --> 00:04:27,509
+It sued CrowdStrike for over five hundred
+
+136
+00:04:27,529 --> 00:04:28,909
+million dollars.
+
+137
+00:04:29,109 --> 00:04:31,849
+CrowdStrike says Delta's own slow recovery
+
+138
+00:04:31,869 --> 00:04:34,069
+was the real problem.
+
+139
+00:04:34,298 --> 00:04:36,498
+An insurance firm called Parametrix
+
+140
+00:04:36,518 --> 00:04:39,138
+estimated that the biggest US companies
+
+141
+00:04:39,158 --> 00:04:43,638
+alone lost about five point four billion dollars.
+
+142
+00:04:43,894 --> 00:04:45,654
+And to say sorry to the partners who
+
+143
+00:04:45,674 --> 00:04:48,374
+helped clean up, CrowdStrike sent them a
+
+144
+00:04:48,394 --> 00:04:50,954
+ten dollar Uber Eats gift card.
+
+145
+00:04:51,194 --> 00:04:53,114
+Which some people couldn't use…
+
+146
+00:04:53,134 --> 00:04:55,094
+because Uber flagged it as fraud.
+
+147
+00:04:55,826 --> 00:04:56,966
+Ten dollars.
+
+148
+00:04:56,986 --> 00:04:59,186
+For a five billion dollar Friday.
+
+149
+00:04:59,591 --> 00:05:01,811
+So how did a mistake this simple get past
+
+150
+00:05:01,831 --> 00:05:03,451
+a company this big?
+
+151
+00:05:03,488 --> 00:05:05,498
+According to CrowdStrike's own report,
+
+152
+00:05:05,518 --> 00:05:08,038
+the tool that was supposed to check these
+
+153
+00:05:08,058 --> 00:05:10,238
+files had a bug of its own.
+
+154
+00:05:10,418 --> 00:05:12,398
+It let the bad file through.
+
+155
+00:05:12,512 --> 00:05:15,280
+And the update went to everyone at once.
+
+156
+00:05:15,300 --> 00:05:16,673
+No small test group first.
+
+157
+00:05:16,693 --> 00:05:18,282
+No slow rollout.
+
+158
+00:05:18,537 --> 00:05:20,917
+Since then, CrowdStrike says it now checks
+
+159
+00:05:20,937 --> 00:05:22,397
+the number of fields,
+
+160
+00:05:22,577 --> 00:05:24,377
+sends updates in rings,
+
+161
+00:05:24,637 --> 00:05:26,977
+a small group first, then everyone,
+
+162
+00:05:27,157 --> 00:05:29,877
+and lets customers choose when they get them.
+
+163
+00:05:29,970 --> 00:05:32,290
+The lesson is bigger than one company.
+
+164
+00:05:32,590 --> 00:05:34,450
+The more of the world runs on the same
+
+165
+00:05:34,470 --> 00:05:35,550
+software,
+
+166
+00:05:35,690 --> 00:05:38,490
+the smaller the mistake it takes to stop it.
+
+167
+00:05:38,804 --> 00:05:40,424
+So here's my question.
+
+168
+00:05:40,744 --> 00:05:42,144
+Who's really to blame?
+
+169
+00:05:42,524 --> 00:05:44,444
+The company that shipped the file…
+
+170
+00:05:44,464 --> 00:05:46,364
+or a world that let one update reach
+
+171
+00:05:46,384 --> 00:05:48,604
+millions of computers at once?
+
+172
+00:05:48,924 --> 00:05:50,164
+Tell me in the comments.
+
+173
+00:05:50,399 --> 00:05:51,339
+And subscribe,
+
+174
+00:05:51,479 --> 00:05:53,759
+because next time, people found a way to
+
+175
+00:05:53,779 --> 00:05:56,039
+steal Instagram accounts…
+
+176
+00:05:56,059 --> 00:05:58,139
+by politely asking an AI.
+
+177
+00:05:58,565 --> 00:05:59,725
+Twenty boxes.
+
+178
+00:05:59,745 --> 00:06:00,805
+Always twenty.
+
+179
+00:06:00,905 --> 00:06:02,065
+I check now.

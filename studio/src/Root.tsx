@@ -10,6 +10,9 @@ import { CpuShort } from './cshort/Main';
 import { TgKit } from './tg/KitSheet';
 import { Test3D } from './tg3d/Test3D';
 import { TwoGuesses } from './tg/Main';
+import { BfKit } from './bf/KitSheet';
+import { BlueFriday } from './bf/Main';
+import { TTL as BTL } from './bf/ttime';
 import { TTL } from './tg/ttime';
 import { KTL } from './cshort/ktime';
 import { STL } from './short/stime';
@@ -106,6 +109,8 @@ export const Root: React.FC = () => (
     <Composition id="TwoGuesses" component={TwoGuesses} width={1920} height={1080} fps={FPS} durationInFrames={Math.ceil(TTL.duration * FPS)} />
     <Composition id="Test3D" component={Test3D} width={1920} height={1080} fps={FPS} durationInFrames={120} />
     <Composition id="TgKit" component={TgKit} width={1920} height={1080} fps={FPS} durationInFrames={90} />
+    <Composition id="BlueFriday" component={BlueFriday} width={1920} height={1080} fps={FPS} durationInFrames={Math.ceil(BTL.duration * FPS)} />
+    <Composition id="BfKit" component={BfKit} width={1920} height={1080} fps={FPS} durationInFrames={90} />
     <Composition id="CpuShort" component={CpuShort} width={1080} height={1920} fps={FPS} durationInFrames={Math.ceil(KTL.duration * FPS)} />
     <Composition id="Short" component={ShortMain} width={1080} height={1920} fps={FPS} durationInFrames={Math.ceil(STL.duration * FPS)} />
     {SECTIONS.map((s, i) => (

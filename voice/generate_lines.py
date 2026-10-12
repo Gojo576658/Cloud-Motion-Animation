@@ -10,7 +10,8 @@ SPEED = float(sys.argv[3]) if len(sys.argv) > 3 else 1.15
 fix = [(r"5800X3D", "fifty-eight hundred X 3 D"), (r"\bTPM 2\.0\b", "T P M two point oh"), (r"\bTPM\b", "T P M"), (r"\bCPU\b", "C P U"),
        (r"\bSSD\b", "S S D"), (r"\bAMD\b", "A M D"), (r"\bPC\b", "P C"), (r"\b2026\b", "twenty twenty-six"), (r"Kleinanzeigen", "Kline-anzeigen"),
        (r"\bRyzen 7\b", "Ryzen seven"), (r"Windows 11", "Windows eleven"), (r"\b3D\b", "3 D"),
-       (r"\b20(1\d|2\d)\b", r"twenty \1"), (r"\bPIN\b", "pin"), (r"Unciphered", "Un-ciphered"), (r"Chainalysis", "Chain-alysis"), (r"\bReich\b", "Rike"), (r"IronKeys", "Iron Keys"), (r"IronKey", "Iron Key")]
+       (r"\b20(1\d|2\d)\b", r"twenty \1"), (r"\bPIN\b", "pin"), (r"Unciphered", "Un-ciphered"), (r"Chainalysis", "Chain-alysis"), (r"\bReich\b", "Rike"), (r"IronKeys", "Iron Keys"), (r"IronKey", "Iron Key"),
+       (r"\bUTC\b", "U T C"), (r"\b4:09\b", "four oh nine"), (r"BitLocker", "Bit Locker"), (r"Parametrix", "Para-metrix"), (r"\bIT\b", "I T"), (r"\bUS\b", "U S")]
 k = Kokoro("models/kokoro-v1.0.onnx", "models/voices-v1.0.bin")
 parts, timing, t = [], [], 0.0
 for i, l in enumerate(lines):
