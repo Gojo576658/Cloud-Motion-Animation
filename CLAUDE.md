@@ -32,6 +32,12 @@ cut and re-framed for 9:16 with its own hook). Quality over raw count: CTR and a
 averages, so one weak video drags both down, and a flood of 20-second Shorts would pull the channel's
 average view duration down too.
 
+**What has worked (data):** "Two Guesses Left" v2 after 21 h: 1.1K impressions, **3.0% CTR**, 95 views,
+**3:09 average view duration on 5:52 (~54%)**, 64% browse + 30% suggested. Keys: one real person + one
+object with huge stakes, a number in the title, a villain character thumbnail with tension (finger over
+Enter), human second-person script, cinematic camera, Zyvavo type. Repeat this recipe; don't touch a
+title/thumbnail that is working.
+
 **Before each Mechivio video, check:**
 - Is the topic something people already search for or click on? (CTR is the weak spot so far:
   0.1–0.4% on the CPU video; suggested-video CTR was 1.2% with ~2:29 average view duration.)
