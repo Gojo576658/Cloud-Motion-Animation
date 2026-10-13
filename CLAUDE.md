@@ -38,6 +38,12 @@ object with huge stakes, a number in the title, a villain character thumbnail wi
 Enter), human second-person script, cinematic camera, Zyvavo type. Repeat this recipe; don't touch a
 title/thumbnail that is working.
 
+**Owner's style notes (adopted from video #3 on):**
+- Sound: one consistent background music bed that fits the story; far fewer SFX (no random drums,
+  stings or comedy sounds on every beat). Keep SFX only where something really happens.
+- Background: black with a subtle dark-grey grid of lines/boxes (premium, tech look), used throughout.
+- Animation elements in white, red and black only; characters may use any colours.
+
 **Before each Mechivio video, check:**
 - Is the topic something people already search for or click on? (CTR is the weak spot so far:
   0.1–0.4% on the CPU video; suggested-video CTR was 1.2% with ~2:29 average view duration.)
