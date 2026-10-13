@@ -13,6 +13,8 @@ import { TwoGuesses } from './tg/Main';
 import { BfKit } from './bf/KitSheet';
 import { BlueFriday } from './bf/Main';
 import { BlueFridayShort } from './bfs/Main';
+import { ItSaidYes } from './ai/Main';
+import { TTL as ATL } from './ai/ttime';
 import BFS_TL from './bfs/timeline.json';
 import { TTL as BTL } from './bf/ttime';
 import { TTL } from './tg/ttime';
@@ -113,6 +115,7 @@ export const Root: React.FC = () => (
     <Composition id="TgKit" component={TgKit} width={1920} height={1080} fps={FPS} durationInFrames={90} />
     <Composition id="BlueFriday" component={BlueFriday} width={1920} height={1080} fps={FPS} durationInFrames={Math.ceil(BTL.duration * FPS)} />
     <Composition id="BlueFridayShort" component={BlueFridayShort} width={1080} height={1920} fps={FPS} durationInFrames={Math.ceil(BFS_TL.duration * FPS)} />
+    <Composition id="ItSaidYes" component={ItSaidYes} width={1920} height={1080} fps={FPS} durationInFrames={Math.ceil(ATL.duration * FPS)} />
     <Composition id="BfKit" component={BfKit} width={1920} height={1080} fps={FPS} durationInFrames={90} />
     <Composition id="CpuShort" component={CpuShort} width={1080} height={1920} fps={FPS} durationInFrames={Math.ceil(KTL.duration * FPS)} />
     <Composition id="Short" component={ShortMain} width={1080} height={1920} fps={FPS} durationInFrames={Math.ceil(STL.duration * FPS)} />

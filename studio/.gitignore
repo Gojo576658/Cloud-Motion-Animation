@@ -19,3 +19,5 @@ audio/out-bf/
 public/bf/*.wav
 audio/out-bfs/
 public/bfs/*.wav
+audio/out-ai/
+public/ai/*.wav
