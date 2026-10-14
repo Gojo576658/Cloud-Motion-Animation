@@ -192,7 +192,7 @@ export const A2: React.FC = () => {
       <AbsoluteFill>
         <GridBg />
         {seaside && <svg style={{ position: 'absolute', left: 0, top: 760 }} width={1920} height={200}>{[0, 1, 2].map((k) => <path key={k} d={`M0 ${40 + k * 40} ${Array.from({ length: 13 }, (_, i) => `Q ${i * 160 + 80} ${20 + k * 40 + Math.sin(t * 2 + i + k) * 12} ${(i + 1) * 160} ${40 + k * 40}`).join(' ')}`} stroke={k ? '#2a2a33' : A.soft} strokeWidth={4} fill="none" opacity={1 - k * 0.3} />)}</svg>}
-        {seaside && <div style={{ position: 'absolute', left: 230, top: 120 }}><Label color={A.white} size={28}><Icon name="ph:waves-bold" size={34} color={A.white} /> A SEASIDE TOWN, ENGLAND</Label></div>}
+        {seaside && <div style={{ position: 'absolute', left: 260, top: 560 }}><Label color={A.white} size={28}><Icon name="ph:waves-bold" size={34} color={A.white} /> A SEASIDE TOWN, ENGLAND</Label></div>}
         <Marcus x={seaside ? 1300 : 640} y={seaside ? 820 : 960} size={seaside ? 420 : 520} mood={seaside ? 'happy' : 'focus'} laptop={!seaside} seed={4} />
         {seaside && t > tMarcus && <Pop x={1300} y={240} at={tMarcus}><Label color={A.red} size={44} solid>MARCUS HUTCHINS</Label></Pop>}
         {!seaside && <>
@@ -270,8 +270,8 @@ export const A3: React.FC = () => {
       <AbsoluteFill>
         <GridBg />
         <svg style={{ position: 'absolute', inset: 0 }} width={1920} height={1080}><polyline points={pts.slice(0, k + 1).map((p) => p.join(',')).join(' ')} stroke={A.red} strokeWidth={8} fill="none" strokeLinejoin="round" /></svg>
-        <div style={{ position: 'absolute', left: 230, top: 120 }}><Label color={A.dim} size={26}>NEW INFECTIONS</Label></div>
-        {k > 24 && <Pop x={1400} y={260} at={tSlow + 0.8}><Label color={A.white} size={40}>…SLOWING DOWN</Label></Pop>}
+        <div style={{ position: 'absolute', left: 1380, top: 120 }}><Label color={A.dim} size={26}>NEW INFECTIONS</Label></div>
+        {k > 24 && <Pop x={1400} y={320} at={tSlow + 0.8}><Label color={A.white} size={40}>…SLOWING DOWN</Label></Pop>}
       </AbsoluteFill>
     );
   }

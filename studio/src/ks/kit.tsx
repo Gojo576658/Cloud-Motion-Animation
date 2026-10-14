@@ -79,7 +79,7 @@ export const Agent: React.FC<{ x: number; y: number; size?: number; flip?: boole
       <path d="M60 78 Q62 40 100 40 Q140 40 140 78 Q130 58 100 58 Q72 58 60 78 Z" fill="#2a2018" />
       <rect x="66" y="82" width="68" height="18" rx="8" fill="#0b0b0e" />
       <path d="M90 120 h20" stroke="#5a1a1a" strokeWidth="4" strokeLinecap="round" />
-      <rect x="128" y="176" width="34" height="22" rx="3" fill="#c9a24a" /><text x="145" y="191" textAnchor="middle" fontFamily={fonts.mono} fontWeight={800} fontSize="9" fill="#111">FBI</text>
+      <rect x="128" y="176" width="34" height="22" rx="3" fill="#c9a24a" /><text x="145" y="191" transform={flip ? 'translate(290,0) scale(-1,1)' : undefined} textAnchor="middle" fontFamily={fonts.mono} fontWeight={800} fontSize="9" fill="#111">FBI</text>
     </svg>
   </div>
 );
