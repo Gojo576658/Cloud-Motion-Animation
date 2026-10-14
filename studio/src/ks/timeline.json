@@ -1,0 +1,5871 @@
+{
+ "fps": 30,
+ "offset": 0.6,
+ "duration": 317.993,
+ "bpm": 84,
+ "scenes": [
+  {
+   "index": 0,
+   "title": "Cold Open",
+   "start": 0,
+   "end": 42.664
+  },
+  {
+   "index": 1,
+   "title": "WannaCry",
+   "start": 42.664,
+   "end": 103.556
+  },
+  {
+   "index": 2,
+   "title": "The Accidental Hero",
+   "start": 103.556,
+   "end": 146.506
+  },
+  {
+   "index": 3,
+   "title": "The Kill Switch",
+   "start": 146.506,
+   "end": 198.578
+  },
+  {
+   "index": 4,
+   "title": "Famous",
+   "start": 198.578,
+   "end": 225.835
+  },
+  {
+   "index": 5,
+   "title": "The Arrest",
+   "start": 225.835,
+   "end": 259.631
+  },
+  {
+   "index": 6,
+   "title": "The Verdict",
+   "start": 259.631,
+   "end": 296.241
+  },
+  {
+   "index": 7,
+   "title": "Outro",
+   "start": 296.241,
+   "end": 317.993
+  }
+ ],
+ "sections": [
+  {
+   "index": 0,
+   "title": "invest",
+   "mood": "invest",
+   "bpm": 84,
+   "start": 0,
+   "end": 42.764
+  },
+  {
+   "index": 1,
+   "title": "inside",
+   "mood": "inside",
+   "bpm": 84,
+   "start": 42.764,
+   "end": 85.332
+  },
+  {
+   "index": 2,
+   "title": "audio",
+   "mood": "audio",
+   "bpm": 84,
+   "start": 85.332,
+   "end": 103.656
+  },
+  {
+   "index": 3,
+   "title": "calm",
+   "mood": "calm",
+   "bpm": 84,
+   "start": 103.656,
+   "end": 124.646
+  },
+  {
+   "index": 4,
+   "title": "inside",
+   "mood": "inside",
+   "bpm": 84,
+   "start": 124.646,
+   "end": 146.606
+  },
+  {
+   "index": 5,
+   "title": "invest",
+   "mood": "invest",
+   "bpm": 84,
+   "start": 146.606,
+   "end": 198.678
+  },
+  {
+   "index": 6,
+   "title": "calm",
+   "mood": "calm",
+   "bpm": 84,
+   "start": 198.678,
+   "end": 225.935
+  },
+  {
+   "index": 7,
+   "title": "audio",
+   "mood": "audio",
+   "bpm": 84,
+   "start": 225.935,
+   "end": 259.731
+  },
+  {
+   "index": 8,
+   "title": "inside",
+   "mood": "inside",
+   "bpm": 84,
+   "start": 259.731,
+   "end": 296.341
+  },
+  {
+   "index": 9,
+   "title": "open",
+   "mood": "open",
+   "bpm": 84,
+   "start": 296.341,
+   "end": 317.993
+  }
+ ],
+ "cues": [
+  {
+   "id": 0,
+   "section": 0,
+   "voice": "am_michael",
+   "start": 0.6,
+   "end": 8.556,
+   "text": "It's Friday, May the twelfth, 2017. You walk into a hospital in England… and every computer screen is red."
+  },
+  {
+   "id": 1,
+   "section": 0,
+   "voice": "am_michael",
+   "start": 8.956,
+   "end": 15.097,
+   "text": "A message says your files are locked. Pay three hundred dollars in bitcoin, or lose everything."
+  },
+  {
+   "id": 2,
+   "section": 0,
+   "voice": "am_michael",
+   "start": 15.497,
+   "end": 21.41,
+   "text": "And it's not just this hospital. It's happening in over a hundred countries. At the same time."
+  },
+  {
+   "id": 3,
+   "section": 0,
+   "voice": "am_michael",
+   "start": 21.91,
+   "end": 26.543,
+   "text": "The person who stops it? A twenty-two year old, in his bedroom, on his week off."
+  },
+  {
+   "id": 4,
+   "section": 0,
+   "voice": "am_michael",
+   "start": 27.043,
+   "end": 29.323,
+   "text": "With ten dollars and sixty-nine cents."
+  },
+  {
+   "id": 5,
+   "section": 0,
+   "voice": "am_michael",
+   "start": 30.123,
+   "end": 32.912,
+   "text": "And three months later… the FBI arrests him."
+  },
+  {
+   "id": 6,
+   "section": 0,
+   "voice": "am_michael",
+   "start": 33.612,
+   "end": 40.664,
+   "text": "This is the story of the accidental hero who stopped a global cyberattack… and the secret that caught up with him."
+  },
+  {
+   "id": 7,
+   "section": 1,
+   "voice": "am_michael",
+   "start": 43.064,
+   "end": 50.573,
+   "text": "The attack was called WannaCry. And it was ransomware: software that locks up your files and holds them hostage."
+  },
+  {
+   "id": 8,
+   "section": 1,
+   "voice": "am_michael",
+   "start": 50.973,
+   "end": 61.967,
+   "text": "But WannaCry was worse than normal ransomware. It didn't wait for you to click a bad link. It spread by itself, from computer to computer, like a cold in a crowded room."
+  },
+  {
+   "id": 9,
+   "section": 1,
+   "voice": "am_michael",
+   "start": 62.367,
+   "end": 74.594,
+   "text": "It used a hacking tool reportedly built by America's National Security Agency, called EternalBlue. A month earlier, a group calling itself the Shadow Brokers had leaked it online."
+  },
+  {
+   "id": 10,
+   "section": 1,
+   "voice": "am_michael",
+   "start": 74.994,
+   "end": 85.232,
+   "text": "Microsoft had already released a fix in March. But huge numbers of computers had never installed it. Some were so old, they weren't even supported anymore."
+  },
+  {
+   "id": 11,
+   "section": 1,
+   "voice": "am_michael",
+   "start": 85.632,
+   "end": 93.526,
+   "text": "So WannaCry tore through them. More than two hundred thousand computers. Factories. Train stations. Phone companies."
+  },
+  {
+   "id": 12,
+   "section": 1,
+   "voice": "am_michael",
+   "start": 93.926,
+   "end": 103.156,
+   "text": "And in Britain, it hit the National Health Service. About a third of hospital trusts were disrupted. Around nineteen thousand appointments were cancelled."
+  },
+  {
+   "id": 13,
+   "section": 2,
+   "voice": "am_michael",
+   "start": 103.956,
+   "end": 110.503,
+   "text": "Meanwhile, in a small seaside town in England, a young man named Marcus Hutchins was on a week off."
+  },
+  {
+   "id": 14,
+   "section": 2,
+   "voice": "am_michael",
+   "start": 110.903,
+   "end": 119.401,
+   "text": "He was twenty-two. He'd taught himself most of what he knew about computers. And his job was taking malware apart, to see how it worked."
+  },
+  {
+   "id": 15,
+   "section": 2,
+   "voice": "am_michael",
+   "start": 119.801,
+   "end": 124.546,
+   "text": "He came back from lunch, saw the news, and got hold of a copy of WannaCry."
+  },
+  {
+   "id": 16,
+   "section": 2,
+   "voice": "am_michael",
+   "start": 124.946,
+   "end": 134.388,
+   "text": "And inside, he noticed something strange. Before attacking, the malware tried to visit a weird web address. A long, random jumble of letters."
+  },
+  {
+   "id": 17,
+   "section": 2,
+   "voice": "am_michael",
+   "start": 134.888,
+   "end": 136.15,
+   "text": "And nobody owned it."
+  },
+  {
+   "id": 18,
+   "section": 2,
+   "voice": "am_michael",
+   "start": 136.95,
+   "end": 146.006,
+   "text": "Researchers sometimes buy addresses like that, to watch what the malware does. So Marcus bought it. For ten dollars and sixty-nine cents."
+  },
+  {
+   "id": 19,
+   "section": 3,
+   "voice": "am_michael",
+   "start": 146.906,
+   "end": 149.196,
+   "text": "And then… the attack started to slow down."
+  },
+  {
+   "id": 20,
+   "section": 3,
+   "voice": "am_michael",
+   "start": 150.196,
+   "end": 158.546,
+   "text": "Here's why. Before infecting a computer, WannaCry checked that address. If nobody answered, it attacked. But if someone answered…"
+  },
+  {
+   "id": 21,
+   "section": 3,
+   "voice": "am_michael",
+   "start": 158.946,
+   "end": 160.299,
+   "text": "…it switched itself off."
+  },
+  {
+   "id": 22,
+   "section": 3,
+   "voice": "am_michael",
+   "start": 161.199,
+   "end": 173.115,
+   "text": "Think of a burglar who knocks before breaking in. If nobody's home, he goes in. If someone answers, he runs. Marcus had just answered the door. For every computer in the world."
+  },
+  {
+   "id": 23,
+   "section": 3,
+   "voice": "am_michael",
+   "start": 173.615,
+   "end": 179.186,
+   "text": "He later said that, at first, it was an accident. He didn't know buying the address would stop it."
+  },
+  {
+   "id": 24,
+   "section": 3,
+   "voice": "am_michael",
+   "start": 179.586,
+   "end": 190.556,
+   "text": "Another researcher, Darien Huss, spotted the same switch at almost the same time. New versions of WannaCry appeared later. But the biggest wave had been stopped."
+  },
+  {
+   "id": 25,
+   "section": 3,
+   "voice": "am_michael",
+   "start": 190.956,
+   "end": 198.378,
+   "text": "Quick favour: if you like stories like this, subscribe. It costs even less than ten dollars and sixty-nine cents."
+  },
+  {
+   "id": 26,
+   "section": 4,
+   "voice": "am_michael",
+   "start": 198.978,
+   "end": 205.555,
+   "text": "Overnight, Marcus became the accidental hero. Newspapers hunted for his real name, and found it."
+  },
+  {
+   "id": 27,
+   "section": 4,
+   "voice": "am_michael",
+   "start": 205.955,
+   "end": 214.071,
+   "text": "And the attackers? Very few victims paid. In the end, the ransom added up to only a little over a hundred thousand dollars."
+  },
+  {
+   "id": 28,
+   "section": 4,
+   "voice": "am_michael",
+   "start": 214.471,
+   "end": 221.049,
+   "text": "Months later, the American and British governments said they believed North Korea was behind WannaCry."
+  },
+  {
+   "id": 29,
+   "section": 4,
+   "voice": "am_michael",
+   "start": 221.649,
+   "end": 225.435,
+   "text": "For a while, Marcus was the most famous good hacker on the planet."
+  },
+  {
+   "id": 30,
+   "section": 5,
+   "voice": "am_michael",
+   "start": 226.235,
+   "end": 233.85,
+   "text": "Then, in August 2017, he flew to Las Vegas for one of the world's biggest hacker conferences, DEF CON."
+  },
+  {
+   "id": 31,
+   "section": 5,
+   "voice": "am_michael",
+   "start": 234.25,
+   "end": 238.091,
+   "text": "At the airport, on his way home… the FBI arrested him."
+  },
+  {
+   "id": 32,
+   "section": 5,
+   "voice": "am_michael",
+   "start": 238.991,
+   "end": 243.408,
+   "text": "Not for WannaCry. For something from years earlier, when he was a teenager."
+  },
+  {
+   "id": 33,
+   "section": 5,
+   "voice": "am_michael",
+   "start": 243.908,
+   "end": 251.803,
+   "text": "Prosecutors said that back then, he had helped create malware that stole online banking passwords. It was called Kronos."
+  },
+  {
+   "id": 34,
+   "section": 5,
+   "voice": "am_michael",
+   "start": 252.303,
+   "end": 259.131,
+   "text": "The hero who helped stop one of the biggest cyberattacks in history… could now face years in an American prison."
+  },
+  {
+   "id": 35,
+   "section": 6,
+   "voice": "am_michael",
+   "start": 260.031,
+   "end": 270.837,
+   "text": "In 2019, Marcus pleaded guilty to two charges. He said he regretted those mistakes, and that he'd spent years using his skills to protect people instead."
+  },
+  {
+   "id": 36,
+   "section": 6,
+   "voice": "am_michael",
+   "start": 271.237,
+   "end": 276.627,
+   "text": "And in July 2019, a judge made a decision that surprised a lot of people."
+  },
+  {
+   "id": 37,
+   "section": 6,
+   "voice": "am_michael",
+   "start": 277.427,
+   "end": 281.937,
+   "text": "No prison. Time already served, and one year of supervised release."
+  },
+  {
+   "id": 38,
+   "section": 6,
+   "voice": "am_michael",
+   "start": 282.737,
+   "end": 290.571,
+   "text": "The judge pointed to how young he was back then, how he had turned his life around… and the fact that he had helped stop WannaCry."
+  },
+  {
+   "id": 39,
+   "section": 6,
+   "voice": "am_michael",
+   "start": 291.071,
+   "end": 295.841,
+   "text": "Today, Marcus still works in cybersecurity, on the side of the defenders."
+  },
+  {
+   "id": 40,
+   "section": 7,
+   "voice": "am_michael",
+   "start": 296.641,
+   "end": 304.103,
+   "text": "So here's my question. Should one good deed wipe out a bad past? Or should the past still count? Tell me in the comments."
+  },
+  {
+   "id": 41,
+   "section": 7,
+   "voice": "am_michael",
+   "start": 304.503,
+   "end": 309.168,
+   "text": "And subscribe, because next time, there's another hacker story you won't believe."
+  },
+  {
+   "id": 42,
+   "section": 7,
+   "voice": "am_michael",
+   "start": 309.668,
+   "end": 314.793,
+   "text": "Ten dollars and sixty-nine cents. Probably the best money anyone ever spent."
+  }
+ ],
+ "hooks": [],
+ "words": [
+  {
+   "c": 0,
+   "i": 0,
+   "w": "It's",
+   "s": 0.6,
+   "e": 0.74
+  },
+  {
+   "c": 0,
+   "i": 1,
+   "w": "Friday,",
+   "s": 0.74,
+   "e": 1.04
+  },
+  {
+   "c": 0,
+   "i": 2,
+   "w": "May",
+   "s": 1.3,
+   "e": 1.48
+  },
+  {
+   "c": 0,
+   "i": 3,
+   "w": "the",
+   "s": 1.48,
+   "e": 1.66
+  },
+  {
+   "c": 0,
+   "i": 4,
+   "w": "twelfth,",
+   "s": 1.66,
+   "e": 2.08
+  },
+  {
+   "c": 0,
+   "i": 5,
+   "w": "2017.",
+   "s": 3.06,
+   "e": 3.06
+  },
+  {
+   "c": 0,
+   "i": 6,
+   "w": "You",
+   "s": 3.94,
+   "e": 4.06
+  },
+  {
+   "c": 0,
+   "i": 7,
+   "w": "walk",
+   "s": 4.06,
+   "e": 4.32
+  },
+  {
+   "c": 0,
+   "i": 8,
+   "w": "into",
+   "s": 4.32,
+   "e": 4.52
+  },
+  {
+   "c": 0,
+   "i": 9,
+   "w": "a",
+   "s": 4.52,
+   "e": 4.7
+  },
+  {
+   "c": 0,
+   "i": 10,
+   "w": "hospital",
+   "s": 4.7,
+   "e": 5.18
+  },
+  {
+   "c": 0,
+   "i": 11,
+   "w": "in",
+   "s": 5.18,
+   "e": 5.46
+  },
+  {
+   "c": 0,
+   "i": 12,
+   "w": "England…",
+   "s": 5.46,
+   "e": 6.46
+  },
+  {
+   "c": 0,
+   "i": 13,
+   "w": "and",
+   "s": 6.46,
+   "e": 6.48
+  },
+  {
+   "c": 0,
+   "i": 14,
+   "w": "every",
+   "s": 6.48,
+   "e": 6.78
+  },
+  {
+   "c": 0,
+   "i": 15,
+   "w": "computer",
+   "s": 6.78,
+   "e": 7.1
+  },
+  {
+   "c": 0,
+   "i": 16,
+   "w": "screen",
+   "s": 7.1,
+   "e": 7.64
+  },
+  {
+   "c": 0,
+   "i": 17,
+   "w": "is",
+   "s": 7.64,
+   "e": 8.02
+  },
+  {
+   "c": 0,
+   "i": 18,
+   "w": "red.",
+   "s": 8.02,
+   "e": 8.26
+  },
+  {
+   "c": 1,
+   "i": 0,
+   "w": "A",
+   "s": 8.906,
+   "e": 9.006
+  },
+  {
+   "c": 1,
+   "i": 1,
+   "w": "message",
+   "s": 9.006,
+   "e": 9.306
+  },
+  {
+   "c": 1,
+   "i": 2,
+   "w": "says",
+   "s": 9.306,
+   "e": 9.646
+  },
+  {
+   "c": 1,
+   "i": 3,
+   "w": "your",
+   "s": 9.646,
+   "e": 9.846
+  },
+  {
+   "c": 1,
+   "i": 4,
+   "w": "files",
+   "s": 9.846,
+   "e": 10.186
+  },
+  {
+   "c": 1,
+   "i": 5,
+   "w": "are",
+   "s": 10.186,
+   "e": 10.446
+  },
+  {
+   "c": 1,
+   "i": 6,
+   "w": "locked.",
+   "s": 10.446,
+   "e": 10.786
+  },
+  {
+   "c": 1,
+   "i": 7,
+   "w": "Pay",
+   "s": 11.586,
+   "e": 11.586
+  },
+  {
+   "c": 1,
+   "i": 8,
+   "w": "three",
+   "s": 11.586,
+   "e": 11.886
+  },
+  {
+   "c": 1,
+   "i": 9,
+   "w": "hundred",
+   "s": 11.886,
+   "e": 12.246
+  },
+  {
+   "c": 1,
+   "i": 10,
+   "w": "dollars",
+   "s": 12.246,
+   "e": 12.726
+  },
+  {
+   "c": 1,
+   "i": 11,
+   "w": "in",
+   "s": 12.726,
+   "e": 12.926
+  },
+  {
+   "c": 1,
+   "i": 12,
+   "w": "bitcoin,",
+   "s": 12.926,
+   "e": 13.146
+  },
+  {
+   "c": 1,
+   "i": 13,
+   "w": "or",
+   "s": 13.926,
+   "e": 14.006
+  },
+  {
+   "c": 1,
+   "i": 14,
+   "w": "lose",
+   "s": 14.006,
+   "e": 14.266
+  },
+  {
+   "c": 1,
+   "i": 15,
+   "w": "everything.",
+   "s": 14.266,
+   "e": 14.806
+  },
+  {
+   "c": 2,
+   "i": 0,
+   "w": "And",
+   "s": 15.497,
+   "e": 15.845
+  },
+  {
+   "c": 2,
+   "i": 1,
+   "w": "it's",
+   "s": 15.845,
+   "e": 16.193
+  },
+  {
+   "c": 2,
+   "i": 2,
+   "w": "not",
+   "s": 16.193,
+   "e": 16.54
+  },
+  {
+   "c": 2,
+   "i": 3,
+   "w": "just",
+   "s": 16.54,
+   "e": 16.888
+  },
+  {
+   "c": 2,
+   "i": 4,
+   "w": "this",
+   "s": 16.888,
+   "e": 17.236
+  },
+  {
+   "c": 2,
+   "i": 5,
+   "w": "hospital.",
+   "s": 17.236,
+   "e": 17.584
+  },
+  {
+   "c": 2,
+   "i": 6,
+   "w": "It's",
+   "s": 15.447,
+   "e": 15.747
+  },
+  {
+   "c": 2,
+   "i": 7,
+   "w": "happening",
+   "s": 15.747,
+   "e": 15.927
+  },
+  {
+   "c": 2,
+   "i": 8,
+   "w": "in",
+   "s": 15.927,
+   "e": 18.387
+  },
+  {
+   "c": 2,
+   "i": 9,
+   "w": "over",
+   "s": 18.387,
+   "e": 18.647
+  },
+  {
+   "c": 2,
+   "i": 10,
+   "w": "a",
+   "s": 18.647,
+   "e": 18.807
+  },
+  {
+   "c": 2,
+   "i": 11,
+   "w": "hundred",
+   "s": 18.807,
+   "e": 19.147
+  },
+  {
+   "c": 2,
+   "i": 12,
+   "w": "countries.",
+   "s": 19.147,
+   "e": 19.667
+  },
+  {
+   "c": 2,
+   "i": 13,
+   "w": "At",
+   "s": 20.287,
+   "e": 20.367
+  },
+  {
+   "c": 2,
+   "i": 14,
+   "w": "the",
+   "s": 20.367,
+   "e": 20.487
+  },
+  {
+   "c": 2,
+   "i": 15,
+   "w": "same",
+   "s": 20.487,
+   "e": 20.727
+  },
+  {
+   "c": 2,
+   "i": 16,
+   "w": "time.",
+   "s": 20.727,
+   "e": 21.147
+  },
+  {
+   "c": 3,
+   "i": 0,
+   "w": "The",
+   "s": 21.86,
+   "e": 21.96
+  },
+  {
+   "c": 3,
+   "i": 1,
+   "w": "person",
+   "s": 21.96,
+   "e": 22.2
+  },
+  {
+   "c": 3,
+   "i": 2,
+   "w": "who",
+   "s": 22.2,
+   "e": 22.5
+  },
+  {
+   "c": 3,
+   "i": 3,
+   "w": "stops",
+   "s": 22.5,
+   "e": 22.78
+  },
+  {
+   "c": 3,
+   "i": 4,
+   "w": "it?",
+   "s": 22.78,
+   "e": 23.1
+  },
+  {
+   "c": 3,
+   "i": 5,
+   "w": "A",
+   "s": 23.6,
+   "e": 23.66
+  },
+  {
+   "c": 3,
+   "i": 6,
+   "w": "twenty-two",
+   "s": 23.66,
+   "e": 24.22
+  },
+  {
+   "c": 3,
+   "i": 7,
+   "w": "year",
+   "s": 24.22,
+   "e": 24.4
+  },
+  {
+   "c": 3,
+   "i": 8,
+   "w": "old,",
+   "s": 24.4,
+   "e": 24.7
+  },
+  {
+   "c": 3,
+   "i": 9,
+   "w": "in",
+   "s": 24.78,
+   "e": 24.86
+  },
+  {
+   "c": 3,
+   "i": 10,
+   "w": "his",
+   "s": 24.86,
+   "e": 24.96
+  },
+  {
+   "c": 3,
+   "i": 11,
+   "w": "bedroom,",
+   "s": 24.96,
+   "e": 25.3
+  },
+  {
+   "c": 3,
+   "i": 12,
+   "w": "on",
+   "s": 25.62,
+   "e": 25.7
+  },
+  {
+   "c": 3,
+   "i": 13,
+   "w": "his",
+   "s": 25.7,
+   "e": 25.8
+  },
+  {
+   "c": 3,
+   "i": 14,
+   "w": "week",
+   "s": 25.8,
+   "e": 25.98
+  },
+  {
+   "c": 3,
+   "i": 15,
+   "w": "off.",
+   "s": 25.98,
+   "e": 26.26
+  },
+  {
+   "c": 4,
+   "i": 0,
+   "w": "With",
+   "s": 26.993,
+   "e": 27.153
+  },
+  {
+   "c": 4,
+   "i": 1,
+   "w": "ten",
+   "s": 27.153,
+   "e": 27.353
+  },
+  {
+   "c": 4,
+   "i": 2,
+   "w": "dollars",
+   "s": 27.353,
+   "e": 27.833
+  },
+  {
+   "c": 4,
+   "i": 3,
+   "w": "and",
+   "s": 27.833,
+   "e": 28.053
+  },
+  {
+   "c": 4,
+   "i": 4,
+   "w": "sixty-nine",
+   "s": 28.053,
+   "e": 28.653
+  },
+  {
+   "c": 4,
+   "i": 5,
+   "w": "cents.",
+   "s": 28.653,
+   "e": 28.973
+  },
+  {
+   "c": 5,
+   "i": 0,
+   "w": "And",
+   "s": 30.073,
+   "e": 30.213
+  },
+  {
+   "c": 5,
+   "i": 1,
+   "w": "three",
+   "s": 30.213,
+   "e": 30.413
+  },
+  {
+   "c": 5,
+   "i": 2,
+   "w": "months",
+   "s": 30.413,
+   "e": 30.593
+  },
+  {
+   "c": 5,
+   "i": 3,
+   "w": "later…",
+   "s": 30.593,
+   "e": 31.513
+  },
+  {
+   "c": 5,
+   "i": 4,
+   "w": "the",
+   "s": 31.513,
+   "e": 31.553
+  },
+  {
+   "c": 5,
+   "i": 5,
+   "w": "FBI",
+   "s": 31.553,
+   "e": 31.913
+  },
+  {
+   "c": 5,
+   "i": 6,
+   "w": "arrests",
+   "s": 31.913,
+   "e": 32.553
+  },
+  {
+   "c": 5,
+   "i": 7,
+   "w": "him.",
+   "s": 32.553,
+   "e": 32.773
+  },
+  {
+   "c": 6,
+   "i": 0,
+   "w": "This",
+   "s": 33.562,
+   "e": 33.762
+  },
+  {
+   "c": 6,
+   "i": 1,
+   "w": "is",
+   "s": 33.762,
+   "e": 33.902
+  },
+  {
+   "c": 6,
+   "i": 2,
+   "w": "the",
+   "s": 33.902,
+   "e": 34.082
+  },
+  {
+   "c": 6,
+   "i": 3,
+   "w": "story",
+   "s": 34.082,
+   "e": 34.522
+  },
+  {
+   "c": 6,
+   "i": 4,
+   "w": "of",
+   "s": 34.522,
+   "e": 34.742
+  },
+  {
+   "c": 6,
+   "i": 5,
+   "w": "the",
+   "s": 34.742,
+   "e": 34.862
+  },
+  {
+   "c": 6,
+   "i": 6,
+   "w": "accidental",
+   "s": 34.862,
+   "e": 35.262
+  },
+  {
+   "c": 6,
+   "i": 7,
+   "w": "hero",
+   "s": 35.262,
+   "e": 36.022
+  },
+  {
+   "c": 6,
+   "i": 8,
+   "w": "who",
+   "s": 36.022,
+   "e": 36.482
+  },
+  {
+   "c": 6,
+   "i": 9,
+   "w": "stopped",
+   "s": 36.482,
+   "e": 36.722
+  },
+  {
+   "c": 6,
+   "i": 10,
+   "w": "a",
+   "s": 36.722,
+   "e": 36.922
+  },
+  {
+   "c": 6,
+   "i": 11,
+   "w": "global",
+   "s": 36.922,
+   "e": 37.282
+  },
+  {
+   "c": 6,
+   "i": 12,
+   "w": "cyberattack…",
+   "s": 37.282,
+   "e": 38.902
+  },
+  {
+   "c": 6,
+   "i": 13,
+   "w": "and",
+   "s": 38.902,
+   "e": 38.942
+  },
+  {
+   "c": 6,
+   "i": 14,
+   "w": "the",
+   "s": 38.942,
+   "e": 39.042
+  },
+  {
+   "c": 6,
+   "i": 15,
+   "w": "secret",
+   "s": 39.042,
+   "e": 39.402
+  },
+  {
+   "c": 6,
+   "i": 16,
+   "w": "that",
+   "s": 39.402,
+   "e": 39.682
+  },
+  {
+   "c": 6,
+   "i": 17,
+   "w": "caught",
+   "s": 39.682,
+   "e": 39.962
+  },
+  {
+   "c": 6,
+   "i": 18,
+   "w": "up",
+   "s": 39.962,
+   "e": 40.162
+  },
+  {
+   "c": 6,
+   "i": 19,
+   "w": "with",
+   "s": 40.162,
+   "e": 40.362
+  },
+  {
+   "c": 6,
+   "i": 20,
+   "w": "him.",
+   "s": 40.362,
+   "e": 40.542
+  },
+  {
+   "c": 7,
+   "i": 0,
+   "w": "The",
+   "s": 43.014,
+   "e": 43.134
+  },
+  {
+   "c": 7,
+   "i": 1,
+   "w": "attack",
+   "s": 43.134,
+   "e": 43.374
+  },
+  {
+   "c": 7,
+   "i": 2,
+   "w": "was",
+   "s": 43.374,
+   "e": 43.674
+  },
+  {
+   "c": 7,
+   "i": 3,
+   "w": "called",
+   "s": 43.674,
+   "e": 44.034
+  },
+  {
+   "c": 7,
+   "i": 4,
+   "w": "WannaCry.",
+   "s": 44.034,
+   "e": 44.674
+  },
+  {
+   "c": 7,
+   "i": 5,
+   "w": "And",
+   "s": 45.474,
+   "e": 45.514
+  },
+  {
+   "c": 7,
+   "i": 6,
+   "w": "it",
+   "s": 45.514,
+   "e": 45.594
+  },
+  {
+   "c": 7,
+   "i": 7,
+   "w": "was",
+   "s": 45.594,
+   "e": 45.714
+  },
+  {
+   "c": 7,
+   "i": 8,
+   "w": "ransomware:",
+   "s": 45.714,
+   "e": 45.994
+  },
+  {
+   "c": 7,
+   "i": 9,
+   "w": "software",
+   "s": 46.794,
+   "e": 47.274
+  },
+  {
+   "c": 7,
+   "i": 10,
+   "w": "that",
+   "s": 47.274,
+   "e": 47.734
+  },
+  {
+   "c": 7,
+   "i": 11,
+   "w": "locks",
+   "s": 47.734,
+   "e": 47.994
+  },
+  {
+   "c": 7,
+   "i": 12,
+   "w": "up",
+   "s": 47.994,
+   "e": 48.314
+  },
+  {
+   "c": 7,
+   "i": 13,
+   "w": "your",
+   "s": 48.314,
+   "e": 48.454
+  },
+  {
+   "c": 7,
+   "i": 14,
+   "w": "files",
+   "s": 48.454,
+   "e": 48.734
+  },
+  {
+   "c": 7,
+   "i": 15,
+   "w": "and",
+   "s": 48.734,
+   "e": 49.174
+  },
+  {
+   "c": 7,
+   "i": 16,
+   "w": "holds",
+   "s": 49.174,
+   "e": 49.374
+  },
+  {
+   "c": 7,
+   "i": 17,
+   "w": "them",
+   "s": 49.374,
+   "e": 49.694
+  },
+  {
+   "c": 7,
+   "i": 18,
+   "w": "hostage.",
+   "s": 49.694,
+   "e": 50.034
+  },
+  {
+   "c": 8,
+   "i": 0,
+   "w": "But",
+   "s": 50.923,
+   "e": 51.043
+  },
+  {
+   "c": 8,
+   "i": 1,
+   "w": "WannaCry",
+   "s": 51.043,
+   "e": 51.603
+  },
+  {
+   "c": 8,
+   "i": 2,
+   "w": "was",
+   "s": 51.603,
+   "e": 52.023
+  },
+  {
+   "c": 8,
+   "i": 3,
+   "w": "worse",
+   "s": 52.023,
+   "e": 52.343
+  },
+  {
+   "c": 8,
+   "i": 4,
+   "w": "than",
+   "s": 52.343,
+   "e": 52.643
+  },
+  {
+   "c": 8,
+   "i": 5,
+   "w": "normal",
+   "s": 52.643,
+   "e": 52.943
+  },
+  {
+   "c": 8,
+   "i": 6,
+   "w": "ransomware.",
+   "s": 52.943,
+   "e": 53.323
+  },
+  {
+   "c": 8,
+   "i": 7,
+   "w": "It",
+   "s": 54.423,
+   "e": 54.503
+  },
+  {
+   "c": 8,
+   "i": 8,
+   "w": "didn't",
+   "s": 54.503,
+   "e": 54.703
+  },
+  {
+   "c": 8,
+   "i": 9,
+   "w": "wait",
+   "s": 54.703,
+   "e": 54.883
+  },
+  {
+   "c": 8,
+   "i": 10,
+   "w": "for",
+   "s": 54.883,
+   "e": 55.123
+  },
+  {
+   "c": 8,
+   "i": 11,
+   "w": "you",
+   "s": 55.123,
+   "e": 55.263
+  },
+  {
+   "c": 8,
+   "i": 12,
+   "w": "to",
+   "s": 55.263,
+   "e": 55.383
+  },
+  {
+   "c": 8,
+   "i": 13,
+   "w": "click",
+   "s": 55.383,
+   "e": 55.603
+  },
+  {
+   "c": 8,
+   "i": 14,
+   "w": "a",
+   "s": 55.603,
+   "e": 55.723
+  },
+  {
+   "c": 8,
+   "i": 15,
+   "w": "bad",
+   "s": 55.723,
+   "e": 55.943
+  },
+  {
+   "c": 8,
+   "i": 16,
+   "w": "link.",
+   "s": 55.943,
+   "e": 56.283
+  },
+  {
+   "c": 8,
+   "i": 17,
+   "w": "It",
+   "s": 56.923,
+   "e": 57.043
+  },
+  {
+   "c": 8,
+   "i": 18,
+   "w": "spread",
+   "s": 57.043,
+   "e": 57.243
+  },
+  {
+   "c": 8,
+   "i": 19,
+   "w": "by",
+   "s": 57.243,
+   "e": 57.563
+  },
+  {
+   "c": 8,
+   "i": 20,
+   "w": "itself,",
+   "s": 57.563,
+   "e": 57.863
+  },
+  {
+   "c": 8,
+   "i": 21,
+   "w": "from",
+   "s": 58.343,
+   "e": 58.563
+  },
+  {
+   "c": 8,
+   "i": 22,
+   "w": "computer",
+   "s": 58.563,
+   "e": 58.863
+  },
+  {
+   "c": 8,
+   "i": 23,
+   "w": "to",
+   "s": 58.863,
+   "e": 59.183
+  },
+  {
+   "c": 8,
+   "i": 24,
+   "w": "computer,",
+   "s": 59.183,
+   "e": 59.583
+  },
+  {
+   "c": 8,
+   "i": 25,
+   "w": "like",
+   "s": 59.943,
+   "e": 60.083
+  },
+  {
+   "c": 8,
+   "i": 26,
+   "w": "a",
+   "s": 60.083,
+   "e": 60.223
+  },
+  {
+   "c": 8,
+   "i": 27,
+   "w": "cold",
+   "s": 60.223,
+   "e": 60.543
+  },
+  {
+   "c": 8,
+   "i": 28,
+   "w": "in",
+   "s": 60.543,
+   "e": 60.903
+  },
+  {
+   "c": 8,
+   "i": 29,
+   "w": "a",
+   "s": 60.903,
+   "e": 60.983
+  },
+  {
+   "c": 8,
+   "i": 30,
+   "w": "crowded",
+   "s": 60.983,
+   "e": 61.203
+  },
+  {
+   "c": 8,
+   "i": 31,
+   "w": "room.",
+   "s": 61.203,
+   "e": 61.763
+  },
+  {
+   "c": 9,
+   "i": 0,
+   "w": "It",
+   "s": 62.317,
+   "e": 62.457
+  },
+  {
+   "c": 9,
+   "i": 1,
+   "w": "used",
+   "s": 62.457,
+   "e": 62.657
+  },
+  {
+   "c": 9,
+   "i": 2,
+   "w": "a",
+   "s": 62.657,
+   "e": 62.877
+  },
+  {
+   "c": 9,
+   "i": 3,
+   "w": "hacking",
+   "s": 62.877,
+   "e": 63.157
+  },
+  {
+   "c": 9,
+   "i": 4,
+   "w": "tool",
+   "s": 63.157,
+   "e": 63.677
+  },
+  {
+   "c": 9,
+   "i": 5,
+   "w": "reportedly",
+   "s": 63.677,
+   "e": 64.137
+  },
+  {
+   "c": 9,
+   "i": 6,
+   "w": "built",
+   "s": 64.137,
+   "e": 64.677
+  },
+  {
+   "c": 9,
+   "i": 7,
+   "w": "by",
+   "s": 64.677,
+   "e": 64.917
+  },
+  {
+   "c": 9,
+   "i": 8,
+   "w": "America's",
+   "s": 64.917,
+   "e": 65.597
+  },
+  {
+   "c": 9,
+   "i": 9,
+   "w": "National",
+   "s": 65.597,
+   "e": 65.817
+  },
+  {
+   "c": 9,
+   "i": 10,
+   "w": "Security",
+   "s": 65.817,
+   "e": 66.317
+  },
+  {
+   "c": 9,
+   "i": 11,
+   "w": "Agency,",
+   "s": 66.317,
+   "e": 67.177
+  },
+  {
+   "c": 9,
+   "i": 12,
+   "w": "called",
+   "s": 67.757,
+   "e": 67.997
+  },
+  {
+   "c": 9,
+   "i": 13,
+   "w": "EternalBlue.",
+   "s": 67.997,
+   "e": 68.957
+  },
+  {
+   "c": 9,
+   "i": 14,
+   "w": "A",
+   "s": 69.677,
+   "e": 69.937
+  },
+  {
+   "c": 9,
+   "i": 15,
+   "w": "month",
+   "s": 69.937,
+   "e": 70.097
+  },
+  {
+   "c": 9,
+   "i": 16,
+   "w": "earlier,",
+   "s": 70.097,
+   "e": 70.557
+  },
+  {
+   "c": 9,
+   "i": 17,
+   "w": "a",
+   "s": 71.137,
+   "e": 71.177
+  },
+  {
+   "c": 9,
+   "i": 18,
+   "w": "group",
+   "s": 71.177,
+   "e": 71.437
+  },
+  {
+   "c": 9,
+   "i": 19,
+   "w": "calling",
+   "s": 71.437,
+   "e": 71.797
+  },
+  {
+   "c": 9,
+   "i": 20,
+   "w": "itself",
+   "s": 71.797,
+   "e": 72.237
+  },
+  {
+   "c": 9,
+   "i": 21,
+   "w": "the",
+   "s": 72.237,
+   "e": 72.497
+  },
+  {
+   "c": 9,
+   "i": 22,
+   "w": "Shadow",
+   "s": 72.497,
+   "e": 72.737
+  },
+  {
+   "c": 9,
+   "i": 23,
+   "w": "Brokers",
+   "s": 72.737,
+   "e": 73.377
+  },
+  {
+   "c": 9,
+   "i": 24,
+   "w": "had",
+   "s": 73.377,
+   "e": 73.597
+  },
+  {
+   "c": 9,
+   "i": 25,
+   "w": "leaked",
+   "s": 73.597,
+   "e": 73.817
+  },
+  {
+   "c": 9,
+   "i": 26,
+   "w": "it",
+   "s": 73.817,
+   "e": 74.017
+  },
+  {
+   "c": 9,
+   "i": 27,
+   "w": "online.",
+   "s": 74.017,
+   "e": 74.217
+  },
+  {
+   "c": 10,
+   "i": 0,
+   "w": "Microsoft",
+   "s": 74.944,
+   "e": 75.324
+  },
+  {
+   "c": 10,
+   "i": 1,
+   "w": "had",
+   "s": 75.324,
+   "e": 75.904
+  },
+  {
+   "c": 10,
+   "i": 2,
+   "w": "already",
+   "s": 75.904,
+   "e": 76.264
+  },
+  {
+   "c": 10,
+   "i": 3,
+   "w": "released",
+   "s": 76.264,
+   "e": 76.684
+  },
+  {
+   "c": 10,
+   "i": 4,
+   "w": "a",
+   "s": 76.684,
+   "e": 76.904
+  },
+  {
+   "c": 10,
+   "i": 5,
+   "w": "fix",
+   "s": 76.904,
+   "e": 77.144
+  },
+  {
+   "c": 10,
+   "i": 6,
+   "w": "in",
+   "s": 77.144,
+   "e": 77.444
+  },
+  {
+   "c": 10,
+   "i": 7,
+   "w": "March.",
+   "s": 77.444,
+   "e": 77.744
+  },
+  {
+   "c": 10,
+   "i": 8,
+   "w": "But",
+   "s": 78.564,
+   "e": 78.584
+  },
+  {
+   "c": 10,
+   "i": 9,
+   "w": "huge",
+   "s": 78.584,
+   "e": 78.804
+  },
+  {
+   "c": 10,
+   "i": 10,
+   "w": "numbers",
+   "s": 78.804,
+   "e": 79.344
+  },
+  {
+   "c": 10,
+   "i": 11,
+   "w": "of",
+   "s": 79.344,
+   "e": 79.584
+  },
+  {
+   "c": 10,
+   "i": 12,
+   "w": "computers",
+   "s": 79.584,
+   "e": 79.944
+  },
+  {
+   "c": 10,
+   "i": 13,
+   "w": "had",
+   "s": 79.944,
+   "e": 80.384
+  },
+  {
+   "c": 10,
+   "i": 14,
+   "w": "never",
+   "s": 80.384,
+   "e": 80.724
+  },
+  {
+   "c": 10,
+   "i": 15,
+   "w": "installed",
+   "s": 80.724,
+   "e": 81.164
+  },
+  {
+   "c": 10,
+   "i": 16,
+   "w": "it.",
+   "s": 81.164,
+   "e": 81.564
+  },
+  {
+   "c": 10,
+   "i": 17,
+   "w": "Some",
+   "s": 82.004,
+   "e": 82.224
+  },
+  {
+   "c": 10,
+   "i": 18,
+   "w": "were",
+   "s": 82.224,
+   "e": 82.404
+  },
+  {
+   "c": 10,
+   "i": 19,
+   "w": "so",
+   "s": 82.404,
+   "e": 82.624
+  },
+  {
+   "c": 10,
+   "i": 20,
+   "w": "old,",
+   "s": 82.624,
+   "e": 83.004
+  },
+  {
+   "c": 10,
+   "i": 21,
+   "w": "they",
+   "s": 83.404,
+   "e": 83.524
+  },
+  {
+   "c": 10,
+   "i": 22,
+   "w": "weren't",
+   "s": 83.524,
+   "e": 83.804
+  },
+  {
+   "c": 10,
+   "i": 23,
+   "w": "even",
+   "s": 83.804,
+   "e": 84.064
+  },
+  {
+   "c": 10,
+   "i": 24,
+   "w": "supported",
+   "s": 84.064,
+   "e": 84.504
+  },
+  {
+   "c": 10,
+   "i": 25,
+   "w": "anymore.",
+   "s": 84.504,
+   "e": 84.824
+  },
+  {
+   "c": 11,
+   "i": 0,
+   "w": "So",
+   "s": 85.582,
+   "e": 85.742
+  },
+  {
+   "c": 11,
+   "i": 1,
+   "w": "WannaCry",
+   "s": 85.742,
+   "e": 86.342
+  },
+  {
+   "c": 11,
+   "i": 2,
+   "w": "tore",
+   "s": 86.342,
+   "e": 86.622
+  },
+  {
+   "c": 11,
+   "i": 3,
+   "w": "through",
+   "s": 86.622,
+   "e": 87.082
+  },
+  {
+   "c": 11,
+   "i": 4,
+   "w": "them.",
+   "s": 87.082,
+   "e": 87.302
+  },
+  {
+   "c": 11,
+   "i": 5,
+   "w": "More",
+   "s": 88.022,
+   "e": 88.022
+  },
+  {
+   "c": 11,
+   "i": 6,
+   "w": "than",
+   "s": 88.022,
+   "e": 88.202
+  },
+  {
+   "c": 11,
+   "i": 7,
+   "w": "two",
+   "s": 88.202,
+   "e": 88.422
+  },
+  {
+   "c": 11,
+   "i": 8,
+   "w": "hundred",
+   "s": 88.422,
+   "e": 88.782
+  },
+  {
+   "c": 11,
+   "i": 9,
+   "w": "thousand",
+   "s": 88.782,
+   "e": 89.122
+  },
+  {
+   "c": 11,
+   "i": 10,
+   "w": "computers.",
+   "s": 89.122,
+   "e": 89.582
+  },
+  {
+   "c": 11,
+   "i": 11,
+   "w": "Factories.",
+   "s": 90.422,
+   "e": 90.842
+  },
+  {
+   "c": 11,
+   "i": 12,
+   "w": "Train",
+   "s": 91.322,
+   "e": 91.402
+  },
+  {
+   "c": 11,
+   "i": 13,
+   "w": "stations.",
+   "s": 91.402,
+   "e": 91.902
+  },
+  {
+   "c": 11,
+   "i": 14,
+   "w": "Phone",
+   "s": 92.582,
+   "e": 92.582
+  },
+  {
+   "c": 11,
+   "i": 15,
+   "w": "companies.",
+   "s": 92.582,
+   "e": 92.982
+  },
+  {
+   "c": 12,
+   "i": 0,
+   "w": "And",
+   "s": 93.876,
+   "e": 94.016
+  },
+  {
+   "c": 12,
+   "i": 1,
+   "w": "in",
+   "s": 94.016,
+   "e": 94.096
+  },
+  {
+   "c": 12,
+   "i": 2,
+   "w": "Britain,",
+   "s": 94.096,
+   "e": 94.416
+  },
+  {
+   "c": 12,
+   "i": 3,
+   "w": "it",
+   "s": 94.936,
+   "e": 95.056
+  },
+  {
+   "c": 12,
+   "i": 4,
+   "w": "hit",
+   "s": 95.056,
+   "e": 95.176
+  },
+  {
+   "c": 12,
+   "i": 5,
+   "w": "the",
+   "s": 95.176,
+   "e": 95.396
+  },
+  {
+   "c": 12,
+   "i": 6,
+   "w": "National",
+   "s": 95.396,
+   "e": 95.656
+  },
+  {
+   "c": 12,
+   "i": 7,
+   "w": "Health",
+   "s": 95.656,
+   "e": 96.056
+  },
+  {
+   "c": 12,
+   "i": 8,
+   "w": "Service.",
+   "s": 96.056,
+   "e": 96.456
+  },
+  {
+   "c": 12,
+   "i": 9,
+   "w": "About",
+   "s": 97.296,
+   "e": 97.416
+  },
+  {
+   "c": 12,
+   "i": 10,
+   "w": "a",
+   "s": 97.416,
+   "e": 97.536
+  },
+  {
+   "c": 12,
+   "i": 11,
+   "w": "third",
+   "s": 97.536,
+   "e": 97.856
+  },
+  {
+   "c": 12,
+   "i": 12,
+   "w": "of",
+   "s": 97.856,
+   "e": 98.036
+  },
+  {
+   "c": 12,
+   "i": 13,
+   "w": "hospital",
+   "s": 98.036,
+   "e": 98.476
+  },
+  {
+   "c": 12,
+   "i": 14,
+   "w": "trusts",
+   "s": 98.476,
+   "e": 98.816
+  },
+  {
+   "c": 12,
+   "i": 15,
+   "w": "were",
+   "s": 98.816,
+   "e": 99.236
+  },
+  {
+   "c": 12,
+   "i": 16,
+   "w": "disrupted.",
+   "s": 99.236,
+   "e": 99.656
+  },
+  {
+   "c": 12,
+   "i": 17,
+   "w": "Around",
+   "s": 100.556,
+   "e": 100.556
+  },
+  {
+   "c": 12,
+   "i": 18,
+   "w": "nineteen",
+   "s": 100.556,
+   "e": 100.956
+  },
+  {
+   "c": 12,
+   "i": 19,
+   "w": "thousand",
+   "s": 100.956,
+   "e": 101.576
+  },
+  {
+   "c": 12,
+   "i": 20,
+   "w": "appointments",
+   "s": 101.576,
+   "e": 101.956
+  },
+  {
+   "c": 12,
+   "i": 21,
+   "w": "were",
+   "s": 101.956,
+   "e": 102.436
+  },
+  {
+   "c": 12,
+   "i": 22,
+   "w": "cancelled.",
+   "s": 102.436,
+   "e": 102.776
+  },
+  {
+   "c": 13,
+   "i": 0,
+   "w": "Meanwhile,",
+   "s": 103.906,
+   "e": 104.306
+  },
+  {
+   "c": 13,
+   "i": 1,
+   "w": "in",
+   "s": 104.746,
+   "e": 104.766
+  },
+  {
+   "c": 13,
+   "i": 2,
+   "w": "a",
+   "s": 104.766,
+   "e": 104.846
+  },
+  {
+   "c": 13,
+   "i": 3,
+   "w": "small",
+   "s": 104.846,
+   "e": 105.146
+  },
+  {
+   "c": 13,
+   "i": 4,
+   "w": "seaside",
+   "s": 105.146,
+   "e": 105.846
+  },
+  {
+   "c": 13,
+   "i": 5,
+   "w": "town",
+   "s": 105.846,
+   "e": 106.126
+  },
+  {
+   "c": 13,
+   "i": 6,
+   "w": "in",
+   "s": 106.126,
+   "e": 106.406
+  },
+  {
+   "c": 13,
+   "i": 7,
+   "w": "England,",
+   "s": 106.406,
+   "e": 106.726
+  },
+  {
+   "c": 13,
+   "i": 8,
+   "w": "a",
+   "s": 107.366,
+   "e": 107.506
+  },
+  {
+   "c": 13,
+   "i": 9,
+   "w": "young",
+   "s": 107.506,
+   "e": 107.706
+  },
+  {
+   "c": 13,
+   "i": 10,
+   "w": "man",
+   "s": 107.706,
+   "e": 108.006
+  },
+  {
+   "c": 13,
+   "i": 11,
+   "w": "named",
+   "s": 108.006,
+   "e": 108.346
+  },
+  {
+   "c": 13,
+   "i": 12,
+   "w": "Marcus",
+   "s": 108.346,
+   "e": 108.766
+  },
+  {
+   "c": 13,
+   "i": 13,
+   "w": "Hutchins",
+   "s": 108.766,
+   "e": 109.286
+  },
+  {
+   "c": 13,
+   "i": 14,
+   "w": "was",
+   "s": 109.286,
+   "e": 109.546
+  },
+  {
+   "c": 13,
+   "i": 15,
+   "w": "on",
+   "s": 109.546,
+   "e": 109.726
+  },
+  {
+   "c": 13,
+   "i": 16,
+   "w": "a",
+   "s": 109.726,
+   "e": 109.806
+  },
+  {
+   "c": 13,
+   "i": 17,
+   "w": "week",
+   "s": 109.806,
+   "e": 109.946
+  },
+  {
+   "c": 13,
+   "i": 18,
+   "w": "off.",
+   "s": 109.946,
+   "e": 110.226
+  },
+  {
+   "c": 14,
+   "i": 0,
+   "w": "He",
+   "s": 110.853,
+   "e": 110.973
+  },
+  {
+   "c": 14,
+   "i": 1,
+   "w": "was",
+   "s": 110.973,
+   "e": 111.073
+  },
+  {
+   "c": 14,
+   "i": 2,
+   "w": "twenty-two.",
+   "s": 111.073,
+   "e": 111.803
+  },
+  {
+   "c": 14,
+   "i": 3,
+   "w": "He'd",
+   "s": 111.803,
+   "e": 112.533
+  },
+  {
+   "c": 14,
+   "i": 4,
+   "w": "taught",
+   "s": 112.533,
+   "e": 112.693
+  },
+  {
+   "c": 14,
+   "i": 5,
+   "w": "himself",
+   "s": 112.693,
+   "e": 112.953
+  },
+  {
+   "c": 14,
+   "i": 6,
+   "w": "most",
+   "s": 112.953,
+   "e": 113.473
+  },
+  {
+   "c": 14,
+   "i": 7,
+   "w": "of",
+   "s": 113.473,
+   "e": 113.673
+  },
+  {
+   "c": 14,
+   "i": 8,
+   "w": "what",
+   "s": 113.673,
+   "e": 113.813
+  },
+  {
+   "c": 14,
+   "i": 9,
+   "w": "he",
+   "s": 113.813,
+   "e": 113.933
+  },
+  {
+   "c": 14,
+   "i": 10,
+   "w": "knew",
+   "s": 113.933,
+   "e": 114.133
+  },
+  {
+   "c": 14,
+   "i": 11,
+   "w": "about",
+   "s": 114.133,
+   "e": 114.413
+  },
+  {
+   "c": 14,
+   "i": 12,
+   "w": "computers.",
+   "s": 114.413,
+   "e": 114.813
+  },
+  {
+   "c": 14,
+   "i": 13,
+   "w": "And",
+   "s": 115.753,
+   "e": 115.773
+  },
+  {
+   "c": 14,
+   "i": 14,
+   "w": "his",
+   "s": 115.773,
+   "e": 115.893
+  },
+  {
+   "c": 14,
+   "i": 15,
+   "w": "job",
+   "s": 115.893,
+   "e": 116.253
+  },
+  {
+   "c": 14,
+   "i": 16,
+   "w": "was",
+   "s": 116.253,
+   "e": 116.533
+  },
+  {
+   "c": 14,
+   "i": 17,
+   "w": "taking",
+   "s": 116.533,
+   "e": 116.913
+  },
+  {
+   "c": 14,
+   "i": 18,
+   "w": "malware",
+   "s": 116.913,
+   "e": 117.253
+  },
+  {
+   "c": 14,
+   "i": 19,
+   "w": "apart,",
+   "s": 117.253,
+   "e": 117.753
+  },
+  {
+   "c": 14,
+   "i": 20,
+   "w": "to",
+   "s": 118.133,
+   "e": 118.193
+  },
+  {
+   "c": 14,
+   "i": 21,
+   "w": "see",
+   "s": 118.193,
+   "e": 118.373
+  },
+  {
+   "c": 14,
+   "i": 22,
+   "w": "how",
+   "s": 118.373,
+   "e": 118.653
+  },
+  {
+   "c": 14,
+   "i": 23,
+   "w": "it",
+   "s": 118.653,
+   "e": 118.833
+  },
+  {
+   "c": 14,
+   "i": 24,
+   "w": "worked.",
+   "s": 118.833,
+   "e": 119.133
+  },
+  {
+   "c": 15,
+   "i": 0,
+   "w": "He",
+   "s": 119.751,
+   "e": 119.851
+  },
+  {
+   "c": 15,
+   "i": 1,
+   "w": "came",
+   "s": 119.851,
+   "e": 120.031
+  },
+  {
+   "c": 15,
+   "i": 2,
+   "w": "back",
+   "s": 120.031,
+   "e": 120.311
+  },
+  {
+   "c": 15,
+   "i": 3,
+   "w": "from",
+   "s": 120.311,
+   "e": 120.551
+  },
+  {
+   "c": 15,
+   "i": 4,
+   "w": "lunch,",
+   "s": 120.551,
+   "e": 120.851
+  },
+  {
+   "c": 15,
+   "i": 5,
+   "w": "saw",
+   "s": 121.331,
+   "e": 121.551
+  },
+  {
+   "c": 15,
+   "i": 6,
+   "w": "the",
+   "s": 121.551,
+   "e": 121.711
+  },
+  {
+   "c": 15,
+   "i": 7,
+   "w": "news,",
+   "s": 121.711,
+   "e": 121.971
+  },
+  {
+   "c": 15,
+   "i": 8,
+   "w": "and",
+   "s": 122.391,
+   "e": 122.431
+  },
+  {
+   "c": 15,
+   "i": 9,
+   "w": "got",
+   "s": 122.431,
+   "e": 122.571
+  },
+  {
+   "c": 15,
+   "i": 10,
+   "w": "hold",
+   "s": 122.571,
+   "e": 122.851
+  },
+  {
+   "c": 15,
+   "i": 11,
+   "w": "of",
+   "s": 122.851,
+   "e": 123.011
+  },
+  {
+   "c": 15,
+   "i": 12,
+   "w": "a",
+   "s": 123.011,
+   "e": 123.071
+  },
+  {
+   "c": 15,
+   "i": 13,
+   "w": "copy",
+   "s": 123.071,
+   "e": 123.371
+  },
+  {
+   "c": 15,
+   "i": 14,
+   "w": "of",
+   "s": 123.371,
+   "e": 123.631
+  },
+  {
+   "c": 15,
+   "i": 15,
+   "w": "WannaCry.",
+   "s": 123.631,
+   "e": 124.231
+  },
+  {
+   "c": 16,
+   "i": 0,
+   "w": "And",
+   "s": 124.896,
+   "e": 125.016
+  },
+  {
+   "c": 16,
+   "i": 1,
+   "w": "inside,",
+   "s": 125.016,
+   "e": 125.336
+  },
+  {
+   "c": 16,
+   "i": 2,
+   "w": "he",
+   "s": 125.676,
+   "e": 125.796
+  },
+  {
+   "c": 16,
+   "i": 3,
+   "w": "noticed",
+   "s": 125.796,
+   "e": 125.996
+  },
+  {
+   "c": 16,
+   "i": 4,
+   "w": "something",
+   "s": 125.996,
+   "e": 126.316
+  },
+  {
+   "c": 16,
+   "i": 5,
+   "w": "strange.",
+   "s": 126.316,
+   "e": 126.916
+  },
+  {
+   "c": 16,
+   "i": 6,
+   "w": "Before",
+   "s": 127.936,
+   "e": 127.956
+  },
+  {
+   "c": 16,
+   "i": 7,
+   "w": "attacking,",
+   "s": 127.956,
+   "e": 128.496
+  },
+  {
+   "c": 16,
+   "i": 8,
+   "w": "the",
+   "s": 128.816,
+   "e": 128.896
+  },
+  {
+   "c": 16,
+   "i": 9,
+   "w": "malware",
+   "s": 128.896,
+   "e": 129.116
+  },
+  {
+   "c": 16,
+   "i": 10,
+   "w": "tried",
+   "s": 129.116,
+   "e": 129.596
+  },
+  {
+   "c": 16,
+   "i": 11,
+   "w": "to",
+   "s": 129.596,
+   "e": 129.736
+  },
+  {
+   "c": 16,
+   "i": 12,
+   "w": "visit",
+   "s": 129.736,
+   "e": 129.976
+  },
+  {
+   "c": 16,
+   "i": 13,
+   "w": "a",
+   "s": 129.976,
+   "e": 130.196
+  },
+  {
+   "c": 16,
+   "i": 14,
+   "w": "weird",
+   "s": 130.196,
+   "e": 130.556
+  },
+  {
+   "c": 16,
+   "i": 15,
+   "w": "web",
+   "s": 130.556,
+   "e": 130.836
+  },
+  {
+   "c": 16,
+   "i": 16,
+   "w": "address.",
+   "s": 130.836,
+   "e": 131.196
+  },
+  {
+   "c": 16,
+   "i": 17,
+   "w": "A",
+   "s": 131.996,
+   "e": 132.036
+  },
+  {
+   "c": 16,
+   "i": 18,
+   "w": "long,",
+   "s": 132.036,
+   "e": 132.356
+  },
+  {
+   "c": 16,
+   "i": 19,
+   "w": "random",
+   "s": 132.356,
+   "e": 133.136
+  },
+  {
+   "c": 16,
+   "i": 20,
+   "w": "jumble",
+   "s": 133.136,
+   "e": 133.576
+  },
+  {
+   "c": 16,
+   "i": 21,
+   "w": "of",
+   "s": 133.576,
+   "e": 133.776
+  },
+  {
+   "c": 16,
+   "i": 22,
+   "w": "letters.",
+   "s": 133.776,
+   "e": 133.976
+  },
+  {
+   "c": 17,
+   "i": 0,
+   "w": "And",
+   "s": 134.838,
+   "e": 134.978
+  },
+  {
+   "c": 17,
+   "i": 1,
+   "w": "nobody",
+   "s": 134.978,
+   "e": 135.238
+  },
+  {
+   "c": 17,
+   "i": 2,
+   "w": "owned",
+   "s": 135.238,
+   "e": 135.738
+  },
+  {
+   "c": 17,
+   "i": 3,
+   "w": "it.",
+   "s": 135.738,
+   "e": 135.998
+  },
+  {
+   "c": 18,
+   "i": 0,
+   "w": "Researchers",
+   "s": 136.9,
+   "e": 137.34
+  },
+  {
+   "c": 18,
+   "i": 1,
+   "w": "sometimes",
+   "s": 137.34,
+   "e": 137.8
+  },
+  {
+   "c": 18,
+   "i": 2,
+   "w": "buy",
+   "s": 137.8,
+   "e": 138.34
+  },
+  {
+   "c": 18,
+   "i": 3,
+   "w": "addresses",
+   "s": 138.34,
+   "e": 138.7
+  },
+  {
+   "c": 18,
+   "i": 4,
+   "w": "like",
+   "s": 138.7,
+   "e": 139.24
+  },
+  {
+   "c": 18,
+   "i": 5,
+   "w": "that,",
+   "s": 139.24,
+   "e": 139.5
+  },
+  {
+   "c": 18,
+   "i": 6,
+   "w": "to",
+   "s": 139.86,
+   "e": 139.96
+  },
+  {
+   "c": 18,
+   "i": 7,
+   "w": "watch",
+   "s": 139.96,
+   "e": 140.18
+  },
+  {
+   "c": 18,
+   "i": 8,
+   "w": "what",
+   "s": 140.18,
+   "e": 140.54
+  },
+  {
+   "c": 18,
+   "i": 9,
+   "w": "the",
+   "s": 140.54,
+   "e": 140.66
+  },
+  {
+   "c": 18,
+   "i": 10,
+   "w": "malware",
+   "s": 140.66,
+   "e": 140.88
+  },
+  {
+   "c": 18,
+   "i": 11,
+   "w": "does.",
+   "s": 140.88,
+   "e": 141.4
+  },
+  {
+   "c": 18,
+   "i": 12,
+   "w": "So",
+   "s": 142.26,
+   "e": 142.28
+  },
+  {
+   "c": 18,
+   "i": 13,
+   "w": "Marcus",
+   "s": 142.28,
+   "e": 142.52
+  },
+  {
+   "c": 18,
+   "i": 14,
+   "w": "bought",
+   "s": 142.52,
+   "e": 142.96
+  },
+  {
+   "c": 18,
+   "i": 15,
+   "w": "it.",
+   "s": 142.96,
+   "e": 143.18
+  },
+  {
+   "c": 18,
+   "i": 16,
+   "w": "For",
+   "s": 143.58,
+   "e": 143.66
+  },
+  {
+   "c": 18,
+   "i": 17,
+   "w": "ten",
+   "s": 143.66,
+   "e": 143.92
+  },
+  {
+   "c": 18,
+   "i": 18,
+   "w": "dollars",
+   "s": 143.92,
+   "e": 144.46
+  },
+  {
+   "c": 18,
+   "i": 19,
+   "w": "and",
+   "s": 144.46,
+   "e": 144.7
+  },
+  {
+   "c": 18,
+   "i": 20,
+   "w": "sixty-nine",
+   "s": 144.7,
+   "e": 145.36
+  },
+  {
+   "c": 18,
+   "i": 21,
+   "w": "cents.",
+   "s": 145.36,
+   "e": 145.64
+  },
+  {
+   "c": 19,
+   "i": 0,
+   "w": "And",
+   "s": 146.856,
+   "e": 146.996
+  },
+  {
+   "c": 19,
+   "i": 1,
+   "w": "then…",
+   "s": 146.996,
+   "e": 147.436
+  },
+  {
+   "c": 19,
+   "i": 2,
+   "w": "the",
+   "s": 147.436,
+   "e": 147.516
+  },
+  {
+   "c": 19,
+   "i": 3,
+   "w": "attack",
+   "s": 147.516,
+   "e": 147.796
+  },
+  {
+   "c": 19,
+   "i": 4,
+   "w": "started",
+   "s": 147.796,
+   "e": 148.156
+  },
+  {
+   "c": 19,
+   "i": 5,
+   "w": "to",
+   "s": 148.156,
+   "e": 148.356
+  },
+  {
+   "c": 19,
+   "i": 6,
+   "w": "slow",
+   "s": 148.356,
+   "e": 148.596
+  },
+  {
+   "c": 19,
+   "i": 7,
+   "w": "down.",
+   "s": 148.596,
+   "e": 148.976
+  },
+  {
+   "c": 20,
+   "i": 0,
+   "w": "Here's",
+   "s": 150.146,
+   "e": 150.406
+  },
+  {
+   "c": 20,
+   "i": 1,
+   "w": "why.",
+   "s": 150.406,
+   "e": 150.686
+  },
+  {
+   "c": 20,
+   "i": 2,
+   "w": "Before",
+   "s": 151.486,
+   "e": 151.486
+  },
+  {
+   "c": 20,
+   "i": 3,
+   "w": "infecting",
+   "s": 151.486,
+   "e": 152.066
+  },
+  {
+   "c": 20,
+   "i": 4,
+   "w": "a",
+   "s": 152.066,
+   "e": 152.126
+  },
+  {
+   "c": 20,
+   "i": 5,
+   "w": "computer,",
+   "s": 152.126,
+   "e": 152.606
+  },
+  {
+   "c": 20,
+   "i": 6,
+   "w": "WannaCry",
+   "s": 152.826,
+   "e": 153.306
+  },
+  {
+   "c": 20,
+   "i": 7,
+   "w": "checked",
+   "s": 153.306,
+   "e": 153.786
+  },
+  {
+   "c": 20,
+   "i": 8,
+   "w": "that",
+   "s": 153.786,
+   "e": 154.006
+  },
+  {
+   "c": 20,
+   "i": 9,
+   "w": "address.",
+   "s": 154.006,
+   "e": 154.466
+  },
+  {
+   "c": 20,
+   "i": 10,
+   "w": "If",
+   "s": 155.066,
+   "e": 155.126
+  },
+  {
+   "c": 20,
+   "i": 11,
+   "w": "nobody",
+   "s": 155.126,
+   "e": 155.386
+  },
+  {
+   "c": 20,
+   "i": 12,
+   "w": "answered,",
+   "s": 155.386,
+   "e": 156.046
+  },
+  {
+   "c": 20,
+   "i": 13,
+   "w": "it",
+   "s": 156.186,
+   "e": 156.326
+  },
+  {
+   "c": 20,
+   "i": 14,
+   "w": "attacked.",
+   "s": 156.326,
+   "e": 156.666
+  },
+  {
+   "c": 20,
+   "i": 15,
+   "w": "But",
+   "s": 157.286,
+   "e": 157.346
+  },
+  {
+   "c": 20,
+   "i": 16,
+   "w": "if",
+   "s": 157.346,
+   "e": 157.466
+  },
+  {
+   "c": 20,
+   "i": 17,
+   "w": "someone",
+   "s": 157.466,
+   "e": 157.726
+  },
+  {
+   "c": 20,
+   "i": 18,
+   "w": "answered…",
+   "s": 157.726,
+   "e": 158.626
+  },
+  {
+   "c": 21,
+   "i": 0,
+   "w": "…it",
+   "s": 158.896,
+   "e": 159.036
+  },
+  {
+   "c": 21,
+   "i": 1,
+   "w": "switched",
+   "s": 159.036,
+   "e": 159.276
+  },
+  {
+   "c": 21,
+   "i": 2,
+   "w": "itself",
+   "s": 159.276,
+   "e": 159.616
+  },
+  {
+   "c": 21,
+   "i": 3,
+   "w": "off.",
+   "s": 159.616,
+   "e": 160.016
+  },
+  {
+   "c": 22,
+   "i": 0,
+   "w": "Think",
+   "s": 161.149,
+   "e": 161.309
+  },
+  {
+   "c": 22,
+   "i": 1,
+   "w": "of",
+   "s": 161.309,
+   "e": 161.449
+  },
+  {
+   "c": 22,
+   "i": 2,
+   "w": "a",
+   "s": 161.449,
+   "e": 161.549
+  },
+  {
+   "c": 22,
+   "i": 3,
+   "w": "burglar",
+   "s": 161.549,
+   "e": 162.009
+  },
+  {
+   "c": 22,
+   "i": 4,
+   "w": "who",
+   "s": 162.009,
+   "e": 162.249
+  },
+  {
+   "c": 22,
+   "i": 5,
+   "w": "knocks",
+   "s": 162.249,
+   "e": 162.469
+  },
+  {
+   "c": 22,
+   "i": 6,
+   "w": "before",
+   "s": 162.469,
+   "e": 162.909
+  },
+  {
+   "c": 22,
+   "i": 7,
+   "w": "breaking",
+   "s": 162.909,
+   "e": 163.409
+  },
+  {
+   "c": 22,
+   "i": 8,
+   "w": "in.",
+   "s": 163.409,
+   "e": 163.689
+  },
+  {
+   "c": 22,
+   "i": 9,
+   "w": "If",
+   "s": 164.309,
+   "e": 164.349
+  },
+  {
+   "c": 22,
+   "i": 10,
+   "w": "nobody's",
+   "s": 164.349,
+   "e": 164.969
+  },
+  {
+   "c": 22,
+   "i": 11,
+   "w": "home,",
+   "s": 164.969,
+   "e": 165.229
+  },
+  {
+   "c": 22,
+   "i": 12,
+   "w": "he",
+   "s": 165.509,
+   "e": 165.569
+  },
+  {
+   "c": 22,
+   "i": 13,
+   "w": "goes",
+   "s": 165.569,
+   "e": 165.749
+  },
+  {
+   "c": 22,
+   "i": 14,
+   "w": "in.",
+   "s": 165.749,
+   "e": 166.109
+  },
+  {
+   "c": 22,
+   "i": 15,
+   "w": "If",
+   "s": 166.729,
+   "e": 166.789
+  },
+  {
+   "c": 22,
+   "i": 16,
+   "w": "someone",
+   "s": 166.789,
+   "e": 167.069
+  },
+  {
+   "c": 22,
+   "i": 17,
+   "w": "answers,",
+   "s": 167.069,
+   "e": 167.609
+  },
+  {
+   "c": 22,
+   "i": 18,
+   "w": "he",
+   "s": 167.929,
+   "e": 168.029
+  },
+  {
+   "c": 22,
+   "i": 19,
+   "w": "runs.",
+   "s": 168.029,
+   "e": 168.249
+  },
+  {
+   "c": 22,
+   "i": 20,
+   "w": "Marcus",
+   "s": 169.569,
+   "e": 169.569
+  },
+  {
+   "c": 22,
+   "i": 21,
+   "w": "had",
+   "s": 169.569,
+   "e": 169.789
+  },
+  {
+   "c": 22,
+   "i": 22,
+   "w": "just",
+   "s": 169.789,
+   "e": 170.009
+  },
+  {
+   "c": 22,
+   "i": 23,
+   "w": "answered",
+   "s": 170.009,
+   "e": 170.329
+  },
+  {
+   "c": 22,
+   "i": 24,
+   "w": "the",
+   "s": 170.329,
+   "e": 170.609
+  },
+  {
+   "c": 22,
+   "i": 25,
+   "w": "door.",
+   "s": 170.609,
+   "e": 170.909
+  },
+  {
+   "c": 22,
+   "i": 26,
+   "w": "For",
+   "s": 171.409,
+   "e": 171.429
+  },
+  {
+   "c": 22,
+   "i": 27,
+   "w": "every",
+   "s": 171.429,
+   "e": 171.649
+  },
+  {
+   "c": 22,
+   "i": 28,
+   "w": "computer",
+   "s": 171.649,
+   "e": 172.129
+  },
+  {
+   "c": 22,
+   "i": 29,
+   "w": "in",
+   "s": 172.129,
+   "e": 172.449
+  },
+  {
+   "c": 22,
+   "i": 30,
+   "w": "the",
+   "s": 172.449,
+   "e": 172.569
+  },
+  {
+   "c": 22,
+   "i": 31,
+   "w": "world.",
+   "s": 172.569,
+   "e": 172.849
+  },
+  {
+   "c": 23,
+   "i": 0,
+   "w": "He",
+   "s": 173.565,
+   "e": 173.685
+  },
+  {
+   "c": 23,
+   "i": 1,
+   "w": "later",
+   "s": 173.685,
+   "e": 173.845
+  },
+  {
+   "c": 23,
+   "i": 2,
+   "w": "said",
+   "s": 173.845,
+   "e": 174.185
+  },
+  {
+   "c": 23,
+   "i": 3,
+   "w": "that,",
+   "s": 174.185,
+   "e": 174.445
+  },
+  {
+   "c": 23,
+   "i": 4,
+   "w": "at",
+   "s": 174.445,
+   "e": 174.645
+  },
+  {
+   "c": 23,
+   "i": 5,
+   "w": "first,",
+   "s": 174.645,
+   "e": 174.925
+  },
+  {
+   "c": 23,
+   "i": 6,
+   "w": "it",
+   "s": 175.365,
+   "e": 175.525
+  },
+  {
+   "c": 23,
+   "i": 7,
+   "w": "was",
+   "s": 175.525,
+   "e": 175.645
+  },
+  {
+   "c": 23,
+   "i": 8,
+   "w": "an",
+   "s": 175.645,
+   "e": 175.765
+  },
+  {
+   "c": 23,
+   "i": 9,
+   "w": "accident.",
+   "s": 175.765,
+   "e": 176.125
+  },
+  {
+   "c": 23,
+   "i": 10,
+   "w": "He",
+   "s": 176.925,
+   "e": 177.005
+  },
+  {
+   "c": 23,
+   "i": 11,
+   "w": "didn't",
+   "s": 177.005,
+   "e": 177.205
+  },
+  {
+   "c": 23,
+   "i": 12,
+   "w": "know",
+   "s": 177.205,
+   "e": 177.365
+  },
+  {
+   "c": 23,
+   "i": 13,
+   "w": "buying",
+   "s": 177.365,
+   "e": 177.725
+  },
+  {
+   "c": 23,
+   "i": 14,
+   "w": "the",
+   "s": 177.725,
+   "e": 177.985
+  },
+  {
+   "c": 23,
+   "i": 15,
+   "w": "address",
+   "s": 177.985,
+   "e": 178.285
+  },
+  {
+   "c": 23,
+   "i": 16,
+   "w": "would",
+   "s": 178.285,
+   "e": 178.545
+  },
+  {
+   "c": 23,
+   "i": 17,
+   "w": "stop",
+   "s": 178.545,
+   "e": 178.885
+  },
+  {
+   "c": 23,
+   "i": 18,
+   "w": "it.",
+   "s": 178.885,
+   "e": 179.125
+  },
+  {
+   "c": 24,
+   "i": 0,
+   "w": "Another",
+   "s": 179.586,
+   "e": 180.008
+  },
+  {
+   "c": 24,
+   "i": 1,
+   "w": "researcher,",
+   "s": 180.008,
+   "e": 180.43
+  },
+  {
+   "c": 24,
+   "i": 2,
+   "w": "Darien",
+   "s": 180.43,
+   "e": 180.852
+  },
+  {
+   "c": 24,
+   "i": 3,
+   "w": "Huss,",
+   "s": 180.852,
+   "e": 181.274
+  },
+  {
+   "c": 24,
+   "i": 4,
+   "w": "spotted",
+   "s": 181.274,
+   "e": 181.696
+  },
+  {
+   "c": 24,
+   "i": 5,
+   "w": "the",
+   "s": 181.696,
+   "e": 182.118
+  },
+  {
+   "c": 24,
+   "i": 6,
+   "w": "same",
+   "s": 182.118,
+   "e": 182.539
+  },
+  {
+   "c": 24,
+   "i": 7,
+   "w": "switch",
+   "s": 182.539,
+   "e": 182.961
+  },
+  {
+   "c": 24,
+   "i": 8,
+   "w": "at",
+   "s": 182.961,
+   "e": 183.383
+  },
+  {
+   "c": 24,
+   "i": 9,
+   "w": "almost",
+   "s": 183.383,
+   "e": 183.805
+  },
+  {
+   "c": 24,
+   "i": 10,
+   "w": "the",
+   "s": 183.805,
+   "e": 184.227
+  },
+  {
+   "c": 24,
+   "i": 11,
+   "w": "same",
+   "s": 184.227,
+   "e": 184.649
+  },
+  {
+   "c": 24,
+   "i": 12,
+   "w": "time.",
+   "s": 184.649,
+   "e": 185.071
+  },
+  {
+   "c": 24,
+   "i": 13,
+   "w": "New",
+   "s": 185.071,
+   "e": 185.493
+  },
+  {
+   "c": 24,
+   "i": 14,
+   "w": "versions",
+   "s": 185.493,
+   "e": 185.915
+  },
+  {
+   "c": 24,
+   "i": 15,
+   "w": "of",
+   "s": 185.915,
+   "e": 186.337
+  },
+  {
+   "c": 24,
+   "i": 16,
+   "w": "WannaCry",
+   "s": 186.337,
+   "e": 186.759
+  },
+  {
+   "c": 24,
+   "i": 17,
+   "w": "appeared",
+   "s": 186.759,
+   "e": 187.181
+  },
+  {
+   "c": 24,
+   "i": 18,
+   "w": "later.",
+   "s": 187.181,
+   "e": 187.603
+  },
+  {
+   "c": 24,
+   "i": 19,
+   "w": "But",
+   "s": 187.603,
+   "e": 188.024
+  },
+  {
+   "c": 24,
+   "i": 20,
+   "w": "the",
+   "s": 179.536,
+   "e": 180.856
+  },
+  {
+   "c": 24,
+   "i": 21,
+   "w": "biggest",
+   "s": 180.856,
+   "e": 182.416
+  },
+  {
+   "c": 24,
+   "i": 22,
+   "w": "wave",
+   "s": 182.416,
+   "e": 189.336
+  },
+  {
+   "c": 24,
+   "i": 23,
+   "w": "had",
+   "s": 189.336,
+   "e": 189.676
+  },
+  {
+   "c": 24,
+   "i": 24,
+   "w": "been",
+   "s": 189.676,
+   "e": 189.836
+  },
+  {
+   "c": 24,
+   "i": 25,
+   "w": "stopped.",
+   "s": 189.836,
+   "e": 190.256
+  },
+  {
+   "c": 25,
+   "i": 0,
+   "w": "Quick",
+   "s": 190.906,
+   "e": 191.066
+  },
+  {
+   "c": 25,
+   "i": 1,
+   "w": "favour:",
+   "s": 191.066,
+   "e": 191.426
+  },
+  {
+   "c": 25,
+   "i": 2,
+   "w": "if",
+   "s": 191.886,
+   "e": 191.966
+  },
+  {
+   "c": 25,
+   "i": 3,
+   "w": "you",
+   "s": 191.966,
+   "e": 192.066
+  },
+  {
+   "c": 25,
+   "i": 4,
+   "w": "like",
+   "s": 192.066,
+   "e": 192.246
+  },
+  {
+   "c": 25,
+   "i": 5,
+   "w": "stories",
+   "s": 192.246,
+   "e": 192.646
+  },
+  {
+   "c": 25,
+   "i": 6,
+   "w": "like",
+   "s": 192.646,
+   "e": 193.066
+  },
+  {
+   "c": 25,
+   "i": 7,
+   "w": "this,",
+   "s": 193.066,
+   "e": 193.286
+  },
+  {
+   "c": 25,
+   "i": 8,
+   "w": "subscribe.",
+   "s": 193.486,
+   "e": 193.806
+  },
+  {
+   "c": 25,
+   "i": 9,
+   "w": "It",
+   "s": 194.766,
+   "e": 194.846
+  },
+  {
+   "c": 25,
+   "i": 10,
+   "w": "costs",
+   "s": 194.846,
+   "e": 195.006
+  },
+  {
+   "c": 25,
+   "i": 11,
+   "w": "even",
+   "s": 195.006,
+   "e": 195.486
+  },
+  {
+   "c": 25,
+   "i": 12,
+   "w": "less",
+   "s": 195.486,
+   "e": 195.766
+  },
+  {
+   "c": 25,
+   "i": 13,
+   "w": "than",
+   "s": 195.766,
+   "e": 196.046
+  },
+  {
+   "c": 25,
+   "i": 14,
+   "w": "ten",
+   "s": 196.046,
+   "e": 196.306
+  },
+  {
+   "c": 25,
+   "i": 15,
+   "w": "dollars",
+   "s": 196.306,
+   "e": 196.886
+  },
+  {
+   "c": 25,
+   "i": 16,
+   "w": "and",
+   "s": 196.886,
+   "e": 197.106
+  },
+  {
+   "c": 25,
+   "i": 17,
+   "w": "sixty-nine",
+   "s": 197.106,
+   "e": 197.726
+  },
+  {
+   "c": 25,
+   "i": 18,
+   "w": "cents.",
+   "s": 197.726,
+   "e": 198.006
+  },
+  {
+   "c": 26,
+   "i": 0,
+   "w": "Overnight,",
+   "s": 198.928,
+   "e": 199.248
+  },
+  {
+   "c": 26,
+   "i": 1,
+   "w": "Marcus",
+   "s": 199.848,
+   "e": 199.948
+  },
+  {
+   "c": 26,
+   "i": 2,
+   "w": "became",
+   "s": 199.948,
+   "e": 200.468
+  },
+  {
+   "c": 26,
+   "i": 3,
+   "w": "the",
+   "s": 200.468,
+   "e": 200.708
+  },
+  {
+   "c": 26,
+   "i": 4,
+   "w": "accidental",
+   "s": 200.708,
+   "e": 200.988
+  },
+  {
+   "c": 26,
+   "i": 5,
+   "w": "hero.",
+   "s": 200.988,
+   "e": 201.848
+  },
+  {
+   "c": 26,
+   "i": 6,
+   "w": "Newspapers",
+   "s": 202.748,
+   "e": 203.148
+  },
+  {
+   "c": 26,
+   "i": 7,
+   "w": "hunted",
+   "s": 203.148,
+   "e": 203.468
+  },
+  {
+   "c": 26,
+   "i": 8,
+   "w": "for",
+   "s": 203.468,
+   "e": 203.828
+  },
+  {
+   "c": 26,
+   "i": 9,
+   "w": "his",
+   "s": 203.828,
+   "e": 203.968
+  },
+  {
+   "c": 26,
+   "i": 10,
+   "w": "real",
+   "s": 203.968,
+   "e": 204.168
+  },
+  {
+   "c": 26,
+   "i": 11,
+   "w": "name,",
+   "s": 204.168,
+   "e": 204.728
+  },
+  {
+   "c": 26,
+   "i": 12,
+   "w": "and",
+   "s": 204.868,
+   "e": 204.948
+  },
+  {
+   "c": 26,
+   "i": 13,
+   "w": "found",
+   "s": 204.948,
+   "e": 205.308
+  },
+  {
+   "c": 26,
+   "i": 14,
+   "w": "it.",
+   "s": 205.308,
+   "e": 205.508
+  },
+  {
+   "c": 27,
+   "i": 0,
+   "w": "And",
+   "s": 205.905,
+   "e": 206.025
+  },
+  {
+   "c": 27,
+   "i": 1,
+   "w": "the",
+   "s": 206.025,
+   "e": 206.125
+  },
+  {
+   "c": 27,
+   "i": 2,
+   "w": "attackers?",
+   "s": 206.125,
+   "e": 206.505
+  },
+  {
+   "c": 27,
+   "i": 3,
+   "w": "Very",
+   "s": 207.425,
+   "e": 207.465
+  },
+  {
+   "c": 27,
+   "i": 4,
+   "w": "few",
+   "s": 207.465,
+   "e": 207.805
+  },
+  {
+   "c": 27,
+   "i": 5,
+   "w": "victims",
+   "s": 207.805,
+   "e": 208.185
+  },
+  {
+   "c": 27,
+   "i": 6,
+   "w": "paid.",
+   "s": 208.185,
+   "e": 208.625
+  },
+  {
+   "c": 27,
+   "i": 7,
+   "w": "In",
+   "s": 209.365,
+   "e": 209.405
+  },
+  {
+   "c": 27,
+   "i": 8,
+   "w": "the",
+   "s": 209.405,
+   "e": 209.525
+  },
+  {
+   "c": 27,
+   "i": 9,
+   "w": "end,",
+   "s": 209.525,
+   "e": 209.825
+  },
+  {
+   "c": 27,
+   "i": 10,
+   "w": "the",
+   "s": 210.045,
+   "e": 210.105
+  },
+  {
+   "c": 27,
+   "i": 11,
+   "w": "ransom",
+   "s": 210.105,
+   "e": 210.385
+  },
+  {
+   "c": 27,
+   "i": 12,
+   "w": "added",
+   "s": 210.385,
+   "e": 210.845
+  },
+  {
+   "c": 27,
+   "i": 13,
+   "w": "up",
+   "s": 210.845,
+   "e": 211.145
+  },
+  {
+   "c": 27,
+   "i": 14,
+   "w": "to",
+   "s": 211.145,
+   "e": 211.285
+  },
+  {
+   "c": 27,
+   "i": 15,
+   "w": "only",
+   "s": 211.285,
+   "e": 211.545
+  },
+  {
+   "c": 27,
+   "i": 16,
+   "w": "a",
+   "s": 211.545,
+   "e": 211.765
+  },
+  {
+   "c": 27,
+   "i": 17,
+   "w": "little",
+   "s": 211.765,
+   "e": 211.965
+  },
+  {
+   "c": 27,
+   "i": 18,
+   "w": "over",
+   "s": 211.965,
+   "e": 212.285
+  },
+  {
+   "c": 27,
+   "i": 19,
+   "w": "a",
+   "s": 212.285,
+   "e": 212.425
+  },
+  {
+   "c": 27,
+   "i": 20,
+   "w": "hundred",
+   "s": 212.425,
+   "e": 212.765
+  },
+  {
+   "c": 27,
+   "i": 21,
+   "w": "thousand",
+   "s": 212.765,
+   "e": 213.125
+  },
+  {
+   "c": 27,
+   "i": 22,
+   "w": "dollars.",
+   "s": 213.125,
+   "e": 213.725
+  },
+  {
+   "c": 28,
+   "i": 0,
+   "w": "Months",
+   "s": 214.421,
+   "e": 214.561
+  },
+  {
+   "c": 28,
+   "i": 1,
+   "w": "later,",
+   "s": 214.561,
+   "e": 215.061
+  },
+  {
+   "c": 28,
+   "i": 2,
+   "w": "the",
+   "s": 215.481,
+   "e": 215.561
+  },
+  {
+   "c": 28,
+   "i": 3,
+   "w": "American",
+   "s": 215.561,
+   "e": 215.981
+  },
+  {
+   "c": 28,
+   "i": 4,
+   "w": "and",
+   "s": 215.981,
+   "e": 216.281
+  },
+  {
+   "c": 28,
+   "i": 5,
+   "w": "British",
+   "s": 216.281,
+   "e": 216.581
+  },
+  {
+   "c": 28,
+   "i": 6,
+   "w": "governments",
+   "s": 216.581,
+   "e": 217.041
+  },
+  {
+   "c": 28,
+   "i": 7,
+   "w": "said",
+   "s": 217.041,
+   "e": 217.421
+  },
+  {
+   "c": 28,
+   "i": 8,
+   "w": "they",
+   "s": 217.421,
+   "e": 217.581
+  },
+  {
+   "c": 28,
+   "i": 9,
+   "w": "believed",
+   "s": 217.581,
+   "e": 217.981
+  },
+  {
+   "c": 28,
+   "i": 10,
+   "w": "North",
+   "s": 217.981,
+   "e": 218.381
+  },
+  {
+   "c": 28,
+   "i": 11,
+   "w": "Korea",
+   "s": 218.381,
+   "e": 218.741
+  },
+  {
+   "c": 28,
+   "i": 12,
+   "w": "was",
+   "s": 218.741,
+   "e": 219.561
+  },
+  {
+   "c": 28,
+   "i": 13,
+   "w": "behind",
+   "s": 219.561,
+   "e": 219.961
+  },
+  {
+   "c": 28,
+   "i": 14,
+   "w": "WannaCry.",
+   "s": 219.961,
+   "e": 220.741
+  },
+  {
+   "c": 29,
+   "i": 0,
+   "w": "For",
+   "s": 221.599,
+   "e": 221.739
+  },
+  {
+   "c": 29,
+   "i": 1,
+   "w": "a",
+   "s": 221.739,
+   "e": 221.839
+  },
+  {
+   "c": 29,
+   "i": 2,
+   "w": "while,",
+   "s": 221.839,
+   "e": 222.219
+  },
+  {
+   "c": 29,
+   "i": 3,
+   "w": "Marcus",
+   "s": 222.579,
+   "e": 222.879
+  },
+  {
+   "c": 29,
+   "i": 4,
+   "w": "was",
+   "s": 222.879,
+   "e": 223.219
+  },
+  {
+   "c": 29,
+   "i": 5,
+   "w": "the",
+   "s": 223.219,
+   "e": 223.359
+  },
+  {
+   "c": 29,
+   "i": 6,
+   "w": "most",
+   "s": 223.359,
+   "e": 223.499
+  },
+  {
+   "c": 29,
+   "i": 7,
+   "w": "famous",
+   "s": 223.499,
+   "e": 223.899
+  },
+  {
+   "c": 29,
+   "i": 8,
+   "w": "good",
+   "s": 223.899,
+   "e": 224.199
+  },
+  {
+   "c": 29,
+   "i": 9,
+   "w": "hacker",
+   "s": 224.199,
+   "e": 224.499
+  },
+  {
+   "c": 29,
+   "i": 10,
+   "w": "on",
+   "s": 224.499,
+   "e": 224.859
+  },
+  {
+   "c": 29,
+   "i": 11,
+   "w": "the",
+   "s": 224.859,
+   "e": 224.959
+  },
+  {
+   "c": 29,
+   "i": 12,
+   "w": "planet.",
+   "s": 224.959,
+   "e": 225.159
+  },
+  {
+   "c": 30,
+   "i": 0,
+   "w": "Then,",
+   "s": 226.185,
+   "e": 226.445
+  },
+  {
+   "c": 30,
+   "i": 1,
+   "w": "in",
+   "s": 226.685,
+   "e": 226.785
+  },
+  {
+   "c": 30,
+   "i": 2,
+   "w": "August",
+   "s": 226.785,
+   "e": 227.185
+  },
+  {
+   "c": 30,
+   "i": 3,
+   "w": "2017,",
+   "s": 227.185,
+   "e": 227.965
+  },
+  {
+   "c": 30,
+   "i": 4,
+   "w": "he",
+   "s": 228.785,
+   "e": 228.925
+  },
+  {
+   "c": 30,
+   "i": 5,
+   "w": "flew",
+   "s": 228.925,
+   "e": 229.125
+  },
+  {
+   "c": 30,
+   "i": 6,
+   "w": "to",
+   "s": 229.125,
+   "e": 229.305
+  },
+  {
+   "c": 30,
+   "i": 7,
+   "w": "Las",
+   "s": 229.305,
+   "e": 229.485
+  },
+  {
+   "c": 30,
+   "i": 8,
+   "w": "Vegas",
+   "s": 229.485,
+   "e": 229.805
+  },
+  {
+   "c": 30,
+   "i": 9,
+   "w": "for",
+   "s": 229.805,
+   "e": 230.145
+  },
+  {
+   "c": 30,
+   "i": 10,
+   "w": "one",
+   "s": 230.145,
+   "e": 230.325
+  },
+  {
+   "c": 30,
+   "i": 11,
+   "w": "of",
+   "s": 230.325,
+   "e": 230.425
+  },
+  {
+   "c": 30,
+   "i": 12,
+   "w": "the",
+   "s": 230.425,
+   "e": 230.545
+  },
+  {
+   "c": 30,
+   "i": 13,
+   "w": "world's",
+   "s": 230.545,
+   "e": 230.985
+  },
+  {
+   "c": 30,
+   "i": 14,
+   "w": "biggest",
+   "s": 230.985,
+   "e": 231.265
+  },
+  {
+   "c": 30,
+   "i": 15,
+   "w": "hacker",
+   "s": 231.265,
+   "e": 231.625
+  },
+  {
+   "c": 30,
+   "i": 16,
+   "w": "conferences,",
+   "s": 231.625,
+   "e": 232.365
+  },
+  {
+   "c": 30,
+   "i": 17,
+   "w": "DEF",
+   "s": 233.145,
+   "e": 233.205
+  },
+  {
+   "c": 30,
+   "i": 18,
+   "w": "CON.",
+   "s": 233.205,
+   "e": 233.545
+  },
+  {
+   "c": 31,
+   "i": 0,
+   "w": "At",
+   "s": 234.2,
+   "e": 234.34
+  },
+  {
+   "c": 31,
+   "i": 1,
+   "w": "the",
+   "s": 234.34,
+   "e": 234.44
+  },
+  {
+   "c": 31,
+   "i": 2,
+   "w": "airport,",
+   "s": 234.44,
+   "e": 234.72
+  },
+  {
+   "c": 31,
+   "i": 3,
+   "w": "on",
+   "s": 235.08,
+   "e": 235.14
+  },
+  {
+   "c": 31,
+   "i": 4,
+   "w": "his",
+   "s": 235.14,
+   "e": 235.3
+  },
+  {
+   "c": 31,
+   "i": 5,
+   "w": "way",
+   "s": 235.3,
+   "e": 235.5
+  },
+  {
+   "c": 31,
+   "i": 6,
+   "w": "home…",
+   "s": 235.5,
+   "e": 235.9
+  },
+  {
+   "c": 31,
+   "i": 7,
+   "w": "the",
+   "s": 236.5,
+   "e": 236.54
+  },
+  {
+   "c": 31,
+   "i": 8,
+   "w": "FBI",
+   "s": 236.54,
+   "e": 237.02
+  },
+  {
+   "c": 31,
+   "i": 9,
+   "w": "arrested",
+   "s": 237.02,
+   "e": 237.7
+  },
+  {
+   "c": 31,
+   "i": 10,
+   "w": "him.",
+   "s": 237.7,
+   "e": 237.98
+  },
+  {
+   "c": 32,
+   "i": 0,
+   "w": "Not",
+   "s": 238.941,
+   "e": 239.161
+  },
+  {
+   "c": 32,
+   "i": 1,
+   "w": "for",
+   "s": 239.161,
+   "e": 239.381
+  },
+  {
+   "c": 32,
+   "i": 2,
+   "w": "WannaCry.",
+   "s": 239.381,
+   "e": 239.921
+  },
+  {
+   "c": 32,
+   "i": 3,
+   "w": "For",
+   "s": 240.741,
+   "e": 240.781
+  },
+  {
+   "c": 32,
+   "i": 4,
+   "w": "something",
+   "s": 240.781,
+   "e": 241.081
+  },
+  {
+   "c": 32,
+   "i": 5,
+   "w": "from",
+   "s": 241.081,
+   "e": 241.401
+  },
+  {
+   "c": 32,
+   "i": 6,
+   "w": "years",
+   "s": 241.401,
+   "e": 241.601
+  },
+  {
+   "c": 32,
+   "i": 7,
+   "w": "earlier,",
+   "s": 241.601,
+   "e": 241.981
+  },
+  {
+   "c": 32,
+   "i": 8,
+   "w": "when",
+   "s": 242.261,
+   "e": 242.321
+  },
+  {
+   "c": 32,
+   "i": 9,
+   "w": "he",
+   "s": 242.321,
+   "e": 242.421
+  },
+  {
+   "c": 32,
+   "i": 10,
+   "w": "was",
+   "s": 242.421,
+   "e": 242.541
+  },
+  {
+   "c": 32,
+   "i": 11,
+   "w": "a",
+   "s": 242.541,
+   "e": 242.641
+  },
+  {
+   "c": 32,
+   "i": 12,
+   "w": "teenager.",
+   "s": 242.641,
+   "e": 242.981
+  },
+  {
+   "c": 33,
+   "i": 0,
+   "w": "Prosecutors",
+   "s": 243.908,
+   "e": 244.324
+  },
+  {
+   "c": 33,
+   "i": 1,
+   "w": "said",
+   "s": 244.324,
+   "e": 244.739
+  },
+  {
+   "c": 33,
+   "i": 2,
+   "w": "that",
+   "s": 244.739,
+   "e": 245.155
+  },
+  {
+   "c": 33,
+   "i": 3,
+   "w": "back",
+   "s": 245.155,
+   "e": 245.57
+  },
+  {
+   "c": 33,
+   "i": 4,
+   "w": "then,",
+   "s": 245.57,
+   "e": 245.986
+  },
+  {
+   "c": 33,
+   "i": 5,
+   "w": "he",
+   "s": 245.986,
+   "e": 246.401
+  },
+  {
+   "c": 33,
+   "i": 6,
+   "w": "had",
+   "s": 246.401,
+   "e": 246.817
+  },
+  {
+   "c": 33,
+   "i": 7,
+   "w": "helped",
+   "s": 246.817,
+   "e": 247.232
+  },
+  {
+   "c": 33,
+   "i": 8,
+   "w": "create",
+   "s": 247.232,
+   "e": 247.648
+  },
+  {
+   "c": 33,
+   "i": 9,
+   "w": "malware",
+   "s": 247.648,
+   "e": 248.063
+  },
+  {
+   "c": 33,
+   "i": 10,
+   "w": "that",
+   "s": 248.063,
+   "e": 248.479
+  },
+  {
+   "c": 33,
+   "i": 11,
+   "w": "stole",
+   "s": 248.479,
+   "e": 248.894
+  },
+  {
+   "c": 33,
+   "i": 12,
+   "w": "online",
+   "s": 248.894,
+   "e": 249.31
+  },
+  {
+   "c": 33,
+   "i": 13,
+   "w": "banking",
+   "s": 249.31,
+   "e": 249.725
+  },
+  {
+   "c": 33,
+   "i": 14,
+   "w": "passwords.",
+   "s": 249.725,
+   "e": 250.141
+  },
+  {
+   "c": 33,
+   "i": 15,
+   "w": "It",
+   "s": 243.858,
+   "e": 244.278
+  },
+  {
+   "c": 33,
+   "i": 16,
+   "w": "was",
+   "s": 244.278,
+   "e": 246.318
+  },
+  {
+   "c": 33,
+   "i": 17,
+   "w": "called",
+   "s": 246.318,
+   "e": 250.858
+  },
+  {
+   "c": 33,
+   "i": 18,
+   "w": "Kronos.",
+   "s": 250.858,
+   "e": 251.478
+  },
+  {
+   "c": 34,
+   "i": 0,
+   "w": "The",
+   "s": 252.253,
+   "e": 252.353
+  },
+  {
+   "c": 34,
+   "i": 1,
+   "w": "hero",
+   "s": 252.353,
+   "e": 252.713
+  },
+  {
+   "c": 34,
+   "i": 2,
+   "w": "who",
+   "s": 252.713,
+   "e": 252.993
+  },
+  {
+   "c": 34,
+   "i": 3,
+   "w": "helped",
+   "s": 252.993,
+   "e": 253.193
+  },
+  {
+   "c": 34,
+   "i": 4,
+   "w": "stop",
+   "s": 253.193,
+   "e": 253.553
+  },
+  {
+   "c": 34,
+   "i": 5,
+   "w": "one",
+   "s": 253.553,
+   "e": 253.813
+  },
+  {
+   "c": 34,
+   "i": 6,
+   "w": "of",
+   "s": 253.813,
+   "e": 253.893
+  },
+  {
+   "c": 34,
+   "i": 7,
+   "w": "the",
+   "s": 253.893,
+   "e": 253.993
+  },
+  {
+   "c": 34,
+   "i": 8,
+   "w": "biggest",
+   "s": 253.993,
+   "e": 254.333
+  },
+  {
+   "c": 34,
+   "i": 9,
+   "w": "cyberattacks",
+   "s": 254.333,
+   "e": 255.153
+  },
+  {
+   "c": 34,
+   "i": 10,
+   "w": "in",
+   "s": 255.153,
+   "e": 255.433
+  },
+  {
+   "c": 34,
+   "i": 11,
+   "w": "history…",
+   "s": 255.433,
+   "e": 256.573
+  },
+  {
+   "c": 34,
+   "i": 12,
+   "w": "could",
+   "s": 256.573,
+   "e": 256.593
+  },
+  {
+   "c": 34,
+   "i": 13,
+   "w": "now",
+   "s": 256.593,
+   "e": 256.873
+  },
+  {
+   "c": 34,
+   "i": 14,
+   "w": "face",
+   "s": 256.873,
+   "e": 257.293
+  },
+  {
+   "c": 34,
+   "i": 15,
+   "w": "years",
+   "s": 257.293,
+   "e": 257.693
+  },
+  {
+   "c": 34,
+   "i": 16,
+   "w": "in",
+   "s": 257.693,
+   "e": 258.053
+  },
+  {
+   "c": 34,
+   "i": 17,
+   "w": "an",
+   "s": 258.053,
+   "e": 258.133
+  },
+  {
+   "c": 34,
+   "i": 18,
+   "w": "American",
+   "s": 258.133,
+   "e": 258.373
+  },
+  {
+   "c": 34,
+   "i": 19,
+   "w": "prison.",
+   "s": 258.373,
+   "e": 258.833
+  },
+  {
+   "c": 35,
+   "i": 0,
+   "w": "In",
+   "s": 259.981,
+   "e": 260.101
+  },
+  {
+   "c": 35,
+   "i": 1,
+   "w": "2019,",
+   "s": 260.101,
+   "e": 260.801
+  },
+  {
+   "c": 35,
+   "i": 2,
+   "w": "Marcus",
+   "s": 261.361,
+   "e": 261.741
+  },
+  {
+   "c": 35,
+   "i": 3,
+   "w": "pleaded",
+   "s": 261.741,
+   "e": 262.161
+  },
+  {
+   "c": 35,
+   "i": 4,
+   "w": "guilty",
+   "s": 262.161,
+   "e": 262.481
+  },
+  {
+   "c": 35,
+   "i": 5,
+   "w": "to",
+   "s": 262.481,
+   "e": 262.921
+  },
+  {
+   "c": 35,
+   "i": 6,
+   "w": "two",
+   "s": 262.921,
+   "e": 263.101
+  },
+  {
+   "c": 35,
+   "i": 7,
+   "w": "charges.",
+   "s": 263.101,
+   "e": 263.581
+  },
+  {
+   "c": 35,
+   "i": 8,
+   "w": "He",
+   "s": 264.501,
+   "e": 264.561
+  },
+  {
+   "c": 35,
+   "i": 9,
+   "w": "said",
+   "s": 264.561,
+   "e": 264.761
+  },
+  {
+   "c": 35,
+   "i": 10,
+   "w": "he",
+   "s": 264.761,
+   "e": 264.921
+  },
+  {
+   "c": 35,
+   "i": 11,
+   "w": "regretted",
+   "s": 264.921,
+   "e": 265.321
+  },
+  {
+   "c": 35,
+   "i": 12,
+   "w": "those",
+   "s": 265.321,
+   "e": 265.661
+  },
+  {
+   "c": 35,
+   "i": 13,
+   "w": "mistakes,",
+   "s": 265.661,
+   "e": 266.221
+  },
+  {
+   "c": 35,
+   "i": 14,
+   "w": "and",
+   "s": 266.861,
+   "e": 266.981
+  },
+  {
+   "c": 35,
+   "i": 15,
+   "w": "that",
+   "s": 266.981,
+   "e": 267.081
+  },
+  {
+   "c": 35,
+   "i": 16,
+   "w": "he'd",
+   "s": 267.081,
+   "e": 267.341
+  },
+  {
+   "c": 35,
+   "i": 17,
+   "w": "spent",
+   "s": 267.341,
+   "e": 267.561
+  },
+  {
+   "c": 35,
+   "i": 18,
+   "w": "years",
+   "s": 267.561,
+   "e": 267.961
+  },
+  {
+   "c": 35,
+   "i": 19,
+   "w": "using",
+   "s": 267.961,
+   "e": 268.441
+  },
+  {
+   "c": 35,
+   "i": 20,
+   "w": "his",
+   "s": 268.441,
+   "e": 268.721
+  },
+  {
+   "c": 35,
+   "i": 21,
+   "w": "skills",
+   "s": 268.721,
+   "e": 269.001
+  },
+  {
+   "c": 35,
+   "i": 22,
+   "w": "to",
+   "s": 269.001,
+   "e": 269.381
+  },
+  {
+   "c": 35,
+   "i": 23,
+   "w": "protect",
+   "s": 269.381,
+   "e": 269.561
+  },
+  {
+   "c": 35,
+   "i": 24,
+   "w": "people",
+   "s": 269.561,
+   "e": 270.081
+  },
+  {
+   "c": 35,
+   "i": 25,
+   "w": "instead.",
+   "s": 270.081,
+   "e": 270.481
+  },
+  {
+   "c": 36,
+   "i": 0,
+   "w": "And",
+   "s": 271.187,
+   "e": 271.327
+  },
+  {
+   "c": 36,
+   "i": 1,
+   "w": "in",
+   "s": 271.327,
+   "e": 271.427
+  },
+  {
+   "c": 36,
+   "i": 2,
+   "w": "July",
+   "s": 271.427,
+   "e": 271.727
+  },
+  {
+   "c": 36,
+   "i": 3,
+   "w": "2019,",
+   "s": 271.727,
+   "e": 272.567
+  },
+  {
+   "c": 36,
+   "i": 4,
+   "w": "a",
+   "s": 273.347,
+   "e": 273.447
+  },
+  {
+   "c": 36,
+   "i": 5,
+   "w": "judge",
+   "s": 273.447,
+   "e": 273.667
+  },
+  {
+   "c": 36,
+   "i": 6,
+   "w": "made",
+   "s": 273.667,
+   "e": 274.147
+  },
+  {
+   "c": 36,
+   "i": 7,
+   "w": "a",
+   "s": 274.147,
+   "e": 274.227
+  },
+  {
+   "c": 36,
+   "i": 8,
+   "w": "decision",
+   "s": 274.227,
+   "e": 274.587
+  },
+  {
+   "c": 36,
+   "i": 9,
+   "w": "that",
+   "s": 274.587,
+   "e": 274.967
+  },
+  {
+   "c": 36,
+   "i": 10,
+   "w": "surprised",
+   "s": 274.967,
+   "e": 275.247
+  },
+  {
+   "c": 36,
+   "i": 11,
+   "w": "a",
+   "s": 275.247,
+   "e": 275.827
+  },
+  {
+   "c": 36,
+   "i": 12,
+   "w": "lot",
+   "s": 275.827,
+   "e": 275.987
+  },
+  {
+   "c": 36,
+   "i": 13,
+   "w": "of",
+   "s": 275.987,
+   "e": 276.107
+  },
+  {
+   "c": 36,
+   "i": 14,
+   "w": "people.",
+   "s": 276.107,
+   "e": 276.447
+  },
+  {
+   "c": 37,
+   "i": 0,
+   "w": "No",
+   "s": 277.377,
+   "e": 277.557
+  },
+  {
+   "c": 37,
+   "i": 1,
+   "w": "prison.",
+   "s": 277.557,
+   "e": 277.937
+  },
+  {
+   "c": 37,
+   "i": 2,
+   "w": "Time",
+   "s": 278.517,
+   "e": 278.717
+  },
+  {
+   "c": 37,
+   "i": 3,
+   "w": "already",
+   "s": 278.717,
+   "e": 279.057
+  },
+  {
+   "c": 37,
+   "i": 4,
+   "w": "served,",
+   "s": 279.057,
+   "e": 279.457
+  },
+  {
+   "c": 37,
+   "i": 5,
+   "w": "and",
+   "s": 279.797,
+   "e": 279.857
+  },
+  {
+   "c": 37,
+   "i": 6,
+   "w": "one",
+   "s": 279.857,
+   "e": 280.077
+  },
+  {
+   "c": 37,
+   "i": 7,
+   "w": "year",
+   "s": 280.077,
+   "e": 280.317
+  },
+  {
+   "c": 37,
+   "i": 8,
+   "w": "of",
+   "s": 280.317,
+   "e": 280.497
+  },
+  {
+   "c": 37,
+   "i": 9,
+   "w": "supervised",
+   "s": 280.497,
+   "e": 280.837
+  },
+  {
+   "c": 37,
+   "i": 10,
+   "w": "release.",
+   "s": 280.837,
+   "e": 281.557
+  },
+  {
+   "c": 38,
+   "i": 0,
+   "w": "The",
+   "s": 282.687,
+   "e": 282.807
+  },
+  {
+   "c": 38,
+   "i": 1,
+   "w": "judge",
+   "s": 282.807,
+   "e": 283.027
+  },
+  {
+   "c": 38,
+   "i": 2,
+   "w": "pointed",
+   "s": 283.027,
+   "e": 283.487
+  },
+  {
+   "c": 38,
+   "i": 3,
+   "w": "to",
+   "s": 283.487,
+   "e": 283.767
+  },
+  {
+   "c": 38,
+   "i": 4,
+   "w": "how",
+   "s": 283.767,
+   "e": 284.027
+  },
+  {
+   "c": 38,
+   "i": 5,
+   "w": "young",
+   "s": 284.027,
+   "e": 284.347
+  },
+  {
+   "c": 38,
+   "i": 6,
+   "w": "he",
+   "s": 284.347,
+   "e": 284.627
+  },
+  {
+   "c": 38,
+   "i": 7,
+   "w": "was",
+   "s": 284.627,
+   "e": 284.747
+  },
+  {
+   "c": 38,
+   "i": 8,
+   "w": "back",
+   "s": 284.747,
+   "e": 285.027
+  },
+  {
+   "c": 38,
+   "i": 9,
+   "w": "then,",
+   "s": 285.027,
+   "e": 285.347
+  },
+  {
+   "c": 38,
+   "i": 10,
+   "w": "how",
+   "s": 285.867,
+   "e": 285.967
+  },
+  {
+   "c": 38,
+   "i": 11,
+   "w": "he",
+   "s": 285.967,
+   "e": 286.127
+  },
+  {
+   "c": 38,
+   "i": 12,
+   "w": "had",
+   "s": 286.127,
+   "e": 286.227
+  },
+  {
+   "c": 38,
+   "i": 13,
+   "w": "turned",
+   "s": 286.227,
+   "e": 286.487
+  },
+  {
+   "c": 38,
+   "i": 14,
+   "w": "his",
+   "s": 286.487,
+   "e": 286.707
+  },
+  {
+   "c": 38,
+   "i": 15,
+   "w": "life",
+   "s": 286.707,
+   "e": 286.907
+  },
+  {
+   "c": 38,
+   "i": 16,
+   "w": "around…",
+   "s": 286.907,
+   "e": 288.047
+  },
+  {
+   "c": 38,
+   "i": 17,
+   "w": "and",
+   "s": 288.047,
+   "e": 288.107
+  },
+  {
+   "c": 38,
+   "i": 18,
+   "w": "the",
+   "s": 288.107,
+   "e": 288.207
+  },
+  {
+   "c": 38,
+   "i": 19,
+   "w": "fact",
+   "s": 288.207,
+   "e": 288.447
+  },
+  {
+   "c": 38,
+   "i": 20,
+   "w": "that",
+   "s": 288.447,
+   "e": 288.687
+  },
+  {
+   "c": 38,
+   "i": 21,
+   "w": "he",
+   "s": 288.687,
+   "e": 288.827
+  },
+  {
+   "c": 38,
+   "i": 22,
+   "w": "had",
+   "s": 288.827,
+   "e": 288.947
+  },
+  {
+   "c": 38,
+   "i": 23,
+   "w": "helped",
+   "s": 288.947,
+   "e": 289.167
+  },
+  {
+   "c": 38,
+   "i": 24,
+   "w": "stop",
+   "s": 289.167,
+   "e": 289.507
+  },
+  {
+   "c": 38,
+   "i": 25,
+   "w": "WannaCry.",
+   "s": 289.507,
+   "e": 290.207
+  },
+  {
+   "c": 39,
+   "i": 0,
+   "w": "Today,",
+   "s": 291.021,
+   "e": 291.281
+  },
+  {
+   "c": 39,
+   "i": 1,
+   "w": "Marcus",
+   "s": 291.661,
+   "e": 291.821
+  },
+  {
+   "c": 39,
+   "i": 2,
+   "w": "still",
+   "s": 291.821,
+   "e": 292.181
+  },
+  {
+   "c": 39,
+   "i": 3,
+   "w": "works",
+   "s": 292.181,
+   "e": 292.481
+  },
+  {
+   "c": 39,
+   "i": 4,
+   "w": "in",
+   "s": 292.481,
+   "e": 292.681
+  },
+  {
+   "c": 39,
+   "i": 5,
+   "w": "cybersecurity,",
+   "s": 292.681,
+   "e": 293.301
+  },
+  {
+   "c": 39,
+   "i": 6,
+   "w": "on",
+   "s": 294.121,
+   "e": 294.301
+  },
+  {
+   "c": 39,
+   "i": 7,
+   "w": "the",
+   "s": 294.301,
+   "e": 294.401
+  },
+  {
+   "c": 39,
+   "i": 8,
+   "w": "side",
+   "s": 294.401,
+   "e": 294.701
+  },
+  {
+   "c": 39,
+   "i": 9,
+   "w": "of",
+   "s": 294.701,
+   "e": 294.901
+  },
+  {
+   "c": 39,
+   "i": 10,
+   "w": "the",
+   "s": 294.901,
+   "e": 295.021
+  },
+  {
+   "c": 39,
+   "i": 11,
+   "w": "defenders.",
+   "s": 295.021,
+   "e": 295.321
+  },
+  {
+   "c": 40,
+   "i": 0,
+   "w": "So",
+   "s": 296.591,
+   "e": 296.771
+  },
+  {
+   "c": 40,
+   "i": 1,
+   "w": "here's",
+   "s": 296.771,
+   "e": 297.091
+  },
+  {
+   "c": 40,
+   "i": 2,
+   "w": "my",
+   "s": 297.091,
+   "e": 297.251
+  },
+  {
+   "c": 40,
+   "i": 3,
+   "w": "question.",
+   "s": 297.251,
+   "e": 297.631
+  },
+  {
+   "c": 40,
+   "i": 4,
+   "w": "Should",
+   "s": 298.391,
+   "e": 298.391
+  },
+  {
+   "c": 40,
+   "i": 5,
+   "w": "one",
+   "s": 298.391,
+   "e": 298.571
+  },
+  {
+   "c": 40,
+   "i": 6,
+   "w": "good",
+   "s": 298.571,
+   "e": 298.811
+  },
+  {
+   "c": 40,
+   "i": 7,
+   "w": "deed",
+   "s": 298.811,
+   "e": 299.071
+  },
+  {
+   "c": 40,
+   "i": 8,
+   "w": "wipe",
+   "s": 299.071,
+   "e": 299.391
+  },
+  {
+   "c": 40,
+   "i": 9,
+   "w": "out",
+   "s": 299.391,
+   "e": 299.671
+  },
+  {
+   "c": 40,
+   "i": 10,
+   "w": "a",
+   "s": 299.671,
+   "e": 299.731
+  },
+  {
+   "c": 40,
+   "i": 11,
+   "w": "bad",
+   "s": 299.731,
+   "e": 299.951
+  },
+  {
+   "c": 40,
+   "i": 12,
+   "w": "past?",
+   "s": 299.951,
+   "e": 300.271
+  },
+  {
+   "c": 40,
+   "i": 13,
+   "w": "Or",
+   "s": 301.011,
+   "e": 301.031
+  },
+  {
+   "c": 40,
+   "i": 14,
+   "w": "should",
+   "s": 301.031,
+   "e": 301.171
+  },
+  {
+   "c": 40,
+   "i": 15,
+   "w": "the",
+   "s": 301.171,
+   "e": 301.291
+  },
+  {
+   "c": 40,
+   "i": 16,
+   "w": "past",
+   "s": 301.291,
+   "e": 301.511
+  },
+  {
+   "c": 40,
+   "i": 17,
+   "w": "still",
+   "s": 301.511,
+   "e": 301.911
+  },
+  {
+   "c": 40,
+   "i": 18,
+   "w": "count?",
+   "s": 301.911,
+   "e": 302.211
+  },
+  {
+   "c": 40,
+   "i": 19,
+   "w": "Tell",
+   "s": 302.951,
+   "e": 302.991
+  },
+  {
+   "c": 40,
+   "i": 20,
+   "w": "me",
+   "s": 302.991,
+   "e": 303.171
+  },
+  {
+   "c": 40,
+   "i": 21,
+   "w": "in",
+   "s": 303.171,
+   "e": 303.291
+  },
+  {
+   "c": 40,
+   "i": 22,
+   "w": "the",
+   "s": 303.291,
+   "e": 303.391
+  },
+  {
+   "c": 40,
+   "i": 23,
+   "w": "comments.",
+   "s": 303.391,
+   "e": 303.731
+  },
+  {
+   "c": 41,
+   "i": 0,
+   "w": "And",
+   "s": 304.453,
+   "e": 304.573
+  },
+  {
+   "c": 41,
+   "i": 1,
+   "w": "subscribe,",
+   "s": 304.573,
+   "e": 304.933
+  },
+  {
+   "c": 41,
+   "i": 2,
+   "w": "because",
+   "s": 305.273,
+   "e": 305.533
+  },
+  {
+   "c": 41,
+   "i": 3,
+   "w": "next",
+   "s": 305.533,
+   "e": 305.733
+  },
+  {
+   "c": 41,
+   "i": 4,
+   "w": "time,",
+   "s": 305.733,
+   "e": 306.233
+  },
+  {
+   "c": 41,
+   "i": 5,
+   "w": "there's",
+   "s": 306.673,
+   "e": 306.913
+  },
+  {
+   "c": 41,
+   "i": 6,
+   "w": "another",
+   "s": 306.913,
+   "e": 307.133
+  },
+  {
+   "c": 41,
+   "i": 7,
+   "w": "hacker",
+   "s": 307.133,
+   "e": 307.473
+  },
+  {
+   "c": 41,
+   "i": 8,
+   "w": "story",
+   "s": 307.473,
+   "e": 307.973
+  },
+  {
+   "c": 41,
+   "i": 9,
+   "w": "you",
+   "s": 307.973,
+   "e": 308.293
+  },
+  {
+   "c": 41,
+   "i": 10,
+   "w": "won't",
+   "s": 308.293,
+   "e": 308.573
+  },
+  {
+   "c": 41,
+   "i": 11,
+   "w": "believe.",
+   "s": 308.573,
+   "e": 308.813
+  },
+  {
+   "c": 42,
+   "i": 0,
+   "w": "Ten",
+   "s": 309.618,
+   "e": 309.798
+  },
+  {
+   "c": 42,
+   "i": 1,
+   "w": "dollars",
+   "s": 309.798,
+   "e": 310.218
+  },
+  {
+   "c": 42,
+   "i": 2,
+   "w": "and",
+   "s": 310.218,
+   "e": 310.598
+  },
+  {
+   "c": 42,
+   "i": 3,
+   "w": "sixty-nine",
+   "s": 310.598,
+   "e": 311.218
+  },
+  {
+   "c": 42,
+   "i": 4,
+   "w": "cents.",
+   "s": 311.218,
+   "e": 311.538
+  },
+  {
+   "c": 42,
+   "i": 5,
+   "w": "Probably",
+   "s": 312.278,
+   "e": 312.518
+  },
+  {
+   "c": 42,
+   "i": 6,
+   "w": "the",
+   "s": 312.518,
+   "e": 312.818
+  },
+  {
+   "c": 42,
+   "i": 7,
+   "w": "best",
+   "s": 312.818,
+   "e": 313.058
+  },
+  {
+   "c": 42,
+   "i": 8,
+   "w": "money",
+   "s": 313.058,
+   "e": 313.378
+  },
+  {
+   "c": 42,
+   "i": 9,
+   "w": "anyone",
+   "s": 313.378,
+   "e": 313.858
+  },
+  {
+   "c": 42,
+   "i": 10,
+   "w": "ever",
+   "s": 313.858,
+   "e": 314.278
+  },
+  {
+   "c": 42,
+   "i": 11,
+   "w": "spent.",
+   "s": 314.278,
+   "e": 314.618
+  }
+ ],
+ "events": []
+}

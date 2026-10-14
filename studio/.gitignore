@@ -21,3 +21,5 @@ audio/out-bfs/
 public/bfs/*.wav
 audio/out-ai/
 public/ai/*.wav
+audio/out-ks/
+public/ks/*.wav

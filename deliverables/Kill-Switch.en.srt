@@ -1,0 +1,575 @@
+1
+00:00:00,600 --> 00:00:02,580
+It's Friday, May the twelfth,
+
+2
+00:00:03,060 --> 00:00:03,560
+2017.
+
+3
+00:00:03,940 --> 00:00:06,440
+You walk into a hospital in England…
+
+4
+00:00:06,460 --> 00:00:08,760
+and every computer screen is red.
+
+5
+00:00:08,906 --> 00:00:11,286
+A message says your files are locked.
+
+6
+00:00:11,586 --> 00:00:13,646
+Pay three hundred dollars in bitcoin,
+
+7
+00:00:13,926 --> 00:00:15,306
+or lose everything.
+
+8
+00:00:15,497 --> 00:00:17,216
+And it's not just this hospital.
+
+9
+00:00:17,236 --> 00:00:20,167
+It's happening in over a hundred countries.
+
+10
+00:00:20,287 --> 00:00:21,647
+At the same time.
+
+11
+00:00:21,860 --> 00:00:23,580
+The person who stops it?
+
+12
+00:00:23,600 --> 00:00:25,600
+A twenty-two year old, in his bedroom,
+
+13
+00:00:25,620 --> 00:00:26,760
+on his week off.
+
+14
+00:00:26,993 --> 00:00:29,473
+With ten dollars and sixty-nine cents.
+
+15
+00:00:30,073 --> 00:00:31,493
+And three months later…
+
+16
+00:00:31,513 --> 00:00:33,273
+the FBI arrests him.
+
+17
+00:00:33,562 --> 00:00:36,002
+This is the story of the accidental hero
+
+18
+00:00:36,022 --> 00:00:38,882
+who stopped a global cyberattack…
+
+19
+00:00:38,902 --> 00:00:41,042
+and the secret that caught up with him.
+
+20
+00:00:43,014 --> 00:00:45,174
+The attack was called WannaCry.
+
+21
+00:00:45,474 --> 00:00:46,494
+And it was ransomware:
+
+22
+00:00:46,794 --> 00:00:49,154
+software that locks up your files and
+
+23
+00:00:49,174 --> 00:00:50,534
+holds them hostage.
+
+24
+00:00:50,923 --> 00:00:53,823
+But WannaCry was worse than normal ransomware.
+
+25
+00:00:54,423 --> 00:00:56,783
+It didn't wait for you to click a bad link.
+
+26
+00:00:56,923 --> 00:00:59,163
+It spread by itself, from computer to
+
+27
+00:00:59,183 --> 00:01:02,263
+computer, like a cold in a crowded room.
+
+28
+00:01:02,317 --> 00:01:04,897
+It used a hacking tool reportedly built by
+
+29
+00:01:04,917 --> 00:01:07,677
+America's National Security Agency,
+
+30
+00:01:07,757 --> 00:01:09,457
+called EternalBlue.
+
+31
+00:01:09,677 --> 00:01:12,217
+A month earlier, a group calling itself
+
+32
+00:01:12,237 --> 00:01:14,717
+the Shadow Brokers had leaked it online.
+
+33
+00:01:14,944 --> 00:01:18,244
+Microsoft had already released a fix in March.
+
+34
+00:01:18,564 --> 00:01:20,704
+But huge numbers of computers had never
+
+35
+00:01:20,724 --> 00:01:21,984
+installed it.
+
+36
+00:01:22,004 --> 00:01:24,044
+Some were so old, they weren't even
+
+37
+00:01:24,064 --> 00:01:25,324
+supported anymore.
+
+38
+00:01:25,582 --> 00:01:27,802
+So WannaCry tore through them.
+
+39
+00:01:28,022 --> 00:01:30,082
+More than two hundred thousand computers.
+
+40
+00:01:30,422 --> 00:01:31,302
+Factories.
+
+41
+00:01:31,322 --> 00:01:32,402
+Train stations.
+
+42
+00:01:32,582 --> 00:01:33,482
+Phone companies.
+
+43
+00:01:33,876 --> 00:01:36,956
+And in Britain, it hit the National Health Service.
+
+44
+00:01:37,296 --> 00:01:40,156
+About a third of hospital trusts were disrupted.
+
+45
+00:01:40,556 --> 00:01:43,276
+Around nineteen thousand appointments were cancelled.
+
+46
+00:01:43,906 --> 00:01:46,386
+Meanwhile, in a small seaside town in
+
+47
+00:01:46,406 --> 00:01:47,226
+England,
+
+48
+00:01:47,366 --> 00:01:49,786
+a young man named Marcus Hutchins was on a
+
+49
+00:01:49,806 --> 00:01:50,726
+week off.
+
+50
+00:01:50,853 --> 00:01:51,783
+He was twenty-two.
+
+51
+00:01:51,803 --> 00:01:54,113
+He'd taught himself most of what he knew
+
+52
+00:01:54,133 --> 00:01:55,313
+about computers.
+
+53
+00:01:55,753 --> 00:01:58,113
+And his job was taking malware apart,
+
+54
+00:01:58,133 --> 00:01:59,633
+to see how it worked.
+
+55
+00:01:59,751 --> 00:02:02,371
+He came back from lunch, saw the news,
+
+56
+00:02:02,391 --> 00:02:04,731
+and got hold of a copy of WannaCry.
+
+57
+00:02:04,896 --> 00:02:07,416
+And inside, he noticed something strange.
+
+58
+00:02:07,936 --> 00:02:09,716
+Before attacking, the malware tried to
+
+59
+00:02:09,736 --> 00:02:11,696
+visit a weird web address.
+
+60
+00:02:11,996 --> 00:02:14,476
+A long, random jumble of letters.
+
+61
+00:02:14,838 --> 00:02:16,498
+And nobody owned it.
+
+62
+00:02:16,900 --> 00:02:19,220
+Researchers sometimes buy addresses like
+
+63
+00:02:19,240 --> 00:02:21,900
+that, to watch what the malware does.
+
+64
+00:02:22,260 --> 00:02:23,560
+So Marcus bought it.
+
+65
+00:02:23,580 --> 00:02:26,140
+For ten dollars and sixty-nine cents.
+
+66
+00:02:26,856 --> 00:02:27,416
+And then…
+
+67
+00:02:27,436 --> 00:02:29,476
+the attack started to slow down.
+
+68
+00:02:30,146 --> 00:02:31,186
+Here's why.
+
+69
+00:02:31,486 --> 00:02:32,806
+Before infecting a computer,
+
+70
+00:02:32,826 --> 00:02:34,966
+WannaCry checked that address.
+
+71
+00:02:35,066 --> 00:02:37,166
+If nobody answered, it attacked.
+
+72
+00:02:37,286 --> 00:02:38,876
+But if someone answered…
+
+73
+00:02:38,896 --> 00:02:40,516
+…it switched itself off.
+
+74
+00:02:41,149 --> 00:02:42,889
+Think of a burglar who knocks before
+
+75
+00:02:42,909 --> 00:02:44,189
+breaking in.
+
+76
+00:02:44,309 --> 00:02:46,609
+If nobody's home, he goes in.
+
+77
+00:02:46,729 --> 00:02:48,749
+If someone answers, he runs.
+
+78
+00:02:49,569 --> 00:02:51,389
+Marcus had just answered the door.
+
+79
+00:02:51,409 --> 00:02:53,349
+For every computer in the world.
+
+80
+00:02:53,565 --> 00:02:55,345
+He later said that, at first,
+
+81
+00:02:55,365 --> 00:02:56,625
+it was an accident.
+
+82
+00:02:56,925 --> 00:02:58,525
+He didn't know buying the address would
+
+83
+00:02:58,545 --> 00:02:59,566
+stop it.
+
+84
+00:02:59,586 --> 00:03:01,254
+Another researcher, Darien Huss,
+
+85
+00:03:01,274 --> 00:03:05,051
+spotted the same switch at almost the same time.
+
+86
+00:03:05,071 --> 00:03:07,583
+New versions of WannaCry appeared later.
+
+87
+00:03:07,603 --> 00:03:10,756
+But the biggest wave had been stopped.
+
+88
+00:03:10,906 --> 00:03:13,046
+Quick favour: if you like stories like
+
+89
+00:03:13,066 --> 00:03:14,306
+this, subscribe.
+
+90
+00:03:14,766 --> 00:03:17,086
+It costs even less than ten dollars and
+
+91
+00:03:17,106 --> 00:03:18,506
+sixty-nine cents.
+
+92
+00:03:18,928 --> 00:03:19,748
+Overnight,
+
+93
+00:03:19,848 --> 00:03:22,348
+Marcus became the accidental hero.
+
+94
+00:03:22,748 --> 00:03:24,848
+Newspapers hunted for his real name,
+
+95
+00:03:24,868 --> 00:03:25,885
+and found it.
+
+96
+00:03:25,905 --> 00:03:27,005
+And the attackers?
+
+97
+00:03:27,425 --> 00:03:29,125
+Very few victims paid.
+
+98
+00:03:29,365 --> 00:03:31,745
+In the end, the ransom added up to only a
+
+99
+00:03:31,765 --> 00:03:34,225
+little over a hundred thousand dollars.
+
+100
+00:03:34,421 --> 00:03:36,561
+Months later, the American and British
+
+101
+00:03:36,581 --> 00:03:38,721
+governments said they believed North Korea
+
+102
+00:03:38,741 --> 00:03:41,241
+was behind WannaCry.
+
+103
+00:03:41,599 --> 00:03:43,879
+For a while, Marcus was the most famous
+
+104
+00:03:43,899 --> 00:03:45,659
+good hacker on the planet.
+
+105
+00:03:46,185 --> 00:03:48,465
+Then, in August 2017,
+
+106
+00:03:48,785 --> 00:03:50,525
+he flew to Las Vegas for one of the
+
+107
+00:03:50,545 --> 00:03:52,865
+world's biggest hacker conferences,
+
+108
+00:03:53,145 --> 00:03:54,045
+DEF CON.
+
+109
+00:03:54,200 --> 00:03:56,400
+At the airport, on his way home…
+
+110
+00:03:56,500 --> 00:03:58,480
+the FBI arrested him.
+
+111
+00:03:58,941 --> 00:04:00,421
+Not for WannaCry.
+
+112
+00:04:00,741 --> 00:04:02,241
+For something from years earlier,
+
+113
+00:04:02,261 --> 00:04:03,481
+when he was a teenager.
+
+114
+00:04:03,908 --> 00:04:05,966
+Prosecutors said that back then,
+
+115
+00:04:05,986 --> 00:04:08,874
+he had helped create malware that stole
+
+116
+00:04:08,894 --> 00:04:09,705
+online banking passwords.
+
+117
+00:04:09,725 --> 00:04:11,978
+It was called Kronos.
+
+118
+00:04:12,253 --> 00:04:13,973
+The hero who helped stop one of the
+
+119
+00:04:13,993 --> 00:04:16,553
+biggest cyberattacks in history…
+
+120
+00:04:16,573 --> 00:04:19,333
+could now face years in an American prison.
+
+121
+00:04:19,981 --> 00:04:24,081
+In 2019, Marcus pleaded guilty to two charges.
+
+122
+00:04:24,501 --> 00:04:26,721
+He said he regretted those mistakes,
+
+123
+00:04:26,861 --> 00:04:28,981
+and that he'd spent years using his skills
+
+124
+00:04:29,001 --> 00:04:30,981
+to protect people instead.
+
+125
+00:04:31,187 --> 00:04:33,067
+And in July 2019,
+
+126
+00:04:33,347 --> 00:04:35,807
+a judge made a decision that surprised a
+
+127
+00:04:35,827 --> 00:04:36,947
+lot of people.
+
+128
+00:04:37,377 --> 00:04:38,437
+No prison.
+
+129
+00:04:38,517 --> 00:04:40,477
+Time already served, and one year of
+
+130
+00:04:40,497 --> 00:04:42,057
+supervised release.
+
+131
+00:04:42,687 --> 00:04:45,007
+The judge pointed to how young he was back
+
+132
+00:04:45,027 --> 00:04:48,027
+then, how he had turned his life around…
+
+133
+00:04:48,047 --> 00:04:50,707
+and the fact that he had helped stop WannaCry.
+
+134
+00:04:51,021 --> 00:04:52,661
+Today, Marcus still works in
+
+135
+00:04:52,681 --> 00:04:53,801
+cybersecurity,
+
+136
+00:04:54,121 --> 00:04:55,821
+on the side of the defenders.
+
+137
+00:04:56,591 --> 00:04:58,131
+So here's my question.
+
+138
+00:04:58,391 --> 00:05:00,771
+Should one good deed wipe out a bad past?
+
+139
+00:05:01,011 --> 00:05:02,711
+Or should the past still count?
+
+140
+00:05:02,951 --> 00:05:04,231
+Tell me in the comments.
+
+141
+00:05:04,453 --> 00:05:06,653
+And subscribe, because next time,
+
+142
+00:05:06,673 --> 00:05:09,313
+there's another hacker story you won't believe.
+
+143
+00:05:09,618 --> 00:05:12,038
+Ten dollars and sixty-nine cents.
+
+144
+00:05:12,278 --> 00:05:15,118
+Probably the best money anyone ever spent.
