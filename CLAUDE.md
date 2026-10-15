@@ -37,6 +37,9 @@ average view duration down too.
 object with huge stakes, a number in the title, a villain character thumbnail with tension (finger over
 Enter), human second-person script, cinematic camera, Zyvavo type. Repeat this recipe; don't touch a
 title/thumbnail that is working.
+"It Said Yes" (Instagram/AI hack) after 21 h: 1.2K impressions, **1.4% CTR**, 46 views, 2:10 average
+view duration on 5:17 (~41%), 52% suggested + 26% search. Lesson: an abstract thumbnail phrase ("IT SAID
+YES") with no number or clear victim loses the click; search traffic shows the topic itself is wanted.
 
 **Owner's style notes (adopted from video #3 on):**
 - Sound: one consistent background music bed that fits the story; far fewer SFX (no random drums,
