@@ -11,7 +11,7 @@ Alternatives (for Test & compare later):
 - The 22-Year-Old Who Accidentally Saved the Internet
 
 ## Thumbnail text
-**$10.69**
+**$10.69** (red) / **HERO** (white)
 
 ## Description
 Should one good deed wipe out a bad past? Tell me in the comments 👇
@@ -45,7 +45,7 @@ wannacry, wannacry kill switch, marcus hutchins, malwaretech, ransomware, nhs cy
 One good deed vs a bad past. Should the judge have let him go? ⚖️
 
 ## Thumbnail prompt (AI image tool, 16:9)
-YouTube thumbnail, 1280x720, ultra high contrast, bright, polished 3D cartoon render. CENTER-RIGHT: a young cartoon hacker with messy curly brown hair, a grey hoodie and red headphones round his neck, sitting at a laptop, his finger hovering a centimetre above a glowing red "BUY" button, face lit by the screen, a nervous but determined look. Behind him, filling the background: a giant angry red blob monster with sharp eyebrows and a crying eye, made of glowing red code, looming over a dotted world map where every country glows red. On the far left edge, half in shadow: a tall FBI agent in a black suit and sunglasses, holding open handcuffs, watching him. Background: pure black with a subtle dark-grey grid of square lines and a red glow. TOP-LEFT: huge bold text with a thick black outline: "$10.69" in white, the biggest element, perfectly spelled. Keep the bottom-right corner (last 15% of width and height) empty and dark. No other text, no logos, no real people's faces.
+YouTube thumbnail, 1280x720, ultra high contrast, bright, polished 3D cartoon render. CENTER: a young cartoon hacker with messy curly brown hair, a grey hoodie and red headphones round his neck, grinning proudly at a laptop, his finger pressing a glowing red "BUY" button on the laptop screen. BEHIND HIM, filling the background: a giant red computer ransom screen with a big white padlock, an orange Bitcoin logo and a countdown timer, glowing and cracking apart as if switching off. RIGHT SIDE: a tall FBI agent in a navy jacket with big yellow "FBI" letters, dark sunglasses and a serious face, reaching toward the hacker's wrist with open silver handcuffs. LEFT THIRD: huge bold text with a thick black outline, two lines: "$10.69" in bright red (the biggest element) and "HERO" in white, perfectly spelled. Background: pure black with a subtle dark-grey grid of square lines and a red glow. Keep the bottom-right corner (last 15% of width and height) empty and dark. No other text.
 
 ## Upload checklist
 - Audience: not made for kids
