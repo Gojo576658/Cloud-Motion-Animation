@@ -23,3 +23,5 @@ audio/out-ai/
 public/ai/*.wav
 audio/out-ks/
 public/ks/*.wav
+public/kss/*.wav
+audio/out-kss/
