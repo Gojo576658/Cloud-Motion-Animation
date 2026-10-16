@@ -19,6 +19,7 @@ import { KillSwitch } from './ks/Main';
 import { TTL as KSTL } from './ks/ttime';
 import BFS_TL from './bfs/timeline.json';
 import { KillSwitchShort } from './kss/Main';
+import { VioSheet } from './vio/Sheet';
 import KSS_TL from './kss/timeline.json';
 import { TTL as BTL } from './bf/ttime';
 import { TTL } from './tg/ttime';
@@ -119,6 +120,7 @@ export const Root: React.FC = () => (
     <Composition id="TgKit" component={TgKit} width={1920} height={1080} fps={FPS} durationInFrames={90} />
     <Composition id="BlueFriday" component={BlueFriday} width={1920} height={1080} fps={FPS} durationInFrames={Math.ceil(BTL.duration * FPS)} />
     <Composition id="BlueFridayShort" component={BlueFridayShort} width={1080} height={1920} fps={FPS} durationInFrames={Math.ceil(BFS_TL.duration * FPS)} />
+    <Composition id="VioSheet" component={VioSheet} width={1920} height={1080} fps={FPS} durationInFrames={90} />
     <Composition id="KillSwitchShort" component={KillSwitchShort} width={1080} height={1920} fps={FPS} durationInFrames={Math.ceil(KSS_TL.duration * FPS)} />
     <Composition id="ItSaidYes" component={ItSaidYes} width={1920} height={1080} fps={FPS} durationInFrames={Math.ceil(ATL.duration * FPS)} />
     <Composition id="KillSwitch" component={KillSwitch} width={1920} height={1080} fps={FPS} durationInFrames={Math.ceil(KSTL.duration * FPS)} />
