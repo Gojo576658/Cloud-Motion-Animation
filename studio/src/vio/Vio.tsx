@@ -3,7 +3,8 @@
 // fingerless gloves, a white earbud. The art is the owner's AI-generated character set (assets/vio/raw,
 // keyed to public/vio/*.png, 1024×1536 each, same framing). The idle pose talks and blinks through
 // overlays drawn in the image's own pixel space, so the face never shifts between frames.
-// Anchor: bottom-centre at (x, y); size = rendered height in px.
+// Anchor: bottom-centre at (x, y); size = rendered height in px. Place him on the LEFT third of the frame
+// with the story content on the right (owner's note). Never flip: it mirrors the red "M" logos.
 import React from 'react';
 import { Img, staticFile } from 'remotion';
 import { useTF } from '../tg/kit';
@@ -27,15 +28,15 @@ export const Vio: React.FC<{
   const { t, f, fps } = useTF();
   const w = size * (1024 / 1536);
   const enter = at == null ? 1 : springAt(f, fps, at, { damping: 13, stiffness: 190 });
-  const breathe = Math.sin(t * 2.1 + seed) * 0.006;
-  const sway = Math.sin(t * 0.8 + seed) * 0.5 + tilt;
-  const bounce = pose === 'idle' ? talk * 0.012 : talk * 0.02;
+  // the body stays still while he talks (owner's note): only the mouth moves; a very slow breath keeps him alive
+  const breathe = Math.sin(t * 1.4 + seed) * 0.003;
+  const sway = tilt;
   const shut = blink ?? blinkAt(t, seed);
   const k = clamp(talk);
   return (
     <div style={{
       position: 'absolute', left: x, top: y, width: w, height: size,
-      transform: `translate(-50%,-100%) translateY(${(1 - enter) * 60}px) rotate(${sway}deg) scale(${(flip ? -1 : 1) * (0.92 + 0.08 * enter)}, ${(0.92 + 0.08 * enter) * (1 + breathe + bounce)})`,
+      transform: `translate(-50%,-100%) translateY(${(1 - enter) * 60}px) rotate(${sway}deg) scale(${(flip ? -1 : 1) * (0.92 + 0.08 * enter)}, ${(0.92 + 0.08 * enter) * (1 + breathe)})`,
       transformOrigin: '50% 100%', opacity: clamp(enter * 1.6),
     }}>
       <Img src={staticFile(`vio/${FILE[pose]}.png`)} style={{ width: '100%', height: '100%', display: 'block' }} />
