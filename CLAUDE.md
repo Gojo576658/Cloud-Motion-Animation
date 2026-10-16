@@ -41,6 +41,16 @@ title/thumbnail that is working.
 view duration on 5:17 (~41%), 52% suggested + 26% search. Lesson: an abstract thumbnail phrase ("IT SAID
 YES") with no number or clear victim loses the click; search traffic shows the topic itself is wanted.
 
+**Vio, the channel host (from 2026-10-16):** an anime boy (~17) who stands in for the owner and appears in
+every video and thumbnail: black cap with a red "M", messy dark-brown hair with one red streak, warm brown
+eyes, oversized white tee with a red "M", black fingerless gloves, a white earbud, black shorts, black
+high-tops with red laces. Art = the owner's AI-generated set in `assets/vio/raw` (green screen), keyed by
+`tools-py/vio_key.py` to `studio/public/vio/*.png`. Rig: `studio/src/vio/Vio.tsx` (poses idle, shocked,
+smirk, thinking, laughing, pointing, facepalm, full; the idle pose lip-syncs via `talkFrom(words, t)`,
+blinks, and has a red "decoding" eye). Voice says his name as "Vee-oh". Use him for the hook, reactions on
+big beats and the end question, not wall to wall. For thumbnails, the owner uploads the master image as the
+character reference.
+
 **Owner's style notes (adopted from video #3 on):**
 - Sound: one consistent background music bed that fits the story; far fewer SFX (no random drums,
   stings or comedy sounds on every beat). Keep SFX only where something really happens.

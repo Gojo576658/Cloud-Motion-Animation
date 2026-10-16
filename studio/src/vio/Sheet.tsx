@@ -1,26 +1,34 @@
-// Vio character sheet (1920×1080): every mood and arm pose side by side, for checking the rig and for
-// the owner to approve the look. Not part of any video.
+// Vio character sheet (1920×1080): every pose plus the idle overlays (blink, talk, decode), for checking
+// the rig. VioFace (1080×1080) zooms on the idle face to check the overlays line up. Not part of a video.
 import React from 'react';
 import { AbsoluteFill } from 'remotion';
 import { GridBg, A } from '../ai/kit';
 import { Mono } from '../tg/kit';
-import { Vio, type VioMood, type VioArm } from './Vio';
+import { Vio, type VioPose } from './Vio';
 
-const CELLS: [VioMood, VioArm, number, string][] = [
-  ['smirk', 'none', 0, 'SMIRK'], ['happy', 'wave', 0, 'HAPPY · WAVE'], ['talk', 'point', 0, 'TALK · POINT'], ['shock', 'none', 0, 'SHOCK'],
-  ['think', 'chin', 0, 'THINK'], ['laugh', 'none', 0, 'LAUGH'], ['angry', 'none', 0, 'ANGRY'], ['smirk', 'none', 1, 'DECODING'],
+const CELLS: [VioPose, string, { talk?: number; decode?: number; blink?: boolean }][] = [
+  ['idle', 'IDLE', { blink: false }], ['idle', 'BLINK', { blink: true }], ['idle', 'TALK', { talk: 0.9, blink: false }], ['idle', 'DECODING', { decode: 1, blink: false }],
+  ['shocked', 'SHOCKED', {}], ['smirk', 'SMIRK', {}], ['thinking', 'THINKING', {}], ['laughing', 'LAUGHING', {}], ['pointing', 'POINTING', {}], ['facepalm', 'FACEPALM', {}], ['full', 'FULL BODY', {}],
 ];
 export const VioSheet: React.FC = () => (
   <AbsoluteFill>
     <GridBg />
-    {CELLS.map(([mood, arm, decode, label], i) => {
-      const cx = 240 + (i % 4) * 480, cy = 500 + Math.floor(i / 4) * 520;
+    {CELLS.map(([pose, label, o], i) => {
+      const cx = 170 + (i % 6) * 316, cy = 500 + Math.floor(i / 6) * 530;
       return (
         <React.Fragment key={i}>
-          <Vio x={cx} y={cy} size={440} mood={mood} arm={arm} decode={decode} talk={mood === 'talk' ? 0.8 : 0} look={mood === 'think' ? 0.6 : 0} seed={i + 2} />
-          <div style={{ position: 'absolute', left: cx, top: cy + 10, transform: 'translateX(-50%)' }}><Mono size={22} color={A.dim}>{label}</Mono></div>
+          <Vio x={cx} y={cy} size={470} pose={pose} seed={i + 2} {...o} />
+          <div style={{ position: 'absolute', left: cx, top: cy + 8, transform: 'translateX(-50%)' }}><Mono size={20} color={A.dim}>{label}</Mono></div>
         </React.Fragment>
       );
     })}
+  </AbsoluteFill>
+);
+export const VioFace: React.FC = () => (
+  <AbsoluteFill>
+    <GridBg />
+    <div style={{ position: 'absolute', left: 0, top: 0, width: 540, height: 1080, overflow: 'hidden' }}><Vio x={327} y={3660} size={4000} blink={false} talk={0} /></div>
+    <div style={{ position: 'absolute', left: 540, top: 0, width: 540, height: 540, overflow: 'hidden' }}><Vio x={327} y={3390} size={4000} blink /></div>
+    <div style={{ position: 'absolute', left: 540, top: 540, width: 540, height: 540, overflow: 'hidden' }}><Vio x={327} y={3390} size={4000} talk={0.9} blink={false} decode={1} /></div>
   </AbsoluteFill>
 );
