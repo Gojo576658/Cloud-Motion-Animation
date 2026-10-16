@@ -9,15 +9,16 @@ import { Vio, type VioPose } from './Vio';
 const CELLS: [VioPose, string, { talk?: number; decode?: number; blink?: boolean }][] = [
   ['idle', 'IDLE', { blink: false }], ['idle', 'BLINK', { blink: true }], ['idle', 'TALK', { talk: 0.9, blink: false }], ['idle', 'DECODING', { decode: 1, blink: false }],
   ['shocked', 'SHOCKED', {}], ['smirk', 'SMIRK', {}], ['thinking', 'THINKING', {}], ['laughing', 'LAUGHING', {}], ['pointing', 'POINTING', {}], ['facepalm', 'FACEPALM', {}], ['full', 'FULL BODY', {}],
+  ['lookright', 'LOOK RIGHT', {}], ['present', 'PRESENT', {}], ['pointright', 'POINT RIGHT', {}],
 ];
 export const VioSheet: React.FC = () => (
   <AbsoluteFill>
     <GridBg />
     {CELLS.map(([pose, label, o], i) => {
-      const cx = 170 + (i % 6) * 316, cy = 500 + Math.floor(i / 6) * 530;
+      const cx = 120 + (i % 7) * 262, cy = 360 + Math.floor(i / 7) * 360;
       return (
         <React.Fragment key={i}>
-          <Vio x={cx} y={cy} size={470} pose={pose} seed={i + 2} {...o} />
+          <Vio x={cx} y={cy} size={330} pose={pose} seed={i + 2} {...o} />
           <div style={{ position: 'absolute', left: cx, top: cy + 8, transform: 'translateX(-50%)' }}><Mono size={20} color={A.dim}>{label}</Mono></div>
         </React.Fragment>
       );

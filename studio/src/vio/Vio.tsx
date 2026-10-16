@@ -4,14 +4,21 @@
 // keyed to public/vio/*.png, 1024×1536 each, same framing). The idle pose talks and blinks through
 // overlays drawn in the image's own pixel space, so the face never shifts between frames.
 // Anchor: bottom-centre at (x, y); size = rendered height in px. Place him on the LEFT third of the frame
-// with the story content on the right (owner's note). Never flip: it mirrors the red "M" logos.
+// with the story content on the right (owner's note). Put the anchor ~15% of `size` below the frame edge
+// (y = 1080 + 0.15 * size): the arm poses are cut at the waist, and this keeps that cut off screen. Never flip: it mirrors the red "M" logos.
 import React from 'react';
 import { Img, staticFile } from 'remotion';
 import { useTF } from '../tg/kit';
 import { springAt, clamp } from '../lib/time';
 
-export type VioPose = 'idle' | 'shocked' | 'smirk' | 'thinking' | 'laughing' | 'pointing' | 'facepalm' | 'full';
-const FILE: Record<VioPose, string> = { idle: 'idle', shocked: 'shocked', smirk: 'smirk', thinking: 'thinking', laughing: 'laughing', pointing: 'pointing', facepalm: 'facepalm', full: 'master' };
+export type VioPose = 'idle' | 'shocked' | 'smirk' | 'thinking' | 'laughing' | 'pointing' | 'facepalm' | 'full' | 'present' | 'pointright' | 'lookright';
+// file + canvas width (all canvases are 1536 tall and share the idle pose's scale and origin; the arm poses
+// are wider to the right, see tools-py/vio_build.sh). 'pointing' points at the viewer / to screen-left;
+// on the left-hand side of the frame use 'pointright', 'present' or 'lookright' toward the content.
+const FILE: Record<VioPose, [string, number]> = {
+  idle: ['idle', 1024], shocked: ['shocked', 1024], smirk: ['smirk', 1024], thinking: ['thinking', 1024], laughing: ['laughing', 1024], pointing: ['pointing', 1024],
+  facepalm: ['facepalm', 1024], full: ['master', 1024], present: ['present', 1600], pointright: ['pointright', 1840], lookright: ['lookright', 1024],
+};
 export const VIO_POSES = Object.keys(FILE) as VioPose[];
 const SKIN = 'rgb(253,227,204)', LASH = '#1c0b06';
 
@@ -26,7 +33,8 @@ export const Vio: React.FC<{
   seed?: number; flip?: boolean; tilt?: number; blink?: boolean;
 }> = ({ x, y, size = 700, pose = 'idle', talk = 0, decode = 0, at, seed = 1, flip = false, tilt = 0, blink }) => {
   const { t, f, fps } = useTF();
-  const w = size * (1024 / 1536);
+  const [file, W] = FILE[pose];
+  const u = size / 1536, w = W * u;
   const enter = at == null ? 1 : springAt(f, fps, at, { damping: 13, stiffness: 190 });
   // the body stays still while he talks (owner's note): only the mouth moves; a very slow breath keeps him alive
   const breathe = Math.sin(t * 1.4 + seed) * 0.003;
@@ -35,13 +43,13 @@ export const Vio: React.FC<{
   const k = clamp(talk);
   return (
     <div style={{
-      position: 'absolute', left: x, top: y, width: w, height: size,
-      transform: `translate(-50%,-100%) translateY(${(1 - enter) * 60}px) rotate(${sway}deg) scale(${(flip ? -1 : 1) * (0.92 + 0.08 * enter)}, ${(0.92 + 0.08 * enter) * (1 + breathe)})`,
-      transformOrigin: '50% 100%', opacity: clamp(enter * 1.6),
+      position: 'absolute', left: x - 512 * u, top: y - size, width: w, height: size,
+      transform: `translateY(${(1 - enter) * 60}px) rotate(${sway}deg) scale(${(flip ? -1 : 1) * (0.92 + 0.08 * enter)}, ${(0.92 + 0.08 * enter) * (1 + breathe)})`,
+      transformOrigin: `${512 * u}px 100%`, opacity: clamp(enter * 1.6),
     }}>
-      <Img src={staticFile(`vio/${FILE[pose]}.png`)} style={{ width: '100%', height: '100%', display: 'block' }} />
+      <Img src={staticFile(`vio/${file}.png`)} style={{ width: '100%', height: '100%', display: 'block' }} />
       {pose === 'idle' && (
-        <svg viewBox="0 0 1024 1536" width="100%" height="100%" style={{ position: 'absolute', inset: 0 }}>
+        <svg viewBox="0 0 1024 1536" width={1024 * u} height={size} style={{ position: 'absolute', left: 0, top: 0 }}>
           <defs><filter id={`vioM${seed}`}><feGaussianBlur stdDeviation={1.5} /></filter><radialGradient id={`vioG${seed}`}><stop offset="0" stopColor="#ff2b3d" stopOpacity={0.75} /><stop offset="1" stopColor="#ff2b3d" stopOpacity={0} /></radialGradient></defs>
           {shut && <>
             <defs><filter id={`vioF${seed}`}><feGaussianBlur stdDeviation={1.3} /></filter></defs>

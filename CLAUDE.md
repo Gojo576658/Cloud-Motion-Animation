@@ -50,7 +50,8 @@ smirk, thinking, laughing, pointing, facepalm, full; the idle pose lip-syncs via
 blinks, and has a red "decoding" eye). Voice says his name as "Vee-oh". Use him for the hook, reactions on
 big beats and the end question, not wall to wall. Owner's rules: he stands on the LEFT third (content on
 the right; viewers look left first), and while he talks only his mouth moves, the body stays still (no
-bounce). Never flip the image (it mirrors the red "M"). For thumbnails, the owner uploads the master image as the
+bounce). Never flip the image (it mirrors the red "M"); on the left use 'pointright' / 'present' / 'lookright' to
+point or look at the content, and set the anchor y = 1080 + 0.15 * size so the waist cut stays off screen. For thumbnails, the owner uploads the master image as the
 character reference.
 
 **Owner's style notes (adopted from video #3 on):**
