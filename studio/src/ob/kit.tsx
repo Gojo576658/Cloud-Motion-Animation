@@ -14,7 +14,7 @@ import { TTL } from './ttime';
 export { A, GridBg, Phone, TypeOn, Label, Panel, BigNum, Helper } from '../ai/kit';
 
 // ---------------------------------------------------------------- Vio, the host (left third, owner's rule)
-export const Host: React.FC<{ pose?: VioPose; at?: number; decode?: number; x?: number; size?: number }> = ({ pose = 'idle', at, decode = 0, x = 360, size = 960 }) => {
+export const Host: React.FC<{ pose?: VioPose; at?: number; decode?: number; x?: number; size?: number }> = ({ pose = 'idle', at, decode = 0, x = 400, size = 860 }) => {
   const { t } = useTF();
   return <Vio x={x} y={1080 + 0.15 * size} size={size} pose={pose} at={at} decode={decode} talk={pose === 'idle' ? talkFrom(TTL.words, t) : 0} seed={5} />;
 };
@@ -96,7 +96,7 @@ export const Mark: React.FC<{ x: number; y: number; size?: number; mood?: MarkMo
 // ---------------------------------------------------------------- the landlord's building
 export const Building: React.FC<{ x: number; y: number; w: number; h: number; label: string; lit?: number; children?: React.ReactNode }> = ({ x, y, w, h, label, lit = 1, children }) => (
   <div style={{ position: 'absolute', left: x, top: y - h, width: w, height: h, background: '#121217', border: `3px solid ${A.line}`, borderRadius: '10px 10px 0 0' }}>
-    <div style={{ position: 'absolute', left: 0, right: 0, top: 18, textAlign: 'center', ...fonts.H, fontWeight: 900, fontSize: w * 0.12, color: A.white, letterSpacing: '0.04em' }}>{label}</div>
+    <div style={{ position: 'absolute', left: 0, right: 0, top: 18, textAlign: 'center', ...fonts.H, fontWeight: 900, fontSize: w * 0.075, color: A.white, letterSpacing: '0.04em' }}>{label}</div>
     <div style={{ position: 'absolute', left: w * 0.1, right: w * 0.1, top: w * 0.26, display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: w * 0.04 }}>
       {Array.from({ length: Math.max(0, Math.floor((h - w * 0.6) / (w * 0.18)) * 4) }, (_, i) => <div key={i} style={{ height: w * 0.12, borderRadius: 3, background: ((i * 7919) % 13) / 13 < lit * 0.6 ? 'rgba(244,244,246,.35)' : '#1d1d24' }} />)}
     </div>
@@ -156,9 +156,9 @@ export const Coin: React.FC<{ x: number; y: number; at: number; label: string; s
 export const Glasses: React.FC<{ x: number; y: number; w: number; children?: React.ReactNode }> = ({ x, y, w, children }) => (
   <div style={{ position: 'absolute', left: x, top: y, width: w, height: w * 0.36, transform: 'translate(-50%,-50%)' }}>
     <svg viewBox="0 0 500 180" width="100%" height="100%" style={{ position: 'absolute', inset: 0, overflow: 'visible' }}>
-      <path d="M20 40 Q20 20 40 20 L215 20 Q235 20 232 45 L222 130 Q218 160 190 160 L70 160 Q35 160 28 125 Z" fill="rgba(20,20,26,.55)" stroke="#111" strokeWidth="14" />
-      <path d="M480 40 Q480 20 460 20 L285 20 Q265 20 268 45 L278 130 Q282 160 310 160 L430 160 Q465 160 472 125 Z" fill="rgba(20,20,26,.55)" stroke="#111" strokeWidth="14" />
-      <path d="M232 52 Q250 40 268 52" stroke="#111" strokeWidth="14" fill="none" />
+      <path d="M20 40 Q20 20 40 20 L215 20 Q235 20 232 45 L222 130 Q218 160 190 160 L70 160 Q35 160 28 125 Z" fill="rgba(20,20,26,.55)" stroke="#c9c9d1" strokeWidth="14" />
+      <path d="M480 40 Q480 20 460 20 L285 20 Q265 20 268 45 L278 130 Q282 160 310 160 L430 160 Q465 160 472 125 Z" fill="rgba(20,20,26,.55)" stroke="#c9c9d1" strokeWidth="14" />
+      <path d="M232 52 Q250 40 268 52" stroke="#c9c9d1" strokeWidth="14" fill="none" />
     </svg>
     <div style={{ position: 'absolute', left: w * 0.56, top: w * 0.06, width: w * 0.37, height: w * 0.25, overflow: 'hidden', borderRadius: w * 0.03 }}>{children}</div>
   </div>

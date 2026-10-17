@@ -32,28 +32,28 @@ export const A4: React.FC = () => {
     pose = 'shocked'; at = tTenB - 0.1;
     body = <>
       <Pop x={1250} y={170} at={tFeb + 0.1}><Label color={A.white} size={26}>FEBRUARY 2022 · META EARNINGS CALL</Label></Pop>
-      <div style={{ position: 'absolute', left: 1250, top: 430, transform: 'translate(-50%,-50%)', textAlign: 'center', opacity: ramp(t, tTenB - 0.2, 0.3) }}><BigNum to={10000000000} at={tTenB} d={1.2} prefix="$" size={120} color={A.red} /><div style={{ marginTop: 6 }}><Mono size={22} color={A.dim}>THE APPLE CHANGE · COST IN ONE YEAR</Mono></div></div>
+      <div style={{ position: 'absolute', left: 1250, top: 430, transform: 'translate(-50%,-50%)', textAlign: 'center', opacity: ramp(t, tTenB - 0.2, 0.3) }}><BigNum to={10} at={tTenB} d={1.0} prefix="$" suffix=" BILLION" size={130} color={A.red} /><div style={{ marginTop: 6 }}><Mono size={22} color={A.dim}>THE APPLE CHANGE · COST IN ONE YEAR</Mono></div></div>
       {t > tGuess && <Pop x={1250} y={680} at={tGuess}><div style={{ fontFamily: fonts.serif, fontStyle: 'italic', fontSize: 64, color: A.white }}>“a best guess”</div></Pop>}
       {t > tGuess && <Pop x={1250} y={770} at={tGuess + 0.3}><Mono size={18} color={A.dim}>— META'S FINANCE CHIEF</Mono></Pop>}
     </>;
   } else if (t < tGone - 0.15) {
     pose = 'shocked'; at = tFell - 0.1;
     body = <>
-      <StockChart x={800} y={220} w={900} h={560} at={tNext - 0.6} crashAt={tFell} />
+      <StockChart x={800} y={240} w={820} h={420} at={tNext - 0.6} crashAt={tFell} />
       <div style={{ position: 'absolute', left: 830, top: 170 }}><Mono size={20} color={A.dim}>META STOCK · FEB 2022</Mono></div>
-      {t > tFell + 0.3 && <Pop x={1500} y={460} at={tFell + 0.3}><div style={{ ...fonts.H, fontWeight: 900, fontSize: 150, color: A.red, letterSpacing: '-0.05em' }}>−26%</div></Pop>}
+      {t > tFell + 0.3 && <Pop x={1250} y={770} at={tFell + 0.3}><div style={{ ...fonts.H, fontWeight: 900, fontSize: 110, color: A.red, letterSpacing: '-0.05em' }}>−26%</div></Pop>}
     </>;
   } else if (t < tOne - 0.15) {
     pose = 'facepalm'; at = tGone + 0.6;
     body = <>
-      <div style={{ position: 'absolute', left: 1250, top: 380, transform: 'translate(-50%,-50%)', textAlign: 'center' }}><BigNum to={230000000000} at={tGone + 0.1} d={1.6} prefix="$" size={110} /><div style={{ marginTop: 8 }}><Mono size={22} color={A.dim}>MARKET VALUE · GONE IN ONE DAY</Mono></div></div>
+      <div style={{ position: 'absolute', left: 1250, top: 380, transform: 'translate(-50%,-50%)', textAlign: 'center' }}><BigNum to={230} at={tGone + 0.1} d={1.4} prefix="$" suffix=" BILLION" size={130} /><div style={{ marginTop: 8 }}><Mono size={22} color={A.dim}>MARKET VALUE · GONE IN ONE DAY</Mono></div></div>
       {t > tRecord && <Pop x={1250} y={680} at={tRecord}><Label color={A.red} size={28} solid>BIGGEST ONE-DAY DROP FOR A US COMPANY (AT THE TIME)</Label></Pop>}
     </>;
   } else {
     pose = 'idle'; at = tOne - 0.1;
     body = <>
       <div style={{ position: 'absolute', left: 1250, top: 230, transform: 'translateX(-50%)' }}><Kinetic at={tOne + 0.1} size={92} stagger={0.12} words={[{ w: 'One' }, { w: 'button.', serif: true, color: A.red }]} /></div>
-      {t > tDay - 0.2 && <div style={{ position: 'absolute', left: 1250, top: 560, transform: 'translate(-50%,-50%)', textAlign: 'center' }}><BigNum to={27000000} at={tDay} d={1.0} prefix="$" size={120} color={A.white} /><div style={{ marginTop: 6 }}><Mono size={24} color={A.dim}>EVERY SINGLE DAY</Mono></div></div>}
+      {t > tDay - 0.2 && <div style={{ position: 'absolute', left: 1250, top: 560, transform: 'translate(-50%,-50%)', textAlign: 'center' }}><BigNum to={27} at={tDay} d={1.0} prefix="$" suffix=" MILLION" size={120} color={A.white} /><div style={{ marginTop: 6 }}><Mono size={24} color={A.dim}>EVERY SINGLE DAY</Mono></div></div>}
     </>;
   }
   return <AbsoluteFill><GridBg x={70} glow={t > tFell ? 'rgba(255,43,61,.1)' : undefined} />{body}<Host pose={pose} at={at} /></AbsoluteFill>;
@@ -111,7 +111,7 @@ export const A6: React.FC = () => {
   if (t < tDoes - 0.15) {
     body = <>
       <div style={{ position: 'absolute', left: 1250, top: 170, transform: 'translateX(-50%)' }}><Mono size={24} color={A.dim}>SEPTEMBER 2026</Mono></div>
-      {t > tMuse - 0.2 && <><Helper x={1250} y={800} size={420} mood="happy" sign="MUSE" signAt={tMuse + 0.3} seed={4} /><div style={{ position: 'absolute', left: 1250, top: 240, transform: 'translateX(-50%)' }}><Kinetic at={tMuse} size={110} words={[{ w: 'Muse.', serif: true, color: A.red }]} /></div></>}
+      <Helper x={1420} y={860} size={420} mood={t > tMuse ? 'happy' : 'neutral'} sign={t > tMuse ? 'MUSE' : undefined} signAt={tMuse + 0.3} seed={4} />{t < tMuse && <Pop x={1420} y={300} at={C0(31) + 0.5}><Label color={A.white} size={28}>WHAT WAS ALL THAT MONEY FOR?</Label></Pop>}{t > tMuse - 0.2 && <div style={{ position: 'absolute', left: 1420, top: 220, transform: 'translateX(-50%)' }}><Kinetic at={tMuse} size={110} words={[{ w: 'Muse.', serif: true, color: A.red }]} /></div>}
     </>;
   } else if (t < tStores - 0.15) {
     pose = 'idle'; at = tDoes - 0.1;
@@ -120,13 +120,14 @@ export const A6: React.FC = () => {
       {[[tTrip, 'ph:airplane-tilt-fill', 'PLAN A TRIP'], [tEmail, 'ph:envelope-simple-fill', 'SEND AN EMAIL'], [tBuy, 'ph:shopping-bag-fill', 'BUY SOMETHING']].map(([a, ic, lb], i) => <Pop key={lb as string} x={1150} y={300 + i * 170} at={(a as number) - 0.1}><div style={{ width: 520, padding: '24px 30px', borderRadius: 20, background: A.panel, border: `2px solid ${A.line}`, display: 'flex', alignItems: 'center', gap: 24 }}><Icon name={ic as string} size={60} color={A.white} /><div style={{ flex: 1, ...fonts.H, fontWeight: 800, fontSize: 34, color: A.white }}>{lb as string}</div><Icon name="ph:check-circle-fill" size={48} color={t > (a as number) + 0.5 ? A.red : '#2a2a33'} /></div></Pop>)}
     </>;
   } else if (t < tFreeP - 0.15) {
+    pose = 'present'; at = tStores - 0.1;
     body = <>
-      <Phone x={1130} y={530} w={360}><AbsoluteFill style={{ background: '#0f0f13', padding: '70px 18px 18px' }}>
+      <Phone x={1180} y={530} w={360}><AbsoluteFill style={{ background: '#0f0f13', padding: '70px 18px 18px' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 20 }}><Icon name="ph:whatsapp-logo-fill" size={30} color={A.white} /><div style={{ ...fonts.H, fontWeight: 800, fontSize: 20, color: A.white }}>Muse</div></div>
         <div style={{ marginLeft: 'auto', width: '78%', padding: 14, borderRadius: 16, background: A.white, ...fonts.H, fontWeight: 600, fontSize: 19, color: '#111', opacity: ramp(t, tStores + 0.3, 0.3) }}>Get me white sneakers, size 9.</div>
         {t > tWa - 0.4 && <div style={{ marginTop: 14, width: '80%', padding: 14, borderRadius: 16, background: '#222229', ...fonts.H, fontWeight: 600, fontSize: 19, color: A.white, opacity: ramp(t, tWa - 0.4, 0.3) }}>Done. Ordered for you <span style={{ color: A.red }}>✓</span></div>}
       </AbsoluteFill></Phone>
-      <div style={{ position: 'absolute', left: 1430, top: 300, display: 'flex', flexDirection: 'column', gap: 26 }}>{['WALMART', 'BEST BUY', 'SEPHORA'].map((s, i) => <Pop key={s} x={0} y={0} at={tStores + 0.6 + i * 0.25}><div style={{ position: 'relative', top: i * 110, padding: '18px 30px', borderRadius: 14, background: A.panel, border: `2px solid ${A.line}`, ...fonts.H, fontWeight: 900, fontSize: 30, color: A.white, whiteSpace: 'nowrap' }}>{s}</div></Pop>)}</div>
+      <div style={{ position: 'absolute', left: 1470, top: 300, display: 'flex', flexDirection: 'column', gap: 26 }}>{['WALMART', 'BEST BUY', 'SEPHORA'].map((s, i) => <Pop key={s} x={0} y={0} at={tStores + 0.6 + i * 0.25}><div style={{ position: 'relative', top: i * 110, padding: '18px 30px', borderRadius: 14, background: A.panel, border: `2px solid ${A.line}`, ...fonts.H, fontWeight: 900, fontSize: 30, color: A.white, whiteSpace: 'nowrap' }}>{s}</div></Pop>)}</div>
     </>;
   } else if (t < tThink - 0.15) {
     pose = 'idle'; at = tFreeP - 0.1;
@@ -153,6 +154,7 @@ export const A6: React.FC = () => {
   } else {
     pose = 'lookright'; at = tCut;
     body = <>
+      {t < tAd - 0.1 && <><Mark x={1150} y={900} size={380} mood="happy" seed={5} /><Helper x={1450} y={880} size={300} mood="wink" seed={7} /></>}
       <Pop x={1250} y={170} at={tCut + 0.2}><Label color={A.dim} size={24}>A POSSIBLE FUTURE · ZUCKERBERG, META CONNECT</Label></Pop>
       <Coin x={1080} y={480} at={tAd} label={'FROM\nTHE AD'} size={240} />
       <Coin x={1420} y={480} at={tSale} label={'CUT OF\nTHE SALE'} size={240} />
@@ -165,7 +167,7 @@ export const A6: React.FC = () => {
 
 // ================================================================ ACT 7 · your turn
 const tGlass = C0(38), tJacket = P(38, 'You see a jacket'), tAskG = P(38, 'you ask your glasses'), tWay = P(38, "it's on its way"), tCool = C0(39), tCreep = P(39, 'or the creepiest');
-const tMist = C0(40), tTerms = P(40, 'reportedly'), tQ = C0(41), tSpendQ = P(41, 'spend your money'), tTell = P(41, 'Tell me'), tSub = C0(42), tNext = P(42, 'Next time'), tEnd = C0(43), tBecome = P(43, 'Now Meta wants');
+const tMist = C0(40), tTerms = P(40, 'reportedly'), tQ = C0(41), tSpendQ = P(41, 'spend your money'), tTell = P(41, 'Tell me'), tSub = C0(42), tNextT = P(42, 'Next time'), tEnd = C0(43), tBecome = P(43, 'Now Meta wants');
 export const a7NoCaptions: [number, number][] = [[tEnd - 0.05, C1(43) + 10]];
 export const a7Sfx: SfxEvent[] = [{ t: tWay, name: 'confirm', vol: 0.3 }, { t: tTell, name: 'notify', vol: 0.3 }, { t: tSub, name: 'clickModern', vol: 0.4 }, { t: tSub + 0.4, name: 'bell', vol: 0.3 }, { t: tBecome, name: 'impactDeep', vol: 0.35 }];
 export const A7: React.FC = () => {
@@ -205,7 +207,7 @@ export const A7: React.FC = () => {
     const subbed = t > tSub + 0.3;
     body = <>
       <div style={{ position: 'absolute', left: 1250, top: 420, transform: 'translate(-50%,-50%)', display: 'flex', alignItems: 'center', gap: 18 }}><div style={{ padding: '24px 48px', borderRadius: 50, background: subbed ? '#1c1c22' : A.red, ...fonts.H, fontWeight: 900, fontSize: 56, color: A.white }}>{subbed ? 'SUBSCRIBED' : 'SUBSCRIBE'}</div><Icon name={subbed ? 'ph:bell-ringing-fill' : 'ph:bell-fill'} size={80} color={A.white} /></div>
-      {t > tNext && <Pop x={1250} y={620} at={tNext}><Label color={A.dim} size={28}>next time: another hidden tech war</Label></Pop>}
+      {t > tNextT && <Pop x={1250} y={620} at={tNextT}><Label color={A.dim} size={28}>next time: another hidden tech war</Label></Pop>}
     </>;
   } else {
     pose = 'idle'; at = tEnd - 0.1;

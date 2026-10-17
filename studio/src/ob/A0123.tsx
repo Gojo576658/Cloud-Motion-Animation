@@ -29,16 +29,16 @@ export const A0: React.FC = () => {
     <AbsoluteFill>
       <GridBg glow="rgba(255,43,61,.08)" x={70} />
       {t < tMillions - 0.15 && <>
-        <Phone x={1230} y={520} w={400}>
+        <Phone x={1240} y={520} w={470}>
           <AbsoluteFill style={{ background: 'linear-gradient(180deg,#1b1b22,#0d0d11)' }}>
-            {t > tBox - 0.2 && <AttPopup x={186} y={400} w={340} at={tBox} pick={t > tTap + 0.05 ? 'deny' : 'none'} />}
+            {t > tBox - 0.2 && <AttPopup x={220} y={470} w={420} at={tBox} pick={t > tTap + 0.05 ? 'deny' : 'none'} />}
           </AbsoluteFill>
         </Phone>
-        <Tap x={1180} y={598} at={tTap} size={70} />
+        <Tap x={1190} y={588} at={tTap} size={80} />
       </>}
       {t >= tMillions - 0.15 && t < tVio - 0.15 && <>
-        <div style={{ position: 'absolute', left: 820, top: 170, display: 'grid', gridTemplateColumns: 'repeat(14, 54px)', gap: 12 }}>
-          {Array.from({ length: 42 }, (_, i) => { const on = t > tMillions + ((i * 37) % 42) * 0.03; return <div key={i} style={{ height: 34, borderRadius: 6, background: on ? '#26262c' : '#16161c', border: `2px solid ${on ? A.white : A.line}`, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>{on && <Icon name="ph:x-bold" size={18} color={A.red} />}</div>; })}
+        <div style={{ position: 'absolute', left: 860, top: 230, display: 'grid', gridTemplateColumns: 'repeat(12, 54px)', gap: 12 }}>
+          {Array.from({ length: 36 }, (_, i) => { const on = t > tMillions + ((i * 37) % 36) * 0.035; return <div key={i} style={{ height: 34, borderRadius: 6, background: on ? '#26262c' : '#16161c', border: `2px solid ${on ? A.white : A.line}`, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>{on && <Icon name="ph:x-bold" size={18} color={A.red} />}</div>; })}
         </div>
         {t > tMeta - 0.1 && t < tTen - 0.2 && <AppRow x={1270} y={560} at={tMeta} />}
         {t > tTen - 0.2 && <div style={{ position: 'absolute', left: 1270, top: 600, transform: 'translate(-50%,-50%)', textAlign: 'center' }}>
@@ -47,7 +47,7 @@ export const A0: React.FC = () => {
         </div>}
       </>}
       {t >= tVio - 0.15 && t < tMark - 0.15 && <>
-        <Pop x={560} y={300} at={tVio + 0.1}><Label color={A.red} size={30} solid>VIO · YOUR HOST</Label></Pop>
+        <Pop x={720} y={250} at={tVio + 0.1}><Label color={A.red} size={30} solid>VIO · YOUR HOST</Label></Pop>
         <div style={{ position: 'absolute', left: 1240, top: 470, transform: 'translate(-50%,-50%)', display: 'flex', alignItems: 'center', gap: 40 }}>
           {['ph:apple-logo-fill', 'ph:infinity-bold'].map((ic, i) => <Pop key={ic} x={0} y={0} at={tWar - 0.3 + i * 0.15}><div style={{ position: 'relative', left: i ? 200 : -200, width: 220, height: 220, borderRadius: 40, background: A.panel, border: `3px solid ${A.line}`, display: 'flex', alignItems: 'center', justifyContent: 'center' }}><Icon name={ic} size={130} color={A.white} /></div></Pop>)}
           {t > tWar + 0.1 && <div style={{ position: 'absolute', left: 0, top: -60, transform: `translateX(-50%) scale(${springAt(Math.round(t * 30), 30, tWar + 0.1, { damping: 8, stiffness: 220 })})` }}><Icon name="ph:lightning-fill" size={150} color={A.red} /></div>}
@@ -87,14 +87,14 @@ export const A1: React.FC = () => {
   } else if (t < tPriv - 0.15) {
     const rules = t > tRules;
     body = <>
-      <Building x={900} y={940} w={700} h={820} label="THE PHONE BUILDING" lit={0.8}>
-        <div style={{ position: 'absolute', left: 190, bottom: 0, width: 320, height: 210, background: A.white, borderRadius: '8px 8px 0 0', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+      <Building x={900} y={940} w={640} h={700} label="THE PHONE BUILDING" lit={0.8}>
+        <div style={{ position: 'absolute', left: 160, bottom: 0, width: 320, height: 210, background: A.white, borderRadius: '8px 8px 0 0', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
           <div style={{ ...fonts.H, fontWeight: 900, fontSize: 46, color: '#111' }}>META</div>
           <div style={{ display: 'flex', gap: 10, marginTop: 6 }}>{APPS.map(([a]) => <Icon key={a} name={a} size={38} color="#111" />)}</div>
         </div>
       </Building>
-      <Pop x={1720 - 120} y={760} at={tShop + 0.6}><div style={{ textAlign: 'center' }}><Icon name="ph:currency-dollar-bold" size={90} color={A.white} /><div><Mono size={20} color={A.dim}>RENT</Mono></div></div></Pop>
-      {t > tRich && <Pop x={1250} y={180} at={tRich}><Label color={A.white} size={30}>HUGE. VERY RICH. STILL A TENANT.</Label></Pop>}
+      <Pop x={1640} y={760} at={tShop + 0.6}><div style={{ textAlign: 'center' }}><Icon name="ph:currency-dollar-bold" size={90} color={A.white} /><div><Mono size={20} color={A.dim}>RENT</Mono></div></div></Pop>
+      {t > tRich && <Pop x={1220} y={170} at={tRich}><Label color={A.white} size={30}>HUGE. VERY RICH. STILL A TENANT.</Label></Pop>}
       <Stamp x={1250} y={480} at={tRules + 0.35} text="LANDLORD'S RULES" size={70} rot={-7} />
     </>;
   } else {
@@ -122,8 +122,8 @@ export const A2: React.FC = () => {
     return (
       <AbsoluteFill><GridBg />
         <div style={{ position: 'absolute', left: 960, top: 200, transform: 'translateX(-50%)' }}><Kinetic at={tAds + 0.1} size={96} words={[{ w: 'Ads' }, { w: 'that' }, { w: 'know', serif: true, color: A.red }, { w: 'you.' }]} /></div>
-        <div style={{ position: 'absolute', left: 960, top: 560, transform: 'translate(-50%,-50%)', display: 'flex', gap: 40 }}>
-          {['ph:sneaker-fill', 'ph:headphones-fill', 'ph:game-controller-fill', 'ph:pizza-fill'].map((ic, i) => <Pop key={ic} x={0} y={0} at={tAds + 0.4 + i * 0.15}><div style={{ position: 'relative', width: 230, height: 260, borderRadius: 24, background: A.panel, border: `2px solid ${t > tKnow && i === 0 ? A.red : A.line}`, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 14 }}><Icon name={ic} size={100} color={A.white} /><Mono size={16} color={A.dim}>SPONSORED</Mono></div></Pop>)}
+        <div>
+          {['ph:sneaker-fill', 'ph:headphones-fill', 'ph:game-controller-fill', 'ph:pizza-fill'].map((ic, i) => <Pop key={ic} x={555 + i * 270} y={560} at={tAds + 0.4 + i * 0.15}><div style={{ position: 'relative', width: 230, height: 260, borderRadius: 24, background: A.panel, border: `2px solid ${t > tKnow && i === 0 ? A.red : A.line}`, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 14 }}><Icon name={ic} size={100} color={A.white} /><Mono size={16} color={A.dim}>SPONSORED</Mono></div></Pop>)}
         </div>
         {t > tKnow && <Pop x={960} y={830} at={tKnow}><Label color={A.red} size={30}><Icon name="ph:eye-fill" size={32} color={A.red} /> TARGETED TO YOU</Label></Pop>}
       </AbsoluteFill>
@@ -173,7 +173,7 @@ export const A2: React.FC = () => {
         <div style={{ position: 'absolute', left: 300, top: 300, display: 'flex', gap: 60 }}>{['ph:shopping-bag-fill', 'ph:music-notes-fill', 'ph:map-pin-fill', 'ph:game-controller-fill', 'ph:newspaper-fill'].map((ic, i) => <div key={i} style={{ width: 200, height: 200, borderRadius: 40, background: A.panel, border: `2px solid ${A.line}`, display: 'flex', alignItems: 'center', justifyContent: 'center' }}><Icon name={ic} size={100} color={A.white} /></div>)}</div>
         <div style={{ position: 'absolute', left: lerp(380, 1500, walk), top: 820, transform: 'translate(-50%,-100%)' }}><Icon name="ph:person-simple-walk-fill" size={220} color={A.white} /></div>
         <Spy x={lerp(380, 1500, walk) - 280} y={830} size={320} mood="sneak" />
-        {t > tPaid && <div style={{ position: 'absolute', left: 1500, top: 150, display: 'flex', gap: 14 }}>{[0, 1, 2].map((i) => <Pop key={i} x={0} y={0} at={tPaid + i * 0.12}><div style={{ position: 'relative', left: i * 110 }}><Icon name="ph:coins-fill" size={90} color={A.white} /></div></Pop>)}</div>}
+        {t > tPaid && <div>{[0, 1, 2].map((i) => <Pop key={i} x={1360 + i * 120} y={170} at={tPaid + i * 0.12}><div><Icon name="ph:coins-fill" size={90} color={A.white} /></div></Pop>)}</div>}
       </AbsoluteFill>
     );
   }
@@ -215,7 +215,7 @@ export const A3: React.FC = () => {
       <div style={{ position: 'absolute', left: 1250, top: 500, transform: 'translate(-50%,-50%)', width: 760, padding: 50, borderRadius: 28, background: A.panel, border: `2px solid ${A.line}`, textAlign: 'center', opacity: ramp(t, tReply + 0.1, 0.3) }}>
         <Icon name="ph:apple-logo-fill" size={90} color={A.white} style={{ margin: '0 auto' }} />
         <div style={{ marginTop: 20 }}><Mono size={20} color={A.dim}>APPLE'S ANSWER</Mono></div>
-        {t > tUsers - 0.2 && <div style={{ marginTop: 16 }}><Kinetic at={tUsers - 0.1} size={64} words={[{ w: 'Standing' }, { w: 'up' }, { w: 'for', br: true }, { w: 'our' }, { w: 'users.', serif: true, color: A.red }]} /></div>}
+        {t > tUsers - 0.2 && <div style={{ marginTop: 16, ...fonts.H, fontWeight: 900, fontSize: 60, color: A.white, lineHeight: 1.1, opacity: ramp(t, tUsers - 0.1, 0.35), transform: `translateY(${(1 - ramp(t, tUsers - 0.1, 0.45, EASE.out)) * 20}px)` }}>“Standing up for <span style={{ fontFamily: fonts.serif, fontStyle: 'italic', fontWeight: 400, color: A.red }}>our users.</span>”</div>}
       </div>
     </>;
   } else if (t < tChose - 0.15) {
@@ -226,7 +226,7 @@ export const A3: React.FC = () => {
         <div style={{ position: 'absolute', right: 30, top: 330, width: 22, height: 22, borderRadius: 11, background: A.soft }} />
       </div>
       <div style={{ position: 'absolute', left: 1000, top: 880, width: 760, height: 10, background: A.line }} />
-      {[0, 1, 2].map((i) => <div key={i} style={{ position: 'absolute', left: 1460 + i * 100, top: 880, transform: 'translate(-50%,-100%)' }}><Icon name="ph:person-simple-fill" size={180} color={A.white} />{t > tNo + i * 0.15 && <div style={{ position: 'absolute', left: '50%', top: -60, transform: 'translateX(-50%)', padding: '6px 14px', borderRadius: 10, background: A.red, ...fonts.H, fontWeight: 900, fontSize: 30, color: A.white }}>NO</div>}</div>)}
+      {[0, 1, 2].map((i) => <div key={i} style={{ position: 'absolute', left: 1430 + i * 95, top: 880, transform: 'translate(-50%,-100%)' }}><Icon name="ph:person-simple-fill" size={150} color={A.white} />{t > tNo + i * 0.15 && <div style={{ position: 'absolute', left: '50%', top: -60, transform: 'translateX(-50%)', padding: '6px 14px', borderRadius: 10, background: A.red, ...fonts.H, fontWeight: 900, fontSize: 30, color: A.white }}>NO</div>}</div>)}
       <Spy x={880} y={890} size={260} mood={shut ? 'locked' : 'sneak'} />
     </>;
   } else {

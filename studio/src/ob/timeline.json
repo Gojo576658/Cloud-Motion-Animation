@@ -1,0 +1,6703 @@
+{
+ "fps": 30,
+ "offset": 0.6,
+ "duration": 269.709,
+ "bpm": 84,
+ "scenes": [
+  {
+   "index": 0,
+   "title": "Cold Open",
+   "start": 0,
+   "end": 26.983
+  },
+  {
+   "index": 1,
+   "title": "The Landlord",
+   "start": 26.983,
+   "end": 55.987
+  },
+  {
+   "index": 2,
+   "title": "The Spy",
+   "start": 55.987,
+   "end": 90.172
+  },
+  {
+   "index": 3,
+   "title": "The Button",
+   "start": 90.172,
+   "end": 129.42
+  },
+  {
+   "index": 4,
+   "title": "Ten Billion",
+   "start": 129.42,
+   "end": 160.513
+  },
+  {
+   "index": 5,
+   "title": "The AI Race",
+   "start": 160.513,
+   "end": 186.891
+  },
+  {
+   "index": 6,
+   "title": "Muse",
+   "start": 186.891,
+   "end": 232.149
+  },
+  {
+   "index": 7,
+   "title": "Your Turn",
+   "start": 232.149,
+   "end": 269.709
+  }
+ ],
+ "sections": [
+  {
+   "index": 0,
+   "title": "invest",
+   "mood": "invest",
+   "bpm": 84,
+   "start": 0,
+   "end": 27.083
+  },
+  {
+   "index": 1,
+   "title": "inside",
+   "mood": "inside",
+   "bpm": 84,
+   "start": 27.083,
+   "end": 56.087
+  },
+  {
+   "index": 2,
+   "title": "audio",
+   "mood": "audio",
+   "bpm": 84,
+   "start": 56.087,
+   "end": 90.272
+  },
+  {
+   "index": 3,
+   "title": "calm",
+   "mood": "calm",
+   "bpm": 84,
+   "start": 90.272,
+   "end": 129.52
+  },
+  {
+   "index": 4,
+   "title": "invest",
+   "mood": "invest",
+   "bpm": 84,
+   "start": 129.52,
+   "end": 160.613
+  },
+  {
+   "index": 5,
+   "title": "calm",
+   "mood": "calm",
+   "bpm": 84,
+   "start": 160.613,
+   "end": 186.991
+  },
+  {
+   "index": 6,
+   "title": "inside",
+   "mood": "inside",
+   "bpm": 84,
+   "start": 186.991,
+   "end": 232.249
+  },
+  {
+   "index": 7,
+   "title": "open",
+   "mood": "open",
+   "bpm": 84,
+   "start": 232.249,
+   "end": 269.709
+  }
+ ],
+ "cues": [
+  {
+   "id": 0,
+   "section": 0,
+   "voice": "chatterbox",
+   "start": 0.6,
+   "end": 5.231,
+   "text": "Okay. Pick up your phone. Remember this little box? Allow this app to track your activity?"
+  },
+  {
+   "id": 1,
+   "section": 0,
+   "voice": "chatterbox",
+   "start": 5.581,
+   "end": 8.927,
+   "text": "You probably tapped, Ask App Not to Track, without even thinking."
+  },
+  {
+   "id": 2,
+   "section": 0,
+   "voice": "chatterbox",
+   "start": 9.227,
+   "end": 16.819,
+   "text": "Millions of people did the same thing. And Meta, the company behind Facebook, Instagram and WhatsApp, says that one tap would cost it around ten billion dollars."
+  },
+  {
+   "id": 3,
+   "section": 0,
+   "voice": "chatterbox",
+   "start": 17.169,
+   "end": 22.802,
+   "text": "I'm Vio. This is the story of how one button started a war between two of the richest companies on Earth."
+  },
+  {
+   "id": 4,
+   "section": 0,
+   "voice": "chatterbox",
+   "start": 23.102,
+   "end": 26.783,
+   "text": "And how Mark Zuckerberg is now trying to win it with an AI that shops for you."
+  },
+  {
+   "id": 5,
+   "section": 1,
+   "voice": "chatterbox",
+   "start": 27.383,
+   "end": 31.924,
+   "text": "First, you need to understand one thing. Meta owns the apps. But it doesn't own the phones."
+  },
+  {
+   "id": 6,
+   "section": 1,
+   "voice": "chatterbox",
+   "start": 32.224,
+   "end": 38.141,
+   "text": "Almost every Instagram scroll and every WhatsApp message happens on a phone made by Apple, or running Google's software."
+  },
+  {
+   "id": 7,
+   "section": 1,
+   "voice": "chatterbox",
+   "start": 38.441,
+   "end": 41.657,
+   "text": "So Meta is like a shop that pays rent in somebody else's building."
+  },
+  {
+   "id": 8,
+   "section": 1,
+   "voice": "chatterbox",
+   "start": 41.957,
+   "end": 46.195,
+   "text": "It's a huge, very rich shop. But the landlord still makes the rules."
+  },
+  {
+   "id": 9,
+   "section": 1,
+   "voice": "chatterbox",
+   "start": 46.495,
+   "end": 55.787,
+   "text": "And for years, Apple had been telling everyone that it was the privacy company. It even put up a giant billboard in Las Vegas saying, what happens on your iPhone, stays on your iPhone."
+  },
+  {
+   "id": 10,
+   "section": 2,
+   "voice": "chatterbox",
+   "start": 56.387,
+   "end": 61.307,
+   "text": "And Meta's business runs on ads. Really good ads. Ads that seem to know you."
+  },
+  {
+   "id": 11,
+   "section": 2,
+   "voice": "chatterbox",
+   "start": 61.607,
+   "end": 67.167,
+   "text": "Say you look at a pair of sneakers in a shopping app. Ten minutes later, those exact sneakers show up on Instagram."
+  },
+  {
+   "id": 12,
+   "section": 2,
+   "voice": "chatterbox",
+   "start": 67.467,
+   "end": 73.485,
+   "text": "That works because your iPhone had a hidden ID number. Apps could use it to follow you from one app to another, and tell Meta what you did."
+  },
+  {
+   "id": 13,
+   "section": 2,
+   "voice": "chatterbox",
+   "start": 73.785,
+   "end": 79.838,
+   "text": "It had a very boring name. The I D F A. The identifier for advertisers. But it was worth a fortune."
+  },
+  {
+   "id": 14,
+   "section": 2,
+   "voice": "chatterbox",
+   "start": 80.138,
+   "end": 86.201,
+   "text": "Think of it as a little spy, quietly following you everywhere you go on your phone. And advertisers paid a lot for what that spy saw."
+  },
+  {
+   "id": 15,
+   "section": 2,
+   "voice": "chatterbox",
+   "start": 86.501,
+   "end": 89.972,
+   "text": "And here's the thing. Most people had no idea the spy was there."
+  },
+  {
+   "id": 16,
+   "section": 3,
+   "voice": "chatterbox",
+   "start": 90.572,
+   "end": 95.401,
+   "text": "Then, in April 2021, Apple released iOS fourteen point five."
+  },
+  {
+   "id": 17,
+   "section": 3,
+   "voice": "chatterbox",
+   "start": 95.701,
+   "end": 100.29,
+   "text": "Now every app had to ask first. Do you want this app to track you, yes or no?"
+  },
+  {
+   "id": 18,
+   "section": 3,
+   "voice": "chatterbox",
+   "start": 100.59,
+   "end": 108.009,
+   "text": "Meta saw it coming. Months earlier, it bought full-page ads in big American newspapers, saying, we're standing up to Apple for small businesses everywhere."
+  },
+  {
+   "id": 19,
+   "section": 3,
+   "voice": "chatterbox",
+   "start": 108.309,
+   "end": 112.667,
+   "text": "Apple's answer was simple. It said this was about standing up for its users."
+  },
+  {
+   "id": 20,
+   "section": 3,
+   "voice": "chatterbox",
+   "start": 112.967,
+   "end": 120.81,
+   "text": "Imagine your landlord putting a big sign on your shop door, asking every customer, do you want this shop to watch what you do? Most people are going to say no."
+  },
+  {
+   "id": 21,
+   "section": 3,
+   "voice": "chatterbox",
+   "start": 121.11,
+   "end": 129.22,
+   "text": "And the users chose. In the first weeks, one analytics company estimated that only around four to six percent of iPhone users in the US said yes."
+  },
+  {
+   "id": 22,
+   "section": 4,
+   "voice": "chatterbox",
+   "start": 129.82,
+   "end": 135.685,
+   "text": "Meta's ads got less precise. Advertisers couldn't see as clearly what was working, so they spent less."
+  },
+  {
+   "id": 23,
+   "section": 4,
+   "voice": "chatterbox",
+   "start": 135.985,
+   "end": 143.831,
+   "text": "In February 2022, Meta told its investors the Apple change would cost it about ten billion dollars that year. Its own finance chief called that number a best guess."
+  },
+  {
+   "id": 24,
+   "section": 4,
+   "voice": "chatterbox",
+   "start": 144.131,
+   "end": 147.202,
+   "text": "The next day, Meta's stock fell about twenty six percent."
+  },
+  {
+   "id": 25,
+   "section": 4,
+   "voice": "chatterbox",
+   "start": 147.502,
+   "end": 155.24,
+   "text": "Roughly two hundred and thirty billion dollars in value disappeared in a single day. At the time, the biggest one-day drop for any American company in history."
+  },
+  {
+   "id": 26,
+   "section": 4,
+   "voice": "chatterbox",
+   "start": 155.54,
+   "end": 160.313,
+   "text": "One button. Ten billion dollars a year. That's about twenty seven million dollars, every single day."
+  },
+  {
+   "id": 27,
+   "section": 5,
+   "voice": "chatterbox",
+   "start": 160.913,
+   "end": 163.607,
+   "text": "So Zuckerberg needed a way out of the landlord's building."
+  },
+  {
+   "id": 28,
+   "section": 5,
+   "voice": "chatterbox",
+   "start": 163.907,
+   "end": 170.707,
+   "text": "First, he bet on the metaverse. Then the AI race exploded, and Meta was suddenly chasing companies like OpenAI and Google."
+  },
+  {
+   "id": 29,
+   "section": 5,
+   "voice": "chatterbox",
+   "start": 171.007,
+   "end": 176.991,
+   "text": "Meta built its own AI models and gave many of them away for free. But for a while, rivals kept pulling ahead."
+  },
+  {
+   "id": 30,
+   "section": 5,
+   "voice": "chatterbox",
+   "start": 177.291,
+   "end": 186.691,
+   "text": "So Meta started spending like crazy. Billions on a new superintelligence team, and, reportedly, pay packages for top AI researchers that sounded like football transfer fees."
+  },
+  {
+   "id": 31,
+   "section": 6,
+   "voice": "chatterbox",
+   "start": 187.291,
+   "end": 193.629,
+   "text": "And in September 2026, Meta showed what all that money was for. An AI agent called Muse."
+  },
+  {
+   "id": 32,
+   "section": 6,
+   "voice": "chatterbox",
+   "start": 193.929,
+   "end": 199.305,
+   "text": "Muse doesn't just chat. It does things. You can ask it to plan a trip, send an email, or buy you something."
+  },
+  {
+   "id": 33,
+   "section": 6,
+   "voice": "chatterbox",
+   "start": 199.605,
+   "end": 205.215,
+   "text": "Meta says it can check out from stores like Walmart, Best Buy and Sephora, and it lives right inside WhatsApp."
+  },
+  {
+   "id": 34,
+   "section": 6,
+   "voice": "chatterbox",
+   "start": 205.515,
+   "end": 211.412,
+   "text": "It's free to start, with paid plans at twenty and a hundred dollars a month. For now, it's only available in the United States."
+  },
+  {
+   "id": 35,
+   "section": 6,
+   "voice": "chatterbox",
+   "start": 211.712,
+   "end": 217.802,
+   "text": "Now think about what that means. If you tell Muse what you want, there's no need for a spy to follow you around. You just told it yourself."
+  },
+  {
+   "id": 36,
+   "section": 6,
+   "voice": "chatterbox",
+   "start": 218.102,
+   "end": 222.577,
+   "text": "And because it all happens inside Meta's own apps, Apple's little box never even pops up."
+  },
+  {
+   "id": 37,
+   "section": 6,
+   "voice": "chatterbox",
+   "start": 222.877,
+   "end": 231.949,
+   "text": "And at its big event, Zuckerberg even described a possible future where Muse takes a small cut of the things it buys for you. So Meta could earn from the ad, and from the sale."
+  },
+  {
+   "id": 38,
+   "section": 7,
+   "voice": "chatterbox",
+   "start": 232.549,
+   "end": 241.16,
+   "text": "Meta is also bringing Muse to its smart glasses. Picture this. You see a jacket on the street, you ask your glasses about it, and a few seconds later, it's on its way to you."
+  },
+  {
+   "id": 39,
+   "section": 7,
+   "voice": "chatterbox",
+   "start": 241.46,
+   "end": 244.969,
+   "text": "That's either the coolest thing ever, or the creepiest. Maybe both."
+  },
+  {
+   "id": 40,
+   "section": 7,
+   "voice": "chatterbox",
+   "start": 245.269,
+   "end": 252.978,
+   "text": "And remember, Muse can make mistakes. And reportedly, Meta's own terms limit what it pays back if the agent buys something you didn't want."
+  },
+  {
+   "id": 41,
+   "section": 7,
+   "voice": "chatterbox",
+   "start": 253.278,
+   "end": 258.369,
+   "text": "So here's my question. Would you let Meta's AI spend your money? Tell me in the comments."
+  },
+  {
+   "id": 42,
+   "section": 7,
+   "voice": "chatterbox",
+   "start": 258.669,
+   "end": 262.918,
+   "text": "And subscribe. Next time, there's another tech war you didn't know was happening."
+  },
+  {
+   "id": 43,
+   "section": 7,
+   "voice": "chatterbox",
+   "start": 263.218,
+   "end": 266.509,
+   "text": "Apple took away the button. Now Meta wants to become the button."
+  }
+ ],
+ "hooks": [],
+ "words": [
+  {
+   "c": 0,
+   "i": 0,
+   "w": "Okay.",
+   "s": 0.6,
+   "e": 0.82
+  },
+  {
+   "c": 0,
+   "i": 1,
+   "w": "Pick",
+   "s": 1.2,
+   "e": 1.3
+  },
+  {
+   "c": 0,
+   "i": 2,
+   "w": "up",
+   "s": 1.3,
+   "e": 1.4
+  },
+  {
+   "c": 0,
+   "i": 3,
+   "w": "your",
+   "s": 1.4,
+   "e": 1.52
+  },
+  {
+   "c": 0,
+   "i": 4,
+   "w": "phone.",
+   "s": 1.52,
+   "e": 1.72
+  },
+  {
+   "c": 0,
+   "i": 5,
+   "w": "Remember",
+   "s": 2.18,
+   "e": 2.3
+  },
+  {
+   "c": 0,
+   "i": 6,
+   "w": "this",
+   "s": 2.3,
+   "e": 2.62
+  },
+  {
+   "c": 0,
+   "i": 7,
+   "w": "little",
+   "s": 2.62,
+   "e": 2.8
+  },
+  {
+   "c": 0,
+   "i": 8,
+   "w": "box?",
+   "s": 2.8,
+   "e": 3.08
+  },
+  {
+   "c": 0,
+   "i": 9,
+   "w": "Allow",
+   "s": 3.44,
+   "e": 3.6
+  },
+  {
+   "c": 0,
+   "i": 10,
+   "w": "this",
+   "s": 3.6,
+   "e": 3.8
+  },
+  {
+   "c": 0,
+   "i": 11,
+   "w": "app",
+   "s": 3.8,
+   "e": 4
+  },
+  {
+   "c": 0,
+   "i": 12,
+   "w": "to",
+   "s": 4,
+   "e": 4.18
+  },
+  {
+   "c": 0,
+   "i": 13,
+   "w": "track",
+   "s": 4.18,
+   "e": 4.32
+  },
+  {
+   "c": 0,
+   "i": 14,
+   "w": "your",
+   "s": 4.32,
+   "e": 4.5
+  },
+  {
+   "c": 0,
+   "i": 15,
+   "w": "activity?",
+   "s": 4.5,
+   "e": 4.84
+  },
+  {
+   "c": 1,
+   "i": 0,
+   "w": "You",
+   "s": 5.531,
+   "e": 5.671
+  },
+  {
+   "c": 1,
+   "i": 1,
+   "w": "probably",
+   "s": 5.671,
+   "e": 5.871
+  },
+  {
+   "c": 1,
+   "i": 2,
+   "w": "tapped,",
+   "s": 5.871,
+   "e": 6.311
+  },
+  {
+   "c": 1,
+   "i": 3,
+   "w": "Ask",
+   "s": 6.631,
+   "e": 6.811
+  },
+  {
+   "c": 1,
+   "i": 4,
+   "w": "App",
+   "s": 6.811,
+   "e": 7.011
+  },
+  {
+   "c": 1,
+   "i": 5,
+   "w": "Not",
+   "s": 7.011,
+   "e": 7.191
+  },
+  {
+   "c": 1,
+   "i": 6,
+   "w": "to",
+   "s": 7.191,
+   "e": 7.351
+  },
+  {
+   "c": 1,
+   "i": 7,
+   "w": "Track,",
+   "s": 7.351,
+   "e": 7.571
+  },
+  {
+   "c": 1,
+   "i": 8,
+   "w": "without",
+   "s": 7.891,
+   "e": 7.991
+  },
+  {
+   "c": 1,
+   "i": 9,
+   "w": "even",
+   "s": 7.991,
+   "e": 8.211
+  },
+  {
+   "c": 1,
+   "i": 10,
+   "w": "thinking.",
+   "s": 8.211,
+   "e": 8.551
+  },
+  {
+   "c": 2,
+   "i": 0,
+   "w": "Millions",
+   "s": 9.177,
+   "e": 9.457
+  },
+  {
+   "c": 2,
+   "i": 1,
+   "w": "of",
+   "s": 9.457,
+   "e": 9.717
+  },
+  {
+   "c": 2,
+   "i": 2,
+   "w": "people",
+   "s": 9.717,
+   "e": 9.917
+  },
+  {
+   "c": 2,
+   "i": 3,
+   "w": "did",
+   "s": 9.917,
+   "e": 10.077
+  },
+  {
+   "c": 2,
+   "i": 4,
+   "w": "the",
+   "s": 10.077,
+   "e": 10.157
+  },
+  {
+   "c": 2,
+   "i": 5,
+   "w": "same",
+   "s": 10.157,
+   "e": 10.337
+  },
+  {
+   "c": 2,
+   "i": 6,
+   "w": "thing.",
+   "s": 10.337,
+   "e": 10.617
+  },
+  {
+   "c": 2,
+   "i": 7,
+   "w": "And",
+   "s": 11.137,
+   "e": 11.157
+  },
+  {
+   "c": 2,
+   "i": 8,
+   "w": "Meta,",
+   "s": 11.157,
+   "e": 11.297
+  },
+  {
+   "c": 2,
+   "i": 9,
+   "w": "the",
+   "s": 11.657,
+   "e": 11.797
+  },
+  {
+   "c": 2,
+   "i": 10,
+   "w": "company",
+   "s": 11.797,
+   "e": 12.057
+  },
+  {
+   "c": 2,
+   "i": 11,
+   "w": "behind",
+   "s": 12.057,
+   "e": 12.377
+  },
+  {
+   "c": 2,
+   "i": 12,
+   "w": "Facebook,",
+   "s": 12.377,
+   "e": 12.657
+  },
+  {
+   "c": 2,
+   "i": 13,
+   "w": "Instagram",
+   "s": 12.937,
+   "e": 13.257
+  },
+  {
+   "c": 2,
+   "i": 14,
+   "w": "and",
+   "s": 13.257,
+   "e": 13.397
+  },
+  {
+   "c": 2,
+   "i": 15,
+   "w": "WhatsApp,",
+   "s": 13.397,
+   "e": 13.637
+  },
+  {
+   "c": 2,
+   "i": 16,
+   "w": "says",
+   "s": 14.037,
+   "e": 14.297
+  },
+  {
+   "c": 2,
+   "i": 17,
+   "w": "that",
+   "s": 14.297,
+   "e": 14.477
+  },
+  {
+   "c": 2,
+   "i": 18,
+   "w": "one",
+   "s": 14.477,
+   "e": 14.637
+  },
+  {
+   "c": 2,
+   "i": 19,
+   "w": "tap",
+   "s": 14.637,
+   "e": 14.877
+  },
+  {
+   "c": 2,
+   "i": 20,
+   "w": "would",
+   "s": 14.877,
+   "e": 15.037
+  },
+  {
+   "c": 2,
+   "i": 21,
+   "w": "cost",
+   "s": 15.037,
+   "e": 15.217
+  },
+  {
+   "c": 2,
+   "i": 22,
+   "w": "it",
+   "s": 15.217,
+   "e": 15.397
+  },
+  {
+   "c": 2,
+   "i": 23,
+   "w": "around",
+   "s": 15.397,
+   "e": 15.537
+  },
+  {
+   "c": 2,
+   "i": 24,
+   "w": "ten",
+   "s": 15.537,
+   "e": 15.797
+  },
+  {
+   "c": 2,
+   "i": 25,
+   "w": "billion",
+   "s": 15.797,
+   "e": 16.017
+  },
+  {
+   "c": 2,
+   "i": 26,
+   "w": "dollars.",
+   "s": 16.017,
+   "e": 16.417
+  },
+  {
+   "c": 3,
+   "i": 0,
+   "w": "I'm",
+   "s": 17.119,
+   "e": 17.379
+  },
+  {
+   "c": 3,
+   "i": 1,
+   "w": "Vio.",
+   "s": 17.379,
+   "e": 17.639
+  },
+  {
+   "c": 3,
+   "i": 2,
+   "w": "This",
+   "s": 18.219,
+   "e": 18.319
+  },
+  {
+   "c": 3,
+   "i": 3,
+   "w": "is",
+   "s": 18.319,
+   "e": 18.459
+  },
+  {
+   "c": 3,
+   "i": 4,
+   "w": "the",
+   "s": 18.459,
+   "e": 18.579
+  },
+  {
+   "c": 3,
+   "i": 5,
+   "w": "story",
+   "s": 18.579,
+   "e": 18.879
+  },
+  {
+   "c": 3,
+   "i": 6,
+   "w": "of",
+   "s": 18.879,
+   "e": 19.099
+  },
+  {
+   "c": 3,
+   "i": 7,
+   "w": "how",
+   "s": 19.099,
+   "e": 19.239
+  },
+  {
+   "c": 3,
+   "i": 8,
+   "w": "one",
+   "s": 19.239,
+   "e": 19.439
+  },
+  {
+   "c": 3,
+   "i": 9,
+   "w": "button",
+   "s": 19.439,
+   "e": 19.679
+  },
+  {
+   "c": 3,
+   "i": 10,
+   "w": "started",
+   "s": 19.679,
+   "e": 20.019
+  },
+  {
+   "c": 3,
+   "i": 11,
+   "w": "a",
+   "s": 20.019,
+   "e": 20.199
+  },
+  {
+   "c": 3,
+   "i": 12,
+   "w": "war",
+   "s": 20.199,
+   "e": 20.399
+  },
+  {
+   "c": 3,
+   "i": 13,
+   "w": "between",
+   "s": 20.399,
+   "e": 20.719
+  },
+  {
+   "c": 3,
+   "i": 14,
+   "w": "two",
+   "s": 20.719,
+   "e": 21.039
+  },
+  {
+   "c": 3,
+   "i": 15,
+   "w": "of",
+   "s": 21.039,
+   "e": 21.219
+  },
+  {
+   "c": 3,
+   "i": 16,
+   "w": "the",
+   "s": 21.219,
+   "e": 21.339
+  },
+  {
+   "c": 3,
+   "i": 17,
+   "w": "richest",
+   "s": 21.339,
+   "e": 21.539
+  },
+  {
+   "c": 3,
+   "i": 18,
+   "w": "companies",
+   "s": 21.539,
+   "e": 21.859
+  },
+  {
+   "c": 3,
+   "i": 19,
+   "w": "on",
+   "s": 21.859,
+   "e": 22.219
+  },
+  {
+   "c": 3,
+   "i": 20,
+   "w": "Earth.",
+   "s": 22.219,
+   "e": 22.459
+  },
+  {
+   "c": 4,
+   "i": 0,
+   "w": "And",
+   "s": 23.052,
+   "e": 23.352
+  },
+  {
+   "c": 4,
+   "i": 1,
+   "w": "how",
+   "s": 23.352,
+   "e": 23.592
+  },
+  {
+   "c": 4,
+   "i": 2,
+   "w": "Mark",
+   "s": 23.592,
+   "e": 23.832
+  },
+  {
+   "c": 4,
+   "i": 3,
+   "w": "Zuckerberg",
+   "s": 23.832,
+   "e": 24.112
+  },
+  {
+   "c": 4,
+   "i": 4,
+   "w": "is",
+   "s": 24.112,
+   "e": 24.452
+  },
+  {
+   "c": 4,
+   "i": 5,
+   "w": "now",
+   "s": 24.452,
+   "e": 24.592
+  },
+  {
+   "c": 4,
+   "i": 6,
+   "w": "trying",
+   "s": 24.592,
+   "e": 24.812
+  },
+  {
+   "c": 4,
+   "i": 7,
+   "w": "to",
+   "s": 24.812,
+   "e": 24.952
+  },
+  {
+   "c": 4,
+   "i": 8,
+   "w": "win",
+   "s": 24.952,
+   "e": 25.112
+  },
+  {
+   "c": 4,
+   "i": 9,
+   "w": "it",
+   "s": 25.112,
+   "e": 25.212
+  },
+  {
+   "c": 4,
+   "i": 10,
+   "w": "with",
+   "s": 25.212,
+   "e": 25.312
+  },
+  {
+   "c": 4,
+   "i": 11,
+   "w": "an",
+   "s": 25.312,
+   "e": 25.412
+  },
+  {
+   "c": 4,
+   "i": 12,
+   "w": "AI",
+   "s": 25.412,
+   "e": 25.612
+  },
+  {
+   "c": 4,
+   "i": 13,
+   "w": "that",
+   "s": 25.612,
+   "e": 25.892
+  },
+  {
+   "c": 4,
+   "i": 14,
+   "w": "shops",
+   "s": 25.892,
+   "e": 26.032
+  },
+  {
+   "c": 4,
+   "i": 15,
+   "w": "for",
+   "s": 26.032,
+   "e": 26.312
+  },
+  {
+   "c": 4,
+   "i": 16,
+   "w": "you.",
+   "s": 26.312,
+   "e": 26.512
+  },
+  {
+   "c": 5,
+   "i": 0,
+   "w": "First,",
+   "s": 27.333,
+   "e": 27.673
+  },
+  {
+   "c": 5,
+   "i": 1,
+   "w": "you",
+   "s": 27.953,
+   "e": 27.993
+  },
+  {
+   "c": 5,
+   "i": 2,
+   "w": "need",
+   "s": 27.993,
+   "e": 28.113
+  },
+  {
+   "c": 5,
+   "i": 3,
+   "w": "to",
+   "s": 28.113,
+   "e": 28.253
+  },
+  {
+   "c": 5,
+   "i": 4,
+   "w": "understand",
+   "s": 28.253,
+   "e": 28.513
+  },
+  {
+   "c": 5,
+   "i": 5,
+   "w": "one",
+   "s": 28.513,
+   "e": 28.873
+  },
+  {
+   "c": 5,
+   "i": 6,
+   "w": "thing.",
+   "s": 28.873,
+   "e": 29.153
+  },
+  {
+   "c": 5,
+   "i": 7,
+   "w": "Meta",
+   "s": 29.513,
+   "e": 29.613
+  },
+  {
+   "c": 5,
+   "i": 8,
+   "w": "owns",
+   "s": 29.613,
+   "e": 29.873
+  },
+  {
+   "c": 5,
+   "i": 9,
+   "w": "the",
+   "s": 29.873,
+   "e": 30.073
+  },
+  {
+   "c": 5,
+   "i": 10,
+   "w": "apps.",
+   "s": 30.073,
+   "e": 30.273
+  },
+  {
+   "c": 5,
+   "i": 11,
+   "w": "But",
+   "s": 30.653,
+   "e": 30.733
+  },
+  {
+   "c": 5,
+   "i": 12,
+   "w": "it",
+   "s": 30.733,
+   "e": 30.813
+  },
+  {
+   "c": 5,
+   "i": 13,
+   "w": "doesn't",
+   "s": 30.813,
+   "e": 31.053
+  },
+  {
+   "c": 5,
+   "i": 14,
+   "w": "own",
+   "s": 31.053,
+   "e": 31.173
+  },
+  {
+   "c": 5,
+   "i": 15,
+   "w": "the",
+   "s": 31.173,
+   "e": 31.273
+  },
+  {
+   "c": 5,
+   "i": 16,
+   "w": "phones.",
+   "s": 31.273,
+   "e": 31.473
+  },
+  {
+   "c": 6,
+   "i": 0,
+   "w": "Almost",
+   "s": 32.174,
+   "e": 32.454
+  },
+  {
+   "c": 6,
+   "i": 1,
+   "w": "every",
+   "s": 32.454,
+   "e": 32.734
+  },
+  {
+   "c": 6,
+   "i": 2,
+   "w": "Instagram",
+   "s": 32.734,
+   "e": 33.254
+  },
+  {
+   "c": 6,
+   "i": 3,
+   "w": "scroll",
+   "s": 33.254,
+   "e": 33.634
+  },
+  {
+   "c": 6,
+   "i": 4,
+   "w": "and",
+   "s": 33.634,
+   "e": 33.914
+  },
+  {
+   "c": 6,
+   "i": 5,
+   "w": "every",
+   "s": 33.914,
+   "e": 34.194
+  },
+  {
+   "c": 6,
+   "i": 6,
+   "w": "WhatsApp",
+   "s": 34.194,
+   "e": 34.454
+  },
+  {
+   "c": 6,
+   "i": 7,
+   "w": "message",
+   "s": 34.454,
+   "e": 34.994
+  },
+  {
+   "c": 6,
+   "i": 8,
+   "w": "happens",
+   "s": 34.994,
+   "e": 35.294
+  },
+  {
+   "c": 6,
+   "i": 9,
+   "w": "on",
+   "s": 35.294,
+   "e": 35.554
+  },
+  {
+   "c": 6,
+   "i": 10,
+   "w": "a",
+   "s": 35.554,
+   "e": 35.674
+  },
+  {
+   "c": 6,
+   "i": 11,
+   "w": "phone",
+   "s": 35.674,
+   "e": 35.874
+  },
+  {
+   "c": 6,
+   "i": 12,
+   "w": "made",
+   "s": 35.874,
+   "e": 36.114
+  },
+  {
+   "c": 6,
+   "i": 13,
+   "w": "by",
+   "s": 36.114,
+   "e": 36.314
+  },
+  {
+   "c": 6,
+   "i": 14,
+   "w": "Apple,",
+   "s": 36.314,
+   "e": 36.574
+  },
+  {
+   "c": 6,
+   "i": 15,
+   "w": "or",
+   "s": 36.834,
+   "e": 36.874
+  },
+  {
+   "c": 6,
+   "i": 16,
+   "w": "running",
+   "s": 36.874,
+   "e": 37.054
+  },
+  {
+   "c": 6,
+   "i": 17,
+   "w": "Google's",
+   "s": 37.054,
+   "e": 37.494
+  },
+  {
+   "c": 6,
+   "i": 18,
+   "w": "software.",
+   "s": 37.494,
+   "e": 37.834
+  },
+  {
+   "c": 7,
+   "i": 0,
+   "w": "So",
+   "s": 38.391,
+   "e": 38.671
+  },
+  {
+   "c": 7,
+   "i": 1,
+   "w": "Meta",
+   "s": 38.671,
+   "e": 39.031
+  },
+  {
+   "c": 7,
+   "i": 2,
+   "w": "is",
+   "s": 39.031,
+   "e": 39.251
+  },
+  {
+   "c": 7,
+   "i": 3,
+   "w": "like",
+   "s": 39.251,
+   "e": 39.391
+  },
+  {
+   "c": 7,
+   "i": 4,
+   "w": "a",
+   "s": 39.391,
+   "e": 39.491
+  },
+  {
+   "c": 7,
+   "i": 5,
+   "w": "shop",
+   "s": 39.491,
+   "e": 39.691
+  },
+  {
+   "c": 7,
+   "i": 6,
+   "w": "that",
+   "s": 39.691,
+   "e": 39.891
+  },
+  {
+   "c": 7,
+   "i": 7,
+   "w": "pays",
+   "s": 39.891,
+   "e": 40.071
+  },
+  {
+   "c": 7,
+   "i": 8,
+   "w": "rent",
+   "s": 40.071,
+   "e": 40.311
+  },
+  {
+   "c": 7,
+   "i": 9,
+   "w": "in",
+   "s": 40.311,
+   "e": 40.511
+  },
+  {
+   "c": 7,
+   "i": 10,
+   "w": "somebody",
+   "s": 40.511,
+   "e": 40.711
+  },
+  {
+   "c": 7,
+   "i": 11,
+   "w": "else's",
+   "s": 40.711,
+   "e": 41.071
+  },
+  {
+   "c": 7,
+   "i": 12,
+   "w": "building.",
+   "s": 41.071,
+   "e": 41.351
+  },
+  {
+   "c": 8,
+   "i": 0,
+   "w": "It's",
+   "s": 41.907,
+   "e": 42.167
+  },
+  {
+   "c": 8,
+   "i": 1,
+   "w": "a",
+   "s": 42.167,
+   "e": 42.227
+  },
+  {
+   "c": 8,
+   "i": 2,
+   "w": "huge,",
+   "s": 42.227,
+   "e": 42.627
+  },
+  {
+   "c": 8,
+   "i": 3,
+   "w": "very",
+   "s": 43.007,
+   "e": 43.307
+  },
+  {
+   "c": 8,
+   "i": 4,
+   "w": "rich",
+   "s": 43.307,
+   "e": 43.687
+  },
+  {
+   "c": 8,
+   "i": 5,
+   "w": "shop.",
+   "s": 43.687,
+   "e": 43.987
+  },
+  {
+   "c": 8,
+   "i": 6,
+   "w": "But",
+   "s": 44.467,
+   "e": 44.507
+  },
+  {
+   "c": 8,
+   "i": 7,
+   "w": "the",
+   "s": 44.507,
+   "e": 44.607
+  },
+  {
+   "c": 8,
+   "i": 8,
+   "w": "landlord",
+   "s": 44.607,
+   "e": 44.807
+  },
+  {
+   "c": 8,
+   "i": 9,
+   "w": "still",
+   "s": 44.807,
+   "e": 45.227
+  },
+  {
+   "c": 8,
+   "i": 10,
+   "w": "makes",
+   "s": 45.227,
+   "e": 45.407
+  },
+  {
+   "c": 8,
+   "i": 11,
+   "w": "the",
+   "s": 45.407,
+   "e": 45.587
+  },
+  {
+   "c": 8,
+   "i": 12,
+   "w": "rules.",
+   "s": 45.587,
+   "e": 45.767
+  },
+  {
+   "c": 9,
+   "i": 0,
+   "w": "And",
+   "s": 46.445,
+   "e": 46.745
+  },
+  {
+   "c": 9,
+   "i": 1,
+   "w": "for",
+   "s": 46.745,
+   "e": 46.905
+  },
+  {
+   "c": 9,
+   "i": 2,
+   "w": "years,",
+   "s": 46.905,
+   "e": 47.245
+  },
+  {
+   "c": 9,
+   "i": 3,
+   "w": "Apple",
+   "s": 47.585,
+   "e": 47.765
+  },
+  {
+   "c": 9,
+   "i": 4,
+   "w": "had",
+   "s": 47.765,
+   "e": 47.945
+  },
+  {
+   "c": 9,
+   "i": 5,
+   "w": "been",
+   "s": 47.945,
+   "e": 48.045
+  },
+  {
+   "c": 9,
+   "i": 6,
+   "w": "telling",
+   "s": 48.045,
+   "e": 48.225
+  },
+  {
+   "c": 9,
+   "i": 7,
+   "w": "everyone",
+   "s": 48.225,
+   "e": 48.645
+  },
+  {
+   "c": 9,
+   "i": 8,
+   "w": "that",
+   "s": 48.645,
+   "e": 48.965
+  },
+  {
+   "c": 9,
+   "i": 9,
+   "w": "it",
+   "s": 48.965,
+   "e": 49.065
+  },
+  {
+   "c": 9,
+   "i": 10,
+   "w": "was",
+   "s": 49.065,
+   "e": 49.165
+  },
+  {
+   "c": 9,
+   "i": 11,
+   "w": "the",
+   "s": 49.165,
+   "e": 49.285
+  },
+  {
+   "c": 9,
+   "i": 12,
+   "w": "privacy",
+   "s": 49.285,
+   "e": 49.445
+  },
+  {
+   "c": 9,
+   "i": 13,
+   "w": "company.",
+   "s": 49.445,
+   "e": 49.925
+  },
+  {
+   "c": 9,
+   "i": 14,
+   "w": "It",
+   "s": 50.625,
+   "e": 50.745
+  },
+  {
+   "c": 9,
+   "i": 15,
+   "w": "even",
+   "s": 50.745,
+   "e": 50.845
+  },
+  {
+   "c": 9,
+   "i": 16,
+   "w": "put",
+   "s": 50.845,
+   "e": 51.065
+  },
+  {
+   "c": 9,
+   "i": 17,
+   "w": "up",
+   "s": 51.065,
+   "e": 51.165
+  },
+  {
+   "c": 9,
+   "i": 18,
+   "w": "a",
+   "s": 51.165,
+   "e": 51.265
+  },
+  {
+   "c": 9,
+   "i": 19,
+   "w": "giant",
+   "s": 51.265,
+   "e": 51.465
+  },
+  {
+   "c": 9,
+   "i": 20,
+   "w": "billboard",
+   "s": 51.465,
+   "e": 51.705
+  },
+  {
+   "c": 9,
+   "i": 21,
+   "w": "in",
+   "s": 51.705,
+   "e": 52.025
+  },
+  {
+   "c": 9,
+   "i": 22,
+   "w": "Las",
+   "s": 52.025,
+   "e": 52.125
+  },
+  {
+   "c": 9,
+   "i": 23,
+   "w": "Vegas",
+   "s": 52.125,
+   "e": 52.465
+  },
+  {
+   "c": 9,
+   "i": 24,
+   "w": "saying,",
+   "s": 52.465,
+   "e": 52.965
+  },
+  {
+   "c": 9,
+   "i": 25,
+   "w": "what",
+   "s": 53.505,
+   "e": 53.525
+  },
+  {
+   "c": 9,
+   "i": 26,
+   "w": "happens",
+   "s": 53.525,
+   "e": 53.745
+  },
+  {
+   "c": 9,
+   "i": 27,
+   "w": "on",
+   "s": 53.745,
+   "e": 53.945
+  },
+  {
+   "c": 9,
+   "i": 28,
+   "w": "your",
+   "s": 53.945,
+   "e": 54.045
+  },
+  {
+   "c": 9,
+   "i": 29,
+   "w": "iPhone,",
+   "s": 54.045,
+   "e": 54.385
+  },
+  {
+   "c": 9,
+   "i": 30,
+   "w": "stays",
+   "s": 54.725,
+   "e": 54.845
+  },
+  {
+   "c": 9,
+   "i": 31,
+   "w": "on",
+   "s": 54.845,
+   "e": 55.045
+  },
+  {
+   "c": 9,
+   "i": 32,
+   "w": "your",
+   "s": 55.045,
+   "e": 55.145
+  },
+  {
+   "c": 9,
+   "i": 33,
+   "w": "iPhone.",
+   "s": 55.145,
+   "e": 55.445
+  },
+  {
+   "c": 10,
+   "i": 0,
+   "w": "And",
+   "s": 56.337,
+   "e": 56.517
+  },
+  {
+   "c": 10,
+   "i": 1,
+   "w": "Meta's",
+   "s": 56.517,
+   "e": 56.837
+  },
+  {
+   "c": 10,
+   "i": 2,
+   "w": "business",
+   "s": 56.837,
+   "e": 57.077
+  },
+  {
+   "c": 10,
+   "i": 3,
+   "w": "runs",
+   "s": 57.077,
+   "e": 57.337
+  },
+  {
+   "c": 10,
+   "i": 4,
+   "w": "on",
+   "s": 57.337,
+   "e": 57.557
+  },
+  {
+   "c": 10,
+   "i": 5,
+   "w": "ads.",
+   "s": 57.557,
+   "e": 57.757
+  },
+  {
+   "c": 10,
+   "i": 6,
+   "w": "Really",
+   "s": 58.697,
+   "e": 58.697
+  },
+  {
+   "c": 10,
+   "i": 7,
+   "w": "good",
+   "s": 58.697,
+   "e": 58.937
+  },
+  {
+   "c": 10,
+   "i": 8,
+   "w": "ads.",
+   "s": 58.937,
+   "e": 59.217
+  },
+  {
+   "c": 10,
+   "i": 9,
+   "w": "Ads",
+   "s": 59.877,
+   "e": 59.957
+  },
+  {
+   "c": 10,
+   "i": 10,
+   "w": "that",
+   "s": 59.957,
+   "e": 60.217
+  },
+  {
+   "c": 10,
+   "i": 11,
+   "w": "seem",
+   "s": 60.217,
+   "e": 60.397
+  },
+  {
+   "c": 10,
+   "i": 12,
+   "w": "to",
+   "s": 60.397,
+   "e": 60.557
+  },
+  {
+   "c": 10,
+   "i": 13,
+   "w": "know",
+   "s": 60.557,
+   "e": 60.757
+  },
+  {
+   "c": 10,
+   "i": 14,
+   "w": "you.",
+   "s": 60.757,
+   "e": 60.957
+  },
+  {
+   "c": 11,
+   "i": 0,
+   "w": "Say",
+   "s": 61.557,
+   "e": 61.777
+  },
+  {
+   "c": 11,
+   "i": 1,
+   "w": "you",
+   "s": 61.777,
+   "e": 61.917
+  },
+  {
+   "c": 11,
+   "i": 2,
+   "w": "look",
+   "s": 61.917,
+   "e": 62.017
+  },
+  {
+   "c": 11,
+   "i": 3,
+   "w": "at",
+   "s": 62.017,
+   "e": 62.157
+  },
+  {
+   "c": 11,
+   "i": 4,
+   "w": "a",
+   "s": 62.157,
+   "e": 62.157
+  },
+  {
+   "c": 11,
+   "i": 5,
+   "w": "pair",
+   "s": 62.157,
+   "e": 62.297
+  },
+  {
+   "c": 11,
+   "i": 6,
+   "w": "of",
+   "s": 62.297,
+   "e": 62.437
+  },
+  {
+   "c": 11,
+   "i": 7,
+   "w": "sneakers",
+   "s": 62.437,
+   "e": 62.537
+  },
+  {
+   "c": 11,
+   "i": 8,
+   "w": "in",
+   "s": 62.537,
+   "e": 62.857
+  },
+  {
+   "c": 11,
+   "i": 9,
+   "w": "a",
+   "s": 62.857,
+   "e": 62.917
+  },
+  {
+   "c": 11,
+   "i": 10,
+   "w": "shopping",
+   "s": 62.917,
+   "e": 63.037
+  },
+  {
+   "c": 11,
+   "i": 11,
+   "w": "app.",
+   "s": 63.037,
+   "e": 63.397
+  },
+  {
+   "c": 11,
+   "i": 12,
+   "w": "Ten",
+   "s": 64.037,
+   "e": 64.217
+  },
+  {
+   "c": 11,
+   "i": 13,
+   "w": "minutes",
+   "s": 64.217,
+   "e": 64.417
+  },
+  {
+   "c": 11,
+   "i": 14,
+   "w": "later,",
+   "s": 64.417,
+   "e": 64.737
+  },
+  {
+   "c": 11,
+   "i": 15,
+   "w": "those",
+   "s": 65.017,
+   "e": 65.217
+  },
+  {
+   "c": 11,
+   "i": 16,
+   "w": "exact",
+   "s": 65.217,
+   "e": 65.377
+  },
+  {
+   "c": 11,
+   "i": 17,
+   "w": "sneakers",
+   "s": 65.377,
+   "e": 65.757
+  },
+  {
+   "c": 11,
+   "i": 18,
+   "w": "show",
+   "s": 65.757,
+   "e": 66.137
+  },
+  {
+   "c": 11,
+   "i": 19,
+   "w": "up",
+   "s": 66.137,
+   "e": 66.257
+  },
+  {
+   "c": 11,
+   "i": 20,
+   "w": "on",
+   "s": 66.257,
+   "e": 66.377
+  },
+  {
+   "c": 11,
+   "i": 21,
+   "w": "Instagram.",
+   "s": 66.377,
+   "e": 66.717
+  },
+  {
+   "c": 12,
+   "i": 0,
+   "w": "That",
+   "s": 67.417,
+   "e": 67.617
+  },
+  {
+   "c": 12,
+   "i": 1,
+   "w": "works",
+   "s": 67.617,
+   "e": 67.797
+  },
+  {
+   "c": 12,
+   "i": 2,
+   "w": "because",
+   "s": 67.797,
+   "e": 68.037
+  },
+  {
+   "c": 12,
+   "i": 3,
+   "w": "your",
+   "s": 68.037,
+   "e": 68.237
+  },
+  {
+   "c": 12,
+   "i": 4,
+   "w": "iPhone",
+   "s": 68.237,
+   "e": 68.437
+  },
+  {
+   "c": 12,
+   "i": 5,
+   "w": "had",
+   "s": 68.437,
+   "e": 68.717
+  },
+  {
+   "c": 12,
+   "i": 6,
+   "w": "a",
+   "s": 68.717,
+   "e": 68.817
+  },
+  {
+   "c": 12,
+   "i": 7,
+   "w": "hidden",
+   "s": 68.817,
+   "e": 68.977
+  },
+  {
+   "c": 12,
+   "i": 8,
+   "w": "ID",
+   "s": 68.977,
+   "e": 69.157
+  },
+  {
+   "c": 12,
+   "i": 9,
+   "w": "number.",
+   "s": 69.157,
+   "e": 69.517
+  },
+  {
+   "c": 12,
+   "i": 10,
+   "w": "Apps",
+   "s": 70.277,
+   "e": 70.277
+  },
+  {
+   "c": 12,
+   "i": 11,
+   "w": "could",
+   "s": 70.277,
+   "e": 70.417
+  },
+  {
+   "c": 12,
+   "i": 12,
+   "w": "use",
+   "s": 70.417,
+   "e": 70.577
+  },
+  {
+   "c": 12,
+   "i": 13,
+   "w": "it",
+   "s": 70.577,
+   "e": 70.717
+  },
+  {
+   "c": 12,
+   "i": 14,
+   "w": "to",
+   "s": 70.717,
+   "e": 70.797
+  },
+  {
+   "c": 12,
+   "i": 15,
+   "w": "follow",
+   "s": 70.797,
+   "e": 70.977
+  },
+  {
+   "c": 12,
+   "i": 16,
+   "w": "you",
+   "s": 70.977,
+   "e": 71.197
+  },
+  {
+   "c": 12,
+   "i": 17,
+   "w": "from",
+   "s": 71.197,
+   "e": 71.377
+  },
+  {
+   "c": 12,
+   "i": 18,
+   "w": "one",
+   "s": 71.377,
+   "e": 71.517
+  },
+  {
+   "c": 12,
+   "i": 19,
+   "w": "app",
+   "s": 71.517,
+   "e": 71.677
+  },
+  {
+   "c": 12,
+   "i": 20,
+   "w": "to",
+   "s": 71.677,
+   "e": 71.837
+  },
+  {
+   "c": 12,
+   "i": 21,
+   "w": "another,",
+   "s": 71.837,
+   "e": 72.137
+  },
+  {
+   "c": 12,
+   "i": 22,
+   "w": "and",
+   "s": 72.277,
+   "e": 72.337
+  },
+  {
+   "c": 12,
+   "i": 23,
+   "w": "tell",
+   "s": 72.337,
+   "e": 72.517
+  },
+  {
+   "c": 12,
+   "i": 24,
+   "w": "Meta",
+   "s": 72.517,
+   "e": 72.677
+  },
+  {
+   "c": 12,
+   "i": 25,
+   "w": "what",
+   "s": 72.677,
+   "e": 72.897
+  },
+  {
+   "c": 12,
+   "i": 26,
+   "w": "you",
+   "s": 72.897,
+   "e": 73.017
+  },
+  {
+   "c": 12,
+   "i": 27,
+   "w": "did.",
+   "s": 73.017,
+   "e": 73.197
+  },
+  {
+   "c": 13,
+   "i": 0,
+   "w": "It",
+   "s": 73.735,
+   "e": 73.895
+  },
+  {
+   "c": 13,
+   "i": 1,
+   "w": "had",
+   "s": 73.895,
+   "e": 73.995
+  },
+  {
+   "c": 13,
+   "i": 2,
+   "w": "a",
+   "s": 73.995,
+   "e": 74.075
+  },
+  {
+   "c": 13,
+   "i": 3,
+   "w": "very",
+   "s": 74.075,
+   "e": 74.275
+  },
+  {
+   "c": 13,
+   "i": 4,
+   "w": "boring",
+   "s": 74.275,
+   "e": 74.535
+  },
+  {
+   "c": 13,
+   "i": 5,
+   "w": "name.",
+   "s": 74.535,
+   "e": 74.975
+  },
+  {
+   "c": 13,
+   "i": 6,
+   "w": "The",
+   "s": 75.595,
+   "e": 75.615
+  },
+  {
+   "c": 13,
+   "i": 7,
+   "w": "I",
+   "s": 75.615,
+   "e": 75.775
+  },
+  {
+   "c": 13,
+   "i": 8,
+   "w": "D",
+   "s": 75.775,
+   "e": 75.915
+  },
+  {
+   "c": 13,
+   "i": 9,
+   "w": "F",
+   "s": 75.915,
+   "e": 76.015
+  },
+  {
+   "c": 13,
+   "i": 10,
+   "w": "A.",
+   "s": 76.015,
+   "e": 76.215
+  },
+  {
+   "c": 13,
+   "i": 11,
+   "w": "The",
+   "s": 76.595,
+   "e": 76.655
+  },
+  {
+   "c": 13,
+   "i": 12,
+   "w": "identifier",
+   "s": 76.655,
+   "e": 76.915
+  },
+  {
+   "c": 13,
+   "i": 13,
+   "w": "for",
+   "s": 76.915,
+   "e": 77.335
+  },
+  {
+   "c": 13,
+   "i": 14,
+   "w": "advertisers.",
+   "s": 77.335,
+   "e": 77.635
+  },
+  {
+   "c": 13,
+   "i": 15,
+   "w": "But",
+   "s": 78.535,
+   "e": 78.615
+  },
+  {
+   "c": 13,
+   "i": 16,
+   "w": "it",
+   "s": 78.615,
+   "e": 78.835
+  },
+  {
+   "c": 13,
+   "i": 17,
+   "w": "was",
+   "s": 78.835,
+   "e": 78.935
+  },
+  {
+   "c": 13,
+   "i": 18,
+   "w": "worth",
+   "s": 78.935,
+   "e": 79.075
+  },
+  {
+   "c": 13,
+   "i": 19,
+   "w": "a",
+   "s": 79.075,
+   "e": 79.195
+  },
+  {
+   "c": 13,
+   "i": 20,
+   "w": "fortune.",
+   "s": 79.195,
+   "e": 79.435
+  },
+  {
+   "c": 14,
+   "i": 0,
+   "w": "Think",
+   "s": 80.088,
+   "e": 80.248
+  },
+  {
+   "c": 14,
+   "i": 1,
+   "w": "of",
+   "s": 80.248,
+   "e": 80.388
+  },
+  {
+   "c": 14,
+   "i": 2,
+   "w": "it",
+   "s": 80.388,
+   "e": 80.468
+  },
+  {
+   "c": 14,
+   "i": 3,
+   "w": "as",
+   "s": 80.468,
+   "e": 80.608
+  },
+  {
+   "c": 14,
+   "i": 4,
+   "w": "a",
+   "s": 80.608,
+   "e": 80.668
+  },
+  {
+   "c": 14,
+   "i": 5,
+   "w": "little",
+   "s": 80.668,
+   "e": 80.848
+  },
+  {
+   "c": 14,
+   "i": 6,
+   "w": "spy,",
+   "s": 80.848,
+   "e": 81.068
+  },
+  {
+   "c": 14,
+   "i": 7,
+   "w": "quietly",
+   "s": 81.428,
+   "e": 81.588
+  },
+  {
+   "c": 14,
+   "i": 8,
+   "w": "following",
+   "s": 81.588,
+   "e": 82.108
+  },
+  {
+   "c": 14,
+   "i": 9,
+   "w": "you",
+   "s": 82.108,
+   "e": 82.268
+  },
+  {
+   "c": 14,
+   "i": 10,
+   "w": "everywhere",
+   "s": 82.268,
+   "e": 82.488
+  },
+  {
+   "c": 14,
+   "i": 11,
+   "w": "you",
+   "s": 82.488,
+   "e": 82.748
+  },
+  {
+   "c": 14,
+   "i": 12,
+   "w": "go",
+   "s": 82.748,
+   "e": 82.908
+  },
+  {
+   "c": 14,
+   "i": 13,
+   "w": "on",
+   "s": 82.908,
+   "e": 83.108
+  },
+  {
+   "c": 14,
+   "i": 14,
+   "w": "your",
+   "s": 83.108,
+   "e": 83.208
+  },
+  {
+   "c": 14,
+   "i": 15,
+   "w": "phone.",
+   "s": 83.208,
+   "e": 83.408
+  },
+  {
+   "c": 14,
+   "i": 16,
+   "w": "And",
+   "s": 83.948,
+   "e": 83.968
+  },
+  {
+   "c": 14,
+   "i": 17,
+   "w": "advertisers",
+   "s": 83.968,
+   "e": 84.248
+  },
+  {
+   "c": 14,
+   "i": 18,
+   "w": "paid",
+   "s": 84.248,
+   "e": 84.668
+  },
+  {
+   "c": 14,
+   "i": 19,
+   "w": "a",
+   "s": 84.668,
+   "e": 84.788
+  },
+  {
+   "c": 14,
+   "i": 20,
+   "w": "lot",
+   "s": 84.788,
+   "e": 84.948
+  },
+  {
+   "c": 14,
+   "i": 21,
+   "w": "for",
+   "s": 84.948,
+   "e": 85.108
+  },
+  {
+   "c": 14,
+   "i": 22,
+   "w": "what",
+   "s": 85.108,
+   "e": 85.228
+  },
+  {
+   "c": 14,
+   "i": 23,
+   "w": "that",
+   "s": 85.228,
+   "e": 85.328
+  },
+  {
+   "c": 14,
+   "i": 24,
+   "w": "spy",
+   "s": 85.328,
+   "e": 85.508
+  },
+  {
+   "c": 14,
+   "i": 25,
+   "w": "saw.",
+   "s": 85.508,
+   "e": 85.928
+  },
+  {
+   "c": 15,
+   "i": 0,
+   "w": "And",
+   "s": 86.451,
+   "e": 86.611
+  },
+  {
+   "c": 15,
+   "i": 1,
+   "w": "here's",
+   "s": 86.611,
+   "e": 86.851
+  },
+  {
+   "c": 15,
+   "i": 2,
+   "w": "the",
+   "s": 86.851,
+   "e": 86.971
+  },
+  {
+   "c": 15,
+   "i": 3,
+   "w": "thing.",
+   "s": 86.971,
+   "e": 87.191
+  },
+  {
+   "c": 15,
+   "i": 4,
+   "w": "Most",
+   "s": 87.611,
+   "e": 87.751
+  },
+  {
+   "c": 15,
+   "i": 5,
+   "w": "people",
+   "s": 87.751,
+   "e": 88.071
+  },
+  {
+   "c": 15,
+   "i": 6,
+   "w": "had",
+   "s": 88.071,
+   "e": 88.311
+  },
+  {
+   "c": 15,
+   "i": 7,
+   "w": "no",
+   "s": 88.311,
+   "e": 88.531
+  },
+  {
+   "c": 15,
+   "i": 8,
+   "w": "idea",
+   "s": 88.531,
+   "e": 88.871
+  },
+  {
+   "c": 15,
+   "i": 9,
+   "w": "the",
+   "s": 88.871,
+   "e": 89.031
+  },
+  {
+   "c": 15,
+   "i": 10,
+   "w": "spy",
+   "s": 89.031,
+   "e": 89.231
+  },
+  {
+   "c": 15,
+   "i": 11,
+   "w": "was",
+   "s": 89.231,
+   "e": 89.471
+  },
+  {
+   "c": 15,
+   "i": 12,
+   "w": "there.",
+   "s": 89.471,
+   "e": 89.691
+  },
+  {
+   "c": 16,
+   "i": 0,
+   "w": "Then,",
+   "s": 90.522,
+   "e": 90.822
+  },
+  {
+   "c": 16,
+   "i": 1,
+   "w": "in",
+   "s": 90.982,
+   "e": 91.042
+  },
+  {
+   "c": 16,
+   "i": 2,
+   "w": "April",
+   "s": 91.042,
+   "e": 91.302
+  },
+  {
+   "c": 16,
+   "i": 3,
+   "w": "2021,",
+   "s": 91.302,
+   "e": 92.062
+  },
+  {
+   "c": 16,
+   "i": 4,
+   "w": "Apple",
+   "s": 92.942,
+   "e": 93.062
+  },
+  {
+   "c": 16,
+   "i": 5,
+   "w": "released",
+   "s": 93.062,
+   "e": 93.422
+  },
+  {
+   "c": 16,
+   "i": 6,
+   "w": "iOS",
+   "s": 93.422,
+   "e": 93.742
+  },
+  {
+   "c": 16,
+   "i": 7,
+   "w": "fourteen",
+   "s": 93.742,
+   "e": 94.302
+  },
+  {
+   "c": 16,
+   "i": 8,
+   "w": "point",
+   "s": 94.302,
+   "e": 94.722
+  },
+  {
+   "c": 16,
+   "i": 9,
+   "w": "five.",
+   "s": 94.722,
+   "e": 95.082
+  },
+  {
+   "c": 17,
+   "i": 0,
+   "w": "Now",
+   "s": 95.651,
+   "e": 95.911
+  },
+  {
+   "c": 17,
+   "i": 1,
+   "w": "every",
+   "s": 95.911,
+   "e": 96.331
+  },
+  {
+   "c": 17,
+   "i": 2,
+   "w": "app",
+   "s": 96.331,
+   "e": 96.571
+  },
+  {
+   "c": 17,
+   "i": 3,
+   "w": "had",
+   "s": 96.571,
+   "e": 96.751
+  },
+  {
+   "c": 17,
+   "i": 4,
+   "w": "to",
+   "s": 96.751,
+   "e": 96.871
+  },
+  {
+   "c": 17,
+   "i": 5,
+   "w": "ask",
+   "s": 96.871,
+   "e": 97.071
+  },
+  {
+   "c": 17,
+   "i": 6,
+   "w": "first.",
+   "s": 97.071,
+   "e": 97.391
+  },
+  {
+   "c": 17,
+   "i": 7,
+   "w": "Do",
+   "s": 98.011,
+   "e": 98.091
+  },
+  {
+   "c": 17,
+   "i": 8,
+   "w": "you",
+   "s": 98.091,
+   "e": 98.171
+  },
+  {
+   "c": 17,
+   "i": 9,
+   "w": "want",
+   "s": 98.171,
+   "e": 98.311
+  },
+  {
+   "c": 17,
+   "i": 10,
+   "w": "this",
+   "s": 98.311,
+   "e": 98.431
+  },
+  {
+   "c": 17,
+   "i": 11,
+   "w": "app",
+   "s": 98.431,
+   "e": 98.611
+  },
+  {
+   "c": 17,
+   "i": 12,
+   "w": "to",
+   "s": 98.611,
+   "e": 98.751
+  },
+  {
+   "c": 17,
+   "i": 13,
+   "w": "track",
+   "s": 98.751,
+   "e": 98.931
+  },
+  {
+   "c": 17,
+   "i": 14,
+   "w": "you,",
+   "s": 98.931,
+   "e": 99.191
+  },
+  {
+   "c": 17,
+   "i": 15,
+   "w": "yes",
+   "s": 99.451,
+   "e": 99.611
+  },
+  {
+   "c": 17,
+   "i": 16,
+   "w": "or",
+   "s": 99.611,
+   "e": 99.791
+  },
+  {
+   "c": 17,
+   "i": 17,
+   "w": "no?",
+   "s": 99.791,
+   "e": 100.011
+  },
+  {
+   "c": 18,
+   "i": 0,
+   "w": "Meta",
+   "s": 100.54,
+   "e": 100.76
+  },
+  {
+   "c": 18,
+   "i": 1,
+   "w": "saw",
+   "s": 100.76,
+   "e": 101
+  },
+  {
+   "c": 18,
+   "i": 2,
+   "w": "it",
+   "s": 101,
+   "e": 101
+  },
+  {
+   "c": 18,
+   "i": 3,
+   "w": "coming.",
+   "s": 101,
+   "e": 101.38
+  },
+  {
+   "c": 18,
+   "i": 4,
+   "w": "Months",
+   "s": 102.14,
+   "e": 102.14
+  },
+  {
+   "c": 18,
+   "i": 5,
+   "w": "earlier,",
+   "s": 102.14,
+   "e": 102.52
+  },
+  {
+   "c": 18,
+   "i": 6,
+   "w": "it",
+   "s": 102.74,
+   "e": 102.78
+  },
+  {
+   "c": 18,
+   "i": 7,
+   "w": "bought",
+   "s": 102.78,
+   "e": 102.94
+  },
+  {
+   "c": 18,
+   "i": 8,
+   "w": "full-page",
+   "s": 102.94,
+   "e": 103.44
+  },
+  {
+   "c": 18,
+   "i": 9,
+   "w": "ads",
+   "s": 103.44,
+   "e": 103.66
+  },
+  {
+   "c": 18,
+   "i": 10,
+   "w": "in",
+   "s": 103.66,
+   "e": 103.86
+  },
+  {
+   "c": 18,
+   "i": 11,
+   "w": "big",
+   "s": 103.86,
+   "e": 103.98
+  },
+  {
+   "c": 18,
+   "i": 12,
+   "w": "American",
+   "s": 103.98,
+   "e": 104.24
+  },
+  {
+   "c": 18,
+   "i": 13,
+   "w": "newspapers,",
+   "s": 104.24,
+   "e": 104.62
+  },
+  {
+   "c": 18,
+   "i": 14,
+   "w": "saying,",
+   "s": 105.16,
+   "e": 105.26
+  },
+  {
+   "c": 18,
+   "i": 15,
+   "w": "we're",
+   "s": 105.66,
+   "e": 105.7
+  },
+  {
+   "c": 18,
+   "i": 16,
+   "w": "standing",
+   "s": 105.7,
+   "e": 105.9
+  },
+  {
+   "c": 18,
+   "i": 17,
+   "w": "up",
+   "s": 105.9,
+   "e": 106.12
+  },
+  {
+   "c": 18,
+   "i": 18,
+   "w": "to",
+   "s": 106.12,
+   "e": 106.24
+  },
+  {
+   "c": 18,
+   "i": 19,
+   "w": "Apple",
+   "s": 106.24,
+   "e": 106.36
+  },
+  {
+   "c": 18,
+   "i": 20,
+   "w": "for",
+   "s": 106.36,
+   "e": 106.62
+  },
+  {
+   "c": 18,
+   "i": 21,
+   "w": "small",
+   "s": 106.62,
+   "e": 106.78
+  },
+  {
+   "c": 18,
+   "i": 22,
+   "w": "businesses",
+   "s": 106.78,
+   "e": 107.14
+  },
+  {
+   "c": 18,
+   "i": 23,
+   "w": "everywhere.",
+   "s": 107.14,
+   "e": 107.66
+  },
+  {
+   "c": 19,
+   "i": 0,
+   "w": "Apple's",
+   "s": 108.259,
+   "e": 108.659
+  },
+  {
+   "c": 19,
+   "i": 1,
+   "w": "answer",
+   "s": 108.659,
+   "e": 108.919
+  },
+  {
+   "c": 19,
+   "i": 2,
+   "w": "was",
+   "s": 108.919,
+   "e": 109.099
+  },
+  {
+   "c": 19,
+   "i": 3,
+   "w": "simple.",
+   "s": 109.099,
+   "e": 109.399
+  },
+  {
+   "c": 19,
+   "i": 4,
+   "w": "It",
+   "s": 110.119,
+   "e": 110.139
+  },
+  {
+   "c": 19,
+   "i": 5,
+   "w": "said",
+   "s": 110.139,
+   "e": 110.359
+  },
+  {
+   "c": 19,
+   "i": 6,
+   "w": "this",
+   "s": 110.359,
+   "e": 110.819
+  },
+  {
+   "c": 19,
+   "i": 7,
+   "w": "was",
+   "s": 110.819,
+   "e": 110.899
+  },
+  {
+   "c": 19,
+   "i": 8,
+   "w": "about",
+   "s": 110.899,
+   "e": 111.139
+  },
+  {
+   "c": 19,
+   "i": 9,
+   "w": "standing",
+   "s": 111.139,
+   "e": 111.459
+  },
+  {
+   "c": 19,
+   "i": 10,
+   "w": "up",
+   "s": 111.459,
+   "e": 111.699
+  },
+  {
+   "c": 19,
+   "i": 11,
+   "w": "for",
+   "s": 111.699,
+   "e": 111.859
+  },
+  {
+   "c": 19,
+   "i": 12,
+   "w": "its",
+   "s": 111.859,
+   "e": 111.979
+  },
+  {
+   "c": 19,
+   "i": 13,
+   "w": "users.",
+   "s": 111.979,
+   "e": 112.259
+  },
+  {
+   "c": 20,
+   "i": 0,
+   "w": "Imagine",
+   "s": 112.917,
+   "e": 113.317
+  },
+  {
+   "c": 20,
+   "i": 1,
+   "w": "your",
+   "s": 113.317,
+   "e": 113.497
+  },
+  {
+   "c": 20,
+   "i": 2,
+   "w": "landlord",
+   "s": 113.497,
+   "e": 113.677
+  },
+  {
+   "c": 20,
+   "i": 3,
+   "w": "putting",
+   "s": 113.677,
+   "e": 114.137
+  },
+  {
+   "c": 20,
+   "i": 4,
+   "w": "a",
+   "s": 114.137,
+   "e": 114.317
+  },
+  {
+   "c": 20,
+   "i": 5,
+   "w": "big",
+   "s": 114.317,
+   "e": 114.457
+  },
+  {
+   "c": 20,
+   "i": 6,
+   "w": "sign",
+   "s": 114.457,
+   "e": 114.697
+  },
+  {
+   "c": 20,
+   "i": 7,
+   "w": "on",
+   "s": 114.697,
+   "e": 114.897
+  },
+  {
+   "c": 20,
+   "i": 8,
+   "w": "your",
+   "s": 114.897,
+   "e": 114.997
+  },
+  {
+   "c": 20,
+   "i": 9,
+   "w": "shop",
+   "s": 114.997,
+   "e": 115.177
+  },
+  {
+   "c": 20,
+   "i": 10,
+   "w": "door,",
+   "s": 115.177,
+   "e": 115.477
+  },
+  {
+   "c": 20,
+   "i": 11,
+   "w": "asking",
+   "s": 115.737,
+   "e": 115.977
+  },
+  {
+   "c": 20,
+   "i": 12,
+   "w": "every",
+   "s": 115.977,
+   "e": 116.257
+  },
+  {
+   "c": 20,
+   "i": 13,
+   "w": "customer,",
+   "s": 116.257,
+   "e": 116.597
+  },
+  {
+   "c": 20,
+   "i": 14,
+   "w": "do",
+   "s": 117.157,
+   "e": 117.277
+  },
+  {
+   "c": 20,
+   "i": 15,
+   "w": "you",
+   "s": 117.277,
+   "e": 117.337
+  },
+  {
+   "c": 20,
+   "i": 16,
+   "w": "want",
+   "s": 117.337,
+   "e": 117.477
+  },
+  {
+   "c": 20,
+   "i": 17,
+   "w": "this",
+   "s": 117.477,
+   "e": 117.597
+  },
+  {
+   "c": 20,
+   "i": 18,
+   "w": "shop",
+   "s": 117.597,
+   "e": 117.817
+  },
+  {
+   "c": 20,
+   "i": 19,
+   "w": "to",
+   "s": 117.817,
+   "e": 117.977
+  },
+  {
+   "c": 20,
+   "i": 20,
+   "w": "watch",
+   "s": 117.977,
+   "e": 118.137
+  },
+  {
+   "c": 20,
+   "i": 21,
+   "w": "what",
+   "s": 118.137,
+   "e": 118.297
+  },
+  {
+   "c": 20,
+   "i": 22,
+   "w": "you",
+   "s": 118.297,
+   "e": 118.417
+  },
+  {
+   "c": 20,
+   "i": 23,
+   "w": "do?",
+   "s": 118.417,
+   "e": 118.577
+  },
+  {
+   "c": 20,
+   "i": 24,
+   "w": "Most",
+   "s": 119.217,
+   "e": 119.377
+  },
+  {
+   "c": 20,
+   "i": 25,
+   "w": "people",
+   "s": 119.377,
+   "e": 119.717
+  },
+  {
+   "c": 20,
+   "i": 26,
+   "w": "are",
+   "s": 119.717,
+   "e": 119.837
+  },
+  {
+   "c": 20,
+   "i": 27,
+   "w": "going",
+   "s": 119.837,
+   "e": 119.997
+  },
+  {
+   "c": 20,
+   "i": 28,
+   "w": "to",
+   "s": 119.997,
+   "e": 120.117
+  },
+  {
+   "c": 20,
+   "i": 29,
+   "w": "say",
+   "s": 120.117,
+   "e": 120.237
+  },
+  {
+   "c": 20,
+   "i": 30,
+   "w": "no.",
+   "s": 120.237,
+   "e": 120.497
+  },
+  {
+   "c": 21,
+   "i": 0,
+   "w": "And",
+   "s": 121.06,
+   "e": 121.5
+  },
+  {
+   "c": 21,
+   "i": 1,
+   "w": "the",
+   "s": 121.5,
+   "e": 121.66
+  },
+  {
+   "c": 21,
+   "i": 2,
+   "w": "users",
+   "s": 121.66,
+   "e": 121.86
+  },
+  {
+   "c": 21,
+   "i": 3,
+   "w": "chose.",
+   "s": 121.86,
+   "e": 122.22
+  },
+  {
+   "c": 21,
+   "i": 4,
+   "w": "In",
+   "s": 122.72,
+   "e": 122.74
+  },
+  {
+   "c": 21,
+   "i": 5,
+   "w": "the",
+   "s": 122.74,
+   "e": 122.82
+  },
+  {
+   "c": 21,
+   "i": 6,
+   "w": "first",
+   "s": 122.82,
+   "e": 122.98
+  },
+  {
+   "c": 21,
+   "i": 7,
+   "w": "weeks,",
+   "s": 122.98,
+   "e": 123.28
+  },
+  {
+   "c": 21,
+   "i": 8,
+   "w": "one",
+   "s": 123.58,
+   "e": 123.66
+  },
+  {
+   "c": 21,
+   "i": 9,
+   "w": "analytics",
+   "s": 123.66,
+   "e": 123.96
+  },
+  {
+   "c": 21,
+   "i": 10,
+   "w": "company",
+   "s": 123.96,
+   "e": 124.44
+  },
+  {
+   "c": 21,
+   "i": 11,
+   "w": "estimated",
+   "s": 124.44,
+   "e": 124.96
+  },
+  {
+   "c": 21,
+   "i": 12,
+   "w": "that",
+   "s": 124.96,
+   "e": 125.26
+  },
+  {
+   "c": 21,
+   "i": 13,
+   "w": "only",
+   "s": 125.26,
+   "e": 125.44
+  },
+  {
+   "c": 21,
+   "i": 14,
+   "w": "around",
+   "s": 125.44,
+   "e": 125.76
+  },
+  {
+   "c": 21,
+   "i": 15,
+   "w": "four",
+   "s": 125.76,
+   "e": 126.18
+  },
+  {
+   "c": 21,
+   "i": 16,
+   "w": "to",
+   "s": 126.18,
+   "e": 126.32
+  },
+  {
+   "c": 21,
+   "i": 17,
+   "w": "six",
+   "s": 126.32,
+   "e": 126.5
+  },
+  {
+   "c": 21,
+   "i": 18,
+   "w": "percent",
+   "s": 126.5,
+   "e": 126.82
+  },
+  {
+   "c": 21,
+   "i": 19,
+   "w": "of",
+   "s": 126.82,
+   "e": 127.06
+  },
+  {
+   "c": 21,
+   "i": 20,
+   "w": "iPhone",
+   "s": 127.06,
+   "e": 127.24
+  },
+  {
+   "c": 21,
+   "i": 21,
+   "w": "users",
+   "s": 127.24,
+   "e": 127.66
+  },
+  {
+   "c": 21,
+   "i": 22,
+   "w": "in",
+   "s": 127.66,
+   "e": 127.96
+  },
+  {
+   "c": 21,
+   "i": 23,
+   "w": "the",
+   "s": 127.96,
+   "e": 128.04
+  },
+  {
+   "c": 21,
+   "i": 24,
+   "w": "US",
+   "s": 128.04,
+   "e": 128.22
+  },
+  {
+   "c": 21,
+   "i": 25,
+   "w": "said",
+   "s": 128.22,
+   "e": 128.56
+  },
+  {
+   "c": 21,
+   "i": 26,
+   "w": "yes.",
+   "s": 128.56,
+   "e": 128.82
+  },
+  {
+   "c": 22,
+   "i": 0,
+   "w": "Meta's",
+   "s": 129.77,
+   "e": 130.19
+  },
+  {
+   "c": 22,
+   "i": 1,
+   "w": "ads",
+   "s": 130.19,
+   "e": 130.37
+  },
+  {
+   "c": 22,
+   "i": 2,
+   "w": "got",
+   "s": 130.37,
+   "e": 130.63
+  },
+  {
+   "c": 22,
+   "i": 3,
+   "w": "less",
+   "s": 130.63,
+   "e": 130.85
+  },
+  {
+   "c": 22,
+   "i": 4,
+   "w": "precise.",
+   "s": 130.85,
+   "e": 131.09
+  },
+  {
+   "c": 22,
+   "i": 5,
+   "w": "Advertisers",
+   "s": 132.11,
+   "e": 132.57
+  },
+  {
+   "c": 22,
+   "i": 6,
+   "w": "couldn't",
+   "s": 132.57,
+   "e": 132.85
+  },
+  {
+   "c": 22,
+   "i": 7,
+   "w": "see",
+   "s": 132.85,
+   "e": 132.99
+  },
+  {
+   "c": 22,
+   "i": 8,
+   "w": "as",
+   "s": 132.99,
+   "e": 133.13
+  },
+  {
+   "c": 22,
+   "i": 9,
+   "w": "clearly",
+   "s": 133.13,
+   "e": 133.33
+  },
+  {
+   "c": 22,
+   "i": 10,
+   "w": "what",
+   "s": 133.33,
+   "e": 133.65
+  },
+  {
+   "c": 22,
+   "i": 11,
+   "w": "was",
+   "s": 133.65,
+   "e": 133.77
+  },
+  {
+   "c": 22,
+   "i": 12,
+   "w": "working,",
+   "s": 133.77,
+   "e": 134.05
+  },
+  {
+   "c": 22,
+   "i": 13,
+   "w": "so",
+   "s": 134.41,
+   "e": 134.49
+  },
+  {
+   "c": 22,
+   "i": 14,
+   "w": "they",
+   "s": 134.49,
+   "e": 134.85
+  },
+  {
+   "c": 22,
+   "i": 15,
+   "w": "spent",
+   "s": 134.85,
+   "e": 135.01
+  },
+  {
+   "c": 22,
+   "i": 16,
+   "w": "less.",
+   "s": 135.01,
+   "e": 135.29
+  },
+  {
+   "c": 23,
+   "i": 0,
+   "w": "In",
+   "s": 135.935,
+   "e": 136.095
+  },
+  {
+   "c": 23,
+   "i": 1,
+   "w": "February",
+   "s": 136.095,
+   "e": 136.275
+  },
+  {
+   "c": 23,
+   "i": 2,
+   "w": "2022,",
+   "s": 136.275,
+   "e": 137.095
+  },
+  {
+   "c": 23,
+   "i": 3,
+   "w": "Meta",
+   "s": 137.495,
+   "e": 137.555
+  },
+  {
+   "c": 23,
+   "i": 4,
+   "w": "told",
+   "s": 137.555,
+   "e": 137.795
+  },
+  {
+   "c": 23,
+   "i": 5,
+   "w": "its",
+   "s": 137.795,
+   "e": 137.975
+  },
+  {
+   "c": 23,
+   "i": 6,
+   "w": "investors",
+   "s": 137.975,
+   "e": 138.095
+  },
+  {
+   "c": 23,
+   "i": 7,
+   "w": "the",
+   "s": 138.095,
+   "e": 138.595
+  },
+  {
+   "c": 23,
+   "i": 8,
+   "w": "Apple",
+   "s": 138.595,
+   "e": 138.775
+  },
+  {
+   "c": 23,
+   "i": 9,
+   "w": "change",
+   "s": 138.775,
+   "e": 139.075
+  },
+  {
+   "c": 23,
+   "i": 10,
+   "w": "would",
+   "s": 139.075,
+   "e": 139.255
+  },
+  {
+   "c": 23,
+   "i": 11,
+   "w": "cost",
+   "s": 139.255,
+   "e": 139.395
+  },
+  {
+   "c": 23,
+   "i": 12,
+   "w": "it",
+   "s": 139.395,
+   "e": 139.615
+  },
+  {
+   "c": 23,
+   "i": 13,
+   "w": "about",
+   "s": 139.615,
+   "e": 139.755
+  },
+  {
+   "c": 23,
+   "i": 14,
+   "w": "ten",
+   "s": 139.755,
+   "e": 139.955
+  },
+  {
+   "c": 23,
+   "i": 15,
+   "w": "billion",
+   "s": 139.955,
+   "e": 140.235
+  },
+  {
+   "c": 23,
+   "i": 16,
+   "w": "dollars",
+   "s": 140.235,
+   "e": 140.555
+  },
+  {
+   "c": 23,
+   "i": 17,
+   "w": "that",
+   "s": 140.555,
+   "e": 140.755
+  },
+  {
+   "c": 23,
+   "i": 18,
+   "w": "year.",
+   "s": 140.755,
+   "e": 140.975
+  },
+  {
+   "c": 23,
+   "i": 19,
+   "w": "Its",
+   "s": 141.455,
+   "e": 141.535
+  },
+  {
+   "c": 23,
+   "i": 20,
+   "w": "own",
+   "s": 141.535,
+   "e": 141.675
+  },
+  {
+   "c": 23,
+   "i": 21,
+   "w": "finance",
+   "s": 141.675,
+   "e": 141.895
+  },
+  {
+   "c": 23,
+   "i": 22,
+   "w": "chief",
+   "s": 141.895,
+   "e": 142.315
+  },
+  {
+   "c": 23,
+   "i": 23,
+   "w": "called",
+   "s": 142.315,
+   "e": 142.535
+  },
+  {
+   "c": 23,
+   "i": 24,
+   "w": "that",
+   "s": 142.535,
+   "e": 142.695
+  },
+  {
+   "c": 23,
+   "i": 25,
+   "w": "number",
+   "s": 142.695,
+   "e": 142.955
+  },
+  {
+   "c": 23,
+   "i": 26,
+   "w": "a",
+   "s": 142.955,
+   "e": 143.055
+  },
+  {
+   "c": 23,
+   "i": 27,
+   "w": "best",
+   "s": 143.055,
+   "e": 143.215
+  },
+  {
+   "c": 23,
+   "i": 28,
+   "w": "guess.",
+   "s": 143.215,
+   "e": 143.555
+  },
+  {
+   "c": 24,
+   "i": 0,
+   "w": "The",
+   "s": 144.081,
+   "e": 144.221
+  },
+  {
+   "c": 24,
+   "i": 1,
+   "w": "next",
+   "s": 144.221,
+   "e": 144.341
+  },
+  {
+   "c": 24,
+   "i": 2,
+   "w": "day,",
+   "s": 144.341,
+   "e": 144.661
+  },
+  {
+   "c": 24,
+   "i": 3,
+   "w": "Meta's",
+   "s": 145.021,
+   "e": 145.301
+  },
+  {
+   "c": 24,
+   "i": 4,
+   "w": "stock",
+   "s": 145.301,
+   "e": 145.521
+  },
+  {
+   "c": 24,
+   "i": 5,
+   "w": "fell",
+   "s": 145.521,
+   "e": 145.761
+  },
+  {
+   "c": 24,
+   "i": 6,
+   "w": "about",
+   "s": 145.761,
+   "e": 145.961
+  },
+  {
+   "c": 24,
+   "i": 7,
+   "w": "twenty",
+   "s": 145.961,
+   "e": 146.241
+  },
+  {
+   "c": 24,
+   "i": 8,
+   "w": "six",
+   "s": 146.241,
+   "e": 146.581
+  },
+  {
+   "c": 24,
+   "i": 9,
+   "w": "percent.",
+   "s": 146.581,
+   "e": 146.881
+  },
+  {
+   "c": 25,
+   "i": 0,
+   "w": "Roughly",
+   "s": 147.452,
+   "e": 147.832
+  },
+  {
+   "c": 25,
+   "i": 1,
+   "w": "two",
+   "s": 147.832,
+   "e": 148.012
+  },
+  {
+   "c": 25,
+   "i": 2,
+   "w": "hundred",
+   "s": 148.012,
+   "e": 148.292
+  },
+  {
+   "c": 25,
+   "i": 3,
+   "w": "and",
+   "s": 148.292,
+   "e": 148.432
+  },
+  {
+   "c": 25,
+   "i": 4,
+   "w": "thirty",
+   "s": 148.432,
+   "e": 148.592
+  },
+  {
+   "c": 25,
+   "i": 5,
+   "w": "billion",
+   "s": 148.592,
+   "e": 148.912
+  },
+  {
+   "c": 25,
+   "i": 6,
+   "w": "dollars",
+   "s": 148.912,
+   "e": 149.312
+  },
+  {
+   "c": 25,
+   "i": 7,
+   "w": "in",
+   "s": 149.312,
+   "e": 149.472
+  },
+  {
+   "c": 25,
+   "i": 8,
+   "w": "value",
+   "s": 149.472,
+   "e": 149.732
+  },
+  {
+   "c": 25,
+   "i": 9,
+   "w": "disappeared",
+   "s": 149.732,
+   "e": 150.072
+  },
+  {
+   "c": 25,
+   "i": 10,
+   "w": "in",
+   "s": 150.072,
+   "e": 150.492
+  },
+  {
+   "c": 25,
+   "i": 11,
+   "w": "a",
+   "s": 150.492,
+   "e": 150.572
+  },
+  {
+   "c": 25,
+   "i": 12,
+   "w": "single",
+   "s": 150.572,
+   "e": 150.712
+  },
+  {
+   "c": 25,
+   "i": 13,
+   "w": "day.",
+   "s": 150.712,
+   "e": 151.092
+  },
+  {
+   "c": 25,
+   "i": 14,
+   "w": "At",
+   "s": 151.592,
+   "e": 151.672
+  },
+  {
+   "c": 25,
+   "i": 15,
+   "w": "the",
+   "s": 151.672,
+   "e": 151.792
+  },
+  {
+   "c": 25,
+   "i": 16,
+   "w": "time,",
+   "s": 151.792,
+   "e": 152.052
+  },
+  {
+   "c": 25,
+   "i": 17,
+   "w": "the",
+   "s": 152.292,
+   "e": 152.372
+  },
+  {
+   "c": 25,
+   "i": 18,
+   "w": "biggest",
+   "s": 152.372,
+   "e": 152.552
+  },
+  {
+   "c": 25,
+   "i": 19,
+   "w": "one-day",
+   "s": 152.552,
+   "e": 153.032
+  },
+  {
+   "c": 25,
+   "i": 20,
+   "w": "drop",
+   "s": 153.032,
+   "e": 153.252
+  },
+  {
+   "c": 25,
+   "i": 21,
+   "w": "for",
+   "s": 153.252,
+   "e": 153.472
+  },
+  {
+   "c": 25,
+   "i": 22,
+   "w": "any",
+   "s": 153.472,
+   "e": 153.612
+  },
+  {
+   "c": 25,
+   "i": 23,
+   "w": "American",
+   "s": 153.612,
+   "e": 153.872
+  },
+  {
+   "c": 25,
+   "i": 24,
+   "w": "company",
+   "s": 153.872,
+   "e": 154.392
+  },
+  {
+   "c": 25,
+   "i": 25,
+   "w": "in",
+   "s": 154.392,
+   "e": 154.612
+  },
+  {
+   "c": 25,
+   "i": 26,
+   "w": "history.",
+   "s": 154.612,
+   "e": 154.972
+  },
+  {
+   "c": 26,
+   "i": 0,
+   "w": "One",
+   "s": 155.49,
+   "e": 155.69
+  },
+  {
+   "c": 26,
+   "i": 1,
+   "w": "button.",
+   "s": 155.69,
+   "e": 155.91
+  },
+  {
+   "c": 26,
+   "i": 2,
+   "w": "Ten",
+   "s": 156.43,
+   "e": 156.53
+  },
+  {
+   "c": 26,
+   "i": 3,
+   "w": "billion",
+   "s": 156.53,
+   "e": 156.73
+  },
+  {
+   "c": 26,
+   "i": 4,
+   "w": "dollars",
+   "s": 156.73,
+   "e": 157.11
+  },
+  {
+   "c": 26,
+   "i": 5,
+   "w": "a",
+   "s": 157.11,
+   "e": 157.25
+  },
+  {
+   "c": 26,
+   "i": 6,
+   "w": "year.",
+   "s": 157.25,
+   "e": 157.41
+  },
+  {
+   "c": 26,
+   "i": 7,
+   "w": "That's",
+   "s": 157.97,
+   "e": 158.09
+  },
+  {
+   "c": 26,
+   "i": 8,
+   "w": "about",
+   "s": 158.09,
+   "e": 158.19
+  },
+  {
+   "c": 26,
+   "i": 9,
+   "w": "twenty",
+   "s": 158.19,
+   "e": 158.39
+  },
+  {
+   "c": 26,
+   "i": 10,
+   "w": "seven",
+   "s": 158.39,
+   "e": 158.65
+  },
+  {
+   "c": 26,
+   "i": 11,
+   "w": "million",
+   "s": 158.65,
+   "e": 158.89
+  },
+  {
+   "c": 26,
+   "i": 12,
+   "w": "dollars,",
+   "s": 158.89,
+   "e": 159.27
+  },
+  {
+   "c": 26,
+   "i": 13,
+   "w": "every",
+   "s": 159.27,
+   "e": 159.61
+  },
+  {
+   "c": 26,
+   "i": 14,
+   "w": "single",
+   "s": 159.61,
+   "e": 159.77
+  },
+  {
+   "c": 26,
+   "i": 15,
+   "w": "day.",
+   "s": 159.77,
+   "e": 160.07
+  },
+  {
+   "c": 27,
+   "i": 0,
+   "w": "So",
+   "s": 160.863,
+   "e": 161.103
+  },
+  {
+   "c": 27,
+   "i": 1,
+   "w": "Zuckerberg",
+   "s": 161.103,
+   "e": 161.463
+  },
+  {
+   "c": 27,
+   "i": 2,
+   "w": "needed",
+   "s": 161.463,
+   "e": 161.803
+  },
+  {
+   "c": 27,
+   "i": 3,
+   "w": "a",
+   "s": 161.803,
+   "e": 162.003
+  },
+  {
+   "c": 27,
+   "i": 4,
+   "w": "way",
+   "s": 162.003,
+   "e": 162.143
+  },
+  {
+   "c": 27,
+   "i": 5,
+   "w": "out",
+   "s": 162.143,
+   "e": 162.403
+  },
+  {
+   "c": 27,
+   "i": 6,
+   "w": "of",
+   "s": 162.403,
+   "e": 162.503
+  },
+  {
+   "c": 27,
+   "i": 7,
+   "w": "the",
+   "s": 162.503,
+   "e": 162.583
+  },
+  {
+   "c": 27,
+   "i": 8,
+   "w": "landlord's",
+   "s": 162.583,
+   "e": 163.023
+  },
+  {
+   "c": 27,
+   "i": 9,
+   "w": "building.",
+   "s": 163.023,
+   "e": 163.203
+  },
+  {
+   "c": 28,
+   "i": 0,
+   "w": "First,",
+   "s": 163.857,
+   "e": 164.197
+  },
+  {
+   "c": 28,
+   "i": 1,
+   "w": "he",
+   "s": 164.337,
+   "e": 164.437
+  },
+  {
+   "c": 28,
+   "i": 2,
+   "w": "bet",
+   "s": 164.437,
+   "e": 164.537
+  },
+  {
+   "c": 28,
+   "i": 3,
+   "w": "on",
+   "s": 164.537,
+   "e": 164.697
+  },
+  {
+   "c": 28,
+   "i": 4,
+   "w": "the",
+   "s": 164.697,
+   "e": 164.757
+  },
+  {
+   "c": 28,
+   "i": 5,
+   "w": "metaverse.",
+   "s": 164.757,
+   "e": 165.057
+  },
+  {
+   "c": 28,
+   "i": 6,
+   "w": "Then",
+   "s": 165.697,
+   "e": 165.897
+  },
+  {
+   "c": 28,
+   "i": 7,
+   "w": "the",
+   "s": 165.897,
+   "e": 166.177
+  },
+  {
+   "c": 28,
+   "i": 8,
+   "w": "AI",
+   "s": 166.177,
+   "e": 166.377
+  },
+  {
+   "c": 28,
+   "i": 9,
+   "w": "race",
+   "s": 166.377,
+   "e": 166.657
+  },
+  {
+   "c": 28,
+   "i": 10,
+   "w": "exploded,",
+   "s": 166.657,
+   "e": 166.997
+  },
+  {
+   "c": 28,
+   "i": 11,
+   "w": "and",
+   "s": 167.537,
+   "e": 167.617
+  },
+  {
+   "c": 28,
+   "i": 12,
+   "w": "Meta",
+   "s": 167.617,
+   "e": 167.737
+  },
+  {
+   "c": 28,
+   "i": 13,
+   "w": "was",
+   "s": 167.737,
+   "e": 167.957
+  },
+  {
+   "c": 28,
+   "i": 14,
+   "w": "suddenly",
+   "s": 167.957,
+   "e": 168.217
+  },
+  {
+   "c": 28,
+   "i": 15,
+   "w": "chasing",
+   "s": 168.217,
+   "e": 168.497
+  },
+  {
+   "c": 28,
+   "i": 16,
+   "w": "companies",
+   "s": 168.497,
+   "e": 168.937
+  },
+  {
+   "c": 28,
+   "i": 17,
+   "w": "like",
+   "s": 168.937,
+   "e": 169.277
+  },
+  {
+   "c": 28,
+   "i": 18,
+   "w": "OpenAI",
+   "s": 169.277,
+   "e": 169.737
+  },
+  {
+   "c": 28,
+   "i": 19,
+   "w": "and",
+   "s": 169.737,
+   "e": 170.157
+  },
+  {
+   "c": 28,
+   "i": 20,
+   "w": "Google.",
+   "s": 170.157,
+   "e": 170.317
+  },
+  {
+   "c": 29,
+   "i": 0,
+   "w": "Meta",
+   "s": 170.957,
+   "e": 171.177
+  },
+  {
+   "c": 29,
+   "i": 1,
+   "w": "built",
+   "s": 171.177,
+   "e": 171.477
+  },
+  {
+   "c": 29,
+   "i": 2,
+   "w": "its",
+   "s": 171.477,
+   "e": 171.637
+  },
+  {
+   "c": 29,
+   "i": 3,
+   "w": "own",
+   "s": 171.637,
+   "e": 171.817
+  },
+  {
+   "c": 29,
+   "i": 4,
+   "w": "AI",
+   "s": 171.817,
+   "e": 172.037
+  },
+  {
+   "c": 29,
+   "i": 5,
+   "w": "models",
+   "s": 172.037,
+   "e": 172.397
+  },
+  {
+   "c": 29,
+   "i": 6,
+   "w": "and",
+   "s": 172.397,
+   "e": 172.797
+  },
+  {
+   "c": 29,
+   "i": 7,
+   "w": "gave",
+   "s": 172.797,
+   "e": 172.937
+  },
+  {
+   "c": 29,
+   "i": 8,
+   "w": "many",
+   "s": 172.937,
+   "e": 173.157
+  },
+  {
+   "c": 29,
+   "i": 9,
+   "w": "of",
+   "s": 173.157,
+   "e": 173.377
+  },
+  {
+   "c": 29,
+   "i": 10,
+   "w": "them",
+   "s": 173.377,
+   "e": 173.497
+  },
+  {
+   "c": 29,
+   "i": 11,
+   "w": "away",
+   "s": 173.497,
+   "e": 173.677
+  },
+  {
+   "c": 29,
+   "i": 12,
+   "w": "for",
+   "s": 173.677,
+   "e": 173.857
+  },
+  {
+   "c": 29,
+   "i": 13,
+   "w": "free.",
+   "s": 173.857,
+   "e": 174.117
+  },
+  {
+   "c": 29,
+   "i": 14,
+   "w": "But",
+   "s": 174.857,
+   "e": 174.877
+  },
+  {
+   "c": 29,
+   "i": 15,
+   "w": "for",
+   "s": 174.877,
+   "e": 175.017
+  },
+  {
+   "c": 29,
+   "i": 16,
+   "w": "a",
+   "s": 175.017,
+   "e": 175.117
+  },
+  {
+   "c": 29,
+   "i": 17,
+   "w": "while,",
+   "s": 175.117,
+   "e": 175.377
+  },
+  {
+   "c": 29,
+   "i": 18,
+   "w": "rivals",
+   "s": 175.777,
+   "e": 175.857
+  },
+  {
+   "c": 29,
+   "i": 19,
+   "w": "kept",
+   "s": 175.857,
+   "e": 176.137
+  },
+  {
+   "c": 29,
+   "i": 20,
+   "w": "pulling",
+   "s": 176.137,
+   "e": 176.377
+  },
+  {
+   "c": 29,
+   "i": 21,
+   "w": "ahead.",
+   "s": 176.377,
+   "e": 176.657
+  },
+  {
+   "c": 30,
+   "i": 0,
+   "w": "So",
+   "s": 177.241,
+   "e": 177.481
+  },
+  {
+   "c": 30,
+   "i": 1,
+   "w": "Meta",
+   "s": 177.481,
+   "e": 177.661
+  },
+  {
+   "c": 30,
+   "i": 2,
+   "w": "started",
+   "s": 177.661,
+   "e": 178.021
+  },
+  {
+   "c": 30,
+   "i": 3,
+   "w": "spending",
+   "s": 178.021,
+   "e": 178.221
+  },
+  {
+   "c": 30,
+   "i": 4,
+   "w": "like",
+   "s": 178.221,
+   "e": 178.501
+  },
+  {
+   "c": 30,
+   "i": 5,
+   "w": "crazy.",
+   "s": 178.501,
+   "e": 178.681
+  },
+  {
+   "c": 30,
+   "i": 6,
+   "w": "Billions",
+   "s": 179.421,
+   "e": 179.661
+  },
+  {
+   "c": 30,
+   "i": 7,
+   "w": "on",
+   "s": 179.661,
+   "e": 179.961
+  },
+  {
+   "c": 30,
+   "i": 8,
+   "w": "a",
+   "s": 179.961,
+   "e": 180.061
+  },
+  {
+   "c": 30,
+   "i": 9,
+   "w": "new",
+   "s": 180.061,
+   "e": 180.181
+  },
+  {
+   "c": 30,
+   "i": 10,
+   "w": "superintelligence",
+   "s": 180.181,
+   "e": 180.581
+  },
+  {
+   "c": 30,
+   "i": 11,
+   "w": "team,",
+   "s": 180.581,
+   "e": 181.261
+  },
+  {
+   "c": 30,
+   "i": 12,
+   "w": "and,",
+   "s": 181.441,
+   "e": 181.621
+  },
+  {
+   "c": 30,
+   "i": 13,
+   "w": "reportedly,",
+   "s": 181.801,
+   "e": 182.001
+  },
+  {
+   "c": 30,
+   "i": 14,
+   "w": "pay",
+   "s": 182.561,
+   "e": 182.781
+  },
+  {
+   "c": 30,
+   "i": 15,
+   "w": "packages",
+   "s": 182.781,
+   "e": 183.081
+  },
+  {
+   "c": 30,
+   "i": 16,
+   "w": "for",
+   "s": 183.081,
+   "e": 183.401
+  },
+  {
+   "c": 30,
+   "i": 17,
+   "w": "top",
+   "s": 183.401,
+   "e": 183.601
+  },
+  {
+   "c": 30,
+   "i": 18,
+   "w": "AI",
+   "s": 183.601,
+   "e": 183.841
+  },
+  {
+   "c": 30,
+   "i": 19,
+   "w": "researchers",
+   "s": 183.841,
+   "e": 184.261
+  },
+  {
+   "c": 30,
+   "i": 20,
+   "w": "that",
+   "s": 184.261,
+   "e": 184.641
+  },
+  {
+   "c": 30,
+   "i": 21,
+   "w": "sounded",
+   "s": 184.641,
+   "e": 184.841
+  },
+  {
+   "c": 30,
+   "i": 22,
+   "w": "like",
+   "s": 184.841,
+   "e": 185.121
+  },
+  {
+   "c": 30,
+   "i": 23,
+   "w": "football",
+   "s": 185.121,
+   "e": 185.281
+  },
+  {
+   "c": 30,
+   "i": 24,
+   "w": "transfer",
+   "s": 185.281,
+   "e": 185.641
+  },
+  {
+   "c": 30,
+   "i": 25,
+   "w": "fees.",
+   "s": 185.641,
+   "e": 186.001
+  },
+  {
+   "c": 31,
+   "i": 0,
+   "w": "And",
+   "s": 187.241,
+   "e": 187.581
+  },
+  {
+   "c": 31,
+   "i": 1,
+   "w": "in",
+   "s": 187.581,
+   "e": 187.761
+  },
+  {
+   "c": 31,
+   "i": 2,
+   "w": "September",
+   "s": 187.761,
+   "e": 188.001
+  },
+  {
+   "c": 31,
+   "i": 3,
+   "w": "2026,",
+   "s": 188.001,
+   "e": 189.001
+  },
+  {
+   "c": 31,
+   "i": 4,
+   "w": "Meta",
+   "s": 189.361,
+   "e": 189.581
+  },
+  {
+   "c": 31,
+   "i": 5,
+   "w": "showed",
+   "s": 189.581,
+   "e": 189.881
+  },
+  {
+   "c": 31,
+   "i": 6,
+   "w": "what",
+   "s": 189.881,
+   "e": 190.121
+  },
+  {
+   "c": 31,
+   "i": 7,
+   "w": "all",
+   "s": 190.121,
+   "e": 190.301
+  },
+  {
+   "c": 31,
+   "i": 8,
+   "w": "that",
+   "s": 190.301,
+   "e": 190.441
+  },
+  {
+   "c": 31,
+   "i": 9,
+   "w": "money",
+   "s": 190.441,
+   "e": 190.681
+  },
+  {
+   "c": 31,
+   "i": 10,
+   "w": "was",
+   "s": 190.681,
+   "e": 190.821
+  },
+  {
+   "c": 31,
+   "i": 11,
+   "w": "for.",
+   "s": 190.821,
+   "e": 191.101
+  },
+  {
+   "c": 31,
+   "i": 12,
+   "w": "An",
+   "s": 191.861,
+   "e": 191.881
+  },
+  {
+   "c": 31,
+   "i": 13,
+   "w": "AI",
+   "s": 191.881,
+   "e": 192.061
+  },
+  {
+   "c": 31,
+   "i": 14,
+   "w": "agent",
+   "s": 192.061,
+   "e": 192.581
+  },
+  {
+   "c": 31,
+   "i": 15,
+   "w": "called",
+   "s": 192.581,
+   "e": 192.861
+  },
+  {
+   "c": 31,
+   "i": 16,
+   "w": "Muse.",
+   "s": 192.861,
+   "e": 193.121
+  },
+  {
+   "c": 32,
+   "i": 0,
+   "w": "Muse",
+   "s": 193.879,
+   "e": 194.099
+  },
+  {
+   "c": 32,
+   "i": 1,
+   "w": "doesn't",
+   "s": 194.099,
+   "e": 194.479
+  },
+  {
+   "c": 32,
+   "i": 2,
+   "w": "just",
+   "s": 194.479,
+   "e": 194.599
+  },
+  {
+   "c": 32,
+   "i": 3,
+   "w": "chat.",
+   "s": 194.599,
+   "e": 194.899
+  },
+  {
+   "c": 32,
+   "i": 4,
+   "w": "It",
+   "s": 195.139,
+   "e": 195.159
+  },
+  {
+   "c": 32,
+   "i": 5,
+   "w": "does",
+   "s": 195.159,
+   "e": 195.379
+  },
+  {
+   "c": 32,
+   "i": 6,
+   "w": "things.",
+   "s": 195.379,
+   "e": 195.719
+  },
+  {
+   "c": 32,
+   "i": 7,
+   "w": "You",
+   "s": 196.199,
+   "e": 196.259
+  },
+  {
+   "c": 32,
+   "i": 8,
+   "w": "can",
+   "s": 196.259,
+   "e": 196.359
+  },
+  {
+   "c": 32,
+   "i": 9,
+   "w": "ask",
+   "s": 196.359,
+   "e": 196.519
+  },
+  {
+   "c": 32,
+   "i": 10,
+   "w": "it",
+   "s": 196.519,
+   "e": 196.699
+  },
+  {
+   "c": 32,
+   "i": 11,
+   "w": "to",
+   "s": 196.699,
+   "e": 196.799
+  },
+  {
+   "c": 32,
+   "i": 12,
+   "w": "plan",
+   "s": 196.799,
+   "e": 196.959
+  },
+  {
+   "c": 32,
+   "i": 13,
+   "w": "a",
+   "s": 196.959,
+   "e": 197.099
+  },
+  {
+   "c": 32,
+   "i": 14,
+   "w": "trip,",
+   "s": 197.099,
+   "e": 197.319
+  },
+  {
+   "c": 32,
+   "i": 15,
+   "w": "send",
+   "s": 197.579,
+   "e": 197.719
+  },
+  {
+   "c": 32,
+   "i": 16,
+   "w": "an",
+   "s": 197.719,
+   "e": 197.859
+  },
+  {
+   "c": 32,
+   "i": 17,
+   "w": "email,",
+   "s": 197.859,
+   "e": 198.039
+  },
+  {
+   "c": 32,
+   "i": 18,
+   "w": "or",
+   "s": 198.379,
+   "e": 198.419
+  },
+  {
+   "c": 32,
+   "i": 19,
+   "w": "buy",
+   "s": 198.419,
+   "e": 198.559
+  },
+  {
+   "c": 32,
+   "i": 20,
+   "w": "you",
+   "s": 198.559,
+   "e": 198.699
+  },
+  {
+   "c": 32,
+   "i": 21,
+   "w": "something.",
+   "s": 198.699,
+   "e": 198.979
+  },
+  {
+   "c": 33,
+   "i": 0,
+   "w": "Meta",
+   "s": 199.555,
+   "e": 199.775
+  },
+  {
+   "c": 33,
+   "i": 1,
+   "w": "says",
+   "s": 199.775,
+   "e": 200.035
+  },
+  {
+   "c": 33,
+   "i": 2,
+   "w": "it",
+   "s": 200.035,
+   "e": 200.235
+  },
+  {
+   "c": 33,
+   "i": 3,
+   "w": "can",
+   "s": 200.235,
+   "e": 200.335
+  },
+  {
+   "c": 33,
+   "i": 4,
+   "w": "check",
+   "s": 200.335,
+   "e": 200.515
+  },
+  {
+   "c": 33,
+   "i": 5,
+   "w": "out",
+   "s": 200.515,
+   "e": 200.675
+  },
+  {
+   "c": 33,
+   "i": 6,
+   "w": "from",
+   "s": 200.675,
+   "e": 200.835
+  },
+  {
+   "c": 33,
+   "i": 7,
+   "w": "stores",
+   "s": 200.835,
+   "e": 201.055
+  },
+  {
+   "c": 33,
+   "i": 8,
+   "w": "like",
+   "s": 201.055,
+   "e": 201.275
+  },
+  {
+   "c": 33,
+   "i": 9,
+   "w": "Walmart,",
+   "s": 201.275,
+   "e": 201.495
+  },
+  {
+   "c": 33,
+   "i": 10,
+   "w": "Best",
+   "s": 202.015,
+   "e": 202.095
+  },
+  {
+   "c": 33,
+   "i": 11,
+   "w": "Buy",
+   "s": 202.095,
+   "e": 202.335
+  },
+  {
+   "c": 33,
+   "i": 12,
+   "w": "and",
+   "s": 202.335,
+   "e": 202.595
+  },
+  {
+   "c": 33,
+   "i": 13,
+   "w": "Sephora,",
+   "s": 202.595,
+   "e": 203.015
+  },
+  {
+   "c": 33,
+   "i": 14,
+   "w": "and",
+   "s": 203.375,
+   "e": 203.575
+  },
+  {
+   "c": 33,
+   "i": 15,
+   "w": "it",
+   "s": 203.575,
+   "e": 203.655
+  },
+  {
+   "c": 33,
+   "i": 16,
+   "w": "lives",
+   "s": 203.655,
+   "e": 203.795
+  },
+  {
+   "c": 33,
+   "i": 17,
+   "w": "right",
+   "s": 203.795,
+   "e": 204.055
+  },
+  {
+   "c": 33,
+   "i": 18,
+   "w": "inside",
+   "s": 204.055,
+   "e": 204.375
+  },
+  {
+   "c": 33,
+   "i": 19,
+   "w": "WhatsApp.",
+   "s": 204.375,
+   "e": 204.795
+  },
+  {
+   "c": 34,
+   "i": 0,
+   "w": "It's",
+   "s": 205.465,
+   "e": 205.685
+  },
+  {
+   "c": 34,
+   "i": 1,
+   "w": "free",
+   "s": 205.685,
+   "e": 205.785
+  },
+  {
+   "c": 34,
+   "i": 2,
+   "w": "to",
+   "s": 205.785,
+   "e": 205.905
+  },
+  {
+   "c": 34,
+   "i": 3,
+   "w": "start,",
+   "s": 205.905,
+   "e": 206.125
+  },
+  {
+   "c": 34,
+   "i": 4,
+   "w": "with",
+   "s": 206.385,
+   "e": 206.445
+  },
+  {
+   "c": 34,
+   "i": 5,
+   "w": "paid",
+   "s": 206.445,
+   "e": 206.585
+  },
+  {
+   "c": 34,
+   "i": 6,
+   "w": "plans",
+   "s": 206.585,
+   "e": 206.905
+  },
+  {
+   "c": 34,
+   "i": 7,
+   "w": "at",
+   "s": 206.905,
+   "e": 207.145
+  },
+  {
+   "c": 34,
+   "i": 8,
+   "w": "twenty",
+   "s": 207.145,
+   "e": 207.365
+  },
+  {
+   "c": 34,
+   "i": 9,
+   "w": "and",
+   "s": 207.365,
+   "e": 207.645
+  },
+  {
+   "c": 34,
+   "i": 10,
+   "w": "a",
+   "s": 207.645,
+   "e": 207.745
+  },
+  {
+   "c": 34,
+   "i": 11,
+   "w": "hundred",
+   "s": 207.745,
+   "e": 207.905
+  },
+  {
+   "c": 34,
+   "i": 12,
+   "w": "dollars",
+   "s": 207.905,
+   "e": 208.145
+  },
+  {
+   "c": 34,
+   "i": 13,
+   "w": "a",
+   "s": 208.145,
+   "e": 208.265
+  },
+  {
+   "c": 34,
+   "i": 14,
+   "w": "month.",
+   "s": 208.265,
+   "e": 208.445
+  },
+  {
+   "c": 34,
+   "i": 15,
+   "w": "For",
+   "s": 209.025,
+   "e": 209.065
+  },
+  {
+   "c": 34,
+   "i": 16,
+   "w": "now,",
+   "s": 209.065,
+   "e": 209.225
+  },
+  {
+   "c": 34,
+   "i": 17,
+   "w": "it's",
+   "s": 209.405,
+   "e": 209.525
+  },
+  {
+   "c": 34,
+   "i": 18,
+   "w": "only",
+   "s": 209.525,
+   "e": 209.725
+  },
+  {
+   "c": 34,
+   "i": 19,
+   "w": "available",
+   "s": 209.725,
+   "e": 209.965
+  },
+  {
+   "c": 34,
+   "i": 20,
+   "w": "in",
+   "s": 209.965,
+   "e": 210.325
+  },
+  {
+   "c": 34,
+   "i": 21,
+   "w": "the",
+   "s": 210.325,
+   "e": 210.425
+  },
+  {
+   "c": 34,
+   "i": 22,
+   "w": "United",
+   "s": 210.425,
+   "e": 210.605
+  },
+  {
+   "c": 34,
+   "i": 23,
+   "w": "States.",
+   "s": 210.605,
+   "e": 210.965
+  },
+  {
+   "c": 35,
+   "i": 0,
+   "w": "Now",
+   "s": 211.662,
+   "e": 211.882
+  },
+  {
+   "c": 35,
+   "i": 1,
+   "w": "think",
+   "s": 211.882,
+   "e": 212.042
+  },
+  {
+   "c": 35,
+   "i": 2,
+   "w": "about",
+   "s": 212.042,
+   "e": 212.202
+  },
+  {
+   "c": 35,
+   "i": 3,
+   "w": "what",
+   "s": 212.202,
+   "e": 212.362
+  },
+  {
+   "c": 35,
+   "i": 4,
+   "w": "that",
+   "s": 212.362,
+   "e": 212.522
+  },
+  {
+   "c": 35,
+   "i": 5,
+   "w": "means.",
+   "s": 212.522,
+   "e": 212.822
+  },
+  {
+   "c": 35,
+   "i": 6,
+   "w": "If",
+   "s": 213.302,
+   "e": 213.382
+  },
+  {
+   "c": 35,
+   "i": 7,
+   "w": "you",
+   "s": 213.382,
+   "e": 213.482
+  },
+  {
+   "c": 35,
+   "i": 8,
+   "w": "tell",
+   "s": 213.482,
+   "e": 213.662
+  },
+  {
+   "c": 35,
+   "i": 9,
+   "w": "Muse",
+   "s": 213.662,
+   "e": 213.842
+  },
+  {
+   "c": 35,
+   "i": 10,
+   "w": "what",
+   "s": 213.842,
+   "e": 214.122
+  },
+  {
+   "c": 35,
+   "i": 11,
+   "w": "you",
+   "s": 214.122,
+   "e": 214.222
+  },
+  {
+   "c": 35,
+   "i": 12,
+   "w": "want,",
+   "s": 214.222,
+   "e": 214.462
+  },
+  {
+   "c": 35,
+   "i": 13,
+   "w": "there's",
+   "s": 214.782,
+   "e": 214.922
+  },
+  {
+   "c": 35,
+   "i": 14,
+   "w": "no",
+   "s": 214.922,
+   "e": 215.042
+  },
+  {
+   "c": 35,
+   "i": 15,
+   "w": "need",
+   "s": 215.042,
+   "e": 215.162
+  },
+  {
+   "c": 35,
+   "i": 16,
+   "w": "for",
+   "s": 215.162,
+   "e": 215.322
+  },
+  {
+   "c": 35,
+   "i": 17,
+   "w": "a",
+   "s": 215.322,
+   "e": 215.382
+  },
+  {
+   "c": 35,
+   "i": 18,
+   "w": "spy",
+   "s": 215.382,
+   "e": 215.542
+  },
+  {
+   "c": 35,
+   "i": 19,
+   "w": "to",
+   "s": 215.542,
+   "e": 215.702
+  },
+  {
+   "c": 35,
+   "i": 20,
+   "w": "follow",
+   "s": 215.702,
+   "e": 215.882
+  },
+  {
+   "c": 35,
+   "i": 21,
+   "w": "you",
+   "s": 215.882,
+   "e": 216.042
+  },
+  {
+   "c": 35,
+   "i": 22,
+   "w": "around.",
+   "s": 216.042,
+   "e": 216.302
+  },
+  {
+   "c": 35,
+   "i": 23,
+   "w": "You",
+   "s": 216.702,
+   "e": 216.782
+  },
+  {
+   "c": 35,
+   "i": 24,
+   "w": "just",
+   "s": 216.782,
+   "e": 216.902
+  },
+  {
+   "c": 35,
+   "i": 25,
+   "w": "told",
+   "s": 216.902,
+   "e": 217.062
+  },
+  {
+   "c": 35,
+   "i": 26,
+   "w": "it",
+   "s": 217.062,
+   "e": 217.162
+  },
+  {
+   "c": 35,
+   "i": 27,
+   "w": "yourself.",
+   "s": 217.162,
+   "e": 217.362
+  },
+  {
+   "c": 36,
+   "i": 0,
+   "w": "And",
+   "s": 218.052,
+   "e": 218.292
+  },
+  {
+   "c": 36,
+   "i": 1,
+   "w": "because",
+   "s": 218.292,
+   "e": 218.532
+  },
+  {
+   "c": 36,
+   "i": 2,
+   "w": "it",
+   "s": 218.532,
+   "e": 218.712
+  },
+  {
+   "c": 36,
+   "i": 3,
+   "w": "all",
+   "s": 218.712,
+   "e": 218.832
+  },
+  {
+   "c": 36,
+   "i": 4,
+   "w": "happens",
+   "s": 218.832,
+   "e": 219.092
+  },
+  {
+   "c": 36,
+   "i": 5,
+   "w": "inside",
+   "s": 219.092,
+   "e": 219.472
+  },
+  {
+   "c": 36,
+   "i": 6,
+   "w": "Meta's",
+   "s": 219.472,
+   "e": 219.852
+  },
+  {
+   "c": 36,
+   "i": 7,
+   "w": "own",
+   "s": 219.852,
+   "e": 220.032
+  },
+  {
+   "c": 36,
+   "i": 8,
+   "w": "apps,",
+   "s": 220.032,
+   "e": 220.332
+  },
+  {
+   "c": 36,
+   "i": 9,
+   "w": "Apple's",
+   "s": 220.752,
+   "e": 221.052
+  },
+  {
+   "c": 36,
+   "i": 10,
+   "w": "little",
+   "s": 221.052,
+   "e": 221.172
+  },
+  {
+   "c": 36,
+   "i": 11,
+   "w": "box",
+   "s": 221.172,
+   "e": 221.392
+  },
+  {
+   "c": 36,
+   "i": 12,
+   "w": "never",
+   "s": 221.392,
+   "e": 221.672
+  },
+  {
+   "c": 36,
+   "i": 13,
+   "w": "even",
+   "s": 221.672,
+   "e": 221.892
+  },
+  {
+   "c": 36,
+   "i": 14,
+   "w": "pops",
+   "s": 221.892,
+   "e": 222.112
+  },
+  {
+   "c": 36,
+   "i": 15,
+   "w": "up.",
+   "s": 222.112,
+   "e": 222.392
+  },
+  {
+   "c": 37,
+   "i": 0,
+   "w": "And",
+   "s": 222.827,
+   "e": 223.147
+  },
+  {
+   "c": 37,
+   "i": 1,
+   "w": "at",
+   "s": 223.147,
+   "e": 223.327
+  },
+  {
+   "c": 37,
+   "i": 2,
+   "w": "its",
+   "s": 223.327,
+   "e": 223.467
+  },
+  {
+   "c": 37,
+   "i": 3,
+   "w": "big",
+   "s": 223.467,
+   "e": 223.627
+  },
+  {
+   "c": 37,
+   "i": 4,
+   "w": "event,",
+   "s": 223.627,
+   "e": 223.887
+  },
+  {
+   "c": 37,
+   "i": 5,
+   "w": "Zuckerberg",
+   "s": 224.567,
+   "e": 224.627
+  },
+  {
+   "c": 37,
+   "i": 6,
+   "w": "even",
+   "s": 224.627,
+   "e": 225.087
+  },
+  {
+   "c": 37,
+   "i": 7,
+   "w": "described",
+   "s": 225.087,
+   "e": 225.347
+  },
+  {
+   "c": 37,
+   "i": 8,
+   "w": "a",
+   "s": 225.347,
+   "e": 225.647
+  },
+  {
+   "c": 37,
+   "i": 9,
+   "w": "possible",
+   "s": 225.647,
+   "e": 225.867
+  },
+  {
+   "c": 37,
+   "i": 10,
+   "w": "future",
+   "s": 225.867,
+   "e": 226.307
+  },
+  {
+   "c": 37,
+   "i": 11,
+   "w": "where",
+   "s": 226.307,
+   "e": 226.607
+  },
+  {
+   "c": 37,
+   "i": 12,
+   "w": "Muse",
+   "s": 226.607,
+   "e": 226.727
+  },
+  {
+   "c": 37,
+   "i": 13,
+   "w": "takes",
+   "s": 226.727,
+   "e": 227.087
+  },
+  {
+   "c": 37,
+   "i": 14,
+   "w": "a",
+   "s": 227.087,
+   "e": 227.307
+  },
+  {
+   "c": 37,
+   "i": 15,
+   "w": "small",
+   "s": 227.307,
+   "e": 227.467
+  },
+  {
+   "c": 37,
+   "i": 16,
+   "w": "cut",
+   "s": 227.467,
+   "e": 227.767
+  },
+  {
+   "c": 37,
+   "i": 17,
+   "w": "of",
+   "s": 227.767,
+   "e": 227.947
+  },
+  {
+   "c": 37,
+   "i": 18,
+   "w": "the",
+   "s": 227.947,
+   "e": 228.007
+  },
+  {
+   "c": 37,
+   "i": 19,
+   "w": "things",
+   "s": 228.007,
+   "e": 228.167
+  },
+  {
+   "c": 37,
+   "i": 20,
+   "w": "it",
+   "s": 228.167,
+   "e": 228.307
+  },
+  {
+   "c": 37,
+   "i": 21,
+   "w": "buys",
+   "s": 228.307,
+   "e": 228.467
+  },
+  {
+   "c": 37,
+   "i": 22,
+   "w": "for",
+   "s": 228.467,
+   "e": 228.707
+  },
+  {
+   "c": 37,
+   "i": 23,
+   "w": "you.",
+   "s": 228.707,
+   "e": 228.847
+  },
+  {
+   "c": 37,
+   "i": 24,
+   "w": "So",
+   "s": 229.487,
+   "e": 229.527
+  },
+  {
+   "c": 37,
+   "i": 25,
+   "w": "Meta",
+   "s": 229.527,
+   "e": 229.707
+  },
+  {
+   "c": 37,
+   "i": 26,
+   "w": "could",
+   "s": 229.707,
+   "e": 229.907
+  },
+  {
+   "c": 37,
+   "i": 27,
+   "w": "earn",
+   "s": 229.907,
+   "e": 230.067
+  },
+  {
+   "c": 37,
+   "i": 28,
+   "w": "from",
+   "s": 230.067,
+   "e": 230.287
+  },
+  {
+   "c": 37,
+   "i": 29,
+   "w": "the",
+   "s": 230.287,
+   "e": 230.387
+  },
+  {
+   "c": 37,
+   "i": 30,
+   "w": "ad,",
+   "s": 230.387,
+   "e": 230.627
+  },
+  {
+   "c": 37,
+   "i": 31,
+   "w": "and",
+   "s": 230.987,
+   "e": 231.087
+  },
+  {
+   "c": 37,
+   "i": 32,
+   "w": "from",
+   "s": 231.087,
+   "e": 231.287
+  },
+  {
+   "c": 37,
+   "i": 33,
+   "w": "the",
+   "s": 231.287,
+   "e": 231.387
+  },
+  {
+   "c": 37,
+   "i": 34,
+   "w": "sale.",
+   "s": 231.387,
+   "e": 231.587
+  },
+  {
+   "c": 38,
+   "i": 0,
+   "w": "Meta",
+   "s": 232.499,
+   "e": 232.759
+  },
+  {
+   "c": 38,
+   "i": 1,
+   "w": "is",
+   "s": 232.759,
+   "e": 232.979
+  },
+  {
+   "c": 38,
+   "i": 2,
+   "w": "also",
+   "s": 232.979,
+   "e": 233.179
+  },
+  {
+   "c": 38,
+   "i": 3,
+   "w": "bringing",
+   "s": 233.179,
+   "e": 233.599
+  },
+  {
+   "c": 38,
+   "i": 4,
+   "w": "Muse",
+   "s": 233.599,
+   "e": 233.799
+  },
+  {
+   "c": 38,
+   "i": 5,
+   "w": "to",
+   "s": 233.799,
+   "e": 234.099
+  },
+  {
+   "c": 38,
+   "i": 6,
+   "w": "its",
+   "s": 234.099,
+   "e": 234.199
+  },
+  {
+   "c": 38,
+   "i": 7,
+   "w": "smart",
+   "s": 234.199,
+   "e": 234.399
+  },
+  {
+   "c": 38,
+   "i": 8,
+   "w": "glasses.",
+   "s": 234.399,
+   "e": 234.639
+  },
+  {
+   "c": 38,
+   "i": 9,
+   "w": "Picture",
+   "s": 235.619,
+   "e": 235.619
+  },
+  {
+   "c": 38,
+   "i": 10,
+   "w": "this.",
+   "s": 235.619,
+   "e": 235.819
+  },
+  {
+   "c": 38,
+   "i": 11,
+   "w": "You",
+   "s": 236.479,
+   "e": 236.539
+  },
+  {
+   "c": 38,
+   "i": 12,
+   "w": "see",
+   "s": 236.539,
+   "e": 236.699
+  },
+  {
+   "c": 38,
+   "i": 13,
+   "w": "a",
+   "s": 236.699,
+   "e": 236.799
+  },
+  {
+   "c": 38,
+   "i": 14,
+   "w": "jacket",
+   "s": 236.799,
+   "e": 236.999
+  },
+  {
+   "c": 38,
+   "i": 15,
+   "w": "on",
+   "s": 236.999,
+   "e": 237.199
+  },
+  {
+   "c": 38,
+   "i": 16,
+   "w": "the",
+   "s": 237.199,
+   "e": 237.299
+  },
+  {
+   "c": 38,
+   "i": 17,
+   "w": "street,",
+   "s": 237.299,
+   "e": 237.519
+  },
+  {
+   "c": 38,
+   "i": 18,
+   "w": "you",
+   "s": 237.839,
+   "e": 237.939
+  },
+  {
+   "c": 38,
+   "i": 19,
+   "w": "ask",
+   "s": 237.939,
+   "e": 238.099
+  },
+  {
+   "c": 38,
+   "i": 20,
+   "w": "your",
+   "s": 238.099,
+   "e": 238.279
+  },
+  {
+   "c": 38,
+   "i": 21,
+   "w": "glasses",
+   "s": 238.279,
+   "e": 238.459
+  },
+  {
+   "c": 38,
+   "i": 22,
+   "w": "about",
+   "s": 238.459,
+   "e": 238.779
+  },
+  {
+   "c": 38,
+   "i": 23,
+   "w": "it,",
+   "s": 238.779,
+   "e": 238.939
+  },
+  {
+   "c": 38,
+   "i": 24,
+   "w": "and",
+   "s": 239.159,
+   "e": 239.179
+  },
+  {
+   "c": 38,
+   "i": 25,
+   "w": "a",
+   "s": 239.179,
+   "e": 239.259
+  },
+  {
+   "c": 38,
+   "i": 26,
+   "w": "few",
+   "s": 239.259,
+   "e": 239.399
+  },
+  {
+   "c": 38,
+   "i": 27,
+   "w": "seconds",
+   "s": 239.399,
+   "e": 239.559
+  },
+  {
+   "c": 38,
+   "i": 28,
+   "w": "later,",
+   "s": 239.559,
+   "e": 239.939
+  },
+  {
+   "c": 38,
+   "i": 29,
+   "w": "it's",
+   "s": 240.179,
+   "e": 240.299
+  },
+  {
+   "c": 38,
+   "i": 30,
+   "w": "on",
+   "s": 240.299,
+   "e": 240.379
+  },
+  {
+   "c": 38,
+   "i": 31,
+   "w": "its",
+   "s": 240.379,
+   "e": 240.499
+  },
+  {
+   "c": 38,
+   "i": 32,
+   "w": "way",
+   "s": 240.499,
+   "e": 240.639
+  },
+  {
+   "c": 38,
+   "i": 33,
+   "w": "to",
+   "s": 240.639,
+   "e": 240.759
+  },
+  {
+   "c": 38,
+   "i": 34,
+   "w": "you.",
+   "s": 240.759,
+   "e": 240.879
+  },
+  {
+   "c": 39,
+   "i": 0,
+   "w": "That's",
+   "s": 241.41,
+   "e": 241.65
+  },
+  {
+   "c": 39,
+   "i": 1,
+   "w": "either",
+   "s": 241.65,
+   "e": 241.81
+  },
+  {
+   "c": 39,
+   "i": 2,
+   "w": "the",
+   "s": 241.81,
+   "e": 241.97
+  },
+  {
+   "c": 39,
+   "i": 3,
+   "w": "coolest",
+   "s": 241.97,
+   "e": 242.21
+  },
+  {
+   "c": 39,
+   "i": 4,
+   "w": "thing",
+   "s": 242.21,
+   "e": 242.51
+  },
+  {
+   "c": 39,
+   "i": 5,
+   "w": "ever,",
+   "s": 242.51,
+   "e": 242.79
+  },
+  {
+   "c": 39,
+   "i": 6,
+   "w": "or",
+   "s": 243.17,
+   "e": 243.27
+  },
+  {
+   "c": 39,
+   "i": 7,
+   "w": "the",
+   "s": 243.27,
+   "e": 243.35
+  },
+  {
+   "c": 39,
+   "i": 8,
+   "w": "creepiest.",
+   "s": 243.35,
+   "e": 243.75
+  },
+  {
+   "c": 39,
+   "i": 9,
+   "w": "Maybe",
+   "s": 244.19,
+   "e": 244.33
+  },
+  {
+   "c": 39,
+   "i": 10,
+   "w": "both.",
+   "s": 244.33,
+   "e": 244.63
+  },
+  {
+   "c": 40,
+   "i": 0,
+   "w": "And",
+   "s": 245.219,
+   "e": 245.479
+  },
+  {
+   "c": 40,
+   "i": 1,
+   "w": "remember,",
+   "s": 245.479,
+   "e": 245.739
+  },
+  {
+   "c": 40,
+   "i": 2,
+   "w": "Muse",
+   "s": 246.319,
+   "e": 246.539
+  },
+  {
+   "c": 40,
+   "i": 3,
+   "w": "can",
+   "s": 246.539,
+   "e": 246.819
+  },
+  {
+   "c": 40,
+   "i": 4,
+   "w": "make",
+   "s": 246.819,
+   "e": 246.999
+  },
+  {
+   "c": 40,
+   "i": 5,
+   "w": "mistakes.",
+   "s": 246.999,
+   "e": 247.399
+  },
+  {
+   "c": 40,
+   "i": 6,
+   "w": "And",
+   "s": 248.199,
+   "e": 248.219
+  },
+  {
+   "c": 40,
+   "i": 7,
+   "w": "reportedly,",
+   "s": 248.219,
+   "e": 248.579
+  },
+  {
+   "c": 40,
+   "i": 8,
+   "w": "Meta's",
+   "s": 249.119,
+   "e": 249.359
+  },
+  {
+   "c": 40,
+   "i": 9,
+   "w": "own",
+   "s": 249.359,
+   "e": 249.539
+  },
+  {
+   "c": 40,
+   "i": 10,
+   "w": "terms",
+   "s": 249.539,
+   "e": 249.799
+  },
+  {
+   "c": 40,
+   "i": 11,
+   "w": "limit",
+   "s": 249.799,
+   "e": 250.179
+  },
+  {
+   "c": 40,
+   "i": 12,
+   "w": "what",
+   "s": 250.179,
+   "e": 250.379
+  },
+  {
+   "c": 40,
+   "i": 13,
+   "w": "it",
+   "s": 250.379,
+   "e": 250.499
+  },
+  {
+   "c": 40,
+   "i": 14,
+   "w": "pays",
+   "s": 250.499,
+   "e": 250.639
+  },
+  {
+   "c": 40,
+   "i": 15,
+   "w": "back",
+   "s": 250.639,
+   "e": 250.979
+  },
+  {
+   "c": 40,
+   "i": 16,
+   "w": "if",
+   "s": 250.979,
+   "e": 251.159
+  },
+  {
+   "c": 40,
+   "i": 17,
+   "w": "the",
+   "s": 251.159,
+   "e": 251.279
+  },
+  {
+   "c": 40,
+   "i": 18,
+   "w": "agent",
+   "s": 251.279,
+   "e": 251.499
+  },
+  {
+   "c": 40,
+   "i": 19,
+   "w": "buys",
+   "s": 251.499,
+   "e": 251.719
+  },
+  {
+   "c": 40,
+   "i": 20,
+   "w": "something",
+   "s": 251.719,
+   "e": 252.039
+  },
+  {
+   "c": 40,
+   "i": 21,
+   "w": "you",
+   "s": 252.039,
+   "e": 252.179
+  },
+  {
+   "c": 40,
+   "i": 22,
+   "w": "didn't",
+   "s": 252.179,
+   "e": 252.419
+  },
+  {
+   "c": 40,
+   "i": 23,
+   "w": "want.",
+   "s": 252.419,
+   "e": 252.639
+  },
+  {
+   "c": 41,
+   "i": 0,
+   "w": "So",
+   "s": 253.228,
+   "e": 253.548
+  },
+  {
+   "c": 41,
+   "i": 1,
+   "w": "here's",
+   "s": 253.548,
+   "e": 253.948
+  },
+  {
+   "c": 41,
+   "i": 2,
+   "w": "my",
+   "s": 253.948,
+   "e": 254.028
+  },
+  {
+   "c": 41,
+   "i": 3,
+   "w": "question.",
+   "s": 254.028,
+   "e": 254.408
+  },
+  {
+   "c": 41,
+   "i": 4,
+   "w": "Would",
+   "s": 255.068,
+   "e": 255.088
+  },
+  {
+   "c": 41,
+   "i": 5,
+   "w": "you",
+   "s": 255.088,
+   "e": 255.228
+  },
+  {
+   "c": 41,
+   "i": 6,
+   "w": "let",
+   "s": 255.228,
+   "e": 255.408
+  },
+  {
+   "c": 41,
+   "i": 7,
+   "w": "Meta's",
+   "s": 255.408,
+   "e": 255.748
+  },
+  {
+   "c": 41,
+   "i": 8,
+   "w": "AI",
+   "s": 255.748,
+   "e": 255.908
+  },
+  {
+   "c": 41,
+   "i": 9,
+   "w": "spend",
+   "s": 255.908,
+   "e": 256.248
+  },
+  {
+   "c": 41,
+   "i": 10,
+   "w": "your",
+   "s": 256.248,
+   "e": 256.408
+  },
+  {
+   "c": 41,
+   "i": 11,
+   "w": "money?",
+   "s": 256.408,
+   "e": 256.688
+  },
+  {
+   "c": 41,
+   "i": 12,
+   "w": "Tell",
+   "s": 257.308,
+   "e": 257.348
+  },
+  {
+   "c": 41,
+   "i": 13,
+   "w": "me",
+   "s": 257.348,
+   "e": 257.488
+  },
+  {
+   "c": 41,
+   "i": 14,
+   "w": "in",
+   "s": 257.488,
+   "e": 257.568
+  },
+  {
+   "c": 41,
+   "i": 15,
+   "w": "the",
+   "s": 257.568,
+   "e": 257.648
+  },
+  {
+   "c": 41,
+   "i": 16,
+   "w": "comments.",
+   "s": 257.648,
+   "e": 257.908
+  },
+  {
+   "c": 42,
+   "i": 0,
+   "w": "And",
+   "s": 258.619,
+   "e": 258.819
+  },
+  {
+   "c": 42,
+   "i": 1,
+   "w": "subscribe.",
+   "s": 258.819,
+   "e": 259.079
+  },
+  {
+   "c": 42,
+   "i": 2,
+   "w": "Next",
+   "s": 259.959,
+   "e": 259.959
+  },
+  {
+   "c": 42,
+   "i": 3,
+   "w": "time,",
+   "s": 259.959,
+   "e": 260.219
+  },
+  {
+   "c": 42,
+   "i": 4,
+   "w": "there's",
+   "s": 260.379,
+   "e": 260.579
+  },
+  {
+   "c": 42,
+   "i": 5,
+   "w": "another",
+   "s": 260.579,
+   "e": 260.839
+  },
+  {
+   "c": 42,
+   "i": 6,
+   "w": "tech",
+   "s": 260.839,
+   "e": 261.099
+  },
+  {
+   "c": 42,
+   "i": 7,
+   "w": "war",
+   "s": 261.099,
+   "e": 261.379
+  },
+  {
+   "c": 42,
+   "i": 8,
+   "w": "you",
+   "s": 261.379,
+   "e": 261.639
+  },
+  {
+   "c": 42,
+   "i": 9,
+   "w": "didn't",
+   "s": 261.639,
+   "e": 261.939
+  },
+  {
+   "c": 42,
+   "i": 10,
+   "w": "know",
+   "s": 261.939,
+   "e": 262.099
+  },
+  {
+   "c": 42,
+   "i": 11,
+   "w": "was",
+   "s": 262.099,
+   "e": 262.219
+  },
+  {
+   "c": 42,
+   "i": 12,
+   "w": "happening.",
+   "s": 262.219,
+   "e": 262.599
+  },
+  {
+   "c": 43,
+   "i": 0,
+   "w": "Apple",
+   "s": 263.168,
+   "e": 263.448
+  },
+  {
+   "c": 43,
+   "i": 1,
+   "w": "took",
+   "s": 263.448,
+   "e": 263.628
+  },
+  {
+   "c": 43,
+   "i": 2,
+   "w": "away",
+   "s": 263.628,
+   "e": 263.848
+  },
+  {
+   "c": 43,
+   "i": 3,
+   "w": "the",
+   "s": 263.848,
+   "e": 263.988
+  },
+  {
+   "c": 43,
+   "i": 4,
+   "w": "button.",
+   "s": 263.988,
+   "e": 264.188
+  },
+  {
+   "c": 43,
+   "i": 5,
+   "w": "Now",
+   "s": 264.648,
+   "e": 264.788
+  },
+  {
+   "c": 43,
+   "i": 6,
+   "w": "Meta",
+   "s": 264.788,
+   "e": 265.028
+  },
+  {
+   "c": 43,
+   "i": 7,
+   "w": "wants",
+   "s": 265.028,
+   "e": 265.468
+  },
+  {
+   "c": 43,
+   "i": 8,
+   "w": "to",
+   "s": 265.468,
+   "e": 265.668
+  },
+  {
+   "c": 43,
+   "i": 9,
+   "w": "become",
+   "s": 265.668,
+   "e": 265.788
+  },
+  {
+   "c": 43,
+   "i": 10,
+   "w": "the",
+   "s": 265.788,
+   "e": 265.988
+  },
+  {
+   "c": 43,
+   "i": 11,
+   "w": "button.",
+   "s": 265.988,
+   "e": 266.208
+  }
+ ],
+ "events": []
+}
