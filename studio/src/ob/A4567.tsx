@@ -182,7 +182,7 @@ export const A7: React.FC = () => {
           {stage >= 1 && <Mono size={14} color={A.red}>{stage === 1 ? 'SCANNING…' : 'ORDERED ✓'}</Mono>}
         </AbsoluteFill>
       </Glasses>
-      {stage >= 1 && <div style={{ position: 'absolute', left: 1426, top: 290, width: 340, height: 230, border: `3px solid ${A.red}`, borderRadius: 14, opacity: stage === 1 ? 0.5 + 0.5 * Math.sin(t * 12) : 1 }} />}
+      {stage >= 1 && <div style={{ position: 'absolute', left: 1305, top: 349, width: 340, height: 230, border: `3px solid ${A.red}`, borderRadius: 14, opacity: stage === 1 ? 0.5 + 0.5 * Math.sin(t * 12) : 1 }} />}
       {t > tGlass + 0.2 && <Pop x={1250} y={170} at={tGlass + 0.2}><Label color={A.white} size={28}><Icon name="ph:eyeglasses-bold" size={32} color={A.white} /> MUSE IN SMART GLASSES</Label></Pop>}
       {stage === 2 && <Pop x={1250} y={790} at={tWay}><div style={{ display: 'flex', alignItems: 'center', gap: 16 }}><Icon name="ph:package-fill" size={70} color={A.white} /><Label color={A.red} size={28} solid>ON ITS WAY</Label></div></Pop>}
     </>;
