@@ -47,8 +47,8 @@ eyes, oversized white tee with a red "M", black fingerless gloves, a white earbu
 high-tops with red laces. Art = the owner's AI-generated set in `assets/vio/raw` (green screen), keyed by
 `tools-py/vio_key.py` to `studio/public/vio/*.png`. Rig: `studio/src/vio/Vio.tsx` (poses idle, shocked,
 smirk, thinking, laughing, pointing, facepalm, full; the idle pose lip-syncs via `talkFrom(words, t)`,
-blinks, and has a red "decoding" eye). Voice says his name as "Vee-oh". Use him for the hook, reactions on
-big beats and the end question, not wall to wall. Owner's rules: he stands on the LEFT third (content on
+blinks, and has a red "decoding" eye). Voice says his name as "Vee-oh". Owner's rule (2026-10-18): use the talking (idle, lip-synced) pose most of the time; the static
+reaction poses (shocked, smirk, lookright, present...) only rarely, for a second or two on a big beat. Owner's rules: he stands on the LEFT third (content on
 the right; viewers look left first), and while he talks only his mouth moves, the body stays still (no
 bounce). Never flip the image (it mirrors the red "M"); on the left use 'pointright' / 'present' / 'lookright' to
 point or look at the content, and set the anchor y = 1080 + 0.15 * size so the waist cut stays off screen. For thumbnails, the owner uploads the master image as the
