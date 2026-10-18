@@ -56,7 +56,7 @@ export const A4: React.FC = () => {
   } else if (b === 2) {
     body = <>
       <Store x={CX} y={900} w={760} lit={0} heat={0.25} />
-      <div style={{ position: 'absolute', left: 1680, top: 130 }}><Icon name="ph:moon-fill" size={90} color={A.soft} glow /></div>
+      <div style={{ position: 'absolute', left: 1580, top: 170 }}><Icon name="ph:moon-fill" size={90} color={A.soft} glow /></div>
       {t > tNobody && <Chip x={CX} y={190} at={tNobody} icon="ph:user-fill">NOBODY THERE</Chip>}
     </>;
   } else if (b === 3) {
@@ -68,20 +68,20 @@ export const A4: React.FC = () => {
     </>;
   } else if (b === 4) {
     body = <>
-      <FranceMap x={CX} y={480} size={640} pins={320} at={tSame + 0.1} all={1} />
+      <FranceMap x={1250} y={470} size={600} pins={320} at={tSame + 0.1} all={1} />
       <Stamp x={CX} y={820} at={tCoord + 0.2} text="COORDINATED" size={74} rot={-5} />
     </>;
   } else if (b === 5) {
     const v = tempAt(t, HEAT4), heat = clamp((v + 18) / 68);
     body = <>
       <Fridge x={1080} y={900} w={420} h={660} heat={heat} seed={11} temp={v} doors={2} />
-      <div style={{ position: 'absolute', left: 1600, top: 230, transform: 'translate(-50%,-50%)' }}><Temp v={v} size={120} /></div>
-      {FOODS.map(([, ic, lb], i) => <Pop key={lb} x={1600} y={360 + i * 92} at={tFood[i]}><Label size={26} color={t > tCook ? A.red : A.white}><Icon name={ic} size={30} color={t > tCook ? A.red : A.white} /> {lb}</Label></Pop>)}
+      <div style={{ position: 'absolute', left: 1560, top: 250, transform: 'translate(-50%,-50%)' }}><Temp v={v} size={110} /></div>
+      {FOODS.map(([, ic, lb], i) => <Pop key={lb} x={1560} y={370 + i * 92} at={tFood[i]}><Label size={26} color={t > tCook ? A.red : A.white}><Icon name={ic} size={30} color={t > tCook ? A.red : A.white} /> {lb}</Label></Pop>)}
     </>;
   } else if (b === 6) {
     body = <>
       <Store x={CX} y={900} w={760} lit={1} heat={0.9} closed={false} />
-      <div style={{ position: 'absolute', left: 1660, top: 120 }}><Icon name="ph:sun-horizon-fill" size={100} color={A.white} /></div>
+      <div style={{ position: 'absolute', left: 1560, top: 160 }}><Icon name="ph:sun-horizon-fill" size={100} color={A.white} /></div>
       <Chip x={1000} y={200} at={tWarmF} icon="ph:thermometer-hot-fill" red>WARM FREEZERS</Chip>
       <Chip x={1380} y={200} at={tMelted} icon="ph:drop-fill">MELTED FOOD</Chip>
       {t > tFire - 0.1 && <Chip x={CX} y={300} at={tFire} icon="ph:fire-fill" red solid>REPORTED FIRES</Chip>}
@@ -93,13 +93,13 @@ export const A4: React.FC = () => {
       <svg style={{ position: 'absolute', inset: 0 }} width={1920} height={1080}>{[0, 1, 2, 3, 4].map((i) => <path key={i} d={`M ${900 + i * 200} 900 q 30 -60 0 -120 q -30 -60 0 -120`} stroke={A.red} strokeWidth={6} fill="none" opacity={wave * (0.4 + 0.4 * Math.sin(t * 4 + i))} transform={`translate(0 ${-((t * 40 + i * 20) % 60)})`} />)}</svg>
       <Owner x={1300} y={1000} size={440} mood={t > tWall ? 'shock' : 'calm'} />
       {t > tWhy && <Pop x={1560} y={400} at={tWhy}><div style={{ ...fonts.H, fontWeight: 900, fontSize: 150, color: A.white }}>?</div></Pop>}
-      <Chip x={CX} y={130} at={tManager + 0.1} icon="ph:storefront-fill">THE STORE MANAGER</Chip>
+      <Chip x={CX} y={170} at={tManager + 0.1} icon="ph:storefront-fill">THE STORE MANAGER</Chip>
     </>;
   } else if (b === 8) {
     body = <>
       <div style={{ position: 'absolute', left: CX, top: 640, transform: 'translate(-50%,-50%)' }}><Icon name="ph:trash-fill" size={320} color={A.soft} /></div>
       {FOOD.map((ic, i) => { const u = ((t - C0(38)) * 0.9 + i * 0.13) % 1; return <div key={ic} style={{ position: 'absolute', left: CX - 120 + (i % 4) * 80, top: 150 + u * 380, opacity: Math.sin(u * Math.PI), transform: `rotate(${u * 180}deg)` }}><Icon name={ic} size={70} color="#ffd0d4" /></div>; })}
-      {t > tTons && <Chip x={CX} y={130} at={tTons} red solid>TONS OF FOOD THROWN AWAY</Chip>}
+      {t > tTons && <Chip x={CX} y={170} at={tTons} red solid>TONS OF FOOD THROWN AWAY</Chip>}
       {t > tBreakfast && <Chip x={CX} y={870} at={tBreakfast} icon="ph:coffee-fill">BEFORE BREAKFAST</Chip>}
     </>;
   } else {
@@ -118,8 +118,8 @@ export const a5Sfx: SfxEvent[] = [{ t: tSeven, name: 'impactDeep', vol: 0.3 }, {
 const ROW: React.FC<{ y: number; at: number; name: string; note: string; red?: boolean }> = ({ y, at, name, note, red = false }) => {
   const { t } = useTF();
   const u = ramp(t, at - 0.1, 0.4, EASE.out);
-  return <div style={{ position: 'absolute', left: 900, top: y, width: 860, display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '18px 28px', borderRadius: 14, background: A.panel, border: `2px solid ${red ? A.red : A.line}`, opacity: u, transform: `translateX(${(1 - u) * 60}px)` }}>
-    <div style={{ ...fonts.H, fontWeight: 900, fontSize: 40, color: A.white }}>{name}</div><Mono size={22} color={red ? A.red : A.soft}>{note}</Mono>
+  return <div style={{ position: 'absolute', left: 880, top: y, width: 820, display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '18px 28px', borderRadius: 14, background: A.panel, border: `2px solid ${red ? A.red : A.line}`, opacity: u, transform: `translateX(${(1 - u) * 60}px)` }}>
+    <div style={{ ...fonts.H, fontWeight: 900, fontSize: 34, color: A.white, whiteSpace: 'nowrap' }}>{name}</div><Mono size={22} color={red ? A.red : A.soft}>{note}</Mono>
   </div>;
 };
 export const A5: React.FC = () => {
@@ -130,18 +130,18 @@ export const A5: React.FC = () => {
     body = <div style={{ position: 'absolute', left: CX, top: 390, transform: 'translateX(-50%)' }}><Kinetic at={tBig + 0.05} size={120} words={[{ w: 'How' }, { w: 'big?', serif: true, color: A.red }]} /></div>;
   } else if (b === 1) {
     body = <>
-      <ROW y={150} at={tInter} name="INTERMARCHÉ + NETTO" note="UP TO ~300 · REPORTED" red />
-      <ROW y={290} at={tCarre} name="CARREFOUR" note="ABOUT 80" />
+      <ROW y={170} at={tInter} name="INTERMARCHÉ + NETTO" note="UP TO ~300 · REPORTED" red />
+      <ROW y={310} at={tCarre} name="CARREFOUR" note="ABOUT 80" />
       <ROW y={430} at={tMono} name="MONOPRIX" note="AFFECTED" />
-      <ROW y={570} at={tLecl} name="LECLERC" note="AFFECTED" />
-      <ROW y={710} at={tCoop} name="COOPÉRATIVE U" note="AFFECTED" />
+      <ROW y={550} at={tLecl} name="LECLERC" note="AFFECTED" />
+      <ROW y={670} at={tCoop} name="COOPÉRATIVE U" note="AFFECTED" />
     </>;
   } else if (b === 2) {
     body = <>
-      <FranceMap x={1080} y={480} size={560} pins={t > tSeven ? 400 : 160} at={t > tSeven ? tSeven - 0.4 : tEarly} spread={0.8} />
-      <Pop x={1600} y={300} at={tEarly + 0.2}><Mono size={24} color={A.soft}>EARLY COUNTS: A FEW HUNDRED</Mono></Pop>
-      {t > tSeven - 0.1 && <div style={{ position: 'absolute', left: 1600, top: 470, transform: 'translate(-50%,-50%)', textAlign: 'center' }}><BigNum to={700} at={tSeven} d={0.9} size={190} color={A.red} /><Mono size={24} color={A.white}>STORES · FINANCE MINISTER</Mono></div>}
-      {t > tTenK && <Chip x={1600} y={700} at={tTenK}>OUT OF ~10,000</Chip>}
+      <FranceMap x={1000} y={480} size={520} pins={t > tSeven ? 400 : 160} at={t > tSeven ? tSeven - 0.4 : tEarly} spread={0.8} />
+      <Pop x={1480} y={290} at={tEarly + 0.2}><Mono size={22} color={A.soft}>EARLY COUNTS: A FEW HUNDRED</Mono></Pop>
+      {t >= tSeven && <div style={{ position: 'absolute', left: 1480, top: 470, transform: 'translate(-50%,-50%)', textAlign: 'center' }}><BigNum to={700} at={tSeven} d={0.9} size={170} color={A.red} /><Mono size={24} color={A.white}>STORES · FINANCE MINISTER</Mono></div>}
+      {t > tTenK && <Chip x={1480} y={700} at={tTenK}>OUT OF ~10,000</Chip>}
     </>;
   } else if (b === 3) {
     body = <>
@@ -151,7 +151,7 @@ export const A5: React.FC = () => {
   } else if (b === 4) {
     body = <>
       <Chip x={CX} y={160} at={tAgency} icon="ph:shield-check-fill">ANSSI · FRANCE'S CYBER AGENCY</Chip>
-      <Controller x={980} y={500} w={300} at={tCope - 0.7} brand="DANFOSS" />
+      <Controller x={980} y={500} w={300} at={tAgency + 0.4} brand="DANFOSS" />
       <Controller x={1300} y={500} w={300} at={tCope} brand="COPELAND" />
       <Controller x={1620} y={500} w={300} at={tDix} brand="DIXELL" />
       {t > tDix + 0.3 && <Chip x={CX} y={780} at={tDix + 0.3} red>AT LEAST 3 MAKERS</Chip>}
@@ -184,7 +184,7 @@ const t2015 = P(52, '2015'), tOff = P(52, 'switched off the power'), tWinter = P
 const tCasino = P(53, 'casino'), tThermo = P(53, 'smart thermometer'), tTank = P(53, 'fish tank');
 const tA1 = P(54, 'A fish tank'), tA2 = P(54, 'A heater'), tA3 = P(54, 'A fridge'), tNoUp = P(54, 'Nobody updates them'), tNets = P(54, 'same networks');
 const tSaying = C0(55), tFront = P(55, 'front door'), tBoiler = P(55, 'boiler room');
-export const a6NoCaptions: [number, number][] = [[tSaying, C1(55)]];
+export const a6NoCaptions: [number, number][] = [];
 export const a6Sfx: SfxEvent[] = [{ t: tOff + 0.4, name: 'impactDeep', vol: 0.3 }, { t: tBoiler, name: 'impactDeep', vol: 0.3 }];
 export const A6: React.FC = () => {
   const { t } = useTF();
@@ -194,7 +194,7 @@ export const A6: React.FC = () => {
     body = <div style={{ position: 'absolute', left: CX, top: 360, transform: 'translateX(-50%)' }}><Kinetic at={tBefore + 0.2} size={100} words={[{ w: 'This' }, { w: 'has' }, { w: 'happened', br: true }, { w: 'before.', serif: true, color: A.red }]} /></div>;
   } else if (b === 1) {
     body = <>
-      <Chip x={CX} y={140} at={t2013}>2013 · TARGET · USA</Chip>
+      <Chip x={CX} y={170} at={t2013}>2013 · TARGET · USA</Chip>
       {t > tForty - 0.1 && t < tWayIn && <div style={{ position: 'absolute', left: CX, top: 460, transform: 'translate(-50%,-50%)', textAlign: 'center' }}><div style={{ display: 'flex', alignItems: 'center', gap: 20, justifyContent: 'center' }}><Icon name="ph:credit-card-fill" size={120} color={A.white} /><BigNum to={40} at={tForty} d={0.8} suffix="M" size={170} color={A.red} /></div><Mono size={24} color={A.soft}>SHOPPERS' CARDS · AROUND</Mono></div>}
       {t > tWayIn - 0.1 && <>
         <Tile x={980} y={460} at={tWayIn} icon="ph:fan-fill" label="HEATING & AIR VENDOR" />
@@ -208,24 +208,24 @@ export const A6: React.FC = () => {
   } else if (b === 3) {
     const bad = ramp(t, tDamaged, 0.6);
     body = <>
-      <Chip x={CX} y={130} at={tStux}>STUXNET · IRAN · ~2010</Chip>
+      <Chip x={CX} y={170} at={tStux}>STUXNET · IRAN · ~2010</Chip>
       {[0, 1, 2, 3, 4].map((i) => <Centrifuge key={i} x={920 + i * 120} y={760} h={380} bad={bad} seed={i} />)}
       {t > tScreens - 0.1 && <Pop x={1640} y={520} at={tScreens}><Panel w={300} pad={26}><div style={{ textAlign: 'center' }}><Icon name="ph:monitor-fill" size={70} color={A.white} /><div style={{ marginTop: 10 }}><Mono size={22} color={A.white}>SCREEN: ALL NORMAL</Mono></div></div></Panel></Pop>}
     </>;
   } else if (b === 4) {
     const dark = (i: number) => 1 - ramp(t, tOff + 0.3 + i * 0.12, 0.2);
     body = <>
-      <Chip x={CX} y={130} at={t2015}>UKRAINE · 2015</Chip>
+      <Chip x={CX} y={170} at={t2015}>UKRAINE · 2015</Chip>
       <Pop x={950} y={560} at={t2015 + 0.2}><Icon name="mdi:transmission-tower" size={300} color={A.soft} /></Pop>
       {[0, 1, 2, 3, 4, 5].map((i) => <House key={i} x={1180 + (i % 3) * 200} y={i < 3 ? 520 : 760} size={150} lit={dark(i)} />)}
       {t > tWinter && <Chip x={CX} y={850} at={tWinter} icon="ph:snowflake-bold">HUNDREDS OF THOUSANDS · IN WINTER</Chip>}
     </>;
   } else if (b === 5) {
     body = <>
-      <Chip x={CX} y={130} at={tCasino} icon="ph:poker-chip-fill">A CASINO · REPORTED BY A SECURITY FIRM</Chip>
+      <Chip x={CX} y={170} at={tCasino} icon="ph:poker-chip-fill">A CASINO · REPORTED BY A SECURITY FIRM</Chip>
       <FishTank x={1180} y={760} w={520} signal={ramp(t, tThermo, 0.5)} />
-      {t > tThermo && <Wire d="M 1420 380 Q 1560 300 1680 460" at={tThermo + 0.3} dur={0.6} red />}
-      {t > tThermo && <Tile x={1700} y={560} at={tThermo + 0.7} icon="ph:database-fill" label="THE NETWORK" red size={140} />}
+      {t > tThermo && <Wire d="M 1420 380 Q 1540 300 1620 470" at={tThermo + 0.3} dur={0.6} red />}
+      {t > tThermo && <Tile x={1640} y={560} at={tThermo + 0.7} icon="ph:database-fill" label="THE NETWORK" red size={140} />}
       {t > tTank && <Pop x={1180} y={850} at={tTank}><Mono size={22} color={A.white}>LOBBY FISH TANK</Mono></Pop>}
     </>;
   } else if (b === 6) {
@@ -234,12 +234,12 @@ export const A6: React.FC = () => {
       {items.map(([at, ic, lb], i) => <Tile key={lb} x={1000 + i * 300} y={360} at={at} icon={ic} label={lb} />)}
       {t > tNets && items.map((_, i) => <Wire key={i} d={`M ${1000 + i * 300} 470 Q ${1000 + i * 300} 640 1300 680`} at={tNets + i * 0.08} dur={0.4} len={600} width={3} flow={false} />)}
       {t > tNets && <Tile x={CX} y={760} at={tNets + 0.3} icon="ph:network-fill" label="SAME NETWORK" size={110} />}
-      <Stamp x={CX} y={130} at={tNoUp + 0.2} text="NOBODY UPDATES THEM" size={56} rot={-4} />
+      <Stamp x={CX} y={170} at={tNoUp + 0.2} text="NOBODY UPDATES THEM" size={56} rot={-4} />
     </>;
   } else {
     body = <>
       <Pop x={CX} y={160} at={tSaying}><Mono size={24} color={A.soft}>A SECURITY SAYING</Mono></Pop>
-      <Tile x={1050} y={480} at={tFront} icon="ph:door-fill" label="FRONT DOOR · LOCKED" />
+      <Tile x={1050} y={480} at={Math.min(tFront, tSaying + 0.6)} icon="ph:door-fill" label="FRONT DOOR · LOCKED" />
       <Tile x={1550} y={480} at={tBoiler} icon="ph:door-open-fill" label="BOILER ROOM · OPEN" red />
       {t > tBoiler && <div style={{ position: 'absolute', left: CX, top: 700, transform: 'translateX(-50%)' }}><Kinetic at={tBoiler} size={64} words={[{ w: 'Through' }, { w: 'the' }, { w: 'boiler', serif: true, color: A.red }, { w: 'room.' }]} /></div>}
     </>;
@@ -281,12 +281,12 @@ export const A7: React.FC = () => {
       <div style={{ position: 'absolute', inset: 0, transform: `translateX(${-swap * 500}px)`, opacity: 1 - swap }}><Controller x={1300} y={440} w={420} old={0.8} brand="LEGACY UNIT" /></div>
       {swap > 0 && <div style={{ position: 'absolute', inset: 0, transform: `translateX(${(1 - swap) * 500}px)`, opacity: swap }}><Controller x={1300} y={440} w={420} brand="NEW UNIT" /></div>}
       {t > tLot && [0, 1, 2, 3, 4, 5].map((i) => <Pop key={i} x={960 + i * 136} y={800} at={tLot + i * 0.06}><div style={{ width: 110, height: 86, borderRadius: 10, background: A.soft }} /></Pop>)}
-      {t > tRepl && <Chip x={CX} y={140} at={tRepl}>REPLACE THE OLDEST UNITS</Chip>}
+      {t > tRepl && <Chip x={CX} y={170} at={tRepl}>REPLACE THE OLDEST UNITS</Chip>}
     </>;
   } else if (b === 3) {
     const items: [number, string, string][] = [[tRouter, 'mdi:router-wireless', 'ROUTER'], [tTv, 'mdi:television', 'SMART TV'], [tBell, 'mdi:doorbell-video', 'DOORBELL CAM']];
     body = <>
-      <Chip x={CX} y={140} at={tYou + 0.1} icon="ph:house-fill">YOUR HOME</Chip>
+      <Chip x={CX} y={170} at={tYou + 0.1} icon="ph:house-fill">YOUR HOME</Chip>
       {items.map(([at, ic, lb], i) => <Tile key={lb} x={1000 + i * 300} y={430} at={at} icon={ic} label={lb} />)}
       {t > tWhen && items.map((_, i) => <Pop key={i} x={1000 + i * 300} y={640} at={tWhen + i * 0.1}><Mono size={20} color={A.red}>LAST UPDATE: ?</Mono></Pop>)}
       {t > tPass && <Chip x={CX} y={780} at={tPass} icon="ph:password-fill" red>PASSWORD: ?</Chip>}
@@ -307,9 +307,9 @@ export const A7: React.FC = () => {
   } else {
     const heat = ramp(t, tNight, Math.max(0.8, tOven - tNight + 0.4), EASE.inOut);
     body = <>
-      <Fridge x={1100} y={900} w={420} h={640} heat={heat} seed={13} temp={-18 + 68 * heat} />
-      <div style={{ position: 'absolute', left: 1600, top: 300, transform: 'translateX(-50%)' }}><Kinetic at={tEnd + 0.1} size={64} words={[{ w: 'Nobody' }, { w: 'updated', br: true }, { w: 'the' }, { w: 'fridge.' }]} /></div>
-      {t > tOven - 0.2 && <div style={{ position: 'absolute', left: 1600, top: 560, transform: 'translateX(-50%)' }}><Kinetic at={tOven - 0.1} size={92} words={[{ w: 'An' }, { w: 'oven.', serif: true, color: A.red }]} /></div>}
+      <Fridge x={1030} y={900} w={400} h={620} heat={heat} seed={13} temp={-18 + 68 * heat} />
+      <div style={{ position: 'absolute', left: 1450, top: 300, transform: 'translateX(-50%)' }}><Kinetic at={tEnd + 0.1} size={60} words={[{ w: 'Nobody' }, { w: 'updated', br: true }, { w: 'the' }, { w: 'fridge.' }]} /></div>
+      {t > tOven - 0.2 && <div style={{ position: 'absolute', left: 1450, top: 540, transform: 'translateX(-50%)' }}><Kinetic at={tOven - 0.1} size={92} words={[{ w: 'An' }, { w: 'oven.', serif: true, color: A.red }]} /></div>}
     </>;
   }
   return <AbsoluteFill><GridBg x={68} glow={b === 6 ? 'rgba(255,43,61,.12)' : undefined} />{body}<Host at={S0(7) + 0.2} /></AbsoluteFill>;

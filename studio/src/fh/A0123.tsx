@@ -52,18 +52,18 @@ export const A0: React.FC = () => {
   const b = beatOf(t, [0, 1, 2, 3, 4, 5]);
   let body: React.ReactNode = null;
   if (b === 0 && t < tInside - 0.15) {
-    body = <><Moon x={1640} y={130} /><Store x={CX} y={860} w={860} lit={0} /><Chip x={CX} y={190} at={tNight} icon="ph:moon-stars-fill">SUNDAY NIGHT · FRANCE</Chip></>;
+    body = <><Moon x={1640} y={170} /><Store x={CX} y={860} w={860} lit={0} /><Chip x={CX} y={190} at={tNight} icon="ph:moon-stars-fill">SUNDAY NIGHT · FRANCE</Chip></>;
   } else if (b === 0) {
     body = <>{[0, 1, 2].map((i) => <Fridge key={i} x={1000 + i * 300} y={860} w={270} h={560} seed={i + 1} temp={-18} label={i === 1 ? 'FROZEN' : 'FRESH'} />)}
       <Chip x={CX} y={190} at={tEuros} icon="ph:currency-eur-bold">MILLIONS OF EUROS OF FOOD</Chip></>;
   } else if (b === 1) {
-    body = <><FranceMap x={CX} y={500} size={640} pins={140} at={tOneByOne} spread={Math.max(1.5, C1(1) - tOneByOne)} /><Chip x={CX} y={110} at={tOneByOne} red>HUNDREDS OF STORES</Chip></>;
+    body = <><FranceMap x={CX} y={500} size={640} pins={140} at={tOneByOne} spread={Math.max(1.5, C1(1) - tOneByOne)} /><Chip x={CX} y={170} at={tOneByOne} red>HUNDREDS OF STORES</Chip></>;
   } else if (b === 2) {
     const v = tempAt(t, HEAT0), heat = clamp((v + 18) / 68);
     body = <>
       <Fridge x={1110} y={900} w={430} h={680} heat={heat} seed={4} temp={v} />
-      <div style={{ position: 'absolute', left: 1600, top: 380, transform: 'translate(-50%,-50%)' }}><Temp v={v} size={170} sub={t > tDesert ? undefined : 'INSIDE THE FREEZER'} /></div>
-      {t > tDesert && <Pop x={1600} y={600} at={tDesert}><div style={{ display: 'flex', alignItems: 'center', gap: 16 }}><Icon name="ph:sun-fill" size={64} color={A.white} /><Mono size={26} color={A.white}>A DESERT SUMMER DAY</Mono></div></Pop>}
+      <div style={{ position: 'absolute', left: 1520, top: 380, transform: 'translate(-50%,-50%)' }}><Temp v={v} size={140} sub={t > tDesert ? undefined : 'INSIDE THE FREEZER'} /></div>
+      {t > tDesert && <Pop x={1520} y={580} at={tDesert}><div style={{ display: 'flex', alignItems: 'center', gap: 16 }}><Icon name="ph:sun-fill" size={64} color={A.white} /><Mono size={26} color={A.white}>A DESERT SUMMER DAY</Mono></div></Pop>}
     </>;
   } else if (b === 3) {
     body = <>
@@ -79,8 +79,8 @@ export const A0: React.FC = () => {
     body = <>
       <div style={{ position: 'absolute', left: 820, top: 160, width: 520, height: 680, borderRadius: 12, background: '#101015', border: `2px solid ${A.line}` }} />
       <Controller x={1080} y={470} w={360} at={tBox} />
-      <Wire d="M 1080 610 Q 1100 820 1380 760 T 1640 420" at={tNet - 0.3} dur={0.8} red />
-      <Pop x={1650} y={340} at={tNet}><div style={{ textAlign: 'center' }}><Icon name="ph:globe-hemisphere-west-fill" size={150} color={A.white} /><div style={{ marginTop: 8 }}><Mono size={24} color={A.red}>THE INTERNET</Mono></div></div></Pop>
+      <Wire d="M 1080 610 Q 1100 820 1380 760 T 1600 440" at={tNet - 0.3} dur={0.8} red />
+      <Pop x={1600} y={360} at={tNet}><div style={{ textAlign: 'center' }}><Icon name="ph:globe-hemisphere-west-fill" size={150} color={A.white} /><div style={{ marginTop: 8 }}><Mono size={24} color={A.red}>THE INTERNET</Mono></div></div></Pop>
       <Chip x={1080} y={760} at={tBox + 0.3}>THE BOX ON THE WALL</Chip>
     </>;
   } else {
@@ -117,8 +117,8 @@ export const A1: React.FC = () => {
   if (b === 0) {
     body = <>
       <Fridge x={1100} y={900} w={460} h={660} seed={2} doors={3} label="SUPERMARKET" />
-      {t > tKitchen - 0.2 && <><Pop x={1440} y={560} at={tKitchen - 0.1}><div style={{ ...fonts.H, fontWeight: 900, fontSize: 110, color: A.red }}>≠</div></Pop>
-        <Pop x={1680} y={560} at={tKitchen}><div style={{ textAlign: 'center' }}><Icon name="mdi:fridge-outline" size={260} color={A.white} /><Mono size={22} color={A.dim}>YOUR KITCHEN</Mono></div></Pop></>}
+      {t > tKitchen - 0.2 && <><Pop x={1400} y={560} at={tKitchen - 0.1}><div style={{ ...fonts.H, fontWeight: 900, fontSize: 110, color: A.red }}>≠</div></Pop>
+        <Pop x={1620} y={560} at={tKitchen}><div style={{ textAlign: 'center' }}><Icon name="mdi:fridge-outline" size={260} color={A.white} /><Mono size={22} color={A.dim}>YOUR KITCHEN</Mono></div></Pop></>}
     </>;
   } else if (b === 1) {
     const cases = Array.from({ length: 8 }, (_, i) => [900 + (i % 4) * 250, i < 4 ? 400 : 640]);
@@ -126,13 +126,13 @@ export const A1: React.FC = () => {
       {cases.map(([x, y], i) => <Pop key={i} x={0} y={0} at={tDozens + i * 0.06} from={20}><Fridge x={x + 30} y={y} w={150} h={210} seed={i + 3} doors={1} label={' '} /></Pop>)}
       {cases.map(([x, y], i) => <Wire key={`w${i}`} d={`M ${x + 30} ${y} Q ${x + 30} 820 ${1300} 860`} at={tBrain - 0.2 + i * 0.03} dur={0.5} len={900} width={3} flow={false} />)}
       <Pop x={1300} y={900} at={tBrain}><Label color={A.red} size={34} solid>ONE BRAIN</Label></Pop>
-      <Chip x={1300} y={130} at={tCtrl}>REFRIGERATION CONTROLLER</Chip>
+      <Chip x={1300} y={170} at={tCtrl}>REFRIGERATION CONTROLLER</Chip>
     </>;
   } else if (b === 2) {
     const warm = t > tWarm + 0.4 && t < tFix + 0.3;
     body = <>
       <Controller x={1250} y={470} w={560} at={C0(8)} mode={t > tAlarm ? 'ALARM' : 'COOL'} rows={[['CASE 01', warm ? '-14.1' : '-18.2'], ['CASE 02', '-19.0'], ['COLD RM', '+2.1']]} hot={warm ? [0] : []} />
-      <Chip x={1250} y={130} at={tBack} icon="ph:door-fill">IN THE BACK ROOM</Chip>
+      <Chip x={1250} y={170} at={tBack} icon="ph:door-fill">IN THE BACK ROOM</Chip>
       {t > tFix && t < tAlarm && <Chip x={1250} y={810} at={tFix} icon="ph:check-bold">FIXED</Chip>}
       {t > tAlarm - 0.1 && <Chip x={1250} y={810} at={tAlarm} icon="ph:bell-ringing-fill" red solid>ALARM</Chip>}
     </>;
@@ -146,7 +146,7 @@ export const A1: React.FC = () => {
     const heat = ramp(t, tWarmC, 0.5) * (1 - ramp(t, tCold, 0.6));
     body = <>
       <Coil x={1300} y={440} w={720} ice={ice} heat={heat} />
-      <Chip x={1300} y={150} at={tIce + 0.2} icon="ph:snowflake-bold">ICE BUILDS ON THE COILS</Chip>
+      <Chip x={1300} y={170} at={tIce + 0.2} icon="ph:snowflake-bold">ICE BUILDS ON THE COILS</Chip>
       {t > tFew && <Chip x={1300} y={720} at={tFew}>EVERY FEW HOURS</Chip>}
       {t > tHour && <Chip x={1300} y={820} at={tHour} red>NORMALLY ~1 HOUR</Chip>}
     </>;
@@ -159,14 +159,14 @@ export const A1: React.FC = () => {
   } else if (b === 6) {
     body = <>
       <Controller x={1150} y={470} w={460} mode="COOL" at={tOrders} />
-      <Hacker x={1640} y={900} size={420} laptop />
-      <Chip x={1300} y={130} at={tOrders + 0.3} red solid>SOMEONE ELSE GIVING ORDERS</Chip>
+      <Hacker x={1560} y={900} size={400} laptop />
+      <Chip x={1300} y={170} at={tOrders + 0.3} red solid>SOMEONE ELSE GIVING ORDERS</Chip>
     </>;
   } else {
     const on = ramp(t, tPurpose, 0.25, EASE.out);
     body = <>
       <Toggle x={1300} y={440} on={on} label="DEFROST" />
-      {t > tRemember && <Chip x={1300} y={130} at={tRemember} red>REMEMBER THIS SWITCH</Chip>}
+      {t > tRemember && <Chip x={1300} y={170} at={tRemember} red>REMEMBER THIS SWITCH</Chip>}
       {t > tPulled && <Chip x={1300} y={800} at={tPulled} icon="ph:warning-fill">THE ONE THEY PULLED</Chip>}
     </>;
   }
@@ -192,9 +192,9 @@ export const A2: React.FC = () => {
   let body: React.ReactNode = null;
   if (b === 0) {
     body = <>
-      <Controller x={1060} y={470} w={400} at={tWhy} />
-      <Wire d="M 1260 470 Q 1420 360 1600 440" at={tWhy + 0.3} dur={0.6} />
-      <Pop x={1680} y={460} at={tWhy + 0.5}><Icon name="ph:globe-hemisphere-west-fill" size={170} color={A.white} /></Pop>
+      <Controller x={1040} y={470} w={380} at={tWhy} />
+      <Wire d="M 1240 470 Q 1380 380 1510 440" at={tWhy + 0.3} dur={0.6} />
+      <Pop x={1590} y={460} at={tWhy + 0.5}><Icon name="ph:globe-hemisphere-west-fill" size={170} color={A.white} /></Pop>
       <Pop x={1420} y={240} at={tWhy + 0.8}><div style={{ ...fonts.H, fontWeight: 900, fontSize: 160, color: A.red }}>?</div></Pop>
     </>;
   } else if (b === 1) {
@@ -221,7 +221,7 @@ export const A2: React.FC = () => {
       <Pop x={1180} y={830} at={C0(17) + 0.3}><Label size={26}><Icon name="ph:wrench-fill" size={28} color={A.white} /> TECHNICIAN</Label></Pop>
       {t > tAnyone - 0.2 && dots.map(([x, y], i) => <Wire key={i} d={`M ${x} ${y} Q ${1560} ${y} 1490 ${460}`} at={tAnyone - 0.1 + i * 0.05} dur={0.4} red len={500} width={3} flow={false} />)}
       {t > tAnyone - 0.2 && dots.map(([x, y], i) => <Pop key={`d${i}`} x={x} y={y} at={tAnyone - 0.1 + i * 0.05}><Icon name="ph:user-fill" size={34} color={A.red} /></Pop>)}
-      {t > tAnyone && <Chip x={1560} y={150} at={tAnyone} red solid>ANYBODY ELSE</Chip>}
+      {t > tAnyone && <Chip x={1560} y={170} at={tAnyone} red solid>ANYBODY ELSE</Chip>}
     </>;
   } else if (b === 4) {
     body = <>
@@ -239,9 +239,10 @@ export const A2: React.FC = () => {
   } else if (b === 6) {
     body = <>
       <div style={{ position: 'absolute', left: 860, top: 470, width: 900, height: 4, background: A.line }} />
+      <Chip x={1320} y={250} at={C0(20) + 0.2} icon="ph:warning-fill">DANFOSS SECURITY WARNINGS</Chip>
       <YearCard x={1000} y={470} at={tMarch - 0.1} year="MAR" label="2025 · SECURITY WARNING" />
-      <YearCard x={1330} y={470} at={tAug - 0.1} year="AUG" label="2025 · SECURITY WARNING" />
-      <YearCard x={1660} y={470} at={tMonths} year="OCT" label="2026 · THE ATTACK" red />
+      <YearCard x={1320} y={470} at={tAug - 0.1} year="AUG" label="2025 · SECURITY WARNING" />
+      <YearCard x={1640} y={470} at={tMonths} year="OCT" label="2026 · THE ATTACK" red />
       {t > tMonths && <Chip x={1330} y={760} at={tMonths + 0.2} red>MONTHS BEFORE</Chip>}
     </>;
   } else if (b === 7) {
@@ -249,14 +250,14 @@ export const A2: React.FC = () => {
       <Controller x={1300} y={420} w={420} at={C0(21)} old={0.5} />
       <Crossed x={1000} y={790} at={tTouches} icon="ph:hand-fill" label="NOBODY TOUCHES IT" size={60} />
       {t > tCost && <Chip x={1330} y={790} at={tCost} icon="ph:currency-eur-bold">REPLACING COSTS MONEY</Chip>}
-      {t > tStopped && <Chip x={1300} y={150} at={tStopped} red>NO MORE FIXES</Chip>}
+      {t > tStopped && <Chip x={1300} y={170} at={tStopped} red>NO MORE FIXES</Chip>}
     </>;
   } else {
     body = <>
-      <div style={{ position: 'absolute', left: 1300, top: 470, transform: 'translate(-50%,-50%)', display: 'grid', gridTemplateColumns: 'repeat(10, 82px)', gap: 14 }}>
-        {Array.from({ length: 40 }, (_, i) => { const u = ramp(t, tThousands + ((i * 13) % 40) * 0.025, 0.3); const open = t > tFacing + (i % 7) * 0.05; return <div key={i} style={{ height: 64, borderRadius: 8, background: open ? '#2a1418' : A.soft, border: `2px solid ${open ? A.red : '#3a3a44'}`, opacity: u, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>{open && <Icon name="ph:door-open-fill" size={34} color={A.red} />}</div>; })}
+      <div style={{ position: 'absolute', left: 1270, top: 480, transform: 'translate(-50%,-50%)', display: 'grid', gridTemplateColumns: 'repeat(8, 78px)', gap: 12 }}>
+        {Array.from({ length: 32 }, (_, i) => { const u = ramp(t, tThousands + ((i * 13) % 32) * 0.03, 0.3); const open = t > tFacing + (i % 7) * 0.05; return <div key={i} style={{ height: 64, borderRadius: 8, background: open ? '#2a1418' : A.soft, border: `2px solid ${open ? A.red : '#3a3a44'}`, opacity: u, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>{open && <Icon name="ph:door-open-fill" size={34} color={A.red} />}</div>; })}
       </div>
-      {t > tFacing && <Chip x={1300} y={150} at={tFacing} icon="ph:globe-hemisphere-west-fill">FACING THE INTERNET</Chip>}
+      {t > tFacing && <Chip x={1300} y={170} at={tFacing} icon="ph:globe-hemisphere-west-fill">FACING THE INTERNET</Chip>}
       <Stamp x={1300} y={800} at={tLocks + 0.2} text="NO NEW LOCKS. EVER." size={64} rot={-4} />
     </>;
   }
@@ -288,7 +289,7 @@ export const A3: React.FC = () => {
       <Controller x={1300} y={400} w={420} at={tSame} old={0.6} />
       <Chip x={960} y={760} at={tOldDev} icon="ph:clock-counter-clockwise-fill">OLD</Chip>
       <Chip x={1300} y={760} at={tReach} icon="ph:globe-hemisphere-west-fill">REACHABLE ONLINE</Chip>
-      <Chip x={1650} y={760} at={tNoUpd3} icon="ph:x-bold" red>NO UPDATES</Chip>
+      <Chip x={1620} y={760} at={tNoUpd3} icon="ph:x-bold" red>NO UPDATES</Chip>
     </>;
   } else if (b === 3) {
     const items: [number, string, string][] = [[tNotJust, 'mdi:fridge-industrial', 'FRIDGES'], [tCams, 'mdi:cctv', 'CAMERAS'], [tFact, 'ph:factory-fill', 'FACTORIES'], [tPower, 'mdi:transmission-tower', 'POWER']];

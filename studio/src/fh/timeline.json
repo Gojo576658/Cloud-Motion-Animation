@@ -1,0 +1,10950 @@
+{
+ "fps": 30,
+ "offset": 0.6,
+ "duration": 456.272,
+ "bpm": 84,
+ "scenes": [
+  {
+   "index": 0,
+   "title": "Cold Open",
+   "start": 0,
+   "end": 44.503
+  },
+  {
+   "index": 1,
+   "title": "The Brain",
+   "start": 44.503,
+   "end": 98.539
+  },
+  {
+   "index": 2,
+   "title": "The Open Door",
+   "start": 98.539,
+   "end": 173.642
+  },
+  {
+   "index": 3,
+   "title": "How They Got In",
+   "start": 173.642,
+   "end": 216.225
+  },
+  {
+   "index": 4,
+   "title": "The Night",
+   "start": 216.225,
+   "end": 283.576
+  },
+  {
+   "index": 5,
+   "title": "How Big",
+   "start": 283.576,
+   "end": 349.604
+  },
+  {
+   "index": 6,
+   "title": "It Happened Before",
+   "start": 349.604,
+   "end": 409.226
+  },
+  {
+   "index": 7,
+   "title": "Your Turn",
+   "start": 409.226,
+   "end": 456.272
+  }
+ ],
+ "sections": [
+  {
+   "index": 0,
+   "title": "invest",
+   "mood": "invest",
+   "bpm": 84,
+   "start": 0,
+   "end": 44.603
+  },
+  {
+   "index": 1,
+   "title": "inside",
+   "mood": "inside",
+   "bpm": 84,
+   "start": 44.603,
+   "end": 98.639
+  },
+  {
+   "index": 2,
+   "title": "calm",
+   "mood": "calm",
+   "bpm": 84,
+   "start": 98.639,
+   "end": 173.742
+  },
+  {
+   "index": 3,
+   "title": "inside",
+   "mood": "inside",
+   "bpm": 84,
+   "start": 173.742,
+   "end": 216.325
+  },
+  {
+   "index": 4,
+   "title": "audio",
+   "mood": "audio",
+   "bpm": 84,
+   "start": 216.325,
+   "end": 283.676
+  },
+  {
+   "index": 5,
+   "title": "invest",
+   "mood": "invest",
+   "bpm": 84,
+   "start": 283.676,
+   "end": 349.704
+  },
+  {
+   "index": 6,
+   "title": "calm",
+   "mood": "calm",
+   "bpm": 84,
+   "start": 349.704,
+   "end": 409.326
+  },
+  {
+   "index": 7,
+   "title": "open",
+   "mood": "open",
+   "bpm": 84,
+   "start": 409.326,
+   "end": 456.272
+  }
+ ],
+ "cues": [
+  {
+   "id": 0,
+   "section": 0,
+   "voice": "chatterbox",
+   "start": 0.6,
+   "end": 9.148,
+   "text": "It's a quiet Sunday night in France. The supermarkets are closed. The lights are off. And inside every store, the fridges are humming, keeping millions of euros of food cold."
+  },
+  {
+   "id": 1,
+   "section": 0,
+   "voice": "chatterbox",
+   "start": 9.548,
+   "end": 13.89,
+   "text": "Then, one by one, across hundreds of stores, something strange starts to happen."
+  },
+  {
+   "id": 2,
+   "section": 0,
+   "voice": "chatterbox",
+   "start": 14.24,
+   "end": 24.351,
+   "text": "The fridges don't break. They don't switch off. They start heating up. Ten degrees. Twenty. Thirty. Until some of them hit fifty degrees Celsius. That's a hot summer day in the desert, inside a freezer."
+  },
+  {
+   "id": 3,
+   "section": 0,
+   "voice": "chatterbox",
+   "start": 24.751,
+   "end": 29.333,
+   "text": "By morning, the food is ruined. In some stores, there are reports of fires."
+  },
+  {
+   "id": 4,
+   "section": 0,
+   "voice": "chatterbox",
+   "start": 29.683,
+   "end": 38.205,
+   "text": "And nobody broke a window. Nobody touched a single fridge. The attack came through a small box on the wall that most people didn't even know was connected to the internet."
+  },
+  {
+   "id": 5,
+   "section": 0,
+   "voice": "chatterbox",
+   "start": 38.555,
+   "end": 44.202,
+   "text": "I'm Vio. And this is the story of the night hackers turned France's supermarket fridges into ovens."
+  },
+  {
+   "id": 6,
+   "section": 1,
+   "voice": "chatterbox",
+   "start": 44.903,
+   "end": 50.495,
+   "text": "First, let's talk about how a supermarket fridge actually works. Because it's not like the one in your kitchen."
+  },
+  {
+   "id": 7,
+   "section": 1,
+   "voice": "chatterbox",
+   "start": 50.845,
+   "end": 58.444,
+   "text": "A big supermarket can have dozens of fridges, freezers and cold rooms. And all of them are run by one brain. A refrigeration controller."
+  },
+  {
+   "id": 8,
+   "section": 1,
+   "voice": "chatterbox",
+   "start": 58.794,
+   "end": 69.626,
+   "text": "It's a little computer, usually sitting in a back room. It watches every temperature in the store, all day, all night. If a freezer gets a bit too warm, it fixes it. If something goes wrong, it sends an alarm."
+  },
+  {
+   "id": 9,
+   "section": 1,
+   "voice": "chatterbox",
+   "start": 69.976,
+   "end": 74.131,
+   "text": "And here's the important part. It also runs something called a defrost cycle."
+  },
+  {
+   "id": 10,
+   "section": 1,
+   "voice": "chatterbox",
+   "start": 74.481,
+   "end": 84.129,
+   "text": "Freezers slowly build up ice on their cooling coils. So every few hours, the controller warms the coils for a short time, the ice melts, and then the cold comes back. Normally, that takes maybe an hour."
+  },
+  {
+   "id": 11,
+   "section": 1,
+   "voice": "chatterbox",
+   "start": 84.479,
+   "end": 89.83,
+   "text": "During that time, the fridge is warm inside. And that's fine, because the controller knows exactly when to stop."
+  },
+  {
+   "id": 12,
+   "section": 1,
+   "voice": "chatterbox",
+   "start": 90.18,
+   "end": 91.938,
+   "text": "Unless someone else is giving the orders."
+  },
+  {
+   "id": 13,
+   "section": 1,
+   "voice": "chatterbox",
+   "start": 92.288,
+   "end": 98.239,
+   "text": "So the controller can make a fridge warm, on purpose. Remember that. Because that's exactly the switch the hackers pulled."
+  },
+  {
+   "id": 14,
+   "section": 2,
+   "voice": "chatterbox",
+   "start": 98.939,
+   "end": 101.923,
+   "text": "Now, why would anyone connect this box to the internet?"
+  },
+  {
+   "id": 15,
+   "section": 2,
+   "voice": "chatterbox",
+   "start": 102.273,
+   "end": 113.655,
+   "text": "Convenience. A supermarket chain might have hundreds of stores. The maintenance company can't drive to every single one. So the controllers get a web page, and technicians log in from far away to check temperatures and change settings."
+  },
+  {
+   "id": 16,
+   "section": 2,
+   "voice": "chatterbox",
+   "start": 114.005,
+   "end": 120.581,
+   "text": "It saves time. It saves money. And when something breaks at three in the morning, a technician can fix it from home, in pyjamas."
+  },
+  {
+   "id": 17,
+   "section": 2,
+   "voice": "chatterbox",
+   "start": 120.931,
+   "end": 126.43,
+   "text": "The problem is, if a technician can reach that web page from anywhere in the world, so can anybody else."
+  },
+  {
+   "id": 18,
+   "section": 2,
+   "voice": "chatterbox",
+   "start": 126.78,
+   "end": 133.631,
+   "text": "Many of these controllers were made by a Danish company called Danfoss. And the models at the center of this story are old. Really old."
+  },
+  {
+   "id": 19,
+   "section": 2,
+   "voice": "chatterbox",
+   "start": 133.981,
+   "end": 144.698,
+   "text": "Danfoss says most of the hacked units were legacy products. One model was phased out in 2016. Another reached its end of life in 2021. They no longer get software or security updates."
+  },
+  {
+   "id": 20,
+   "section": 2,
+   "voice": "chatterbox",
+   "start": 145.048,
+   "end": 153.045,
+   "text": "And Danfoss had already published security warnings about weaknesses in some of its controllers, in March and August of 2025. Months before the attack."
+  },
+  {
+   "id": 21,
+   "section": 2,
+   "voice": "chatterbox",
+   "start": 153.395,
+   "end": 164.073,
+   "text": "But here's the thing about fridges. When they work, nobody touches them. These machines can run for many years. Replacing them costs money. So old controllers stay on the wall, long after the company that made them stopped fixing them."
+  },
+  {
+   "id": 22,
+   "section": 2,
+   "voice": "chatterbox",
+   "start": 164.423,
+   "end": 173.342,
+   "text": "So picture it. Thousands of old boxes, running the cold food of a whole country, with their front door facing the internet, and no new locks coming. Ever."
+  },
+  {
+   "id": 23,
+   "section": 3,
+   "voice": "chatterbox",
+   "start": 174.042,
+   "end": 176.09,
+   "text": "So how did the attackers get in?"
+  },
+  {
+   "id": 24,
+   "section": 3,
+   "voice": "chatterbox",
+   "start": 176.44,
+   "end": 180.36,
+   "text": "Honestly, nobody knows for sure yet. The investigation is still going on."
+  },
+  {
+   "id": 25,
+   "section": 3,
+   "voice": "chatterbox",
+   "start": 180.71,
+   "end": 188.376,
+   "text": "But security experts keep pointing at the same problem. Old devices, left reachable from the internet, with weak protection and no updates."
+  },
+  {
+   "id": 26,
+   "section": 3,
+   "voice": "chatterbox",
+   "start": 188.726,
+   "end": 196.092,
+   "text": "And experts had been warning about exposed equipment like this for years. Not just fridges. Cameras, factory machines, even parts of power systems."
+  },
+  {
+   "id": 27,
+   "section": 3,
+   "voice": "chatterbox",
+   "start": 196.442,
+   "end": 204.695,
+   "text": "One security firm had disclosed weaknesses in some Danfoss controllers in 2025, which were later patched. But nobody has officially confirmed that's how this attack worked."
+  },
+  {
+   "id": 28,
+   "section": 3,
+   "voice": "chatterbox",
+   "start": 205.045,
+   "end": 210.696,
+   "text": "And here's what makes it scary. The attackers didn't need to break the fridges. They reportedly used a feature that was already there."
+  },
+  {
+   "id": 29,
+   "section": 3,
+   "voice": "chatterbox",
+   "start": 211.046,
+   "end": 215.925,
+   "text": "The defrost. A normal, everyday setting. Used at the wrong time, for the wrong reason."
+  },
+  {
+   "id": 30,
+   "section": 4,
+   "voice": "chatterbox",
+   "start": 216.625,
+   "end": 219.167,
+   "text": "And that's what happened on the night of October eleventh."
+  },
+  {
+   "id": 31,
+   "section": 4,
+   "voice": "chatterbox",
+   "start": 219.517,
+   "end": 227.701,
+   "text": "The attackers reportedly hijacked a routine maintenance setting and locked the fridges into a defrost cycle that didn't end. Instead of one hour, some ran for six hours or more."
+  },
+  {
+   "id": 32,
+   "section": 4,
+   "voice": "chatterbox",
+   "start": 228.051,
+   "end": 231.831,
+   "text": "And because it happened at night, while the stores were closed, there was nobody there to notice."
+  },
+  {
+   "id": 33,
+   "section": 4,
+   "voice": "chatterbox",
+   "start": 232.181,
+   "end": 238.565,
+   "text": "Hour after hour, the temperature crept up. One retailer said its cases ran hot for about six hours before anyone could stop it."
+  },
+  {
+   "id": 34,
+   "section": 4,
+   "voice": "chatterbox",
+   "start": 238.915,
+   "end": 245.889,
+   "text": "And because thousands of fridges were attacked in the same night, this wasn't a broken machine. It was a coordinated attack."
+  },
+  {
+   "id": 35,
+   "section": 4,
+   "voice": "chatterbox",
+   "start": 246.239,
+   "end": 254.93,
+   "text": "Temperatures climbed to around fifty degrees. Meat, fish, milk, cheese, ice cream. All of it, slowly cooking inside the cases that were supposed to protect it."
+  },
+  {
+   "id": 36,
+   "section": 4,
+   "voice": "chatterbox",
+   "start": 255.28,
+   "end": 261.198,
+   "text": "When the first workers walked in on Monday morning, they found warm freezers, melted food, and in some places, reports of fires."
+  },
+  {
+   "id": 37,
+   "section": 4,
+   "voice": "chatterbox",
+   "start": 261.548,
+   "end": 270.159,
+   "text": "Imagine being the store manager. You open the doors, and instead of cold air, you get a wall of heat and the smell of spoiled meat. Every fridge in the building. And you have no idea why."
+  },
+  {
+   "id": 38,
+   "section": 4,
+   "voice": "chatterbox",
+   "start": 270.509,
+   "end": 275.77,
+   "text": "Staff had to throw away tons of food. And all of it happened before most people had even had breakfast."
+  },
+  {
+   "id": 39,
+   "section": 4,
+   "voice": "chatterbox",
+   "start": 276.12,
+   "end": 283.276,
+   "text": "And quick favour. If this kind of story makes you look at the little boxes around you a bit differently, hit subscribe. That's how I know you want more of these."
+  },
+  {
+   "id": 40,
+   "section": 5,
+   "voice": "chatterbox",
+   "start": 283.976,
+   "end": 285.766,
+   "text": "So how big was it?"
+  },
+  {
+   "id": 41,
+   "section": 5,
+   "voice": "chatterbox",
+   "start": 286.116,
+   "end": 300.414,
+   "text": "The numbers keep changing, but they're all huge. Intermarché and its sister chain Netto were among the hardest hit, with up to three hundred stores reportedly affected. Carrefour said about eighty of its supermarkets were attacked. Monoprix, Leclerc and Coopérative U also reported problems."
+  },
+  {
+   "id": 42,
+   "section": 5,
+   "voice": "chatterbox",
+   "start": 300.764,
+   "end": 308.864,
+   "text": "Early counts said a few hundred stores. Then the French finance minister told parliament it was about seven hundred, out of roughly ten thousand supermarkets in the whole country."
+  },
+  {
+   "id": 43,
+   "section": 5,
+   "voice": "chatterbox",
+   "start": 309.214,
+   "end": 316.309,
+   "text": "Two supermarkets in Alsace reportedly lost about two hundred and seventy thousand euros between them. Now multiply that by hundreds of stores."
+  },
+  {
+   "id": 44,
+   "section": 5,
+   "voice": "chatterbox",
+   "start": 316.659,
+   "end": 324.638,
+   "text": "And it wasn't only Danfoss. France's national cyber agency said controllers from at least three companies were hit. Danfoss, Copeland, and Dixell."
+  },
+  {
+   "id": 45,
+   "section": 5,
+   "voice": "chatterbox",
+   "start": 324.988,
+   "end": 332.633,
+   "text": "And it may not have stopped at the French border. There were reports of similar problems in the Netherlands and Belgium, although those details are still being checked."
+  },
+  {
+   "id": 46,
+   "section": 5,
+   "voice": "chatterbox",
+   "start": 332.983,
+   "end": 340.672,
+   "text": "France's prime minister asked the agency to investigate, and Paris prosecutors opened a case. And as of now, nobody has claimed responsibility."
+  },
+  {
+   "id": 47,
+   "section": 5,
+   "voice": "chatterbox",
+   "start": 341.022,
+   "end": 349.304,
+   "text": "Some commentators have pointed to the wave of so-called hybrid attacks across Europe in recent years. But so far, there is no public evidence linking this attack to any group or country."
+  },
+  {
+   "id": 48,
+   "section": 6,
+   "voice": "chatterbox",
+   "start": 350.004,
+   "end": 354.189,
+   "text": "Now, if you think fridges are a weird way to attack someone, this has happened before."
+  },
+  {
+   "id": 49,
+   "section": 6,
+   "voice": "chatterbox",
+   "start": 354.539,
+   "end": 365.329,
+   "text": "In 2013, hackers stole the card details of around forty million shoppers from the American retailer Target. And the way in? Login details stolen from a company that serviced Target's heating and air conditioning."
+  },
+  {
+   "id": 50,
+   "section": 6,
+   "voice": "chatterbox",
+   "start": 365.679,
+   "end": 370.344,
+   "text": "And sometimes, these attacks don't just steal data. They break things in the real world."
+  },
+  {
+   "id": 51,
+   "section": 6,
+   "voice": "chatterbox",
+   "start": 370.694,
+   "end": 379.248,
+   "text": "Around 2010, a computer worm called Stuxnet quietly damaged nuclear centrifuges in Iran, by sending them the wrong instructions while the screens showed that everything was fine."
+  },
+  {
+   "id": 52,
+   "section": 6,
+   "voice": "chatterbox",
+   "start": 379.598,
+   "end": 388.68,
+   "text": "And in 2015, hackers switched off the power for hundreds of thousands of people in Ukraine, in the middle of winter, by taking over the control systems of power companies."
+  },
+  {
+   "id": 53,
+   "section": 6,
+   "voice": "chatterbox",
+   "start": 389.03,
+   "end": 396.164,
+   "text": "And there's a famous story from a casino. A cybersecurity company said hackers got into its network through a smart thermometer, in the lobby fish tank."
+  },
+  {
+   "id": 54,
+   "section": 6,
+   "voice": "chatterbox",
+   "start": 396.514,
+   "end": 403.822,
+   "text": "A fish tank. A heater. A fridge. These are the things nobody thinks about. Nobody updates them. And they sit on the same networks as everything else."
+  },
+  {
+   "id": 55,
+   "section": 6,
+   "voice": "chatterbox",
+   "start": 404.172,
+   "end": 408.926,
+   "text": "Security people have a saying. Attackers don't break in through the front door. They come in through the boiler room."
+  },
+  {
+   "id": 56,
+   "section": 7,
+   "voice": "chatterbox",
+   "start": 409.626,
+   "end": 410.754,
+   "text": "So what happens now?"
+  },
+  {
+   "id": 57,
+   "section": 7,
+   "voice": "chatterbox",
+   "start": 411.104,
+   "end": 419.029,
+   "text": "France's cyber agency told companies to take these controllers off the open internet, or put them behind a private connection, and to change any default passwords."
+  },
+  {
+   "id": 58,
+   "section": 7,
+   "voice": "chatterbox",
+   "start": 419.379,
+   "end": 426.21,
+   "text": "Danfoss says the oldest units simply need to be replaced. Which means a lot of supermarkets are about to buy a lot of new boxes."
+  },
+  {
+   "id": 59,
+   "section": 7,
+   "voice": "chatterbox",
+   "start": 426.56,
+   "end": 435.293,
+   "text": "And maybe the real lesson is for all of us. Your router, your smart TV, your doorbell camera. When did you last update any of them? Do you even know the password?"
+  },
+  {
+   "id": 60,
+   "section": 7,
+   "voice": "chatterbox",
+   "start": 435.643,
+   "end": 443.767,
+   "text": "So here's my question. Who should pay for all that ruined food? The supermarkets, for leaving the door open? Or the company that made the old boxes? Tell me in the comments."
+  },
+  {
+   "id": 61,
+   "section": 7,
+   "voice": "chatterbox",
+   "start": 444.117,
+   "end": 448.813,
+   "text": "And subscribe, because next time, there's another everyday object that turned out to be a hacker's way in."
+  },
+  {
+   "id": 62,
+   "section": 7,
+   "voice": "chatterbox",
+   "start": 449.163,
+   "end": 453.072,
+   "text": "Nobody updated the fridge. And one night, the fridge became an oven."
+  }
+ ],
+ "hooks": [],
+ "words": [
+  {
+   "c": 0,
+   "i": 0,
+   "w": "It's",
+   "s": 0.6,
+   "e": 0.78
+  },
+  {
+   "c": 0,
+   "i": 1,
+   "w": "a",
+   "s": 0.78,
+   "e": 0.82
+  },
+  {
+   "c": 0,
+   "i": 2,
+   "w": "quiet",
+   "s": 0.82,
+   "e": 1.04
+  },
+  {
+   "c": 0,
+   "i": 3,
+   "w": "Sunday",
+   "s": 1.04,
+   "e": 1.3
+  },
+  {
+   "c": 0,
+   "i": 4,
+   "w": "night",
+   "s": 1.3,
+   "e": 1.62
+  },
+  {
+   "c": 0,
+   "i": 5,
+   "w": "in",
+   "s": 1.62,
+   "e": 1.76
+  },
+  {
+   "c": 0,
+   "i": 6,
+   "w": "France.",
+   "s": 1.76,
+   "e": 2
+  },
+  {
+   "c": 0,
+   "i": 7,
+   "w": "The",
+   "s": 2.54,
+   "e": 2.54
+  },
+  {
+   "c": 0,
+   "i": 8,
+   "w": "supermarkets",
+   "s": 2.54,
+   "e": 2.8
+  },
+  {
+   "c": 0,
+   "i": 9,
+   "w": "are",
+   "s": 2.8,
+   "e": 3.16
+  },
+  {
+   "c": 0,
+   "i": 10,
+   "w": "closed.",
+   "s": 3.16,
+   "e": 3.34
+  },
+  {
+   "c": 0,
+   "i": 11,
+   "w": "The",
+   "s": 3.9,
+   "e": 3.9
+  },
+  {
+   "c": 0,
+   "i": 12,
+   "w": "lights",
+   "s": 3.9,
+   "e": 4.06
+  },
+  {
+   "c": 0,
+   "i": 13,
+   "w": "are",
+   "s": 4.06,
+   "e": 4.26
+  },
+  {
+   "c": 0,
+   "i": 14,
+   "w": "off.",
+   "s": 4.26,
+   "e": 4.44
+  },
+  {
+   "c": 0,
+   "i": 15,
+   "w": "And",
+   "s": 5.02,
+   "e": 5.04
+  },
+  {
+   "c": 0,
+   "i": 16,
+   "w": "inside",
+   "s": 5.04,
+   "e": 5.32
+  },
+  {
+   "c": 0,
+   "i": 17,
+   "w": "every",
+   "s": 5.32,
+   "e": 5.66
+  },
+  {
+   "c": 0,
+   "i": 18,
+   "w": "store,",
+   "s": 5.66,
+   "e": 6
+  },
+  {
+   "c": 0,
+   "i": 19,
+   "w": "the",
+   "s": 6.18,
+   "e": 6.24
+  },
+  {
+   "c": 0,
+   "i": 20,
+   "w": "fridges",
+   "s": 6.24,
+   "e": 6.46
+  },
+  {
+   "c": 0,
+   "i": 21,
+   "w": "are",
+   "s": 6.46,
+   "e": 6.62
+  },
+  {
+   "c": 0,
+   "i": 22,
+   "w": "humming,",
+   "s": 6.62,
+   "e": 6.84
+  },
+  {
+   "c": 0,
+   "i": 23,
+   "w": "keeping",
+   "s": 7.16,
+   "e": 7.3
+  },
+  {
+   "c": 0,
+   "i": 24,
+   "w": "millions",
+   "s": 7.3,
+   "e": 7.58
+  },
+  {
+   "c": 0,
+   "i": 25,
+   "w": "of",
+   "s": 7.58,
+   "e": 7.88
+  },
+  {
+   "c": 0,
+   "i": 26,
+   "w": "euros",
+   "s": 7.88,
+   "e": 8.02
+  },
+  {
+   "c": 0,
+   "i": 27,
+   "w": "of",
+   "s": 8.02,
+   "e": 8.3
+  },
+  {
+   "c": 0,
+   "i": 28,
+   "w": "food",
+   "s": 8.3,
+   "e": 8.5
+  },
+  {
+   "c": 0,
+   "i": 29,
+   "w": "cold.",
+   "s": 8.5,
+   "e": 8.74
+  },
+  {
+   "c": 1,
+   "i": 0,
+   "w": "Then,",
+   "s": 9.498,
+   "e": 9.838
+  },
+  {
+   "c": 1,
+   "i": 1,
+   "w": "one",
+   "s": 10.138,
+   "e": 10.278
+  },
+  {
+   "c": 1,
+   "i": 2,
+   "w": "by",
+   "s": 10.278,
+   "e": 10.458
+  },
+  {
+   "c": 1,
+   "i": 3,
+   "w": "one,",
+   "s": 10.458,
+   "e": 10.718
+  },
+  {
+   "c": 1,
+   "i": 4,
+   "w": "across",
+   "s": 10.958,
+   "e": 11.138
+  },
+  {
+   "c": 1,
+   "i": 5,
+   "w": "hundreds",
+   "s": 11.138,
+   "e": 11.518
+  },
+  {
+   "c": 1,
+   "i": 6,
+   "w": "of",
+   "s": 11.518,
+   "e": 11.698
+  },
+  {
+   "c": 1,
+   "i": 7,
+   "w": "stores,",
+   "s": 11.698,
+   "e": 11.938
+  },
+  {
+   "c": 1,
+   "i": 8,
+   "w": "something",
+   "s": 12.238,
+   "e": 12.438
+  },
+  {
+   "c": 1,
+   "i": 9,
+   "w": "strange",
+   "s": 12.438,
+   "e": 12.738
+  },
+  {
+   "c": 1,
+   "i": 10,
+   "w": "starts",
+   "s": 12.738,
+   "e": 13.098
+  },
+  {
+   "c": 1,
+   "i": 11,
+   "w": "to",
+   "s": 13.098,
+   "e": 13.278
+  },
+  {
+   "c": 1,
+   "i": 12,
+   "w": "happen.",
+   "s": 13.278,
+   "e": 13.578
+  },
+  {
+   "c": 2,
+   "i": 0,
+   "w": "The",
+   "s": 14.19,
+   "e": 14.37
+  },
+  {
+   "c": 2,
+   "i": 1,
+   "w": "fridges",
+   "s": 14.37,
+   "e": 14.57
+  },
+  {
+   "c": 2,
+   "i": 2,
+   "w": "don't",
+   "s": 14.57,
+   "e": 14.83
+  },
+  {
+   "c": 2,
+   "i": 3,
+   "w": "break.",
+   "s": 14.83,
+   "e": 15.03
+  },
+  {
+   "c": 2,
+   "i": 4,
+   "w": "They",
+   "s": 15.59,
+   "e": 15.61
+  },
+  {
+   "c": 2,
+   "i": 5,
+   "w": "don't",
+   "s": 15.61,
+   "e": 15.79
+  },
+  {
+   "c": 2,
+   "i": 6,
+   "w": "switch",
+   "s": 15.79,
+   "e": 15.93
+  },
+  {
+   "c": 2,
+   "i": 7,
+   "w": "off.",
+   "s": 15.93,
+   "e": 16.17
+  },
+  {
+   "c": 2,
+   "i": 8,
+   "w": "They",
+   "s": 16.57,
+   "e": 16.59
+  },
+  {
+   "c": 2,
+   "i": 9,
+   "w": "start",
+   "s": 16.59,
+   "e": 16.75
+  },
+  {
+   "c": 2,
+   "i": 10,
+   "w": "heating",
+   "s": 16.75,
+   "e": 16.93
+  },
+  {
+   "c": 2,
+   "i": 11,
+   "w": "up.",
+   "s": 16.93,
+   "e": 17.25
+  },
+  {
+   "c": 2,
+   "i": 12,
+   "w": "Ten",
+   "s": 17.59,
+   "e": 17.63
+  },
+  {
+   "c": 2,
+   "i": 13,
+   "w": "degrees.",
+   "s": 17.63,
+   "e": 17.83
+  },
+  {
+   "c": 2,
+   "i": 14,
+   "w": "Twenty.",
+   "s": 18.43,
+   "e": 18.53
+  },
+  {
+   "c": 2,
+   "i": 15,
+   "w": "Thirty.",
+   "s": 19.05,
+   "e": 19.05
+  },
+  {
+   "c": 2,
+   "i": 16,
+   "w": "Until",
+   "s": 19.61,
+   "e": 19.61
+  },
+  {
+   "c": 2,
+   "i": 17,
+   "w": "some",
+   "s": 19.61,
+   "e": 19.89
+  },
+  {
+   "c": 2,
+   "i": 18,
+   "w": "of",
+   "s": 19.89,
+   "e": 19.97
+  },
+  {
+   "c": 2,
+   "i": 19,
+   "w": "them",
+   "s": 19.97,
+   "e": 20.13
+  },
+  {
+   "c": 2,
+   "i": 20,
+   "w": "hit",
+   "s": 20.13,
+   "e": 20.33
+  },
+  {
+   "c": 2,
+   "i": 21,
+   "w": "fifty",
+   "s": 20.33,
+   "e": 20.57
+  },
+  {
+   "c": 2,
+   "i": 22,
+   "w": "degrees",
+   "s": 20.57,
+   "e": 20.85
+  },
+  {
+   "c": 2,
+   "i": 23,
+   "w": "Celsius.",
+   "s": 20.85,
+   "e": 21.11
+  },
+  {
+   "c": 2,
+   "i": 24,
+   "w": "That's",
+   "s": 21.93,
+   "e": 22.09
+  },
+  {
+   "c": 2,
+   "i": 25,
+   "w": "a",
+   "s": 22.09,
+   "e": 22.15
+  },
+  {
+   "c": 2,
+   "i": 26,
+   "w": "hot",
+   "s": 22.15,
+   "e": 22.27
+  },
+  {
+   "c": 2,
+   "i": 27,
+   "w": "summer",
+   "s": 22.27,
+   "e": 22.51
+  },
+  {
+   "c": 2,
+   "i": 28,
+   "w": "day",
+   "s": 22.51,
+   "e": 22.75
+  },
+  {
+   "c": 2,
+   "i": 29,
+   "w": "in",
+   "s": 22.75,
+   "e": 22.89
+  },
+  {
+   "c": 2,
+   "i": 30,
+   "w": "the",
+   "s": 22.89,
+   "e": 22.95
+  },
+  {
+   "c": 2,
+   "i": 31,
+   "w": "desert,",
+   "s": 22.95,
+   "e": 23.21
+  },
+  {
+   "c": 2,
+   "i": 32,
+   "w": "inside",
+   "s": 23.37,
+   "e": 23.57
+  },
+  {
+   "c": 2,
+   "i": 33,
+   "w": "a",
+   "s": 23.57,
+   "e": 23.77
+  },
+  {
+   "c": 2,
+   "i": 34,
+   "w": "freezer.",
+   "s": 23.77,
+   "e": 23.91
+  },
+  {
+   "c": 3,
+   "i": 0,
+   "w": "By",
+   "s": 24.701,
+   "e": 24.901
+  },
+  {
+   "c": 3,
+   "i": 1,
+   "w": "morning,",
+   "s": 24.901,
+   "e": 25.221
+  },
+  {
+   "c": 3,
+   "i": 2,
+   "w": "the",
+   "s": 25.521,
+   "e": 25.601
+  },
+  {
+   "c": 3,
+   "i": 3,
+   "w": "food",
+   "s": 25.601,
+   "e": 25.761
+  },
+  {
+   "c": 3,
+   "i": 4,
+   "w": "is",
+   "s": 25.761,
+   "e": 25.921
+  },
+  {
+   "c": 3,
+   "i": 5,
+   "w": "ruined.",
+   "s": 25.921,
+   "e": 26.081
+  },
+  {
+   "c": 3,
+   "i": 6,
+   "w": "In",
+   "s": 26.801,
+   "e": 26.861
+  },
+  {
+   "c": 3,
+   "i": 7,
+   "w": "some",
+   "s": 26.861,
+   "e": 27.061
+  },
+  {
+   "c": 3,
+   "i": 8,
+   "w": "stores,",
+   "s": 27.061,
+   "e": 27.401
+  },
+  {
+   "c": 3,
+   "i": 9,
+   "w": "there",
+   "s": 27.781,
+   "e": 27.841
+  },
+  {
+   "c": 3,
+   "i": 10,
+   "w": "are",
+   "s": 27.841,
+   "e": 27.961
+  },
+  {
+   "c": 3,
+   "i": 11,
+   "w": "reports",
+   "s": 27.961,
+   "e": 28.221
+  },
+  {
+   "c": 3,
+   "i": 12,
+   "w": "of",
+   "s": 28.221,
+   "e": 28.541
+  },
+  {
+   "c": 3,
+   "i": 13,
+   "w": "fires.",
+   "s": 28.541,
+   "e": 28.841
+  },
+  {
+   "c": 4,
+   "i": 0,
+   "w": "And",
+   "s": 29.633,
+   "e": 29.973
+  },
+  {
+   "c": 4,
+   "i": 1,
+   "w": "nobody",
+   "s": 29.973,
+   "e": 30.333
+  },
+  {
+   "c": 4,
+   "i": 2,
+   "w": "broke",
+   "s": 30.333,
+   "e": 30.673
+  },
+  {
+   "c": 4,
+   "i": 3,
+   "w": "a",
+   "s": 30.673,
+   "e": 30.813
+  },
+  {
+   "c": 4,
+   "i": 4,
+   "w": "window.",
+   "s": 30.813,
+   "e": 31.073
+  },
+  {
+   "c": 4,
+   "i": 5,
+   "w": "Nobody",
+   "s": 31.773,
+   "e": 31.773
+  },
+  {
+   "c": 4,
+   "i": 6,
+   "w": "touched",
+   "s": 31.773,
+   "e": 32.073
+  },
+  {
+   "c": 4,
+   "i": 7,
+   "w": "a",
+   "s": 32.073,
+   "e": 32.273
+  },
+  {
+   "c": 4,
+   "i": 8,
+   "w": "single",
+   "s": 32.273,
+   "e": 32.453
+  },
+  {
+   "c": 4,
+   "i": 9,
+   "w": "fridge.",
+   "s": 32.453,
+   "e": 32.753
+  },
+  {
+   "c": 4,
+   "i": 10,
+   "w": "The",
+   "s": 33.273,
+   "e": 33.313
+  },
+  {
+   "c": 4,
+   "i": 11,
+   "w": "attack",
+   "s": 33.313,
+   "e": 33.593
+  },
+  {
+   "c": 4,
+   "i": 12,
+   "w": "came",
+   "s": 33.593,
+   "e": 33.933
+  },
+  {
+   "c": 4,
+   "i": 13,
+   "w": "through",
+   "s": 33.933,
+   "e": 34.213
+  },
+  {
+   "c": 4,
+   "i": 14,
+   "w": "a",
+   "s": 34.213,
+   "e": 34.333
+  },
+  {
+   "c": 4,
+   "i": 15,
+   "w": "small",
+   "s": 34.333,
+   "e": 34.513
+  },
+  {
+   "c": 4,
+   "i": 16,
+   "w": "box",
+   "s": 34.513,
+   "e": 34.793
+  },
+  {
+   "c": 4,
+   "i": 17,
+   "w": "on",
+   "s": 34.793,
+   "e": 35.033
+  },
+  {
+   "c": 4,
+   "i": 18,
+   "w": "the",
+   "s": 35.033,
+   "e": 35.133
+  },
+  {
+   "c": 4,
+   "i": 19,
+   "w": "wall",
+   "s": 35.133,
+   "e": 35.333
+  },
+  {
+   "c": 4,
+   "i": 20,
+   "w": "that",
+   "s": 35.333,
+   "e": 35.613
+  },
+  {
+   "c": 4,
+   "i": 21,
+   "w": "most",
+   "s": 35.613,
+   "e": 35.773
+  },
+  {
+   "c": 4,
+   "i": 22,
+   "w": "people",
+   "s": 35.773,
+   "e": 36.153
+  },
+  {
+   "c": 4,
+   "i": 23,
+   "w": "didn't",
+   "s": 36.153,
+   "e": 36.453
+  },
+  {
+   "c": 4,
+   "i": 24,
+   "w": "even",
+   "s": 36.453,
+   "e": 36.513
+  },
+  {
+   "c": 4,
+   "i": 25,
+   "w": "know",
+   "s": 36.513,
+   "e": 36.773
+  },
+  {
+   "c": 4,
+   "i": 26,
+   "w": "was",
+   "s": 36.773,
+   "e": 36.933
+  },
+  {
+   "c": 4,
+   "i": 27,
+   "w": "connected",
+   "s": 36.933,
+   "e": 37.193
+  },
+  {
+   "c": 4,
+   "i": 28,
+   "w": "to",
+   "s": 37.193,
+   "e": 37.473
+  },
+  {
+   "c": 4,
+   "i": 29,
+   "w": "the",
+   "s": 37.473,
+   "e": 37.553
+  },
+  {
+   "c": 4,
+   "i": 30,
+   "w": "internet.",
+   "s": 37.553,
+   "e": 37.813
+  },
+  {
+   "c": 5,
+   "i": 0,
+   "w": "I'm",
+   "s": 38.505,
+   "e": 38.765
+  },
+  {
+   "c": 5,
+   "i": 1,
+   "w": "Vio.",
+   "s": 38.765,
+   "e": 39.065
+  },
+  {
+   "c": 5,
+   "i": 2,
+   "w": "And",
+   "s": 39.745,
+   "e": 39.805
+  },
+  {
+   "c": 5,
+   "i": 3,
+   "w": "this",
+   "s": 39.805,
+   "e": 39.985
+  },
+  {
+   "c": 5,
+   "i": 4,
+   "w": "is",
+   "s": 39.985,
+   "e": 40.165
+  },
+  {
+   "c": 5,
+   "i": 5,
+   "w": "the",
+   "s": 40.165,
+   "e": 40.305
+  },
+  {
+   "c": 5,
+   "i": 6,
+   "w": "story",
+   "s": 40.305,
+   "e": 40.545
+  },
+  {
+   "c": 5,
+   "i": 7,
+   "w": "of",
+   "s": 40.545,
+   "e": 40.765
+  },
+  {
+   "c": 5,
+   "i": 8,
+   "w": "the",
+   "s": 40.765,
+   "e": 40.865
+  },
+  {
+   "c": 5,
+   "i": 9,
+   "w": "night",
+   "s": 40.865,
+   "e": 41.025
+  },
+  {
+   "c": 5,
+   "i": 10,
+   "w": "hackers",
+   "s": 41.025,
+   "e": 41.345
+  },
+  {
+   "c": 5,
+   "i": 11,
+   "w": "turned",
+   "s": 41.345,
+   "e": 41.725
+  },
+  {
+   "c": 5,
+   "i": 12,
+   "w": "France's",
+   "s": 41.725,
+   "e": 42.185
+  },
+  {
+   "c": 5,
+   "i": 13,
+   "w": "supermarket",
+   "s": 42.185,
+   "e": 42.545
+  },
+  {
+   "c": 5,
+   "i": 14,
+   "w": "fridges",
+   "s": 42.545,
+   "e": 43.045
+  },
+  {
+   "c": 5,
+   "i": 15,
+   "w": "into",
+   "s": 43.045,
+   "e": 43.405
+  },
+  {
+   "c": 5,
+   "i": 16,
+   "w": "ovens.",
+   "s": 43.405,
+   "e": 44.005
+  },
+  {
+   "c": 6,
+   "i": 0,
+   "w": "First,",
+   "s": 44.853,
+   "e": 45.113
+  },
+  {
+   "c": 6,
+   "i": 1,
+   "w": "let's",
+   "s": 45.353,
+   "e": 45.593
+  },
+  {
+   "c": 6,
+   "i": 2,
+   "w": "talk",
+   "s": 45.593,
+   "e": 45.733
+  },
+  {
+   "c": 6,
+   "i": 3,
+   "w": "about",
+   "s": 45.733,
+   "e": 45.973
+  },
+  {
+   "c": 6,
+   "i": 4,
+   "w": "how",
+   "s": 45.973,
+   "e": 46.133
+  },
+  {
+   "c": 6,
+   "i": 5,
+   "w": "a",
+   "s": 46.133,
+   "e": 46.253
+  },
+  {
+   "c": 6,
+   "i": 6,
+   "w": "supermarket",
+   "s": 46.253,
+   "e": 46.473
+  },
+  {
+   "c": 6,
+   "i": 7,
+   "w": "fridge",
+   "s": 46.473,
+   "e": 46.993
+  },
+  {
+   "c": 6,
+   "i": 8,
+   "w": "actually",
+   "s": 46.993,
+   "e": 47.393
+  },
+  {
+   "c": 6,
+   "i": 9,
+   "w": "works.",
+   "s": 47.393,
+   "e": 47.913
+  },
+  {
+   "c": 6,
+   "i": 10,
+   "w": "Because",
+   "s": 48.373,
+   "e": 48.613
+  },
+  {
+   "c": 6,
+   "i": 11,
+   "w": "it's",
+   "s": 48.613,
+   "e": 49.033
+  },
+  {
+   "c": 6,
+   "i": 12,
+   "w": "not",
+   "s": 49.033,
+   "e": 49.193
+  },
+  {
+   "c": 6,
+   "i": 13,
+   "w": "like",
+   "s": 49.193,
+   "e": 49.433
+  },
+  {
+   "c": 6,
+   "i": 14,
+   "w": "the",
+   "s": 49.433,
+   "e": 49.553
+  },
+  {
+   "c": 6,
+   "i": 15,
+   "w": "one",
+   "s": 49.553,
+   "e": 49.673
+  },
+  {
+   "c": 6,
+   "i": 16,
+   "w": "in",
+   "s": 49.673,
+   "e": 49.793
+  },
+  {
+   "c": 6,
+   "i": 17,
+   "w": "your",
+   "s": 49.793,
+   "e": 49.893
+  },
+  {
+   "c": 6,
+   "i": 18,
+   "w": "kitchen.",
+   "s": 49.893,
+   "e": 50.193
+  },
+  {
+   "c": 7,
+   "i": 0,
+   "w": "A",
+   "s": 50.795,
+   "e": 50.955
+  },
+  {
+   "c": 7,
+   "i": 1,
+   "w": "big",
+   "s": 50.955,
+   "e": 51.075
+  },
+  {
+   "c": 7,
+   "i": 2,
+   "w": "supermarket",
+   "s": 51.075,
+   "e": 51.415
+  },
+  {
+   "c": 7,
+   "i": 3,
+   "w": "can",
+   "s": 51.415,
+   "e": 51.835
+  },
+  {
+   "c": 7,
+   "i": 4,
+   "w": "have",
+   "s": 51.835,
+   "e": 51.995
+  },
+  {
+   "c": 7,
+   "i": 5,
+   "w": "dozens",
+   "s": 51.995,
+   "e": 52.315
+  },
+  {
+   "c": 7,
+   "i": 6,
+   "w": "of",
+   "s": 52.315,
+   "e": 52.555
+  },
+  {
+   "c": 7,
+   "i": 7,
+   "w": "fridges,",
+   "s": 52.555,
+   "e": 52.795
+  },
+  {
+   "c": 7,
+   "i": 8,
+   "w": "freezers",
+   "s": 53.095,
+   "e": 53.415
+  },
+  {
+   "c": 7,
+   "i": 9,
+   "w": "and",
+   "s": 53.415,
+   "e": 53.735
+  },
+  {
+   "c": 7,
+   "i": 10,
+   "w": "cold",
+   "s": 53.735,
+   "e": 53.955
+  },
+  {
+   "c": 7,
+   "i": 11,
+   "w": "rooms.",
+   "s": 53.955,
+   "e": 54.215
+  },
+  {
+   "c": 7,
+   "i": 12,
+   "w": "And",
+   "s": 54.955,
+   "e": 54.955
+  },
+  {
+   "c": 7,
+   "i": 13,
+   "w": "all",
+   "s": 54.955,
+   "e": 55.195
+  },
+  {
+   "c": 7,
+   "i": 14,
+   "w": "of",
+   "s": 55.195,
+   "e": 55.315
+  },
+  {
+   "c": 7,
+   "i": 15,
+   "w": "them",
+   "s": 55.315,
+   "e": 55.495
+  },
+  {
+   "c": 7,
+   "i": 16,
+   "w": "are",
+   "s": 55.495,
+   "e": 55.755
+  },
+  {
+   "c": 7,
+   "i": 17,
+   "w": "run",
+   "s": 55.755,
+   "e": 55.915
+  },
+  {
+   "c": 7,
+   "i": 18,
+   "w": "by",
+   "s": 55.915,
+   "e": 56.115
+  },
+  {
+   "c": 7,
+   "i": 19,
+   "w": "one",
+   "s": 56.115,
+   "e": 56.275
+  },
+  {
+   "c": 7,
+   "i": 20,
+   "w": "brain.",
+   "s": 56.275,
+   "e": 56.555
+  },
+  {
+   "c": 7,
+   "i": 21,
+   "w": "A",
+   "s": 57.135,
+   "e": 57.155
+  },
+  {
+   "c": 7,
+   "i": 22,
+   "w": "refrigeration",
+   "s": 57.155,
+   "e": 57.715
+  },
+  {
+   "c": 7,
+   "i": 23,
+   "w": "controller.",
+   "s": 57.715,
+   "e": 57.995
+  },
+  {
+   "c": 8,
+   "i": 0,
+   "w": "It's",
+   "s": 58.744,
+   "e": 58.964
+  },
+  {
+   "c": 8,
+   "i": 1,
+   "w": "a",
+   "s": 58.964,
+   "e": 59.024
+  },
+  {
+   "c": 8,
+   "i": 2,
+   "w": "little",
+   "s": 59.024,
+   "e": 59.144
+  },
+  {
+   "c": 8,
+   "i": 3,
+   "w": "computer,",
+   "s": 59.144,
+   "e": 59.464
+  },
+  {
+   "c": 8,
+   "i": 4,
+   "w": "usually",
+   "s": 59.864,
+   "e": 60.104
+  },
+  {
+   "c": 8,
+   "i": 5,
+   "w": "sitting",
+   "s": 60.104,
+   "e": 60.404
+  },
+  {
+   "c": 8,
+   "i": 6,
+   "w": "in",
+   "s": 60.404,
+   "e": 60.604
+  },
+  {
+   "c": 8,
+   "i": 7,
+   "w": "a",
+   "s": 60.604,
+   "e": 60.624
+  },
+  {
+   "c": 8,
+   "i": 8,
+   "w": "back",
+   "s": 60.624,
+   "e": 60.804
+  },
+  {
+   "c": 8,
+   "i": 9,
+   "w": "room.",
+   "s": 60.804,
+   "e": 61.064
+  },
+  {
+   "c": 8,
+   "i": 10,
+   "w": "It",
+   "s": 61.744,
+   "e": 61.804
+  },
+  {
+   "c": 8,
+   "i": 11,
+   "w": "watches",
+   "s": 61.804,
+   "e": 61.984
+  },
+  {
+   "c": 8,
+   "i": 12,
+   "w": "every",
+   "s": 61.984,
+   "e": 62.324
+  },
+  {
+   "c": 8,
+   "i": 13,
+   "w": "temperature",
+   "s": 62.324,
+   "e": 62.784
+  },
+  {
+   "c": 8,
+   "i": 14,
+   "w": "in",
+   "s": 62.784,
+   "e": 63.024
+  },
+  {
+   "c": 8,
+   "i": 15,
+   "w": "the",
+   "s": 63.024,
+   "e": 63.084
+  },
+  {
+   "c": 8,
+   "i": 16,
+   "w": "store,",
+   "s": 63.084,
+   "e": 63.364
+  },
+  {
+   "c": 8,
+   "i": 17,
+   "w": "all",
+   "s": 63.704,
+   "e": 63.784
+  },
+  {
+   "c": 8,
+   "i": 18,
+   "w": "day,",
+   "s": 63.784,
+   "e": 63.984
+  },
+  {
+   "c": 8,
+   "i": 19,
+   "w": "all",
+   "s": 64.304,
+   "e": 64.404
+  },
+  {
+   "c": 8,
+   "i": 20,
+   "w": "night.",
+   "s": 64.404,
+   "e": 64.644
+  },
+  {
+   "c": 8,
+   "i": 21,
+   "w": "If",
+   "s": 65.244,
+   "e": 65.264
+  },
+  {
+   "c": 8,
+   "i": 22,
+   "w": "a",
+   "s": 65.264,
+   "e": 65.324
+  },
+  {
+   "c": 8,
+   "i": 23,
+   "w": "freezer",
+   "s": 65.324,
+   "e": 65.504
+  },
+  {
+   "c": 8,
+   "i": 24,
+   "w": "gets",
+   "s": 65.504,
+   "e": 65.824
+  },
+  {
+   "c": 8,
+   "i": 25,
+   "w": "a",
+   "s": 65.824,
+   "e": 65.884
+  },
+  {
+   "c": 8,
+   "i": 26,
+   "w": "bit",
+   "s": 65.884,
+   "e": 66.024
+  },
+  {
+   "c": 8,
+   "i": 27,
+   "w": "too",
+   "s": 66.024,
+   "e": 66.164
+  },
+  {
+   "c": 8,
+   "i": 28,
+   "w": "warm,",
+   "s": 66.164,
+   "e": 66.444
+  },
+  {
+   "c": 8,
+   "i": 29,
+   "w": "it",
+   "s": 66.584,
+   "e": 66.624
+  },
+  {
+   "c": 8,
+   "i": 30,
+   "w": "fixes",
+   "s": 66.624,
+   "e": 66.864
+  },
+  {
+   "c": 8,
+   "i": 31,
+   "w": "it.",
+   "s": 66.864,
+   "e": 67.044
+  },
+  {
+   "c": 8,
+   "i": 32,
+   "w": "If",
+   "s": 67.504,
+   "e": 67.604
+  },
+  {
+   "c": 8,
+   "i": 33,
+   "w": "something",
+   "s": 67.604,
+   "e": 67.784
+  },
+  {
+   "c": 8,
+   "i": 34,
+   "w": "goes",
+   "s": 67.784,
+   "e": 68.044
+  },
+  {
+   "c": 8,
+   "i": 35,
+   "w": "wrong,",
+   "s": 68.044,
+   "e": 68.304
+  },
+  {
+   "c": 8,
+   "i": 36,
+   "w": "it",
+   "s": 68.604,
+   "e": 68.684
+  },
+  {
+   "c": 8,
+   "i": 37,
+   "w": "sends",
+   "s": 68.684,
+   "e": 68.824
+  },
+  {
+   "c": 8,
+   "i": 38,
+   "w": "an",
+   "s": 68.824,
+   "e": 69.004
+  },
+  {
+   "c": 8,
+   "i": 39,
+   "w": "alarm.",
+   "s": 69.004,
+   "e": 69.204
+  },
+  {
+   "c": 9,
+   "i": 0,
+   "w": "And",
+   "s": 69.976,
+   "e": 70.296
+  },
+  {
+   "c": 9,
+   "i": 1,
+   "w": "here's",
+   "s": 70.296,
+   "e": 70.615
+  },
+  {
+   "c": 9,
+   "i": 2,
+   "w": "the",
+   "s": 70.615,
+   "e": 70.935
+  },
+  {
+   "c": 9,
+   "i": 3,
+   "w": "important",
+   "s": 70.935,
+   "e": 71.254
+  },
+  {
+   "c": 9,
+   "i": 4,
+   "w": "part.",
+   "s": 71.254,
+   "e": 71.574
+  },
+  {
+   "c": 9,
+   "i": 5,
+   "w": "It",
+   "s": 69.926,
+   "e": 70.106
+  },
+  {
+   "c": 9,
+   "i": 6,
+   "w": "also",
+   "s": 70.106,
+   "e": 71.926
+  },
+  {
+   "c": 9,
+   "i": 7,
+   "w": "runs",
+   "s": 71.926,
+   "e": 72.306
+  },
+  {
+   "c": 9,
+   "i": 8,
+   "w": "something",
+   "s": 72.306,
+   "e": 72.586
+  },
+  {
+   "c": 9,
+   "i": 9,
+   "w": "called",
+   "s": 72.586,
+   "e": 72.846
+  },
+  {
+   "c": 9,
+   "i": 10,
+   "w": "a",
+   "s": 72.846,
+   "e": 72.986
+  },
+  {
+   "c": 9,
+   "i": 11,
+   "w": "defrost",
+   "s": 72.986,
+   "e": 73.326
+  },
+  {
+   "c": 9,
+   "i": 12,
+   "w": "cycle.",
+   "s": 73.326,
+   "e": 73.886
+  },
+  {
+   "c": 10,
+   "i": 0,
+   "w": "Freezers",
+   "s": 74.431,
+   "e": 74.811
+  },
+  {
+   "c": 10,
+   "i": 1,
+   "w": "slowly",
+   "s": 74.811,
+   "e": 75.131
+  },
+  {
+   "c": 10,
+   "i": 2,
+   "w": "build",
+   "s": 75.131,
+   "e": 75.411
+  },
+  {
+   "c": 10,
+   "i": 3,
+   "w": "up",
+   "s": 75.411,
+   "e": 75.571
+  },
+  {
+   "c": 10,
+   "i": 4,
+   "w": "ice",
+   "s": 75.571,
+   "e": 75.751
+  },
+  {
+   "c": 10,
+   "i": 5,
+   "w": "on",
+   "s": 75.751,
+   "e": 75.971
+  },
+  {
+   "c": 10,
+   "i": 6,
+   "w": "their",
+   "s": 75.971,
+   "e": 76.091
+  },
+  {
+   "c": 10,
+   "i": 7,
+   "w": "cooling",
+   "s": 76.091,
+   "e": 76.251
+  },
+  {
+   "c": 10,
+   "i": 8,
+   "w": "coils.",
+   "s": 76.251,
+   "e": 76.531
+  },
+  {
+   "c": 10,
+   "i": 9,
+   "w": "So",
+   "s": 77.271,
+   "e": 77.291
+  },
+  {
+   "c": 10,
+   "i": 10,
+   "w": "every",
+   "s": 77.291,
+   "e": 77.451
+  },
+  {
+   "c": 10,
+   "i": 11,
+   "w": "few",
+   "s": 77.451,
+   "e": 77.711
+  },
+  {
+   "c": 10,
+   "i": 12,
+   "w": "hours,",
+   "s": 77.711,
+   "e": 77.971
+  },
+  {
+   "c": 10,
+   "i": 13,
+   "w": "the",
+   "s": 78.111,
+   "e": 78.191
+  },
+  {
+   "c": 10,
+   "i": 14,
+   "w": "controller",
+   "s": 78.191,
+   "e": 78.431
+  },
+  {
+   "c": 10,
+   "i": 15,
+   "w": "warms",
+   "s": 78.431,
+   "e": 78.831
+  },
+  {
+   "c": 10,
+   "i": 16,
+   "w": "the",
+   "s": 78.831,
+   "e": 78.951
+  },
+  {
+   "c": 10,
+   "i": 17,
+   "w": "coils",
+   "s": 78.951,
+   "e": 79.091
+  },
+  {
+   "c": 10,
+   "i": 18,
+   "w": "for",
+   "s": 79.091,
+   "e": 79.411
+  },
+  {
+   "c": 10,
+   "i": 19,
+   "w": "a",
+   "s": 79.411,
+   "e": 79.471
+  },
+  {
+   "c": 10,
+   "i": 20,
+   "w": "short",
+   "s": 79.471,
+   "e": 79.651
+  },
+  {
+   "c": 10,
+   "i": 21,
+   "w": "time,",
+   "s": 79.651,
+   "e": 79.951
+  },
+  {
+   "c": 10,
+   "i": 22,
+   "w": "the",
+   "s": 80.251,
+   "e": 80.271
+  },
+  {
+   "c": 10,
+   "i": 23,
+   "w": "ice",
+   "s": 80.271,
+   "e": 80.451
+  },
+  {
+   "c": 10,
+   "i": 24,
+   "w": "melts,",
+   "s": 80.451,
+   "e": 80.691
+  },
+  {
+   "c": 10,
+   "i": 25,
+   "w": "and",
+   "s": 81.071,
+   "e": 81.071
+  },
+  {
+   "c": 10,
+   "i": 26,
+   "w": "then",
+   "s": 81.071,
+   "e": 81.171
+  },
+  {
+   "c": 10,
+   "i": 27,
+   "w": "the",
+   "s": 81.171,
+   "e": 81.231
+  },
+  {
+   "c": 10,
+   "i": 28,
+   "w": "cold",
+   "s": 81.231,
+   "e": 81.371
+  },
+  {
+   "c": 10,
+   "i": 29,
+   "w": "comes",
+   "s": 81.371,
+   "e": 81.591
+  },
+  {
+   "c": 10,
+   "i": 30,
+   "w": "back.",
+   "s": 81.591,
+   "e": 81.831
+  },
+  {
+   "c": 10,
+   "i": 31,
+   "w": "Normally,",
+   "s": 82.611,
+   "e": 82.611
+  },
+  {
+   "c": 10,
+   "i": 32,
+   "w": "that",
+   "s": 82.931,
+   "e": 83.011
+  },
+  {
+   "c": 10,
+   "i": 33,
+   "w": "takes",
+   "s": 83.011,
+   "e": 83.211
+  },
+  {
+   "c": 10,
+   "i": 34,
+   "w": "maybe",
+   "s": 83.211,
+   "e": 83.431
+  },
+  {
+   "c": 10,
+   "i": 35,
+   "w": "an",
+   "s": 83.431,
+   "e": 83.551
+  },
+  {
+   "c": 10,
+   "i": 36,
+   "w": "hour.",
+   "s": 83.551,
+   "e": 83.811
+  },
+  {
+   "c": 11,
+   "i": 0,
+   "w": "During",
+   "s": 84.429,
+   "e": 84.689
+  },
+  {
+   "c": 11,
+   "i": 1,
+   "w": "that",
+   "s": 84.689,
+   "e": 84.889
+  },
+  {
+   "c": 11,
+   "i": 2,
+   "w": "time,",
+   "s": 84.889,
+   "e": 85.189
+  },
+  {
+   "c": 11,
+   "i": 3,
+   "w": "the",
+   "s": 85.429,
+   "e": 85.469
+  },
+  {
+   "c": 11,
+   "i": 4,
+   "w": "fridge",
+   "s": 85.469,
+   "e": 85.649
+  },
+  {
+   "c": 11,
+   "i": 5,
+   "w": "is",
+   "s": 85.649,
+   "e": 85.889
+  },
+  {
+   "c": 11,
+   "i": 6,
+   "w": "warm",
+   "s": 85.889,
+   "e": 86.089
+  },
+  {
+   "c": 11,
+   "i": 7,
+   "w": "inside.",
+   "s": 86.089,
+   "e": 86.429
+  },
+  {
+   "c": 11,
+   "i": 8,
+   "w": "And",
+   "s": 87.089,
+   "e": 87.209
+  },
+  {
+   "c": 11,
+   "i": 9,
+   "w": "that's",
+   "s": 87.209,
+   "e": 87.429
+  },
+  {
+   "c": 11,
+   "i": 10,
+   "w": "fine,",
+   "s": 87.429,
+   "e": 87.649
+  },
+  {
+   "c": 11,
+   "i": 11,
+   "w": "because",
+   "s": 87.909,
+   "e": 88.069
+  },
+  {
+   "c": 11,
+   "i": 12,
+   "w": "the",
+   "s": 88.069,
+   "e": 88.229
+  },
+  {
+   "c": 11,
+   "i": 13,
+   "w": "controller",
+   "s": 88.229,
+   "e": 88.489
+  },
+  {
+   "c": 11,
+   "i": 14,
+   "w": "knows",
+   "s": 88.489,
+   "e": 88.769
+  },
+  {
+   "c": 11,
+   "i": 15,
+   "w": "exactly",
+   "s": 88.769,
+   "e": 89.049
+  },
+  {
+   "c": 11,
+   "i": 16,
+   "w": "when",
+   "s": 89.049,
+   "e": 89.329
+  },
+  {
+   "c": 11,
+   "i": 17,
+   "w": "to",
+   "s": 89.329,
+   "e": 89.449
+  },
+  {
+   "c": 11,
+   "i": 18,
+   "w": "stop.",
+   "s": 89.449,
+   "e": 89.649
+  },
+  {
+   "c": 12,
+   "i": 0,
+   "w": "Unless",
+   "s": 90.13,
+   "e": 90.37
+  },
+  {
+   "c": 12,
+   "i": 1,
+   "w": "someone",
+   "s": 90.37,
+   "e": 90.59
+  },
+  {
+   "c": 12,
+   "i": 2,
+   "w": "else",
+   "s": 90.59,
+   "e": 90.83
+  },
+  {
+   "c": 12,
+   "i": 3,
+   "w": "is",
+   "s": 90.83,
+   "e": 90.97
+  },
+  {
+   "c": 12,
+   "i": 4,
+   "w": "giving",
+   "s": 90.97,
+   "e": 91.15
+  },
+  {
+   "c": 12,
+   "i": 5,
+   "w": "the",
+   "s": 91.15,
+   "e": 91.33
+  },
+  {
+   "c": 12,
+   "i": 6,
+   "w": "orders.",
+   "s": 91.33,
+   "e": 91.55
+  },
+  {
+   "c": 13,
+   "i": 0,
+   "w": "So",
+   "s": 92.238,
+   "e": 92.458
+  },
+  {
+   "c": 13,
+   "i": 1,
+   "w": "the",
+   "s": 92.458,
+   "e": 92.638
+  },
+  {
+   "c": 13,
+   "i": 2,
+   "w": "controller",
+   "s": 92.638,
+   "e": 92.918
+  },
+  {
+   "c": 13,
+   "i": 3,
+   "w": "can",
+   "s": 92.918,
+   "e": 93.198
+  },
+  {
+   "c": 13,
+   "i": 4,
+   "w": "make",
+   "s": 93.198,
+   "e": 93.358
+  },
+  {
+   "c": 13,
+   "i": 5,
+   "w": "a",
+   "s": 93.358,
+   "e": 93.458
+  },
+  {
+   "c": 13,
+   "i": 6,
+   "w": "fridge",
+   "s": 93.458,
+   "e": 93.618
+  },
+  {
+   "c": 13,
+   "i": 7,
+   "w": "warm,",
+   "s": 93.618,
+   "e": 93.978
+  },
+  {
+   "c": 13,
+   "i": 8,
+   "w": "on",
+   "s": 94.258,
+   "e": 94.358
+  },
+  {
+   "c": 13,
+   "i": 9,
+   "w": "purpose.",
+   "s": 94.358,
+   "e": 94.658
+  },
+  {
+   "c": 13,
+   "i": 10,
+   "w": "Remember",
+   "s": 95.098,
+   "e": 95.258
+  },
+  {
+   "c": 13,
+   "i": 11,
+   "w": "that.",
+   "s": 95.258,
+   "e": 95.598
+  },
+  {
+   "c": 13,
+   "i": 12,
+   "w": "Because",
+   "s": 96.038,
+   "e": 96.198
+  },
+  {
+   "c": 13,
+   "i": 13,
+   "w": "that's",
+   "s": 96.198,
+   "e": 96.478
+  },
+  {
+   "c": 13,
+   "i": 14,
+   "w": "exactly",
+   "s": 96.478,
+   "e": 96.758
+  },
+  {
+   "c": 13,
+   "i": 15,
+   "w": "the",
+   "s": 96.758,
+   "e": 97.058
+  },
+  {
+   "c": 13,
+   "i": 16,
+   "w": "switch",
+   "s": 97.058,
+   "e": 97.218
+  },
+  {
+   "c": 13,
+   "i": 17,
+   "w": "the",
+   "s": 97.218,
+   "e": 97.418
+  },
+  {
+   "c": 13,
+   "i": 18,
+   "w": "hackers",
+   "s": 97.418,
+   "e": 97.558
+  },
+  {
+   "c": 13,
+   "i": 19,
+   "w": "pulled.",
+   "s": 97.558,
+   "e": 97.898
+  },
+  {
+   "c": 14,
+   "i": 0,
+   "w": "Now,",
+   "s": 98.889,
+   "e": 99.149
+  },
+  {
+   "c": 14,
+   "i": 1,
+   "w": "why",
+   "s": 99.429,
+   "e": 99.629
+  },
+  {
+   "c": 14,
+   "i": 2,
+   "w": "would",
+   "s": 99.629,
+   "e": 99.789
+  },
+  {
+   "c": 14,
+   "i": 3,
+   "w": "anyone",
+   "s": 99.789,
+   "e": 100.029
+  },
+  {
+   "c": 14,
+   "i": 4,
+   "w": "connect",
+   "s": 100.029,
+   "e": 100.329
+  },
+  {
+   "c": 14,
+   "i": 5,
+   "w": "this",
+   "s": 100.329,
+   "e": 100.609
+  },
+  {
+   "c": 14,
+   "i": 6,
+   "w": "box",
+   "s": 100.609,
+   "e": 100.829
+  },
+  {
+   "c": 14,
+   "i": 7,
+   "w": "to",
+   "s": 100.829,
+   "e": 101.089
+  },
+  {
+   "c": 14,
+   "i": 8,
+   "w": "the",
+   "s": 101.089,
+   "e": 101.189
+  },
+  {
+   "c": 14,
+   "i": 9,
+   "w": "internet?",
+   "s": 101.189,
+   "e": 101.469
+  },
+  {
+   "c": 15,
+   "i": 0,
+   "w": "Convenience.",
+   "s": 102.223,
+   "e": 102.743
+  },
+  {
+   "c": 15,
+   "i": 1,
+   "w": "A",
+   "s": 103.423,
+   "e": 103.423
+  },
+  {
+   "c": 15,
+   "i": 2,
+   "w": "supermarket",
+   "s": 103.423,
+   "e": 103.643
+  },
+  {
+   "c": 15,
+   "i": 3,
+   "w": "chain",
+   "s": 103.643,
+   "e": 104.183
+  },
+  {
+   "c": 15,
+   "i": 4,
+   "w": "might",
+   "s": 104.183,
+   "e": 104.423
+  },
+  {
+   "c": 15,
+   "i": 5,
+   "w": "have",
+   "s": 104.423,
+   "e": 104.723
+  },
+  {
+   "c": 15,
+   "i": 6,
+   "w": "hundreds",
+   "s": 104.723,
+   "e": 105.083
+  },
+  {
+   "c": 15,
+   "i": 7,
+   "w": "of",
+   "s": 105.083,
+   "e": 105.303
+  },
+  {
+   "c": 15,
+   "i": 8,
+   "w": "stores.",
+   "s": 105.303,
+   "e": 105.503
+  },
+  {
+   "c": 15,
+   "i": 9,
+   "w": "The",
+   "s": 106.383,
+   "e": 106.403
+  },
+  {
+   "c": 15,
+   "i": 10,
+   "w": "maintenance",
+   "s": 106.403,
+   "e": 106.563
+  },
+  {
+   "c": 15,
+   "i": 11,
+   "w": "company",
+   "s": 106.563,
+   "e": 107.003
+  },
+  {
+   "c": 15,
+   "i": 12,
+   "w": "can't",
+   "s": 107.003,
+   "e": 107.323
+  },
+  {
+   "c": 15,
+   "i": 13,
+   "w": "drive",
+   "s": 107.323,
+   "e": 107.463
+  },
+  {
+   "c": 15,
+   "i": 14,
+   "w": "to",
+   "s": 107.463,
+   "e": 107.663
+  },
+  {
+   "c": 15,
+   "i": 15,
+   "w": "every",
+   "s": 107.663,
+   "e": 107.823
+  },
+  {
+   "c": 15,
+   "i": 16,
+   "w": "single",
+   "s": 107.823,
+   "e": 108.003
+  },
+  {
+   "c": 15,
+   "i": 17,
+   "w": "one.",
+   "s": 108.003,
+   "e": 108.403
+  },
+  {
+   "c": 15,
+   "i": 18,
+   "w": "So",
+   "s": 108.823,
+   "e": 108.823
+  },
+  {
+   "c": 15,
+   "i": 19,
+   "w": "the",
+   "s": 108.823,
+   "e": 108.943
+  },
+  {
+   "c": 15,
+   "i": 20,
+   "w": "controllers",
+   "s": 108.943,
+   "e": 109.183
+  },
+  {
+   "c": 15,
+   "i": 21,
+   "w": "get",
+   "s": 109.183,
+   "e": 109.463
+  },
+  {
+   "c": 15,
+   "i": 22,
+   "w": "a",
+   "s": 109.463,
+   "e": 109.543
+  },
+  {
+   "c": 15,
+   "i": 23,
+   "w": "web",
+   "s": 109.543,
+   "e": 109.663
+  },
+  {
+   "c": 15,
+   "i": 24,
+   "w": "page,",
+   "s": 109.663,
+   "e": 110.083
+  },
+  {
+   "c": 15,
+   "i": 25,
+   "w": "and",
+   "s": 110.283,
+   "e": 110.363
+  },
+  {
+   "c": 15,
+   "i": 26,
+   "w": "technicians",
+   "s": 110.363,
+   "e": 110.623
+  },
+  {
+   "c": 15,
+   "i": 27,
+   "w": "log",
+   "s": 110.623,
+   "e": 111.003
+  },
+  {
+   "c": 15,
+   "i": 28,
+   "w": "in",
+   "s": 111.003,
+   "e": 111.183
+  },
+  {
+   "c": 15,
+   "i": 29,
+   "w": "from",
+   "s": 111.183,
+   "e": 111.363
+  },
+  {
+   "c": 15,
+   "i": 30,
+   "w": "far",
+   "s": 111.363,
+   "e": 111.543
+  },
+  {
+   "c": 15,
+   "i": 31,
+   "w": "away",
+   "s": 111.543,
+   "e": 111.763
+  },
+  {
+   "c": 15,
+   "i": 32,
+   "w": "to",
+   "s": 111.763,
+   "e": 111.943
+  },
+  {
+   "c": 15,
+   "i": 33,
+   "w": "check",
+   "s": 111.943,
+   "e": 112.103
+  },
+  {
+   "c": 15,
+   "i": 34,
+   "w": "temperatures",
+   "s": 112.103,
+   "e": 112.363
+  },
+  {
+   "c": 15,
+   "i": 35,
+   "w": "and",
+   "s": 112.363,
+   "e": 112.683
+  },
+  {
+   "c": 15,
+   "i": 36,
+   "w": "change",
+   "s": 112.683,
+   "e": 112.803
+  },
+  {
+   "c": 15,
+   "i": 37,
+   "w": "settings.",
+   "s": 112.803,
+   "e": 113.163
+  },
+  {
+   "c": 16,
+   "i": 0,
+   "w": "It",
+   "s": 113.955,
+   "e": 114.115
+  },
+  {
+   "c": 16,
+   "i": 1,
+   "w": "saves",
+   "s": 114.115,
+   "e": 114.295
+  },
+  {
+   "c": 16,
+   "i": 2,
+   "w": "time.",
+   "s": 114.295,
+   "e": 114.635
+  },
+  {
+   "c": 16,
+   "i": 3,
+   "w": "It",
+   "s": 115.215,
+   "e": 115.255
+  },
+  {
+   "c": 16,
+   "i": 4,
+   "w": "saves",
+   "s": 115.255,
+   "e": 115.415
+  },
+  {
+   "c": 16,
+   "i": 5,
+   "w": "money.",
+   "s": 115.415,
+   "e": 115.815
+  },
+  {
+   "c": 16,
+   "i": 6,
+   "w": "And",
+   "s": 116.455,
+   "e": 116.495
+  },
+  {
+   "c": 16,
+   "i": 7,
+   "w": "when",
+   "s": 116.495,
+   "e": 116.615
+  },
+  {
+   "c": 16,
+   "i": 8,
+   "w": "something",
+   "s": 116.615,
+   "e": 116.835
+  },
+  {
+   "c": 16,
+   "i": 9,
+   "w": "breaks",
+   "s": 116.835,
+   "e": 117.075
+  },
+  {
+   "c": 16,
+   "i": 10,
+   "w": "at",
+   "s": 117.075,
+   "e": 117.295
+  },
+  {
+   "c": 16,
+   "i": 11,
+   "w": "three",
+   "s": 117.295,
+   "e": 117.455
+  },
+  {
+   "c": 16,
+   "i": 12,
+   "w": "in",
+   "s": 117.455,
+   "e": 117.595
+  },
+  {
+   "c": 16,
+   "i": 13,
+   "w": "the",
+   "s": 117.595,
+   "e": 117.675
+  },
+  {
+   "c": 16,
+   "i": 14,
+   "w": "morning,",
+   "s": 117.675,
+   "e": 117.915
+  },
+  {
+   "c": 16,
+   "i": 15,
+   "w": "a",
+   "s": 118.215,
+   "e": 118.235
+  },
+  {
+   "c": 16,
+   "i": 16,
+   "w": "technician",
+   "s": 118.235,
+   "e": 118.495
+  },
+  {
+   "c": 16,
+   "i": 17,
+   "w": "can",
+   "s": 118.495,
+   "e": 118.815
+  },
+  {
+   "c": 16,
+   "i": 18,
+   "w": "fix",
+   "s": 118.815,
+   "e": 119.015
+  },
+  {
+   "c": 16,
+   "i": 19,
+   "w": "it",
+   "s": 119.015,
+   "e": 119.155
+  },
+  {
+   "c": 16,
+   "i": 20,
+   "w": "from",
+   "s": 119.155,
+   "e": 119.295
+  },
+  {
+   "c": 16,
+   "i": 21,
+   "w": "home,",
+   "s": 119.295,
+   "e": 119.475
+  },
+  {
+   "c": 16,
+   "i": 22,
+   "w": "in",
+   "s": 119.835,
+   "e": 119.875
+  },
+  {
+   "c": 16,
+   "i": 23,
+   "w": "pyjamas.",
+   "s": 119.875,
+   "e": 120.195
+  },
+  {
+   "c": 17,
+   "i": 0,
+   "w": "The",
+   "s": 120.881,
+   "e": 121.041
+  },
+  {
+   "c": 17,
+   "i": 1,
+   "w": "problem",
+   "s": 121.041,
+   "e": 121.261
+  },
+  {
+   "c": 17,
+   "i": 2,
+   "w": "is,",
+   "s": 121.261,
+   "e": 121.541
+  },
+  {
+   "c": 17,
+   "i": 3,
+   "w": "if",
+   "s": 121.801,
+   "e": 121.981
+  },
+  {
+   "c": 17,
+   "i": 4,
+   "w": "a",
+   "s": 121.981,
+   "e": 122.021
+  },
+  {
+   "c": 17,
+   "i": 5,
+   "w": "technician",
+   "s": 122.021,
+   "e": 122.281
+  },
+  {
+   "c": 17,
+   "i": 6,
+   "w": "can",
+   "s": 122.281,
+   "e": 122.641
+  },
+  {
+   "c": 17,
+   "i": 7,
+   "w": "reach",
+   "s": 122.641,
+   "e": 122.841
+  },
+  {
+   "c": 17,
+   "i": 8,
+   "w": "that",
+   "s": 122.841,
+   "e": 123.061
+  },
+  {
+   "c": 17,
+   "i": 9,
+   "w": "web",
+   "s": 123.061,
+   "e": 123.201
+  },
+  {
+   "c": 17,
+   "i": 10,
+   "w": "page",
+   "s": 123.201,
+   "e": 123.521
+  },
+  {
+   "c": 17,
+   "i": 11,
+   "w": "from",
+   "s": 123.521,
+   "e": 123.741
+  },
+  {
+   "c": 17,
+   "i": 12,
+   "w": "anywhere",
+   "s": 123.741,
+   "e": 124.021
+  },
+  {
+   "c": 17,
+   "i": 13,
+   "w": "in",
+   "s": 124.021,
+   "e": 124.261
+  },
+  {
+   "c": 17,
+   "i": 14,
+   "w": "the",
+   "s": 124.261,
+   "e": 124.321
+  },
+  {
+   "c": 17,
+   "i": 15,
+   "w": "world,",
+   "s": 124.321,
+   "e": 124.661
+  },
+  {
+   "c": 17,
+   "i": 16,
+   "w": "so",
+   "s": 125.221,
+   "e": 125.281
+  },
+  {
+   "c": 17,
+   "i": 17,
+   "w": "can",
+   "s": 125.281,
+   "e": 125.421
+  },
+  {
+   "c": 17,
+   "i": 18,
+   "w": "anybody",
+   "s": 125.421,
+   "e": 125.681
+  },
+  {
+   "c": 17,
+   "i": 19,
+   "w": "else.",
+   "s": 125.681,
+   "e": 126.041
+  },
+  {
+   "c": 18,
+   "i": 0,
+   "w": "Many",
+   "s": 126.73,
+   "e": 126.99
+  },
+  {
+   "c": 18,
+   "i": 1,
+   "w": "of",
+   "s": 126.99,
+   "e": 127.07
+  },
+  {
+   "c": 18,
+   "i": 2,
+   "w": "these",
+   "s": 127.07,
+   "e": 127.21
+  },
+  {
+   "c": 18,
+   "i": 3,
+   "w": "controllers",
+   "s": 127.21,
+   "e": 127.55
+  },
+  {
+   "c": 18,
+   "i": 4,
+   "w": "were",
+   "s": 127.55,
+   "e": 127.89
+  },
+  {
+   "c": 18,
+   "i": 5,
+   "w": "made",
+   "s": 127.89,
+   "e": 128.07
+  },
+  {
+   "c": 18,
+   "i": 6,
+   "w": "by",
+   "s": 128.07,
+   "e": 128.27
+  },
+  {
+   "c": 18,
+   "i": 7,
+   "w": "a",
+   "s": 128.27,
+   "e": 128.39
+  },
+  {
+   "c": 18,
+   "i": 8,
+   "w": "Danish",
+   "s": 128.39,
+   "e": 128.59
+  },
+  {
+   "c": 18,
+   "i": 9,
+   "w": "company",
+   "s": 128.59,
+   "e": 128.87
+  },
+  {
+   "c": 18,
+   "i": 10,
+   "w": "called",
+   "s": 128.87,
+   "e": 129.23
+  },
+  {
+   "c": 18,
+   "i": 11,
+   "w": "Danfoss.",
+   "s": 129.23,
+   "e": 129.69
+  },
+  {
+   "c": 18,
+   "i": 12,
+   "w": "And",
+   "s": 130.33,
+   "e": 130.39
+  },
+  {
+   "c": 18,
+   "i": 13,
+   "w": "the",
+   "s": 130.39,
+   "e": 130.47
+  },
+  {
+   "c": 18,
+   "i": 14,
+   "w": "models",
+   "s": 130.47,
+   "e": 130.65
+  },
+  {
+   "c": 18,
+   "i": 15,
+   "w": "at",
+   "s": 130.65,
+   "e": 130.89
+  },
+  {
+   "c": 18,
+   "i": 16,
+   "w": "the",
+   "s": 130.89,
+   "e": 130.97
+  },
+  {
+   "c": 18,
+   "i": 17,
+   "w": "center",
+   "s": 130.97,
+   "e": 131.17
+  },
+  {
+   "c": 18,
+   "i": 18,
+   "w": "of",
+   "s": 131.17,
+   "e": 131.35
+  },
+  {
+   "c": 18,
+   "i": 19,
+   "w": "this",
+   "s": 131.35,
+   "e": 131.47
+  },
+  {
+   "c": 18,
+   "i": 20,
+   "w": "story",
+   "s": 131.47,
+   "e": 131.71
+  },
+  {
+   "c": 18,
+   "i": 21,
+   "w": "are",
+   "s": 131.71,
+   "e": 132.05
+  },
+  {
+   "c": 18,
+   "i": 22,
+   "w": "old.",
+   "s": 132.05,
+   "e": 132.27
+  },
+  {
+   "c": 18,
+   "i": 23,
+   "w": "Really",
+   "s": 133.03,
+   "e": 133.03
+  },
+  {
+   "c": 18,
+   "i": 24,
+   "w": "old.",
+   "s": 133.03,
+   "e": 133.27
+  },
+  {
+   "c": 19,
+   "i": 0,
+   "w": "Danfoss",
+   "s": 133.931,
+   "e": 134.371
+  },
+  {
+   "c": 19,
+   "i": 1,
+   "w": "says",
+   "s": 134.371,
+   "e": 134.611
+  },
+  {
+   "c": 19,
+   "i": 2,
+   "w": "most",
+   "s": 134.611,
+   "e": 134.871
+  },
+  {
+   "c": 19,
+   "i": 3,
+   "w": "of",
+   "s": 134.871,
+   "e": 135.051
+  },
+  {
+   "c": 19,
+   "i": 4,
+   "w": "the",
+   "s": 135.051,
+   "e": 135.151
+  },
+  {
+   "c": 19,
+   "i": 5,
+   "w": "hacked",
+   "s": 135.151,
+   "e": 135.251
+  },
+  {
+   "c": 19,
+   "i": 6,
+   "w": "units",
+   "s": 135.251,
+   "e": 135.571
+  },
+  {
+   "c": 19,
+   "i": 7,
+   "w": "were",
+   "s": 135.571,
+   "e": 135.791
+  },
+  {
+   "c": 19,
+   "i": 8,
+   "w": "legacy",
+   "s": 135.791,
+   "e": 136.031
+  },
+  {
+   "c": 19,
+   "i": 9,
+   "w": "products.",
+   "s": 136.031,
+   "e": 136.371
+  },
+  {
+   "c": 19,
+   "i": 10,
+   "w": "One",
+   "s": 137.111,
+   "e": 137.111
+  },
+  {
+   "c": 19,
+   "i": 11,
+   "w": "model",
+   "s": 137.111,
+   "e": 137.431
+  },
+  {
+   "c": 19,
+   "i": 12,
+   "w": "was",
+   "s": 137.431,
+   "e": 137.591
+  },
+  {
+   "c": 19,
+   "i": 13,
+   "w": "phased",
+   "s": 137.591,
+   "e": 137.731
+  },
+  {
+   "c": 19,
+   "i": 14,
+   "w": "out",
+   "s": 137.731,
+   "e": 138.051
+  },
+  {
+   "c": 19,
+   "i": 15,
+   "w": "in",
+   "s": 138.051,
+   "e": 138.211
+  },
+  {
+   "c": 19,
+   "i": 16,
+   "w": "2016.",
+   "s": 138.211,
+   "e": 138.871
+  },
+  {
+   "c": 19,
+   "i": 17,
+   "w": "Another",
+   "s": 139.591,
+   "e": 139.771
+  },
+  {
+   "c": 19,
+   "i": 18,
+   "w": "reached",
+   "s": 139.771,
+   "e": 140.071
+  },
+  {
+   "c": 19,
+   "i": 19,
+   "w": "its",
+   "s": 140.071,
+   "e": 140.251
+  },
+  {
+   "c": 19,
+   "i": 20,
+   "w": "end",
+   "s": 140.251,
+   "e": 140.411
+  },
+  {
+   "c": 19,
+   "i": 21,
+   "w": "of",
+   "s": 140.411,
+   "e": 140.531
+  },
+  {
+   "c": 19,
+   "i": 22,
+   "w": "life",
+   "s": 140.531,
+   "e": 140.691
+  },
+  {
+   "c": 19,
+   "i": 23,
+   "w": "in",
+   "s": 140.691,
+   "e": 140.891
+  },
+  {
+   "c": 19,
+   "i": 24,
+   "w": "2021.",
+   "s": 140.891,
+   "e": 141.491
+  },
+  {
+   "c": 19,
+   "i": 25,
+   "w": "They",
+   "s": 142.291,
+   "e": 142.391
+  },
+  {
+   "c": 19,
+   "i": 26,
+   "w": "no",
+   "s": 142.391,
+   "e": 142.531
+  },
+  {
+   "c": 19,
+   "i": 27,
+   "w": "longer",
+   "s": 142.531,
+   "e": 142.791
+  },
+  {
+   "c": 19,
+   "i": 28,
+   "w": "get",
+   "s": 142.791,
+   "e": 142.931
+  },
+  {
+   "c": 19,
+   "i": 29,
+   "w": "software",
+   "s": 142.931,
+   "e": 143.231
+  },
+  {
+   "c": 19,
+   "i": 30,
+   "w": "or",
+   "s": 143.231,
+   "e": 143.531
+  },
+  {
+   "c": 19,
+   "i": 31,
+   "w": "security",
+   "s": 143.531,
+   "e": 143.851
+  },
+  {
+   "c": 19,
+   "i": 32,
+   "w": "updates.",
+   "s": 143.851,
+   "e": 144.271
+  },
+  {
+   "c": 20,
+   "i": 0,
+   "w": "And",
+   "s": 144.998,
+   "e": 145.338
+  },
+  {
+   "c": 20,
+   "i": 1,
+   "w": "Danfoss",
+   "s": 145.338,
+   "e": 145.778
+  },
+  {
+   "c": 20,
+   "i": 2,
+   "w": "had",
+   "s": 145.778,
+   "e": 145.958
+  },
+  {
+   "c": 20,
+   "i": 3,
+   "w": "already",
+   "s": 145.958,
+   "e": 146.258
+  },
+  {
+   "c": 20,
+   "i": 4,
+   "w": "published",
+   "s": 146.258,
+   "e": 146.618
+  },
+  {
+   "c": 20,
+   "i": 5,
+   "w": "security",
+   "s": 146.618,
+   "e": 146.898
+  },
+  {
+   "c": 20,
+   "i": 6,
+   "w": "warnings",
+   "s": 146.898,
+   "e": 147.378
+  },
+  {
+   "c": 20,
+   "i": 7,
+   "w": "about",
+   "s": 147.378,
+   "e": 147.678
+  },
+  {
+   "c": 20,
+   "i": 8,
+   "w": "weaknesses",
+   "s": 147.678,
+   "e": 147.998
+  },
+  {
+   "c": 20,
+   "i": 9,
+   "w": "in",
+   "s": 147.998,
+   "e": 148.358
+  },
+  {
+   "c": 20,
+   "i": 10,
+   "w": "some",
+   "s": 148.358,
+   "e": 148.458
+  },
+  {
+   "c": 20,
+   "i": 11,
+   "w": "of",
+   "s": 148.458,
+   "e": 148.578
+  },
+  {
+   "c": 20,
+   "i": 12,
+   "w": "its",
+   "s": 148.578,
+   "e": 148.698
+  },
+  {
+   "c": 20,
+   "i": 13,
+   "w": "controllers,",
+   "s": 148.698,
+   "e": 149.018
+  },
+  {
+   "c": 20,
+   "i": 14,
+   "w": "in",
+   "s": 149.438,
+   "e": 149.498
+  },
+  {
+   "c": 20,
+   "i": 15,
+   "w": "March",
+   "s": 149.498,
+   "e": 149.678
+  },
+  {
+   "c": 20,
+   "i": 16,
+   "w": "and",
+   "s": 149.678,
+   "e": 149.898
+  },
+  {
+   "c": 20,
+   "i": 17,
+   "w": "August",
+   "s": 149.898,
+   "e": 150.198
+  },
+  {
+   "c": 20,
+   "i": 18,
+   "w": "of",
+   "s": 150.198,
+   "e": 150.358
+  },
+  {
+   "c": 20,
+   "i": 19,
+   "w": "2025.",
+   "s": 150.358,
+   "e": 150.838
+  },
+  {
+   "c": 20,
+   "i": 20,
+   "w": "Months",
+   "s": 151.738,
+   "e": 151.918
+  },
+  {
+   "c": 20,
+   "i": 21,
+   "w": "before",
+   "s": 151.918,
+   "e": 152.198
+  },
+  {
+   "c": 20,
+   "i": 22,
+   "w": "the",
+   "s": 152.198,
+   "e": 152.458
+  },
+  {
+   "c": 20,
+   "i": 23,
+   "w": "attack.",
+   "s": 152.458,
+   "e": 152.718
+  },
+  {
+   "c": 21,
+   "i": 0,
+   "w": "But",
+   "s": 153.345,
+   "e": 153.485
+  },
+  {
+   "c": 21,
+   "i": 1,
+   "w": "here's",
+   "s": 153.485,
+   "e": 153.725
+  },
+  {
+   "c": 21,
+   "i": 2,
+   "w": "the",
+   "s": 153.725,
+   "e": 153.805
+  },
+  {
+   "c": 21,
+   "i": 3,
+   "w": "thing",
+   "s": 153.805,
+   "e": 153.945
+  },
+  {
+   "c": 21,
+   "i": 4,
+   "w": "about",
+   "s": 153.945,
+   "e": 154.125
+  },
+  {
+   "c": 21,
+   "i": 5,
+   "w": "fridges.",
+   "s": 154.125,
+   "e": 154.345
+  },
+  {
+   "c": 21,
+   "i": 6,
+   "w": "When",
+   "s": 155.025,
+   "e": 155.045
+  },
+  {
+   "c": 21,
+   "i": 7,
+   "w": "they",
+   "s": 155.045,
+   "e": 155.165
+  },
+  {
+   "c": 21,
+   "i": 8,
+   "w": "work,",
+   "s": 155.165,
+   "e": 155.365
+  },
+  {
+   "c": 21,
+   "i": 9,
+   "w": "nobody",
+   "s": 155.545,
+   "e": 155.665
+  },
+  {
+   "c": 21,
+   "i": 10,
+   "w": "touches",
+   "s": 155.665,
+   "e": 156.025
+  },
+  {
+   "c": 21,
+   "i": 11,
+   "w": "them.",
+   "s": 156.025,
+   "e": 156.265
+  },
+  {
+   "c": 21,
+   "i": 12,
+   "w": "These",
+   "s": 156.585,
+   "e": 156.625
+  },
+  {
+   "c": 21,
+   "i": 13,
+   "w": "machines",
+   "s": 156.625,
+   "e": 156.925
+  },
+  {
+   "c": 21,
+   "i": 14,
+   "w": "can",
+   "s": 156.925,
+   "e": 157.185
+  },
+  {
+   "c": 21,
+   "i": 15,
+   "w": "run",
+   "s": 157.185,
+   "e": 157.345
+  },
+  {
+   "c": 21,
+   "i": 16,
+   "w": "for",
+   "s": 157.345,
+   "e": 157.565
+  },
+  {
+   "c": 21,
+   "i": 17,
+   "w": "many",
+   "s": 157.565,
+   "e": 157.705
+  },
+  {
+   "c": 21,
+   "i": 18,
+   "w": "years.",
+   "s": 157.705,
+   "e": 158.025
+  },
+  {
+   "c": 21,
+   "i": 19,
+   "w": "Replacing",
+   "s": 158.605,
+   "e": 158.865
+  },
+  {
+   "c": 21,
+   "i": 20,
+   "w": "them",
+   "s": 158.865,
+   "e": 159.085
+  },
+  {
+   "c": 21,
+   "i": 21,
+   "w": "costs",
+   "s": 159.085,
+   "e": 159.285
+  },
+  {
+   "c": 21,
+   "i": 22,
+   "w": "money.",
+   "s": 159.285,
+   "e": 159.645
+  },
+  {
+   "c": 21,
+   "i": 23,
+   "w": "So",
+   "s": 160.285,
+   "e": 160.285
+  },
+  {
+   "c": 21,
+   "i": 24,
+   "w": "old",
+   "s": 160.285,
+   "e": 160.465
+  },
+  {
+   "c": 21,
+   "i": 25,
+   "w": "controllers",
+   "s": 160.465,
+   "e": 160.805
+  },
+  {
+   "c": 21,
+   "i": 26,
+   "w": "stay",
+   "s": 160.805,
+   "e": 161.185
+  },
+  {
+   "c": 21,
+   "i": 27,
+   "w": "on",
+   "s": 161.185,
+   "e": 161.305
+  },
+  {
+   "c": 21,
+   "i": 28,
+   "w": "the",
+   "s": 161.305,
+   "e": 161.385
+  },
+  {
+   "c": 21,
+   "i": 29,
+   "w": "wall,",
+   "s": 161.385,
+   "e": 161.605
+  },
+  {
+   "c": 21,
+   "i": 30,
+   "w": "long",
+   "s": 161.785,
+   "e": 161.885
+  },
+  {
+   "c": 21,
+   "i": 31,
+   "w": "after",
+   "s": 161.885,
+   "e": 162.105
+  },
+  {
+   "c": 21,
+   "i": 32,
+   "w": "the",
+   "s": 162.105,
+   "e": 162.285
+  },
+  {
+   "c": 21,
+   "i": 33,
+   "w": "company",
+   "s": 162.285,
+   "e": 162.565
+  },
+  {
+   "c": 21,
+   "i": 34,
+   "w": "that",
+   "s": 162.565,
+   "e": 162.765
+  },
+  {
+   "c": 21,
+   "i": 35,
+   "w": "made",
+   "s": 162.765,
+   "e": 162.925
+  },
+  {
+   "c": 21,
+   "i": 36,
+   "w": "them",
+   "s": 162.925,
+   "e": 163.085
+  },
+  {
+   "c": 21,
+   "i": 37,
+   "w": "stopped",
+   "s": 163.085,
+   "e": 163.265
+  },
+  {
+   "c": 21,
+   "i": 38,
+   "w": "fixing",
+   "s": 163.265,
+   "e": 163.545
+  },
+  {
+   "c": 21,
+   "i": 39,
+   "w": "them.",
+   "s": 163.545,
+   "e": 163.805
+  },
+  {
+   "c": 22,
+   "i": 0,
+   "w": "So",
+   "s": 164.373,
+   "e": 164.593
+  },
+  {
+   "c": 22,
+   "i": 1,
+   "w": "picture",
+   "s": 164.593,
+   "e": 164.833
+  },
+  {
+   "c": 22,
+   "i": 2,
+   "w": "it.",
+   "s": 164.833,
+   "e": 165.133
+  },
+  {
+   "c": 22,
+   "i": 3,
+   "w": "Thousands",
+   "s": 165.753,
+   "e": 165.753
+  },
+  {
+   "c": 22,
+   "i": 4,
+   "w": "of",
+   "s": 165.753,
+   "e": 166.013
+  },
+  {
+   "c": 22,
+   "i": 5,
+   "w": "old",
+   "s": 166.013,
+   "e": 166.133
+  },
+  {
+   "c": 22,
+   "i": 6,
+   "w": "boxes,",
+   "s": 166.133,
+   "e": 166.493
+  },
+  {
+   "c": 22,
+   "i": 7,
+   "w": "running",
+   "s": 166.493,
+   "e": 167.073
+  },
+  {
+   "c": 22,
+   "i": 8,
+   "w": "the",
+   "s": 167.073,
+   "e": 167.253
+  },
+  {
+   "c": 22,
+   "i": 9,
+   "w": "cold",
+   "s": 167.253,
+   "e": 167.433
+  },
+  {
+   "c": 22,
+   "i": 10,
+   "w": "food",
+   "s": 167.433,
+   "e": 167.693
+  },
+  {
+   "c": 22,
+   "i": 11,
+   "w": "of",
+   "s": 167.693,
+   "e": 167.893
+  },
+  {
+   "c": 22,
+   "i": 12,
+   "w": "a",
+   "s": 167.893,
+   "e": 167.973
+  },
+  {
+   "c": 22,
+   "i": 13,
+   "w": "whole",
+   "s": 167.973,
+   "e": 168.113
+  },
+  {
+   "c": 22,
+   "i": 14,
+   "w": "country,",
+   "s": 168.113,
+   "e": 168.513
+  },
+  {
+   "c": 22,
+   "i": 15,
+   "w": "with",
+   "s": 168.973,
+   "e": 169.053
+  },
+  {
+   "c": 22,
+   "i": 16,
+   "w": "their",
+   "s": 169.053,
+   "e": 169.193
+  },
+  {
+   "c": 22,
+   "i": 17,
+   "w": "front",
+   "s": 169.193,
+   "e": 169.413
+  },
+  {
+   "c": 22,
+   "i": 18,
+   "w": "door",
+   "s": 169.413,
+   "e": 169.613
+  },
+  {
+   "c": 22,
+   "i": 19,
+   "w": "facing",
+   "s": 169.613,
+   "e": 169.893
+  },
+  {
+   "c": 22,
+   "i": 20,
+   "w": "the",
+   "s": 169.893,
+   "e": 170.133
+  },
+  {
+   "c": 22,
+   "i": 21,
+   "w": "internet,",
+   "s": 170.133,
+   "e": 170.373
+  },
+  {
+   "c": 22,
+   "i": 22,
+   "w": "and",
+   "s": 170.973,
+   "e": 171.073
+  },
+  {
+   "c": 22,
+   "i": 23,
+   "w": "no",
+   "s": 171.073,
+   "e": 171.313
+  },
+  {
+   "c": 22,
+   "i": 24,
+   "w": "new",
+   "s": 171.313,
+   "e": 171.513
+  },
+  {
+   "c": 22,
+   "i": 25,
+   "w": "locks",
+   "s": 171.513,
+   "e": 171.713
+  },
+  {
+   "c": 22,
+   "i": 26,
+   "w": "coming.",
+   "s": 171.713,
+   "e": 172.173
+  },
+  {
+   "c": 22,
+   "i": 27,
+   "w": "Ever.",
+   "s": 172.873,
+   "e": 172.933
+  },
+  {
+   "c": 23,
+   "i": 0,
+   "w": "So",
+   "s": 173.992,
+   "e": 174.292
+  },
+  {
+   "c": 23,
+   "i": 1,
+   "w": "how",
+   "s": 174.292,
+   "e": 174.672
+  },
+  {
+   "c": 23,
+   "i": 2,
+   "w": "did",
+   "s": 174.672,
+   "e": 174.852
+  },
+  {
+   "c": 23,
+   "i": 3,
+   "w": "the",
+   "s": 174.852,
+   "e": 174.972
+  },
+  {
+   "c": 23,
+   "i": 4,
+   "w": "attackers",
+   "s": 174.972,
+   "e": 175.212
+  },
+  {
+   "c": 23,
+   "i": 5,
+   "w": "get",
+   "s": 175.212,
+   "e": 175.552
+  },
+  {
+   "c": 23,
+   "i": 6,
+   "w": "in?",
+   "s": 175.552,
+   "e": 175.732
+  },
+  {
+   "c": 24,
+   "i": 0,
+   "w": "Honestly,",
+   "s": 176.61,
+   "e": 176.91
+  },
+  {
+   "c": 24,
+   "i": 1,
+   "w": "nobody",
+   "s": 177.09,
+   "e": 177.23
+  },
+  {
+   "c": 24,
+   "i": 2,
+   "w": "knows",
+   "s": 177.23,
+   "e": 177.55
+  },
+  {
+   "c": 24,
+   "i": 3,
+   "w": "for",
+   "s": 177.55,
+   "e": 177.73
+  },
+  {
+   "c": 24,
+   "i": 4,
+   "w": "sure",
+   "s": 177.73,
+   "e": 177.91
+  },
+  {
+   "c": 24,
+   "i": 5,
+   "w": "yet.",
+   "s": 177.91,
+   "e": 178.17
+  },
+  {
+   "c": 24,
+   "i": 6,
+   "w": "The",
+   "s": 178.53,
+   "e": 178.59
+  },
+  {
+   "c": 24,
+   "i": 7,
+   "w": "investigation",
+   "s": 178.59,
+   "e": 179.01
+  },
+  {
+   "c": 24,
+   "i": 8,
+   "w": "is",
+   "s": 179.01,
+   "e": 179.35
+  },
+  {
+   "c": 24,
+   "i": 9,
+   "w": "still",
+   "s": 179.35,
+   "e": 179.55
+  },
+  {
+   "c": 24,
+   "i": 10,
+   "w": "going",
+   "s": 179.55,
+   "e": 179.81
+  },
+  {
+   "c": 24,
+   "i": 11,
+   "w": "on.",
+   "s": 179.81,
+   "e": 180.07
+  },
+  {
+   "c": 25,
+   "i": 0,
+   "w": "But",
+   "s": 180.66,
+   "e": 180.88
+  },
+  {
+   "c": 25,
+   "i": 1,
+   "w": "security",
+   "s": 180.88,
+   "e": 181.18
+  },
+  {
+   "c": 25,
+   "i": 2,
+   "w": "experts",
+   "s": 181.18,
+   "e": 181.74
+  },
+  {
+   "c": 25,
+   "i": 3,
+   "w": "keep",
+   "s": 181.74,
+   "e": 182.04
+  },
+  {
+   "c": 25,
+   "i": 4,
+   "w": "pointing",
+   "s": 182.04,
+   "e": 182.32
+  },
+  {
+   "c": 25,
+   "i": 5,
+   "w": "at",
+   "s": 182.32,
+   "e": 182.64
+  },
+  {
+   "c": 25,
+   "i": 6,
+   "w": "the",
+   "s": 182.64,
+   "e": 182.72
+  },
+  {
+   "c": 25,
+   "i": 7,
+   "w": "same",
+   "s": 182.72,
+   "e": 182.9
+  },
+  {
+   "c": 25,
+   "i": 8,
+   "w": "problem.",
+   "s": 182.9,
+   "e": 183.3
+  },
+  {
+   "c": 25,
+   "i": 9,
+   "w": "Old",
+   "s": 184.02,
+   "e": 184.04
+  },
+  {
+   "c": 25,
+   "i": 10,
+   "w": "devices,",
+   "s": 184.04,
+   "e": 184.4
+  },
+  {
+   "c": 25,
+   "i": 11,
+   "w": "left",
+   "s": 184.56,
+   "e": 185.04
+  },
+  {
+   "c": 25,
+   "i": 12,
+   "w": "reachable",
+   "s": 185.04,
+   "e": 185.44
+  },
+  {
+   "c": 25,
+   "i": 13,
+   "w": "from",
+   "s": 185.44,
+   "e": 185.66
+  },
+  {
+   "c": 25,
+   "i": 14,
+   "w": "the",
+   "s": 185.66,
+   "e": 185.76
+  },
+  {
+   "c": 25,
+   "i": 15,
+   "w": "internet,",
+   "s": 185.76,
+   "e": 186.04
+  },
+  {
+   "c": 25,
+   "i": 16,
+   "w": "with",
+   "s": 186.46,
+   "e": 186.46
+  },
+  {
+   "c": 25,
+   "i": 17,
+   "w": "weak",
+   "s": 186.46,
+   "e": 186.64
+  },
+  {
+   "c": 25,
+   "i": 18,
+   "w": "protection",
+   "s": 186.64,
+   "e": 186.98
+  },
+  {
+   "c": 25,
+   "i": 19,
+   "w": "and",
+   "s": 186.98,
+   "e": 187.44
+  },
+  {
+   "c": 25,
+   "i": 20,
+   "w": "no",
+   "s": 187.44,
+   "e": 187.6
+  },
+  {
+   "c": 25,
+   "i": 21,
+   "w": "updates.",
+   "s": 187.6,
+   "e": 187.88
+  },
+  {
+   "c": 26,
+   "i": 0,
+   "w": "And",
+   "s": 188.676,
+   "e": 188.856
+  },
+  {
+   "c": 26,
+   "i": 1,
+   "w": "experts",
+   "s": 188.856,
+   "e": 189.176
+  },
+  {
+   "c": 26,
+   "i": 2,
+   "w": "had",
+   "s": 189.176,
+   "e": 189.416
+  },
+  {
+   "c": 26,
+   "i": 3,
+   "w": "been",
+   "s": 189.416,
+   "e": 189.516
+  },
+  {
+   "c": 26,
+   "i": 4,
+   "w": "warning",
+   "s": 189.516,
+   "e": 189.756
+  },
+  {
+   "c": 26,
+   "i": 5,
+   "w": "about",
+   "s": 189.756,
+   "e": 189.996
+  },
+  {
+   "c": 26,
+   "i": 6,
+   "w": "exposed",
+   "s": 189.996,
+   "e": 190.216
+  },
+  {
+   "c": 26,
+   "i": 7,
+   "w": "equipment",
+   "s": 190.216,
+   "e": 190.736
+  },
+  {
+   "c": 26,
+   "i": 8,
+   "w": "like",
+   "s": 190.736,
+   "e": 190.936
+  },
+  {
+   "c": 26,
+   "i": 9,
+   "w": "this",
+   "s": 190.936,
+   "e": 191.116
+  },
+  {
+   "c": 26,
+   "i": 10,
+   "w": "for",
+   "s": 191.116,
+   "e": 191.256
+  },
+  {
+   "c": 26,
+   "i": 11,
+   "w": "years.",
+   "s": 191.256,
+   "e": 191.496
+  },
+  {
+   "c": 26,
+   "i": 12,
+   "w": "Not",
+   "s": 192.176,
+   "e": 192.196
+  },
+  {
+   "c": 26,
+   "i": 13,
+   "w": "just",
+   "s": 192.196,
+   "e": 192.416
+  },
+  {
+   "c": 26,
+   "i": 14,
+   "w": "fridges.",
+   "s": 192.416,
+   "e": 192.716
+  },
+  {
+   "c": 26,
+   "i": 15,
+   "w": "Cameras,",
+   "s": 192.716,
+   "e": 193.356
+  },
+  {
+   "c": 26,
+   "i": 16,
+   "w": "factory",
+   "s": 193.656,
+   "e": 193.796
+  },
+  {
+   "c": 26,
+   "i": 17,
+   "w": "machines,",
+   "s": 193.796,
+   "e": 194.216
+  },
+  {
+   "c": 26,
+   "i": 18,
+   "w": "even",
+   "s": 194.596,
+   "e": 194.716
+  },
+  {
+   "c": 26,
+   "i": 19,
+   "w": "parts",
+   "s": 194.716,
+   "e": 194.916
+  },
+  {
+   "c": 26,
+   "i": 20,
+   "w": "of",
+   "s": 194.916,
+   "e": 195.076
+  },
+  {
+   "c": 26,
+   "i": 21,
+   "w": "power",
+   "s": 195.076,
+   "e": 195.236
+  },
+  {
+   "c": 26,
+   "i": 22,
+   "w": "systems.",
+   "s": 195.236,
+   "e": 195.636
+  },
+  {
+   "c": 27,
+   "i": 0,
+   "w": "One",
+   "s": 196.392,
+   "e": 196.612
+  },
+  {
+   "c": 27,
+   "i": 1,
+   "w": "security",
+   "s": 196.612,
+   "e": 196.812
+  },
+  {
+   "c": 27,
+   "i": 2,
+   "w": "firm",
+   "s": 196.812,
+   "e": 197.232
+  },
+  {
+   "c": 27,
+   "i": 3,
+   "w": "had",
+   "s": 197.232,
+   "e": 197.412
+  },
+  {
+   "c": 27,
+   "i": 4,
+   "w": "disclosed",
+   "s": 197.412,
+   "e": 197.672
+  },
+  {
+   "c": 27,
+   "i": 5,
+   "w": "weaknesses",
+   "s": 197.672,
+   "e": 198.072
+  },
+  {
+   "c": 27,
+   "i": 6,
+   "w": "in",
+   "s": 198.072,
+   "e": 198.452
+  },
+  {
+   "c": 27,
+   "i": 7,
+   "w": "some",
+   "s": 198.452,
+   "e": 198.612
+  },
+  {
+   "c": 27,
+   "i": 8,
+   "w": "Danfoss",
+   "s": 198.612,
+   "e": 199.072
+  },
+  {
+   "c": 27,
+   "i": 9,
+   "w": "controllers",
+   "s": 199.072,
+   "e": 199.332
+  },
+  {
+   "c": 27,
+   "i": 10,
+   "w": "in",
+   "s": 199.332,
+   "e": 199.652
+  },
+  {
+   "c": 27,
+   "i": 11,
+   "w": "2025,",
+   "s": 199.652,
+   "e": 200.192
+  },
+  {
+   "c": 27,
+   "i": 12,
+   "w": "which",
+   "s": 200.672,
+   "e": 200.712
+  },
+  {
+   "c": 27,
+   "i": 13,
+   "w": "were",
+   "s": 200.712,
+   "e": 200.852
+  },
+  {
+   "c": 27,
+   "i": 14,
+   "w": "later",
+   "s": 200.852,
+   "e": 201.012
+  },
+  {
+   "c": 27,
+   "i": 15,
+   "w": "patched.",
+   "s": 201.012,
+   "e": 201.272
+  },
+  {
+   "c": 27,
+   "i": 16,
+   "w": "But",
+   "s": 202.032,
+   "e": 202.052
+  },
+  {
+   "c": 27,
+   "i": 17,
+   "w": "nobody",
+   "s": 202.052,
+   "e": 202.232
+  },
+  {
+   "c": 27,
+   "i": 18,
+   "w": "has",
+   "s": 202.232,
+   "e": 202.472
+  },
+  {
+   "c": 27,
+   "i": 19,
+   "w": "officially",
+   "s": 202.472,
+   "e": 202.812
+  },
+  {
+   "c": 27,
+   "i": 20,
+   "w": "confirmed",
+   "s": 202.812,
+   "e": 203.212
+  },
+  {
+   "c": 27,
+   "i": 21,
+   "w": "that's",
+   "s": 203.212,
+   "e": 203.652
+  },
+  {
+   "c": 27,
+   "i": 22,
+   "w": "how",
+   "s": 203.652,
+   "e": 203.732
+  },
+  {
+   "c": 27,
+   "i": 23,
+   "w": "this",
+   "s": 203.732,
+   "e": 203.852
+  },
+  {
+   "c": 27,
+   "i": 24,
+   "w": "attack",
+   "s": 203.852,
+   "e": 204.012
+  },
+  {
+   "c": 27,
+   "i": 25,
+   "w": "worked.",
+   "s": 204.012,
+   "e": 204.332
+  },
+  {
+   "c": 28,
+   "i": 0,
+   "w": "And",
+   "s": 205.045,
+   "e": 205.291
+  },
+  {
+   "c": 28,
+   "i": 1,
+   "w": "here's",
+   "s": 205.291,
+   "e": 205.536
+  },
+  {
+   "c": 28,
+   "i": 2,
+   "w": "what",
+   "s": 205.536,
+   "e": 205.782
+  },
+  {
+   "c": 28,
+   "i": 3,
+   "w": "makes",
+   "s": 205.782,
+   "e": 206.028
+  },
+  {
+   "c": 28,
+   "i": 4,
+   "w": "it",
+   "s": 206.028,
+   "e": 206.273
+  },
+  {
+   "c": 28,
+   "i": 5,
+   "w": "scary.",
+   "s": 206.273,
+   "e": 206.519
+  },
+  {
+   "c": 28,
+   "i": 6,
+   "w": "The",
+   "s": 204.995,
+   "e": 205.415
+  },
+  {
+   "c": 28,
+   "i": 7,
+   "w": "attackers",
+   "s": 205.415,
+   "e": 205.475
+  },
+  {
+   "c": 28,
+   "i": 8,
+   "w": "didn't",
+   "s": 205.475,
+   "e": 207.415
+  },
+  {
+   "c": 28,
+   "i": 9,
+   "w": "need",
+   "s": 207.415,
+   "e": 207.535
+  },
+  {
+   "c": 28,
+   "i": 10,
+   "w": "to",
+   "s": 207.535,
+   "e": 207.655
+  },
+  {
+   "c": 28,
+   "i": 11,
+   "w": "break",
+   "s": 207.655,
+   "e": 207.795
+  },
+  {
+   "c": 28,
+   "i": 12,
+   "w": "the",
+   "s": 207.795,
+   "e": 207.915
+  },
+  {
+   "c": 28,
+   "i": 13,
+   "w": "fridges.",
+   "s": 207.915,
+   "e": 208.155
+  },
+  {
+   "c": 28,
+   "i": 14,
+   "w": "They",
+   "s": 208.675,
+   "e": 208.695
+  },
+  {
+   "c": 28,
+   "i": 15,
+   "w": "reportedly",
+   "s": 208.695,
+   "e": 208.915
+  },
+  {
+   "c": 28,
+   "i": 16,
+   "w": "used",
+   "s": 208.915,
+   "e": 209.315
+  },
+  {
+   "c": 28,
+   "i": 17,
+   "w": "a",
+   "s": 209.315,
+   "e": 209.435
+  },
+  {
+   "c": 28,
+   "i": 18,
+   "w": "feature",
+   "s": 209.435,
+   "e": 209.615
+  },
+  {
+   "c": 28,
+   "i": 19,
+   "w": "that",
+   "s": 209.615,
+   "e": 209.795
+  },
+  {
+   "c": 28,
+   "i": 20,
+   "w": "was",
+   "s": 209.795,
+   "e": 209.895
+  },
+  {
+   "c": 28,
+   "i": 21,
+   "w": "already",
+   "s": 209.895,
+   "e": 210.155
+  },
+  {
+   "c": 28,
+   "i": 22,
+   "w": "there.",
+   "s": 210.155,
+   "e": 210.435
+  },
+  {
+   "c": 29,
+   "i": 0,
+   "w": "The",
+   "s": 210.996,
+   "e": 211.156
+  },
+  {
+   "c": 29,
+   "i": 1,
+   "w": "defrost.",
+   "s": 211.156,
+   "e": 211.516
+  },
+  {
+   "c": 29,
+   "i": 2,
+   "w": "A",
+   "s": 212.076,
+   "e": 212.096
+  },
+  {
+   "c": 29,
+   "i": 3,
+   "w": "normal,",
+   "s": 212.096,
+   "e": 212.316
+  },
+  {
+   "c": 29,
+   "i": 4,
+   "w": "everyday",
+   "s": 212.596,
+   "e": 212.856
+  },
+  {
+   "c": 29,
+   "i": 5,
+   "w": "setting.",
+   "s": 212.856,
+   "e": 213.336
+  },
+  {
+   "c": 29,
+   "i": 6,
+   "w": "Used",
+   "s": 213.816,
+   "e": 213.916
+  },
+  {
+   "c": 29,
+   "i": 7,
+   "w": "at",
+   "s": 213.916,
+   "e": 214.076
+  },
+  {
+   "c": 29,
+   "i": 8,
+   "w": "the",
+   "s": 214.076,
+   "e": 214.156
+  },
+  {
+   "c": 29,
+   "i": 9,
+   "w": "wrong",
+   "s": 214.156,
+   "e": 214.316
+  },
+  {
+   "c": 29,
+   "i": 10,
+   "w": "time,",
+   "s": 214.316,
+   "e": 214.656
+  },
+  {
+   "c": 29,
+   "i": 11,
+   "w": "for",
+   "s": 214.956,
+   "e": 215.036
+  },
+  {
+   "c": 29,
+   "i": 12,
+   "w": "the",
+   "s": 215.036,
+   "e": 215.116
+  },
+  {
+   "c": 29,
+   "i": 13,
+   "w": "wrong",
+   "s": 215.116,
+   "e": 215.276
+  },
+  {
+   "c": 29,
+   "i": 14,
+   "w": "reason.",
+   "s": 215.276,
+   "e": 215.596
+  },
+  {
+   "c": 30,
+   "i": 0,
+   "w": "And",
+   "s": 216.575,
+   "e": 216.975
+  },
+  {
+   "c": 30,
+   "i": 1,
+   "w": "that's",
+   "s": 216.975,
+   "e": 217.375
+  },
+  {
+   "c": 30,
+   "i": 2,
+   "w": "what",
+   "s": 217.375,
+   "e": 217.455
+  },
+  {
+   "c": 30,
+   "i": 3,
+   "w": "happened",
+   "s": 217.455,
+   "e": 217.675
+  },
+  {
+   "c": 30,
+   "i": 4,
+   "w": "on",
+   "s": 217.675,
+   "e": 217.935
+  },
+  {
+   "c": 30,
+   "i": 5,
+   "w": "the",
+   "s": 217.935,
+   "e": 218.035
+  },
+  {
+   "c": 30,
+   "i": 6,
+   "w": "night",
+   "s": 218.035,
+   "e": 218.175
+  },
+  {
+   "c": 30,
+   "i": 7,
+   "w": "of",
+   "s": 218.175,
+   "e": 218.295
+  },
+  {
+   "c": 30,
+   "i": 8,
+   "w": "October",
+   "s": 218.295,
+   "e": 218.615
+  },
+  {
+   "c": 30,
+   "i": 9,
+   "w": "eleventh.",
+   "s": 218.615,
+   "e": 218.975
+  },
+  {
+   "c": 31,
+   "i": 0,
+   "w": "The",
+   "s": 219.467,
+   "e": 219.627
+  },
+  {
+   "c": 31,
+   "i": 1,
+   "w": "attackers",
+   "s": 219.627,
+   "e": 219.887
+  },
+  {
+   "c": 31,
+   "i": 2,
+   "w": "reportedly",
+   "s": 219.887,
+   "e": 220.387
+  },
+  {
+   "c": 31,
+   "i": 3,
+   "w": "hijacked",
+   "s": 220.387,
+   "e": 220.727
+  },
+  {
+   "c": 31,
+   "i": 4,
+   "w": "a",
+   "s": 220.727,
+   "e": 221.107
+  },
+  {
+   "c": 31,
+   "i": 5,
+   "w": "routine",
+   "s": 221.107,
+   "e": 221.267
+  },
+  {
+   "c": 31,
+   "i": 6,
+   "w": "maintenance",
+   "s": 221.267,
+   "e": 221.607
+  },
+  {
+   "c": 31,
+   "i": 7,
+   "w": "setting",
+   "s": 221.607,
+   "e": 222.027
+  },
+  {
+   "c": 31,
+   "i": 8,
+   "w": "and",
+   "s": 222.027,
+   "e": 222.267
+  },
+  {
+   "c": 31,
+   "i": 9,
+   "w": "locked",
+   "s": 222.267,
+   "e": 222.427
+  },
+  {
+   "c": 31,
+   "i": 10,
+   "w": "the",
+   "s": 222.427,
+   "e": 222.627
+  },
+  {
+   "c": 31,
+   "i": 11,
+   "w": "fridges",
+   "s": 222.627,
+   "e": 222.887
+  },
+  {
+   "c": 31,
+   "i": 12,
+   "w": "into",
+   "s": 222.887,
+   "e": 223.127
+  },
+  {
+   "c": 31,
+   "i": 13,
+   "w": "a",
+   "s": 223.127,
+   "e": 223.247
+  },
+  {
+   "c": 31,
+   "i": 14,
+   "w": "defrost",
+   "s": 223.247,
+   "e": 223.547
+  },
+  {
+   "c": 31,
+   "i": 15,
+   "w": "cycle",
+   "s": 223.547,
+   "e": 223.927
+  },
+  {
+   "c": 31,
+   "i": 16,
+   "w": "that",
+   "s": 223.927,
+   "e": 224.087
+  },
+  {
+   "c": 31,
+   "i": 17,
+   "w": "didn't",
+   "s": 224.087,
+   "e": 224.367
+  },
+  {
+   "c": 31,
+   "i": 18,
+   "w": "end.",
+   "s": 224.367,
+   "e": 224.567
+  },
+  {
+   "c": 31,
+   "i": 19,
+   "w": "Instead",
+   "s": 225.307,
+   "e": 225.307
+  },
+  {
+   "c": 31,
+   "i": 20,
+   "w": "of",
+   "s": 225.307,
+   "e": 225.447
+  },
+  {
+   "c": 31,
+   "i": 21,
+   "w": "one",
+   "s": 225.447,
+   "e": 225.587
+  },
+  {
+   "c": 31,
+   "i": 22,
+   "w": "hour,",
+   "s": 225.587,
+   "e": 225.847
+  },
+  {
+   "c": 31,
+   "i": 23,
+   "w": "some",
+   "s": 226.067,
+   "e": 226.167
+  },
+  {
+   "c": 31,
+   "i": 24,
+   "w": "ran",
+   "s": 226.167,
+   "e": 226.367
+  },
+  {
+   "c": 31,
+   "i": 25,
+   "w": "for",
+   "s": 226.367,
+   "e": 226.567
+  },
+  {
+   "c": 31,
+   "i": 26,
+   "w": "six",
+   "s": 226.567,
+   "e": 226.727
+  },
+  {
+   "c": 31,
+   "i": 27,
+   "w": "hours",
+   "s": 226.727,
+   "e": 227.007
+  },
+  {
+   "c": 31,
+   "i": 28,
+   "w": "or",
+   "s": 227.007,
+   "e": 227.187
+  },
+  {
+   "c": 31,
+   "i": 29,
+   "w": "more.",
+   "s": 227.187,
+   "e": 227.367
+  },
+  {
+   "c": 32,
+   "i": 0,
+   "w": "And",
+   "s": 228.001,
+   "e": 228.121
+  },
+  {
+   "c": 32,
+   "i": 1,
+   "w": "because",
+   "s": 228.121,
+   "e": 228.321
+  },
+  {
+   "c": 32,
+   "i": 2,
+   "w": "it",
+   "s": 228.321,
+   "e": 228.461
+  },
+  {
+   "c": 32,
+   "i": 3,
+   "w": "happened",
+   "s": 228.461,
+   "e": 228.681
+  },
+  {
+   "c": 32,
+   "i": 4,
+   "w": "at",
+   "s": 228.681,
+   "e": 228.841
+  },
+  {
+   "c": 32,
+   "i": 5,
+   "w": "night,",
+   "s": 228.841,
+   "e": 229.041
+  },
+  {
+   "c": 32,
+   "i": 6,
+   "w": "while",
+   "s": 229.261,
+   "e": 229.341
+  },
+  {
+   "c": 32,
+   "i": 7,
+   "w": "the",
+   "s": 229.341,
+   "e": 229.461
+  },
+  {
+   "c": 32,
+   "i": 8,
+   "w": "stores",
+   "s": 229.461,
+   "e": 229.601
+  },
+  {
+   "c": 32,
+   "i": 9,
+   "w": "were",
+   "s": 229.601,
+   "e": 229.801
+  },
+  {
+   "c": 32,
+   "i": 10,
+   "w": "closed,",
+   "s": 229.801,
+   "e": 230.121
+  },
+  {
+   "c": 32,
+   "i": 11,
+   "w": "there",
+   "s": 230.381,
+   "e": 230.461
+  },
+  {
+   "c": 32,
+   "i": 12,
+   "w": "was",
+   "s": 230.461,
+   "e": 230.581
+  },
+  {
+   "c": 32,
+   "i": 13,
+   "w": "nobody",
+   "s": 230.581,
+   "e": 230.801
+  },
+  {
+   "c": 32,
+   "i": 14,
+   "w": "there",
+   "s": 230.801,
+   "e": 231.041
+  },
+  {
+   "c": 32,
+   "i": 15,
+   "w": "to",
+   "s": 231.041,
+   "e": 231.181
+  },
+  {
+   "c": 32,
+   "i": 16,
+   "w": "notice.",
+   "s": 231.181,
+   "e": 231.401
+  },
+  {
+   "c": 33,
+   "i": 0,
+   "w": "Hour",
+   "s": 232.131,
+   "e": 232.451
+  },
+  {
+   "c": 33,
+   "i": 1,
+   "w": "after",
+   "s": 232.451,
+   "e": 232.691
+  },
+  {
+   "c": 33,
+   "i": 2,
+   "w": "hour,",
+   "s": 232.691,
+   "e": 233.051
+  },
+  {
+   "c": 33,
+   "i": 3,
+   "w": "the",
+   "s": 233.271,
+   "e": 233.311
+  },
+  {
+   "c": 33,
+   "i": 4,
+   "w": "temperature",
+   "s": 233.311,
+   "e": 233.571
+  },
+  {
+   "c": 33,
+   "i": 5,
+   "w": "crept",
+   "s": 233.571,
+   "e": 233.811
+  },
+  {
+   "c": 33,
+   "i": 6,
+   "w": "up.",
+   "s": 233.811,
+   "e": 234.111
+  },
+  {
+   "c": 33,
+   "i": 7,
+   "w": "One",
+   "s": 234.711,
+   "e": 234.811
+  },
+  {
+   "c": 33,
+   "i": 8,
+   "w": "retailer",
+   "s": 234.811,
+   "e": 235.051
+  },
+  {
+   "c": 33,
+   "i": 9,
+   "w": "said",
+   "s": 235.051,
+   "e": 235.411
+  },
+  {
+   "c": 33,
+   "i": 10,
+   "w": "its",
+   "s": 235.411,
+   "e": 235.551
+  },
+  {
+   "c": 33,
+   "i": 11,
+   "w": "cases",
+   "s": 235.551,
+   "e": 235.731
+  },
+  {
+   "c": 33,
+   "i": 12,
+   "w": "ran",
+   "s": 235.731,
+   "e": 236.031
+  },
+  {
+   "c": 33,
+   "i": 13,
+   "w": "hot",
+   "s": 236.031,
+   "e": 236.291
+  },
+  {
+   "c": 33,
+   "i": 14,
+   "w": "for",
+   "s": 236.291,
+   "e": 236.471
+  },
+  {
+   "c": 33,
+   "i": 15,
+   "w": "about",
+   "s": 236.471,
+   "e": 236.591
+  },
+  {
+   "c": 33,
+   "i": 16,
+   "w": "six",
+   "s": 236.591,
+   "e": 236.831
+  },
+  {
+   "c": 33,
+   "i": 17,
+   "w": "hours",
+   "s": 236.831,
+   "e": 237.171
+  },
+  {
+   "c": 33,
+   "i": 18,
+   "w": "before",
+   "s": 237.171,
+   "e": 237.391
+  },
+  {
+   "c": 33,
+   "i": 19,
+   "w": "anyone",
+   "s": 237.391,
+   "e": 237.711
+  },
+  {
+   "c": 33,
+   "i": 20,
+   "w": "could",
+   "s": 237.711,
+   "e": 237.931
+  },
+  {
+   "c": 33,
+   "i": 21,
+   "w": "stop",
+   "s": 237.931,
+   "e": 238.131
+  },
+  {
+   "c": 33,
+   "i": 22,
+   "w": "it.",
+   "s": 238.131,
+   "e": 238.331
+  },
+  {
+   "c": 34,
+   "i": 0,
+   "w": "And",
+   "s": 238.865,
+   "e": 239.185
+  },
+  {
+   "c": 34,
+   "i": 1,
+   "w": "because",
+   "s": 239.185,
+   "e": 239.525
+  },
+  {
+   "c": 34,
+   "i": 2,
+   "w": "thousands",
+   "s": 239.525,
+   "e": 239.925
+  },
+  {
+   "c": 34,
+   "i": 3,
+   "w": "of",
+   "s": 239.925,
+   "e": 240.165
+  },
+  {
+   "c": 34,
+   "i": 4,
+   "w": "fridges",
+   "s": 240.165,
+   "e": 240.385
+  },
+  {
+   "c": 34,
+   "i": 5,
+   "w": "were",
+   "s": 240.385,
+   "e": 240.645
+  },
+  {
+   "c": 34,
+   "i": 6,
+   "w": "attacked",
+   "s": 240.645,
+   "e": 240.865
+  },
+  {
+   "c": 34,
+   "i": 7,
+   "w": "in",
+   "s": 240.865,
+   "e": 241.065
+  },
+  {
+   "c": 34,
+   "i": 8,
+   "w": "the",
+   "s": 241.065,
+   "e": 241.125
+  },
+  {
+   "c": 34,
+   "i": 9,
+   "w": "same",
+   "s": 241.125,
+   "e": 241.285
+  },
+  {
+   "c": 34,
+   "i": 10,
+   "w": "night,",
+   "s": 241.285,
+   "e": 241.605
+  },
+  {
+   "c": 34,
+   "i": 11,
+   "w": "this",
+   "s": 242.045,
+   "e": 242.385
+  },
+  {
+   "c": 34,
+   "i": 12,
+   "w": "wasn't",
+   "s": 242.385,
+   "e": 242.905
+  },
+  {
+   "c": 34,
+   "i": 13,
+   "w": "a",
+   "s": 242.905,
+   "e": 242.985
+  },
+  {
+   "c": 34,
+   "i": 14,
+   "w": "broken",
+   "s": 242.985,
+   "e": 243.105
+  },
+  {
+   "c": 34,
+   "i": 15,
+   "w": "machine.",
+   "s": 243.105,
+   "e": 243.425
+  },
+  {
+   "c": 34,
+   "i": 16,
+   "w": "It",
+   "s": 244.045,
+   "e": 244.145
+  },
+  {
+   "c": 34,
+   "i": 17,
+   "w": "was",
+   "s": 244.145,
+   "e": 244.325
+  },
+  {
+   "c": 34,
+   "i": 18,
+   "w": "a",
+   "s": 244.325,
+   "e": 244.605
+  },
+  {
+   "c": 34,
+   "i": 19,
+   "w": "coordinated",
+   "s": 244.605,
+   "e": 244.985
+  },
+  {
+   "c": 34,
+   "i": 20,
+   "w": "attack.",
+   "s": 244.985,
+   "e": 245.505
+  },
+  {
+   "c": 35,
+   "i": 0,
+   "w": "Temperatures",
+   "s": 246.189,
+   "e": 246.709
+  },
+  {
+   "c": 35,
+   "i": 1,
+   "w": "climbed",
+   "s": 246.709,
+   "e": 246.849
+  },
+  {
+   "c": 35,
+   "i": 2,
+   "w": "to",
+   "s": 246.849,
+   "e": 247.209
+  },
+  {
+   "c": 35,
+   "i": 3,
+   "w": "around",
+   "s": 247.209,
+   "e": 247.349
+  },
+  {
+   "c": 35,
+   "i": 4,
+   "w": "fifty",
+   "s": 247.349,
+   "e": 247.689
+  },
+  {
+   "c": 35,
+   "i": 5,
+   "w": "degrees.",
+   "s": 247.689,
+   "e": 248.149
+  },
+  {
+   "c": 35,
+   "i": 6,
+   "w": "Meat,",
+   "s": 248.749,
+   "e": 248.989
+  },
+  {
+   "c": 35,
+   "i": 7,
+   "w": "fish,",
+   "s": 249.229,
+   "e": 249.369
+  },
+  {
+   "c": 35,
+   "i": 8,
+   "w": "milk,",
+   "s": 249.689,
+   "e": 249.809
+  },
+  {
+   "c": 35,
+   "i": 9,
+   "w": "cheese,",
+   "s": 249.989,
+   "e": 250.189
+  },
+  {
+   "c": 35,
+   "i": 10,
+   "w": "ice",
+   "s": 250.469,
+   "e": 250.569
+  },
+  {
+   "c": 35,
+   "i": 11,
+   "w": "cream.",
+   "s": 250.569,
+   "e": 250.869
+  },
+  {
+   "c": 35,
+   "i": 12,
+   "w": "All",
+   "s": 251.429,
+   "e": 251.529
+  },
+  {
+   "c": 35,
+   "i": 13,
+   "w": "of",
+   "s": 251.529,
+   "e": 251.669
+  },
+  {
+   "c": 35,
+   "i": 14,
+   "w": "it,",
+   "s": 251.669,
+   "e": 251.789
+  },
+  {
+   "c": 35,
+   "i": 15,
+   "w": "slowly",
+   "s": 251.949,
+   "e": 252.169
+  },
+  {
+   "c": 35,
+   "i": 16,
+   "w": "cooking",
+   "s": 252.169,
+   "e": 252.469
+  },
+  {
+   "c": 35,
+   "i": 17,
+   "w": "inside",
+   "s": 252.469,
+   "e": 252.829
+  },
+  {
+   "c": 35,
+   "i": 18,
+   "w": "the",
+   "s": 252.829,
+   "e": 253.009
+  },
+  {
+   "c": 35,
+   "i": 19,
+   "w": "cases",
+   "s": 253.009,
+   "e": 253.209
+  },
+  {
+   "c": 35,
+   "i": 20,
+   "w": "that",
+   "s": 253.209,
+   "e": 253.509
+  },
+  {
+   "c": 35,
+   "i": 21,
+   "w": "were",
+   "s": 253.509,
+   "e": 253.609
+  },
+  {
+   "c": 35,
+   "i": 22,
+   "w": "supposed",
+   "s": 253.609,
+   "e": 253.769
+  },
+  {
+   "c": 35,
+   "i": 23,
+   "w": "to",
+   "s": 253.769,
+   "e": 254.049
+  },
+  {
+   "c": 35,
+   "i": 24,
+   "w": "protect",
+   "s": 254.049,
+   "e": 254.289
+  },
+  {
+   "c": 35,
+   "i": 25,
+   "w": "it.",
+   "s": 254.289,
+   "e": 254.629
+  },
+  {
+   "c": 36,
+   "i": 0,
+   "w": "When",
+   "s": 255.23,
+   "e": 255.37
+  },
+  {
+   "c": 36,
+   "i": 1,
+   "w": "the",
+   "s": 255.37,
+   "e": 255.45
+  },
+  {
+   "c": 36,
+   "i": 2,
+   "w": "first",
+   "s": 255.45,
+   "e": 255.61
+  },
+  {
+   "c": 36,
+   "i": 3,
+   "w": "workers",
+   "s": 255.61,
+   "e": 255.89
+  },
+  {
+   "c": 36,
+   "i": 4,
+   "w": "walked",
+   "s": 255.89,
+   "e": 256.25
+  },
+  {
+   "c": 36,
+   "i": 5,
+   "w": "in",
+   "s": 256.25,
+   "e": 256.47
+  },
+  {
+   "c": 36,
+   "i": 6,
+   "w": "on",
+   "s": 256.47,
+   "e": 256.57
+  },
+  {
+   "c": 36,
+   "i": 7,
+   "w": "Monday",
+   "s": 256.57,
+   "e": 256.73
+  },
+  {
+   "c": 36,
+   "i": 8,
+   "w": "morning,",
+   "s": 256.73,
+   "e": 257.05
+  },
+  {
+   "c": 36,
+   "i": 9,
+   "w": "they",
+   "s": 257.37,
+   "e": 257.41
+  },
+  {
+   "c": 36,
+   "i": 10,
+   "w": "found",
+   "s": 257.41,
+   "e": 257.61
+  },
+  {
+   "c": 36,
+   "i": 11,
+   "w": "warm",
+   "s": 257.61,
+   "e": 257.85
+  },
+  {
+   "c": 36,
+   "i": 12,
+   "w": "freezers,",
+   "s": 257.85,
+   "e": 258.33
+  },
+  {
+   "c": 36,
+   "i": 13,
+   "w": "melted",
+   "s": 258.33,
+   "e": 258.71
+  },
+  {
+   "c": 36,
+   "i": 14,
+   "w": "food,",
+   "s": 258.71,
+   "e": 259.01
+  },
+  {
+   "c": 36,
+   "i": 15,
+   "w": "and",
+   "s": 259.31,
+   "e": 259.35
+  },
+  {
+   "c": 36,
+   "i": 16,
+   "w": "in",
+   "s": 259.35,
+   "e": 259.43
+  },
+  {
+   "c": 36,
+   "i": 17,
+   "w": "some",
+   "s": 259.43,
+   "e": 259.57
+  },
+  {
+   "c": 36,
+   "i": 18,
+   "w": "places,",
+   "s": 259.57,
+   "e": 259.81
+  },
+  {
+   "c": 36,
+   "i": 19,
+   "w": "reports",
+   "s": 260.13,
+   "e": 260.31
+  },
+  {
+   "c": 36,
+   "i": 20,
+   "w": "of",
+   "s": 260.31,
+   "e": 260.51
+  },
+  {
+   "c": 36,
+   "i": 21,
+   "w": "fires.",
+   "s": 260.51,
+   "e": 260.73
+  },
+  {
+   "c": 37,
+   "i": 0,
+   "w": "Imagine",
+   "s": 261.498,
+   "e": 261.738
+  },
+  {
+   "c": 37,
+   "i": 1,
+   "w": "being",
+   "s": 261.738,
+   "e": 262.098
+  },
+  {
+   "c": 37,
+   "i": 2,
+   "w": "the",
+   "s": 262.098,
+   "e": 262.358
+  },
+  {
+   "c": 37,
+   "i": 3,
+   "w": "store",
+   "s": 262.358,
+   "e": 262.538
+  },
+  {
+   "c": 37,
+   "i": 4,
+   "w": "manager.",
+   "s": 262.538,
+   "e": 262.878
+  },
+  {
+   "c": 37,
+   "i": 5,
+   "w": "You",
+   "s": 263.378,
+   "e": 263.378
+  },
+  {
+   "c": 37,
+   "i": 6,
+   "w": "open",
+   "s": 263.378,
+   "e": 263.558
+  },
+  {
+   "c": 37,
+   "i": 7,
+   "w": "the",
+   "s": 263.558,
+   "e": 263.698
+  },
+  {
+   "c": 37,
+   "i": 8,
+   "w": "doors,",
+   "s": 263.698,
+   "e": 263.918
+  },
+  {
+   "c": 37,
+   "i": 9,
+   "w": "and",
+   "s": 264.378,
+   "e": 264.438
+  },
+  {
+   "c": 37,
+   "i": 10,
+   "w": "instead",
+   "s": 264.438,
+   "e": 264.678
+  },
+  {
+   "c": 37,
+   "i": 11,
+   "w": "of",
+   "s": 264.678,
+   "e": 264.798
+  },
+  {
+   "c": 37,
+   "i": 12,
+   "w": "cold",
+   "s": 264.798,
+   "e": 264.978
+  },
+  {
+   "c": 37,
+   "i": 13,
+   "w": "air,",
+   "s": 264.978,
+   "e": 265.238
+  },
+  {
+   "c": 37,
+   "i": 14,
+   "w": "you",
+   "s": 265.518,
+   "e": 265.518
+  },
+  {
+   "c": 37,
+   "i": 15,
+   "w": "get",
+   "s": 265.518,
+   "e": 265.638
+  },
+  {
+   "c": 37,
+   "i": 16,
+   "w": "a",
+   "s": 265.638,
+   "e": 265.718
+  },
+  {
+   "c": 37,
+   "i": 17,
+   "w": "wall",
+   "s": 265.718,
+   "e": 265.878
+  },
+  {
+   "c": 37,
+   "i": 18,
+   "w": "of",
+   "s": 265.878,
+   "e": 265.998
+  },
+  {
+   "c": 37,
+   "i": 19,
+   "w": "heat",
+   "s": 265.998,
+   "e": 266.218
+  },
+  {
+   "c": 37,
+   "i": 20,
+   "w": "and",
+   "s": 266.218,
+   "e": 266.438
+  },
+  {
+   "c": 37,
+   "i": 21,
+   "w": "the",
+   "s": 266.438,
+   "e": 266.518
+  },
+  {
+   "c": 37,
+   "i": 22,
+   "w": "smell",
+   "s": 266.518,
+   "e": 266.698
+  },
+  {
+   "c": 37,
+   "i": 23,
+   "w": "of",
+   "s": 266.698,
+   "e": 266.858
+  },
+  {
+   "c": 37,
+   "i": 24,
+   "w": "spoiled",
+   "s": 266.858,
+   "e": 267.098
+  },
+  {
+   "c": 37,
+   "i": 25,
+   "w": "meat.",
+   "s": 267.098,
+   "e": 267.358
+  },
+  {
+   "c": 37,
+   "i": 26,
+   "w": "Every",
+   "s": 267.738,
+   "e": 267.798
+  },
+  {
+   "c": 37,
+   "i": 27,
+   "w": "fridge",
+   "s": 267.798,
+   "e": 268.078
+  },
+  {
+   "c": 37,
+   "i": 28,
+   "w": "in",
+   "s": 268.078,
+   "e": 268.258
+  },
+  {
+   "c": 37,
+   "i": 29,
+   "w": "the",
+   "s": 268.258,
+   "e": 268.338
+  },
+  {
+   "c": 37,
+   "i": 30,
+   "w": "building.",
+   "s": 268.338,
+   "e": 268.598
+  },
+  {
+   "c": 37,
+   "i": 31,
+   "w": "And",
+   "s": 268.998,
+   "e": 269.018
+  },
+  {
+   "c": 37,
+   "i": 32,
+   "w": "you",
+   "s": 269.018,
+   "e": 269.118
+  },
+  {
+   "c": 37,
+   "i": 33,
+   "w": "have",
+   "s": 269.118,
+   "e": 269.258
+  },
+  {
+   "c": 37,
+   "i": 34,
+   "w": "no",
+   "s": 269.258,
+   "e": 269.398
+  },
+  {
+   "c": 37,
+   "i": 35,
+   "w": "idea",
+   "s": 269.398,
+   "e": 269.618
+  },
+  {
+   "c": 37,
+   "i": 36,
+   "w": "why.",
+   "s": 269.618,
+   "e": 269.858
+  },
+  {
+   "c": 38,
+   "i": 0,
+   "w": "Staff",
+   "s": 270.459,
+   "e": 270.759
+  },
+  {
+   "c": 38,
+   "i": 1,
+   "w": "had",
+   "s": 270.759,
+   "e": 270.959
+  },
+  {
+   "c": 38,
+   "i": 2,
+   "w": "to",
+   "s": 270.959,
+   "e": 271.059
+  },
+  {
+   "c": 38,
+   "i": 3,
+   "w": "throw",
+   "s": 271.059,
+   "e": 271.219
+  },
+  {
+   "c": 38,
+   "i": 4,
+   "w": "away",
+   "s": 271.219,
+   "e": 271.439
+  },
+  {
+   "c": 38,
+   "i": 5,
+   "w": "tons",
+   "s": 271.439,
+   "e": 271.739
+  },
+  {
+   "c": 38,
+   "i": 6,
+   "w": "of",
+   "s": 271.739,
+   "e": 271.959
+  },
+  {
+   "c": 38,
+   "i": 7,
+   "w": "food.",
+   "s": 271.959,
+   "e": 272.179
+  },
+  {
+   "c": 38,
+   "i": 8,
+   "w": "And",
+   "s": 272.639,
+   "e": 272.719
+  },
+  {
+   "c": 38,
+   "i": 9,
+   "w": "all",
+   "s": 272.719,
+   "e": 272.919
+  },
+  {
+   "c": 38,
+   "i": 10,
+   "w": "of",
+   "s": 272.919,
+   "e": 273.039
+  },
+  {
+   "c": 38,
+   "i": 11,
+   "w": "it",
+   "s": 273.039,
+   "e": 273.119
+  },
+  {
+   "c": 38,
+   "i": 12,
+   "w": "happened",
+   "s": 273.119,
+   "e": 273.319
+  },
+  {
+   "c": 38,
+   "i": 13,
+   "w": "before",
+   "s": 273.319,
+   "e": 273.739
+  },
+  {
+   "c": 38,
+   "i": 14,
+   "w": "most",
+   "s": 273.739,
+   "e": 274.059
+  },
+  {
+   "c": 38,
+   "i": 15,
+   "w": "people",
+   "s": 274.059,
+   "e": 274.359
+  },
+  {
+   "c": 38,
+   "i": 16,
+   "w": "had",
+   "s": 274.359,
+   "e": 274.559
+  },
+  {
+   "c": 38,
+   "i": 17,
+   "w": "even",
+   "s": 274.559,
+   "e": 274.799
+  },
+  {
+   "c": 38,
+   "i": 18,
+   "w": "had",
+   "s": 274.799,
+   "e": 274.999
+  },
+  {
+   "c": 38,
+   "i": 19,
+   "w": "breakfast.",
+   "s": 274.999,
+   "e": 275.299
+  },
+  {
+   "c": 39,
+   "i": 0,
+   "w": "And",
+   "s": 276.07,
+   "e": 276.23
+  },
+  {
+   "c": 39,
+   "i": 1,
+   "w": "quick",
+   "s": 276.23,
+   "e": 276.37
+  },
+  {
+   "c": 39,
+   "i": 2,
+   "w": "favour.",
+   "s": 276.37,
+   "e": 276.71
+  },
+  {
+   "c": 39,
+   "i": 3,
+   "w": "If",
+   "s": 277.23,
+   "e": 277.23
+  },
+  {
+   "c": 39,
+   "i": 4,
+   "w": "this",
+   "s": 277.23,
+   "e": 277.37
+  },
+  {
+   "c": 39,
+   "i": 5,
+   "w": "kind",
+   "s": 277.37,
+   "e": 277.55
+  },
+  {
+   "c": 39,
+   "i": 6,
+   "w": "of",
+   "s": 277.55,
+   "e": 277.67
+  },
+  {
+   "c": 39,
+   "i": 7,
+   "w": "story",
+   "s": 277.67,
+   "e": 277.85
+  },
+  {
+   "c": 39,
+   "i": 8,
+   "w": "makes",
+   "s": 277.85,
+   "e": 278.13
+  },
+  {
+   "c": 39,
+   "i": 9,
+   "w": "you",
+   "s": 278.13,
+   "e": 278.27
+  },
+  {
+   "c": 39,
+   "i": 10,
+   "w": "look",
+   "s": 278.27,
+   "e": 278.41
+  },
+  {
+   "c": 39,
+   "i": 11,
+   "w": "at",
+   "s": 278.41,
+   "e": 278.49
+  },
+  {
+   "c": 39,
+   "i": 12,
+   "w": "the",
+   "s": 278.49,
+   "e": 278.57
+  },
+  {
+   "c": 39,
+   "i": 13,
+   "w": "little",
+   "s": 278.57,
+   "e": 278.73
+  },
+  {
+   "c": 39,
+   "i": 14,
+   "w": "boxes",
+   "s": 278.73,
+   "e": 279.05
+  },
+  {
+   "c": 39,
+   "i": 15,
+   "w": "around",
+   "s": 279.05,
+   "e": 279.35
+  },
+  {
+   "c": 39,
+   "i": 16,
+   "w": "you",
+   "s": 279.35,
+   "e": 279.53
+  },
+  {
+   "c": 39,
+   "i": 17,
+   "w": "a",
+   "s": 279.53,
+   "e": 279.61
+  },
+  {
+   "c": 39,
+   "i": 18,
+   "w": "bit",
+   "s": 279.61,
+   "e": 279.71
+  },
+  {
+   "c": 39,
+   "i": 19,
+   "w": "differently,",
+   "s": 279.71,
+   "e": 280.01
+  },
+  {
+   "c": 39,
+   "i": 20,
+   "w": "hit",
+   "s": 280.45,
+   "e": 280.51
+  },
+  {
+   "c": 39,
+   "i": 21,
+   "w": "subscribe.",
+   "s": 280.51,
+   "e": 280.83
+  },
+  {
+   "c": 39,
+   "i": 22,
+   "w": "That's",
+   "s": 281.49,
+   "e": 281.69
+  },
+  {
+   "c": 39,
+   "i": 23,
+   "w": "how",
+   "s": 281.69,
+   "e": 281.81
+  },
+  {
+   "c": 39,
+   "i": 24,
+   "w": "I",
+   "s": 281.81,
+   "e": 281.93
+  },
+  {
+   "c": 39,
+   "i": 25,
+   "w": "know",
+   "s": 281.93,
+   "e": 282.05
+  },
+  {
+   "c": 39,
+   "i": 26,
+   "w": "you",
+   "s": 282.05,
+   "e": 282.17
+  },
+  {
+   "c": 39,
+   "i": 27,
+   "w": "want",
+   "s": 282.17,
+   "e": 282.31
+  },
+  {
+   "c": 39,
+   "i": 28,
+   "w": "more",
+   "s": 282.31,
+   "e": 282.49
+  },
+  {
+   "c": 39,
+   "i": 29,
+   "w": "of",
+   "s": 282.49,
+   "e": 282.65
+  },
+  {
+   "c": 39,
+   "i": 30,
+   "w": "these.",
+   "s": 282.65,
+   "e": 282.79
+  },
+  {
+   "c": 40,
+   "i": 0,
+   "w": "So",
+   "s": 283.926,
+   "e": 284.226
+  },
+  {
+   "c": 40,
+   "i": 1,
+   "w": "how",
+   "s": 284.226,
+   "e": 284.986
+  },
+  {
+   "c": 40,
+   "i": 2,
+   "w": "big",
+   "s": 284.986,
+   "e": 285.146
+  },
+  {
+   "c": 40,
+   "i": 3,
+   "w": "was",
+   "s": 285.146,
+   "e": 285.366
+  },
+  {
+   "c": 40,
+   "i": 4,
+   "w": "it?",
+   "s": 285.366,
+   "e": 285.546
+  },
+  {
+   "c": 41,
+   "i": 0,
+   "w": "The",
+   "s": 286.066,
+   "e": 286.226
+  },
+  {
+   "c": 41,
+   "i": 1,
+   "w": "numbers",
+   "s": 286.226,
+   "e": 286.446
+  },
+  {
+   "c": 41,
+   "i": 2,
+   "w": "keep",
+   "s": 286.446,
+   "e": 286.666
+  },
+  {
+   "c": 41,
+   "i": 3,
+   "w": "changing,",
+   "s": 286.666,
+   "e": 287.046
+  },
+  {
+   "c": 41,
+   "i": 4,
+   "w": "but",
+   "s": 287.446,
+   "e": 287.486
+  },
+  {
+   "c": 41,
+   "i": 5,
+   "w": "they're",
+   "s": 287.486,
+   "e": 287.606
+  },
+  {
+   "c": 41,
+   "i": 6,
+   "w": "all",
+   "s": 287.606,
+   "e": 287.766
+  },
+  {
+   "c": 41,
+   "i": 7,
+   "w": "huge.",
+   "s": 287.766,
+   "e": 288.066
+  },
+  {
+   "c": 41,
+   "i": 8,
+   "w": "Intermarché",
+   "s": 288.906,
+   "e": 289.266
+  },
+  {
+   "c": 41,
+   "i": 9,
+   "w": "and",
+   "s": 289.266,
+   "e": 289.446
+  },
+  {
+   "c": 41,
+   "i": 10,
+   "w": "its",
+   "s": 289.446,
+   "e": 289.526
+  },
+  {
+   "c": 41,
+   "i": 11,
+   "w": "sister",
+   "s": 289.526,
+   "e": 289.826
+  },
+  {
+   "c": 41,
+   "i": 12,
+   "w": "chain",
+   "s": 289.826,
+   "e": 290.026
+  },
+  {
+   "c": 41,
+   "i": 13,
+   "w": "Netto",
+   "s": 290.026,
+   "e": 290.306
+  },
+  {
+   "c": 41,
+   "i": 14,
+   "w": "were",
+   "s": 290.306,
+   "e": 290.466
+  },
+  {
+   "c": 41,
+   "i": 15,
+   "w": "among",
+   "s": 290.466,
+   "e": 290.606
+  },
+  {
+   "c": 41,
+   "i": 16,
+   "w": "the",
+   "s": 290.606,
+   "e": 290.786
+  },
+  {
+   "c": 41,
+   "i": 17,
+   "w": "hardest",
+   "s": 290.786,
+   "e": 290.986
+  },
+  {
+   "c": 41,
+   "i": 18,
+   "w": "hit,",
+   "s": 290.986,
+   "e": 291.306
+  },
+  {
+   "c": 41,
+   "i": 19,
+   "w": "with",
+   "s": 291.666,
+   "e": 291.726
+  },
+  {
+   "c": 41,
+   "i": 20,
+   "w": "up",
+   "s": 291.726,
+   "e": 291.866
+  },
+  {
+   "c": 41,
+   "i": 21,
+   "w": "to",
+   "s": 291.866,
+   "e": 291.966
+  },
+  {
+   "c": 41,
+   "i": 22,
+   "w": "three",
+   "s": 291.966,
+   "e": 292.186
+  },
+  {
+   "c": 41,
+   "i": 23,
+   "w": "hundred",
+   "s": 292.186,
+   "e": 292.426
+  },
+  {
+   "c": 41,
+   "i": 24,
+   "w": "stores",
+   "s": 292.426,
+   "e": 292.686
+  },
+  {
+   "c": 41,
+   "i": 25,
+   "w": "reportedly",
+   "s": 292.686,
+   "e": 293.066
+  },
+  {
+   "c": 41,
+   "i": 26,
+   "w": "affected.",
+   "s": 293.066,
+   "e": 293.586
+  },
+  {
+   "c": 41,
+   "i": 27,
+   "w": "Carrefour",
+   "s": 294.246,
+   "e": 294.626
+  },
+  {
+   "c": 41,
+   "i": 28,
+   "w": "said",
+   "s": 294.626,
+   "e": 294.806
+  },
+  {
+   "c": 41,
+   "i": 29,
+   "w": "about",
+   "s": 294.806,
+   "e": 294.986
+  },
+  {
+   "c": 41,
+   "i": 30,
+   "w": "eighty",
+   "s": 294.986,
+   "e": 295.226
+  },
+  {
+   "c": 41,
+   "i": 31,
+   "w": "of",
+   "s": 295.226,
+   "e": 295.466
+  },
+  {
+   "c": 41,
+   "i": 32,
+   "w": "its",
+   "s": 295.466,
+   "e": 295.526
+  },
+  {
+   "c": 41,
+   "i": 33,
+   "w": "supermarkets",
+   "s": 295.526,
+   "e": 295.806
+  },
+  {
+   "c": 41,
+   "i": 34,
+   "w": "were",
+   "s": 295.806,
+   "e": 296.206
+  },
+  {
+   "c": 41,
+   "i": 35,
+   "w": "attacked.",
+   "s": 296.206,
+   "e": 296.466
+  },
+  {
+   "c": 41,
+   "i": 36,
+   "w": "Monoprix,",
+   "s": 297.066,
+   "e": 297.366
+  },
+  {
+   "c": 41,
+   "i": 37,
+   "w": "Leclerc",
+   "s": 297.646,
+   "e": 297.946
+  },
+  {
+   "c": 41,
+   "i": 38,
+   "w": "and",
+   "s": 297.946,
+   "e": 298.186
+  },
+  {
+   "c": 41,
+   "i": 39,
+   "w": "Coopérative",
+   "s": 298.186,
+   "e": 298.606
+  },
+  {
+   "c": 41,
+   "i": 40,
+   "w": "U",
+   "s": 298.606,
+   "e": 298.806
+  },
+  {
+   "c": 41,
+   "i": 41,
+   "w": "also",
+   "s": 298.806,
+   "e": 299.186
+  },
+  {
+   "c": 41,
+   "i": 42,
+   "w": "reported",
+   "s": 299.186,
+   "e": 299.486
+  },
+  {
+   "c": 41,
+   "i": 43,
+   "w": "problems.",
+   "s": 299.486,
+   "e": 299.886
+  },
+  {
+   "c": 42,
+   "i": 0,
+   "w": "Early",
+   "s": 300.714,
+   "e": 300.974
+  },
+  {
+   "c": 42,
+   "i": 1,
+   "w": "counts",
+   "s": 300.974,
+   "e": 301.174
+  },
+  {
+   "c": 42,
+   "i": 2,
+   "w": "said",
+   "s": 301.174,
+   "e": 301.534
+  },
+  {
+   "c": 42,
+   "i": 3,
+   "w": "a",
+   "s": 301.534,
+   "e": 301.674
+  },
+  {
+   "c": 42,
+   "i": 4,
+   "w": "few",
+   "s": 301.674,
+   "e": 301.794
+  },
+  {
+   "c": 42,
+   "i": 5,
+   "w": "hundred",
+   "s": 301.794,
+   "e": 302.034
+  },
+  {
+   "c": 42,
+   "i": 6,
+   "w": "stores.",
+   "s": 302.034,
+   "e": 302.274
+  },
+  {
+   "c": 42,
+   "i": 7,
+   "w": "Then",
+   "s": 303.134,
+   "e": 303.134
+  },
+  {
+   "c": 42,
+   "i": 8,
+   "w": "the",
+   "s": 303.134,
+   "e": 303.374
+  },
+  {
+   "c": 42,
+   "i": 9,
+   "w": "French",
+   "s": 303.374,
+   "e": 303.554
+  },
+  {
+   "c": 42,
+   "i": 10,
+   "w": "finance",
+   "s": 303.554,
+   "e": 303.794
+  },
+  {
+   "c": 42,
+   "i": 11,
+   "w": "minister",
+   "s": 303.794,
+   "e": 304.234
+  },
+  {
+   "c": 42,
+   "i": 12,
+   "w": "told",
+   "s": 304.234,
+   "e": 304.434
+  },
+  {
+   "c": 42,
+   "i": 13,
+   "w": "parliament",
+   "s": 304.434,
+   "e": 304.754
+  },
+  {
+   "c": 42,
+   "i": 14,
+   "w": "it",
+   "s": 304.754,
+   "e": 305.074
+  },
+  {
+   "c": 42,
+   "i": 15,
+   "w": "was",
+   "s": 305.074,
+   "e": 305.154
+  },
+  {
+   "c": 42,
+   "i": 16,
+   "w": "about",
+   "s": 305.154,
+   "e": 305.294
+  },
+  {
+   "c": 42,
+   "i": 17,
+   "w": "seven",
+   "s": 305.294,
+   "e": 305.574
+  },
+  {
+   "c": 42,
+   "i": 18,
+   "w": "hundred,",
+   "s": 305.574,
+   "e": 305.914
+  },
+  {
+   "c": 42,
+   "i": 19,
+   "w": "out",
+   "s": 306.274,
+   "e": 306.394
+  },
+  {
+   "c": 42,
+   "i": 20,
+   "w": "of",
+   "s": 306.394,
+   "e": 306.514
+  },
+  {
+   "c": 42,
+   "i": 21,
+   "w": "roughly",
+   "s": 306.514,
+   "e": 306.634
+  },
+  {
+   "c": 42,
+   "i": 22,
+   "w": "ten",
+   "s": 306.634,
+   "e": 306.954
+  },
+  {
+   "c": 42,
+   "i": 23,
+   "w": "thousand",
+   "s": 306.954,
+   "e": 307.274
+  },
+  {
+   "c": 42,
+   "i": 24,
+   "w": "supermarkets",
+   "s": 307.274,
+   "e": 307.494
+  },
+  {
+   "c": 42,
+   "i": 25,
+   "w": "in",
+   "s": 307.494,
+   "e": 308.074
+  },
+  {
+   "c": 42,
+   "i": 26,
+   "w": "the",
+   "s": 308.074,
+   "e": 308.134
+  },
+  {
+   "c": 42,
+   "i": 27,
+   "w": "whole",
+   "s": 308.134,
+   "e": 308.254
+  },
+  {
+   "c": 42,
+   "i": 28,
+   "w": "country.",
+   "s": 308.254,
+   "e": 308.574
+  },
+  {
+   "c": 43,
+   "i": 0,
+   "w": "Two",
+   "s": 309.164,
+   "e": 309.364
+  },
+  {
+   "c": 43,
+   "i": 1,
+   "w": "supermarkets",
+   "s": 309.364,
+   "e": 309.664
+  },
+  {
+   "c": 43,
+   "i": 2,
+   "w": "in",
+   "s": 309.664,
+   "e": 310.084
+  },
+  {
+   "c": 43,
+   "i": 3,
+   "w": "Alsace",
+   "s": 310.084,
+   "e": 310.364
+  },
+  {
+   "c": 43,
+   "i": 4,
+   "w": "reportedly",
+   "s": 310.364,
+   "e": 310.744
+  },
+  {
+   "c": 43,
+   "i": 5,
+   "w": "lost",
+   "s": 310.744,
+   "e": 311.184
+  },
+  {
+   "c": 43,
+   "i": 6,
+   "w": "about",
+   "s": 311.184,
+   "e": 311.464
+  },
+  {
+   "c": 43,
+   "i": 7,
+   "w": "two",
+   "s": 311.464,
+   "e": 311.684
+  },
+  {
+   "c": 43,
+   "i": 8,
+   "w": "hundred",
+   "s": 311.684,
+   "e": 311.944
+  },
+  {
+   "c": 43,
+   "i": 9,
+   "w": "and",
+   "s": 311.944,
+   "e": 312.044
+  },
+  {
+   "c": 43,
+   "i": 10,
+   "w": "seventy",
+   "s": 312.044,
+   "e": 312.324
+  },
+  {
+   "c": 43,
+   "i": 11,
+   "w": "thousand",
+   "s": 312.324,
+   "e": 312.644
+  },
+  {
+   "c": 43,
+   "i": 12,
+   "w": "euros",
+   "s": 312.644,
+   "e": 312.864
+  },
+  {
+   "c": 43,
+   "i": 13,
+   "w": "between",
+   "s": 312.864,
+   "e": 313.204
+  },
+  {
+   "c": 43,
+   "i": 14,
+   "w": "them.",
+   "s": 313.204,
+   "e": 313.464
+  },
+  {
+   "c": 43,
+   "i": 15,
+   "w": "Now",
+   "s": 314.064,
+   "e": 314.204
+  },
+  {
+   "c": 43,
+   "i": 16,
+   "w": "multiply",
+   "s": 314.204,
+   "e": 314.484
+  },
+  {
+   "c": 43,
+   "i": 17,
+   "w": "that",
+   "s": 314.484,
+   "e": 314.884
+  },
+  {
+   "c": 43,
+   "i": 18,
+   "w": "by",
+   "s": 314.884,
+   "e": 315.084
+  },
+  {
+   "c": 43,
+   "i": 19,
+   "w": "hundreds",
+   "s": 315.084,
+   "e": 315.364
+  },
+  {
+   "c": 43,
+   "i": 20,
+   "w": "of",
+   "s": 315.364,
+   "e": 315.624
+  },
+  {
+   "c": 43,
+   "i": 21,
+   "w": "stores.",
+   "s": 315.624,
+   "e": 315.864
+  },
+  {
+   "c": 44,
+   "i": 0,
+   "w": "And",
+   "s": 316.609,
+   "e": 316.929
+  },
+  {
+   "c": 44,
+   "i": 1,
+   "w": "it",
+   "s": 316.929,
+   "e": 317.069
+  },
+  {
+   "c": 44,
+   "i": 2,
+   "w": "wasn't",
+   "s": 317.069,
+   "e": 317.369
+  },
+  {
+   "c": 44,
+   "i": 3,
+   "w": "only",
+   "s": 317.369,
+   "e": 317.629
+  },
+  {
+   "c": 44,
+   "i": 4,
+   "w": "Danfoss.",
+   "s": 317.629,
+   "e": 318.029
+  },
+  {
+   "c": 44,
+   "i": 5,
+   "w": "France's",
+   "s": 318.549,
+   "e": 318.929
+  },
+  {
+   "c": 44,
+   "i": 6,
+   "w": "national",
+   "s": 318.929,
+   "e": 319.149
+  },
+  {
+   "c": 44,
+   "i": 7,
+   "w": "cyber",
+   "s": 319.149,
+   "e": 319.569
+  },
+  {
+   "c": 44,
+   "i": 8,
+   "w": "agency",
+   "s": 319.569,
+   "e": 320.009
+  },
+  {
+   "c": 44,
+   "i": 9,
+   "w": "said",
+   "s": 320.009,
+   "e": 320.389
+  },
+  {
+   "c": 44,
+   "i": 10,
+   "w": "controllers",
+   "s": 320.389,
+   "e": 320.729
+  },
+  {
+   "c": 44,
+   "i": 11,
+   "w": "from",
+   "s": 320.729,
+   "e": 321.109
+  },
+  {
+   "c": 44,
+   "i": 12,
+   "w": "at",
+   "s": 321.109,
+   "e": 321.229
+  },
+  {
+   "c": 44,
+   "i": 13,
+   "w": "least",
+   "s": 321.229,
+   "e": 321.329
+  },
+  {
+   "c": 44,
+   "i": 14,
+   "w": "three",
+   "s": 321.329,
+   "e": 321.649
+  },
+  {
+   "c": 44,
+   "i": 15,
+   "w": "companies",
+   "s": 321.649,
+   "e": 321.989
+  },
+  {
+   "c": 44,
+   "i": 16,
+   "w": "were",
+   "s": 321.989,
+   "e": 322.229
+  },
+  {
+   "c": 44,
+   "i": 17,
+   "w": "hit.",
+   "s": 322.229,
+   "e": 322.389
+  },
+  {
+   "c": 44,
+   "i": 18,
+   "w": "Danfoss,",
+   "s": 323.009,
+   "e": 323.269
+  },
+  {
+   "c": 44,
+   "i": 19,
+   "w": "Copeland,",
+   "s": 323.529,
+   "e": 323.789
+  },
+  {
+   "c": 44,
+   "i": 20,
+   "w": "and",
+   "s": 324.049,
+   "e": 324.069
+  },
+  {
+   "c": 44,
+   "i": 21,
+   "w": "Dixell.",
+   "s": 324.069,
+   "e": 324.409
+  },
+  {
+   "c": 45,
+   "i": 0,
+   "w": "And",
+   "s": 324.938,
+   "e": 325.158
+  },
+  {
+   "c": 45,
+   "i": 1,
+   "w": "it",
+   "s": 325.158,
+   "e": 325.258
+  },
+  {
+   "c": 45,
+   "i": 2,
+   "w": "may",
+   "s": 325.258,
+   "e": 325.398
+  },
+  {
+   "c": 45,
+   "i": 3,
+   "w": "not",
+   "s": 325.398,
+   "e": 325.598
+  },
+  {
+   "c": 45,
+   "i": 4,
+   "w": "have",
+   "s": 325.598,
+   "e": 325.738
+  },
+  {
+   "c": 45,
+   "i": 5,
+   "w": "stopped",
+   "s": 325.738,
+   "e": 325.938
+  },
+  {
+   "c": 45,
+   "i": 6,
+   "w": "at",
+   "s": 325.938,
+   "e": 326.198
+  },
+  {
+   "c": 45,
+   "i": 7,
+   "w": "the",
+   "s": 326.198,
+   "e": 326.278
+  },
+  {
+   "c": 45,
+   "i": 8,
+   "w": "French",
+   "s": 326.278,
+   "e": 326.458
+  },
+  {
+   "c": 45,
+   "i": 9,
+   "w": "border.",
+   "s": 326.458,
+   "e": 326.678
+  },
+  {
+   "c": 45,
+   "i": 10,
+   "w": "There",
+   "s": 327.418,
+   "e": 327.538
+  },
+  {
+   "c": 45,
+   "i": 11,
+   "w": "were",
+   "s": 327.538,
+   "e": 327.658
+  },
+  {
+   "c": 45,
+   "i": 12,
+   "w": "reports",
+   "s": 327.658,
+   "e": 327.918
+  },
+  {
+   "c": 45,
+   "i": 13,
+   "w": "of",
+   "s": 327.918,
+   "e": 328.198
+  },
+  {
+   "c": 45,
+   "i": 14,
+   "w": "similar",
+   "s": 328.198,
+   "e": 328.438
+  },
+  {
+   "c": 45,
+   "i": 15,
+   "w": "problems",
+   "s": 328.438,
+   "e": 328.838
+  },
+  {
+   "c": 45,
+   "i": 16,
+   "w": "in",
+   "s": 328.838,
+   "e": 329.078
+  },
+  {
+   "c": 45,
+   "i": 17,
+   "w": "the",
+   "s": 329.078,
+   "e": 329.138
+  },
+  {
+   "c": 45,
+   "i": 18,
+   "w": "Netherlands",
+   "s": 329.138,
+   "e": 329.378
+  },
+  {
+   "c": 45,
+   "i": 19,
+   "w": "and",
+   "s": 329.378,
+   "e": 329.658
+  },
+  {
+   "c": 45,
+   "i": 20,
+   "w": "Belgium,",
+   "s": 329.658,
+   "e": 330.018
+  },
+  {
+   "c": 45,
+   "i": 21,
+   "w": "although",
+   "s": 330.378,
+   "e": 330.638
+  },
+  {
+   "c": 45,
+   "i": 22,
+   "w": "those",
+   "s": 330.638,
+   "e": 330.978
+  },
+  {
+   "c": 45,
+   "i": 23,
+   "w": "details",
+   "s": 330.978,
+   "e": 331.278
+  },
+  {
+   "c": 45,
+   "i": 24,
+   "w": "are",
+   "s": 331.278,
+   "e": 331.598
+  },
+  {
+   "c": 45,
+   "i": 25,
+   "w": "still",
+   "s": 331.598,
+   "e": 331.778
+  },
+  {
+   "c": 45,
+   "i": 26,
+   "w": "being",
+   "s": 331.778,
+   "e": 331.978
+  },
+  {
+   "c": 45,
+   "i": 27,
+   "w": "checked.",
+   "s": 331.978,
+   "e": 332.238
+  },
+  {
+   "c": 46,
+   "i": 0,
+   "w": "France's",
+   "s": 332.933,
+   "e": 333.313
+  },
+  {
+   "c": 46,
+   "i": 1,
+   "w": "prime",
+   "s": 333.313,
+   "e": 333.453
+  },
+  {
+   "c": 46,
+   "i": 2,
+   "w": "minister",
+   "s": 333.453,
+   "e": 333.873
+  },
+  {
+   "c": 46,
+   "i": 3,
+   "w": "asked",
+   "s": 333.873,
+   "e": 334.173
+  },
+  {
+   "c": 46,
+   "i": 4,
+   "w": "the",
+   "s": 334.173,
+   "e": 334.413
+  },
+  {
+   "c": 46,
+   "i": 5,
+   "w": "agency",
+   "s": 334.413,
+   "e": 334.593
+  },
+  {
+   "c": 46,
+   "i": 6,
+   "w": "to",
+   "s": 334.593,
+   "e": 334.953
+  },
+  {
+   "c": 46,
+   "i": 7,
+   "w": "investigate,",
+   "s": 334.953,
+   "e": 335.153
+  },
+  {
+   "c": 46,
+   "i": 8,
+   "w": "and",
+   "s": 335.893,
+   "e": 335.933
+  },
+  {
+   "c": 46,
+   "i": 9,
+   "w": "Paris",
+   "s": 335.933,
+   "e": 336.093
+  },
+  {
+   "c": 46,
+   "i": 10,
+   "w": "prosecutors",
+   "s": 336.093,
+   "e": 336.593
+  },
+  {
+   "c": 46,
+   "i": 11,
+   "w": "opened",
+   "s": 336.593,
+   "e": 336.993
+  },
+  {
+   "c": 46,
+   "i": 12,
+   "w": "a",
+   "s": 336.993,
+   "e": 337.113
+  },
+  {
+   "c": 46,
+   "i": 13,
+   "w": "case.",
+   "s": 337.113,
+   "e": 337.313
+  },
+  {
+   "c": 46,
+   "i": 14,
+   "w": "And",
+   "s": 338.013,
+   "e": 338.153
+  },
+  {
+   "c": 46,
+   "i": 15,
+   "w": "as",
+   "s": 338.153,
+   "e": 338.373
+  },
+  {
+   "c": 46,
+   "i": 16,
+   "w": "of",
+   "s": 338.373,
+   "e": 338.513
+  },
+  {
+   "c": 46,
+   "i": 17,
+   "w": "now,",
+   "s": 338.513,
+   "e": 338.793
+  },
+  {
+   "c": 46,
+   "i": 18,
+   "w": "nobody",
+   "s": 338.993,
+   "e": 339.233
+  },
+  {
+   "c": 46,
+   "i": 19,
+   "w": "has",
+   "s": 339.233,
+   "e": 339.453
+  },
+  {
+   "c": 46,
+   "i": 20,
+   "w": "claimed",
+   "s": 339.453,
+   "e": 339.653
+  },
+  {
+   "c": 46,
+   "i": 21,
+   "w": "responsibility.",
+   "s": 339.653,
+   "e": 340.053
+  },
+  {
+   "c": 47,
+   "i": 0,
+   "w": "Some",
+   "s": 340.972,
+   "e": 341.172
+  },
+  {
+   "c": 47,
+   "i": 1,
+   "w": "commentators",
+   "s": 341.172,
+   "e": 341.552
+  },
+  {
+   "c": 47,
+   "i": 2,
+   "w": "have",
+   "s": 341.552,
+   "e": 341.892
+  },
+  {
+   "c": 47,
+   "i": 3,
+   "w": "pointed",
+   "s": 341.892,
+   "e": 342.072
+  },
+  {
+   "c": 47,
+   "i": 4,
+   "w": "to",
+   "s": 342.072,
+   "e": 342.292
+  },
+  {
+   "c": 47,
+   "i": 5,
+   "w": "the",
+   "s": 342.292,
+   "e": 342.392
+  },
+  {
+   "c": 47,
+   "i": 6,
+   "w": "wave",
+   "s": 342.392,
+   "e": 342.572
+  },
+  {
+   "c": 47,
+   "i": 7,
+   "w": "of",
+   "s": 342.572,
+   "e": 342.712
+  },
+  {
+   "c": 47,
+   "i": 8,
+   "w": "so-called",
+   "s": 342.712,
+   "e": 343.032
+  },
+  {
+   "c": 47,
+   "i": 9,
+   "w": "hybrid",
+   "s": 343.032,
+   "e": 343.352
+  },
+  {
+   "c": 47,
+   "i": 10,
+   "w": "attacks",
+   "s": 343.352,
+   "e": 343.672
+  },
+  {
+   "c": 47,
+   "i": 11,
+   "w": "across",
+   "s": 343.672,
+   "e": 344.012
+  },
+  {
+   "c": 47,
+   "i": 12,
+   "w": "Europe",
+   "s": 344.012,
+   "e": 344.292
+  },
+  {
+   "c": 47,
+   "i": 13,
+   "w": "in",
+   "s": 344.292,
+   "e": 344.532
+  },
+  {
+   "c": 47,
+   "i": 14,
+   "w": "recent",
+   "s": 344.532,
+   "e": 344.692
+  },
+  {
+   "c": 47,
+   "i": 15,
+   "w": "years.",
+   "s": 344.692,
+   "e": 345.012
+  },
+  {
+   "c": 47,
+   "i": 16,
+   "w": "But",
+   "s": 345.432,
+   "e": 345.512
+  },
+  {
+   "c": 47,
+   "i": 17,
+   "w": "so",
+   "s": 345.512,
+   "e": 345.672
+  },
+  {
+   "c": 47,
+   "i": 18,
+   "w": "far,",
+   "s": 345.672,
+   "e": 345.892
+  },
+  {
+   "c": 47,
+   "i": 19,
+   "w": "there",
+   "s": 346.052,
+   "e": 346.112
+  },
+  {
+   "c": 47,
+   "i": 20,
+   "w": "is",
+   "s": 346.112,
+   "e": 346.232
+  },
+  {
+   "c": 47,
+   "i": 21,
+   "w": "no",
+   "s": 346.232,
+   "e": 346.372
+  },
+  {
+   "c": 47,
+   "i": 22,
+   "w": "public",
+   "s": 346.372,
+   "e": 346.612
+  },
+  {
+   "c": 47,
+   "i": 23,
+   "w": "evidence",
+   "s": 346.612,
+   "e": 346.872
+  },
+  {
+   "c": 47,
+   "i": 24,
+   "w": "linking",
+   "s": 346.872,
+   "e": 347.272
+  },
+  {
+   "c": 47,
+   "i": 25,
+   "w": "this",
+   "s": 347.272,
+   "e": 347.532
+  },
+  {
+   "c": 47,
+   "i": 26,
+   "w": "attack",
+   "s": 347.532,
+   "e": 347.832
+  },
+  {
+   "c": 47,
+   "i": 27,
+   "w": "to",
+   "s": 347.832,
+   "e": 348.052
+  },
+  {
+   "c": 47,
+   "i": 28,
+   "w": "any",
+   "s": 348.052,
+   "e": 348.192
+  },
+  {
+   "c": 47,
+   "i": 29,
+   "w": "group",
+   "s": 348.192,
+   "e": 348.412
+  },
+  {
+   "c": 47,
+   "i": 30,
+   "w": "or",
+   "s": 348.412,
+   "e": 348.632
+  },
+  {
+   "c": 47,
+   "i": 31,
+   "w": "country.",
+   "s": 348.632,
+   "e": 348.952
+  },
+  {
+   "c": 48,
+   "i": 0,
+   "w": "Now,",
+   "s": 349.954,
+   "e": 350.214
+  },
+  {
+   "c": 48,
+   "i": 1,
+   "w": "if",
+   "s": 350.534,
+   "e": 350.714
+  },
+  {
+   "c": 48,
+   "i": 2,
+   "w": "you",
+   "s": 350.714,
+   "e": 350.894
+  },
+  {
+   "c": 48,
+   "i": 3,
+   "w": "think",
+   "s": 350.894,
+   "e": 351.134
+  },
+  {
+   "c": 48,
+   "i": 4,
+   "w": "fridges",
+   "s": 351.134,
+   "e": 351.474
+  },
+  {
+   "c": 48,
+   "i": 5,
+   "w": "are",
+   "s": 351.474,
+   "e": 351.754
+  },
+  {
+   "c": 48,
+   "i": 6,
+   "w": "a",
+   "s": 351.754,
+   "e": 351.854
+  },
+  {
+   "c": 48,
+   "i": 7,
+   "w": "weird",
+   "s": 351.854,
+   "e": 351.994
+  },
+  {
+   "c": 48,
+   "i": 8,
+   "w": "way",
+   "s": 351.994,
+   "e": 352.154
+  },
+  {
+   "c": 48,
+   "i": 9,
+   "w": "to",
+   "s": 352.154,
+   "e": 352.274
+  },
+  {
+   "c": 48,
+   "i": 10,
+   "w": "attack",
+   "s": 352.274,
+   "e": 352.494
+  },
+  {
+   "c": 48,
+   "i": 11,
+   "w": "someone,",
+   "s": 352.494,
+   "e": 352.814
+  },
+  {
+   "c": 48,
+   "i": 12,
+   "w": "this",
+   "s": 353.074,
+   "e": 353.134
+  },
+  {
+   "c": 48,
+   "i": 13,
+   "w": "has",
+   "s": 353.134,
+   "e": 353.234
+  },
+  {
+   "c": 48,
+   "i": 14,
+   "w": "happened",
+   "s": 353.234,
+   "e": 353.494
+  },
+  {
+   "c": 48,
+   "i": 15,
+   "w": "before.",
+   "s": 353.494,
+   "e": 353.814
+  },
+  {
+   "c": 49,
+   "i": 0,
+   "w": "In",
+   "s": 354.489,
+   "e": 354.629
+  },
+  {
+   "c": 49,
+   "i": 1,
+   "w": "2013,",
+   "s": 354.629,
+   "e": 355.449
+  },
+  {
+   "c": 49,
+   "i": 2,
+   "w": "hackers",
+   "s": 355.789,
+   "e": 355.929
+  },
+  {
+   "c": 49,
+   "i": 3,
+   "w": "stole",
+   "s": 355.929,
+   "e": 356.209
+  },
+  {
+   "c": 49,
+   "i": 4,
+   "w": "the",
+   "s": 356.209,
+   "e": 356.349
+  },
+  {
+   "c": 49,
+   "i": 5,
+   "w": "card",
+   "s": 356.349,
+   "e": 356.489
+  },
+  {
+   "c": 49,
+   "i": 6,
+   "w": "details",
+   "s": 356.489,
+   "e": 356.829
+  },
+  {
+   "c": 49,
+   "i": 7,
+   "w": "of",
+   "s": 356.829,
+   "e": 357.169
+  },
+  {
+   "c": 49,
+   "i": 8,
+   "w": "around",
+   "s": 357.169,
+   "e": 357.329
+  },
+  {
+   "c": 49,
+   "i": 9,
+   "w": "forty",
+   "s": 357.329,
+   "e": 357.669
+  },
+  {
+   "c": 49,
+   "i": 10,
+   "w": "million",
+   "s": 357.669,
+   "e": 358.029
+  },
+  {
+   "c": 49,
+   "i": 11,
+   "w": "shoppers",
+   "s": 358.029,
+   "e": 358.289
+  },
+  {
+   "c": 49,
+   "i": 12,
+   "w": "from",
+   "s": 358.289,
+   "e": 358.709
+  },
+  {
+   "c": 49,
+   "i": 13,
+   "w": "the",
+   "s": 358.709,
+   "e": 358.809
+  },
+  {
+   "c": 49,
+   "i": 14,
+   "w": "American",
+   "s": 358.809,
+   "e": 359.029
+  },
+  {
+   "c": 49,
+   "i": 15,
+   "w": "retailer",
+   "s": 359.029,
+   "e": 359.509
+  },
+  {
+   "c": 49,
+   "i": 16,
+   "w": "Target.",
+   "s": 359.509,
+   "e": 359.809
+  },
+  {
+   "c": 49,
+   "i": 17,
+   "w": "And",
+   "s": 360.529,
+   "e": 360.569
+  },
+  {
+   "c": 49,
+   "i": 18,
+   "w": "the",
+   "s": 360.569,
+   "e": 360.649
+  },
+  {
+   "c": 49,
+   "i": 19,
+   "w": "way",
+   "s": 360.649,
+   "e": 360.769
+  },
+  {
+   "c": 49,
+   "i": 20,
+   "w": "in?",
+   "s": 360.769,
+   "e": 360.989
+  },
+  {
+   "c": 49,
+   "i": 21,
+   "w": "Login",
+   "s": 361.529,
+   "e": 361.649
+  },
+  {
+   "c": 49,
+   "i": 22,
+   "w": "details",
+   "s": 361.649,
+   "e": 361.949
+  },
+  {
+   "c": 49,
+   "i": 23,
+   "w": "stolen",
+   "s": 361.949,
+   "e": 362.329
+  },
+  {
+   "c": 49,
+   "i": 24,
+   "w": "from",
+   "s": 362.329,
+   "e": 362.569
+  },
+  {
+   "c": 49,
+   "i": 25,
+   "w": "a",
+   "s": 362.569,
+   "e": 362.649
+  },
+  {
+   "c": 49,
+   "i": 26,
+   "w": "company",
+   "s": 362.649,
+   "e": 362.929
+  },
+  {
+   "c": 49,
+   "i": 27,
+   "w": "that",
+   "s": 362.929,
+   "e": 363.169
+  },
+  {
+   "c": 49,
+   "i": 28,
+   "w": "serviced",
+   "s": 363.169,
+   "e": 363.549
+  },
+  {
+   "c": 49,
+   "i": 29,
+   "w": "Target's",
+   "s": 363.549,
+   "e": 363.929
+  },
+  {
+   "c": 49,
+   "i": 30,
+   "w": "heating",
+   "s": 363.929,
+   "e": 364.149
+  },
+  {
+   "c": 49,
+   "i": 31,
+   "w": "and",
+   "s": 364.149,
+   "e": 364.429
+  },
+  {
+   "c": 49,
+   "i": 32,
+   "w": "air",
+   "s": 364.429,
+   "e": 364.609
+  },
+  {
+   "c": 49,
+   "i": 33,
+   "w": "conditioning.",
+   "s": 364.609,
+   "e": 364.909
+  },
+  {
+   "c": 50,
+   "i": 0,
+   "w": "And",
+   "s": 365.629,
+   "e": 365.789
+  },
+  {
+   "c": 50,
+   "i": 1,
+   "w": "sometimes,",
+   "s": 365.789,
+   "e": 366.189
+  },
+  {
+   "c": 50,
+   "i": 2,
+   "w": "these",
+   "s": 366.609,
+   "e": 366.789
+  },
+  {
+   "c": 50,
+   "i": 3,
+   "w": "attacks",
+   "s": 366.789,
+   "e": 367.049
+  },
+  {
+   "c": 50,
+   "i": 4,
+   "w": "don't",
+   "s": 367.049,
+   "e": 367.409
+  },
+  {
+   "c": 50,
+   "i": 5,
+   "w": "just",
+   "s": 367.409,
+   "e": 367.569
+  },
+  {
+   "c": 50,
+   "i": 6,
+   "w": "steal",
+   "s": 367.569,
+   "e": 367.969
+  },
+  {
+   "c": 50,
+   "i": 7,
+   "w": "data.",
+   "s": 367.969,
+   "e": 368.269
+  },
+  {
+   "c": 50,
+   "i": 8,
+   "w": "They",
+   "s": 368.649,
+   "e": 368.749
+  },
+  {
+   "c": 50,
+   "i": 9,
+   "w": "break",
+   "s": 368.749,
+   "e": 368.929
+  },
+  {
+   "c": 50,
+   "i": 10,
+   "w": "things",
+   "s": 368.929,
+   "e": 369.229
+  },
+  {
+   "c": 50,
+   "i": 11,
+   "w": "in",
+   "s": 369.229,
+   "e": 369.469
+  },
+  {
+   "c": 50,
+   "i": 12,
+   "w": "the",
+   "s": 369.469,
+   "e": 369.549
+  },
+  {
+   "c": 50,
+   "i": 13,
+   "w": "real",
+   "s": 369.549,
+   "e": 369.709
+  },
+  {
+   "c": 50,
+   "i": 14,
+   "w": "world.",
+   "s": 369.709,
+   "e": 370.069
+  },
+  {
+   "c": 51,
+   "i": 0,
+   "w": "Around",
+   "s": 370.644,
+   "e": 370.884
+  },
+  {
+   "c": 51,
+   "i": 1,
+   "w": "2010,",
+   "s": 370.884,
+   "e": 371.564
+  },
+  {
+   "c": 51,
+   "i": 2,
+   "w": "a",
+   "s": 372.024,
+   "e": 372.204
+  },
+  {
+   "c": 51,
+   "i": 3,
+   "w": "computer",
+   "s": 372.204,
+   "e": 372.444
+  },
+  {
+   "c": 51,
+   "i": 4,
+   "w": "worm",
+   "s": 372.444,
+   "e": 372.664
+  },
+  {
+   "c": 51,
+   "i": 5,
+   "w": "called",
+   "s": 372.664,
+   "e": 372.944
+  },
+  {
+   "c": 51,
+   "i": 6,
+   "w": "Stuxnet",
+   "s": 372.944,
+   "e": 373.444
+  },
+  {
+   "c": 51,
+   "i": 7,
+   "w": "quietly",
+   "s": 373.444,
+   "e": 373.704
+  },
+  {
+   "c": 51,
+   "i": 8,
+   "w": "damaged",
+   "s": 373.704,
+   "e": 374.284
+  },
+  {
+   "c": 51,
+   "i": 9,
+   "w": "nuclear",
+   "s": 374.284,
+   "e": 374.504
+  },
+  {
+   "c": 51,
+   "i": 10,
+   "w": "centrifuges",
+   "s": 374.504,
+   "e": 375.244
+  },
+  {
+   "c": 51,
+   "i": 11,
+   "w": "in",
+   "s": 375.244,
+   "e": 375.364
+  },
+  {
+   "c": 51,
+   "i": 12,
+   "w": "Iran,",
+   "s": 375.364,
+   "e": 375.564
+  },
+  {
+   "c": 51,
+   "i": 13,
+   "w": "by",
+   "s": 376.124,
+   "e": 376.184
+  },
+  {
+   "c": 51,
+   "i": 14,
+   "w": "sending",
+   "s": 376.184,
+   "e": 376.404
+  },
+  {
+   "c": 51,
+   "i": 15,
+   "w": "them",
+   "s": 376.404,
+   "e": 376.564
+  },
+  {
+   "c": 51,
+   "i": 16,
+   "w": "the",
+   "s": 376.564,
+   "e": 376.684
+  },
+  {
+   "c": 51,
+   "i": 17,
+   "w": "wrong",
+   "s": 376.684,
+   "e": 376.804
+  },
+  {
+   "c": 51,
+   "i": 18,
+   "w": "instructions",
+   "s": 376.804,
+   "e": 377.124
+  },
+  {
+   "c": 51,
+   "i": 19,
+   "w": "while",
+   "s": 377.124,
+   "e": 377.544
+  },
+  {
+   "c": 51,
+   "i": 20,
+   "w": "the",
+   "s": 377.544,
+   "e": 377.644
+  },
+  {
+   "c": 51,
+   "i": 21,
+   "w": "screens",
+   "s": 377.644,
+   "e": 377.844
+  },
+  {
+   "c": 51,
+   "i": 22,
+   "w": "showed",
+   "s": 377.844,
+   "e": 378.084
+  },
+  {
+   "c": 51,
+   "i": 23,
+   "w": "that",
+   "s": 378.084,
+   "e": 378.244
+  },
+  {
+   "c": 51,
+   "i": 24,
+   "w": "everything",
+   "s": 378.244,
+   "e": 378.424
+  },
+  {
+   "c": 51,
+   "i": 25,
+   "w": "was",
+   "s": 378.424,
+   "e": 378.664
+  },
+  {
+   "c": 51,
+   "i": 26,
+   "w": "fine.",
+   "s": 378.664,
+   "e": 378.924
+  },
+  {
+   "c": 52,
+   "i": 0,
+   "w": "And",
+   "s": 379.548,
+   "e": 379.748
+  },
+  {
+   "c": 52,
+   "i": 1,
+   "w": "in",
+   "s": 379.748,
+   "e": 379.808
+  },
+  {
+   "c": 52,
+   "i": 2,
+   "w": "2015,",
+   "s": 379.808,
+   "e": 380.628
+  },
+  {
+   "c": 52,
+   "i": 3,
+   "w": "hackers",
+   "s": 381.348,
+   "e": 381.608
+  },
+  {
+   "c": 52,
+   "i": 4,
+   "w": "switched",
+   "s": 381.608,
+   "e": 381.948
+  },
+  {
+   "c": 52,
+   "i": 5,
+   "w": "off",
+   "s": 381.948,
+   "e": 382.208
+  },
+  {
+   "c": 52,
+   "i": 6,
+   "w": "the",
+   "s": 382.208,
+   "e": 382.368
+  },
+  {
+   "c": 52,
+   "i": 7,
+   "w": "power",
+   "s": 382.368,
+   "e": 382.528
+  },
+  {
+   "c": 52,
+   "i": 8,
+   "w": "for",
+   "s": 382.528,
+   "e": 382.788
+  },
+  {
+   "c": 52,
+   "i": 9,
+   "w": "hundreds",
+   "s": 382.788,
+   "e": 383.088
+  },
+  {
+   "c": 52,
+   "i": 10,
+   "w": "of",
+   "s": 383.088,
+   "e": 383.268
+  },
+  {
+   "c": 52,
+   "i": 11,
+   "w": "thousands",
+   "s": 383.268,
+   "e": 383.528
+  },
+  {
+   "c": 52,
+   "i": 12,
+   "w": "of",
+   "s": 383.528,
+   "e": 383.788
+  },
+  {
+   "c": 52,
+   "i": 13,
+   "w": "people",
+   "s": 383.788,
+   "e": 384.028
+  },
+  {
+   "c": 52,
+   "i": 14,
+   "w": "in",
+   "s": 384.028,
+   "e": 384.168
+  },
+  {
+   "c": 52,
+   "i": 15,
+   "w": "Ukraine,",
+   "s": 384.168,
+   "e": 384.408
+  },
+  {
+   "c": 52,
+   "i": 16,
+   "w": "in",
+   "s": 384.888,
+   "e": 384.928
+  },
+  {
+   "c": 52,
+   "i": 17,
+   "w": "the",
+   "s": 384.928,
+   "e": 384.988
+  },
+  {
+   "c": 52,
+   "i": 18,
+   "w": "middle",
+   "s": 384.988,
+   "e": 385.168
+  },
+  {
+   "c": 52,
+   "i": 19,
+   "w": "of",
+   "s": 385.168,
+   "e": 385.288
+  },
+  {
+   "c": 52,
+   "i": 20,
+   "w": "winter,",
+   "s": 385.288,
+   "e": 385.488
+  },
+  {
+   "c": 52,
+   "i": 21,
+   "w": "by",
+   "s": 385.928,
+   "e": 386.048
+  },
+  {
+   "c": 52,
+   "i": 22,
+   "w": "taking",
+   "s": 386.048,
+   "e": 386.308
+  },
+  {
+   "c": 52,
+   "i": 23,
+   "w": "over",
+   "s": 386.308,
+   "e": 386.568
+  },
+  {
+   "c": 52,
+   "i": 24,
+   "w": "the",
+   "s": 386.568,
+   "e": 386.728
+  },
+  {
+   "c": 52,
+   "i": 25,
+   "w": "control",
+   "s": 386.728,
+   "e": 386.908
+  },
+  {
+   "c": 52,
+   "i": 26,
+   "w": "systems",
+   "s": 386.908,
+   "e": 387.348
+  },
+  {
+   "c": 52,
+   "i": 27,
+   "w": "of",
+   "s": 387.348,
+   "e": 387.608
+  },
+  {
+   "c": 52,
+   "i": 28,
+   "w": "power",
+   "s": 387.608,
+   "e": 387.768
+  },
+  {
+   "c": 52,
+   "i": 29,
+   "w": "companies.",
+   "s": 387.768,
+   "e": 388.188
+  },
+  {
+   "c": 53,
+   "i": 0,
+   "w": "And",
+   "s": 388.98,
+   "e": 389.24
+  },
+  {
+   "c": 53,
+   "i": 1,
+   "w": "there's",
+   "s": 389.24,
+   "e": 389.46
+  },
+  {
+   "c": 53,
+   "i": 2,
+   "w": "a",
+   "s": 389.46,
+   "e": 389.54
+  },
+  {
+   "c": 53,
+   "i": 3,
+   "w": "famous",
+   "s": 389.54,
+   "e": 389.74
+  },
+  {
+   "c": 53,
+   "i": 4,
+   "w": "story",
+   "s": 389.74,
+   "e": 390.04
+  },
+  {
+   "c": 53,
+   "i": 5,
+   "w": "from",
+   "s": 390.04,
+   "e": 390.34
+  },
+  {
+   "c": 53,
+   "i": 6,
+   "w": "a",
+   "s": 390.34,
+   "e": 390.38
+  },
+  {
+   "c": 53,
+   "i": 7,
+   "w": "casino.",
+   "s": 390.38,
+   "e": 390.62
+  },
+  {
+   "c": 53,
+   "i": 8,
+   "w": "A",
+   "s": 391.44,
+   "e": 391.46
+  },
+  {
+   "c": 53,
+   "i": 9,
+   "w": "cybersecurity",
+   "s": 391.46,
+   "e": 391.66
+  },
+  {
+   "c": 53,
+   "i": 10,
+   "w": "company",
+   "s": 391.66,
+   "e": 392.36
+  },
+  {
+   "c": 53,
+   "i": 11,
+   "w": "said",
+   "s": 392.36,
+   "e": 392.6
+  },
+  {
+   "c": 53,
+   "i": 12,
+   "w": "hackers",
+   "s": 392.6,
+   "e": 392.8
+  },
+  {
+   "c": 53,
+   "i": 13,
+   "w": "got",
+   "s": 392.8,
+   "e": 393.12
+  },
+  {
+   "c": 53,
+   "i": 14,
+   "w": "into",
+   "s": 393.12,
+   "e": 393.3
+  },
+  {
+   "c": 53,
+   "i": 15,
+   "w": "its",
+   "s": 393.3,
+   "e": 393.5
+  },
+  {
+   "c": 53,
+   "i": 16,
+   "w": "network",
+   "s": 393.5,
+   "e": 393.78
+  },
+  {
+   "c": 53,
+   "i": 17,
+   "w": "through",
+   "s": 393.78,
+   "e": 394.02
+  },
+  {
+   "c": 53,
+   "i": 18,
+   "w": "a",
+   "s": 394.02,
+   "e": 394.12
+  },
+  {
+   "c": 53,
+   "i": 19,
+   "w": "smart",
+   "s": 394.12,
+   "e": 394.26
+  },
+  {
+   "c": 53,
+   "i": 20,
+   "w": "thermometer,",
+   "s": 394.26,
+   "e": 394.76
+  },
+  {
+   "c": 53,
+   "i": 21,
+   "w": "in",
+   "s": 395.14,
+   "e": 395.16
+  },
+  {
+   "c": 53,
+   "i": 22,
+   "w": "the",
+   "s": 395.16,
+   "e": 395.24
+  },
+  {
+   "c": 53,
+   "i": 23,
+   "w": "lobby",
+   "s": 395.24,
+   "e": 395.36
+  },
+  {
+   "c": 53,
+   "i": 24,
+   "w": "fish",
+   "s": 395.36,
+   "e": 395.6
+  },
+  {
+   "c": 53,
+   "i": 25,
+   "w": "tank.",
+   "s": 395.6,
+   "e": 395.86
+  },
+  {
+   "c": 54,
+   "i": 0,
+   "w": "A",
+   "s": 396.464,
+   "e": 396.604
+  },
+  {
+   "c": 54,
+   "i": 1,
+   "w": "fish",
+   "s": 396.604,
+   "e": 396.744
+  },
+  {
+   "c": 54,
+   "i": 2,
+   "w": "tank.",
+   "s": 396.744,
+   "e": 396.944
+  },
+  {
+   "c": 54,
+   "i": 3,
+   "w": "A",
+   "s": 397.464,
+   "e": 397.464
+  },
+  {
+   "c": 54,
+   "i": 4,
+   "w": "heater.",
+   "s": 397.464,
+   "e": 397.624
+  },
+  {
+   "c": 54,
+   "i": 5,
+   "w": "A",
+   "s": 398.004,
+   "e": 398.044
+  },
+  {
+   "c": 54,
+   "i": 6,
+   "w": "fridge.",
+   "s": 398.044,
+   "e": 398.164
+  },
+  {
+   "c": 54,
+   "i": 7,
+   "w": "These",
+   "s": 398.824,
+   "e": 398.824
+  },
+  {
+   "c": 54,
+   "i": 8,
+   "w": "are",
+   "s": 398.824,
+   "e": 398.984
+  },
+  {
+   "c": 54,
+   "i": 9,
+   "w": "the",
+   "s": 398.984,
+   "e": 399.064
+  },
+  {
+   "c": 54,
+   "i": 10,
+   "w": "things",
+   "s": 399.064,
+   "e": 399.244
+  },
+  {
+   "c": 54,
+   "i": 11,
+   "w": "nobody",
+   "s": 399.244,
+   "e": 399.584
+  },
+  {
+   "c": 54,
+   "i": 12,
+   "w": "thinks",
+   "s": 399.584,
+   "e": 399.884
+  },
+  {
+   "c": 54,
+   "i": 13,
+   "w": "about.",
+   "s": 399.884,
+   "e": 400.084
+  },
+  {
+   "c": 54,
+   "i": 14,
+   "w": "Nobody",
+   "s": 400.584,
+   "e": 400.584
+  },
+  {
+   "c": 54,
+   "i": 15,
+   "w": "updates",
+   "s": 400.584,
+   "e": 400.884
+  },
+  {
+   "c": 54,
+   "i": 16,
+   "w": "them.",
+   "s": 400.884,
+   "e": 401.204
+  },
+  {
+   "c": 54,
+   "i": 17,
+   "w": "And",
+   "s": 401.704,
+   "e": 401.724
+  },
+  {
+   "c": 54,
+   "i": 18,
+   "w": "they",
+   "s": 401.724,
+   "e": 401.824
+  },
+  {
+   "c": 54,
+   "i": 19,
+   "w": "sit",
+   "s": 401.824,
+   "e": 401.984
+  },
+  {
+   "c": 54,
+   "i": 20,
+   "w": "on",
+   "s": 401.984,
+   "e": 402.144
+  },
+  {
+   "c": 54,
+   "i": 21,
+   "w": "the",
+   "s": 402.144,
+   "e": 402.224
+  },
+  {
+   "c": 54,
+   "i": 22,
+   "w": "same",
+   "s": 402.224,
+   "e": 402.404
+  },
+  {
+   "c": 54,
+   "i": 23,
+   "w": "networks",
+   "s": 402.404,
+   "e": 402.684
+  },
+  {
+   "c": 54,
+   "i": 24,
+   "w": "as",
+   "s": 402.684,
+   "e": 402.964
+  },
+  {
+   "c": 54,
+   "i": 25,
+   "w": "everything",
+   "s": 402.964,
+   "e": 403.144
+  },
+  {
+   "c": 54,
+   "i": 26,
+   "w": "else.",
+   "s": 403.144,
+   "e": 403.464
+  },
+  {
+   "c": 55,
+   "i": 0,
+   "w": "Security",
+   "s": 404.122,
+   "e": 404.442
+  },
+  {
+   "c": 55,
+   "i": 1,
+   "w": "people",
+   "s": 404.442,
+   "e": 404.842
+  },
+  {
+   "c": 55,
+   "i": 2,
+   "w": "have",
+   "s": 404.842,
+   "e": 405.002
+  },
+  {
+   "c": 55,
+   "i": 3,
+   "w": "a",
+   "s": 405.002,
+   "e": 405.102
+  },
+  {
+   "c": 55,
+   "i": 4,
+   "w": "saying.",
+   "s": 405.102,
+   "e": 405.362
+  },
+  {
+   "c": 55,
+   "i": 5,
+   "w": "Attackers",
+   "s": 405.842,
+   "e": 406.182
+  },
+  {
+   "c": 55,
+   "i": 6,
+   "w": "don't",
+   "s": 406.182,
+   "e": 406.382
+  },
+  {
+   "c": 55,
+   "i": 7,
+   "w": "break",
+   "s": 406.382,
+   "e": 406.522
+  },
+  {
+   "c": 55,
+   "i": 8,
+   "w": "in",
+   "s": 406.522,
+   "e": 406.722
+  },
+  {
+   "c": 55,
+   "i": 9,
+   "w": "through",
+   "s": 406.722,
+   "e": 406.882
+  },
+  {
+   "c": 55,
+   "i": 10,
+   "w": "the",
+   "s": 406.882,
+   "e": 406.962
+  },
+  {
+   "c": 55,
+   "i": 11,
+   "w": "front",
+   "s": 406.962,
+   "e": 407.142
+  },
+  {
+   "c": 55,
+   "i": 12,
+   "w": "door.",
+   "s": 407.142,
+   "e": 407.342
+  },
+  {
+   "c": 55,
+   "i": 13,
+   "w": "They",
+   "s": 407.642,
+   "e": 407.682
+  },
+  {
+   "c": 55,
+   "i": 14,
+   "w": "come",
+   "s": 407.682,
+   "e": 407.842
+  },
+  {
+   "c": 55,
+   "i": 15,
+   "w": "in",
+   "s": 407.842,
+   "e": 407.922
+  },
+  {
+   "c": 55,
+   "i": 16,
+   "w": "through",
+   "s": 407.922,
+   "e": 408.002
+  },
+  {
+   "c": 55,
+   "i": 17,
+   "w": "the",
+   "s": 408.002,
+   "e": 408.162
+  },
+  {
+   "c": 55,
+   "i": 18,
+   "w": "boiler",
+   "s": 408.162,
+   "e": 408.322
+  },
+  {
+   "c": 55,
+   "i": 19,
+   "w": "room.",
+   "s": 408.322,
+   "e": 408.642
+  },
+  {
+   "c": 56,
+   "i": 0,
+   "w": "So",
+   "s": 409.576,
+   "e": 409.736
+  },
+  {
+   "c": 56,
+   "i": 1,
+   "w": "what",
+   "s": 409.736,
+   "e": 409.896
+  },
+  {
+   "c": 56,
+   "i": 2,
+   "w": "happens",
+   "s": 409.896,
+   "e": 410.136
+  },
+  {
+   "c": 56,
+   "i": 3,
+   "w": "now?",
+   "s": 410.136,
+   "e": 410.436
+  },
+  {
+   "c": 57,
+   "i": 0,
+   "w": "France's",
+   "s": 411.054,
+   "e": 411.514
+  },
+  {
+   "c": 57,
+   "i": 1,
+   "w": "cyber",
+   "s": 411.514,
+   "e": 411.694
+  },
+  {
+   "c": 57,
+   "i": 2,
+   "w": "agency",
+   "s": 411.694,
+   "e": 412.094
+  },
+  {
+   "c": 57,
+   "i": 3,
+   "w": "told",
+   "s": 412.094,
+   "e": 412.454
+  },
+  {
+   "c": 57,
+   "i": 4,
+   "w": "companies",
+   "s": 412.454,
+   "e": 412.754
+  },
+  {
+   "c": 57,
+   "i": 5,
+   "w": "to",
+   "s": 412.754,
+   "e": 413.094
+  },
+  {
+   "c": 57,
+   "i": 6,
+   "w": "take",
+   "s": 413.094,
+   "e": 413.274
+  },
+  {
+   "c": 57,
+   "i": 7,
+   "w": "these",
+   "s": 413.274,
+   "e": 413.454
+  },
+  {
+   "c": 57,
+   "i": 8,
+   "w": "controllers",
+   "s": 413.454,
+   "e": 413.754
+  },
+  {
+   "c": 57,
+   "i": 9,
+   "w": "off",
+   "s": 413.754,
+   "e": 414.174
+  },
+  {
+   "c": 57,
+   "i": 10,
+   "w": "the",
+   "s": 414.174,
+   "e": 414.354
+  },
+  {
+   "c": 57,
+   "i": 11,
+   "w": "open",
+   "s": 414.354,
+   "e": 414.494
+  },
+  {
+   "c": 57,
+   "i": 12,
+   "w": "internet,",
+   "s": 414.494,
+   "e": 414.814
+  },
+  {
+   "c": 57,
+   "i": 13,
+   "w": "or",
+   "s": 415.454,
+   "e": 415.474
+  },
+  {
+   "c": 57,
+   "i": 14,
+   "w": "put",
+   "s": 415.474,
+   "e": 415.634
+  },
+  {
+   "c": 57,
+   "i": 15,
+   "w": "them",
+   "s": 415.634,
+   "e": 415.754
+  },
+  {
+   "c": 57,
+   "i": 16,
+   "w": "behind",
+   "s": 415.754,
+   "e": 416.014
+  },
+  {
+   "c": 57,
+   "i": 17,
+   "w": "a",
+   "s": 416.014,
+   "e": 416.134
+  },
+  {
+   "c": 57,
+   "i": 18,
+   "w": "private",
+   "s": 416.134,
+   "e": 416.294
+  },
+  {
+   "c": 57,
+   "i": 19,
+   "w": "connection,",
+   "s": 416.294,
+   "e": 416.794
+  },
+  {
+   "c": 57,
+   "i": 20,
+   "w": "and",
+   "s": 417.234,
+   "e": 417.354
+  },
+  {
+   "c": 57,
+   "i": 21,
+   "w": "to",
+   "s": 417.354,
+   "e": 417.454
+  },
+  {
+   "c": 57,
+   "i": 22,
+   "w": "change",
+   "s": 417.454,
+   "e": 417.634
+  },
+  {
+   "c": 57,
+   "i": 23,
+   "w": "any",
+   "s": 417.634,
+   "e": 417.894
+  },
+  {
+   "c": 57,
+   "i": 24,
+   "w": "default",
+   "s": 417.894,
+   "e": 418.094
+  },
+  {
+   "c": 57,
+   "i": 25,
+   "w": "passwords.",
+   "s": 418.094,
+   "e": 418.574
+  },
+  {
+   "c": 58,
+   "i": 0,
+   "w": "Danfoss",
+   "s": 419.329,
+   "e": 419.829
+  },
+  {
+   "c": 58,
+   "i": 1,
+   "w": "says",
+   "s": 419.829,
+   "e": 420.069
+  },
+  {
+   "c": 58,
+   "i": 2,
+   "w": "the",
+   "s": 420.069,
+   "e": 420.229
+  },
+  {
+   "c": 58,
+   "i": 3,
+   "w": "oldest",
+   "s": 420.229,
+   "e": 420.489
+  },
+  {
+   "c": 58,
+   "i": 4,
+   "w": "units",
+   "s": 420.489,
+   "e": 420.789
+  },
+  {
+   "c": 58,
+   "i": 5,
+   "w": "simply",
+   "s": 420.789,
+   "e": 421.069
+  },
+  {
+   "c": 58,
+   "i": 6,
+   "w": "need",
+   "s": 421.069,
+   "e": 421.369
+  },
+  {
+   "c": 58,
+   "i": 7,
+   "w": "to",
+   "s": 421.369,
+   "e": 421.489
+  },
+  {
+   "c": 58,
+   "i": 8,
+   "w": "be",
+   "s": 421.489,
+   "e": 421.589
+  },
+  {
+   "c": 58,
+   "i": 9,
+   "w": "replaced.",
+   "s": 421.589,
+   "e": 421.869
+  },
+  {
+   "c": 58,
+   "i": 10,
+   "w": "Which",
+   "s": 422.649,
+   "e": 422.709
+  },
+  {
+   "c": 58,
+   "i": 11,
+   "w": "means",
+   "s": 422.709,
+   "e": 422.929
+  },
+  {
+   "c": 58,
+   "i": 12,
+   "w": "a",
+   "s": 422.929,
+   "e": 423.309
+  },
+  {
+   "c": 58,
+   "i": 13,
+   "w": "lot",
+   "s": 423.309,
+   "e": 423.469
+  },
+  {
+   "c": 58,
+   "i": 14,
+   "w": "of",
+   "s": 423.469,
+   "e": 423.549
+  },
+  {
+   "c": 58,
+   "i": 15,
+   "w": "supermarkets",
+   "s": 423.549,
+   "e": 423.949
+  },
+  {
+   "c": 58,
+   "i": 16,
+   "w": "are",
+   "s": 423.949,
+   "e": 424.289
+  },
+  {
+   "c": 58,
+   "i": 17,
+   "w": "about",
+   "s": 424.289,
+   "e": 424.469
+  },
+  {
+   "c": 58,
+   "i": 18,
+   "w": "to",
+   "s": 424.469,
+   "e": 424.629
+  },
+  {
+   "c": 58,
+   "i": 19,
+   "w": "buy",
+   "s": 424.629,
+   "e": 424.809
+  },
+  {
+   "c": 58,
+   "i": 20,
+   "w": "a",
+   "s": 424.809,
+   "e": 424.989
+  },
+  {
+   "c": 58,
+   "i": 21,
+   "w": "lot",
+   "s": 424.989,
+   "e": 425.169
+  },
+  {
+   "c": 58,
+   "i": 22,
+   "w": "of",
+   "s": 425.169,
+   "e": 425.269
+  },
+  {
+   "c": 58,
+   "i": 23,
+   "w": "new",
+   "s": 425.269,
+   "e": 425.369
+  },
+  {
+   "c": 58,
+   "i": 24,
+   "w": "boxes.",
+   "s": 425.369,
+   "e": 425.669
+  },
+  {
+   "c": 59,
+   "i": 0,
+   "w": "And",
+   "s": 426.51,
+   "e": 426.71
+  },
+  {
+   "c": 59,
+   "i": 1,
+   "w": "maybe",
+   "s": 426.71,
+   "e": 426.95
+  },
+  {
+   "c": 59,
+   "i": 2,
+   "w": "the",
+   "s": 426.95,
+   "e": 427.15
+  },
+  {
+   "c": 59,
+   "i": 3,
+   "w": "real",
+   "s": 427.15,
+   "e": 427.29
+  },
+  {
+   "c": 59,
+   "i": 4,
+   "w": "lesson",
+   "s": 427.29,
+   "e": 427.61
+  },
+  {
+   "c": 59,
+   "i": 5,
+   "w": "is",
+   "s": 427.61,
+   "e": 427.83
+  },
+  {
+   "c": 59,
+   "i": 6,
+   "w": "for",
+   "s": 427.83,
+   "e": 427.99
+  },
+  {
+   "c": 59,
+   "i": 7,
+   "w": "all",
+   "s": 427.99,
+   "e": 428.15
+  },
+  {
+   "c": 59,
+   "i": 8,
+   "w": "of",
+   "s": 428.15,
+   "e": 428.27
+  },
+  {
+   "c": 59,
+   "i": 9,
+   "w": "us.",
+   "s": 428.27,
+   "e": 428.43
+  },
+  {
+   "c": 59,
+   "i": 10,
+   "w": "Your",
+   "s": 428.95,
+   "e": 428.99
+  },
+  {
+   "c": 59,
+   "i": 11,
+   "w": "router,",
+   "s": 428.99,
+   "e": 429.23
+  },
+  {
+   "c": 59,
+   "i": 12,
+   "w": "your",
+   "s": 429.63,
+   "e": 429.69
+  },
+  {
+   "c": 59,
+   "i": 13,
+   "w": "smart",
+   "s": 429.69,
+   "e": 429.87
+  },
+  {
+   "c": 59,
+   "i": 14,
+   "w": "TV,",
+   "s": 429.87,
+   "e": 430.15
+  },
+  {
+   "c": 59,
+   "i": 15,
+   "w": "your",
+   "s": 430.61,
+   "e": 430.67
+  },
+  {
+   "c": 59,
+   "i": 16,
+   "w": "doorbell",
+   "s": 430.67,
+   "e": 430.97
+  },
+  {
+   "c": 59,
+   "i": 17,
+   "w": "camera.",
+   "s": 430.97,
+   "e": 431.23
+  },
+  {
+   "c": 59,
+   "i": 18,
+   "w": "When",
+   "s": 432.11,
+   "e": 432.15
+  },
+  {
+   "c": 59,
+   "i": 19,
+   "w": "did",
+   "s": 432.15,
+   "e": 432.31
+  },
+  {
+   "c": 59,
+   "i": 20,
+   "w": "you",
+   "s": 432.31,
+   "e": 432.43
+  },
+  {
+   "c": 59,
+   "i": 21,
+   "w": "last",
+   "s": 432.43,
+   "e": 432.61
+  },
+  {
+   "c": 59,
+   "i": 22,
+   "w": "update",
+   "s": 432.61,
+   "e": 432.93
+  },
+  {
+   "c": 59,
+   "i": 23,
+   "w": "any",
+   "s": 432.93,
+   "e": 433.29
+  },
+  {
+   "c": 59,
+   "i": 24,
+   "w": "of",
+   "s": 433.29,
+   "e": 433.41
+  },
+  {
+   "c": 59,
+   "i": 25,
+   "w": "them?",
+   "s": 433.41,
+   "e": 433.57
+  },
+  {
+   "c": 59,
+   "i": 26,
+   "w": "Do",
+   "s": 434.07,
+   "e": 434.15
+  },
+  {
+   "c": 59,
+   "i": 27,
+   "w": "you",
+   "s": 434.15,
+   "e": 434.23
+  },
+  {
+   "c": 59,
+   "i": 28,
+   "w": "even",
+   "s": 434.23,
+   "e": 434.37
+  },
+  {
+   "c": 59,
+   "i": 29,
+   "w": "know",
+   "s": 434.37,
+   "e": 434.53
+  },
+  {
+   "c": 59,
+   "i": 30,
+   "w": "the",
+   "s": 434.53,
+   "e": 434.61
+  },
+  {
+   "c": 59,
+   "i": 31,
+   "w": "password?",
+   "s": 434.61,
+   "e": 434.91
+  },
+  {
+   "c": 60,
+   "i": 0,
+   "w": "So",
+   "s": 435.593,
+   "e": 435.793
+  },
+  {
+   "c": 60,
+   "i": 1,
+   "w": "here's",
+   "s": 435.793,
+   "e": 435.973
+  },
+  {
+   "c": 60,
+   "i": 2,
+   "w": "my",
+   "s": 435.973,
+   "e": 436.073
+  },
+  {
+   "c": 60,
+   "i": 3,
+   "w": "question.",
+   "s": 436.073,
+   "e": 436.413
+  },
+  {
+   "c": 60,
+   "i": 4,
+   "w": "Who",
+   "s": 436.973,
+   "e": 436.973
+  },
+  {
+   "c": 60,
+   "i": 5,
+   "w": "should",
+   "s": 436.973,
+   "e": 437.113
+  },
+  {
+   "c": 60,
+   "i": 6,
+   "w": "pay",
+   "s": 437.113,
+   "e": 437.293
+  },
+  {
+   "c": 60,
+   "i": 7,
+   "w": "for",
+   "s": 437.293,
+   "e": 437.493
+  },
+  {
+   "c": 60,
+   "i": 8,
+   "w": "all",
+   "s": 437.493,
+   "e": 437.653
+  },
+  {
+   "c": 60,
+   "i": 9,
+   "w": "that",
+   "s": 437.653,
+   "e": 437.793
+  },
+  {
+   "c": 60,
+   "i": 10,
+   "w": "ruined",
+   "s": 437.793,
+   "e": 437.993
+  },
+  {
+   "c": 60,
+   "i": 11,
+   "w": "food?",
+   "s": 437.993,
+   "e": 438.393
+  },
+  {
+   "c": 60,
+   "i": 12,
+   "w": "The",
+   "s": 439.013,
+   "e": 439.033
+  },
+  {
+   "c": 60,
+   "i": 13,
+   "w": "supermarkets,",
+   "s": 439.033,
+   "e": 439.433
+  },
+  {
+   "c": 60,
+   "i": 14,
+   "w": "for",
+   "s": 439.773,
+   "e": 439.793
+  },
+  {
+   "c": 60,
+   "i": 15,
+   "w": "leaving",
+   "s": 439.793,
+   "e": 439.973
+  },
+  {
+   "c": 60,
+   "i": 16,
+   "w": "the",
+   "s": 439.973,
+   "e": 440.173
+  },
+  {
+   "c": 60,
+   "i": 17,
+   "w": "door",
+   "s": 440.173,
+   "e": 440.293
+  },
+  {
+   "c": 60,
+   "i": 18,
+   "w": "open?",
+   "s": 440.293,
+   "e": 440.573
+  },
+  {
+   "c": 60,
+   "i": 19,
+   "w": "Or",
+   "s": 440.893,
+   "e": 440.893
+  },
+  {
+   "c": 60,
+   "i": 20,
+   "w": "the",
+   "s": 440.893,
+   "e": 440.993
+  },
+  {
+   "c": 60,
+   "i": 21,
+   "w": "company",
+   "s": 440.993,
+   "e": 441.253
+  },
+  {
+   "c": 60,
+   "i": 22,
+   "w": "that",
+   "s": 441.253,
+   "e": 441.473
+  },
+  {
+   "c": 60,
+   "i": 23,
+   "w": "made",
+   "s": 441.473,
+   "e": 441.633
+  },
+  {
+   "c": 60,
+   "i": 24,
+   "w": "the",
+   "s": 441.633,
+   "e": 441.773
+  },
+  {
+   "c": 60,
+   "i": 25,
+   "w": "old",
+   "s": 441.773,
+   "e": 441.893
+  },
+  {
+   "c": 60,
+   "i": 26,
+   "w": "boxes?",
+   "s": 441.893,
+   "e": 442.273
+  },
+  {
+   "c": 60,
+   "i": 27,
+   "w": "Tell",
+   "s": 442.833,
+   "e": 442.893
+  },
+  {
+   "c": 60,
+   "i": 28,
+   "w": "me",
+   "s": 442.893,
+   "e": 443.013
+  },
+  {
+   "c": 60,
+   "i": 29,
+   "w": "in",
+   "s": 443.013,
+   "e": 443.093
+  },
+  {
+   "c": 60,
+   "i": 30,
+   "w": "the",
+   "s": 443.093,
+   "e": 443.173
+  },
+  {
+   "c": 60,
+   "i": 31,
+   "w": "comments.",
+   "s": 443.173,
+   "e": 443.373
+  },
+  {
+   "c": 61,
+   "i": 0,
+   "w": "And",
+   "s": 444.067,
+   "e": 444.247
+  },
+  {
+   "c": 61,
+   "i": 1,
+   "w": "subscribe,",
+   "s": 444.247,
+   "e": 444.567
+  },
+  {
+   "c": 61,
+   "i": 2,
+   "w": "because",
+   "s": 445.047,
+   "e": 445.267
+  },
+  {
+   "c": 61,
+   "i": 3,
+   "w": "next",
+   "s": 445.267,
+   "e": 445.447
+  },
+  {
+   "c": 61,
+   "i": 4,
+   "w": "time,",
+   "s": 445.447,
+   "e": 445.767
+  },
+  {
+   "c": 61,
+   "i": 5,
+   "w": "there's",
+   "s": 445.987,
+   "e": 446.107
+  },
+  {
+   "c": 61,
+   "i": 6,
+   "w": "another",
+   "s": 446.107,
+   "e": 446.287
+  },
+  {
+   "c": 61,
+   "i": 7,
+   "w": "everyday",
+   "s": 446.287,
+   "e": 446.587
+  },
+  {
+   "c": 61,
+   "i": 8,
+   "w": "object",
+   "s": 446.587,
+   "e": 447.027
+  },
+  {
+   "c": 61,
+   "i": 9,
+   "w": "that",
+   "s": 447.027,
+   "e": 447.287
+  },
+  {
+   "c": 61,
+   "i": 10,
+   "w": "turned",
+   "s": 447.287,
+   "e": 447.427
+  },
+  {
+   "c": 61,
+   "i": 11,
+   "w": "out",
+   "s": 447.427,
+   "e": 447.607
+  },
+  {
+   "c": 61,
+   "i": 12,
+   "w": "to",
+   "s": 447.607,
+   "e": 447.727
+  },
+  {
+   "c": 61,
+   "i": 13,
+   "w": "be",
+   "s": 447.727,
+   "e": 447.827
+  },
+  {
+   "c": 61,
+   "i": 14,
+   "w": "a",
+   "s": 447.827,
+   "e": 447.907
+  },
+  {
+   "c": 61,
+   "i": 15,
+   "w": "hacker's",
+   "s": 447.907,
+   "e": 448.247
+  },
+  {
+   "c": 61,
+   "i": 16,
+   "w": "way",
+   "s": 448.247,
+   "e": 448.347
+  },
+  {
+   "c": 61,
+   "i": 17,
+   "w": "in.",
+   "s": 448.347,
+   "e": 448.547
+  },
+  {
+   "c": 62,
+   "i": 0,
+   "w": "Nobody",
+   "s": 449.113,
+   "e": 449.473
+  },
+  {
+   "c": 62,
+   "i": 1,
+   "w": "updated",
+   "s": 449.473,
+   "e": 449.873
+  },
+  {
+   "c": 62,
+   "i": 2,
+   "w": "the",
+   "s": 449.873,
+   "e": 450.073
+  },
+  {
+   "c": 62,
+   "i": 3,
+   "w": "fridge.",
+   "s": 450.073,
+   "e": 450.293
+  },
+  {
+   "c": 62,
+   "i": 4,
+   "w": "And",
+   "s": 450.793,
+   "e": 450.953
+  },
+  {
+   "c": 62,
+   "i": 5,
+   "w": "one",
+   "s": 450.953,
+   "e": 451.253
+  },
+  {
+   "c": 62,
+   "i": 6,
+   "w": "night,",
+   "s": 451.253,
+   "e": 451.553
+  },
+  {
+   "c": 62,
+   "i": 7,
+   "w": "the",
+   "s": 451.893,
+   "e": 451.933
+  },
+  {
+   "c": 62,
+   "i": 8,
+   "w": "fridge",
+   "s": 451.933,
+   "e": 452.073
+  },
+  {
+   "c": 62,
+   "i": 9,
+   "w": "became",
+   "s": 452.073,
+   "e": 452.413
+  },
+  {
+   "c": 62,
+   "i": 10,
+   "w": "an",
+   "s": 452.413,
+   "e": 452.533
+  },
+  {
+   "c": 62,
+   "i": 11,
+   "w": "oven.",
+   "s": 452.533,
+   "e": 452.733
+  }
+ ],
+ "events": []
+}

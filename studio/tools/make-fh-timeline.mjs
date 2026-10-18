@@ -8,7 +8,7 @@ const cues = v.cues.map((c) => ({ id: c.id, section: c.section, voice: c.voice, 
 const duration = +(v.duration + OFFSET + TAIL).toFixed(3);
 const C0 = (i) => cues[i].start, C1 = (i) => cues[i].end;
 const W = words.map((w) => ({ c: w.cue, i: w.i, w: w.word, s: +(w.start + OFFSET).toFixed(3), e: +(w.end + OFFSET).toFixed(3) }));
-const TITLES = ['Cold Open', 'The Brain', 'The Open Door', 'Finding the Fridge', 'The Night', 'How Big', 'It Happened Before', 'Your Turn'];
+const TITLES = ['Cold Open', 'The Brain', 'The Open Door', 'How They Got In', 'The Night', 'How Big', 'It Happened Before', 'Your Turn'];
 const scenes = TITLES.map((title, s) => {
   const first = cues.find((c) => c.section === s), next = cues.find((c) => c.section === s + 1);
   return { index: s, title, start: s === 0 ? 0 : +(first.start - 0.4).toFixed(3), end: next ? +(next.start - 0.4).toFixed(3) : duration };

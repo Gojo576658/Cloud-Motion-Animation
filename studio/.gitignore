@@ -27,3 +27,5 @@ public/kss/*.wav
 audio/out-kss/
 public/ob/*.wav
 audio/out-ob/
+public/fh/*.wav
+audio/out-fh/

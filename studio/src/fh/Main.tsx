@@ -41,10 +41,10 @@ const CUES = TTL.cues;
 const KEYS = CUES.map((c, i) => {
   const r = rng(101 + i * 7);
   const a = r(), b = r(), d = r(), e = r(), g = r();
-  return { t: c.start, s: (i % 2 ? 1.17 : 1.09) + a * 0.03, x: (b - 0.5) * 66, y: (d - 0.5) * 34, ry: (e - 0.5) * 4.6, rx: (g - 0.5) * 2.4, rz: (r() - 0.5) * 1.1 };
+  return { t: c.start, s: (i % 2 ? 1.11 : 1.06) + a * 0.02, x: (b - 0.5) * 66, y: (d - 0.5) * 34, ry: (e - 0.5) * 4.6, rx: (g - 0.5) * 2.4, rz: (r() - 0.5) * 1.1 };
 });
 KEYS.push({ ...KEYS[KEYS.length - 1], t: TTL.duration + 1 });
-const PUNCH = [2, 4, 12, 22, 31, 34, 37, 42, 62];
+const PUNCH = [2, 4, 12, 22, 31, 34, 37, 42];
 const SHAKY = ['drop', 'sad', 'invest', 'mystery', 'twist', 'hack'];
 const ease = EASE.inOut;
 const camera = (t: number) => {
@@ -54,7 +54,7 @@ const camera = (t: number) => {
   const u = t < A.t ? 0 : ease(clamp((t - A.t) / Math.max(0.5, B.t - A.t)));
   const L = (p: 's' | 'x' | 'y' | 'ry' | 'rx' | 'rz') => A[p] + (B[p] - A[p]) * u;
   let s = L('s'), x = L('x'), y = L('y');
-  for (const i of PUNCH) { const c = CUES[i]; s += 0.11 * ramp(t, c.start - 0.06, 0.32, EASE.out) * (1 - ramp(t, c.end + 0.15, 0.7, EASE.inOut)); }
+  for (const i of PUNCH) { const c = CUES[i]; s += 0.07 * ramp(t, c.start - 0.06, 0.32, EASE.out) * (1 - ramp(t, c.end + 0.15, 0.7, EASE.inOut)); }
   for (const a of ACTS.slice(1)) if (a.enter === 'cut') { const v = 1 - ramp(t, a.start, 1.1, EASE.out); if (t >= a.start && v > 0) { s += 0.09 * v; x -= 46 * v; } }
   const sec = TTL.sections.find((q) => t >= q.start && t < q.end);
   const shake = sec && SHAKY.includes(sec.mood) ? Math.min(1, (t - sec.start) * 2, (sec.end - t) * 2) : 0;

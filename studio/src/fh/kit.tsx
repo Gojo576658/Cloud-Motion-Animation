@@ -156,7 +156,6 @@ export const FranceMap: React.FC<{ x: number; y: number; size?: number; pins?: n
           <path d={`M ${0.60 * size} ${-0.12 * size} L ${0.58 * size} ${-0.34 * size} L ${0.80 * size} ${-0.40 * size} L ${0.82 * size} ${-0.10 * size} L ${0.78 * size} ${-0.08 * size} Z`} fill="#16161c" stroke={A.dim} strokeWidth={2} strokeDasharray="6 6" />
         </g>}
         <polygon points={pts} fill="#16161c" stroke={A.white} strokeWidth={3} strokeLinejoin="round" />
-        <ellipse cx={0.99 * size} cy={0.94 * size} rx={0.025 * size} ry={0.05 * size} fill="#16161c" stroke={A.white} strokeWidth={3} />
       </svg>
       {PINS.slice(0, pins).map(([a, b], i) => {
         const on = all > 0 ? at + (i % 37) * 0.004 : at + (i / Math.max(1, pins)) * spread * (0.6 + 0.4 * ((i * 7919) % 11) / 11);

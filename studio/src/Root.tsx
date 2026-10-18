@@ -17,6 +17,8 @@ import { ItSaidYes } from './ai/Main';
 import { TTL as ATL } from './ai/ttime';
 import { KillSwitch } from './ks/Main';
 import { OneButton } from './ob/Main';
+import { FridgeHack } from './fh/Main';
+import FHTL from './fh/timeline.json';
 import { TTL as OBTL } from './ob/ttime';
 import { TTL as KSTL } from './ks/ttime';
 import BFS_TL from './bfs/timeline.json';
@@ -130,6 +132,7 @@ export const Root: React.FC = () => (
     <Composition id="ItSaidYes" component={ItSaidYes} width={1920} height={1080} fps={FPS} durationInFrames={Math.ceil(ATL.duration * FPS)} />
     <Composition id="KillSwitch" component={KillSwitch} width={1920} height={1080} fps={FPS} durationInFrames={Math.ceil(KSTL.duration * FPS)} />
     <Composition id="OneButton" component={OneButton} width={1920} height={1080} fps={FPS} durationInFrames={Math.ceil(OBTL.duration * FPS)} />
+    <Composition id="FridgeHack" component={FridgeHack} width={1920} height={1080} fps={FPS} durationInFrames={Math.ceil(FHTL.duration * FPS)} />
     <Composition id="BfKit" component={BfKit} width={1920} height={1080} fps={FPS} durationInFrames={90} />
     <Composition id="CpuShort" component={CpuShort} width={1080} height={1920} fps={FPS} durationInFrames={Math.ceil(KTL.duration * FPS)} />
     <Composition id="Short" component={ShortMain} width={1080} height={1920} fps={FPS} durationInFrames={Math.ceil(STL.duration * FPS)} />
