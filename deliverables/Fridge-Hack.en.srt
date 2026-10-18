@@ -1,0 +1,1051 @@
+1
+00:00:00,600 --> 00:00:02,500
+It's a quiet Sunday night in France.
+
+2
+00:00:02,540 --> 00:00:03,840
+The supermarkets are closed.
+
+3
+00:00:03,900 --> 00:00:04,940
+The lights are off.
+
+4
+00:00:05,020 --> 00:00:06,600
+And inside every store, the fridges are
+
+5
+00:00:06,620 --> 00:00:09,240
+humming, keeping millions of euros of food cold.
+
+6
+00:00:09,498 --> 00:00:11,678
+Then, one by one, across hundreds of
+
+7
+00:00:11,698 --> 00:00:14,078
+stores, something strange starts to happen.
+
+8
+00:00:14,190 --> 00:00:15,530
+The fridges don't break.
+
+9
+00:00:15,590 --> 00:00:16,550
+They don't switch off.
+
+10
+00:00:16,570 --> 00:00:17,570
+They start heating up.
+
+11
+00:00:17,590 --> 00:00:18,330
+Ten degrees.
+
+12
+00:00:18,430 --> 00:00:19,030
+Twenty.
+
+13
+00:00:19,050 --> 00:00:19,550
+Thirty.
+
+14
+00:00:19,610 --> 00:00:21,610
+Until some of them hit fifty degrees Celsius.
+
+15
+00:00:21,930 --> 00:00:23,350
+That's a hot summer day in the desert,
+
+16
+00:00:23,370 --> 00:00:24,410
+inside a freezer.
+
+17
+00:00:24,701 --> 00:00:26,581
+By morning, the food is ruined.
+
+18
+00:00:26,801 --> 00:00:29,341
+In some stores, there are reports of fires.
+
+19
+00:00:29,633 --> 00:00:31,573
+And nobody broke a window.
+
+20
+00:00:31,773 --> 00:00:33,253
+Nobody touched a single fridge.
+
+21
+00:00:33,273 --> 00:00:35,113
+The attack came through a small box on the
+
+22
+00:00:35,133 --> 00:00:36,913
+wall that most people didn't even know was
+
+23
+00:00:36,933 --> 00:00:38,313
+connected to the internet.
+
+24
+00:00:38,505 --> 00:00:39,565
+I'm Vio.
+
+25
+00:00:39,745 --> 00:00:41,325
+And this is the story of the night hackers
+
+26
+00:00:41,345 --> 00:00:44,505
+turned France's supermarket fridges into ovens.
+
+27
+00:00:44,853 --> 00:00:46,453
+First, let's talk about how a supermarket
+
+28
+00:00:46,473 --> 00:00:48,353
+fridge actually works.
+
+29
+00:00:48,373 --> 00:00:50,693
+Because it's not like the one in your kitchen.
+
+30
+00:00:50,795 --> 00:00:52,535
+A big supermarket can have dozens of
+
+31
+00:00:52,555 --> 00:00:54,715
+fridges, freezers and cold rooms.
+
+32
+00:00:54,955 --> 00:00:57,055
+And all of them are run by one brain.
+
+33
+00:00:57,135 --> 00:00:58,495
+A refrigeration controller.
+
+34
+00:00:58,744 --> 00:01:00,584
+It's a little computer, usually sitting in
+
+35
+00:01:00,604 --> 00:01:01,564
+a back room.
+
+36
+00:01:01,744 --> 00:01:03,684
+It watches every temperature in the store,
+
+37
+00:01:03,704 --> 00:01:05,144
+all day, all night.
+
+38
+00:01:05,244 --> 00:01:06,564
+If a freezer gets a bit too warm,
+
+39
+00:01:06,584 --> 00:01:07,484
+it fixes it.
+
+40
+00:01:07,504 --> 00:01:09,704
+If something goes wrong, it sends an alarm.
+
+41
+00:01:09,976 --> 00:01:11,234
+And here's the important part.
+
+42
+00:01:11,254 --> 00:01:14,386
+It also runs something called a defrost cycle.
+
+43
+00:01:14,431 --> 00:01:16,071
+Freezers slowly build up ice on their
+
+44
+00:01:16,091 --> 00:01:17,031
+cooling coils.
+
+45
+00:01:17,271 --> 00:01:18,811
+So every few hours, the controller warms
+
+46
+00:01:18,831 --> 00:01:20,231
+the coils for a short time,
+
+47
+00:01:20,251 --> 00:01:22,331
+the ice melts, and then the cold comes back.
+
+48
+00:01:22,611 --> 00:01:24,311
+Normally, that takes maybe an hour.
+
+49
+00:01:24,429 --> 00:01:26,929
+During that time, the fridge is warm inside.
+
+50
+00:01:27,089 --> 00:01:28,469
+And that's fine, because the controller
+
+51
+00:01:28,489 --> 00:01:30,110
+knows exactly when to stop.
+
+52
+00:01:30,130 --> 00:01:32,050
+Unless someone else is giving the orders.
+
+53
+00:01:32,238 --> 00:01:34,238
+So the controller can make a fridge warm,
+
+54
+00:01:34,258 --> 00:01:35,078
+on purpose.
+
+55
+00:01:35,098 --> 00:01:36,018
+Remember that.
+
+56
+00:01:36,038 --> 00:01:37,398
+Because that's exactly the switch the
+
+57
+00:01:37,418 --> 00:01:38,398
+hackers pulled.
+
+58
+00:01:38,889 --> 00:01:41,069
+Now, why would anyone connect this box to
+
+59
+00:01:41,089 --> 00:01:41,969
+the internet?
+
+60
+00:01:42,223 --> 00:01:43,243
+Convenience.
+
+61
+00:01:43,423 --> 00:01:46,003
+A supermarket chain might have hundreds of stores.
+
+62
+00:01:46,383 --> 00:01:47,643
+The maintenance company can't drive to
+
+63
+00:01:47,663 --> 00:01:48,803
+every single one.
+
+64
+00:01:48,823 --> 00:01:50,263
+So the controllers get a web page,
+
+65
+00:01:50,283 --> 00:01:51,923
+and technicians log in from far away to
+
+66
+00:01:51,943 --> 00:01:53,663
+check temperatures and change settings.
+
+67
+00:01:53,955 --> 00:01:55,135
+It saves time.
+
+68
+00:01:55,215 --> 00:01:56,315
+It saves money.
+
+69
+00:01:56,455 --> 00:01:57,655
+And when something breaks at three in the
+
+70
+00:01:57,675 --> 00:01:59,275
+morning, a technician can fix it from
+
+71
+00:01:59,295 --> 00:02:00,695
+home, in pyjamas.
+
+72
+00:02:00,881 --> 00:02:02,821
+The problem is, if a technician can reach
+
+73
+00:02:02,841 --> 00:02:05,161
+that web page from anywhere in the world,
+
+74
+00:02:05,221 --> 00:02:06,541
+so can anybody else.
+
+75
+00:02:06,730 --> 00:02:08,370
+Many of these controllers were made by a
+
+76
+00:02:08,390 --> 00:02:10,190
+Danish company called Danfoss.
+
+77
+00:02:10,330 --> 00:02:11,690
+And the models at the center of this story
+
+78
+00:02:11,710 --> 00:02:12,770
+are old.
+
+79
+00:02:13,030 --> 00:02:13,770
+Really old.
+
+80
+00:02:13,931 --> 00:02:15,771
+Danfoss says most of the hacked units were
+
+81
+00:02:15,791 --> 00:02:16,871
+legacy products.
+
+82
+00:02:17,111 --> 00:02:19,371
+One model was phased out in 2016.
+
+83
+00:02:19,591 --> 00:02:21,991
+Another reached its end of life in 2021.
+
+84
+00:02:22,291 --> 00:02:24,771
+They no longer get software or security updates.
+
+85
+00:02:24,998 --> 00:02:26,878
+And Danfoss had already published security
+
+86
+00:02:26,898 --> 00:02:28,678
+warnings about weaknesses in some of its
+
+87
+00:02:28,698 --> 00:02:31,338
+controllers, in March and August of 2025.
+
+88
+00:02:31,738 --> 00:02:33,218
+Months before the attack.
+
+89
+00:02:33,345 --> 00:02:34,845
+But here's the thing about fridges.
+
+90
+00:02:35,025 --> 00:02:36,565
+When they work, nobody touches them.
+
+91
+00:02:36,585 --> 00:02:38,525
+These machines can run for many years.
+
+92
+00:02:38,605 --> 00:02:40,145
+Replacing them costs money.
+
+93
+00:02:40,285 --> 00:02:41,765
+So old controllers stay on the wall,
+
+94
+00:02:41,785 --> 00:02:43,065
+long after the company that made them
+
+95
+00:02:43,085 --> 00:02:44,305
+stopped fixing them.
+
+96
+00:02:44,373 --> 00:02:45,633
+So picture it.
+
+97
+00:02:45,753 --> 00:02:47,413
+Thousands of old boxes, running the cold
+
+98
+00:02:47,433 --> 00:02:49,393
+food of a whole country, with their front
+
+99
+00:02:49,413 --> 00:02:50,873
+door facing the internet,
+
+100
+00:02:50,973 --> 00:02:52,673
+and no new locks coming.
+
+101
+00:02:52,873 --> 00:02:53,433
+Ever.
+
+102
+00:02:53,992 --> 00:02:56,232
+So how did the attackers get in?
+
+103
+00:02:56,610 --> 00:02:58,510
+Honestly, nobody knows for sure yet.
+
+104
+00:02:58,530 --> 00:03:00,570
+The investigation is still going on.
+
+105
+00:03:00,660 --> 00:03:02,700
+But security experts keep pointing at the
+
+106
+00:03:02,720 --> 00:03:03,800
+same problem.
+
+107
+00:03:04,020 --> 00:03:05,740
+Old devices, left reachable from the
+
+108
+00:03:05,760 --> 00:03:08,380
+internet, with weak protection and no updates.
+
+109
+00:03:08,676 --> 00:03:10,196
+And experts had been warning about exposed
+
+110
+00:03:10,216 --> 00:03:11,996
+equipment like this for years.
+
+111
+00:03:12,176 --> 00:03:12,696
+Not just fridges.
+
+112
+00:03:12,716 --> 00:03:14,576
+Cameras, factory machines,
+
+113
+00:03:14,596 --> 00:03:16,136
+even parts of power systems.
+
+114
+00:03:16,392 --> 00:03:18,052
+One security firm had disclosed weaknesses
+
+115
+00:03:18,072 --> 00:03:20,652
+in some Danfoss controllers in 2025,
+
+116
+00:03:20,672 --> 00:03:21,772
+which were later patched.
+
+117
+00:03:22,032 --> 00:03:23,632
+But nobody has officially confirmed that's
+
+118
+00:03:23,652 --> 00:03:24,832
+how this attack worked.
+
+119
+00:03:25,045 --> 00:03:26,253
+And here's what makes it scary.
+
+120
+00:03:26,273 --> 00:03:28,655
+The attackers didn't need to break the fridges.
+
+121
+00:03:28,675 --> 00:03:29,875
+They reportedly used a feature that was
+
+122
+00:03:29,895 --> 00:03:30,935
+already there.
+
+123
+00:03:30,996 --> 00:03:32,016
+The defrost.
+
+124
+00:03:32,076 --> 00:03:33,796
+A normal, everyday setting.
+
+125
+00:03:33,816 --> 00:03:36,096
+Used at the wrong time, for the wrong reason.
+
+126
+00:03:36,575 --> 00:03:38,275
+And that's what happened on the night of
+
+127
+00:03:38,295 --> 00:03:39,447
+October eleventh.
+
+128
+00:03:39,467 --> 00:03:41,087
+The attackers reportedly hijacked a
+
+129
+00:03:41,107 --> 00:03:42,607
+routine maintenance setting and locked the
+
+130
+00:03:42,627 --> 00:03:45,067
+fridges into a defrost cycle that didn't end.
+
+131
+00:03:45,307 --> 00:03:46,707
+Instead of one hour, some ran for six
+
+132
+00:03:46,727 --> 00:03:47,867
+hours or more.
+
+133
+00:03:48,001 --> 00:03:49,241
+And because it happened at night,
+
+134
+00:03:49,261 --> 00:03:50,361
+while the stores were closed,
+
+135
+00:03:50,381 --> 00:03:51,901
+there was nobody there to notice.
+
+136
+00:03:52,131 --> 00:03:54,611
+Hour after hour, the temperature crept up.
+
+137
+00:03:54,711 --> 00:03:56,451
+One retailer said its cases ran hot for
+
+138
+00:03:56,471 --> 00:03:58,831
+about six hours before anyone could stop it.
+
+139
+00:03:58,865 --> 00:04:00,625
+And because thousands of fridges were
+
+140
+00:04:00,645 --> 00:04:02,025
+attacked in the same night,
+
+141
+00:04:02,045 --> 00:04:03,925
+this wasn't a broken machine.
+
+142
+00:04:04,045 --> 00:04:06,005
+It was a coordinated attack.
+
+143
+00:04:06,189 --> 00:04:08,649
+Temperatures climbed to around fifty degrees.
+
+144
+00:04:08,749 --> 00:04:10,449
+Meat, fish, milk, cheese,
+
+145
+00:04:10,469 --> 00:04:11,369
+ice cream.
+
+146
+00:04:11,429 --> 00:04:13,189
+All of it, slowly cooking inside the cases
+
+147
+00:04:13,209 --> 00:04:15,129
+that were supposed to protect it.
+
+148
+00:04:15,230 --> 00:04:16,710
+When the first workers walked in on Monday
+
+149
+00:04:16,730 --> 00:04:18,310
+morning, they found warm freezers,
+
+150
+00:04:18,330 --> 00:04:20,110
+melted food, and in some places,
+
+151
+00:04:20,130 --> 00:04:21,230
+reports of fires.
+
+152
+00:04:21,498 --> 00:04:23,358
+Imagine being the store manager.
+
+153
+00:04:23,378 --> 00:04:24,958
+You open the doors, and instead of cold
+
+154
+00:04:24,978 --> 00:04:26,678
+air, you get a wall of heat and the smell
+
+155
+00:04:26,698 --> 00:04:27,718
+of spoiled meat.
+
+156
+00:04:27,738 --> 00:04:28,978
+Every fridge in the building.
+
+157
+00:04:28,998 --> 00:04:30,358
+And you have no idea why.
+
+158
+00:04:30,459 --> 00:04:32,619
+Staff had to throw away tons of food.
+
+159
+00:04:32,639 --> 00:04:34,339
+And all of it happened before most people
+
+160
+00:04:34,359 --> 00:04:35,799
+had even had breakfast.
+
+161
+00:04:36,070 --> 00:04:37,210
+And quick favour.
+
+162
+00:04:37,230 --> 00:04:38,470
+If this kind of story makes you look at
+
+163
+00:04:38,490 --> 00:04:39,690
+the little boxes around you a bit
+
+164
+00:04:39,710 --> 00:04:41,330
+differently, hit subscribe.
+
+165
+00:04:41,490 --> 00:04:43,290
+That's how I know you want more of these.
+
+166
+00:04:43,926 --> 00:04:46,046
+So how big was it?
+
+167
+00:04:46,066 --> 00:04:47,426
+The numbers keep changing,
+
+168
+00:04:47,446 --> 00:04:48,566
+but they're all huge.
+
+169
+00:04:48,906 --> 00:04:50,286
+Intermarché and its sister chain Netto
+
+170
+00:04:50,306 --> 00:04:51,646
+were among the hardest hit,
+
+171
+00:04:51,666 --> 00:04:54,086
+with up to three hundred stores reportedly affected.
+
+172
+00:04:54,246 --> 00:04:55,506
+Carrefour said about eighty of its
+
+173
+00:04:55,526 --> 00:04:56,966
+supermarkets were attacked.
+
+174
+00:04:57,066 --> 00:04:59,166
+Monoprix, Leclerc and Coopérative U also
+
+175
+00:04:59,186 --> 00:05:00,386
+reported problems.
+
+176
+00:05:00,714 --> 00:05:02,774
+Early counts said a few hundred stores.
+
+177
+00:05:03,134 --> 00:05:04,414
+Then the French finance minister told
+
+178
+00:05:04,434 --> 00:05:06,254
+parliament it was about seven hundred,
+
+179
+00:05:06,274 --> 00:05:07,474
+out of roughly ten thousand supermarkets
+
+180
+00:05:07,494 --> 00:05:09,074
+in the whole country.
+
+181
+00:05:09,164 --> 00:05:11,164
+Two supermarkets in Alsace reportedly lost
+
+182
+00:05:11,184 --> 00:05:12,624
+about two hundred and seventy thousand
+
+183
+00:05:12,644 --> 00:05:13,964
+euros between them.
+
+184
+00:05:14,064 --> 00:05:16,364
+Now multiply that by hundreds of stores.
+
+185
+00:05:16,609 --> 00:05:18,529
+And it wasn't only Danfoss.
+
+186
+00:05:18,549 --> 00:05:20,369
+France's national cyber agency said
+
+187
+00:05:20,389 --> 00:05:21,969
+controllers from at least three companies
+
+188
+00:05:21,989 --> 00:05:22,889
+were hit.
+
+189
+00:05:23,009 --> 00:05:24,909
+Danfoss, Copeland, and Dixell.
+
+190
+00:05:24,938 --> 00:05:27,178
+And it may not have stopped at the French border.
+
+191
+00:05:27,418 --> 00:05:29,058
+There were reports of similar problems in
+
+192
+00:05:29,078 --> 00:05:30,358
+the Netherlands and Belgium,
+
+193
+00:05:30,378 --> 00:05:32,738
+although those details are still being checked.
+
+194
+00:05:32,933 --> 00:05:34,573
+France's prime minister asked the agency
+
+195
+00:05:34,593 --> 00:05:35,653
+to investigate,
+
+196
+00:05:35,893 --> 00:05:37,813
+and Paris prosecutors opened a case.
+
+197
+00:05:38,013 --> 00:05:40,553
+And as of now, nobody has claimed responsibility.
+
+198
+00:05:40,972 --> 00:05:42,552
+Some commentators have pointed to the wave
+
+199
+00:05:42,572 --> 00:05:44,272
+of so-called hybrid attacks across Europe
+
+200
+00:05:44,292 --> 00:05:45,412
+in recent years.
+
+201
+00:05:45,432 --> 00:05:46,852
+But so far, there is no public evidence
+
+202
+00:05:46,872 --> 00:05:49,452
+linking this attack to any group or country.
+
+203
+00:05:49,954 --> 00:05:52,134
+Now, if you think fridges are a weird way
+
+204
+00:05:52,154 --> 00:05:54,314
+to attack someone, this has happened before.
+
+205
+00:05:54,489 --> 00:05:57,149
+In 2013, hackers stole the card details of
+
+206
+00:05:57,169 --> 00:05:58,789
+around forty million shoppers from the
+
+207
+00:05:58,809 --> 00:06:00,309
+American retailer Target.
+
+208
+00:06:00,529 --> 00:06:01,489
+And the way in?
+
+209
+00:06:01,529 --> 00:06:03,149
+Login details stolen from a company that
+
+210
+00:06:03,169 --> 00:06:05,409
+serviced Target's heating and air conditioning.
+
+211
+00:06:05,629 --> 00:06:07,549
+And sometimes, these attacks don't just
+
+212
+00:06:07,569 --> 00:06:08,629
+steal data.
+
+213
+00:06:08,649 --> 00:06:10,569
+They break things in the real world.
+
+214
+00:06:10,644 --> 00:06:12,924
+Around 2010, a computer worm called
+
+215
+00:06:12,944 --> 00:06:14,484
+Stuxnet quietly damaged nuclear
+
+216
+00:06:14,504 --> 00:06:16,664
+centrifuges in Iran, by sending them the
+
+217
+00:06:16,684 --> 00:06:17,824
+wrong instructions while the screens
+
+218
+00:06:17,844 --> 00:06:19,424
+showed that everything was fine.
+
+219
+00:06:19,548 --> 00:06:21,128
+And in 2015,
+
+220
+00:06:21,348 --> 00:06:22,768
+hackers switched off the power for
+
+221
+00:06:22,788 --> 00:06:24,148
+hundreds of thousands of people in
+
+222
+00:06:24,168 --> 00:06:25,908
+Ukraine, in the middle of winter,
+
+223
+00:06:25,928 --> 00:06:27,588
+by taking over the control systems of
+
+224
+00:06:27,608 --> 00:06:28,688
+power companies.
+
+225
+00:06:28,980 --> 00:06:31,120
+And there's a famous story from a casino.
+
+226
+00:06:31,440 --> 00:06:33,100
+A cybersecurity company said hackers got
+
+227
+00:06:33,120 --> 00:06:34,240
+into its network through a smart
+
+228
+00:06:34,260 --> 00:06:36,360
+thermometer, in the lobby fish tank.
+
+229
+00:06:36,464 --> 00:06:37,444
+A fish tank.
+
+230
+00:06:37,464 --> 00:06:37,984
+A heater.
+
+231
+00:06:38,004 --> 00:06:38,664
+A fridge.
+
+232
+00:06:38,824 --> 00:06:40,564
+These are the things nobody thinks about.
+
+233
+00:06:40,584 --> 00:06:41,684
+Nobody updates them.
+
+234
+00:06:41,704 --> 00:06:42,944
+And they sit on the same networks as
+
+235
+00:06:42,964 --> 00:06:43,964
+everything else.
+
+236
+00:06:44,122 --> 00:06:45,822
+Security people have a saying.
+
+237
+00:06:45,842 --> 00:06:47,622
+Attackers don't break in through the front door.
+
+238
+00:06:47,642 --> 00:06:49,142
+They come in through the boiler room.
+
+239
+00:06:49,576 --> 00:06:50,936
+So what happens now?
+
+240
+00:06:51,054 --> 00:06:53,074
+France's cyber agency told companies to
+
+241
+00:06:53,094 --> 00:06:54,474
+take these controllers off the open
+
+242
+00:06:54,494 --> 00:06:55,314
+internet,
+
+243
+00:06:55,454 --> 00:06:57,214
+or put them behind a private connection,
+
+244
+00:06:57,234 --> 00:06:59,074
+and to change any default passwords.
+
+245
+00:06:59,329 --> 00:07:01,349
+Danfoss says the oldest units simply need
+
+246
+00:07:01,369 --> 00:07:02,369
+to be replaced.
+
+247
+00:07:02,649 --> 00:07:04,269
+Which means a lot of supermarkets are
+
+248
+00:07:04,289 --> 00:07:06,169
+about to buy a lot of new boxes.
+
+249
+00:07:06,510 --> 00:07:08,930
+And maybe the real lesson is for all of us.
+
+250
+00:07:08,950 --> 00:07:10,590
+Your router, your smart TV,
+
+251
+00:07:10,610 --> 00:07:11,730
+your doorbell camera.
+
+252
+00:07:12,110 --> 00:07:14,050
+When did you last update any of them?
+
+253
+00:07:14,070 --> 00:07:15,410
+Do you even know the password?
+
+254
+00:07:15,593 --> 00:07:16,913
+So here's my question.
+
+255
+00:07:16,973 --> 00:07:18,893
+Who should pay for all that ruined food?
+
+256
+00:07:19,013 --> 00:07:20,873
+The supermarkets, for leaving the door open?
+
+257
+00:07:20,893 --> 00:07:22,773
+Or the company that made the old boxes?
+
+258
+00:07:22,833 --> 00:07:23,873
+Tell me in the comments.
+
+259
+00:07:24,067 --> 00:07:25,967
+And subscribe, because next time,
+
+260
+00:07:25,987 --> 00:07:27,267
+there's another everyday object that
+
+261
+00:07:27,287 --> 00:07:29,047
+turned out to be a hacker's way in.
+
+262
+00:07:29,113 --> 00:07:30,773
+Nobody updated the fridge.
+
+263
+00:07:30,793 --> 00:07:33,233
+And one night, the fridge became an oven.
