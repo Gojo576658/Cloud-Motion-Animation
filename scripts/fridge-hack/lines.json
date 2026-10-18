@@ -2,7 +2,7 @@
  {
   "s": 0,
   "gap": 0.4,
-  "text": "It's a quiet Saturday night in France. The supermarkets are closed. The lights are off. And inside every store, the fridges are humming, keeping millions of euros of food cold."
+  "text": "It's a quiet Sunday night in France. The supermarkets are closed. The lights are off. And inside every store, the fridges are humming, keeping millions of euros of food cold."
  },
  {
   "s": 0,
@@ -57,7 +57,7 @@
  {
   "s": 1,
   "gap": 0.35,
-  "text": "During those few minutes, the fridge is warm inside. And that's fine, because the controller knows exactly when to stop."
+  "text": "During that time, the fridge is warm inside. And that's fine, because the controller knows exactly when to stop."
  },
  {
   "s": 1,
@@ -117,37 +117,37 @@
  {
   "s": 3,
   "gap": 0.35,
-  "text": "So, how do you even find a fridge on the internet?"
+  "text": "So how did the attackers get in?"
  },
  {
   "s": 3,
   "gap": 0.35,
-  "text": "It's easier than you think. There are search engines that don't look for websites. They look for devices. Cameras, routers, factory machines, and yes, fridge controllers."
+  "text": "Honestly, nobody knows for sure yet. The investigation is still going on."
  },
  {
   "s": 3,
   "gap": 0.35,
-  "text": "Every device that answers on the internet has a kind of name tag. If you know what tag to search for, you can get a list of thousands of them, with their addresses. In minutes."
+  "text": "But security experts keep pointing at the same problem. Old devices, left reachable from the internet, with weak protection and no updates."
  },
  {
   "s": 3,
   "gap": 0.35,
-  "text": "Security researchers use these tools to warn companies. But attackers use them too."
+  "text": "And experts had been warning about exposed equipment like this for years. Not just fridges. Cameras, factory machines, even parts of power systems."
  },
  {
   "s": 3,
   "gap": 0.35,
-  "text": "And many of these boxes still had settings from the day they were installed. Some were reportedly reachable with a simple login page, and nothing else standing in the way."
+  "text": "One security firm had disclosed weaknesses in some Danfoss controllers in 2025, which were later patched. But nobody has officially confirmed that's how this attack worked."
  },
  {
   "s": 3,
   "gap": 0.35,
-  "text": "How exactly the attackers got in is still being investigated. One security firm had disclosed a weakness in some Danfoss controllers in 2025, where the admin password could be worked out. But nobody has officially confirmed that's what was used."
+  "text": "And here's what makes it scary. The attackers didn't need to break the fridges. They reportedly used a feature that was already there."
  },
  {
   "s": 3,
   "gap": 0.7,
-  "text": "And here's the scary part. Some experts point out that turning on a defrost isn't even a hack. It's a normal button. If you can log in, you can press it."
+  "text": "The defrost. A normal, everyday setting. Used at the wrong time, for the wrong reason."
  },
  {
   "s": 4,
@@ -157,7 +157,7 @@
  {
   "s": 4,
   "gap": 0.35,
-  "text": "The attackers reportedly hijacked a routine maintenance setting and locked the fridges into a defrost cycle that didn't end. Instead of one hour, some ran for up to eight hours."
+  "text": "The attackers reportedly hijacked a routine maintenance setting and locked the fridges into a defrost cycle that didn't end. Instead of one hour, some ran for six hours or more."
  },
  {
   "s": 4,
@@ -182,7 +182,7 @@
  {
   "s": 4,
   "gap": 0.35,
-  "text": "When the first workers walked in on Sunday morning, they found warm freezers, melted food, and in some places, reports of fires."
+  "text": "When the first workers walked in on Monday morning, they found warm freezers, melted food, and in some places, reports of fires."
  },
  {
   "s": 4,
@@ -207,17 +207,17 @@
  {
   "s": 5,
   "gap": 0.35,
-  "text": "The numbers keep changing, but they're all huge. Intermarch\u00e9 was among the hardest hit, with reports of hundreds of its stores affected. Carrefour said about eighty of its supermarkets were attacked. Netto, Monoprix, Leclerc and Coop\u00e9rative U also reported problems."
+  "text": "The numbers keep changing, but they're all huge. Intermarché and its sister chain Netto were among the hardest hit, with up to three hundred stores reportedly affected. Carrefour said about eighty of its supermarkets were attacked. Monoprix, Leclerc and Coopérative U also reported problems."
  },
  {
   "s": 5,
   "gap": 0.35,
-  "text": "Most counts put it somewhere between two hundred and fifty and three hundred and fifty stores. France's finance minister estimated it could be as many as seven hundred."
+  "text": "Early counts said a few hundred stores. Then France's finance minister told parliament it was about seven hundred, out of roughly ten thousand supermarkets in the whole country."
  },
  {
   "s": 5,
   "gap": 0.35,
-  "text": "The boss of Intermarch\u00e9 said the losses could reach tens of millions of euros. In a single day."
+  "text": "Two supermarkets in Alsace reportedly lost about two hundred and seventy thousand euros between them. Now multiply that by hundreds of stores."
  },
  {
   "s": 5,
