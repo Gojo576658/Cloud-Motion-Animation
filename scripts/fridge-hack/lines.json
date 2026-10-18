@@ -1,0 +1,317 @@
+[
+ {
+  "s": 0,
+  "gap": 0.4,
+  "text": "It's a quiet Saturday night in France. The supermarkets are closed. The lights are off. And inside every store, the fridges are humming, keeping millions of euros of food cold."
+ },
+ {
+  "s": 0,
+  "gap": 0.35,
+  "text": "Then, one by one, across hundreds of stores, something strange starts to happen."
+ },
+ {
+  "s": 0,
+  "gap": 0.4,
+  "text": "The fridges don't break. They don't switch off. They start heating up. Ten degrees. Twenty. Thirty. Until some of them hit fifty degrees Celsius. That's a hot summer day in the desert, inside a freezer."
+ },
+ {
+  "s": 0,
+  "gap": 0.35,
+  "text": "By morning, the food is ruined. In some stores, there are reports of fires."
+ },
+ {
+  "s": 0,
+  "gap": 0.35,
+  "text": "And nobody broke a window. Nobody touched a single fridge. The attack came through a small box on the wall that most people didn't even know was connected to the internet."
+ },
+ {
+  "s": 0,
+  "gap": 0.7,
+  "text": "I'm Vio. And this is the story of the night hackers turned France's supermarket fridges into ovens."
+ },
+ {
+  "s": 1,
+  "gap": 0.35,
+  "text": "First, let's talk about how a supermarket fridge actually works. Because it's not like the one in your kitchen."
+ },
+ {
+  "s": 1,
+  "gap": 0.35,
+  "text": "A big supermarket can have dozens of fridges, freezers and cold rooms. And all of them are run by one brain. A refrigeration controller."
+ },
+ {
+  "s": 1,
+  "gap": 0.35,
+  "text": "It's a little computer, usually sitting in a back room. It watches every temperature in the store, all day, all night. If a freezer gets a bit too warm, it fixes it. If something goes wrong, it sends an alarm."
+ },
+ {
+  "s": 1,
+  "gap": 0.35,
+  "text": "And here's the important part. It also runs something called a defrost cycle."
+ },
+ {
+  "s": 1,
+  "gap": 0.35,
+  "text": "Freezers slowly build up ice on their cooling coils. So every few hours, the controller warms the coils for a short time, the ice melts, and then the cold comes back. Normally, that takes maybe an hour."
+ },
+ {
+  "s": 1,
+  "gap": 0.35,
+  "text": "During those few minutes, the fridge is warm inside. And that's fine, because the controller knows exactly when to stop."
+ },
+ {
+  "s": 1,
+  "gap": 0.35,
+  "text": "Unless someone else is giving the orders."
+ },
+ {
+  "s": 1,
+  "gap": 0.7,
+  "text": "So the controller can make a fridge warm, on purpose. Remember that. Because that's exactly the switch the hackers pulled."
+ },
+ {
+  "s": 2,
+  "gap": 0.35,
+  "text": "Now, why would anyone connect this box to the internet?"
+ },
+ {
+  "s": 2,
+  "gap": 0.35,
+  "text": "Convenience. A supermarket chain might have hundreds of stores. The maintenance company can't drive to every single one. So the controllers get a web page, and technicians log in from far away to check temperatures and change settings."
+ },
+ {
+  "s": 2,
+  "gap": 0.35,
+  "text": "It saves time. It saves money. And when something breaks at three in the morning, a technician can fix it from home, in pyjamas."
+ },
+ {
+  "s": 2,
+  "gap": 0.35,
+  "text": "The problem is, if a technician can reach that web page from anywhere in the world, so can anybody else."
+ },
+ {
+  "s": 2,
+  "gap": 0.35,
+  "text": "Many of these controllers were made by a Danish company called Danfoss. And the models at the center of this story are old. Really old."
+ },
+ {
+  "s": 2,
+  "gap": 0.35,
+  "text": "Danfoss says most of the hacked units were legacy products. One model was phased out in 2016. Another reached its end of life in 2021. They no longer get software or security updates."
+ },
+ {
+  "s": 2,
+  "gap": 0.35,
+  "text": "And Danfoss had already published security warnings about weaknesses in some of its controllers, in March and August of 2025. Months before the attack."
+ },
+ {
+  "s": 2,
+  "gap": 0.35,
+  "text": "But here's the thing about fridges. When they work, nobody touches them. These machines can run for many years. Replacing them costs money. So old controllers stay on the wall, long after the company that made them stopped fixing them."
+ },
+ {
+  "s": 2,
+  "gap": 0.7,
+  "text": "So picture it. Thousands of old boxes, running the cold food of a whole country, with their front door facing the internet, and no new locks coming. Ever."
+ },
+ {
+  "s": 3,
+  "gap": 0.35,
+  "text": "So, how do you even find a fridge on the internet?"
+ },
+ {
+  "s": 3,
+  "gap": 0.35,
+  "text": "It's easier than you think. There are search engines that don't look for websites. They look for devices. Cameras, routers, factory machines, and yes, fridge controllers."
+ },
+ {
+  "s": 3,
+  "gap": 0.35,
+  "text": "Every device that answers on the internet has a kind of name tag. If you know what tag to search for, you can get a list of thousands of them, with their addresses. In minutes."
+ },
+ {
+  "s": 3,
+  "gap": 0.35,
+  "text": "Security researchers use these tools to warn companies. But attackers use them too."
+ },
+ {
+  "s": 3,
+  "gap": 0.35,
+  "text": "And many of these boxes still had settings from the day they were installed. Some were reportedly reachable with a simple login page, and nothing else standing in the way."
+ },
+ {
+  "s": 3,
+  "gap": 0.35,
+  "text": "How exactly the attackers got in is still being investigated. One security firm had disclosed a weakness in some Danfoss controllers in 2025, where the admin password could be worked out. But nobody has officially confirmed that's what was used."
+ },
+ {
+  "s": 3,
+  "gap": 0.7,
+  "text": "And here's the scary part. Some experts point out that turning on a defrost isn't even a hack. It's a normal button. If you can log in, you can press it."
+ },
+ {
+  "s": 4,
+  "gap": 0.35,
+  "text": "And that's what happened on the night of October eleventh."
+ },
+ {
+  "s": 4,
+  "gap": 0.35,
+  "text": "The attackers reportedly hijacked a routine maintenance setting and locked the fridges into a defrost cycle that didn't end. Instead of one hour, some ran for up to eight hours."
+ },
+ {
+  "s": 4,
+  "gap": 0.35,
+  "text": "And because it happened at night, while the stores were closed, there was nobody there to notice."
+ },
+ {
+  "s": 4,
+  "gap": 0.35,
+  "text": "Hour after hour, the temperature crept up. One retailer said its cases ran hot for about six hours before anyone could stop it."
+ },
+ {
+  "s": 4,
+  "gap": 0.35,
+  "text": "And because thousands of fridges were attacked in the same night, this wasn't a broken machine. It was a coordinated attack."
+ },
+ {
+  "s": 4,
+  "gap": 0.35,
+  "text": "Temperatures climbed to around fifty degrees. Meat, fish, milk, cheese, ice cream. All of it, slowly cooking inside the cases that were supposed to protect it."
+ },
+ {
+  "s": 4,
+  "gap": 0.35,
+  "text": "When the first workers walked in on Sunday morning, they found warm freezers, melted food, and in some places, reports of fires."
+ },
+ {
+  "s": 4,
+  "gap": 0.35,
+  "text": "Imagine being the store manager. You open the doors, and instead of cold air, you get a wall of heat and the smell of spoiled meat. Every fridge in the building. And you have no idea why."
+ },
+ {
+  "s": 4,
+  "gap": 0.35,
+  "text": "Staff had to throw away tons of food. And all of it happened before most people had even had breakfast."
+ },
+ {
+  "s": 4,
+  "gap": 0.7,
+  "text": "And quick favour. If this kind of story makes you look at the little boxes around you a bit differently, hit subscribe. That's how I know you want more of these."
+ },
+ {
+  "s": 5,
+  "gap": 0.35,
+  "text": "So how big was it?"
+ },
+ {
+  "s": 5,
+  "gap": 0.35,
+  "text": "The numbers keep changing, but they're all huge. Intermarch\u00e9 was among the hardest hit, with reports of hundreds of its stores affected. Carrefour said about eighty of its supermarkets were attacked. Netto, Monoprix, Leclerc and Coop\u00e9rative U also reported problems."
+ },
+ {
+  "s": 5,
+  "gap": 0.35,
+  "text": "Most counts put it somewhere between two hundred and fifty and three hundred and fifty stores. France's finance minister estimated it could be as many as seven hundred."
+ },
+ {
+  "s": 5,
+  "gap": 0.35,
+  "text": "The boss of Intermarch\u00e9 said the losses could reach tens of millions of euros. In a single day."
+ },
+ {
+  "s": 5,
+  "gap": 0.35,
+  "text": "And it wasn't only Danfoss. France's national cyber agency said controllers from at least three companies were hit. Danfoss, Copeland, and Dixell."
+ },
+ {
+  "s": 5,
+  "gap": 0.35,
+  "text": "And it may not have stopped at the French border. There were reports of similar problems in the Netherlands and Belgium, although those details are still being checked."
+ },
+ {
+  "s": 5,
+  "gap": 0.35,
+  "text": "France's prime minister asked the agency to investigate, and Paris prosecutors opened a case. And as of now, nobody has claimed responsibility."
+ },
+ {
+  "s": 5,
+  "gap": 0.7,
+  "text": "Some commentators have pointed to the wave of so-called hybrid attacks across Europe in recent years. But so far, there is no public evidence linking this attack to any group or country."
+ },
+ {
+  "s": 6,
+  "gap": 0.35,
+  "text": "Now, if you think fridges are a weird way to attack someone, this has happened before."
+ },
+ {
+  "s": 6,
+  "gap": 0.35,
+  "text": "In 2013, hackers stole the card details of around forty million shoppers from the American retailer Target. And the way in? Login details stolen from a company that serviced Target's heating and air conditioning."
+ },
+ {
+  "s": 6,
+  "gap": 0.35,
+  "text": "And sometimes, these attacks don't just steal data. They break things in the real world."
+ },
+ {
+  "s": 6,
+  "gap": 0.35,
+  "text": "Around 2010, a computer worm called Stuxnet quietly damaged nuclear centrifuges in Iran, by sending them the wrong instructions while the screens showed that everything was fine."
+ },
+ {
+  "s": 6,
+  "gap": 0.35,
+  "text": "And in 2015, hackers switched off the power for hundreds of thousands of people in Ukraine, in the middle of winter, by taking over the control systems of power companies."
+ },
+ {
+  "s": 6,
+  "gap": 0.35,
+  "text": "And there's a famous story from a casino. A cybersecurity company said hackers got into its network through a smart thermometer, in the lobby fish tank."
+ },
+ {
+  "s": 6,
+  "gap": 0.35,
+  "text": "A fish tank. A heater. A fridge. These are the things nobody thinks about. Nobody updates them. And they sit on the same networks as everything else."
+ },
+ {
+  "s": 6,
+  "gap": 0.7,
+  "text": "Security people have a saying. Attackers don't break in through the front door. They come in through the boiler room."
+ },
+ {
+  "s": 7,
+  "gap": 0.35,
+  "text": "So what happens now?"
+ },
+ {
+  "s": 7,
+  "gap": 0.35,
+  "text": "France's cyber agency told companies to take these controllers off the open internet, or put them behind a private connection, and to change any default passwords."
+ },
+ {
+  "s": 7,
+  "gap": 0.35,
+  "text": "Danfoss says the oldest units simply need to be replaced. Which means a lot of supermarkets are about to buy a lot of new boxes."
+ },
+ {
+  "s": 7,
+  "gap": 0.35,
+  "text": "And maybe the real lesson is for all of us. Your router, your smart TV, your doorbell camera. When did you last update any of them? Do you even know the password?"
+ },
+ {
+  "s": 7,
+  "gap": 0.35,
+  "text": "So here's my question. Who should pay for all that ruined food? The supermarkets, for leaving the door open? Or the company that made the old boxes? Tell me in the comments."
+ },
+ {
+  "s": 7,
+  "gap": 0.35,
+  "text": "And subscribe, because next time, there's another everyday object that turned out to be a hacker's way in."
+ },
+ {
+  "s": 7,
+  "gap": 0.0,
+  "text": "Nobody updated the fridge. And one night, the fridge became an oven."
+ }
+]

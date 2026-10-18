@@ -1,11 +1,13 @@
 # Chatterbox narration builder (Vio's voice: the built-in Chatterbox voice). Runs in the Chatterbox venv:
-#   /opt/cb/bin/python generate_lines_cb.py <lines.json> <outdir> [only_ids,comma,separated]
+#   /opt/cb/bin/python generate_lines_cb.py <lines.json> <outdir> [only_ids,comma,separated] [tempo]
+# tempo < 1 slows each line down (pitch kept, via ffmpeg rubberband), e.g. 0.9 for a calmer, longer read.
 # Same inputs/outputs as generate_lines.py: lines.json = [{"s", "gap", "text"}]; writes <outdir>/lines/NN.wav,
 # then <outdir>/voiceover.wav and timing.json. Pass ids to regenerate just those lines (e.g. after a check).
-import sys, os, json, re, numpy as np, soundfile as sf, torch
+import sys, os, json, re, subprocess, numpy as np, soundfile as sf, torch
 from chatterbox.tts import ChatterboxTTS
 lines = json.load(open(sys.argv[1])); out = sys.argv[2]
 only = set(int(x) for x in sys.argv[3].split(',')) if len(sys.argv) > 3 and sys.argv[3] else None
+TEMPO = float(sys.argv[4]) if len(sys.argv) > 4 else 1.0
 os.makedirs(f"{out}/lines", exist_ok=True)
 FIX = [(r"\bUS\b", "U S"), (r"\bVio\b", "Vio")]
 SR = 24000
@@ -21,7 +23,11 @@ for i, l in enumerate(lines):
     # trim leading/trailing silence
     idx = np.where(np.abs(wav) > 0.01)[0]
     if len(idx): wav = wav[max(0, idx[0] - 1200): idx[-1] + 2400]
-    sf.write(p, wav, SR); print(i, f"{len(wav) / SR:.1f}s", flush=True)
+    sf.write(p, wav, SR)
+    if TEMPO != 1.0:
+        tmp = p + '.tmp.wav'; os.replace(p, tmp)
+        subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', tmp, '-af', f'rubberband=tempo={TEMPO}', '-ar', str(SR), p], check=True); os.remove(tmp)
+    print(i, f"{sf.info(p).duration:.1f}s", flush=True)
 parts, timing, t = [], [], 0.0
 for i, l in enumerate(lines):
     a, sr = sf.read(f"{out}/lines/{i:02d}.wav"); parts.append(a)
