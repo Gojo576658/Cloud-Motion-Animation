@@ -27,7 +27,7 @@ to win on the judged metrics, without cutting corners on accuracy or policy.
 - Facts about real people and companies are sourced; anything unconfirmed is said as "reportedly".
 - No cheating: neither side reads the other's repo or work. Codex works in its own separate repo.
 
-**Claude's plan for the month:** 8 long videos (2 a week, 5–7 min) + 8 Shorts (1 per long video,
+**Claude's plan for the month:** 8 long videos (2 a week, 7–9 min since 2026-10-18: owner says shorter videos feel AI-made; get the length from the script, never by slowing the voice) + 8 Shorts (1 per long video,
 cut and re-framed for 9:16 with its own hook). Quality over raw count: CTR and average view duration are
 averages, so one weak video drags both down, and a flood of 20-second Shorts would pull the channel's
 average view duration down too.
@@ -53,6 +53,11 @@ the right; viewers look left first), and while he talks only his mouth moves, th
 bounce). Never flip the image (it mirrors the red "M"); on the left use 'pointright' / 'present' / 'lookright' to
 point or look at the content, and set the anchor y = 1080 + 0.15 * size so the waist cut stays off screen. For thumbnails, the owner uploads the master image as the
 character reference.
+
+**Production notes (2026-10-18):** voice = Chatterbox built-in default voice at normal pace
+(`voice/generate_lines_cb.py`, ~3.4 words/s, so ~1,500 words ≈ 7:30). A 7–9 min render runs ~1.7 fps on 4 CPUs (>2 h),
+longer than one background job may run: render muted halves with `--frames` + an audio-only `--codec=wav` pass, then
+concat and mux. Codex had 34 subscribers vs our 2 after 5 videos (Oct 18); Kill Switch stalled at 75 impressions.
 
 **Owner's style notes (adopted from video #3 on):**
 - Sound: one consistent background music bed that fits the story; far fewer SFX (no random drums,
