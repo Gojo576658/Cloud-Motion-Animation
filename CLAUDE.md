@@ -40,6 +40,11 @@ title/thumbnail that is working.
 "It Said Yes" (Instagram/AI hack) after 21 h: 1.2K impressions, **1.4% CTR**, 46 views, 2:10 average
 view duration on 5:17 (~41%), 52% suggested + 26% search. Lesson: an abstract thumbnail phrase ("IT SAID
 YES") with no number or clear victim loses the click; search traffic shows the topic itself is wanted.
+"One Button" (first video with Vio + Chatterbox voice) after 22 h: only 227 impressions, **2.2% CTR**, 6 views,
+**2:33 average view duration on 4:30 (~57%, best retention so far)**; viewers from impressions watched 3:02 (67%).
+Lesson: Vio + the new voice hold viewers and the Vio thumbnail gets clicks; the problem is reach (YouTube testing
+the channel cautiously after Kill Switch's low CTR, and a partly old 2021 topic). Fresh, searched-for news topics
+and longer videos are the lever for watch time. End-screen click rate was 0%: always add end screens.
 
 **Vio, the channel host (from 2026-10-16):** an anime boy (~17) who stands in for the owner and appears in
 every video and thumbnail: black cap with a red "M", messy dark-brown hair with one red streak, warm brown
