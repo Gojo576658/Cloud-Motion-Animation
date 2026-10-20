@@ -45,6 +45,8 @@ YES") with no number or clear victim loses the click; search traffic shows the t
 Lesson: Vio + the new voice hold viewers and the Vio thumbnail gets clicks; the problem is reach (YouTube testing
 the channel cautiously after Kill Switch's low CTR, and a partly old 2021 topic). Fresh, searched-for news topics
 and longer videos are the lever for watch time. End-screen click rate was 0%: always add end screens.
+Day 2 (Oct 20): 409 impressions, CTR held at 2.2%, 42 views (12 engaged), 83% browse: YouTube began pushing it
+to home feeds once the first test went well; AVD fell to 1:49 as colder browse viewers came in. Don't touch title/thumbnail.
 
 **Vio, the channel host (from 2026-10-16):** an anime boy (~17) who stands in for the owner and appears in
 every video and thumbnail: black cap with a red "M", messy dark-brown hair with one red streak, warm brown
