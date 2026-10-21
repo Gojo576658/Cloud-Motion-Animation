@@ -47,6 +47,9 @@ the channel cautiously after Kill Switch's low CTR, and a partly old 2021 topic)
 and longer videos are the lever for watch time. End-screen click rate was 0%: always add end screens.
 Day 2 (Oct 20): 409 impressions, CTR held at 2.2%, 42 views (12 engaged), 83% browse: YouTube began pushing it
 to home feeds once the first test went well; AVD fell to 1:49 as colder browse viewers came in. Don't touch title/thumbnail.
+Day 3 (Oct 21): took off: 1.1K impressions, **3.9% CTR (channel best)**, 239 views (52 engaged), 1.6 h watch time,
+97% browse, 42.7% average viewed. Proof that the Vio thumbnail + a big-number phrase ($10B / ONE TAP) wins clicks;
+small-channel videos take off on day 2-3, so judge packaging after 72 h, not 22 h.
 
 **Vio, the channel host (from 2026-10-16):** an anime boy (~17) who stands in for the owner and appears in
 every video and thumbnail: black cap with a red "M", messy dark-brown hair with one red streak, warm brown
