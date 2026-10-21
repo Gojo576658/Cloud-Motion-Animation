@@ -50,6 +50,11 @@ to home feeds once the first test went well; AVD fell to 1:49 as colder browse v
 Day 3 (Oct 21): took off: 1.1K impressions, **3.9% CTR (channel best)**, 239 views (52 engaged), 1.6 h watch time,
 97% browse, 42.7% average viewed. Proof that the Vio thumbnail + a big-number phrase ($10B / ONE TAP) wins clicks;
 small-channel videos take off on day 2-3, so judge packaging after 72 h, not 22 h.
+One Button retention (~50 viewers, Oct 21): 90% at 0:19 (hook works), then drops 0:22-0:41 (background section
+"The landlord") and 1:25-2:06 (iOS 14.5 history / newspaper ads); flat where there is a character + tension (the Spy,
+$10B); everyone past 2:06 watched to the end. **Script rules from this:** no background block right after the hook
+(weave context into tension); an open loop / re-hook every 30-40 s; history in one line, not a section; land the
+big number or twist by ~1:30.
 
 **Vio, the channel host (from 2026-10-16):** an anime boy (~17) who stands in for the owner and appears in
 every video and thumbnail: black cap with a red "M", messy dark-brown hair with one red streak, warm brown
