@@ -55,6 +55,10 @@ One Button retention (~50 viewers, Oct 21): 90% at 0:19 (hook works), then drops
 $10B); everyone past 2:06 watched to the end. **Script rules from this:** no background block right after the hook
 (weave context into tension); an open loop / re-hook every 30-40 s; history in one line, not a section; land the
 big number or twist by ~1:30.
+"Hackers Turned 700 Supermarkets' Fridges Into Ovens" (7:37, uploaded Oct 21 18:30 PKT) at ~2.8 days: 97 impressions,
+**7.2% CTR (channel best; HACKED thumbnail)**, 22 views (8 engaged), 0.3 h, AVD 2:00 (26%; 2:37 from impressions),
+**91% YouTube search, 4.6% browse**. Lesson: fresh news + clear title/thumbnail wins the click and brings search, but
+YouTube had not pushed it to home feeds by day 3; a low % viewed on a long video is the likely brake.
 
 **Vio, the channel host (from 2026-10-16):** an anime boy (~17) who stands in for the owner and appears in
 every video and thumbnail: black cap with a red "M", messy dark-brown hair with one red streak, warm brown
