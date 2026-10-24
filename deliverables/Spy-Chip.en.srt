@@ -1,0 +1,1083 @@
+1
+00:00:00,600 --> 00:00:02,160
+Imagine you buy the safest crypto wallet
+
+2
+00:00:02,180 --> 00:00:03,220
+money can buy.
+
+3
+00:00:03,240 --> 00:00:04,740
+A little device, sealed in its box,
+
+4
+00:00:04,760 --> 00:00:05,960
+built to do one thing.
+
+5
+00:00:05,980 --> 00:00:07,300
+Keep your secret safe.
+
+6
+00:00:07,420 --> 00:00:08,320
+You set it up.
+
+7
+00:00:08,340 --> 00:00:09,940
+It shows you twenty four words.
+
+8
+00:00:09,960 --> 00:00:11,120
+You write them down on paper,
+
+9
+00:00:11,140 --> 00:00:12,480
+the way you're supposed to.
+
+10
+00:00:12,536 --> 00:00:14,236
+Three weeks later, every coin you put on
+
+11
+00:00:14,256 --> 00:00:15,056
+it is gone.
+
+12
+00:00:15,076 --> 00:00:16,496
+You never typed those words anywhere.
+
+13
+00:00:16,516 --> 00:00:17,856
+You never clicked a bad link.
+
+14
+00:00:17,998 --> 00:00:19,873
+Because the thief wasn't on your computer.
+
+15
+00:00:19,893 --> 00:00:21,498
+The thief came in the box.
+
+16
+00:00:21,518 --> 00:00:22,581
+And the worst part?
+
+17
+00:00:22,601 --> 00:00:23,664
+You did everything right.
+
+18
+00:00:23,684 --> 00:00:24,747
+You bought the safe one.
+
+19
+00:00:24,767 --> 00:00:26,388
+You followed every rule.
+
+20
+00:00:26,421 --> 00:00:27,521
+I'm Vio.
+
+21
+00:00:27,541 --> 00:00:29,121
+And this is the story of the spy chip that
+
+22
+00:00:29,141 --> 00:00:30,621
+drained more than ninety million dollars
+
+23
+00:00:30,641 --> 00:00:32,421
+from hundreds of crypto wallets.
+
+24
+00:00:32,621 --> 00:00:34,241
+And the investigation is still going on
+
+25
+00:00:34,261 --> 00:00:35,261
+right now.
+
+26
+00:00:35,462 --> 00:00:37,182
+To understand how scary this is,
+
+27
+00:00:37,202 --> 00:00:39,162
+you need to know one thing about these wallets.
+
+28
+00:00:39,410 --> 00:00:41,750
+Those twenty four words are not a password.
+
+29
+00:00:41,890 --> 00:00:42,910
+They are the money.
+
+30
+00:00:43,190 --> 00:00:44,350
+Anyone who has them can rebuild your
+
+31
+00:00:44,370 --> 00:00:46,090
+wallet on any device, anywhere in the
+
+32
+00:00:46,110 --> 00:00:47,950
+world, and move everything out.
+
+33
+00:00:48,138 --> 00:00:50,598
+That's why a hardware wallet like a Ledger exists.
+
+34
+00:00:50,798 --> 00:00:52,118
+It creates the words inside a special
+
+35
+00:00:52,138 --> 00:00:53,898
+chip, shows them once on its own little
+
+36
+00:00:53,918 --> 00:00:55,838
+screen, and never sends them anywhere.
+
+37
+00:00:56,098 --> 00:00:56,998
+Not to your laptop.
+
+38
+00:00:57,018 --> 00:00:57,958
+Not to the internet.
+
+39
+00:00:58,138 --> 00:00:58,818
+Nowhere.
+
+40
+00:00:58,914 --> 00:01:00,514
+And to prove a device is real,
+
+41
+00:01:00,534 --> 00:01:01,574
+Ledger runs a check.
+
+42
+00:01:01,834 --> 00:01:03,814
+If the secure chip inside is genuine,
+
+43
+00:01:03,834 --> 00:01:04,914
+the device passes.
+
+44
+00:01:05,214 --> 00:01:07,354
+But that check only looks at the secure chip.
+
+45
+00:01:07,374 --> 00:01:09,314
+Remember that, because it's about to matter.
+
+46
+00:01:09,520 --> 00:01:11,696
+So how do you steal from a box that is
+
+47
+00:01:11,716 --> 00:01:13,014
+built to never leak a secret?
+
+48
+00:01:13,034 --> 00:01:13,673
+You don't hack it.
+
+49
+00:01:13,693 --> 00:01:15,290
+You add something to it.
+
+50
+00:01:15,411 --> 00:01:17,111
+On October thirteenth, Ledger's own
+
+51
+00:01:17,131 --> 00:01:18,691
+security team confirmed what they had
+
+52
+00:01:18,711 --> 00:01:20,571
+found inside some of its devices.
+
+53
+00:01:20,904 --> 00:01:22,384
+A second, hidden component.
+
+54
+00:01:22,404 --> 00:01:23,884
+It wasn't supposed to be there.
+
+55
+00:01:23,904 --> 00:01:25,744
+And it wasn't touching the secure chip at all.
+
+56
+00:01:25,764 --> 00:01:27,104
+It was watching the screen.
+
+57
+00:01:27,332 --> 00:01:28,792
+When the owner set up the device and the
+
+58
+00:01:28,812 --> 00:01:30,232
+twenty four words appeared,
+
+59
+00:01:30,252 --> 00:01:31,732
+the implant reportedly read them right off
+
+60
+00:01:31,752 --> 00:01:32,692
+the display.
+
+61
+00:01:32,914 --> 00:01:34,074
+And then it sent them out.
+
+62
+00:01:34,094 --> 00:01:35,154
+Not through your Wi-Fi.
+
+63
+00:01:35,174 --> 00:01:36,254
+Not through your computer.
+
+64
+00:01:36,274 --> 00:01:37,814
+The chip had its own mobile connection,
+
+65
+00:01:37,834 --> 00:01:39,314
+with a built-in digital SIM card.
+
+66
+00:01:39,334 --> 00:01:41,414
+Like a tiny phone, hidden inside your wallet.
+
+67
+00:01:41,454 --> 00:01:43,094
+Think about how clever that is.
+
+68
+00:01:43,274 --> 00:01:44,734
+Most careful crypto owners keep their
+
+69
+00:01:44,754 --> 00:01:46,214
+wallet away from the internet.
+
+70
+00:01:46,334 --> 00:01:47,454
+That's the whole idea.
+
+71
+00:01:47,494 --> 00:01:49,394
+This one brought its own internet with it.
+
+72
+00:01:49,486 --> 00:01:51,426
+And here's the part that made it almost invisible.
+
+73
+00:01:51,786 --> 00:01:53,306
+Because the secure chip was untouched,
+
+74
+00:01:53,366 --> 00:01:54,946
+Ledger says these devices could still pass
+
+75
+00:01:54,966 --> 00:01:56,346
+its authenticity check.
+
+76
+00:01:56,366 --> 00:01:57,746
+The box said genuine.
+
+77
+00:01:57,866 --> 00:01:58,826
+And it was lying.
+
+78
+00:01:59,038 --> 00:02:00,618
+And the attackers didn't empty the wallets
+
+79
+00:02:00,638 --> 00:02:02,218
+the moment they got the words.
+
+80
+00:02:02,478 --> 00:02:03,438
+It looks like they waited,
+
+81
+00:02:03,458 --> 00:02:04,718
+while people kept adding money,
+
+82
+00:02:04,738 --> 00:02:05,878
+week after week.
+
+83
+00:02:06,008 --> 00:02:08,648
+Then, on October ninth, they pulled the trigger.
+
+84
+00:02:08,903 --> 00:02:10,263
+Wallet after wallet emptied,
+
+85
+00:02:10,283 --> 00:02:11,703
+all in the same short window.
+
+86
+00:02:11,723 --> 00:02:13,123
+On-chain investigators who traced the
+
+87
+00:02:13,143 --> 00:02:14,463
+money say more than three hundred wallets
+
+88
+00:02:14,483 --> 00:02:15,383
+were hit.
+
+89
+00:02:15,476 --> 00:02:16,816
+Their estimates started around seventy
+
+90
+00:02:16,836 --> 00:02:18,016
+million dollars.
+
+91
+00:02:18,036 --> 00:02:19,196
+Then eighty six.
+
+92
+00:02:19,216 --> 00:02:20,196
+Then ninety three.
+
+93
+00:02:20,216 --> 00:02:22,216
+Some now say over a hundred million.
+
+94
+00:02:22,426 --> 00:02:24,806
+Ledger says it hasn't verified those numbers.
+
+95
+00:02:24,986 --> 00:02:26,906
+But nobody is arguing that it's small.
+
+96
+00:02:27,023 --> 00:02:29,083
+Now imagine being one of those owners.
+
+97
+00:02:29,303 --> 00:02:31,063
+You open your app on a normal Friday.
+
+98
+00:02:31,083 --> 00:02:32,243
+Your balance says zero.
+
+99
+00:02:32,263 --> 00:02:33,743
+The device is still on your desk.
+
+100
+00:02:33,763 --> 00:02:35,003
+Still sealed in your drawer.
+
+101
+00:02:35,023 --> 00:02:37,143
+And you have no idea how anyone got in.
+
+102
+00:02:37,232 --> 00:02:39,052
+Tether, the company behind the USDT
+
+103
+00:02:39,072 --> 00:02:41,032
+stablecoin, moved to freeze some of the
+
+104
+00:02:41,052 --> 00:02:42,032
+stolen coins.
+
+105
+00:02:42,272 --> 00:02:43,832
+And part of the rest was reportedly pushed
+
+106
+00:02:43,852 --> 00:02:46,152
+through a crypto mixer, to hide where it went.
+
+107
+00:02:46,532 --> 00:02:47,872
+One on-chain tracker reported that the
+
+108
+00:02:47,892 --> 00:02:49,352
+attacker pushed about four hundred and
+
+109
+00:02:49,372 --> 00:02:51,412
+thirty ether, roughly a million dollars,
+
+110
+00:02:51,432 --> 00:02:53,212
+through Tornado Cash, a service built to
+
+111
+00:02:53,232 --> 00:02:54,732
+make crypto hard to follow.
+
+112
+00:02:54,859 --> 00:02:56,339
+And then the blockchain analysis firm
+
+113
+00:02:56,359 --> 00:02:58,899
+Chainalysis found something almost funny.
+
+114
+00:02:59,028 --> 00:03:00,308
+One of the wallets that got drained
+
+115
+00:03:00,328 --> 00:03:01,848
+belonged to a scammer.
+
+116
+00:03:01,868 --> 00:03:03,188
+Someone who had been running a fake job
+
+117
+00:03:03,208 --> 00:03:05,728
+scam, paying people to post fake reviews,
+
+118
+00:03:05,748 --> 00:03:07,508
+then demanding deposits from them.
+
+119
+00:03:07,600 --> 00:03:08,920
+On September twenty second,
+
+120
+00:03:08,940 --> 00:03:10,720
+that scammer moved their stolen money onto
+
+121
+00:03:10,740 --> 00:03:12,200
+three Ledger addresses.
+
+122
+00:03:12,300 --> 00:03:13,380
+To keep it safe.
+
+123
+00:03:13,400 --> 00:03:15,000
+On October ninth, all three were emptied
+
+124
+00:03:15,020 --> 00:03:16,740
+into the same thief's wallet.
+
+125
+00:03:16,820 --> 00:03:17,980
+Over sixty bitcoin.
+
+126
+00:03:18,180 --> 00:03:20,020
+About four point eight million dollars.
+
+127
+00:03:20,216 --> 00:03:21,716
+Thieves, robbing a thief,
+
+128
+00:03:21,736 --> 00:03:22,716
+with a spy chip.
+
+129
+00:03:22,968 --> 00:03:25,268
+So where did these devices come from?
+
+130
+00:03:25,314 --> 00:03:27,294
+Ledger says every confirmed loss so far
+
+131
+00:03:27,314 --> 00:03:29,974
+involves devices sold through one reseller.
+
+132
+00:03:29,994 --> 00:03:32,754
+A company in Southeast Asia called CryptoBilis.
+
+133
+00:03:32,896 --> 00:03:34,336
+Not Ledger's own store.
+
+134
+00:03:34,356 --> 00:03:35,036
+A middleman.
+
+135
+00:03:35,056 --> 00:03:36,536
+And that's exactly the weak spot.
+
+136
+00:03:36,596 --> 00:03:37,756
+Somewhere between the factory and the
+
+137
+00:03:37,776 --> 00:03:39,476
+buyer, someone opened these boxes,
+
+138
+00:03:39,496 --> 00:03:41,436
+added the implant, and sealed them again.
+
+139
+00:03:41,560 --> 00:03:43,400
+Think of it like a sealed bottle of water.
+
+140
+00:03:43,420 --> 00:03:45,180
+You trust it because the cap is closed.
+
+141
+00:03:45,360 --> 00:03:46,340
+But if someone opened it,
+
+142
+00:03:46,360 --> 00:03:47,760
+changed what's inside, and closed it again
+
+143
+00:03:47,780 --> 00:03:49,240
+perfectly, you would never know.
+
+144
+00:03:49,260 --> 00:03:50,360
+You would just drink it.
+
+145
+00:03:50,401 --> 00:03:52,001
+Who did it, and where in that chain it
+
+146
+00:03:52,021 --> 00:03:54,141
+happened, is still being investigated.
+
+147
+00:03:54,318 --> 00:03:56,558
+Ledger stopped sales in Southeast Asia and
+
+148
+00:03:56,578 --> 00:03:58,758
+tightened how its devices are stored and shipped.
+
+149
+00:03:58,898 --> 00:04:00,258
+Trezor, another wallet maker,
+
+150
+00:04:00,278 --> 00:04:01,658
+said it found no tampering in its own
+
+151
+00:04:01,678 --> 00:04:03,898
+devices, but still dropped CryptoBilis as
+
+152
+00:04:03,918 --> 00:04:04,658
+a seller.
+
+153
+00:04:05,038 --> 00:04:06,658
+OneKey offered free replacements.
+
+154
+00:04:06,898 --> 00:04:08,718
+Ledger also stopped returned devices from
+
+155
+00:04:08,738 --> 00:04:09,738
+being resold.
+
+156
+00:04:10,278 --> 00:04:11,778
+Because any box that goes back to a shop
+
+157
+00:04:11,798 --> 00:04:13,838
+can be opened, changed, and sold again to
+
+158
+00:04:13,858 --> 00:04:14,798
+someone else.
+
+159
+00:04:14,987 --> 00:04:16,327
+And if the story ended there,
+
+160
+00:04:16,347 --> 00:04:18,047
+it would be a problem in one region.
+
+161
+00:04:18,127 --> 00:04:20,047
+But then a report came in from Germany.
+
+162
+00:04:20,375 --> 00:04:22,315
+A customer in Germany reportedly found a
+
+163
+00:04:22,335 --> 00:04:23,495
+tampered Ledger.
+
+164
+00:04:23,575 --> 00:04:24,555
+One that had been bought in a regular
+
+165
+00:04:24,575 --> 00:04:26,155
+store, in Europe.
+
+166
+00:04:26,336 --> 00:04:28,096
+That claim hasn't been confirmed.
+
+167
+00:04:28,456 --> 00:04:29,456
+But it was enough.
+
+168
+00:04:29,656 --> 00:04:31,356
+MediaMarkt and Saturn, two of the biggest
+
+169
+00:04:31,376 --> 00:04:32,776
+electronics chains in Europe,
+
+170
+00:04:32,796 --> 00:04:34,216
+stopped selling Ledger devices.
+
+171
+00:04:34,614 --> 00:04:36,394
+Ledger says it is reviewing reports of
+
+172
+00:04:36,414 --> 00:04:38,294
+implants in other places too.
+
+173
+00:04:38,314 --> 00:04:40,454
+Which means, right now, nobody can say for
+
+174
+00:04:40,474 --> 00:04:41,994
+sure how far this goes.
+
+175
+00:04:42,241 --> 00:04:43,961
+Think about what that does to people.
+
+176
+00:04:44,101 --> 00:04:45,481
+The whole point of a hardware wallet is
+
+177
+00:04:45,501 --> 00:04:47,041
+that you don't have to trust anyone.
+
+178
+00:04:47,221 --> 00:04:48,921
+And suddenly, you have to trust every hand
+
+179
+00:04:48,941 --> 00:04:50,361
+the box passed through.
+
+180
+00:04:50,381 --> 00:04:51,881
+And that's the real damage here.
+
+181
+00:04:51,901 --> 00:04:53,541
+Not just the ninety million dollars.
+
+182
+00:04:53,561 --> 00:04:54,121
+Trust.
+
+183
+00:04:54,281 --> 00:04:55,901
+People keep their savings on a device the
+
+184
+00:04:55,921 --> 00:04:57,381
+size of a USB stick.
+
+185
+00:04:57,525 --> 00:04:58,805
+And quick favour.
+
+186
+00:04:58,985 --> 00:05:00,285
+If you want more stories like this,
+
+187
+00:05:00,305 --> 00:05:01,265
+where the danger is hiding inside
+
+188
+00:05:01,285 --> 00:05:03,225
+something you trust, hit subscribe.
+
+189
+00:05:03,365 --> 00:05:05,365
+It really helps a small channel like this one.
+
+190
+00:05:05,559 --> 00:05:07,439
+Then the fight went public.
+
+191
+00:05:07,587 --> 00:05:09,407
+On October seventeenth, Mark Karpelès
+
+192
+00:05:09,427 --> 00:05:10,747
+jumped in on X.
+
+193
+00:05:10,967 --> 00:05:12,387
+If that name sounds familiar,
+
+194
+00:05:12,407 --> 00:05:14,027
+he ran Mount Gox, the bitcoin exchange
+
+195
+00:05:14,047 --> 00:05:15,767
+that collapsed in twenty fourteen after
+
+196
+00:05:15,787 --> 00:05:17,867
+losing hundreds of thousands of bitcoin.
+
+197
+00:05:18,172 --> 00:05:19,772
+Karpelès said Ledger had a guide about
+
+198
+00:05:19,792 --> 00:05:21,332
+tampered devices since March,
+
+199
+00:05:21,352 --> 00:05:22,952
+but it was buried in an education page and
+
+200
+00:05:22,972 --> 00:05:24,092
+far too mild.
+
+201
+00:05:24,172 --> 00:05:25,332
+He claimed a louder warning could have
+
+202
+00:05:25,352 --> 00:05:26,372
+saved people.
+
+203
+00:05:26,491 --> 00:05:28,411
+Ledger's CEO, Pascal Gauthier,
+
+204
+00:05:28,431 --> 00:05:29,251
+hit back.
+
+205
+00:05:29,311 --> 00:05:31,151
+He said Ledger works hard to protect its
+
+206
+00:05:31,171 --> 00:05:32,991
+customers, and that a warning page can't
+
+207
+00:05:33,011 --> 00:05:34,351
+stop a device that was tampered with
+
+208
+00:05:34,371 --> 00:05:36,191
+before it ever reached the buyer.
+
+209
+00:05:36,400 --> 00:05:37,580
+And here's a detail that makes the
+
+210
+00:05:37,600 --> 00:05:39,000
+argument even messier.
+
+211
+00:05:39,140 --> 00:05:40,780
+That guide was first published in March,
+
+212
+00:05:40,800 --> 00:05:42,300
+but it was updated in September.
+
+213
+00:05:42,540 --> 00:05:44,060
+So right now, it's not even clear what the
+
+214
+00:05:44,080 --> 00:05:45,440
+original version said.
+
+215
+00:05:45,574 --> 00:05:46,954
+And then he made it personal.
+
+216
+00:05:46,974 --> 00:05:49,814
+He told Karpelès, quote, you are no white knight.
+
+217
+00:05:49,834 --> 00:05:50,694
+Get real.
+
+218
+00:05:50,850 --> 00:05:52,870
+Even the founder of Binance weighed in.
+
+219
+00:05:52,890 --> 00:05:54,190
+He still called Ledger one of the most
+
+220
+00:05:54,210 --> 00:05:55,830
+secure hardware wallets, but said a small
+
+221
+00:05:55,850 --> 00:05:57,530
+number of people probably bought fake or
+
+222
+00:05:57,550 --> 00:05:58,810
+tampered Ledgers.
+
+223
+00:05:58,894 --> 00:06:00,314
+And this isn't the first time Ledger
+
+224
+00:06:00,334 --> 00:06:02,014
+owners were targeted through the mail.
+
+225
+00:06:02,234 --> 00:06:03,934
+Back in twenty twenty, a leak exposed
+
+226
+00:06:03,954 --> 00:06:05,854
+customers' names and home addresses.
+
+227
+00:06:06,214 --> 00:06:07,834
+The year after, some of them received fake
+
+228
+00:06:07,854 --> 00:06:09,074
+Ledger devices in the post,
+
+229
+00:06:09,094 --> 00:06:11,214
+with a letter pretending to be from the CEO.
+
+230
+00:06:11,517 --> 00:06:13,877
+So what should you actually do?
+
+231
+00:06:14,072 --> 00:06:15,592
+Buy a hardware wallet only from the maker
+
+232
+00:06:15,612 --> 00:06:18,512
+itself, or from a store the maker lists as official.
+
+233
+00:06:18,732 --> 00:06:20,292
+A cheaper price from a random seller is
+
+234
+00:06:20,312 --> 00:06:21,192
+not a deal.
+
+235
+00:06:21,212 --> 00:06:22,032
+It's a risk.
+
+236
+00:06:22,212 --> 00:06:23,672
+If a price looks too good to be true,
+
+237
+00:06:23,692 --> 00:06:25,132
+ask yourself what else might be different
+
+238
+00:06:25,152 --> 00:06:26,312
+about that box.
+
+239
+00:06:26,582 --> 00:06:28,062
+Never use a device that arrives already
+
+240
+00:06:28,082 --> 00:06:29,822
+set up, or with words already written down
+
+241
+00:06:29,842 --> 00:06:30,562
+for you.
+
+242
+00:06:30,582 --> 00:06:32,002
+Your twenty four words should be created
+
+243
+00:06:32,022 --> 00:06:33,482
+by the device, in front of you,
+
+244
+00:06:33,502 --> 00:06:35,222
+and nobody else should ever see them.
+
+245
+00:06:35,280 --> 00:06:36,420
+And if you bought a Ledger from
+
+246
+00:06:36,440 --> 00:06:38,580
+CryptoBilis, Ledger's advice is clear.
+
+247
+00:06:38,800 --> 00:06:40,280
+Don't set up an unused one.
+
+248
+00:06:40,300 --> 00:06:41,920
+If you already use one, move your money to
+
+249
+00:06:41,940 --> 00:06:44,040
+a new device with a brand new set of words.
+
+250
+00:06:44,420 --> 00:06:45,820
+Typing the old words into a new device
+
+251
+00:06:45,840 --> 00:06:47,320
+doesn't help, because the thief already
+
+252
+00:06:47,340 --> 00:06:48,340
+has them.
+
+253
+00:06:48,414 --> 00:06:50,154
+And remember the bigger lesson.
+
+254
+00:06:50,494 --> 00:06:51,874
+Every device you own travelled through a
+
+255
+00:06:51,894 --> 00:06:53,694
+chain of hands before it reached you.
+
+256
+00:06:53,714 --> 00:06:54,934
+Factories, warehouses,
+
+257
+00:06:55,094 --> 00:06:56,734
+resellers, delivery drivers.
+
+258
+00:06:57,134 --> 00:06:58,814
+Security isn't just about the device.
+
+259
+00:06:58,834 --> 00:07:00,954
+It's about every step it took to get to you.
+
+260
+00:07:01,016 --> 00:07:02,676
+So here's my question.
+
+261
+00:07:02,716 --> 00:07:04,136
+Who should pay these people back?
+
+262
+00:07:04,156 --> 00:07:05,816
+Ledger, the reseller, or nobody,
+
+263
+00:07:05,836 --> 00:07:07,536
+because the buyers chose the cheaper seller?
+
+264
+00:07:07,556 --> 00:07:08,636
+Tell me in the comments.
+
+265
+00:07:08,929 --> 00:07:11,009
+And subscribe, because next time,
+
+266
+00:07:11,029 --> 00:07:12,469
+there's another hack where the danger was
+
+267
+00:07:12,489 --> 00:07:14,749
+hiding inside something people trusted.
+
+268
+00:07:14,875 --> 00:07:16,875
+The safest box in crypto did exactly what
+
+269
+00:07:16,895 --> 00:07:17,695
+it promised.
+
+270
+00:07:17,715 --> 00:07:19,055
+It kept the secret safe.
+
+271
+00:07:19,075 --> 00:07:21,195
+It just wasn't the only thing inside the box.
