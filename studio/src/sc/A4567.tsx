@@ -65,12 +65,12 @@ export const A4: React.FC = () => {
       {t > tDrink && <Pop x={1620} y={520} at={tDrink}><Mono size={24} color={A.red}>YOU'D NEVER KNOW</Mono></Pop>}
     </>;
   } else if (b === 4) {
-    body = <><Pop x={CX} y={380} at={tWho + 0.1}><Icon name="ph:magnifying-glass-bold" size={170} color={A.white} /></Pop><Stamp x={CX} y={650} at={tWho + 0.5} text="WHO? WHERE? STILL UNKNOWN" size={54} rot={-4} /></>;
+    body = <><Pop x={CX} y={380} at={tWho + 0.1}><Icon name="ph:magnifying-glass-bold" size={170} color={A.white} /></Pop><Stamp x={CX} y={650} at={tWho + 0.5} text="WHO? WHERE? UNKNOWN" size={50} rot={-4} /></>;
   } else if (b === 5) {
     body = <>
-      <Tile x={1000} y={440} at={tLedger + 0.1} icon="ph:prohibit-bold" label="LEDGER: SE ASIA SALES STOPPED" size={150} />
-      {t > tTrezor && <Tile x={1300} y={440} at={tTrezor} icon="ph:storefront-fill" label="TREZOR: DROPPED THE SELLER" size={150} />}
-      {t > tOneKey && <Tile x={1600} y={440} at={tOneKey} icon="ph:arrows-clockwise-bold" label="ONEKEY: FREE REPLACEMENTS" size={150} />}
+      <Tile x={960} y={420} at={tLedger + 0.1} icon="ph:prohibit-bold" label="LEDGER: SE ASIA SALES STOPPED" size={150} />
+      {t > tTrezor && <Tile x={1290} y={420} at={tTrezor} icon="ph:storefront-fill" label="TREZOR: DROPPED THE SELLER" size={150} />}
+      {t > tOneKey && <Tile x={1610} y={420} at={tOneKey} icon="ph:arrows-clockwise-bold" label="ONEKEY: FREE REPLACEMENTS" size={150} />}
     </>;
   } else {
     body = <>
@@ -125,7 +125,7 @@ export const A5: React.FC = () => {
 };
 
 // ================================================================ ACT 6 · the fight
-const tPublic = C0(39), tKarp = P(40, 'Mark Karpelès'), tGox = P(40, 'Mt. Gox'), tGuide = P(41, 'a guide'), tBuried = P(41, 'buried'), tMild = P(41, 'far too mild'), tSaved = P(41, 'could have saved');
+const tPublic = C0(39), tKarp = P(40, 'Mark Karpelès'), tGox = P(40, 'Mount Gox'), tGuide = P(41, 'a guide'), tBuried = P(41, 'buried'), tMild = P(41, 'far too mild'), tSaved = P(41, 'could have saved');
 const tGauth = P(42, 'Pascal Gauthier'), tProtect = P(42, 'works hard'), tBefore = P(42, 'before it ever reached');
 const tMessy = C0(43), tMarch = P(43, 'published in March'), tSept = P(43, 'updated in September'), tUnclear = P(43, 'not even clear');
 const tPersonal = C0(44), tQuote = P(44, 'you are no white knight'), tCZ = C0(45), tZQuote = P(45, 'a small number');

@@ -44,9 +44,9 @@ export const A0: React.FC = () => {
     </>;
   } else if (b === 2) {
     body = <>
-      <Phone x={1080} y={470} w={330}><Balance v={drain(t, tGone)} red={t > tGone} /></Phone>
-      <Crossed x={1560} y={300} at={tTyped} icon="ph:keyboard-fill" label="NEVER TYPED THEM" size={90} />
-      <Crossed x={1560} y={650} at={tLink} icon="ph:link-bold" label="NO BAD LINK" size={90} />
+      <Phone x={1060} y={500} w={290}><Balance v={drain(t, tGone)} red={t > tGone} /></Phone>
+      <Crossed x={1520} y={330} at={tTyped} icon="ph:keyboard-fill" label="NEVER TYPED THEM" size={90} />
+      <Crossed x={1520} y={660} at={tLink} icon="ph:link-bold" label="NO BAD LINK" size={90} />
     </>;
   } else if (b === 3) {
     const open = ramp(t, tInBox - 0.2, 0.7, EASE.inOut);
@@ -124,15 +124,15 @@ export const A2: React.FC = () => {
   if (b === 0) {
     body = <>
       <Chip x={CX} y={170} at={tOct13 + 0.1} icon="ph:calendar-fill">OCT 13 · LEDGER'S SECURITY TEAM</Chip>
-      <Wallet x={CX} y={540} w={560} open={ramp(t, tOct13 + 1, 1.2, EASE.inOut)} />
-      <Pop x={1640} y={360} at={tOct13 + 0.5}><Icon name="ph:magnifying-glass-bold" size={110} color={A.white} /></Pop>
+      <Wallet x={CX} y={600} w={540} open={ramp(t, tOct13 + 1, 1.2, EASE.inOut)} />
+      <Pop x={1600} y={420} at={tOct13 + 0.5}><Icon name="ph:magnifying-glass-bold" size={110} color={A.white} /></Pop>
     </>;
   } else if (b === 1) {
     body = <>
-      <Wallet x={CX} y={540} w={600} open={1} implant={ramp(t, tSecond + 0.2, 0.6)} />
-      {t > tNotSupposed && t < tWatching && <Chip x={CX} y={190} at={tNotSupposed} red solid>NOT SUPPOSED TO BE THERE</Chip>}
-      {t > tWatching && <Chip x={CX} y={190} at={tWatching} icon="ph:eye-fill" red>IT WAS WATCHING THE SCREEN</Chip>}
-      <Pop x={CX} y={800} at={tSecond + 0.6}><Mono size={22} color={A.soft}>SECURE CHIP: UNTOUCHED</Mono></Pop>
+      <Wallet x={CX} y={580} w={560} open={1} implant={ramp(t, tSecond + 0.2, 0.6)} />
+      {t > tNotSupposed && t < tWatching && <Chip x={CX} y={830} at={tNotSupposed} red solid>NOT SUPPOSED TO BE THERE</Chip>}
+      {t > tWatching && <Chip x={CX} y={830} at={tWatching} icon="ph:eye-fill" red>IT WAS WATCHING THE SCREEN</Chip>}
+      <Pop x={CX} y={730} at={tSecond + 0.6}><Mono size={22} color={A.soft}>SECURE CHIP: UNTOUCHED</Mono></Pop>
     </>;
   } else if (b === 2) {
     const scan = ramp(t, tRead - 0.2, 1.4, EASE.inOut);
@@ -144,12 +144,12 @@ export const A2: React.FC = () => {
     </>;
   } else if (b === 3) {
     body = <>
-      <Wallet x={1080} y={560} w={460} open={1} implant={1} />
-      <Signal x={1080 + 460 * 0.3} y={560} on={ramp(t, tSent, 0.4)} size={170} />
-      {t > tWifi && t < tOwn && <><Crossed x={1560} y={360} at={tWifi} icon="ph:wifi-high-bold" label="NOT YOUR WI-FI" size={80} /><Crossed x={1560} y={680} at={tPc} icon="ph:laptop-fill" label="NOT YOUR COMPUTER" size={80} /></>}
-      {t > tOwn && <Tile x={1580} y={380} at={tOwn} icon="ph:cell-tower-fill" label="ITS OWN MOBILE LINK" red size={150} />}
-      {t > tSim && <Tile x={1580} y={720} at={tSim} icon="mdi:sim" label="BUILT-IN DIGITAL SIM" size={120} />}
-      {t > tPhone && <Pop x={1080} y={250} at={tPhone}><Label color={A.red} size={28}>A TINY PHONE, INSIDE YOUR WALLET</Label></Pop>}
+      <Wallet x={1040} y={600} w={440} open={1} implant={1} />
+      <Signal x={1040 + 440 * 0.3} y={600} on={ramp(t, tSent, 0.4)} size={170} />
+      {t > tWifi && t < tOwn && <><Crossed x={1520} y={360} at={tWifi} icon="ph:wifi-high-bold" label="NOT YOUR WI-FI" size={80} /><Crossed x={1520} y={680} at={tPc} icon="ph:laptop-fill" label="NOT YOUR COMPUTER" size={80} /></>}
+      {t > tOwn && <Tile x={1530} y={360} at={tOwn} icon="ph:cell-tower-fill" label="ITS OWN MOBILE LINK" red size={150} />}
+      {t > tSim && <Tile x={1530} y={700} at={tSim} icon="mdi:sim" label="BUILT-IN DIGITAL SIM" size={120} />}
+      {t > tPhone && <Pop x={1100} y={210} at={tPhone}><Label color={A.red} size={28}>A TINY PHONE, INSIDE YOUR WALLET</Label></Pop>}
     </>;
   } else if (b === 4) {
     body = <>
@@ -165,9 +165,9 @@ export const A2: React.FC = () => {
   } else if (b === 6) {
     const v = lerp(1200, 48250, ramp(t, tWait + 0.4, Math.max(1.5, C1(16) - tWait - 0.4), EASE.inOut));
     body = <>
-      <Phone x={1080} y={470} w={330}><Balance v={v} /></Phone>
-      {['WEEK 1', 'WEEK 2', 'WEEK 3'].map((w, i) => <Chip key={w} x={1560} y={300 + i * 140} at={tWait + 0.6 + i * 0.7} icon="ph:arrow-up-bold">{w}</Chip>)}
-      {t > tWaited && <Chip x={1560} y={760} at={tWaited} icon="ph:hourglass-medium-fill" red>THEY WAITED</Chip>}
+      <Phone x={1060} y={500} w={290}><Balance v={v} /></Phone>
+      {['WEEK 1', 'WEEK 2', 'WEEK 3'].map((w, i) => <Chip key={w} x={1500} y={300 + i * 140} at={tWait + 0.6 + i * 0.7} icon="ph:arrow-up-bold">{w}</Chip>)}
+      {t > tWaited && <Chip x={1500} y={760} at={tWaited} icon="ph:hourglass-medium-fill" red>THEY WAITED</Chip>}
     </>;
   } else {
     body = <>
@@ -213,14 +213,14 @@ export const A3: React.FC = () => {
     </>;
   } else if (b === 3) {
     body = <>
-      <Phone x={1080} y={470} w={330}><Balance v={t > tZero ? 0 : 48250} red={t > tZero} /></Phone>
-      {t > tFriday && <Chip x={1560} y={230} at={tFriday} icon="ph:calendar-fill">A NORMAL FRIDAY</Chip>}
-      {t > tDesk && <><Wallet x={1560} y={520} w={340} screen="•••" /><Pop x={1560} y={700} at={tDesk + 0.2}><Mono size={20} color={A.soft}>STILL ON YOUR DESK</Mono></Pop></>}
+      <Phone x={1060} y={500} w={290}><Balance v={t > tZero ? 0 : 48250} red={t > tZero} /></Phone>
+      {t > tFriday && <Chip x={1500} y={230} at={tFriday} icon="ph:calendar-fill">A NORMAL FRIDAY</Chip>}
+      {t > tDesk && <><Wallet x={1500} y={520} w={320} screen="•••" /><Pop x={1500} y={700} at={tDesk + 0.2}><Mono size={20} color={A.soft}>STILL ON YOUR DESK</Mono></Pop></>}
     </>;
   } else if (b === 4) {
     body = <>
-      <Tile x={1060} y={440} at={tFreeze} icon="ph:snowflake-bold" label="TETHER FREEZES SOME USDT" size={160} />
-      {t > tMixer && <Tile x={1500} y={440} at={tMixer} icon="ph:shuffle-bold" label="SENT THROUGH A MIXER · REPORTEDLY" red size={160} />}
+      <Tile x={1020} y={420} at={tFreeze} icon="ph:snowflake-bold" label="TETHER FREEZES SOME USDT" size={160} />
+      {t > tMixer && <Tile x={1500} y={420} at={tMixer} icon="ph:shuffle-bold" label="SENT THROUGH A MIXER · REPORTEDLY" red size={160} />}
       <Chip x={CX} y={170} at={tTether + 0.1} icon="ph:currency-dollar-bold">FOLLOW THE MONEY</Chip>
     </>;
   } else if (b === 5) {
@@ -236,8 +236,8 @@ export const A3: React.FC = () => {
     body = <>
       <Chip x={1060} y={170} at={tSep} icon="ph:calendar-fill">SEP 22 · STOLEN MONEY STORED</Chip>
       {[0, 1, 2].map((i) => <Wallet key={i} x={940 + i * 230} y={440} w={200} screen={empt ? '$0' : '₿'} pulse={empt ? 0.5 : 0} />)}
-      {empt && [0, 1, 2].map((i) => <Wire key={`w${i}`} d={`M ${940 + i * 230} 520 Q ${1170} 640 1600 700`} at={tOct + i * 0.1} dur={0.5} red len={900} width={3} />)}
-      {empt && <Tile x={1640} y={720} at={tOct + 0.4} icon="ph:user-fill" label="ONE THIEF'S WALLET" red size={110} />}
+      {empt && [0, 1, 2].map((i) => <Wire key={`w${i}`} d={`M ${940 + i * 230} 520 Q ${1170} 640 1540 700`} at={tOct + i * 0.1} dur={0.5} red len={900} width={3} />)}
+      {empt && <Tile x={1560} y={720} at={tOct + 0.4} icon="ph:user-fill" label="ONE THIEF'S WALLET" red size={110} />}
       {t > tSixty && <Pop x={1080} y={780} at={tSixty}><div style={{ textAlign: 'center' }}><div style={{ ...fonts.H, fontWeight: 900, fontSize: 80, color: A.red, letterSpacing: '-0.03em' }}>60+ BTC</div><Mono size={22} color={A.white}>≈ $4.8 MILLION · CHAINALYSIS</Mono></div></Pop>}
     </>;
   } else {

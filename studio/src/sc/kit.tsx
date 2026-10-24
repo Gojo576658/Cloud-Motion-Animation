@@ -41,7 +41,7 @@ export const Crossed: React.FC<{ x: number; y: number; at: number; icon: string;
   );
 };
 export const Tile: React.FC<{ x: number; y: number; at: number; icon: string; label: string; red?: boolean; size?: number }> = ({ x, y, at, icon, label, red = false, size = 160 }) => (
-  <Pop x={x} y={y} at={at}><div style={{ textAlign: 'center' }}><div style={{ width: size, height: size, margin: '0 auto', borderRadius: size * 0.18, background: A.panel, border: `2px solid ${red ? A.red : A.line}`, display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: red ? '0 0 40px rgba(255,43,61,.35)' : undefined }}><Icon name={icon} size={size * 0.58} color={red ? A.red : A.white} /></div><div style={{ marginTop: 12 }}><Mono size={20} color={red ? A.red : A.soft}>{label}</Mono></div></div></Pop>
+  <Pop x={x} y={y} at={at}><div style={{ textAlign: 'center' }}><div style={{ width: size, height: size, margin: '0 auto', borderRadius: size * 0.18, background: A.panel, border: `2px solid ${red ? A.red : A.line}`, display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: red ? '0 0 40px rgba(255,43,61,.35)' : undefined }}><Icon name={icon} size={size * 0.58} color={red ? A.red : A.white} /></div><div style={{ marginTop: 14, width: Math.max(size * 1.7, 300), marginLeft: '50%', transform: 'translateX(-50%)', fontFamily: fonts.mono, fontWeight: 700, fontSize: 21, letterSpacing: '0.1em', lineHeight: 1.35, color: red ? A.red : A.soft, whiteSpace: 'normal' }}>{label}</div></div></Pop>
 );
 
 // ---------------------------------------------------------------- the hardware wallet (generic, not a brand replica)
@@ -126,7 +126,7 @@ export const Balance: React.FC<{ v: number; red?: boolean; label?: string }> = (
 export const Node: React.FC<{ x: number; y: number; at: number; icon: string; label: string; red?: boolean; dim?: number }> = ({ x, y, at, icon, label, red = false, dim = 0 }) => (
   <Pop x={x} y={y} at={at}><div style={{ textAlign: 'center', opacity: 1 - dim * 0.6 }}>
     <div style={{ width: 150, height: 150, margin: '0 auto', borderRadius: '50%', background: A.panel, border: `4px solid ${red ? A.red : A.line}`, display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: red ? '0 0 50px rgba(255,43,61,.4)' : undefined }}><Icon name={icon} size={80} color={red ? A.red : A.white} /></div>
-    <div style={{ marginTop: 12 }}><Mono size={20} color={red ? A.red : A.soft}>{label}</Mono></div>
+    <div style={{ marginTop: 12 }}><Mono size={24} color={red ? A.red : A.soft}>{label}</Mono></div>
   </div></Pop>
 );
 

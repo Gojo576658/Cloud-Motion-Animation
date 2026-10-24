@@ -17,7 +17,7 @@
  {
   "s": 0,
   "gap": 0.35,
-  "text": "Because the thief wasn't on your computer. The thief came in the box."
+  "text": "Because the thief wasn't on your computer. The thief came in the box. And the worst part? You did everything right. You bought the safe one. You followed every rule."
  },
  {
   "s": 0,
@@ -42,7 +42,7 @@
  {
   "s": 1,
   "gap": 0.35,
-  "text": "And to prove a device is real, Ledger runs a check. If the secure chip inside is genuine, the device passes."
+  "text": "And to prove a device is real, Ledger runs a check. If the secure chip inside is genuine, the device passes. But that check only looks at the secure chip. Remember that, because it's about to matter."
  },
  {
   "s": 1,
@@ -112,7 +112,7 @@
  {
   "s": 3,
   "gap": 0.35,
-  "text": "Tether, the company behind the USDT stablecoin, moved to freeze some of the stolen coins. And part of the rest was reportedly pushed through a crypto mixer, to hide where it went."
+  "text": "Tether, the company behind the USDT stablecoin, moved to freeze some of the stolen coins. And part of the rest was reportedly pushed through a crypto mixer, to hide where it went. One on-chain tracker reported that the attacker pushed about four hundred and thirty ether, roughly a million dollars, through Tornado Cash, a service built to make crypto hard to follow."
  },
  {
   "s": 3,
@@ -162,7 +162,7 @@
  {
   "s": 4,
   "gap": 0.35,
-  "text": "Ledger stopped sales in Southeast Asia and tightened how its devices are stored and shipped. Trezor, another wallet maker, said it found no tampering in its own devices, but still dropped CryptoBilis as a seller. OneKey offered free replacements."
+  "text": "Ledger stopped sales in Southeast Asia and tightened how its devices are stored and shipped. Trezor, another wallet maker, said it found no tampering in its own devices, but still dropped CryptoBilis as a seller. OneKey offered free replacements. Ledger also stopped returned devices from being resold. Because any box that goes back to a shop can be opened, changed, and sold again to someone else."
  },
  {
   "s": 4,
@@ -187,7 +187,7 @@
  {
   "s": 5,
   "gap": 0.35,
-  "text": "Think about what that does to people. The whole point of a hardware wallet is that you don't have to trust anyone. And suddenly, you have to trust every hand the box passed through."
+  "text": "Think about what that does to people. The whole point of a hardware wallet is that you don't have to trust anyone. And suddenly, you have to trust every hand the box passed through. And that's the real damage here. Not just the ninety million dollars. Trust. People keep their savings on a device the size of a USB stick."
  },
  {
   "s": 5,
@@ -202,7 +202,7 @@
  {
   "s": 6,
   "gap": 0.35,
-  "text": "On October seventeenth, Mark Karpelès jumped in on X. If that name sounds familiar, he ran Mt. Gox, the bitcoin exchange that collapsed in twenty fourteen after losing hundreds of thousands of bitcoin."
+  "text": "On October seventeenth, Mark Karpelès jumped in on X. If that name sounds familiar, he ran Mount Gox, the bitcoin exchange that collapsed in twenty fourteen after losing hundreds of thousands of bitcoin."
  },
  {
   "s": 6,
@@ -227,7 +227,7 @@
  {
   "s": 6,
   "gap": 0.35,
-  "text": "Even the founder of Binance weighed in, saying a small number of people probably bought fake or tampered Ledgers."
+  "text": "Even the founder of Binance weighed in. He still called Ledger one of the most secure hardware wallets, but said a small number of people probably bought fake or tampered Ledgers."
  },
  {
   "s": 6,
@@ -242,7 +242,7 @@
  {
   "s": 7,
   "gap": 0.35,
-  "text": "Buy a hardware wallet only from the maker itself, or from a store the maker lists as official. A cheaper price from a random seller is not a deal. It's a risk."
+  "text": "Buy a hardware wallet only from the maker itself, or from a store the maker lists as official. A cheaper price from a random seller is not a deal. It's a risk. If a price looks too good to be true, ask yourself what else might be different about that box."
  },
  {
   "s": 7,
