@@ -1,0 +1,277 @@
+[
+ {
+  "s": 0,
+  "gap": 0.35,
+  "text": "Imagine you buy the safest crypto wallet money can buy. A little device, sealed in its box, built to do one thing. Keep your secret safe."
+ },
+ {
+  "s": 0,
+  "gap": 0.35,
+  "text": "You set it up. It shows you twenty four words. You write them down on paper, the way you're supposed to."
+ },
+ {
+  "s": 0,
+  "gap": 0.35,
+  "text": "Three weeks later, every coin you put on it is gone. You never typed those words anywhere. You never clicked a bad link."
+ },
+ {
+  "s": 0,
+  "gap": 0.35,
+  "text": "Because the thief wasn't on your computer. The thief came in the box."
+ },
+ {
+  "s": 0,
+  "gap": 0.45,
+  "text": "I'm Vio. And this is the story of the spy chip that drained more than ninety million dollars from hundreds of crypto wallets. And the investigation is still going on right now."
+ },
+ {
+  "s": 1,
+  "gap": 0.35,
+  "text": "To understand how scary this is, you need to know one thing about these wallets."
+ },
+ {
+  "s": 1,
+  "gap": 0.35,
+  "text": "Those twenty four words are not a password. They are the money. Anyone who has them can rebuild your wallet on any device, anywhere in the world, and move everything out."
+ },
+ {
+  "s": 1,
+  "gap": 0.35,
+  "text": "That's why a hardware wallet like a Ledger exists. It creates the words inside a special chip, shows them once on its own little screen, and never sends them anywhere. Not to your laptop. Not to the internet. Nowhere."
+ },
+ {
+  "s": 1,
+  "gap": 0.35,
+  "text": "And to prove a device is real, Ledger runs a check. If the secure chip inside is genuine, the device passes."
+ },
+ {
+  "s": 1,
+  "gap": 0.45,
+  "text": "So how do you steal from a box that is built to never leak a secret? You don't hack it. You add something to it."
+ },
+ {
+  "s": 2,
+  "gap": 0.35,
+  "text": "On October thirteenth, Ledger's own security team confirmed what they had found inside some of its devices."
+ },
+ {
+  "s": 2,
+  "gap": 0.35,
+  "text": "A second, hidden component. It wasn't supposed to be there. And it wasn't touching the secure chip at all. It was watching the screen."
+ },
+ {
+  "s": 2,
+  "gap": 0.35,
+  "text": "When the owner set up the device and the twenty four words appeared, the implant reportedly read them right off the display."
+ },
+ {
+  "s": 2,
+  "gap": 0.35,
+  "text": "And then it sent them out. Not through your Wi-Fi. Not through your computer. The chip had its own mobile connection, with a built-in digital SIM card. Like a tiny phone, hidden inside your wallet."
+ },
+ {
+  "s": 2,
+  "gap": 0.35,
+  "text": "Think about how clever that is. Most careful crypto owners keep their wallet away from the internet. That's the whole idea. This one brought its own internet with it."
+ },
+ {
+  "s": 2,
+  "gap": 0.35,
+  "text": "And here's the part that made it almost invisible. Because the secure chip was untouched, Ledger says these devices could still pass its authenticity check. The box said genuine. And it was lying."
+ },
+ {
+  "s": 2,
+  "gap": 0.35,
+  "text": "And the attackers didn't empty the wallets the moment they got the words. It looks like they waited, while people kept adding money, week after week."
+ },
+ {
+  "s": 2,
+  "gap": 0.45,
+  "text": "Then, on October ninth, they pulled the trigger."
+ },
+ {
+  "s": 3,
+  "gap": 0.35,
+  "text": "Wallet after wallet emptied, all in the same short window. On-chain investigators who traced the money say more than three hundred wallets were hit."
+ },
+ {
+  "s": 3,
+  "gap": 0.35,
+  "text": "Their estimates started around seventy million dollars. Then eighty six. Then ninety three. Some now say over a hundred million."
+ },
+ {
+  "s": 3,
+  "gap": 0.35,
+  "text": "Ledger says it hasn't verified those numbers. But nobody is arguing that it's small."
+ },
+ {
+  "s": 3,
+  "gap": 0.35,
+  "text": "Now imagine being one of those owners. You open your app on a normal Friday. Your balance says zero. The device is still on your desk. Still sealed in your drawer. And you have no idea how anyone got in."
+ },
+ {
+  "s": 3,
+  "gap": 0.35,
+  "text": "Tether, the company behind the USDT stablecoin, moved to freeze some of the stolen coins. And part of the rest was reportedly pushed through a crypto mixer, to hide where it went."
+ },
+ {
+  "s": 3,
+  "gap": 0.35,
+  "text": "And then the blockchain analysis firm Chainalysis found something almost funny."
+ },
+ {
+  "s": 3,
+  "gap": 0.35,
+  "text": "One of the wallets that got drained belonged to a scammer. Someone who had been running a fake job scam, paying people to post fake reviews, then demanding deposits from them."
+ },
+ {
+  "s": 3,
+  "gap": 0.35,
+  "text": "On September twenty second, that scammer moved their stolen money onto three Ledger addresses. To keep it safe. On October ninth, all three were emptied into the same thief's wallet. Over sixty bitcoin. About four point eight million dollars."
+ },
+ {
+  "s": 3,
+  "gap": 0.45,
+  "text": "Thieves, robbing a thief, with a spy chip."
+ },
+ {
+  "s": 4,
+  "gap": 0.35,
+  "text": "So where did these devices come from?"
+ },
+ {
+  "s": 4,
+  "gap": 0.35,
+  "text": "Ledger says every confirmed loss so far involves devices sold through one reseller. A company in Southeast Asia called CryptoBilis."
+ },
+ {
+  "s": 4,
+  "gap": 0.35,
+  "text": "Not Ledger's own store. A middleman. And that's exactly the weak spot. Somewhere between the factory and the buyer, someone opened these boxes, added the implant, and sealed them again."
+ },
+ {
+  "s": 4,
+  "gap": 0.35,
+  "text": "Think of it like a sealed bottle of water. You trust it because the cap is closed. But if someone opened it, changed what's inside, and closed it again perfectly, you would never know. You would just drink it."
+ },
+ {
+  "s": 4,
+  "gap": 0.35,
+  "text": "Who did it, and where in that chain it happened, is still being investigated."
+ },
+ {
+  "s": 4,
+  "gap": 0.35,
+  "text": "Ledger stopped sales in Southeast Asia and tightened how its devices are stored and shipped. Trezor, another wallet maker, said it found no tampering in its own devices, but still dropped CryptoBilis as a seller. OneKey offered free replacements."
+ },
+ {
+  "s": 4,
+  "gap": 0.45,
+  "text": "And if the story ended there, it would be a problem in one region. But then a report came in from Germany."
+ },
+ {
+  "s": 5,
+  "gap": 0.35,
+  "text": "A customer in Germany reportedly found a tampered Ledger. One that had been bought in a regular store, in Europe."
+ },
+ {
+  "s": 5,
+  "gap": 0.35,
+  "text": "That claim hasn't been confirmed. But it was enough. MediaMarkt and Saturn, two of the biggest electronics chains in Europe, stopped selling Ledger devices."
+ },
+ {
+  "s": 5,
+  "gap": 0.35,
+  "text": "Ledger says it is reviewing reports of implants in other places too. Which means, right now, nobody can say for sure how far this goes."
+ },
+ {
+  "s": 5,
+  "gap": 0.35,
+  "text": "Think about what that does to people. The whole point of a hardware wallet is that you don't have to trust anyone. And suddenly, you have to trust every hand the box passed through."
+ },
+ {
+  "s": 5,
+  "gap": 0.45,
+  "text": "And quick favour. If you want more stories like this, where the danger is hiding inside something you trust, hit subscribe. It really helps a small channel like this one."
+ },
+ {
+  "s": 6,
+  "gap": 0.35,
+  "text": "Then the fight went public."
+ },
+ {
+  "s": 6,
+  "gap": 0.35,
+  "text": "On October seventeenth, Mark Karpelès jumped in on X. If that name sounds familiar, he ran Mt. Gox, the bitcoin exchange that collapsed in twenty fourteen after losing hundreds of thousands of bitcoin."
+ },
+ {
+  "s": 6,
+  "gap": 0.35,
+  "text": "Karpelès said Ledger had a guide about tampered devices since March, but it was buried in an education page and far too mild. He claimed a louder warning could have saved people."
+ },
+ {
+  "s": 6,
+  "gap": 0.35,
+  "text": "Ledger's CEO, Pascal Gauthier, hit back. He said Ledger works hard to protect its customers, and that a warning page can't stop a device that was tampered with before it ever reached the buyer."
+ },
+ {
+  "s": 6,
+  "gap": 0.35,
+  "text": "And here's a detail that makes the argument even messier. That guide was first published in March, but it was updated in September. So right now, it's not even clear what the original version said."
+ },
+ {
+  "s": 6,
+  "gap": 0.35,
+  "text": "And then he made it personal. He told Karpelès, quote, you are no white knight. Get real."
+ },
+ {
+  "s": 6,
+  "gap": 0.35,
+  "text": "Even the founder of Binance weighed in, saying a small number of people probably bought fake or tampered Ledgers."
+ },
+ {
+  "s": 6,
+  "gap": 0.45,
+  "text": "And this isn't the first time Ledger owners were targeted through the mail. Back in twenty twenty, a leak exposed customers' names and home addresses. The year after, some of them received fake Ledger devices in the post, with a letter pretending to be from the CEO."
+ },
+ {
+  "s": 7,
+  "gap": 0.35,
+  "text": "So what should you actually do?"
+ },
+ {
+  "s": 7,
+  "gap": 0.35,
+  "text": "Buy a hardware wallet only from the maker itself, or from a store the maker lists as official. A cheaper price from a random seller is not a deal. It's a risk."
+ },
+ {
+  "s": 7,
+  "gap": 0.35,
+  "text": "Never use a device that arrives already set up, or with words already written down for you. Your twenty four words should be created by the device, in front of you, and nobody else should ever see them."
+ },
+ {
+  "s": 7,
+  "gap": 0.35,
+  "text": "And if you bought a Ledger from CryptoBilis, Ledger's advice is clear. Don't set up an unused one. If you already use one, move your money to a new device with a brand new set of words. Typing the old words into a new device doesn't help, because the thief already has them."
+ },
+ {
+  "s": 7,
+  "gap": 0.35,
+  "text": "And remember the bigger lesson. Every device you own travelled through a chain of hands before it reached you. Factories, warehouses, resellers, delivery drivers. Security isn't just about the device. It's about every step it took to get to you."
+ },
+ {
+  "s": 7,
+  "gap": 0.35,
+  "text": "So here's my question. Who should pay these people back? Ledger, the reseller, or nobody, because the buyers chose the cheaper seller? Tell me in the comments."
+ },
+ {
+  "s": 7,
+  "gap": 0.35,
+  "text": "And subscribe, because next time, there's another hack where the danger was hiding inside something people trusted."
+ },
+ {
+  "s": 7,
+  "gap": 0.35,
+  "text": "The safest box in crypto did exactly what it promised. It kept the secret safe. It just wasn't the only thing inside the box."
+ }
+]
