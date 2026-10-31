@@ -1,0 +1,302 @@
+[
+ {
+  "s": 0,
+  "gap": 0.35,
+  "text": "It's two in the morning. A sixteen-year-old is sitting in his room, staring at a number on his screen."
+ },
+ {
+  "s": 0,
+  "gap": 0.35,
+  "text": "Seventeen trillion, three hundred and thirty three billion rows of data. Inside Microsoft."
+ },
+ {
+  "s": 0,
+  "gap": 0.35,
+  "text": "He wants to scream. But his parents are asleep. So he just sits there, and checks the math again."
+ },
+ {
+  "s": 0,
+  "gap": 0.35,
+  "text": "A few hours earlier, he was doing his Friday schoolwork. Now he has admin access to a system only Microsoft employees are supposed to see."
+ },
+ {
+  "s": 0,
+  "gap": 0.35,
+  "text": "And a few weeks later, Microsoft paid him five thousand dollars for it. Was that fair? Stay till the end, and you decide."
+ },
+ {
+  "s": 0,
+  "gap": 0.45,
+  "text": "I'm Vio. And at sixteen, I was struggling to remember my own Wi-Fi password. So this is the story of the kid who walked into Microsoft through the front door."
+ },
+ {
+  "s": 1,
+  "gap": 0.35,
+  "text": "Online, he goes by Faav. Sixteen years old. A student. And a bug hunter."
+ },
+ {
+  "s": 1,
+  "gap": 0.35,
+  "text": "His parents probably thought he was just gaming late at night. He was not gaming."
+ },
+ {
+  "s": 1,
+  "gap": 0.35,
+  "text": "Here's how that works. Big companies like Microsoft pay people to find holes in their systems, before criminals do. It's called a bug bounty. You find the problem, you report it, you get paid."
+ },
+ {
+  "s": 1,
+  "gap": 0.35,
+  "text": "But Faav didn't do it alone. He built his own AI hacking assistant. He called it Antares."
+ },
+ {
+  "s": 1,
+  "gap": 0.35,
+  "text": "Think of it like a partner that never sleeps. It pokes at websites, reads the replies, and points at anything that looks weird."
+ },
+ {
+  "s": 1,
+  "gap": 0.35,
+  "text": "On August twenty fifth, Antares pointed at something. A public doorway into a Microsoft system called Titan."
+ },
+ {
+  "s": 1,
+  "gap": 0.45,
+  "text": "Remember that number from the start. Five thousand dollars. We're coming back to it."
+ },
+ {
+  "s": 2,
+  "gap": 0.35,
+  "text": "Titan is an internal analytics platform. Basically, the place where Microsoft teams look at their data."
+ },
+ {
+  "s": 2,
+  "gap": 0.35,
+  "text": "Dashboards, charts, and the connections to some very, very big databases."
+ },
+ {
+  "s": 2,
+  "gap": 0.35,
+  "text": "And it's meant to be employees only. Picture an office building where every door has a badge reader, and only staff badges work."
+ },
+ {
+  "s": 2,
+  "gap": 0.35,
+  "text": "Faav didn't have a badge. But he had a hunch that the doors weren't checking badges properly."
+ },
+ {
+  "s": 2,
+  "gap": 0.45,
+  "text": "The only problem? Proving it."
+ },
+ {
+  "s": 3,
+  "gap": 0.35,
+  "text": "For about ten days, everything he tried failed. Error. Error. Access denied."
+ },
+ {
+  "s": 3,
+  "gap": 0.35,
+  "text": "Most people would have given up. He had school. He had homework. And Microsoft is not exactly a small target."
+ },
+ {
+  "s": 3,
+  "gap": 0.35,
+  "text": "Then, on Friday, September fourth, after finishing his schoolwork, he sat down and tried again."
+ },
+ {
+  "s": 3,
+  "gap": 0.35,
+  "text": "And sometime after one in the morning on Saturday, it worked."
+ },
+ {
+  "s": 3,
+  "gap": 0.35,
+  "text": "The system accepted him as an administrator. He could run his own database commands, as Titan's admin."
+ },
+ {
+  "s": 3,
+  "gap": 0.35,
+  "text": "And admin is not just any account. It's the master key. The account that can see everything, change settings, and run the show. His first command worked. Then another. Then he started counting."
+ },
+ {
+  "s": 3,
+  "gap": 0.35,
+  "text": "So what was the mistake? According to Faav, Titan looked at what the digital ID said, but it never checked whether the ID was real."
+ },
+ {
+  "s": 3,
+  "gap": 0.45,
+  "text": "He described it perfectly. It felt like a hotel where every door had a working keycard reader, but any keycard unlocked any room."
+ },
+ {
+  "s": 4,
+  "gap": 0.35,
+  "text": "So what was behind those doors?"
+ },
+ {
+  "s": 4,
+  "gap": 0.35,
+  "text": "According to Faav's write-up, as reported by The Register, the platform's own records listed about twenty five thousand account and email entries."
+ },
+ {
+  "s": 4,
+  "gap": 0.35,
+  "text": "Almost eighteen thousand employee email records. Job titles. Departments. Even who reports to whom."
+ },
+ {
+  "s": 4,
+  "gap": 0.35,
+  "text": "Faav pointed out that kind of information could be useful to scammers who trick employees. But he also said he never tested that."
+ },
+ {
+  "s": 4,
+  "gap": 0.35,
+  "text": "There were more than twenty four thousand dashboards. More than four hundred thousand charts."
+ },
+ {
+  "s": 4,
+  "gap": 0.35,
+  "text": "He even saw two tiny samples of Bing data, with search and location fields. But he said the locations were not precise. Not your exact address, just rough areas."
+ },
+ {
+  "s": 4,
+  "gap": 0.35,
+  "text": "And then, the number that kept him awake. Titan was connected to seventeen analytics databases. Adding up their sizes gave him about seventeen point three trillion rows."
+ },
+ {
+  "s": 4,
+  "gap": 0.35,
+  "text": "Now, to be fair, that number is an estimate from the system's own records. It likely includes old and duplicated data. And Faav didn't open or take those rows."
+ },
+ {
+  "s": 4,
+  "gap": 0.45,
+  "text": "But think about what that number means. A sixteen-year-old, from his bedroom, was standing at the door to one of the biggest data systems on the planet."
+ },
+ {
+  "s": 5,
+  "gap": 0.35,
+  "text": "So what did he do with that power?"
+ },
+ {
+  "s": 5,
+  "gap": 0.35,
+  "text": "He reported it. That's the whole point of a bug bounty."
+ },
+ {
+  "s": 5,
+  "gap": 0.35,
+  "text": "And Microsoft moved fast. They asked him to stop testing. They even asked for his IP address, to confirm nothing bad had happened beyond his research."
+ },
+ {
+  "s": 5,
+  "gap": 0.35,
+  "text": "That might sound scary, but it's normal. A company has to be sure that the activity it saw came from the researcher, and nobody else."
+ },
+ {
+  "s": 5,
+  "gap": 0.35,
+  "text": "Within about a day, the doorway was locked down. Microsoft told him his report prompted an immediate investigation."
+ },
+ {
+  "s": 5,
+  "gap": 0.45,
+  "text": "And quick favour. If you like stories where one person takes on a giant, hit subscribe. A sixteen-year-old would appreciate it, and so would I."
+ },
+ {
+  "s": 6,
+  "gap": 0.35,
+  "text": "On September seventeenth, the reward arrived. Five thousand dollars."
+ },
+ {
+  "s": 6,
+  "gap": 0.35,
+  "text": "For a sixteen-year-old, that's a lot of money. But look at what he found. Admin access to an internal Microsoft platform, sitting on top of trillions of rows."
+ },
+ {
+  "s": 6,
+  "gap": 0.35,
+  "text": "One writer covering the story put it bluntly. They better have paid this kid a proper bounty."
+ },
+ {
+  "s": 6,
+  "gap": 0.35,
+  "text": "But there is another side. Bug bounty programs usually pay from a fixed table. The price depends on the type of bug and on what was actually exposed, not on the biggest possible number. And Microsoft's own programs advertise much bigger rewards for the most serious bugs. So in their eyes, this one may simply not have reached that level."
+ },
+ {
+  "s": 6,
+  "gap": 0.35,
+  "text": "And then there's the part that made people raise their eyebrows."
+ },
+ {
+  "s": 6,
+  "gap": 0.35,
+  "text": "Before his blog post went public, Faav says he rewrote it at Microsoft's request. Sections were cut. Numbers were removed. And the way he described the impact was changed."
+ },
+ {
+  "s": 6,
+  "gap": 0.35,
+  "text": "Microsoft's official statement thanked him. They said his report helped them better protect their customers, and that they look forward to working with Faav in the future."
+ },
+ {
+  "s": 6,
+  "gap": 0.45,
+  "text": "So on one side, a company that fixed the problem fast and paid the researcher. On the other, a teenager who found a door into trillions of rows, got five thousand dollars, and had his story trimmed."
+ },
+ {
+  "s": 7,
+  "gap": 0.35,
+  "text": "And this isn't the first time a teenager beat a giant. In twenty nineteen, a fourteen-year-old in Arizona, Grant Thompson, found a FaceTime bug that let a caller hear the other person before they even picked up."
+ },
+ {
+  "s": 7,
+  "gap": 0.35,
+  "text": "His mom spent days trying to get Apple's attention. Apple fixed it, thanked the family, and said it would help pay for his education."
+ },
+ {
+  "s": 7,
+  "gap": 0.35,
+  "text": "So what's the lesson here?"
+ },
+ {
+  "s": 7,
+  "gap": 0.35,
+  "text": "First, AI tools have changed who can find these holes. A teenager with a home-made assistant found something a trillion-dollar company missed."
+ },
+ {
+  "s": 7,
+  "gap": 0.35,
+  "text": "And that cuts both ways. If a kid can do it for a bounty, someone else could do it for a ransom."
+ },
+ {
+  "s": 7,
+  "gap": 0.35,
+  "text": "That's why security teams are now pointing AI at their own systems too. Whoever finds the hole first, wins."
+ },
+ {
+  "s": 7,
+  "gap": 0.35,
+  "text": "Second, if this kind of thing excites you, do it the way Faav did. Through official bug bounty programs, with permission. Testing a system without permission is a crime, even if you mean well."
+ },
+ {
+  "s": 7,
+  "gap": 0.35,
+  "text": "And Faav's own advice to every developer was simple. Always check that the ID is real, before anything else."
+ },
+ {
+  "s": 7,
+  "gap": 0.35,
+  "text": "So here's my question. Was five thousand dollars fair for what he found? Or should Microsoft have paid him a lot more? Tell me in the comments."
+ },
+ {
+  "s": 7,
+  "gap": 0.35,
+  "text": "And subscribe, because next time, there's another story of one person who found a crack in something huge."
+ },
+ {
+  "s": 7,
+  "gap": 0.35,
+  "text": "At two in the morning, he couldn't scream. So he checked the math again. And this time, the whole internet checked it with him."
+ }
+]
