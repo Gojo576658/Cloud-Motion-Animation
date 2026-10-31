@@ -110,5 +110,109 @@
   "url": "https://www.pexels.com/video/a-person-using-remote-control-switching-the-television-7184588/",
   "size": "1920x1080",
   "duration": 11
+ },
+ "night-pc": {
+  "type": "video",
+  "id": 9071222,
+  "by": "Yan Krukau",
+  "url": "https://www.pexels.com/video/a-man-using-computer-while-wearing-headset-9071222/",
+  "size": "1920x1080",
+  "duration": 21
+ },
+ "shocked": {
+  "type": "video",
+  "id": 4587767,
+  "by": "Ketut Subiyanto",
+  "url": "https://www.pexels.com/video/a-man-with-a-shocked-expression-4587767/",
+  "size": "1920x1080",
+  "duration": 16
+ },
+ "disappointed": {
+  "type": "video",
+  "id": 10515020,
+  "by": "A frame in motion",
+  "url": "https://www.pexels.com/video/a-disappointed-man-with-his-arms-crossed-10515020/",
+  "size": "1920x1080",
+  "duration": 16
+ },
+ "headset-shout": {
+  "type": "video",
+  "id": 6290482,
+  "by": "Gustavo Fring",
+  "url": "https://www.pexels.com/video/man-wearing-headset-shouting-6290482/",
+  "size": "1920x1080",
+  "duration": 9
+ },
+ "problem-man": {
+  "type": "video",
+  "id": 7660481,
+  "by": "Alena Darmel",
+  "url": "https://www.pexels.com/video/a-problematic-man-7660481/",
+  "size": "1920x1080",
+  "duration": 7
+ },
+ "corridor": {
+  "type": "video",
+  "id": 5784035,
+  "by": "bruno lucas",
+  "url": "https://www.pexels.com/video/black-and-white-corridor-5784035/",
+  "size": "1920x1080",
+  "duration": 15
+ },
+ "restricted-door": {
+  "type": "video",
+  "id": 3895141,
+  "by": "Daisy Sparkleweather",
+  "url": "https://www.pexels.com/video/closed-door-restricted-area-no-admittance-3895141/",
+  "size": "1920x1080",
+  "duration": 2
+ },
+ "cables": {
+  "type": "video",
+  "id": 1085656,
+  "by": "Dima Krivoy",
+  "url": "https://www.pexels.com/video/blue-colored-cables-1085656/",
+  "size": "1920x1080",
+  "duration": 24
+ },
+ "counting-money": {
+  "type": "video",
+  "id": 5466769,
+  "by": "olia danilevich",
+  "url": "https://www.pexels.com/video/a-person-counting-money-5466769/",
+  "size": "1920x1080",
+  "duration": 14
+ },
+ "dissatisfied": {
+  "type": "video",
+  "id": 11194553,
+  "by": "A frame in motion",
+  "url": "https://www.pexels.com/video/man-expressing-dissatisfaction-11194553/",
+  "size": "1920x1080",
+  "duration": 20
+ },
+ "mom-phone": {
+  "type": "video",
+  "id": 8052316,
+  "by": "Kampus Production",
+  "url": "https://www.pexels.com/video/woman-using-smartphone-8052316/",
+  "size": "1920x1080",
+  "duration": 11
+ },
+ "typing": {
+  "type": "video",
+  "id": 4873235,
+  "by": "Nothing Ahead",
+  "url": "https://www.pexels.com/video/a-person-typing-on-a-backlit-keyboard-4873235/",
+  "size": "1920x1080",
+  "duration": 12
+ },
+ "scream": {
+  "type": "video",
+  "id": 8724359,
+  "by": "Tima Miroshnichenko",
+  "url": "https://www.pexels.com/video/a-close-up-of-a-man-shouting-8724359/",
+  "size": "1366x720",
+  "duration": 10
  }
 }

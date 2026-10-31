@@ -31,3 +31,5 @@ public/fh/*.wav
 audio/out-fh/
 public/sc/*.wav
 audio/out-sc/
+public/ta/*.wav
+audio/out-ta/

@@ -1,0 +1,9456 @@
+{
+ "fps": 30,
+ "offset": 0.6,
+ "duration": 387.533,
+ "bpm": 84,
+ "scenes": [
+  {
+   "index": 0,
+   "title": "Cold Open",
+   "start": 0,
+   "end": 38.088
+  },
+  {
+   "index": 1,
+   "title": "The Kid and the Bot",
+   "start": 38.088,
+   "end": 77.607
+  },
+  {
+   "index": 2,
+   "title": "Titan",
+   "start": 77.607,
+   "end": 101.226
+  },
+  {
+   "index": 3,
+   "title": "Ten Days",
+   "start": 101.226,
+   "end": 149.798
+  },
+  {
+   "index": 4,
+   "title": "Behind the Door",
+   "start": 149.798,
+   "end": 211.209
+  },
+  {
+   "index": 5,
+   "title": "The Report",
+   "start": 211.209,
+   "end": 244.597
+  },
+  {
+   "index": 6,
+   "title": "Five Thousand",
+   "start": 244.597,
+   "end": 309.722
+  },
+  {
+   "index": 7,
+   "title": "Your Turn",
+   "start": 309.722,
+   "end": 387.533
+  }
+ ],
+ "sections": [
+  {
+   "index": 0,
+   "title": "invest",
+   "mood": "invest",
+   "bpm": 84,
+   "start": 0,
+   "end": 38.188
+  },
+  {
+   "index": 1,
+   "title": "inside",
+   "mood": "inside",
+   "bpm": 84,
+   "start": 38.188,
+   "end": 77.707
+  },
+  {
+   "index": 2,
+   "title": "audio",
+   "mood": "audio",
+   "bpm": 84,
+   "start": 77.707,
+   "end": 101.326
+  },
+  {
+   "index": 3,
+   "title": "invest",
+   "mood": "invest",
+   "bpm": 84,
+   "start": 101.326,
+   "end": 149.898
+  },
+  {
+   "index": 4,
+   "title": "audio",
+   "mood": "audio",
+   "bpm": 84,
+   "start": 149.898,
+   "end": 211.309
+  },
+  {
+   "index": 5,
+   "title": "calm",
+   "mood": "calm",
+   "bpm": 84,
+   "start": 211.309,
+   "end": 244.697
+  },
+  {
+   "index": 6,
+   "title": "invest",
+   "mood": "invest",
+   "bpm": 84,
+   "start": 244.697,
+   "end": 309.822
+  },
+  {
+   "index": 7,
+   "title": "open",
+   "mood": "open",
+   "bpm": 84,
+   "start": 309.822,
+   "end": 387.533
+  }
+ ],
+ "cues": [
+  {
+   "id": 0,
+   "section": 0,
+   "voice": "chatterbox",
+   "start": 0.6,
+   "end": 5.219,
+   "text": "It's two in the morning. A sixteen-year-old is sitting in his room, staring at a number on his screen."
+  },
+  {
+   "id": 1,
+   "section": 0,
+   "voice": "chatterbox",
+   "start": 5.569,
+   "end": 11.08,
+   "text": "Seventeen trillion, three hundred and thirty three billion rows of data. Inside Microsoft."
+  },
+  {
+   "id": 2,
+   "section": 0,
+   "voice": "chatterbox",
+   "start": 11.43,
+   "end": 16.321,
+   "text": "He wants to scream. But his parents are asleep. So he just sits there, and checks the math again."
+  },
+  {
+   "id": 3,
+   "section": 0,
+   "voice": "chatterbox",
+   "start": 16.671,
+   "end": 23.485,
+   "text": "A few hours earlier, he was doing his Friday schoolwork. Now he has admin access to a system only Microsoft employees are supposed to see."
+  },
+  {
+   "id": 4,
+   "section": 0,
+   "voice": "chatterbox",
+   "start": 23.835,
+   "end": 29.021,
+   "text": "And a few weeks later, Microsoft paid him five thousand dollars for it. Was that fair? Stay till the end, and you decide."
+  },
+  {
+   "id": 5,
+   "section": 0,
+   "voice": "chatterbox",
+   "start": 29.371,
+   "end": 38.038,
+   "text": "I'm Vio. And at sixteen, I was struggling to remember my own Wi-Fi password. So this is the story of the kid who walked into Microsoft through the front door."
+  },
+  {
+   "id": 6,
+   "section": 1,
+   "voice": "chatterbox",
+   "start": 38.488,
+   "end": 43.151,
+   "text": "Online, he goes by Faav. Sixteen years old. A student. And a bug hunter."
+  },
+  {
+   "id": 7,
+   "section": 1,
+   "voice": "chatterbox",
+   "start": 43.501,
+   "end": 47.272,
+   "text": "His parents probably thought he was just gaming late at night. He was not gaming."
+  },
+  {
+   "id": 8,
+   "section": 1,
+   "voice": "chatterbox",
+   "start": 47.622,
+   "end": 56.534,
+   "text": "Here's how that works. Big companies like Microsoft pay people to find holes in their systems, before criminals do. It's called a bug bounty. You find the problem, you report it, you get paid."
+  },
+  {
+   "id": 9,
+   "section": 1,
+   "voice": "chatterbox",
+   "start": 56.884,
+   "end": 61.817,
+   "text": "But Faav didn't do it alone. He built his own AI hacking assistant. He called it Antares."
+  },
+  {
+   "id": 10,
+   "section": 1,
+   "voice": "chatterbox",
+   "start": 62.167,
+   "end": 67.627,
+   "text": "Think of it like a partner that never sleeps. It pokes at websites, reads the replies, and points at anything that looks weird."
+  },
+  {
+   "id": 11,
+   "section": 1,
+   "voice": "chatterbox",
+   "start": 67.977,
+   "end": 73.123,
+   "text": "On August twenty fifth, Antares pointed at something. A public doorway into a Microsoft system called Titan."
+  },
+  {
+   "id": 12,
+   "section": 1,
+   "voice": "chatterbox",
+   "start": 73.473,
+   "end": 77.557,
+   "text": "Remember that number from the start. Five thousand dollars. We're coming back to it."
+  },
+  {
+   "id": 13,
+   "section": 2,
+   "voice": "chatterbox",
+   "start": 78.007,
+   "end": 83.274,
+   "text": "Titan is an internal analytics platform. Basically, the place where Microsoft teams look at their data."
+  },
+  {
+   "id": 14,
+   "section": 2,
+   "voice": "chatterbox",
+   "start": 83.624,
+   "end": 87.68,
+   "text": "Dashboards, charts, and the connections to some very, very big databases."
+  },
+  {
+   "id": 15,
+   "section": 2,
+   "voice": "chatterbox",
+   "start": 88.03,
+   "end": 94.087,
+   "text": "And it's meant to be employees only. Picture an office building where every door has a badge reader, and only staff badges work."
+  },
+  {
+   "id": 16,
+   "section": 2,
+   "voice": "chatterbox",
+   "start": 94.437,
+   "end": 98.883,
+   "text": "Faav didn't have a badge. But he had a hunch that the doors weren't checking badges properly."
+  },
+  {
+   "id": 17,
+   "section": 2,
+   "voice": "chatterbox",
+   "start": 99.233,
+   "end": 101.176,
+   "text": "The only problem? Proving it."
+  },
+  {
+   "id": 18,
+   "section": 3,
+   "voice": "chatterbox",
+   "start": 101.626,
+   "end": 106.443,
+   "text": "For about ten days, everything he tried failed. Error. Error. Access denied."
+  },
+  {
+   "id": 19,
+   "section": 3,
+   "voice": "chatterbox",
+   "start": 106.793,
+   "end": 112.242,
+   "text": "Most people would have given up. He had school. He had homework. And Microsoft is not exactly a small target."
+  },
+  {
+   "id": 20,
+   "section": 3,
+   "voice": "chatterbox",
+   "start": 112.592,
+   "end": 117.184,
+   "text": "Then, on Friday, September fourth, after finishing his schoolwork, he sat down and tried again."
+  },
+  {
+   "id": 21,
+   "section": 3,
+   "voice": "chatterbox",
+   "start": 117.534,
+   "end": 120.473,
+   "text": "And sometime after one in the morning on Saturday, it worked."
+  },
+  {
+   "id": 22,
+   "section": 3,
+   "voice": "chatterbox",
+   "start": 120.823,
+   "end": 125.891,
+   "text": "The system accepted him as an administrator. He could run his own database commands, as Titan's admin."
+  },
+  {
+   "id": 23,
+   "section": 3,
+   "voice": "chatterbox",
+   "start": 126.241,
+   "end": 136.113,
+   "text": "And admin is not just any account. It's the master key. The account that can see everything, change settings, and run the show. His first command worked. Then another. Then he started counting."
+  },
+  {
+   "id": 24,
+   "section": 3,
+   "voice": "chatterbox",
+   "start": 136.463,
+   "end": 143.02,
+   "text": "So what was the mistake? According to Faav, Titan looked at what the digital ID said, but it never checked whether the ID was real."
+  },
+  {
+   "id": 25,
+   "section": 3,
+   "voice": "chatterbox",
+   "start": 143.37,
+   "end": 149.748,
+   "text": "He described it perfectly. It felt like a hotel where every door had a working keycard reader, but any keycard unlocked any room."
+  },
+  {
+   "id": 26,
+   "section": 4,
+   "voice": "chatterbox",
+   "start": 150.198,
+   "end": 151.948,
+   "text": "So what was behind those doors?"
+  },
+  {
+   "id": 27,
+   "section": 4,
+   "voice": "chatterbox",
+   "start": 152.298,
+   "end": 159.043,
+   "text": "According to Faav's write-up, as reported by The Register, the platform's own records listed about twenty five thousand account and email entries."
+  },
+  {
+   "id": 28,
+   "section": 4,
+   "voice": "chatterbox",
+   "start": 159.393,
+   "end": 165.735,
+   "text": "Almost eighteen thousand employee email records. Job titles. Departments. Even who reports to whom."
+  },
+  {
+   "id": 29,
+   "section": 4,
+   "voice": "chatterbox",
+   "start": 166.085,
+   "end": 172.016,
+   "text": "Faav pointed out that kind of information could be useful to scammers who trick employees. But he also said he never tested that."
+  },
+  {
+   "id": 30,
+   "section": 4,
+   "voice": "chatterbox",
+   "start": 172.366,
+   "end": 176.548,
+   "text": "There were more than twenty four thousand dashboards. More than four hundred thousand charts."
+  },
+  {
+   "id": 31,
+   "section": 4,
+   "voice": "chatterbox",
+   "start": 176.898,
+   "end": 186.022,
+   "text": "He even saw two tiny samples of Bing data, with search and location fields. But he said the locations were not precise. Not your exact address, just rough areas."
+  },
+  {
+   "id": 32,
+   "section": 4,
+   "voice": "chatterbox",
+   "start": 186.372,
+   "end": 194.61,
+   "text": "And then, the number that kept him awake. Titan was connected to seventeen analytics databases. Adding up their sizes gave him about seventeen point three trillion rows."
+  },
+  {
+   "id": 33,
+   "section": 4,
+   "voice": "chatterbox",
+   "start": 194.96,
+   "end": 203.973,
+   "text": "Now, to be fair, that number is an estimate from the system's own records. It likely includes old and duplicated data. And Faav didn't open or take those rows."
+  },
+  {
+   "id": 34,
+   "section": 4,
+   "voice": "chatterbox",
+   "start": 204.323,
+   "end": 211.159,
+   "text": "But think about what that number means. A sixteen-year-old, from his bedroom, was standing at the door to one of the biggest data systems on the planet."
+  },
+  {
+   "id": 35,
+   "section": 5,
+   "voice": "chatterbox",
+   "start": 211.609,
+   "end": 213.429,
+   "text": "So what did he do with that power?"
+  },
+  {
+   "id": 36,
+   "section": 5,
+   "voice": "chatterbox",
+   "start": 213.779,
+   "end": 216.636,
+   "text": "He reported it. That's the whole point of a bug bounty."
+  },
+  {
+   "id": 37,
+   "section": 5,
+   "voice": "chatterbox",
+   "start": 216.986,
+   "end": 224.368,
+   "text": "And Microsoft moved fast. They asked him to stop testing. They even asked for his IP address, to confirm nothing bad had happened beyond his research."
+  },
+  {
+   "id": 38,
+   "section": 5,
+   "voice": "chatterbox",
+   "start": 224.718,
+   "end": 231.249,
+   "text": "That might sound scary, but it's normal. A company has to be sure that the activity it saw came from the researcher, and nobody else."
+  },
+  {
+   "id": 39,
+   "section": 5,
+   "voice": "chatterbox",
+   "start": 231.599,
+   "end": 237.735,
+   "text": "Within about a day, the doorway was locked down. Microsoft told him his report prompted an immediate investigation."
+  },
+  {
+   "id": 40,
+   "section": 5,
+   "voice": "chatterbox",
+   "start": 238.085,
+   "end": 244.547,
+   "text": "And quick favour. If you like stories where one person takes on a giant, hit subscribe. A sixteen-year-old would appreciate it, and so would I."
+  },
+  {
+   "id": 41,
+   "section": 6,
+   "voice": "chatterbox",
+   "start": 244.997,
+   "end": 248.579,
+   "text": "On September seventeenth, the reward arrived. Five thousand dollars."
+  },
+  {
+   "id": 42,
+   "section": 6,
+   "voice": "chatterbox",
+   "start": 248.929,
+   "end": 257.169,
+   "text": "For a sixteen-year-old, that's a lot of money. But look at what he found. Admin access to an internal Microsoft platform, sitting on top of trillions of rows."
+  },
+  {
+   "id": 43,
+   "section": 6,
+   "voice": "chatterbox",
+   "start": 257.519,
+   "end": 261.471,
+   "text": "One writer covering the story put it bluntly. They better have paid this kid a proper bounty."
+  },
+  {
+   "id": 44,
+   "section": 6,
+   "voice": "chatterbox",
+   "start": 261.821,
+   "end": 280.206,
+   "text": "But there is another side. Bug bounty programs usually pay from a fixed table. The price depends on the type of bug and on what was actually exposed, not on the biggest possible number. And Microsoft's own programs advertise much bigger rewards for the most serious bugs. So in their eyes, this one may simply not have reached that level."
+  },
+  {
+   "id": 45,
+   "section": 6,
+   "voice": "chatterbox",
+   "start": 280.556,
+   "end": 283.009,
+   "text": "And then there's the part that made people raise their eyebrows."
+  },
+  {
+   "id": 46,
+   "section": 6,
+   "voice": "chatterbox",
+   "start": 283.359,
+   "end": 292.101,
+   "text": "Before his blog post went public, Faav says he rewrote it at Microsoft's request. Sections were cut. Numbers were removed. And the way he described the impact was changed."
+  },
+  {
+   "id": 47,
+   "section": 6,
+   "voice": "chatterbox",
+   "start": 292.451,
+   "end": 298.973,
+   "text": "Microsoft's official statement thanked him. They said his report helped them better protect their customers, and that they look forward to working with Faav in the future."
+  },
+  {
+   "id": 48,
+   "section": 6,
+   "voice": "chatterbox",
+   "start": 299.323,
+   "end": 309.672,
+   "text": "So on one side, a company that fixed the problem fast and paid the researcher. On the other, a teenager who found a door into trillions of rows, got five thousand dollars, and had his story trimmed."
+  },
+  {
+   "id": 49,
+   "section": 7,
+   "voice": "chatterbox",
+   "start": 310.122,
+   "end": 320.885,
+   "text": "And this isn't the first time a teenager beat a giant. In twenty nineteen, a fourteen-year-old in Arizona, Grant Thompson, found a FaceTime bug that let a caller hear the other person before they even picked up."
+  },
+  {
+   "id": 50,
+   "section": 7,
+   "voice": "chatterbox",
+   "start": 321.235,
+   "end": 327.861,
+   "text": "His mom spent days trying to get Apple's attention. Apple fixed it, thanked the family, and said it would help pay for his education."
+  },
+  {
+   "id": 51,
+   "section": 7,
+   "voice": "chatterbox",
+   "start": 328.211,
+   "end": 329.829,
+   "text": "So what's the lesson here?"
+  },
+  {
+   "id": 52,
+   "section": 7,
+   "voice": "chatterbox",
+   "start": 330.179,
+   "end": 337.766,
+   "text": "First, AI tools have changed who can find these holes. A teenager with a home-made assistant found something a trillion-dollar company missed."
+  },
+  {
+   "id": 53,
+   "section": 7,
+   "voice": "chatterbox",
+   "start": 338.116,
+   "end": 342.363,
+   "text": "And that cuts both ways. If a kid can do it for a bounty, someone else could do it for a ransom."
+  },
+  {
+   "id": 54,
+   "section": 7,
+   "voice": "chatterbox",
+   "start": 342.713,
+   "end": 349.236,
+   "text": "That's why security teams are now pointing AI at their own systems too. Whoever finds the hole first, wins."
+  },
+  {
+   "id": 55,
+   "section": 7,
+   "voice": "chatterbox",
+   "start": 349.586,
+   "end": 358.853,
+   "text": "Second, if this kind of thing excites you, do it the way Faav did. Through official bug bounty programs, with permission. Testing a system without permission is a crime, even if you mean well."
+  },
+  {
+   "id": 56,
+   "section": 7,
+   "voice": "chatterbox",
+   "start": 359.203,
+   "end": 364.947,
+   "text": "And Faav's own advice to every developer was simple. Always check that the ID is real, before anything else."
+  },
+  {
+   "id": 57,
+   "section": 7,
+   "voice": "chatterbox",
+   "start": 365.297,
+   "end": 371.741,
+   "text": "So here's my question. Was five thousand dollars fair for what he found? Or should Microsoft have paid him a lot more? Tell me in the comments."
+  },
+  {
+   "id": 58,
+   "section": 7,
+   "voice": "chatterbox",
+   "start": 372.091,
+   "end": 377.827,
+   "text": "And subscribe, because next time, there's another story of one person who found a crack in something huge."
+  },
+  {
+   "id": 59,
+   "section": 7,
+   "voice": "chatterbox",
+   "start": 378.177,
+   "end": 383.983,
+   "text": "At two in the morning, he couldn't scream. So he checked the math again. And this time, the whole internet checked it with him."
+  }
+ ],
+ "hooks": [],
+ "words": [
+  {
+   "c": 0,
+   "i": 0,
+   "w": "It's",
+   "s": 0.6,
+   "e": 0.8
+  },
+  {
+   "c": 0,
+   "i": 1,
+   "w": "two",
+   "s": 0.8,
+   "e": 0.92
+  },
+  {
+   "c": 0,
+   "i": 2,
+   "w": "in",
+   "s": 0.92,
+   "e": 1.02
+  },
+  {
+   "c": 0,
+   "i": 3,
+   "w": "the",
+   "s": 1.02,
+   "e": 1.08
+  },
+  {
+   "c": 0,
+   "i": 4,
+   "w": "morning.",
+   "s": 1.08,
+   "e": 1.34
+  },
+  {
+   "c": 0,
+   "i": 5,
+   "w": "A",
+   "s": 1.94,
+   "e": 1.98
+  },
+  {
+   "c": 0,
+   "i": 6,
+   "w": "sixteen-year-old",
+   "s": 1.98,
+   "e": 2.68
+  },
+  {
+   "c": 0,
+   "i": 7,
+   "w": "is",
+   "s": 2.68,
+   "e": 2.78
+  },
+  {
+   "c": 0,
+   "i": 8,
+   "w": "sitting",
+   "s": 2.78,
+   "e": 2.98
+  },
+  {
+   "c": 0,
+   "i": 9,
+   "w": "in",
+   "s": 2.98,
+   "e": 3.12
+  },
+  {
+   "c": 0,
+   "i": 10,
+   "w": "his",
+   "s": 3.12,
+   "e": 3.2
+  },
+  {
+   "c": 0,
+   "i": 11,
+   "w": "room,",
+   "s": 3.2,
+   "e": 3.46
+  },
+  {
+   "c": 0,
+   "i": 12,
+   "w": "staring",
+   "s": 3.7,
+   "e": 3.82
+  },
+  {
+   "c": 0,
+   "i": 13,
+   "w": "at",
+   "s": 3.82,
+   "e": 4.06
+  },
+  {
+   "c": 0,
+   "i": 14,
+   "w": "a",
+   "s": 4.06,
+   "e": 4.12
+  },
+  {
+   "c": 0,
+   "i": 15,
+   "w": "number",
+   "s": 4.12,
+   "e": 4.34
+  },
+  {
+   "c": 0,
+   "i": 16,
+   "w": "on",
+   "s": 4.34,
+   "e": 4.5
+  },
+  {
+   "c": 0,
+   "i": 17,
+   "w": "his",
+   "s": 4.5,
+   "e": 4.62
+  },
+  {
+   "c": 0,
+   "i": 18,
+   "w": "screen.",
+   "s": 4.62,
+   "e": 4.92
+  },
+  {
+   "c": 1,
+   "i": 0,
+   "w": "Seventeen",
+   "s": 5.519,
+   "e": 5.979
+  },
+  {
+   "c": 1,
+   "i": 1,
+   "w": "trillion,",
+   "s": 5.979,
+   "e": 6.279
+  },
+  {
+   "c": 1,
+   "i": 2,
+   "w": "three",
+   "s": 6.859,
+   "e": 6.999
+  },
+  {
+   "c": 1,
+   "i": 3,
+   "w": "hundred",
+   "s": 6.999,
+   "e": 7.279
+  },
+  {
+   "c": 1,
+   "i": 4,
+   "w": "and",
+   "s": 7.279,
+   "e": 7.479
+  },
+  {
+   "c": 1,
+   "i": 5,
+   "w": "thirty",
+   "s": 7.479,
+   "e": 7.659
+  },
+  {
+   "c": 1,
+   "i": 6,
+   "w": "three",
+   "s": 7.659,
+   "e": 7.939
+  },
+  {
+   "c": 1,
+   "i": 7,
+   "w": "billion",
+   "s": 7.939,
+   "e": 8.319
+  },
+  {
+   "c": 1,
+   "i": 8,
+   "w": "rows",
+   "s": 8.319,
+   "e": 8.619
+  },
+  {
+   "c": 1,
+   "i": 9,
+   "w": "of",
+   "s": 8.619,
+   "e": 8.839
+  },
+  {
+   "c": 1,
+   "i": 10,
+   "w": "data.",
+   "s": 8.839,
+   "e": 9.099
+  },
+  {
+   "c": 1,
+   "i": 11,
+   "w": "Inside",
+   "s": 9.739,
+   "e": 9.959
+  },
+  {
+   "c": 1,
+   "i": 12,
+   "w": "Microsoft.",
+   "s": 9.959,
+   "e": 10.439
+  },
+  {
+   "c": 2,
+   "i": 0,
+   "w": "He",
+   "s": 11.38,
+   "e": 11.56
+  },
+  {
+   "c": 2,
+   "i": 1,
+   "w": "wants",
+   "s": 11.56,
+   "e": 11.72
+  },
+  {
+   "c": 2,
+   "i": 2,
+   "w": "to",
+   "s": 11.72,
+   "e": 11.92
+  },
+  {
+   "c": 2,
+   "i": 3,
+   "w": "scream.",
+   "s": 11.92,
+   "e": 12.2
+  },
+  {
+   "c": 2,
+   "i": 4,
+   "w": "But",
+   "s": 12.7,
+   "e": 12.82
+  },
+  {
+   "c": 2,
+   "i": 5,
+   "w": "his",
+   "s": 12.82,
+   "e": 13
+  },
+  {
+   "c": 2,
+   "i": 6,
+   "w": "parents",
+   "s": 13,
+   "e": 13.26
+  },
+  {
+   "c": 2,
+   "i": 7,
+   "w": "are",
+   "s": 13.26,
+   "e": 13.46
+  },
+  {
+   "c": 2,
+   "i": 8,
+   "w": "asleep.",
+   "s": 13.46,
+   "e": 13.74
+  },
+  {
+   "c": 2,
+   "i": 9,
+   "w": "So",
+   "s": 14.06,
+   "e": 14.14
+  },
+  {
+   "c": 2,
+   "i": 10,
+   "w": "he",
+   "s": 14.14,
+   "e": 14.24
+  },
+  {
+   "c": 2,
+   "i": 11,
+   "w": "just",
+   "s": 14.24,
+   "e": 14.4
+  },
+  {
+   "c": 2,
+   "i": 12,
+   "w": "sits",
+   "s": 14.4,
+   "e": 14.6
+  },
+  {
+   "c": 2,
+   "i": 13,
+   "w": "there,",
+   "s": 14.6,
+   "e": 14.88
+  },
+  {
+   "c": 2,
+   "i": 14,
+   "w": "and",
+   "s": 14.88,
+   "e": 15.16
+  },
+  {
+   "c": 2,
+   "i": 15,
+   "w": "checks",
+   "s": 15.16,
+   "e": 15.32
+  },
+  {
+   "c": 2,
+   "i": 16,
+   "w": "the",
+   "s": 15.32,
+   "e": 15.52
+  },
+  {
+   "c": 2,
+   "i": 17,
+   "w": "math",
+   "s": 15.52,
+   "e": 15.66
+  },
+  {
+   "c": 2,
+   "i": 18,
+   "w": "again.",
+   "s": 15.66,
+   "e": 15.96
+  },
+  {
+   "c": 3,
+   "i": 0,
+   "w": "A",
+   "s": 16.621,
+   "e": 16.761
+  },
+  {
+   "c": 3,
+   "i": 1,
+   "w": "few",
+   "s": 16.761,
+   "e": 16.921
+  },
+  {
+   "c": 3,
+   "i": 2,
+   "w": "hours",
+   "s": 16.921,
+   "e": 17.121
+  },
+  {
+   "c": 3,
+   "i": 3,
+   "w": "earlier,",
+   "s": 17.121,
+   "e": 17.501
+  },
+  {
+   "c": 3,
+   "i": 4,
+   "w": "he",
+   "s": 17.881,
+   "e": 17.921
+  },
+  {
+   "c": 3,
+   "i": 5,
+   "w": "was",
+   "s": 17.921,
+   "e": 18.001
+  },
+  {
+   "c": 3,
+   "i": 6,
+   "w": "doing",
+   "s": 18.001,
+   "e": 18.161
+  },
+  {
+   "c": 3,
+   "i": 7,
+   "w": "his",
+   "s": 18.161,
+   "e": 18.361
+  },
+  {
+   "c": 3,
+   "i": 8,
+   "w": "Friday",
+   "s": 18.361,
+   "e": 18.541
+  },
+  {
+   "c": 3,
+   "i": 9,
+   "w": "schoolwork.",
+   "s": 18.541,
+   "e": 19.141
+  },
+  {
+   "c": 3,
+   "i": 10,
+   "w": "Now",
+   "s": 19.521,
+   "e": 19.621
+  },
+  {
+   "c": 3,
+   "i": 11,
+   "w": "he",
+   "s": 19.621,
+   "e": 19.801
+  },
+  {
+   "c": 3,
+   "i": 12,
+   "w": "has",
+   "s": 19.801,
+   "e": 19.921
+  },
+  {
+   "c": 3,
+   "i": 13,
+   "w": "admin",
+   "s": 19.921,
+   "e": 20.261
+  },
+  {
+   "c": 3,
+   "i": 14,
+   "w": "access",
+   "s": 20.261,
+   "e": 20.521
+  },
+  {
+   "c": 3,
+   "i": 15,
+   "w": "to",
+   "s": 20.521,
+   "e": 20.781
+  },
+  {
+   "c": 3,
+   "i": 16,
+   "w": "a",
+   "s": 20.781,
+   "e": 20.841
+  },
+  {
+   "c": 3,
+   "i": 17,
+   "w": "system",
+   "s": 20.841,
+   "e": 21.041
+  },
+  {
+   "c": 3,
+   "i": 18,
+   "w": "only",
+   "s": 21.041,
+   "e": 21.401
+  },
+  {
+   "c": 3,
+   "i": 19,
+   "w": "Microsoft",
+   "s": 21.401,
+   "e": 21.661
+  },
+  {
+   "c": 3,
+   "i": 20,
+   "w": "employees",
+   "s": 21.661,
+   "e": 22.161
+  },
+  {
+   "c": 3,
+   "i": 21,
+   "w": "are",
+   "s": 22.161,
+   "e": 22.381
+  },
+  {
+   "c": 3,
+   "i": 22,
+   "w": "supposed",
+   "s": 22.381,
+   "e": 22.521
+  },
+  {
+   "c": 3,
+   "i": 23,
+   "w": "to",
+   "s": 22.521,
+   "e": 22.821
+  },
+  {
+   "c": 3,
+   "i": 24,
+   "w": "see.",
+   "s": 22.821,
+   "e": 23.001
+  },
+  {
+   "c": 4,
+   "i": 0,
+   "w": "And",
+   "s": 23.785,
+   "e": 24.065
+  },
+  {
+   "c": 4,
+   "i": 1,
+   "w": "a",
+   "s": 24.065,
+   "e": 24.245
+  },
+  {
+   "c": 4,
+   "i": 2,
+   "w": "few",
+   "s": 24.245,
+   "e": 24.365
+  },
+  {
+   "c": 4,
+   "i": 3,
+   "w": "weeks",
+   "s": 24.365,
+   "e": 24.545
+  },
+  {
+   "c": 4,
+   "i": 4,
+   "w": "later,",
+   "s": 24.545,
+   "e": 24.785
+  },
+  {
+   "c": 4,
+   "i": 5,
+   "w": "Microsoft",
+   "s": 24.985,
+   "e": 25.165
+  },
+  {
+   "c": 4,
+   "i": 6,
+   "w": "paid",
+   "s": 25.165,
+   "e": 25.465
+  },
+  {
+   "c": 4,
+   "i": 7,
+   "w": "him",
+   "s": 25.465,
+   "e": 25.585
+  },
+  {
+   "c": 4,
+   "i": 8,
+   "w": "five",
+   "s": 25.585,
+   "e": 25.725
+  },
+  {
+   "c": 4,
+   "i": 9,
+   "w": "thousand",
+   "s": 25.725,
+   "e": 25.965
+  },
+  {
+   "c": 4,
+   "i": 10,
+   "w": "dollars",
+   "s": 25.965,
+   "e": 26.245
+  },
+  {
+   "c": 4,
+   "i": 11,
+   "w": "for",
+   "s": 26.245,
+   "e": 26.445
+  },
+  {
+   "c": 4,
+   "i": 12,
+   "w": "it.",
+   "s": 26.445,
+   "e": 26.605
+  },
+  {
+   "c": 4,
+   "i": 13,
+   "w": "Was",
+   "s": 26.865,
+   "e": 26.945
+  },
+  {
+   "c": 4,
+   "i": 14,
+   "w": "that",
+   "s": 26.945,
+   "e": 27.065
+  },
+  {
+   "c": 4,
+   "i": 15,
+   "w": "fair?",
+   "s": 27.065,
+   "e": 27.245
+  },
+  {
+   "c": 4,
+   "i": 16,
+   "w": "Stay",
+   "s": 27.605,
+   "e": 27.745
+  },
+  {
+   "c": 4,
+   "i": 17,
+   "w": "till",
+   "s": 27.745,
+   "e": 27.885
+  },
+  {
+   "c": 4,
+   "i": 18,
+   "w": "the",
+   "s": 27.885,
+   "e": 28.005
+  },
+  {
+   "c": 4,
+   "i": 19,
+   "w": "end,",
+   "s": 28.005,
+   "e": 28.145
+  },
+  {
+   "c": 4,
+   "i": 20,
+   "w": "and",
+   "s": 28.265,
+   "e": 28.345
+  },
+  {
+   "c": 4,
+   "i": 21,
+   "w": "you",
+   "s": 28.345,
+   "e": 28.445
+  },
+  {
+   "c": 4,
+   "i": 22,
+   "w": "decide.",
+   "s": 28.445,
+   "e": 28.645
+  },
+  {
+   "c": 5,
+   "i": 0,
+   "w": "I'm",
+   "s": 29.321,
+   "e": 29.581
+  },
+  {
+   "c": 5,
+   "i": 1,
+   "w": "Vio.",
+   "s": 29.581,
+   "e": 29.801
+  },
+  {
+   "c": 5,
+   "i": 2,
+   "w": "And",
+   "s": 30.381,
+   "e": 30.381
+  },
+  {
+   "c": 5,
+   "i": 3,
+   "w": "at",
+   "s": 30.381,
+   "e": 30.541
+  },
+  {
+   "c": 5,
+   "i": 4,
+   "w": "sixteen,",
+   "s": 30.541,
+   "e": 30.841
+  },
+  {
+   "c": 5,
+   "i": 5,
+   "w": "I",
+   "s": 31.241,
+   "e": 31.281
+  },
+  {
+   "c": 5,
+   "i": 6,
+   "w": "was",
+   "s": 31.281,
+   "e": 31.361
+  },
+  {
+   "c": 5,
+   "i": 7,
+   "w": "struggling",
+   "s": 31.361,
+   "e": 31.701
+  },
+  {
+   "c": 5,
+   "i": 8,
+   "w": "to",
+   "s": 31.701,
+   "e": 31.921
+  },
+  {
+   "c": 5,
+   "i": 9,
+   "w": "remember",
+   "s": 31.921,
+   "e": 32.161
+  },
+  {
+   "c": 5,
+   "i": 10,
+   "w": "my",
+   "s": 32.161,
+   "e": 32.481
+  },
+  {
+   "c": 5,
+   "i": 11,
+   "w": "own",
+   "s": 32.481,
+   "e": 32.761
+  },
+  {
+   "c": 5,
+   "i": 12,
+   "w": "Wi-Fi",
+   "s": 32.761,
+   "e": 33.081
+  },
+  {
+   "c": 5,
+   "i": 13,
+   "w": "password.",
+   "s": 33.081,
+   "e": 33.521
+  },
+  {
+   "c": 5,
+   "i": 14,
+   "w": "So",
+   "s": 34.141,
+   "e": 34.241
+  },
+  {
+   "c": 5,
+   "i": 15,
+   "w": "this",
+   "s": 34.241,
+   "e": 34.501
+  },
+  {
+   "c": 5,
+   "i": 16,
+   "w": "is",
+   "s": 34.501,
+   "e": 34.641
+  },
+  {
+   "c": 5,
+   "i": 17,
+   "w": "the",
+   "s": 34.641,
+   "e": 34.761
+  },
+  {
+   "c": 5,
+   "i": 18,
+   "w": "story",
+   "s": 34.761,
+   "e": 35.041
+  },
+  {
+   "c": 5,
+   "i": 19,
+   "w": "of",
+   "s": 35.041,
+   "e": 35.301
+  },
+  {
+   "c": 5,
+   "i": 20,
+   "w": "the",
+   "s": 35.301,
+   "e": 35.421
+  },
+  {
+   "c": 5,
+   "i": 21,
+   "w": "kid",
+   "s": 35.421,
+   "e": 35.621
+  },
+  {
+   "c": 5,
+   "i": 22,
+   "w": "who",
+   "s": 35.621,
+   "e": 35.821
+  },
+  {
+   "c": 5,
+   "i": 23,
+   "w": "walked",
+   "s": 35.821,
+   "e": 36.041
+  },
+  {
+   "c": 5,
+   "i": 24,
+   "w": "into",
+   "s": 36.041,
+   "e": 36.361
+  },
+  {
+   "c": 5,
+   "i": 25,
+   "w": "Microsoft",
+   "s": 36.361,
+   "e": 36.701
+  },
+  {
+   "c": 5,
+   "i": 26,
+   "w": "through",
+   "s": 36.701,
+   "e": 37.161
+  },
+  {
+   "c": 5,
+   "i": 27,
+   "w": "the",
+   "s": 37.161,
+   "e": 37.281
+  },
+  {
+   "c": 5,
+   "i": 28,
+   "w": "front",
+   "s": 37.281,
+   "e": 37.421
+  },
+  {
+   "c": 5,
+   "i": 29,
+   "w": "door.",
+   "s": 37.421,
+   "e": 37.701
+  },
+  {
+   "c": 6,
+   "i": 0,
+   "w": "Online,",
+   "s": 38.438,
+   "e": 38.798
+  },
+  {
+   "c": 6,
+   "i": 1,
+   "w": "he",
+   "s": 39.098,
+   "e": 39.158
+  },
+  {
+   "c": 6,
+   "i": 2,
+   "w": "goes",
+   "s": 39.158,
+   "e": 39.278
+  },
+  {
+   "c": 6,
+   "i": 3,
+   "w": "by",
+   "s": 39.278,
+   "e": 39.458
+  },
+  {
+   "c": 6,
+   "i": 4,
+   "w": "Faav.",
+   "s": 39.458,
+   "e": 39.778
+  },
+  {
+   "c": 6,
+   "i": 5,
+   "w": "Sixteen",
+   "s": 40.138,
+   "e": 40.478
+  },
+  {
+   "c": 6,
+   "i": 6,
+   "w": "years",
+   "s": 40.478,
+   "e": 40.618
+  },
+  {
+   "c": 6,
+   "i": 7,
+   "w": "old.",
+   "s": 40.618,
+   "e": 40.858
+  },
+  {
+   "c": 6,
+   "i": 8,
+   "w": "A",
+   "s": 41.298,
+   "e": 41.318
+  },
+  {
+   "c": 6,
+   "i": 9,
+   "w": "student.",
+   "s": 41.318,
+   "e": 41.538
+  },
+  {
+   "c": 6,
+   "i": 10,
+   "w": "And",
+   "s": 42.078,
+   "e": 42.118
+  },
+  {
+   "c": 6,
+   "i": 11,
+   "w": "a",
+   "s": 42.118,
+   "e": 42.438
+  },
+  {
+   "c": 6,
+   "i": 12,
+   "w": "bug",
+   "s": 42.438,
+   "e": 42.538
+  },
+  {
+   "c": 6,
+   "i": 13,
+   "w": "hunter.",
+   "s": 42.538,
+   "e": 42.738
+  },
+  {
+   "c": 7,
+   "i": 0,
+   "w": "His",
+   "s": 43.451,
+   "e": 43.631
+  },
+  {
+   "c": 7,
+   "i": 1,
+   "w": "parents",
+   "s": 43.631,
+   "e": 43.911
+  },
+  {
+   "c": 7,
+   "i": 2,
+   "w": "probably",
+   "s": 43.911,
+   "e": 44.231
+  },
+  {
+   "c": 7,
+   "i": 3,
+   "w": "thought",
+   "s": 44.231,
+   "e": 44.611
+  },
+  {
+   "c": 7,
+   "i": 4,
+   "w": "he",
+   "s": 44.611,
+   "e": 44.751
+  },
+  {
+   "c": 7,
+   "i": 5,
+   "w": "was",
+   "s": 44.751,
+   "e": 44.851
+  },
+  {
+   "c": 7,
+   "i": 6,
+   "w": "just",
+   "s": 44.851,
+   "e": 45.031
+  },
+  {
+   "c": 7,
+   "i": 7,
+   "w": "gaming",
+   "s": 45.031,
+   "e": 45.231
+  },
+  {
+   "c": 7,
+   "i": 8,
+   "w": "late",
+   "s": 45.231,
+   "e": 45.511
+  },
+  {
+   "c": 7,
+   "i": 9,
+   "w": "at",
+   "s": 45.511,
+   "e": 45.631
+  },
+  {
+   "c": 7,
+   "i": 10,
+   "w": "night.",
+   "s": 45.631,
+   "e": 45.811
+  },
+  {
+   "c": 7,
+   "i": 11,
+   "w": "He",
+   "s": 46.251,
+   "e": 46.331
+  },
+  {
+   "c": 7,
+   "i": 12,
+   "w": "was",
+   "s": 46.331,
+   "e": 46.431
+  },
+  {
+   "c": 7,
+   "i": 13,
+   "w": "not",
+   "s": 46.431,
+   "e": 46.611
+  },
+  {
+   "c": 7,
+   "i": 14,
+   "w": "gaming.",
+   "s": 46.611,
+   "e": 46.931
+  },
+  {
+   "c": 8,
+   "i": 0,
+   "w": "Here's",
+   "s": 47.572,
+   "e": 47.832
+  },
+  {
+   "c": 8,
+   "i": 1,
+   "w": "how",
+   "s": 47.832,
+   "e": 47.932
+  },
+  {
+   "c": 8,
+   "i": 2,
+   "w": "that",
+   "s": 47.932,
+   "e": 48.052
+  },
+  {
+   "c": 8,
+   "i": 3,
+   "w": "works.",
+   "s": 48.052,
+   "e": 48.332
+  },
+  {
+   "c": 8,
+   "i": 4,
+   "w": "Big",
+   "s": 48.832,
+   "e": 48.832
+  },
+  {
+   "c": 8,
+   "i": 5,
+   "w": "companies",
+   "s": 48.832,
+   "e": 49.112
+  },
+  {
+   "c": 8,
+   "i": 6,
+   "w": "like",
+   "s": 49.112,
+   "e": 49.452
+  },
+  {
+   "c": 8,
+   "i": 7,
+   "w": "Microsoft",
+   "s": 49.452,
+   "e": 49.812
+  },
+  {
+   "c": 8,
+   "i": 8,
+   "w": "pay",
+   "s": 49.812,
+   "e": 50.212
+  },
+  {
+   "c": 8,
+   "i": 9,
+   "w": "people",
+   "s": 50.212,
+   "e": 50.552
+  },
+  {
+   "c": 8,
+   "i": 10,
+   "w": "to",
+   "s": 50.552,
+   "e": 50.672
+  },
+  {
+   "c": 8,
+   "i": 11,
+   "w": "find",
+   "s": 50.672,
+   "e": 50.852
+  },
+  {
+   "c": 8,
+   "i": 12,
+   "w": "holes",
+   "s": 50.852,
+   "e": 51.052
+  },
+  {
+   "c": 8,
+   "i": 13,
+   "w": "in",
+   "s": 51.052,
+   "e": 51.212
+  },
+  {
+   "c": 8,
+   "i": 14,
+   "w": "their",
+   "s": 51.212,
+   "e": 51.312
+  },
+  {
+   "c": 8,
+   "i": 15,
+   "w": "systems,",
+   "s": 51.312,
+   "e": 51.592
+  },
+  {
+   "c": 8,
+   "i": 16,
+   "w": "before",
+   "s": 51.932,
+   "e": 52.112
+  },
+  {
+   "c": 8,
+   "i": 17,
+   "w": "criminals",
+   "s": 52.112,
+   "e": 52.392
+  },
+  {
+   "c": 8,
+   "i": 18,
+   "w": "do.",
+   "s": 52.392,
+   "e": 52.692
+  },
+  {
+   "c": 8,
+   "i": 19,
+   "w": "It's",
+   "s": 53.172,
+   "e": 53.352
+  },
+  {
+   "c": 8,
+   "i": 20,
+   "w": "called",
+   "s": 53.352,
+   "e": 53.492
+  },
+  {
+   "c": 8,
+   "i": 21,
+   "w": "a",
+   "s": 53.492,
+   "e": 53.592
+  },
+  {
+   "c": 8,
+   "i": 22,
+   "w": "bug",
+   "s": 53.592,
+   "e": 53.712
+  },
+  {
+   "c": 8,
+   "i": 23,
+   "w": "bounty.",
+   "s": 53.712,
+   "e": 53.932
+  },
+  {
+   "c": 8,
+   "i": 24,
+   "w": "You",
+   "s": 54.392,
+   "e": 54.412
+  },
+  {
+   "c": 8,
+   "i": 25,
+   "w": "find",
+   "s": 54.412,
+   "e": 54.572
+  },
+  {
+   "c": 8,
+   "i": 26,
+   "w": "the",
+   "s": 54.572,
+   "e": 54.672
+  },
+  {
+   "c": 8,
+   "i": 27,
+   "w": "problem,",
+   "s": 54.672,
+   "e": 54.892
+  },
+  {
+   "c": 8,
+   "i": 28,
+   "w": "you",
+   "s": 55.272,
+   "e": 55.332
+  },
+  {
+   "c": 8,
+   "i": 29,
+   "w": "report",
+   "s": 55.332,
+   "e": 55.492
+  },
+  {
+   "c": 8,
+   "i": 30,
+   "w": "it,",
+   "s": 55.492,
+   "e": 55.752
+  },
+  {
+   "c": 8,
+   "i": 31,
+   "w": "you",
+   "s": 55.892,
+   "e": 55.932
+  },
+  {
+   "c": 8,
+   "i": 32,
+   "w": "get",
+   "s": 55.932,
+   "e": 56.052
+  },
+  {
+   "c": 8,
+   "i": 33,
+   "w": "paid.",
+   "s": 56.052,
+   "e": 56.232
+  },
+  {
+   "c": 9,
+   "i": 0,
+   "w": "But",
+   "s": 56.834,
+   "e": 57.014
+  },
+  {
+   "c": 9,
+   "i": 1,
+   "w": "Faav",
+   "s": 57.014,
+   "e": 57.254
+  },
+  {
+   "c": 9,
+   "i": 2,
+   "w": "didn't",
+   "s": 57.254,
+   "e": 57.534
+  },
+  {
+   "c": 9,
+   "i": 3,
+   "w": "do",
+   "s": 57.534,
+   "e": 57.654
+  },
+  {
+   "c": 9,
+   "i": 4,
+   "w": "it",
+   "s": 57.654,
+   "e": 57.754
+  },
+  {
+   "c": 9,
+   "i": 5,
+   "w": "alone.",
+   "s": 57.754,
+   "e": 58.014
+  },
+  {
+   "c": 9,
+   "i": 6,
+   "w": "He",
+   "s": 58.414,
+   "e": 58.494
+  },
+  {
+   "c": 9,
+   "i": 7,
+   "w": "built",
+   "s": 58.494,
+   "e": 58.674
+  },
+  {
+   "c": 9,
+   "i": 8,
+   "w": "his",
+   "s": 58.674,
+   "e": 58.874
+  },
+  {
+   "c": 9,
+   "i": 9,
+   "w": "own",
+   "s": 58.874,
+   "e": 59.094
+  },
+  {
+   "c": 9,
+   "i": 10,
+   "w": "AI",
+   "s": 59.094,
+   "e": 59.354
+  },
+  {
+   "c": 9,
+   "i": 11,
+   "w": "hacking",
+   "s": 59.354,
+   "e": 59.794
+  },
+  {
+   "c": 9,
+   "i": 12,
+   "w": "assistant.",
+   "s": 59.794,
+   "e": 60.154
+  },
+  {
+   "c": 9,
+   "i": 13,
+   "w": "He",
+   "s": 60.534,
+   "e": 60.594
+  },
+  {
+   "c": 9,
+   "i": 14,
+   "w": "called",
+   "s": 60.594,
+   "e": 60.794
+  },
+  {
+   "c": 9,
+   "i": 15,
+   "w": "it",
+   "s": 60.794,
+   "e": 60.914
+  },
+  {
+   "c": 9,
+   "i": 16,
+   "w": "Antares.",
+   "s": 60.914,
+   "e": 61.354
+  },
+  {
+   "c": 10,
+   "i": 0,
+   "w": "Think",
+   "s": 62.117,
+   "e": 62.277
+  },
+  {
+   "c": 10,
+   "i": 1,
+   "w": "of",
+   "s": 62.277,
+   "e": 62.397
+  },
+  {
+   "c": 10,
+   "i": 2,
+   "w": "it",
+   "s": 62.397,
+   "e": 62.477
+  },
+  {
+   "c": 10,
+   "i": 3,
+   "w": "like",
+   "s": 62.477,
+   "e": 62.617
+  },
+  {
+   "c": 10,
+   "i": 4,
+   "w": "a",
+   "s": 62.617,
+   "e": 62.717
+  },
+  {
+   "c": 10,
+   "i": 5,
+   "w": "partner",
+   "s": 62.717,
+   "e": 62.937
+  },
+  {
+   "c": 10,
+   "i": 6,
+   "w": "that",
+   "s": 62.937,
+   "e": 63.117
+  },
+  {
+   "c": 10,
+   "i": 7,
+   "w": "never",
+   "s": 63.117,
+   "e": 63.277
+  },
+  {
+   "c": 10,
+   "i": 8,
+   "w": "sleeps.",
+   "s": 63.277,
+   "e": 63.517
+  },
+  {
+   "c": 10,
+   "i": 9,
+   "w": "It",
+   "s": 64.197,
+   "e": 64.237
+  },
+  {
+   "c": 10,
+   "i": 10,
+   "w": "pokes",
+   "s": 64.237,
+   "e": 64.417
+  },
+  {
+   "c": 10,
+   "i": 11,
+   "w": "at",
+   "s": 64.417,
+   "e": 64.957
+  },
+  {
+   "c": 10,
+   "i": 12,
+   "w": "websites,",
+   "s": 64.957,
+   "e": 64.957
+  },
+  {
+   "c": 10,
+   "i": 13,
+   "w": "reads",
+   "s": 65.237,
+   "e": 65.297
+  },
+  {
+   "c": 10,
+   "i": 14,
+   "w": "the",
+   "s": 65.297,
+   "e": 65.497
+  },
+  {
+   "c": 10,
+   "i": 15,
+   "w": "replies,",
+   "s": 65.497,
+   "e": 65.677
+  },
+  {
+   "c": 10,
+   "i": 16,
+   "w": "and",
+   "s": 66.097,
+   "e": 66.137
+  },
+  {
+   "c": 10,
+   "i": 17,
+   "w": "points",
+   "s": 66.137,
+   "e": 66.297
+  },
+  {
+   "c": 10,
+   "i": 18,
+   "w": "at",
+   "s": 66.297,
+   "e": 66.477
+  },
+  {
+   "c": 10,
+   "i": 19,
+   "w": "anything",
+   "s": 66.477,
+   "e": 66.677
+  },
+  {
+   "c": 10,
+   "i": 20,
+   "w": "that",
+   "s": 66.677,
+   "e": 66.937
+  },
+  {
+   "c": 10,
+   "i": 21,
+   "w": "looks",
+   "s": 66.937,
+   "e": 67.117
+  },
+  {
+   "c": 10,
+   "i": 22,
+   "w": "weird.",
+   "s": 67.117,
+   "e": 67.317
+  },
+  {
+   "c": 11,
+   "i": 0,
+   "w": "On",
+   "s": 67.927,
+   "e": 68.107
+  },
+  {
+   "c": 11,
+   "i": 1,
+   "w": "August",
+   "s": 68.107,
+   "e": 68.347
+  },
+  {
+   "c": 11,
+   "i": 2,
+   "w": "twenty",
+   "s": 68.347,
+   "e": 68.547
+  },
+  {
+   "c": 11,
+   "i": 3,
+   "w": "fifth,",
+   "s": 68.547,
+   "e": 68.827
+  },
+  {
+   "c": 11,
+   "i": 4,
+   "w": "Antares",
+   "s": 69.087,
+   "e": 69.307
+  },
+  {
+   "c": 11,
+   "i": 5,
+   "w": "pointed",
+   "s": 69.307,
+   "e": 69.667
+  },
+  {
+   "c": 11,
+   "i": 6,
+   "w": "at",
+   "s": 69.667,
+   "e": 69.867
+  },
+  {
+   "c": 11,
+   "i": 7,
+   "w": "something.",
+   "s": 69.867,
+   "e": 70.127
+  },
+  {
+   "c": 11,
+   "i": 8,
+   "w": "A",
+   "s": 70.567,
+   "e": 70.647
+  },
+  {
+   "c": 11,
+   "i": 9,
+   "w": "public",
+   "s": 70.647,
+   "e": 70.847
+  },
+  {
+   "c": 11,
+   "i": 10,
+   "w": "doorway",
+   "s": 70.847,
+   "e": 71.047
+  },
+  {
+   "c": 11,
+   "i": 11,
+   "w": "into",
+   "s": 71.047,
+   "e": 71.447
+  },
+  {
+   "c": 11,
+   "i": 12,
+   "w": "a",
+   "s": 71.447,
+   "e": 71.547
+  },
+  {
+   "c": 11,
+   "i": 13,
+   "w": "Microsoft",
+   "s": 71.547,
+   "e": 71.727
+  },
+  {
+   "c": 11,
+   "i": 14,
+   "w": "system",
+   "s": 71.727,
+   "e": 72.207
+  },
+  {
+   "c": 11,
+   "i": 15,
+   "w": "called",
+   "s": 72.207,
+   "e": 72.487
+  },
+  {
+   "c": 11,
+   "i": 16,
+   "w": "Titan.",
+   "s": 72.487,
+   "e": 72.667
+  },
+  {
+   "c": 12,
+   "i": 0,
+   "w": "Remember",
+   "s": 73.423,
+   "e": 73.703
+  },
+  {
+   "c": 12,
+   "i": 1,
+   "w": "that",
+   "s": 73.703,
+   "e": 73.943
+  },
+  {
+   "c": 12,
+   "i": 2,
+   "w": "number",
+   "s": 73.943,
+   "e": 74.203
+  },
+  {
+   "c": 12,
+   "i": 3,
+   "w": "from",
+   "s": 74.203,
+   "e": 74.423
+  },
+  {
+   "c": 12,
+   "i": 4,
+   "w": "the",
+   "s": 74.423,
+   "e": 74.543
+  },
+  {
+   "c": 12,
+   "i": 5,
+   "w": "start.",
+   "s": 74.543,
+   "e": 74.803
+  },
+  {
+   "c": 12,
+   "i": 6,
+   "w": "Five",
+   "s": 75.183,
+   "e": 75.383
+  },
+  {
+   "c": 12,
+   "i": 7,
+   "w": "thousand",
+   "s": 75.383,
+   "e": 75.683
+  },
+  {
+   "c": 12,
+   "i": 8,
+   "w": "dollars.",
+   "s": 75.683,
+   "e": 76.143
+  },
+  {
+   "c": 12,
+   "i": 9,
+   "w": "We're",
+   "s": 76.523,
+   "e": 76.563
+  },
+  {
+   "c": 12,
+   "i": 10,
+   "w": "coming",
+   "s": 76.563,
+   "e": 76.723
+  },
+  {
+   "c": 12,
+   "i": 11,
+   "w": "back",
+   "s": 76.723,
+   "e": 76.963
+  },
+  {
+   "c": 12,
+   "i": 12,
+   "w": "to",
+   "s": 76.963,
+   "e": 77.183
+  },
+  {
+   "c": 12,
+   "i": 13,
+   "w": "it.",
+   "s": 77.183,
+   "e": 77.403
+  },
+  {
+   "c": 13,
+   "i": 0,
+   "w": "Titan",
+   "s": 77.957,
+   "e": 78.197
+  },
+  {
+   "c": 13,
+   "i": 1,
+   "w": "is",
+   "s": 78.197,
+   "e": 78.537
+  },
+  {
+   "c": 13,
+   "i": 2,
+   "w": "an",
+   "s": 78.537,
+   "e": 78.637
+  },
+  {
+   "c": 13,
+   "i": 3,
+   "w": "internal",
+   "s": 78.637,
+   "e": 78.917
+  },
+  {
+   "c": 13,
+   "i": 4,
+   "w": "analytics",
+   "s": 78.917,
+   "e": 79.397
+  },
+  {
+   "c": 13,
+   "i": 5,
+   "w": "platform.",
+   "s": 79.397,
+   "e": 79.977
+  },
+  {
+   "c": 13,
+   "i": 6,
+   "w": "Basically,",
+   "s": 80.517,
+   "e": 80.797
+  },
+  {
+   "c": 13,
+   "i": 7,
+   "w": "the",
+   "s": 81.117,
+   "e": 81.197
+  },
+  {
+   "c": 13,
+   "i": 8,
+   "w": "place",
+   "s": 81.197,
+   "e": 81.377
+  },
+  {
+   "c": 13,
+   "i": 9,
+   "w": "where",
+   "s": 81.377,
+   "e": 81.577
+  },
+  {
+   "c": 13,
+   "i": 10,
+   "w": "Microsoft",
+   "s": 81.577,
+   "e": 81.857
+  },
+  {
+   "c": 13,
+   "i": 11,
+   "w": "teams",
+   "s": 81.857,
+   "e": 82.257
+  },
+  {
+   "c": 13,
+   "i": 12,
+   "w": "look",
+   "s": 82.257,
+   "e": 82.517
+  },
+  {
+   "c": 13,
+   "i": 13,
+   "w": "at",
+   "s": 82.517,
+   "e": 82.617
+  },
+  {
+   "c": 13,
+   "i": 14,
+   "w": "their",
+   "s": 82.617,
+   "e": 82.737
+  },
+  {
+   "c": 13,
+   "i": 15,
+   "w": "data.",
+   "s": 82.737,
+   "e": 82.997
+  },
+  {
+   "c": 14,
+   "i": 0,
+   "w": "Dashboards,",
+   "s": 83.574,
+   "e": 84.074
+  },
+  {
+   "c": 14,
+   "i": 1,
+   "w": "charts,",
+   "s": 84.434,
+   "e": 84.574
+  },
+  {
+   "c": 14,
+   "i": 2,
+   "w": "and",
+   "s": 84.994,
+   "e": 85.034
+  },
+  {
+   "c": 14,
+   "i": 3,
+   "w": "the",
+   "s": 85.034,
+   "e": 85.134
+  },
+  {
+   "c": 14,
+   "i": 4,
+   "w": "connections",
+   "s": 85.134,
+   "e": 85.354
+  },
+  {
+   "c": 14,
+   "i": 5,
+   "w": "to",
+   "s": 85.354,
+   "e": 85.734
+  },
+  {
+   "c": 14,
+   "i": 6,
+   "w": "some",
+   "s": 85.734,
+   "e": 85.874
+  },
+  {
+   "c": 14,
+   "i": 7,
+   "w": "very,",
+   "s": 85.874,
+   "e": 86.214
+  },
+  {
+   "c": 14,
+   "i": 8,
+   "w": "very",
+   "s": 86.354,
+   "e": 86.514
+  },
+  {
+   "c": 14,
+   "i": 9,
+   "w": "big",
+   "s": 86.514,
+   "e": 86.834
+  },
+  {
+   "c": 14,
+   "i": 10,
+   "w": "databases.",
+   "s": 86.834,
+   "e": 87.194
+  },
+  {
+   "c": 15,
+   "i": 0,
+   "w": "And",
+   "s": 88.03,
+   "e": 88.293
+  },
+  {
+   "c": 15,
+   "i": 1,
+   "w": "it's",
+   "s": 87.98,
+   "e": 88.26
+  },
+  {
+   "c": 15,
+   "i": 2,
+   "w": "meant",
+   "s": 88.26,
+   "e": 88.42
+  },
+  {
+   "c": 15,
+   "i": 3,
+   "w": "to",
+   "s": 88.42,
+   "e": 88.54
+  },
+  {
+   "c": 15,
+   "i": 4,
+   "w": "be",
+   "s": 88.54,
+   "e": 88.66
+  },
+  {
+   "c": 15,
+   "i": 5,
+   "w": "employees",
+   "s": 88.66,
+   "e": 88.98
+  },
+  {
+   "c": 15,
+   "i": 6,
+   "w": "only.",
+   "s": 88.98,
+   "e": 89.36
+  },
+  {
+   "c": 15,
+   "i": 7,
+   "w": "Picture",
+   "s": 90.06,
+   "e": 90.26
+  },
+  {
+   "c": 15,
+   "i": 8,
+   "w": "an",
+   "s": 90.26,
+   "e": 90.42
+  },
+  {
+   "c": 15,
+   "i": 9,
+   "w": "office",
+   "s": 90.42,
+   "e": 90.66
+  },
+  {
+   "c": 15,
+   "i": 10,
+   "w": "building",
+   "s": 90.66,
+   "e": 90.96
+  },
+  {
+   "c": 15,
+   "i": 11,
+   "w": "where",
+   "s": 90.96,
+   "e": 91.2
+  },
+  {
+   "c": 15,
+   "i": 12,
+   "w": "every",
+   "s": 91.2,
+   "e": 91.36
+  },
+  {
+   "c": 15,
+   "i": 13,
+   "w": "door",
+   "s": 91.36,
+   "e": 91.66
+  },
+  {
+   "c": 15,
+   "i": 14,
+   "w": "has",
+   "s": 91.66,
+   "e": 91.86
+  },
+  {
+   "c": 15,
+   "i": 15,
+   "w": "a",
+   "s": 91.86,
+   "e": 91.96
+  },
+  {
+   "c": 15,
+   "i": 16,
+   "w": "badge",
+   "s": 91.96,
+   "e": 92.12
+  },
+  {
+   "c": 15,
+   "i": 17,
+   "w": "reader,",
+   "s": 92.12,
+   "e": 92.36
+  },
+  {
+   "c": 15,
+   "i": 18,
+   "w": "and",
+   "s": 92.72,
+   "e": 92.74
+  },
+  {
+   "c": 15,
+   "i": 19,
+   "w": "only",
+   "s": 92.74,
+   "e": 92.96
+  },
+  {
+   "c": 15,
+   "i": 20,
+   "w": "staff",
+   "s": 92.96,
+   "e": 93.22
+  },
+  {
+   "c": 15,
+   "i": 21,
+   "w": "badges",
+   "s": 93.22,
+   "e": 93.48
+  },
+  {
+   "c": 15,
+   "i": 22,
+   "w": "work.",
+   "s": 93.48,
+   "e": 93.8
+  },
+  {
+   "c": 16,
+   "i": 0,
+   "w": "Faav",
+   "s": 94.387,
+   "e": 94.787
+  },
+  {
+   "c": 16,
+   "i": 1,
+   "w": "didn't",
+   "s": 94.787,
+   "e": 95.067
+  },
+  {
+   "c": 16,
+   "i": 2,
+   "w": "have",
+   "s": 95.067,
+   "e": 95.167
+  },
+  {
+   "c": 16,
+   "i": 3,
+   "w": "a",
+   "s": 95.167,
+   "e": 95.247
+  },
+  {
+   "c": 16,
+   "i": 4,
+   "w": "badge.",
+   "s": 95.247,
+   "e": 95.487
+  },
+  {
+   "c": 16,
+   "i": 5,
+   "w": "But",
+   "s": 95.947,
+   "e": 96.067
+  },
+  {
+   "c": 16,
+   "i": 6,
+   "w": "he",
+   "s": 96.067,
+   "e": 96.267
+  },
+  {
+   "c": 16,
+   "i": 7,
+   "w": "had",
+   "s": 96.267,
+   "e": 96.387
+  },
+  {
+   "c": 16,
+   "i": 8,
+   "w": "a",
+   "s": 96.387,
+   "e": 96.467
+  },
+  {
+   "c": 16,
+   "i": 9,
+   "w": "hunch",
+   "s": 96.467,
+   "e": 96.747
+  },
+  {
+   "c": 16,
+   "i": 10,
+   "w": "that",
+   "s": 96.747,
+   "e": 96.907
+  },
+  {
+   "c": 16,
+   "i": 11,
+   "w": "the",
+   "s": 96.907,
+   "e": 97.007
+  },
+  {
+   "c": 16,
+   "i": 12,
+   "w": "doors",
+   "s": 97.007,
+   "e": 97.167
+  },
+  {
+   "c": 16,
+   "i": 13,
+   "w": "weren't",
+   "s": 97.167,
+   "e": 97.647
+  },
+  {
+   "c": 16,
+   "i": 14,
+   "w": "checking",
+   "s": 97.647,
+   "e": 97.807
+  },
+  {
+   "c": 16,
+   "i": 15,
+   "w": "badges",
+   "s": 97.807,
+   "e": 98.067
+  },
+  {
+   "c": 16,
+   "i": 16,
+   "w": "properly.",
+   "s": 98.067,
+   "e": 98.547
+  },
+  {
+   "c": 17,
+   "i": 0,
+   "w": "The",
+   "s": 99.183,
+   "e": 99.343
+  },
+  {
+   "c": 17,
+   "i": 1,
+   "w": "only",
+   "s": 99.343,
+   "e": 99.483
+  },
+  {
+   "c": 17,
+   "i": 2,
+   "w": "problem?",
+   "s": 99.483,
+   "e": 99.823
+  },
+  {
+   "c": 17,
+   "i": 3,
+   "w": "Proving",
+   "s": 100.383,
+   "e": 100.723
+  },
+  {
+   "c": 17,
+   "i": 4,
+   "w": "it.",
+   "s": 100.723,
+   "e": 100.903
+  },
+  {
+   "c": 18,
+   "i": 0,
+   "w": "For",
+   "s": 101.576,
+   "e": 101.736
+  },
+  {
+   "c": 18,
+   "i": 1,
+   "w": "about",
+   "s": 101.736,
+   "e": 101.876
+  },
+  {
+   "c": 18,
+   "i": 2,
+   "w": "ten",
+   "s": 101.876,
+   "e": 102.136
+  },
+  {
+   "c": 18,
+   "i": 3,
+   "w": "days,",
+   "s": 102.136,
+   "e": 102.496
+  },
+  {
+   "c": 18,
+   "i": 4,
+   "w": "everything",
+   "s": 102.796,
+   "e": 102.936
+  },
+  {
+   "c": 18,
+   "i": 5,
+   "w": "he",
+   "s": 102.936,
+   "e": 103.156
+  },
+  {
+   "c": 18,
+   "i": 6,
+   "w": "tried",
+   "s": 103.156,
+   "e": 103.396
+  },
+  {
+   "c": 18,
+   "i": 7,
+   "w": "failed.",
+   "s": 103.396,
+   "e": 103.776
+  },
+  {
+   "c": 18,
+   "i": 8,
+   "w": "Error.",
+   "s": 104.296,
+   "e": 104.476
+  },
+  {
+   "c": 18,
+   "i": 9,
+   "w": "Error.",
+   "s": 104.896,
+   "e": 105.096
+  },
+  {
+   "c": 18,
+   "i": 10,
+   "w": "Access",
+   "s": 105.516,
+   "e": 105.736
+  },
+  {
+   "c": 18,
+   "i": 11,
+   "w": "denied.",
+   "s": 105.736,
+   "e": 105.996
+  },
+  {
+   "c": 19,
+   "i": 0,
+   "w": "Most",
+   "s": 106.743,
+   "e": 106.983
+  },
+  {
+   "c": 19,
+   "i": 1,
+   "w": "people",
+   "s": 106.983,
+   "e": 107.363
+  },
+  {
+   "c": 19,
+   "i": 2,
+   "w": "would",
+   "s": 107.363,
+   "e": 107.543
+  },
+  {
+   "c": 19,
+   "i": 3,
+   "w": "have",
+   "s": 107.543,
+   "e": 107.623
+  },
+  {
+   "c": 19,
+   "i": 4,
+   "w": "given",
+   "s": 107.623,
+   "e": 107.783
+  },
+  {
+   "c": 19,
+   "i": 5,
+   "w": "up.",
+   "s": 107.783,
+   "e": 108.043
+  },
+  {
+   "c": 19,
+   "i": 6,
+   "w": "He",
+   "s": 108.403,
+   "e": 108.423
+  },
+  {
+   "c": 19,
+   "i": 7,
+   "w": "had",
+   "s": 108.423,
+   "e": 108.603
+  },
+  {
+   "c": 19,
+   "i": 8,
+   "w": "school.",
+   "s": 108.603,
+   "e": 108.803
+  },
+  {
+   "c": 19,
+   "i": 9,
+   "w": "He",
+   "s": 109.183,
+   "e": 109.243
+  },
+  {
+   "c": 19,
+   "i": 10,
+   "w": "had",
+   "s": 109.243,
+   "e": 109.423
+  },
+  {
+   "c": 19,
+   "i": 11,
+   "w": "homework.",
+   "s": 109.423,
+   "e": 109.683
+  },
+  {
+   "c": 19,
+   "i": 12,
+   "w": "And",
+   "s": 110.283,
+   "e": 110.283
+  },
+  {
+   "c": 19,
+   "i": 13,
+   "w": "Microsoft",
+   "s": 110.283,
+   "e": 110.483
+  },
+  {
+   "c": 19,
+   "i": 14,
+   "w": "is",
+   "s": 110.483,
+   "e": 110.883
+  },
+  {
+   "c": 19,
+   "i": 15,
+   "w": "not",
+   "s": 110.883,
+   "e": 111.003
+  },
+  {
+   "c": 19,
+   "i": 16,
+   "w": "exactly",
+   "s": 111.003,
+   "e": 111.363
+  },
+  {
+   "c": 19,
+   "i": 17,
+   "w": "a",
+   "s": 111.363,
+   "e": 111.523
+  },
+  {
+   "c": 19,
+   "i": 18,
+   "w": "small",
+   "s": 111.523,
+   "e": 111.683
+  },
+  {
+   "c": 19,
+   "i": 19,
+   "w": "target.",
+   "s": 111.683,
+   "e": 112.003
+  },
+  {
+   "c": 20,
+   "i": 0,
+   "w": "Then,",
+   "s": 112.542,
+   "e": 112.842
+  },
+  {
+   "c": 20,
+   "i": 1,
+   "w": "on",
+   "s": 113.102,
+   "e": 113.182
+  },
+  {
+   "c": 20,
+   "i": 2,
+   "w": "Friday,",
+   "s": 113.182,
+   "e": 113.422
+  },
+  {
+   "c": 20,
+   "i": 3,
+   "w": "September",
+   "s": 113.542,
+   "e": 113.742
+  },
+  {
+   "c": 20,
+   "i": 4,
+   "w": "fourth,",
+   "s": 113.742,
+   "e": 114.102
+  },
+  {
+   "c": 20,
+   "i": 5,
+   "w": "after",
+   "s": 114.422,
+   "e": 114.622
+  },
+  {
+   "c": 20,
+   "i": 6,
+   "w": "finishing",
+   "s": 114.622,
+   "e": 114.902
+  },
+  {
+   "c": 20,
+   "i": 7,
+   "w": "his",
+   "s": 114.902,
+   "e": 115.142
+  },
+  {
+   "c": 20,
+   "i": 8,
+   "w": "schoolwork,",
+   "s": 115.142,
+   "e": 115.562
+  },
+  {
+   "c": 20,
+   "i": 9,
+   "w": "he",
+   "s": 115.762,
+   "e": 115.782
+  },
+  {
+   "c": 20,
+   "i": 10,
+   "w": "sat",
+   "s": 115.782,
+   "e": 115.922
+  },
+  {
+   "c": 20,
+   "i": 11,
+   "w": "down",
+   "s": 115.922,
+   "e": 116.162
+  },
+  {
+   "c": 20,
+   "i": 12,
+   "w": "and",
+   "s": 116.162,
+   "e": 116.382
+  },
+  {
+   "c": 20,
+   "i": 13,
+   "w": "tried",
+   "s": 116.382,
+   "e": 116.542
+  },
+  {
+   "c": 20,
+   "i": 14,
+   "w": "again.",
+   "s": 116.542,
+   "e": 116.822
+  },
+  {
+   "c": 21,
+   "i": 0,
+   "w": "And",
+   "s": 117.484,
+   "e": 117.664
+  },
+  {
+   "c": 21,
+   "i": 1,
+   "w": "sometime",
+   "s": 117.664,
+   "e": 117.924
+  },
+  {
+   "c": 21,
+   "i": 2,
+   "w": "after",
+   "s": 117.924,
+   "e": 118.364
+  },
+  {
+   "c": 21,
+   "i": 3,
+   "w": "one",
+   "s": 118.364,
+   "e": 118.524
+  },
+  {
+   "c": 21,
+   "i": 4,
+   "w": "in",
+   "s": 118.524,
+   "e": 118.624
+  },
+  {
+   "c": 21,
+   "i": 5,
+   "w": "the",
+   "s": 118.624,
+   "e": 118.684
+  },
+  {
+   "c": 21,
+   "i": 6,
+   "w": "morning",
+   "s": 118.684,
+   "e": 118.844
+  },
+  {
+   "c": 21,
+   "i": 7,
+   "w": "on",
+   "s": 118.844,
+   "e": 119.044
+  },
+  {
+   "c": 21,
+   "i": 8,
+   "w": "Saturday,",
+   "s": 119.044,
+   "e": 119.304
+  },
+  {
+   "c": 21,
+   "i": 9,
+   "w": "it",
+   "s": 119.804,
+   "e": 119.924
+  },
+  {
+   "c": 21,
+   "i": 10,
+   "w": "worked.",
+   "s": 119.924,
+   "e": 120.124
+  },
+  {
+   "c": 22,
+   "i": 0,
+   "w": "The",
+   "s": 120.773,
+   "e": 120.913
+  },
+  {
+   "c": 22,
+   "i": 1,
+   "w": "system",
+   "s": 120.913,
+   "e": 121.113
+  },
+  {
+   "c": 22,
+   "i": 2,
+   "w": "accepted",
+   "s": 121.113,
+   "e": 121.393
+  },
+  {
+   "c": 22,
+   "i": 3,
+   "w": "him",
+   "s": 121.393,
+   "e": 121.733
+  },
+  {
+   "c": 22,
+   "i": 4,
+   "w": "as",
+   "s": 121.733,
+   "e": 121.973
+  },
+  {
+   "c": 22,
+   "i": 5,
+   "w": "an",
+   "s": 121.973,
+   "e": 122.033
+  },
+  {
+   "c": 22,
+   "i": 6,
+   "w": "administrator.",
+   "s": 122.033,
+   "e": 122.373
+  },
+  {
+   "c": 22,
+   "i": 7,
+   "w": "He",
+   "s": 123.193,
+   "e": 123.213
+  },
+  {
+   "c": 22,
+   "i": 8,
+   "w": "could",
+   "s": 123.213,
+   "e": 123.333
+  },
+  {
+   "c": 22,
+   "i": 9,
+   "w": "run",
+   "s": 123.333,
+   "e": 123.453
+  },
+  {
+   "c": 22,
+   "i": 10,
+   "w": "his",
+   "s": 123.453,
+   "e": 123.613
+  },
+  {
+   "c": 22,
+   "i": 11,
+   "w": "own",
+   "s": 123.613,
+   "e": 123.813
+  },
+  {
+   "c": 22,
+   "i": 12,
+   "w": "database",
+   "s": 123.813,
+   "e": 124.013
+  },
+  {
+   "c": 22,
+   "i": 13,
+   "w": "commands,",
+   "s": 124.013,
+   "e": 124.393
+  },
+  {
+   "c": 22,
+   "i": 14,
+   "w": "as",
+   "s": 124.753,
+   "e": 124.853
+  },
+  {
+   "c": 22,
+   "i": 15,
+   "w": "Titan's",
+   "s": 124.853,
+   "e": 125.273
+  },
+  {
+   "c": 22,
+   "i": 16,
+   "w": "admin.",
+   "s": 125.273,
+   "e": 125.453
+  },
+  {
+   "c": 23,
+   "i": 0,
+   "w": "And",
+   "s": 126.191,
+   "e": 126.391
+  },
+  {
+   "c": 23,
+   "i": 1,
+   "w": "admin",
+   "s": 126.391,
+   "e": 126.591
+  },
+  {
+   "c": 23,
+   "i": 2,
+   "w": "is",
+   "s": 126.591,
+   "e": 126.911
+  },
+  {
+   "c": 23,
+   "i": 3,
+   "w": "not",
+   "s": 126.911,
+   "e": 127.051
+  },
+  {
+   "c": 23,
+   "i": 4,
+   "w": "just",
+   "s": 127.051,
+   "e": 127.231
+  },
+  {
+   "c": 23,
+   "i": 5,
+   "w": "any",
+   "s": 127.231,
+   "e": 127.511
+  },
+  {
+   "c": 23,
+   "i": 6,
+   "w": "account.",
+   "s": 127.511,
+   "e": 127.791
+  },
+  {
+   "c": 23,
+   "i": 7,
+   "w": "It's",
+   "s": 128.251,
+   "e": 128.271
+  },
+  {
+   "c": 23,
+   "i": 8,
+   "w": "the",
+   "s": 128.271,
+   "e": 128.411
+  },
+  {
+   "c": 23,
+   "i": 9,
+   "w": "master",
+   "s": 128.411,
+   "e": 128.551
+  },
+  {
+   "c": 23,
+   "i": 10,
+   "w": "key.",
+   "s": 128.551,
+   "e": 128.931
+  },
+  {
+   "c": 23,
+   "i": 11,
+   "w": "The",
+   "s": 129.351,
+   "e": 129.371
+  },
+  {
+   "c": 23,
+   "i": 12,
+   "w": "account",
+   "s": 129.371,
+   "e": 129.591
+  },
+  {
+   "c": 23,
+   "i": 13,
+   "w": "that",
+   "s": 129.591,
+   "e": 129.811
+  },
+  {
+   "c": 23,
+   "i": 14,
+   "w": "can",
+   "s": 129.811,
+   "e": 129.911
+  },
+  {
+   "c": 23,
+   "i": 15,
+   "w": "see",
+   "s": 129.911,
+   "e": 130.111
+  },
+  {
+   "c": 23,
+   "i": 16,
+   "w": "everything,",
+   "s": 130.111,
+   "e": 130.531
+  },
+  {
+   "c": 23,
+   "i": 17,
+   "w": "change",
+   "s": 130.791,
+   "e": 130.951
+  },
+  {
+   "c": 23,
+   "i": 18,
+   "w": "settings,",
+   "s": 130.951,
+   "e": 131.311
+  },
+  {
+   "c": 23,
+   "i": 19,
+   "w": "and",
+   "s": 131.311,
+   "e": 131.651
+  },
+  {
+   "c": 23,
+   "i": 20,
+   "w": "run",
+   "s": 131.651,
+   "e": 131.811
+  },
+  {
+   "c": 23,
+   "i": 21,
+   "w": "the",
+   "s": 131.811,
+   "e": 131.931
+  },
+  {
+   "c": 23,
+   "i": 22,
+   "w": "show.",
+   "s": 131.931,
+   "e": 132.151
+  },
+  {
+   "c": 23,
+   "i": 23,
+   "w": "His",
+   "s": 132.891,
+   "e": 132.891
+  },
+  {
+   "c": 23,
+   "i": 24,
+   "w": "first",
+   "s": 132.891,
+   "e": 133.051
+  },
+  {
+   "c": 23,
+   "i": 25,
+   "w": "command",
+   "s": 133.051,
+   "e": 133.311
+  },
+  {
+   "c": 23,
+   "i": 26,
+   "w": "worked.",
+   "s": 133.311,
+   "e": 133.651
+  },
+  {
+   "c": 23,
+   "i": 27,
+   "w": "Then",
+   "s": 134.151,
+   "e": 134.171
+  },
+  {
+   "c": 23,
+   "i": 28,
+   "w": "another.",
+   "s": 134.171,
+   "e": 134.371
+  },
+  {
+   "c": 23,
+   "i": 29,
+   "w": "Then",
+   "s": 134.931,
+   "e": 135.051
+  },
+  {
+   "c": 23,
+   "i": 30,
+   "w": "he",
+   "s": 135.051,
+   "e": 135.151
+  },
+  {
+   "c": 23,
+   "i": 31,
+   "w": "started",
+   "s": 135.151,
+   "e": 135.331
+  },
+  {
+   "c": 23,
+   "i": 32,
+   "w": "counting.",
+   "s": 135.331,
+   "e": 135.671
+  },
+  {
+   "c": 24,
+   "i": 0,
+   "w": "So",
+   "s": 136.413,
+   "e": 136.673
+  },
+  {
+   "c": 24,
+   "i": 1,
+   "w": "what",
+   "s": 136.673,
+   "e": 136.973
+  },
+  {
+   "c": 24,
+   "i": 2,
+   "w": "was",
+   "s": 136.973,
+   "e": 137.113
+  },
+  {
+   "c": 24,
+   "i": 3,
+   "w": "the",
+   "s": 137.113,
+   "e": 137.213
+  },
+  {
+   "c": 24,
+   "i": 4,
+   "w": "mistake?",
+   "s": 137.213,
+   "e": 137.433
+  },
+  {
+   "c": 24,
+   "i": 5,
+   "w": "According",
+   "s": 138.153,
+   "e": 138.153
+  },
+  {
+   "c": 24,
+   "i": 6,
+   "w": "to",
+   "s": 138.153,
+   "e": 138.353
+  },
+  {
+   "c": 24,
+   "i": 7,
+   "w": "Faav,",
+   "s": 138.353,
+   "e": 138.693
+  },
+  {
+   "c": 24,
+   "i": 8,
+   "w": "Titan",
+   "s": 138.953,
+   "e": 139.033
+  },
+  {
+   "c": 24,
+   "i": 9,
+   "w": "looked",
+   "s": 139.033,
+   "e": 139.313
+  },
+  {
+   "c": 24,
+   "i": 10,
+   "w": "at",
+   "s": 139.313,
+   "e": 139.453
+  },
+  {
+   "c": 24,
+   "i": 11,
+   "w": "what",
+   "s": 139.453,
+   "e": 139.553
+  },
+  {
+   "c": 24,
+   "i": 12,
+   "w": "the",
+   "s": 139.553,
+   "e": 139.653
+  },
+  {
+   "c": 24,
+   "i": 13,
+   "w": "digital",
+   "s": 139.653,
+   "e": 139.893
+  },
+  {
+   "c": 24,
+   "i": 14,
+   "w": "ID",
+   "s": 139.893,
+   "e": 140.133
+  },
+  {
+   "c": 24,
+   "i": 15,
+   "w": "said,",
+   "s": 140.133,
+   "e": 140.573
+  },
+  {
+   "c": 24,
+   "i": 16,
+   "w": "but",
+   "s": 140.933,
+   "e": 141.073
+  },
+  {
+   "c": 24,
+   "i": 17,
+   "w": "it",
+   "s": 141.073,
+   "e": 141.173
+  },
+  {
+   "c": 24,
+   "i": 18,
+   "w": "never",
+   "s": 141.173,
+   "e": 141.293
+  },
+  {
+   "c": 24,
+   "i": 19,
+   "w": "checked",
+   "s": 141.293,
+   "e": 141.533
+  },
+  {
+   "c": 24,
+   "i": 20,
+   "w": "whether",
+   "s": 141.533,
+   "e": 141.813
+  },
+  {
+   "c": 24,
+   "i": 21,
+   "w": "the",
+   "s": 141.813,
+   "e": 141.973
+  },
+  {
+   "c": 24,
+   "i": 22,
+   "w": "ID",
+   "s": 141.973,
+   "e": 142.193
+  },
+  {
+   "c": 24,
+   "i": 23,
+   "w": "was",
+   "s": 142.193,
+   "e": 142.473
+  },
+  {
+   "c": 24,
+   "i": 24,
+   "w": "real.",
+   "s": 142.473,
+   "e": 142.713
+  },
+  {
+   "c": 25,
+   "i": 0,
+   "w": "He",
+   "s": 143.32,
+   "e": 143.48
+  },
+  {
+   "c": 25,
+   "i": 1,
+   "w": "described",
+   "s": 143.48,
+   "e": 143.74
+  },
+  {
+   "c": 25,
+   "i": 2,
+   "w": "it",
+   "s": 143.74,
+   "e": 143.98
+  },
+  {
+   "c": 25,
+   "i": 3,
+   "w": "perfectly.",
+   "s": 143.98,
+   "e": 144.18
+  },
+  {
+   "c": 25,
+   "i": 4,
+   "w": "It",
+   "s": 144.82,
+   "e": 144.84
+  },
+  {
+   "c": 25,
+   "i": 5,
+   "w": "felt",
+   "s": 144.84,
+   "e": 145
+  },
+  {
+   "c": 25,
+   "i": 6,
+   "w": "like",
+   "s": 145,
+   "e": 145.2
+  },
+  {
+   "c": 25,
+   "i": 7,
+   "w": "a",
+   "s": 145.2,
+   "e": 145.28
+  },
+  {
+   "c": 25,
+   "i": 8,
+   "w": "hotel",
+   "s": 145.28,
+   "e": 145.52
+  },
+  {
+   "c": 25,
+   "i": 9,
+   "w": "where",
+   "s": 145.52,
+   "e": 145.8
+  },
+  {
+   "c": 25,
+   "i": 10,
+   "w": "every",
+   "s": 145.8,
+   "e": 145.96
+  },
+  {
+   "c": 25,
+   "i": 11,
+   "w": "door",
+   "s": 145.96,
+   "e": 146.24
+  },
+  {
+   "c": 25,
+   "i": 12,
+   "w": "had",
+   "s": 146.24,
+   "e": 146.44
+  },
+  {
+   "c": 25,
+   "i": 13,
+   "w": "a",
+   "s": 146.44,
+   "e": 146.52
+  },
+  {
+   "c": 25,
+   "i": 14,
+   "w": "working",
+   "s": 146.52,
+   "e": 146.74
+  },
+  {
+   "c": 25,
+   "i": 15,
+   "w": "keycard",
+   "s": 146.74,
+   "e": 147.18
+  },
+  {
+   "c": 25,
+   "i": 16,
+   "w": "reader,",
+   "s": 147.18,
+   "e": 147.32
+  },
+  {
+   "c": 25,
+   "i": 17,
+   "w": "but",
+   "s": 147.88,
+   "e": 148.02
+  },
+  {
+   "c": 25,
+   "i": 18,
+   "w": "any",
+   "s": 148.02,
+   "e": 148.2
+  },
+  {
+   "c": 25,
+   "i": 19,
+   "w": "keycard",
+   "s": 148.2,
+   "e": 148.6
+  },
+  {
+   "c": 25,
+   "i": 20,
+   "w": "unlocked",
+   "s": 148.6,
+   "e": 148.82
+  },
+  {
+   "c": 25,
+   "i": 21,
+   "w": "any",
+   "s": 148.82,
+   "e": 149.16
+  },
+  {
+   "c": 25,
+   "i": 22,
+   "w": "room.",
+   "s": 149.16,
+   "e": 149.4
+  },
+  {
+   "c": 26,
+   "i": 0,
+   "w": "So",
+   "s": 150.148,
+   "e": 150.388
+  },
+  {
+   "c": 26,
+   "i": 1,
+   "w": "what",
+   "s": 150.388,
+   "e": 150.708
+  },
+  {
+   "c": 26,
+   "i": 2,
+   "w": "was",
+   "s": 150.708,
+   "e": 150.848
+  },
+  {
+   "c": 26,
+   "i": 3,
+   "w": "behind",
+   "s": 150.848,
+   "e": 151.048
+  },
+  {
+   "c": 26,
+   "i": 4,
+   "w": "those",
+   "s": 151.048,
+   "e": 151.308
+  },
+  {
+   "c": 26,
+   "i": 5,
+   "w": "doors?",
+   "s": 151.308,
+   "e": 151.528
+  },
+  {
+   "c": 27,
+   "i": 0,
+   "w": "According",
+   "s": 152.248,
+   "e": 152.588
+  },
+  {
+   "c": 27,
+   "i": 1,
+   "w": "to",
+   "s": 152.588,
+   "e": 152.748
+  },
+  {
+   "c": 27,
+   "i": 2,
+   "w": "Faav's",
+   "s": 152.748,
+   "e": 153.028
+  },
+  {
+   "c": 27,
+   "i": 3,
+   "w": "write-up,",
+   "s": 153.028,
+   "e": 153.368
+  },
+  {
+   "c": 27,
+   "i": 4,
+   "w": "as",
+   "s": 153.548,
+   "e": 153.628
+  },
+  {
+   "c": 27,
+   "i": 5,
+   "w": "reported",
+   "s": 153.628,
+   "e": 153.888
+  },
+  {
+   "c": 27,
+   "i": 6,
+   "w": "by",
+   "s": 153.888,
+   "e": 154.148
+  },
+  {
+   "c": 27,
+   "i": 7,
+   "w": "The",
+   "s": 154.148,
+   "e": 154.288
+  },
+  {
+   "c": 27,
+   "i": 8,
+   "w": "Register,",
+   "s": 154.288,
+   "e": 154.508
+  },
+  {
+   "c": 27,
+   "i": 9,
+   "w": "the",
+   "s": 155.068,
+   "e": 155.148
+  },
+  {
+   "c": 27,
+   "i": 10,
+   "w": "platform's",
+   "s": 155.148,
+   "e": 155.628
+  },
+  {
+   "c": 27,
+   "i": 11,
+   "w": "own",
+   "s": 155.628,
+   "e": 155.768
+  },
+  {
+   "c": 27,
+   "i": 12,
+   "w": "records",
+   "s": 155.768,
+   "e": 155.988
+  },
+  {
+   "c": 27,
+   "i": 13,
+   "w": "listed",
+   "s": 155.988,
+   "e": 156.308
+  },
+  {
+   "c": 27,
+   "i": 14,
+   "w": "about",
+   "s": 156.308,
+   "e": 156.628
+  },
+  {
+   "c": 27,
+   "i": 15,
+   "w": "twenty",
+   "s": 156.628,
+   "e": 156.868
+  },
+  {
+   "c": 27,
+   "i": 16,
+   "w": "five",
+   "s": 156.868,
+   "e": 157.148
+  },
+  {
+   "c": 27,
+   "i": 17,
+   "w": "thousand",
+   "s": 157.148,
+   "e": 157.448
+  },
+  {
+   "c": 27,
+   "i": 18,
+   "w": "account",
+   "s": 157.448,
+   "e": 157.748
+  },
+  {
+   "c": 27,
+   "i": 19,
+   "w": "and",
+   "s": 157.748,
+   "e": 158.028
+  },
+  {
+   "c": 27,
+   "i": 20,
+   "w": "email",
+   "s": 158.028,
+   "e": 158.248
+  },
+  {
+   "c": 27,
+   "i": 21,
+   "w": "entries.",
+   "s": 158.248,
+   "e": 158.648
+  },
+  {
+   "c": 28,
+   "i": 0,
+   "w": "Almost",
+   "s": 159.343,
+   "e": 159.663
+  },
+  {
+   "c": 28,
+   "i": 1,
+   "w": "eighteen",
+   "s": 159.663,
+   "e": 160.003
+  },
+  {
+   "c": 28,
+   "i": 2,
+   "w": "thousand",
+   "s": 160.003,
+   "e": 160.463
+  },
+  {
+   "c": 28,
+   "i": 3,
+   "w": "employee",
+   "s": 160.463,
+   "e": 160.863
+  },
+  {
+   "c": 28,
+   "i": 4,
+   "w": "email",
+   "s": 160.863,
+   "e": 161.283
+  },
+  {
+   "c": 28,
+   "i": 5,
+   "w": "records.",
+   "s": 161.283,
+   "e": 161.663
+  },
+  {
+   "c": 28,
+   "i": 6,
+   "w": "Job",
+   "s": 162.303,
+   "e": 162.383
+  },
+  {
+   "c": 28,
+   "i": 7,
+   "w": "titles.",
+   "s": 162.383,
+   "e": 162.763
+  },
+  {
+   "c": 28,
+   "i": 8,
+   "w": "Departments.",
+   "s": 163.283,
+   "e": 163.623
+  },
+  {
+   "c": 28,
+   "i": 9,
+   "w": "Even",
+   "s": 164.403,
+   "e": 164.403
+  },
+  {
+   "c": 28,
+   "i": 10,
+   "w": "who",
+   "s": 164.403,
+   "e": 164.603
+  },
+  {
+   "c": 28,
+   "i": 11,
+   "w": "reports",
+   "s": 164.603,
+   "e": 164.863
+  },
+  {
+   "c": 28,
+   "i": 12,
+   "w": "to",
+   "s": 164.863,
+   "e": 165.143
+  },
+  {
+   "c": 28,
+   "i": 13,
+   "w": "whom.",
+   "s": 165.143,
+   "e": 165.403
+  },
+  {
+   "c": 29,
+   "i": 0,
+   "w": "Faav",
+   "s": 166.035,
+   "e": 166.295
+  },
+  {
+   "c": 29,
+   "i": 1,
+   "w": "pointed",
+   "s": 166.295,
+   "e": 166.475
+  },
+  {
+   "c": 29,
+   "i": 2,
+   "w": "out",
+   "s": 166.475,
+   "e": 166.755
+  },
+  {
+   "c": 29,
+   "i": 3,
+   "w": "that",
+   "s": 166.755,
+   "e": 166.895
+  },
+  {
+   "c": 29,
+   "i": 4,
+   "w": "kind",
+   "s": 166.895,
+   "e": 167.095
+  },
+  {
+   "c": 29,
+   "i": 5,
+   "w": "of",
+   "s": 167.095,
+   "e": 167.215
+  },
+  {
+   "c": 29,
+   "i": 6,
+   "w": "information",
+   "s": 167.215,
+   "e": 167.615
+  },
+  {
+   "c": 29,
+   "i": 7,
+   "w": "could",
+   "s": 167.615,
+   "e": 167.895
+  },
+  {
+   "c": 29,
+   "i": 8,
+   "w": "be",
+   "s": 167.895,
+   "e": 168.035
+  },
+  {
+   "c": 29,
+   "i": 9,
+   "w": "useful",
+   "s": 168.035,
+   "e": 168.255
+  },
+  {
+   "c": 29,
+   "i": 10,
+   "w": "to",
+   "s": 168.255,
+   "e": 168.475
+  },
+  {
+   "c": 29,
+   "i": 11,
+   "w": "scammers",
+   "s": 168.475,
+   "e": 168.755
+  },
+  {
+   "c": 29,
+   "i": 12,
+   "w": "who",
+   "s": 168.755,
+   "e": 168.935
+  },
+  {
+   "c": 29,
+   "i": 13,
+   "w": "trick",
+   "s": 168.935,
+   "e": 169.055
+  },
+  {
+   "c": 29,
+   "i": 14,
+   "w": "employees.",
+   "s": 169.055,
+   "e": 169.475
+  },
+  {
+   "c": 29,
+   "i": 15,
+   "w": "But",
+   "s": 170.315,
+   "e": 170.355
+  },
+  {
+   "c": 29,
+   "i": 16,
+   "w": "he",
+   "s": 170.355,
+   "e": 170.455
+  },
+  {
+   "c": 29,
+   "i": 17,
+   "w": "also",
+   "s": 170.455,
+   "e": 170.555
+  },
+  {
+   "c": 29,
+   "i": 18,
+   "w": "said",
+   "s": 170.555,
+   "e": 170.875
+  },
+  {
+   "c": 29,
+   "i": 19,
+   "w": "he",
+   "s": 170.875,
+   "e": 170.975
+  },
+  {
+   "c": 29,
+   "i": 20,
+   "w": "never",
+   "s": 170.975,
+   "e": 171.115
+  },
+  {
+   "c": 29,
+   "i": 21,
+   "w": "tested",
+   "s": 171.115,
+   "e": 171.375
+  },
+  {
+   "c": 29,
+   "i": 22,
+   "w": "that.",
+   "s": 171.375,
+   "e": 171.755
+  },
+  {
+   "c": 30,
+   "i": 0,
+   "w": "There",
+   "s": 172.316,
+   "e": 172.496
+  },
+  {
+   "c": 30,
+   "i": 1,
+   "w": "were",
+   "s": 172.496,
+   "e": 172.596
+  },
+  {
+   "c": 30,
+   "i": 2,
+   "w": "more",
+   "s": 172.596,
+   "e": 172.756
+  },
+  {
+   "c": 30,
+   "i": 3,
+   "w": "than",
+   "s": 172.756,
+   "e": 172.876
+  },
+  {
+   "c": 30,
+   "i": 4,
+   "w": "twenty",
+   "s": 172.876,
+   "e": 173.056
+  },
+  {
+   "c": 30,
+   "i": 5,
+   "w": "four",
+   "s": 173.056,
+   "e": 173.356
+  },
+  {
+   "c": 30,
+   "i": 6,
+   "w": "thousand",
+   "s": 173.356,
+   "e": 173.596
+  },
+  {
+   "c": 30,
+   "i": 7,
+   "w": "dashboards.",
+   "s": 173.596,
+   "e": 174.176
+  },
+  {
+   "c": 30,
+   "i": 8,
+   "w": "More",
+   "s": 174.816,
+   "e": 174.876
+  },
+  {
+   "c": 30,
+   "i": 9,
+   "w": "than",
+   "s": 174.876,
+   "e": 175.016
+  },
+  {
+   "c": 30,
+   "i": 10,
+   "w": "four",
+   "s": 175.016,
+   "e": 175.216
+  },
+  {
+   "c": 30,
+   "i": 11,
+   "w": "hundred",
+   "s": 175.216,
+   "e": 175.516
+  },
+  {
+   "c": 30,
+   "i": 12,
+   "w": "thousand",
+   "s": 175.516,
+   "e": 175.836
+  },
+  {
+   "c": 30,
+   "i": 13,
+   "w": "charts.",
+   "s": 175.836,
+   "e": 176.056
+  },
+  {
+   "c": 31,
+   "i": 0,
+   "w": "He",
+   "s": 176.848,
+   "e": 177.028
+  },
+  {
+   "c": 31,
+   "i": 1,
+   "w": "even",
+   "s": 177.028,
+   "e": 177.208
+  },
+  {
+   "c": 31,
+   "i": 2,
+   "w": "saw",
+   "s": 177.208,
+   "e": 177.468
+  },
+  {
+   "c": 31,
+   "i": 3,
+   "w": "two",
+   "s": 177.468,
+   "e": 177.728
+  },
+  {
+   "c": 31,
+   "i": 4,
+   "w": "tiny",
+   "s": 177.728,
+   "e": 178.028
+  },
+  {
+   "c": 31,
+   "i": 5,
+   "w": "samples",
+   "s": 178.028,
+   "e": 178.428
+  },
+  {
+   "c": 31,
+   "i": 6,
+   "w": "of",
+   "s": 178.428,
+   "e": 178.648
+  },
+  {
+   "c": 31,
+   "i": 7,
+   "w": "Bing",
+   "s": 178.648,
+   "e": 178.828
+  },
+  {
+   "c": 31,
+   "i": 8,
+   "w": "data,",
+   "s": 178.828,
+   "e": 179.068
+  },
+  {
+   "c": 31,
+   "i": 9,
+   "w": "with",
+   "s": 179.448,
+   "e": 179.488
+  },
+  {
+   "c": 31,
+   "i": 10,
+   "w": "search",
+   "s": 179.488,
+   "e": 179.728
+  },
+  {
+   "c": 31,
+   "i": 11,
+   "w": "and",
+   "s": 179.728,
+   "e": 179.928
+  },
+  {
+   "c": 31,
+   "i": 12,
+   "w": "location",
+   "s": 179.928,
+   "e": 180.188
+  },
+  {
+   "c": 31,
+   "i": 13,
+   "w": "fields.",
+   "s": 180.188,
+   "e": 180.468
+  },
+  {
+   "c": 31,
+   "i": 14,
+   "w": "But",
+   "s": 181.188,
+   "e": 181.248
+  },
+  {
+   "c": 31,
+   "i": 15,
+   "w": "he",
+   "s": 181.248,
+   "e": 181.368
+  },
+  {
+   "c": 31,
+   "i": 16,
+   "w": "said",
+   "s": 181.368,
+   "e": 181.588
+  },
+  {
+   "c": 31,
+   "i": 17,
+   "w": "the",
+   "s": 181.588,
+   "e": 181.728
+  },
+  {
+   "c": 31,
+   "i": 18,
+   "w": "locations",
+   "s": 181.728,
+   "e": 181.988
+  },
+  {
+   "c": 31,
+   "i": 19,
+   "w": "were",
+   "s": 181.988,
+   "e": 182.368
+  },
+  {
+   "c": 31,
+   "i": 20,
+   "w": "not",
+   "s": 182.368,
+   "e": 182.508
+  },
+  {
+   "c": 31,
+   "i": 21,
+   "w": "precise.",
+   "s": 182.508,
+   "e": 182.808
+  },
+  {
+   "c": 31,
+   "i": 22,
+   "w": "Not",
+   "s": 183.488,
+   "e": 183.608
+  },
+  {
+   "c": 31,
+   "i": 23,
+   "w": "your",
+   "s": 183.608,
+   "e": 183.768
+  },
+  {
+   "c": 31,
+   "i": 24,
+   "w": "exact",
+   "s": 183.768,
+   "e": 183.968
+  },
+  {
+   "c": 31,
+   "i": 25,
+   "w": "address,",
+   "s": 183.968,
+   "e": 184.448
+  },
+  {
+   "c": 31,
+   "i": 26,
+   "w": "just",
+   "s": 184.808,
+   "e": 184.988
+  },
+  {
+   "c": 31,
+   "i": 27,
+   "w": "rough",
+   "s": 184.988,
+   "e": 185.228
+  },
+  {
+   "c": 31,
+   "i": 28,
+   "w": "areas.",
+   "s": 185.228,
+   "e": 185.548
+  },
+  {
+   "c": 32,
+   "i": 0,
+   "w": "And",
+   "s": 186.322,
+   "e": 186.462
+  },
+  {
+   "c": 32,
+   "i": 1,
+   "w": "then,",
+   "s": 186.462,
+   "e": 186.642
+  },
+  {
+   "c": 32,
+   "i": 2,
+   "w": "the",
+   "s": 186.882,
+   "e": 186.942
+  },
+  {
+   "c": 32,
+   "i": 3,
+   "w": "number",
+   "s": 186.942,
+   "e": 187.162
+  },
+  {
+   "c": 32,
+   "i": 4,
+   "w": "that",
+   "s": 187.162,
+   "e": 187.342
+  },
+  {
+   "c": 32,
+   "i": 5,
+   "w": "kept",
+   "s": 187.342,
+   "e": 187.502
+  },
+  {
+   "c": 32,
+   "i": 6,
+   "w": "him",
+   "s": 187.502,
+   "e": 187.662
+  },
+  {
+   "c": 32,
+   "i": 7,
+   "w": "awake.",
+   "s": 187.662,
+   "e": 187.882
+  },
+  {
+   "c": 32,
+   "i": 8,
+   "w": "Titan",
+   "s": 188.362,
+   "e": 188.482
+  },
+  {
+   "c": 32,
+   "i": 9,
+   "w": "was",
+   "s": 188.482,
+   "e": 188.722
+  },
+  {
+   "c": 32,
+   "i": 10,
+   "w": "connected",
+   "s": 188.722,
+   "e": 188.982
+  },
+  {
+   "c": 32,
+   "i": 11,
+   "w": "to",
+   "s": 188.982,
+   "e": 189.202
+  },
+  {
+   "c": 32,
+   "i": 12,
+   "w": "seventeen",
+   "s": 189.202,
+   "e": 189.502
+  },
+  {
+   "c": 32,
+   "i": 13,
+   "w": "analytics",
+   "s": 189.502,
+   "e": 189.902
+  },
+  {
+   "c": 32,
+   "i": 14,
+   "w": "databases.",
+   "s": 189.902,
+   "e": 190.502
+  },
+  {
+   "c": 32,
+   "i": 15,
+   "w": "Adding",
+   "s": 190.982,
+   "e": 191.122
+  },
+  {
+   "c": 32,
+   "i": 16,
+   "w": "up",
+   "s": 191.122,
+   "e": 191.282
+  },
+  {
+   "c": 32,
+   "i": 17,
+   "w": "their",
+   "s": 191.282,
+   "e": 191.402
+  },
+  {
+   "c": 32,
+   "i": 18,
+   "w": "sizes",
+   "s": 191.402,
+   "e": 191.642
+  },
+  {
+   "c": 32,
+   "i": 19,
+   "w": "gave",
+   "s": 191.642,
+   "e": 192.002
+  },
+  {
+   "c": 32,
+   "i": 20,
+   "w": "him",
+   "s": 192.002,
+   "e": 192.162
+  },
+  {
+   "c": 32,
+   "i": 21,
+   "w": "about",
+   "s": 192.162,
+   "e": 192.342
+  },
+  {
+   "c": 32,
+   "i": 22,
+   "w": "seventeen",
+   "s": 192.342,
+   "e": 192.682
+  },
+  {
+   "c": 32,
+   "i": 23,
+   "w": "point",
+   "s": 192.682,
+   "e": 193.102
+  },
+  {
+   "c": 32,
+   "i": 24,
+   "w": "three",
+   "s": 193.102,
+   "e": 193.382
+  },
+  {
+   "c": 32,
+   "i": 25,
+   "w": "trillion",
+   "s": 193.382,
+   "e": 193.822
+  },
+  {
+   "c": 32,
+   "i": 26,
+   "w": "rows.",
+   "s": 193.822,
+   "e": 194.122
+  },
+  {
+   "c": 33,
+   "i": 0,
+   "w": "Now,",
+   "s": 194.91,
+   "e": 195.15
+  },
+  {
+   "c": 33,
+   "i": 1,
+   "w": "to",
+   "s": 195.37,
+   "e": 195.47
+  },
+  {
+   "c": 33,
+   "i": 2,
+   "w": "be",
+   "s": 195.47,
+   "e": 195.55
+  },
+  {
+   "c": 33,
+   "i": 3,
+   "w": "fair,",
+   "s": 195.55,
+   "e": 195.87
+  },
+  {
+   "c": 33,
+   "i": 4,
+   "w": "that",
+   "s": 196.21,
+   "e": 196.31
+  },
+  {
+   "c": 33,
+   "i": 5,
+   "w": "number",
+   "s": 196.31,
+   "e": 196.61
+  },
+  {
+   "c": 33,
+   "i": 6,
+   "w": "is",
+   "s": 196.61,
+   "e": 196.85
+  },
+  {
+   "c": 33,
+   "i": 7,
+   "w": "an",
+   "s": 196.85,
+   "e": 196.95
+  },
+  {
+   "c": 33,
+   "i": 8,
+   "w": "estimate",
+   "s": 196.95,
+   "e": 197.17
+  },
+  {
+   "c": 33,
+   "i": 9,
+   "w": "from",
+   "s": 197.17,
+   "e": 197.49
+  },
+  {
+   "c": 33,
+   "i": 10,
+   "w": "the",
+   "s": 197.49,
+   "e": 197.57
+  },
+  {
+   "c": 33,
+   "i": 11,
+   "w": "system's",
+   "s": 197.57,
+   "e": 197.97
+  },
+  {
+   "c": 33,
+   "i": 12,
+   "w": "own",
+   "s": 197.97,
+   "e": 198.11
+  },
+  {
+   "c": 33,
+   "i": 13,
+   "w": "records.",
+   "s": 198.11,
+   "e": 198.39
+  },
+  {
+   "c": 33,
+   "i": 14,
+   "w": "It",
+   "s": 199.15,
+   "e": 199.21
+  },
+  {
+   "c": 33,
+   "i": 15,
+   "w": "likely",
+   "s": 199.21,
+   "e": 199.37
+  },
+  {
+   "c": 33,
+   "i": 16,
+   "w": "includes",
+   "s": 199.37,
+   "e": 199.87
+  },
+  {
+   "c": 33,
+   "i": 17,
+   "w": "old",
+   "s": 199.87,
+   "e": 200.13
+  },
+  {
+   "c": 33,
+   "i": 18,
+   "w": "and",
+   "s": 200.13,
+   "e": 200.37
+  },
+  {
+   "c": 33,
+   "i": 19,
+   "w": "duplicated",
+   "s": 200.37,
+   "e": 200.89
+  },
+  {
+   "c": 33,
+   "i": 20,
+   "w": "data.",
+   "s": 200.89,
+   "e": 201.07
+  },
+  {
+   "c": 33,
+   "i": 21,
+   "w": "And",
+   "s": 201.77,
+   "e": 201.79
+  },
+  {
+   "c": 33,
+   "i": 22,
+   "w": "Faav",
+   "s": 201.79,
+   "e": 202.15
+  },
+  {
+   "c": 33,
+   "i": 23,
+   "w": "didn't",
+   "s": 202.15,
+   "e": 202.47
+  },
+  {
+   "c": 33,
+   "i": 24,
+   "w": "open",
+   "s": 202.47,
+   "e": 202.69
+  },
+  {
+   "c": 33,
+   "i": 25,
+   "w": "or",
+   "s": 202.69,
+   "e": 202.83
+  },
+  {
+   "c": 33,
+   "i": 26,
+   "w": "take",
+   "s": 202.83,
+   "e": 203.05
+  },
+  {
+   "c": 33,
+   "i": 27,
+   "w": "those",
+   "s": 203.05,
+   "e": 203.25
+  },
+  {
+   "c": 33,
+   "i": 28,
+   "w": "rows.",
+   "s": 203.25,
+   "e": 203.45
+  },
+  {
+   "c": 34,
+   "i": 0,
+   "w": "But",
+   "s": 204.323,
+   "e": 204.576
+  },
+  {
+   "c": 34,
+   "i": 1,
+   "w": "think",
+   "s": 204.576,
+   "e": 204.829
+  },
+  {
+   "c": 34,
+   "i": 2,
+   "w": "about",
+   "s": 204.829,
+   "e": 205.083
+  },
+  {
+   "c": 34,
+   "i": 3,
+   "w": "what",
+   "s": 205.083,
+   "e": 205.336
+  },
+  {
+   "c": 34,
+   "i": 4,
+   "w": "that",
+   "s": 205.336,
+   "e": 205.589
+  },
+  {
+   "c": 34,
+   "i": 5,
+   "w": "number",
+   "s": 205.589,
+   "e": 205.842
+  },
+  {
+   "c": 34,
+   "i": 6,
+   "w": "means.",
+   "s": 205.842,
+   "e": 206.095
+  },
+  {
+   "c": 34,
+   "i": 7,
+   "w": "A",
+   "s": 204.273,
+   "e": 204.433
+  },
+  {
+   "c": 34,
+   "i": 8,
+   "w": "sixteen-year-old,",
+   "s": 204.433,
+   "e": 207.073
+  },
+  {
+   "c": 34,
+   "i": 9,
+   "w": "from",
+   "s": 207.073,
+   "e": 207.273
+  },
+  {
+   "c": 34,
+   "i": 10,
+   "w": "his",
+   "s": 207.273,
+   "e": 207.393
+  },
+  {
+   "c": 34,
+   "i": 11,
+   "w": "bedroom,",
+   "s": 207.393,
+   "e": 207.813
+  },
+  {
+   "c": 34,
+   "i": 12,
+   "w": "was",
+   "s": 207.813,
+   "e": 208.133
+  },
+  {
+   "c": 34,
+   "i": 13,
+   "w": "standing",
+   "s": 208.133,
+   "e": 208.413
+  },
+  {
+   "c": 34,
+   "i": 14,
+   "w": "at",
+   "s": 208.413,
+   "e": 208.613
+  },
+  {
+   "c": 34,
+   "i": 15,
+   "w": "the",
+   "s": 208.613,
+   "e": 208.673
+  },
+  {
+   "c": 34,
+   "i": 16,
+   "w": "door",
+   "s": 208.673,
+   "e": 208.893
+  },
+  {
+   "c": 34,
+   "i": 17,
+   "w": "to",
+   "s": 208.893,
+   "e": 209.133
+  },
+  {
+   "c": 34,
+   "i": 18,
+   "w": "one",
+   "s": 209.133,
+   "e": 209.253
+  },
+  {
+   "c": 34,
+   "i": 19,
+   "w": "of",
+   "s": 209.253,
+   "e": 209.313
+  },
+  {
+   "c": 34,
+   "i": 20,
+   "w": "the",
+   "s": 209.313,
+   "e": 209.413
+  },
+  {
+   "c": 34,
+   "i": 21,
+   "w": "biggest",
+   "s": 209.413,
+   "e": 209.613
+  },
+  {
+   "c": 34,
+   "i": 22,
+   "w": "data",
+   "s": 209.613,
+   "e": 209.833
+  },
+  {
+   "c": 34,
+   "i": 23,
+   "w": "systems",
+   "s": 209.833,
+   "e": 210.113
+  },
+  {
+   "c": 34,
+   "i": 24,
+   "w": "on",
+   "s": 210.113,
+   "e": 210.413
+  },
+  {
+   "c": 34,
+   "i": 25,
+   "w": "the",
+   "s": 210.413,
+   "e": 210.513
+  },
+  {
+   "c": 34,
+   "i": 26,
+   "w": "planet.",
+   "s": 210.513,
+   "e": 210.853
+  },
+  {
+   "c": 35,
+   "i": 0,
+   "w": "So",
+   "s": 211.559,
+   "e": 211.839
+  },
+  {
+   "c": 35,
+   "i": 1,
+   "w": "what",
+   "s": 211.839,
+   "e": 212.199
+  },
+  {
+   "c": 35,
+   "i": 2,
+   "w": "did",
+   "s": 212.199,
+   "e": 212.339
+  },
+  {
+   "c": 35,
+   "i": 3,
+   "w": "he",
+   "s": 212.339,
+   "e": 212.459
+  },
+  {
+   "c": 35,
+   "i": 4,
+   "w": "do",
+   "s": 212.459,
+   "e": 212.599
+  },
+  {
+   "c": 35,
+   "i": 5,
+   "w": "with",
+   "s": 212.599,
+   "e": 212.759
+  },
+  {
+   "c": 35,
+   "i": 6,
+   "w": "that",
+   "s": 212.759,
+   "e": 212.899
+  },
+  {
+   "c": 35,
+   "i": 7,
+   "w": "power?",
+   "s": 212.899,
+   "e": 213.159
+  },
+  {
+   "c": 36,
+   "i": 0,
+   "w": "He",
+   "s": 213.849,
+   "e": 213.849
+  },
+  {
+   "c": 36,
+   "i": 1,
+   "w": "reported",
+   "s": 213.849,
+   "e": 214.129
+  },
+  {
+   "c": 36,
+   "i": 2,
+   "w": "it.",
+   "s": 214.129,
+   "e": 214.409
+  },
+  {
+   "c": 36,
+   "i": 3,
+   "w": "That's",
+   "s": 214.789,
+   "e": 215.049
+  },
+  {
+   "c": 36,
+   "i": 4,
+   "w": "the",
+   "s": 215.049,
+   "e": 215.149
+  },
+  {
+   "c": 36,
+   "i": 5,
+   "w": "whole",
+   "s": 215.149,
+   "e": 215.249
+  },
+  {
+   "c": 36,
+   "i": 6,
+   "w": "point",
+   "s": 215.249,
+   "e": 215.529
+  },
+  {
+   "c": 36,
+   "i": 7,
+   "w": "of",
+   "s": 215.529,
+   "e": 215.669
+  },
+  {
+   "c": 36,
+   "i": 8,
+   "w": "a",
+   "s": 215.669,
+   "e": 215.729
+  },
+  {
+   "c": 36,
+   "i": 9,
+   "w": "bug",
+   "s": 215.729,
+   "e": 215.889
+  },
+  {
+   "c": 36,
+   "i": 10,
+   "w": "bounty.",
+   "s": 215.889,
+   "e": 216.149
+  },
+  {
+   "c": 37,
+   "i": 0,
+   "w": "And",
+   "s": 216.936,
+   "e": 217.116
+  },
+  {
+   "c": 37,
+   "i": 1,
+   "w": "Microsoft",
+   "s": 217.116,
+   "e": 217.276
+  },
+  {
+   "c": 37,
+   "i": 2,
+   "w": "moved",
+   "s": 217.276,
+   "e": 217.816
+  },
+  {
+   "c": 37,
+   "i": 3,
+   "w": "fast.",
+   "s": 217.816,
+   "e": 218.076
+  },
+  {
+   "c": 37,
+   "i": 4,
+   "w": "They",
+   "s": 218.596,
+   "e": 218.616
+  },
+  {
+   "c": 37,
+   "i": 5,
+   "w": "asked",
+   "s": 218.616,
+   "e": 218.816
+  },
+  {
+   "c": 37,
+   "i": 6,
+   "w": "him",
+   "s": 218.816,
+   "e": 219.036
+  },
+  {
+   "c": 37,
+   "i": 7,
+   "w": "to",
+   "s": 219.036,
+   "e": 219.156
+  },
+  {
+   "c": 37,
+   "i": 8,
+   "w": "stop",
+   "s": 219.156,
+   "e": 219.336
+  },
+  {
+   "c": 37,
+   "i": 9,
+   "w": "testing.",
+   "s": 219.336,
+   "e": 219.756
+  },
+  {
+   "c": 37,
+   "i": 10,
+   "w": "They",
+   "s": 220.296,
+   "e": 220.316
+  },
+  {
+   "c": 37,
+   "i": 11,
+   "w": "even",
+   "s": 220.316,
+   "e": 220.496
+  },
+  {
+   "c": 37,
+   "i": 12,
+   "w": "asked",
+   "s": 220.496,
+   "e": 220.736
+  },
+  {
+   "c": 37,
+   "i": 13,
+   "w": "for",
+   "s": 220.736,
+   "e": 220.896
+  },
+  {
+   "c": 37,
+   "i": 14,
+   "w": "his",
+   "s": 220.896,
+   "e": 221.016
+  },
+  {
+   "c": 37,
+   "i": 15,
+   "w": "IP",
+   "s": 221.016,
+   "e": 221.196
+  },
+  {
+   "c": 37,
+   "i": 16,
+   "w": "address,",
+   "s": 221.196,
+   "e": 221.556
+  },
+  {
+   "c": 37,
+   "i": 17,
+   "w": "to",
+   "s": 221.756,
+   "e": 221.856
+  },
+  {
+   "c": 37,
+   "i": 18,
+   "w": "confirm",
+   "s": 221.856,
+   "e": 222.036
+  },
+  {
+   "c": 37,
+   "i": 19,
+   "w": "nothing",
+   "s": 222.036,
+   "e": 222.356
+  },
+  {
+   "c": 37,
+   "i": 20,
+   "w": "bad",
+   "s": 222.356,
+   "e": 222.576
+  },
+  {
+   "c": 37,
+   "i": 21,
+   "w": "had",
+   "s": 222.576,
+   "e": 222.736
+  },
+  {
+   "c": 37,
+   "i": 22,
+   "w": "happened",
+   "s": 222.736,
+   "e": 223.036
+  },
+  {
+   "c": 37,
+   "i": 23,
+   "w": "beyond",
+   "s": 223.036,
+   "e": 223.356
+  },
+  {
+   "c": 37,
+   "i": 24,
+   "w": "his",
+   "s": 223.356,
+   "e": 223.596
+  },
+  {
+   "c": 37,
+   "i": 25,
+   "w": "research.",
+   "s": 223.596,
+   "e": 223.976
+  },
+  {
+   "c": 38,
+   "i": 0,
+   "w": "That",
+   "s": 224.668,
+   "e": 224.828
+  },
+  {
+   "c": 38,
+   "i": 1,
+   "w": "might",
+   "s": 224.828,
+   "e": 224.968
+  },
+  {
+   "c": 38,
+   "i": 2,
+   "w": "sound",
+   "s": 224.968,
+   "e": 225.188
+  },
+  {
+   "c": 38,
+   "i": 3,
+   "w": "scary,",
+   "s": 225.188,
+   "e": 225.508
+  },
+  {
+   "c": 38,
+   "i": 4,
+   "w": "but",
+   "s": 225.788,
+   "e": 225.848
+  },
+  {
+   "c": 38,
+   "i": 5,
+   "w": "it's",
+   "s": 225.848,
+   "e": 226.108
+  },
+  {
+   "c": 38,
+   "i": 6,
+   "w": "normal.",
+   "s": 226.108,
+   "e": 226.348
+  },
+  {
+   "c": 38,
+   "i": 7,
+   "w": "A",
+   "s": 226.728,
+   "e": 226.808
+  },
+  {
+   "c": 38,
+   "i": 8,
+   "w": "company",
+   "s": 226.808,
+   "e": 227.068
+  },
+  {
+   "c": 38,
+   "i": 9,
+   "w": "has",
+   "s": 227.068,
+   "e": 227.308
+  },
+  {
+   "c": 38,
+   "i": 10,
+   "w": "to",
+   "s": 227.308,
+   "e": 227.468
+  },
+  {
+   "c": 38,
+   "i": 11,
+   "w": "be",
+   "s": 227.468,
+   "e": 227.568
+  },
+  {
+   "c": 38,
+   "i": 12,
+   "w": "sure",
+   "s": 227.568,
+   "e": 227.768
+  },
+  {
+   "c": 38,
+   "i": 13,
+   "w": "that",
+   "s": 227.768,
+   "e": 227.988
+  },
+  {
+   "c": 38,
+   "i": 14,
+   "w": "the",
+   "s": 227.988,
+   "e": 228.088
+  },
+  {
+   "c": 38,
+   "i": 15,
+   "w": "activity",
+   "s": 228.088,
+   "e": 228.348
+  },
+  {
+   "c": 38,
+   "i": 16,
+   "w": "it",
+   "s": 228.348,
+   "e": 228.628
+  },
+  {
+   "c": 38,
+   "i": 17,
+   "w": "saw",
+   "s": 228.628,
+   "e": 228.828
+  },
+  {
+   "c": 38,
+   "i": 18,
+   "w": "came",
+   "s": 228.828,
+   "e": 229.128
+  },
+  {
+   "c": 38,
+   "i": 19,
+   "w": "from",
+   "s": 229.128,
+   "e": 229.328
+  },
+  {
+   "c": 38,
+   "i": 20,
+   "w": "the",
+   "s": 229.328,
+   "e": 229.448
+  },
+  {
+   "c": 38,
+   "i": 21,
+   "w": "researcher,",
+   "s": 229.448,
+   "e": 229.748
+  },
+  {
+   "c": 38,
+   "i": 22,
+   "w": "and",
+   "s": 230.168,
+   "e": 230.268
+  },
+  {
+   "c": 38,
+   "i": 23,
+   "w": "nobody",
+   "s": 230.268,
+   "e": 230.548
+  },
+  {
+   "c": 38,
+   "i": 24,
+   "w": "else.",
+   "s": 230.548,
+   "e": 230.848
+  },
+  {
+   "c": 39,
+   "i": 0,
+   "w": "Within",
+   "s": 231.599,
+   "e": 231.94
+  },
+  {
+   "c": 39,
+   "i": 1,
+   "w": "about",
+   "s": 231.94,
+   "e": 232.281
+  },
+  {
+   "c": 39,
+   "i": 2,
+   "w": "a",
+   "s": 232.281,
+   "e": 232.622
+  },
+  {
+   "c": 39,
+   "i": 3,
+   "w": "day,",
+   "s": 232.622,
+   "e": 232.963
+  },
+  {
+   "c": 39,
+   "i": 4,
+   "w": "the",
+   "s": 231.549,
+   "e": 232.009
+  },
+  {
+   "c": 39,
+   "i": 5,
+   "w": "doorway",
+   "s": 232.009,
+   "e": 233.089
+  },
+  {
+   "c": 39,
+   "i": 6,
+   "w": "was",
+   "s": 233.089,
+   "e": 233.289
+  },
+  {
+   "c": 39,
+   "i": 7,
+   "w": "locked",
+   "s": 233.289,
+   "e": 233.609
+  },
+  {
+   "c": 39,
+   "i": 8,
+   "w": "down.",
+   "s": 233.609,
+   "e": 234.029
+  },
+  {
+   "c": 39,
+   "i": 9,
+   "w": "Microsoft",
+   "s": 234.569,
+   "e": 234.709
+  },
+  {
+   "c": 39,
+   "i": 10,
+   "w": "told",
+   "s": 234.709,
+   "e": 235.189
+  },
+  {
+   "c": 39,
+   "i": 11,
+   "w": "him",
+   "s": 235.189,
+   "e": 235.369
+  },
+  {
+   "c": 39,
+   "i": 12,
+   "w": "his",
+   "s": 235.369,
+   "e": 235.489
+  },
+  {
+   "c": 39,
+   "i": 13,
+   "w": "report",
+   "s": 235.489,
+   "e": 235.749
+  },
+  {
+   "c": 39,
+   "i": 14,
+   "w": "prompted",
+   "s": 235.749,
+   "e": 236.209
+  },
+  {
+   "c": 39,
+   "i": 15,
+   "w": "an",
+   "s": 236.209,
+   "e": 236.349
+  },
+  {
+   "c": 39,
+   "i": 16,
+   "w": "immediate",
+   "s": 236.349,
+   "e": 236.529
+  },
+  {
+   "c": 39,
+   "i": 17,
+   "w": "investigation.",
+   "s": 236.529,
+   "e": 237.449
+  },
+  {
+   "c": 40,
+   "i": 0,
+   "w": "And",
+   "s": 238.035,
+   "e": 238.215
+  },
+  {
+   "c": 40,
+   "i": 1,
+   "w": "quick",
+   "s": 238.215,
+   "e": 238.355
+  },
+  {
+   "c": 40,
+   "i": 2,
+   "w": "favour.",
+   "s": 238.355,
+   "e": 238.675
+  },
+  {
+   "c": 40,
+   "i": 3,
+   "w": "If",
+   "s": 239.115,
+   "e": 239.135
+  },
+  {
+   "c": 40,
+   "i": 4,
+   "w": "you",
+   "s": 239.135,
+   "e": 239.215
+  },
+  {
+   "c": 40,
+   "i": 5,
+   "w": "like",
+   "s": 239.215,
+   "e": 239.355
+  },
+  {
+   "c": 40,
+   "i": 6,
+   "w": "stories",
+   "s": 239.355,
+   "e": 239.615
+  },
+  {
+   "c": 40,
+   "i": 7,
+   "w": "where",
+   "s": 239.615,
+   "e": 239.915
+  },
+  {
+   "c": 40,
+   "i": 8,
+   "w": "one",
+   "s": 239.915,
+   "e": 240.095
+  },
+  {
+   "c": 40,
+   "i": 9,
+   "w": "person",
+   "s": 240.095,
+   "e": 240.295
+  },
+  {
+   "c": 40,
+   "i": 10,
+   "w": "takes",
+   "s": 240.295,
+   "e": 240.595
+  },
+  {
+   "c": 40,
+   "i": 11,
+   "w": "on",
+   "s": 240.595,
+   "e": 240.775
+  },
+  {
+   "c": 40,
+   "i": 12,
+   "w": "a",
+   "s": 240.775,
+   "e": 240.875
+  },
+  {
+   "c": 40,
+   "i": 13,
+   "w": "giant,",
+   "s": 240.875,
+   "e": 241.115
+  },
+  {
+   "c": 40,
+   "i": 14,
+   "w": "hit",
+   "s": 241.355,
+   "e": 241.435
+  },
+  {
+   "c": 40,
+   "i": 15,
+   "w": "subscribe.",
+   "s": 241.435,
+   "e": 241.735
+  },
+  {
+   "c": 40,
+   "i": 16,
+   "w": "A",
+   "s": 242.295,
+   "e": 242.315
+  },
+  {
+   "c": 40,
+   "i": 17,
+   "w": "sixteen-year-old",
+   "s": 242.315,
+   "e": 242.935
+  },
+  {
+   "c": 40,
+   "i": 18,
+   "w": "would",
+   "s": 242.935,
+   "e": 243.035
+  },
+  {
+   "c": 40,
+   "i": 19,
+   "w": "appreciate",
+   "s": 243.035,
+   "e": 243.315
+  },
+  {
+   "c": 40,
+   "i": 20,
+   "w": "it,",
+   "s": 243.315,
+   "e": 243.635
+  },
+  {
+   "c": 40,
+   "i": 21,
+   "w": "and",
+   "s": 243.755,
+   "e": 243.795
+  },
+  {
+   "c": 40,
+   "i": 22,
+   "w": "so",
+   "s": 243.795,
+   "e": 244.035
+  },
+  {
+   "c": 40,
+   "i": 23,
+   "w": "would",
+   "s": 244.035,
+   "e": 244.155
+  },
+  {
+   "c": 40,
+   "i": 24,
+   "w": "I.",
+   "s": 244.155,
+   "e": 244.295
+  },
+  {
+   "c": 41,
+   "i": 0,
+   "w": "On",
+   "s": 244.947,
+   "e": 245.107
+  },
+  {
+   "c": 41,
+   "i": 1,
+   "w": "September",
+   "s": 245.107,
+   "e": 245.307
+  },
+  {
+   "c": 41,
+   "i": 2,
+   "w": "seventeenth,",
+   "s": 245.307,
+   "e": 245.947
+  },
+  {
+   "c": 41,
+   "i": 3,
+   "w": "the",
+   "s": 246.207,
+   "e": 246.287
+  },
+  {
+   "c": 41,
+   "i": 4,
+   "w": "reward",
+   "s": 246.287,
+   "e": 246.487
+  },
+  {
+   "c": 41,
+   "i": 5,
+   "w": "arrived.",
+   "s": 246.487,
+   "e": 246.907
+  },
+  {
+   "c": 41,
+   "i": 6,
+   "w": "Five",
+   "s": 247.327,
+   "e": 247.487
+  },
+  {
+   "c": 41,
+   "i": 7,
+   "w": "thousand",
+   "s": 247.487,
+   "e": 247.827
+  },
+  {
+   "c": 41,
+   "i": 8,
+   "w": "dollars.",
+   "s": 247.827,
+   "e": 248.227
+  },
+  {
+   "c": 42,
+   "i": 0,
+   "w": "For",
+   "s": 248.879,
+   "e": 249.039
+  },
+  {
+   "c": 42,
+   "i": 1,
+   "w": "a",
+   "s": 249.039,
+   "e": 249.159
+  },
+  {
+   "c": 42,
+   "i": 2,
+   "w": "sixteen-year-old,",
+   "s": 249.159,
+   "e": 249.899
+  },
+  {
+   "c": 42,
+   "i": 3,
+   "w": "that's",
+   "s": 250.099,
+   "e": 250.299
+  },
+  {
+   "c": 42,
+   "i": 4,
+   "w": "a",
+   "s": 250.299,
+   "e": 250.319
+  },
+  {
+   "c": 42,
+   "i": 5,
+   "w": "lot",
+   "s": 250.319,
+   "e": 250.479
+  },
+  {
+   "c": 42,
+   "i": 6,
+   "w": "of",
+   "s": 250.479,
+   "e": 250.539
+  },
+  {
+   "c": 42,
+   "i": 7,
+   "w": "money.",
+   "s": 250.539,
+   "e": 250.759
+  },
+  {
+   "c": 42,
+   "i": 8,
+   "w": "But",
+   "s": 251.579,
+   "e": 251.579
+  },
+  {
+   "c": 42,
+   "i": 9,
+   "w": "look",
+   "s": 251.579,
+   "e": 251.699
+  },
+  {
+   "c": 42,
+   "i": 10,
+   "w": "at",
+   "s": 251.699,
+   "e": 251.819
+  },
+  {
+   "c": 42,
+   "i": 11,
+   "w": "what",
+   "s": 251.819,
+   "e": 251.899
+  },
+  {
+   "c": 42,
+   "i": 12,
+   "w": "he",
+   "s": 251.899,
+   "e": 251.979
+  },
+  {
+   "c": 42,
+   "i": 13,
+   "w": "found.",
+   "s": 251.979,
+   "e": 252.219
+  },
+  {
+   "c": 42,
+   "i": 14,
+   "w": "Admin",
+   "s": 252.879,
+   "e": 252.879
+  },
+  {
+   "c": 42,
+   "i": 15,
+   "w": "access",
+   "s": 252.879,
+   "e": 253.219
+  },
+  {
+   "c": 42,
+   "i": 16,
+   "w": "to",
+   "s": 253.219,
+   "e": 253.559
+  },
+  {
+   "c": 42,
+   "i": 17,
+   "w": "an",
+   "s": 253.559,
+   "e": 253.639
+  },
+  {
+   "c": 42,
+   "i": 18,
+   "w": "internal",
+   "s": 253.639,
+   "e": 253.839
+  },
+  {
+   "c": 42,
+   "i": 19,
+   "w": "Microsoft",
+   "s": 253.839,
+   "e": 254.179
+  },
+  {
+   "c": 42,
+   "i": 20,
+   "w": "platform,",
+   "s": 254.179,
+   "e": 254.899
+  },
+  {
+   "c": 42,
+   "i": 21,
+   "w": "sitting",
+   "s": 255.199,
+   "e": 255.379
+  },
+  {
+   "c": 42,
+   "i": 22,
+   "w": "on",
+   "s": 255.379,
+   "e": 255.579
+  },
+  {
+   "c": 42,
+   "i": 23,
+   "w": "top",
+   "s": 255.579,
+   "e": 255.739
+  },
+  {
+   "c": 42,
+   "i": 24,
+   "w": "of",
+   "s": 255.739,
+   "e": 255.879
+  },
+  {
+   "c": 42,
+   "i": 25,
+   "w": "trillions",
+   "s": 255.879,
+   "e": 256.139
+  },
+  {
+   "c": 42,
+   "i": 26,
+   "w": "of",
+   "s": 256.139,
+   "e": 256.579
+  },
+  {
+   "c": 42,
+   "i": 27,
+   "w": "rows.",
+   "s": 256.579,
+   "e": 256.739
+  },
+  {
+   "c": 43,
+   "i": 0,
+   "w": "One",
+   "s": 257.469,
+   "e": 257.669
+  },
+  {
+   "c": 43,
+   "i": 1,
+   "w": "writer",
+   "s": 257.669,
+   "e": 257.829
+  },
+  {
+   "c": 43,
+   "i": 2,
+   "w": "covering",
+   "s": 257.829,
+   "e": 258.169
+  },
+  {
+   "c": 43,
+   "i": 3,
+   "w": "the",
+   "s": 258.169,
+   "e": 258.349
+  },
+  {
+   "c": 43,
+   "i": 4,
+   "w": "story",
+   "s": 258.349,
+   "e": 258.529
+  },
+  {
+   "c": 43,
+   "i": 5,
+   "w": "put",
+   "s": 258.529,
+   "e": 258.729
+  },
+  {
+   "c": 43,
+   "i": 6,
+   "w": "it",
+   "s": 258.729,
+   "e": 258.809
+  },
+  {
+   "c": 43,
+   "i": 7,
+   "w": "bluntly.",
+   "s": 258.809,
+   "e": 258.989
+  },
+  {
+   "c": 43,
+   "i": 8,
+   "w": "They",
+   "s": 259.589,
+   "e": 259.709
+  },
+  {
+   "c": 43,
+   "i": 9,
+   "w": "better",
+   "s": 259.709,
+   "e": 259.869
+  },
+  {
+   "c": 43,
+   "i": 10,
+   "w": "have",
+   "s": 259.869,
+   "e": 260.069
+  },
+  {
+   "c": 43,
+   "i": 11,
+   "w": "paid",
+   "s": 260.069,
+   "e": 260.209
+  },
+  {
+   "c": 43,
+   "i": 12,
+   "w": "this",
+   "s": 260.209,
+   "e": 260.409
+  },
+  {
+   "c": 43,
+   "i": 13,
+   "w": "kid",
+   "s": 260.409,
+   "e": 260.589
+  },
+  {
+   "c": 43,
+   "i": 14,
+   "w": "a",
+   "s": 260.589,
+   "e": 260.649
+  },
+  {
+   "c": 43,
+   "i": 15,
+   "w": "proper",
+   "s": 260.649,
+   "e": 260.809
+  },
+  {
+   "c": 43,
+   "i": 16,
+   "w": "bounty.",
+   "s": 260.809,
+   "e": 261.109
+  },
+  {
+   "c": 44,
+   "i": 0,
+   "w": "But",
+   "s": 261.821,
+   "e": 262.127
+  },
+  {
+   "c": 44,
+   "i": 1,
+   "w": "there",
+   "s": 262.127,
+   "e": 262.434
+  },
+  {
+   "c": 44,
+   "i": 2,
+   "w": "is",
+   "s": 262.434,
+   "e": 262.74
+  },
+  {
+   "c": 44,
+   "i": 3,
+   "w": "another",
+   "s": 262.74,
+   "e": 263.047
+  },
+  {
+   "c": 44,
+   "i": 4,
+   "w": "side.",
+   "s": 263.047,
+   "e": 263.353
+  },
+  {
+   "c": 44,
+   "i": 5,
+   "w": "Bug",
+   "s": 263.353,
+   "e": 263.66
+  },
+  {
+   "c": 44,
+   "i": 6,
+   "w": "bounty",
+   "s": 263.66,
+   "e": 263.966
+  },
+  {
+   "c": 44,
+   "i": 7,
+   "w": "programs",
+   "s": 263.966,
+   "e": 264.272
+  },
+  {
+   "c": 44,
+   "i": 8,
+   "w": "usually",
+   "s": 264.272,
+   "e": 264.579
+  },
+  {
+   "c": 44,
+   "i": 9,
+   "w": "pay",
+   "s": 264.579,
+   "e": 264.885
+  },
+  {
+   "c": 44,
+   "i": 10,
+   "w": "from",
+   "s": 264.885,
+   "e": 265.192
+  },
+  {
+   "c": 44,
+   "i": 11,
+   "w": "a",
+   "s": 265.192,
+   "e": 265.498
+  },
+  {
+   "c": 44,
+   "i": 12,
+   "w": "fixed",
+   "s": 265.498,
+   "e": 265.804
+  },
+  {
+   "c": 44,
+   "i": 13,
+   "w": "table.",
+   "s": 265.804,
+   "e": 266.111
+  },
+  {
+   "c": 44,
+   "i": 14,
+   "w": "The",
+   "s": 266.111,
+   "e": 266.417
+  },
+  {
+   "c": 44,
+   "i": 15,
+   "w": "price",
+   "s": 266.417,
+   "e": 266.724
+  },
+  {
+   "c": 44,
+   "i": 16,
+   "w": "depends",
+   "s": 266.724,
+   "e": 267.03
+  },
+  {
+   "c": 44,
+   "i": 17,
+   "w": "on",
+   "s": 267.03,
+   "e": 267.336
+  },
+  {
+   "c": 44,
+   "i": 18,
+   "w": "the",
+   "s": 267.336,
+   "e": 267.643
+  },
+  {
+   "c": 44,
+   "i": 19,
+   "w": "type",
+   "s": 267.643,
+   "e": 267.949
+  },
+  {
+   "c": 44,
+   "i": 20,
+   "w": "of",
+   "s": 267.949,
+   "e": 268.256
+  },
+  {
+   "c": 44,
+   "i": 21,
+   "w": "bug",
+   "s": 268.256,
+   "e": 268.562
+  },
+  {
+   "c": 44,
+   "i": 22,
+   "w": "and",
+   "s": 268.251,
+   "e": 268.771
+  },
+  {
+   "c": 44,
+   "i": 23,
+   "w": "on",
+   "s": 268.869,
+   "e": 269.175
+  },
+  {
+   "c": 44,
+   "i": 24,
+   "w": "what",
+   "s": 269.175,
+   "e": 269.481
+  },
+  {
+   "c": 44,
+   "i": 25,
+   "w": "was",
+   "s": 269.481,
+   "e": 269.788
+  },
+  {
+   "c": 44,
+   "i": 26,
+   "w": "actually",
+   "s": 269.788,
+   "e": 270.094
+  },
+  {
+   "c": 44,
+   "i": 27,
+   "w": "exposed,",
+   "s": 270.094,
+   "e": 270.401
+  },
+  {
+   "c": 44,
+   "i": 28,
+   "w": "not",
+   "s": 270.401,
+   "e": 270.707
+  },
+  {
+   "c": 44,
+   "i": 29,
+   "w": "on",
+   "s": 270.707,
+   "e": 271.013
+  },
+  {
+   "c": 44,
+   "i": 30,
+   "w": "the",
+   "s": 271.013,
+   "e": 271.32
+  },
+  {
+   "c": 44,
+   "i": 31,
+   "w": "biggest",
+   "s": 271.32,
+   "e": 271.626
+  },
+  {
+   "c": 44,
+   "i": 32,
+   "w": "possible",
+   "s": 271.626,
+   "e": 271.933
+  },
+  {
+   "c": 44,
+   "i": 33,
+   "w": "number.",
+   "s": 271.933,
+   "e": 272.239
+  },
+  {
+   "c": 44,
+   "i": 34,
+   "w": "And",
+   "s": 272.239,
+   "e": 272.546
+  },
+  {
+   "c": 44,
+   "i": 35,
+   "w": "Microsoft's",
+   "s": 272.546,
+   "e": 272.852
+  },
+  {
+   "c": 44,
+   "i": 36,
+   "w": "own",
+   "s": 272.852,
+   "e": 273.158
+  },
+  {
+   "c": 44,
+   "i": 37,
+   "w": "programs",
+   "s": 273.158,
+   "e": 273.465
+  },
+  {
+   "c": 44,
+   "i": 38,
+   "w": "advertise",
+   "s": 273.465,
+   "e": 273.771
+  },
+  {
+   "c": 44,
+   "i": 39,
+   "w": "much",
+   "s": 273.771,
+   "e": 274.078
+  },
+  {
+   "c": 44,
+   "i": 40,
+   "w": "bigger",
+   "s": 274.078,
+   "e": 274.384
+  },
+  {
+   "c": 44,
+   "i": 41,
+   "w": "rewards",
+   "s": 274.384,
+   "e": 274.691
+  },
+  {
+   "c": 44,
+   "i": 42,
+   "w": "for",
+   "s": 274.691,
+   "e": 274.997
+  },
+  {
+   "c": 44,
+   "i": 43,
+   "w": "the",
+   "s": 274.997,
+   "e": 275.303
+  },
+  {
+   "c": 44,
+   "i": 44,
+   "w": "most",
+   "s": 275.303,
+   "e": 275.61
+  },
+  {
+   "c": 44,
+   "i": 45,
+   "w": "serious",
+   "s": 275.61,
+   "e": 275.916
+  },
+  {
+   "c": 44,
+   "i": 46,
+   "w": "bugs.",
+   "s": 275.916,
+   "e": 276.223
+  },
+  {
+   "c": 44,
+   "i": 47,
+   "w": "So",
+   "s": 276.223,
+   "e": 276.529
+  },
+  {
+   "c": 44,
+   "i": 48,
+   "w": "in",
+   "s": 276.529,
+   "e": 276.835
+  },
+  {
+   "c": 44,
+   "i": 49,
+   "w": "their",
+   "s": 276.835,
+   "e": 277.142
+  },
+  {
+   "c": 44,
+   "i": 50,
+   "w": "eyes,",
+   "s": 277.142,
+   "e": 277.448
+  },
+  {
+   "c": 44,
+   "i": 51,
+   "w": "this",
+   "s": 268.771,
+   "e": 269.291
+  },
+  {
+   "c": 44,
+   "i": 52,
+   "w": "one",
+   "s": 269.291,
+   "e": 269.291
+  },
+  {
+   "c": 44,
+   "i": 53,
+   "w": "may",
+   "s": 269.291,
+   "e": 269.431
+  },
+  {
+   "c": 44,
+   "i": 54,
+   "w": "simply",
+   "s": 269.431,
+   "e": 278.911
+  },
+  {
+   "c": 44,
+   "i": 55,
+   "w": "not",
+   "s": 278.911,
+   "e": 279.171
+  },
+  {
+   "c": 44,
+   "i": 56,
+   "w": "have",
+   "s": 279.171,
+   "e": 279.311
+  },
+  {
+   "c": 44,
+   "i": 57,
+   "w": "reached",
+   "s": 279.311,
+   "e": 279.431
+  },
+  {
+   "c": 44,
+   "i": 58,
+   "w": "that",
+   "s": 279.431,
+   "e": 279.671
+  },
+  {
+   "c": 44,
+   "i": 59,
+   "w": "level.",
+   "s": 279.671,
+   "e": 279.931
+  },
+  {
+   "c": 45,
+   "i": 0,
+   "w": "And",
+   "s": 280.506,
+   "e": 280.766
+  },
+  {
+   "c": 45,
+   "i": 1,
+   "w": "then",
+   "s": 280.766,
+   "e": 280.866
+  },
+  {
+   "c": 45,
+   "i": 2,
+   "w": "there's",
+   "s": 280.866,
+   "e": 281.066
+  },
+  {
+   "c": 45,
+   "i": 3,
+   "w": "the",
+   "s": 281.066,
+   "e": 281.146
+  },
+  {
+   "c": 45,
+   "i": 4,
+   "w": "part",
+   "s": 281.146,
+   "e": 281.326
+  },
+  {
+   "c": 45,
+   "i": 5,
+   "w": "that",
+   "s": 281.326,
+   "e": 281.466
+  },
+  {
+   "c": 45,
+   "i": 6,
+   "w": "made",
+   "s": 281.466,
+   "e": 281.606
+  },
+  {
+   "c": 45,
+   "i": 7,
+   "w": "people",
+   "s": 281.606,
+   "e": 281.806
+  },
+  {
+   "c": 45,
+   "i": 8,
+   "w": "raise",
+   "s": 281.806,
+   "e": 282.046
+  },
+  {
+   "c": 45,
+   "i": 9,
+   "w": "their",
+   "s": 282.046,
+   "e": 282.226
+  },
+  {
+   "c": 45,
+   "i": 10,
+   "w": "eyebrows.",
+   "s": 282.226,
+   "e": 282.526
+  },
+  {
+   "c": 46,
+   "i": 0,
+   "w": "Before",
+   "s": 283.359,
+   "e": 283.66
+  },
+  {
+   "c": 46,
+   "i": 1,
+   "w": "his",
+   "s": 283.66,
+   "e": 283.962
+  },
+  {
+   "c": 46,
+   "i": 2,
+   "w": "blog",
+   "s": 283.962,
+   "e": 284.263
+  },
+  {
+   "c": 46,
+   "i": 3,
+   "w": "post",
+   "s": 284.263,
+   "e": 284.565
+  },
+  {
+   "c": 46,
+   "i": 4,
+   "w": "went",
+   "s": 284.565,
+   "e": 284.866
+  },
+  {
+   "c": 46,
+   "i": 5,
+   "w": "public,",
+   "s": 284.866,
+   "e": 285.168
+  },
+  {
+   "c": 46,
+   "i": 6,
+   "w": "Faav",
+   "s": 285.168,
+   "e": 285.469
+  },
+  {
+   "c": 46,
+   "i": 7,
+   "w": "says",
+   "s": 285.469,
+   "e": 285.771
+  },
+  {
+   "c": 46,
+   "i": 8,
+   "w": "he",
+   "s": 285.771,
+   "e": 286.072
+  },
+  {
+   "c": 46,
+   "i": 9,
+   "w": "rewrote",
+   "s": 286.072,
+   "e": 286.373
+  },
+  {
+   "c": 46,
+   "i": 10,
+   "w": "it",
+   "s": 286.373,
+   "e": 286.675
+  },
+  {
+   "c": 46,
+   "i": 11,
+   "w": "at",
+   "s": 286.675,
+   "e": 286.976
+  },
+  {
+   "c": 46,
+   "i": 12,
+   "w": "Microsoft's",
+   "s": 286.976,
+   "e": 287.278
+  },
+  {
+   "c": 46,
+   "i": 13,
+   "w": "request.",
+   "s": 287.278,
+   "e": 287.579
+  },
+  {
+   "c": 46,
+   "i": 14,
+   "w": "Sections",
+   "s": 287.579,
+   "e": 287.881
+  },
+  {
+   "c": 46,
+   "i": 15,
+   "w": "were",
+   "s": 287.881,
+   "e": 288.182
+  },
+  {
+   "c": 46,
+   "i": 16,
+   "w": "cut.",
+   "s": 288.182,
+   "e": 288.484
+  },
+  {
+   "c": 46,
+   "i": 17,
+   "w": "Numbers",
+   "s": 288.484,
+   "e": 288.785
+  },
+  {
+   "c": 46,
+   "i": 18,
+   "w": "were",
+   "s": 288.785,
+   "e": 289.087
+  },
+  {
+   "c": 46,
+   "i": 19,
+   "w": "removed.",
+   "s": 289.087,
+   "e": 289.388
+  },
+  {
+   "c": 46,
+   "i": 20,
+   "w": "And",
+   "s": 289.388,
+   "e": 289.689
+  },
+  {
+   "c": 46,
+   "i": 21,
+   "w": "the",
+   "s": 287.509,
+   "e": 288.229
+  },
+  {
+   "c": 46,
+   "i": 22,
+   "w": "way",
+   "s": 288.229,
+   "e": 288.949
+  },
+  {
+   "c": 46,
+   "i": 23,
+   "w": "he",
+   "s": 288.949,
+   "e": 289.069
+  },
+  {
+   "c": 46,
+   "i": 24,
+   "w": "described",
+   "s": 289.069,
+   "e": 290.569
+  },
+  {
+   "c": 46,
+   "i": 25,
+   "w": "the",
+   "s": 290.569,
+   "e": 290.869
+  },
+  {
+   "c": 46,
+   "i": 26,
+   "w": "impact",
+   "s": 290.869,
+   "e": 291.129
+  },
+  {
+   "c": 46,
+   "i": 27,
+   "w": "was",
+   "s": 291.129,
+   "e": 291.369
+  },
+  {
+   "c": 46,
+   "i": 28,
+   "w": "changed.",
+   "s": 291.369,
+   "e": 291.729
+  },
+  {
+   "c": 47,
+   "i": 0,
+   "w": "Microsoft's",
+   "s": 292.401,
+   "e": 293.061
+  },
+  {
+   "c": 47,
+   "i": 1,
+   "w": "official",
+   "s": 293.061,
+   "e": 293.201
+  },
+  {
+   "c": 47,
+   "i": 2,
+   "w": "statement",
+   "s": 293.201,
+   "e": 293.521
+  },
+  {
+   "c": 47,
+   "i": 3,
+   "w": "thanked",
+   "s": 293.521,
+   "e": 293.881
+  },
+  {
+   "c": 47,
+   "i": 4,
+   "w": "him.",
+   "s": 293.881,
+   "e": 294.081
+  },
+  {
+   "c": 47,
+   "i": 5,
+   "w": "They",
+   "s": 294.601,
+   "e": 294.621
+  },
+  {
+   "c": 47,
+   "i": 6,
+   "w": "said",
+   "s": 294.621,
+   "e": 294.781
+  },
+  {
+   "c": 47,
+   "i": 7,
+   "w": "his",
+   "s": 294.781,
+   "e": 294.921
+  },
+  {
+   "c": 47,
+   "i": 8,
+   "w": "report",
+   "s": 294.921,
+   "e": 295.121
+  },
+  {
+   "c": 47,
+   "i": 9,
+   "w": "helped",
+   "s": 295.121,
+   "e": 295.361
+  },
+  {
+   "c": 47,
+   "i": 10,
+   "w": "them",
+   "s": 295.361,
+   "e": 295.541
+  },
+  {
+   "c": 47,
+   "i": 11,
+   "w": "better",
+   "s": 295.541,
+   "e": 295.701
+  },
+  {
+   "c": 47,
+   "i": 12,
+   "w": "protect",
+   "s": 295.701,
+   "e": 295.961
+  },
+  {
+   "c": 47,
+   "i": 13,
+   "w": "their",
+   "s": 295.961,
+   "e": 296.161
+  },
+  {
+   "c": 47,
+   "i": 14,
+   "w": "customers,",
+   "s": 296.161,
+   "e": 296.401
+  },
+  {
+   "c": 47,
+   "i": 15,
+   "w": "and",
+   "s": 296.821,
+   "e": 296.901
+  },
+  {
+   "c": 47,
+   "i": 16,
+   "w": "that",
+   "s": 296.901,
+   "e": 297.001
+  },
+  {
+   "c": 47,
+   "i": 17,
+   "w": "they",
+   "s": 297.001,
+   "e": 297.121
+  },
+  {
+   "c": 47,
+   "i": 18,
+   "w": "look",
+   "s": 297.121,
+   "e": 297.221
+  },
+  {
+   "c": 47,
+   "i": 19,
+   "w": "forward",
+   "s": 297.221,
+   "e": 297.441
+  },
+  {
+   "c": 47,
+   "i": 20,
+   "w": "to",
+   "s": 297.441,
+   "e": 297.621
+  },
+  {
+   "c": 47,
+   "i": 21,
+   "w": "working",
+   "s": 297.621,
+   "e": 297.821
+  },
+  {
+   "c": 47,
+   "i": 22,
+   "w": "with",
+   "s": 297.821,
+   "e": 297.981
+  },
+  {
+   "c": 47,
+   "i": 23,
+   "w": "Faav",
+   "s": 297.981,
+   "e": 298.121
+  },
+  {
+   "c": 47,
+   "i": 24,
+   "w": "in",
+   "s": 298.121,
+   "e": 298.321
+  },
+  {
+   "c": 47,
+   "i": 25,
+   "w": "the",
+   "s": 298.321,
+   "e": 298.381
+  },
+  {
+   "c": 47,
+   "i": 26,
+   "w": "future.",
+   "s": 298.381,
+   "e": 298.681
+  },
+  {
+   "c": 48,
+   "i": 0,
+   "w": "So",
+   "s": 299.273,
+   "e": 299.713
+  },
+  {
+   "c": 48,
+   "i": 1,
+   "w": "on",
+   "s": 299.713,
+   "e": 299.853
+  },
+  {
+   "c": 48,
+   "i": 2,
+   "w": "one",
+   "s": 299.853,
+   "e": 299.973
+  },
+  {
+   "c": 48,
+   "i": 3,
+   "w": "side,",
+   "s": 299.973,
+   "e": 300.333
+  },
+  {
+   "c": 48,
+   "i": 4,
+   "w": "a",
+   "s": 300.333,
+   "e": 300.633
+  },
+  {
+   "c": 48,
+   "i": 5,
+   "w": "company",
+   "s": 300.633,
+   "e": 300.873
+  },
+  {
+   "c": 48,
+   "i": 6,
+   "w": "that",
+   "s": 300.873,
+   "e": 301.073
+  },
+  {
+   "c": 48,
+   "i": 7,
+   "w": "fixed",
+   "s": 301.073,
+   "e": 301.253
+  },
+  {
+   "c": 48,
+   "i": 8,
+   "w": "the",
+   "s": 301.253,
+   "e": 301.433
+  },
+  {
+   "c": 48,
+   "i": 9,
+   "w": "problem",
+   "s": 301.433,
+   "e": 301.693
+  },
+  {
+   "c": 48,
+   "i": 10,
+   "w": "fast",
+   "s": 301.693,
+   "e": 301.953
+  },
+  {
+   "c": 48,
+   "i": 11,
+   "w": "and",
+   "s": 301.953,
+   "e": 302.273
+  },
+  {
+   "c": 48,
+   "i": 12,
+   "w": "paid",
+   "s": 302.273,
+   "e": 302.433
+  },
+  {
+   "c": 48,
+   "i": 13,
+   "w": "the",
+   "s": 302.433,
+   "e": 302.553
+  },
+  {
+   "c": 48,
+   "i": 14,
+   "w": "researcher.",
+   "s": 302.553,
+   "e": 302.893
+  },
+  {
+   "c": 48,
+   "i": 15,
+   "w": "On",
+   "s": 303.613,
+   "e": 303.773
+  },
+  {
+   "c": 48,
+   "i": 16,
+   "w": "the",
+   "s": 303.773,
+   "e": 303.873
+  },
+  {
+   "c": 48,
+   "i": 17,
+   "w": "other,",
+   "s": 303.873,
+   "e": 304.133
+  },
+  {
+   "c": 48,
+   "i": 18,
+   "w": "a",
+   "s": 304.353,
+   "e": 304.413
+  },
+  {
+   "c": 48,
+   "i": 19,
+   "w": "teenager",
+   "s": 304.413,
+   "e": 304.653
+  },
+  {
+   "c": 48,
+   "i": 20,
+   "w": "who",
+   "s": 304.653,
+   "e": 305.013
+  },
+  {
+   "c": 48,
+   "i": 21,
+   "w": "found",
+   "s": 305.013,
+   "e": 305.233
+  },
+  {
+   "c": 48,
+   "i": 22,
+   "w": "a",
+   "s": 305.233,
+   "e": 305.313
+  },
+  {
+   "c": 48,
+   "i": 23,
+   "w": "door",
+   "s": 305.313,
+   "e": 305.533
+  },
+  {
+   "c": 48,
+   "i": 24,
+   "w": "into",
+   "s": 305.533,
+   "e": 305.773
+  },
+  {
+   "c": 48,
+   "i": 25,
+   "w": "trillions",
+   "s": 305.773,
+   "e": 306.053
+  },
+  {
+   "c": 48,
+   "i": 26,
+   "w": "of",
+   "s": 306.053,
+   "e": 306.413
+  },
+  {
+   "c": 48,
+   "i": 27,
+   "w": "rows,",
+   "s": 306.413,
+   "e": 306.613
+  },
+  {
+   "c": 48,
+   "i": 28,
+   "w": "got",
+   "s": 307.073,
+   "e": 307.193
+  },
+  {
+   "c": 48,
+   "i": 29,
+   "w": "five",
+   "s": 307.193,
+   "e": 307.493
+  },
+  {
+   "c": 48,
+   "i": 30,
+   "w": "thousand",
+   "s": 307.493,
+   "e": 307.753
+  },
+  {
+   "c": 48,
+   "i": 31,
+   "w": "dollars,",
+   "s": 307.753,
+   "e": 308.173
+  },
+  {
+   "c": 48,
+   "i": 32,
+   "w": "and",
+   "s": 308.433,
+   "e": 308.493
+  },
+  {
+   "c": 48,
+   "i": 33,
+   "w": "had",
+   "s": 308.493,
+   "e": 308.633
+  },
+  {
+   "c": 48,
+   "i": 34,
+   "w": "his",
+   "s": 308.633,
+   "e": 308.773
+  },
+  {
+   "c": 48,
+   "i": 35,
+   "w": "story",
+   "s": 308.773,
+   "e": 308.973
+  },
+  {
+   "c": 48,
+   "i": 36,
+   "w": "trimmed.",
+   "s": 308.973,
+   "e": 309.313
+  },
+  {
+   "c": 49,
+   "i": 0,
+   "w": "And",
+   "s": 310.072,
+   "e": 310.372
+  },
+  {
+   "c": 49,
+   "i": 1,
+   "w": "this",
+   "s": 310.372,
+   "e": 310.632
+  },
+  {
+   "c": 49,
+   "i": 2,
+   "w": "isn't",
+   "s": 310.632,
+   "e": 310.992
+  },
+  {
+   "c": 49,
+   "i": 3,
+   "w": "the",
+   "s": 310.992,
+   "e": 311.052
+  },
+  {
+   "c": 49,
+   "i": 4,
+   "w": "first",
+   "s": 311.052,
+   "e": 311.232
+  },
+  {
+   "c": 49,
+   "i": 5,
+   "w": "time",
+   "s": 311.232,
+   "e": 311.432
+  },
+  {
+   "c": 49,
+   "i": 6,
+   "w": "a",
+   "s": 311.432,
+   "e": 311.572
+  },
+  {
+   "c": 49,
+   "i": 7,
+   "w": "teenager",
+   "s": 311.572,
+   "e": 311.752
+  },
+  {
+   "c": 49,
+   "i": 8,
+   "w": "beat",
+   "s": 311.752,
+   "e": 312.072
+  },
+  {
+   "c": 49,
+   "i": 9,
+   "w": "a",
+   "s": 312.072,
+   "e": 312.152
+  },
+  {
+   "c": 49,
+   "i": 10,
+   "w": "giant.",
+   "s": 312.152,
+   "e": 312.352
+  },
+  {
+   "c": 49,
+   "i": 11,
+   "w": "In",
+   "s": 313.092,
+   "e": 313.132
+  },
+  {
+   "c": 49,
+   "i": 12,
+   "w": "twenty",
+   "s": 313.132,
+   "e": 313.292
+  },
+  {
+   "c": 49,
+   "i": 13,
+   "w": "nineteen,",
+   "s": 313.292,
+   "e": 313.652
+  },
+  {
+   "c": 49,
+   "i": 14,
+   "w": "a",
+   "s": 314.112,
+   "e": 314.232
+  },
+  {
+   "c": 49,
+   "i": 15,
+   "w": "fourteen-year-old",
+   "s": 314.232,
+   "e": 314.952
+  },
+  {
+   "c": 49,
+   "i": 16,
+   "w": "in",
+   "s": 314.952,
+   "e": 315.072
+  },
+  {
+   "c": 49,
+   "i": 17,
+   "w": "Arizona,",
+   "s": 315.072,
+   "e": 315.372
+  },
+  {
+   "c": 49,
+   "i": 18,
+   "w": "Grant",
+   "s": 315.912,
+   "e": 315.972
+  },
+  {
+   "c": 49,
+   "i": 19,
+   "w": "Thompson,",
+   "s": 315.972,
+   "e": 316.272
+  },
+  {
+   "c": 49,
+   "i": 20,
+   "w": "found",
+   "s": 316.892,
+   "e": 317.152
+  },
+  {
+   "c": 49,
+   "i": 21,
+   "w": "a",
+   "s": 317.152,
+   "e": 317.372
+  },
+  {
+   "c": 49,
+   "i": 22,
+   "w": "FaceTime",
+   "s": 317.372,
+   "e": 317.752
+  },
+  {
+   "c": 49,
+   "i": 23,
+   "w": "bug",
+   "s": 317.752,
+   "e": 318.012
+  },
+  {
+   "c": 49,
+   "i": 24,
+   "w": "that",
+   "s": 318.012,
+   "e": 318.272
+  },
+  {
+   "c": 49,
+   "i": 25,
+   "w": "let",
+   "s": 318.272,
+   "e": 318.392
+  },
+  {
+   "c": 49,
+   "i": 26,
+   "w": "a",
+   "s": 318.392,
+   "e": 318.472
+  },
+  {
+   "c": 49,
+   "i": 27,
+   "w": "caller",
+   "s": 318.472,
+   "e": 318.652
+  },
+  {
+   "c": 49,
+   "i": 28,
+   "w": "hear",
+   "s": 318.652,
+   "e": 318.952
+  },
+  {
+   "c": 49,
+   "i": 29,
+   "w": "the",
+   "s": 318.952,
+   "e": 319.112
+  },
+  {
+   "c": 49,
+   "i": 30,
+   "w": "other",
+   "s": 319.112,
+   "e": 319.272
+  },
+  {
+   "c": 49,
+   "i": 31,
+   "w": "person",
+   "s": 319.272,
+   "e": 319.572
+  },
+  {
+   "c": 49,
+   "i": 32,
+   "w": "before",
+   "s": 319.572,
+   "e": 319.852
+  },
+  {
+   "c": 49,
+   "i": 33,
+   "w": "they",
+   "s": 319.852,
+   "e": 320.072
+  },
+  {
+   "c": 49,
+   "i": 34,
+   "w": "even",
+   "s": 320.072,
+   "e": 320.272
+  },
+  {
+   "c": 49,
+   "i": 35,
+   "w": "picked",
+   "s": 320.272,
+   "e": 320.472
+  },
+  {
+   "c": 49,
+   "i": 36,
+   "w": "up.",
+   "s": 320.472,
+   "e": 320.792
+  },
+  {
+   "c": 50,
+   "i": 0,
+   "w": "His",
+   "s": 321.185,
+   "e": 321.345
+  },
+  {
+   "c": 50,
+   "i": 1,
+   "w": "mom",
+   "s": 321.345,
+   "e": 321.525
+  },
+  {
+   "c": 50,
+   "i": 2,
+   "w": "spent",
+   "s": 321.525,
+   "e": 321.825
+  },
+  {
+   "c": 50,
+   "i": 3,
+   "w": "days",
+   "s": 321.825,
+   "e": 322.085
+  },
+  {
+   "c": 50,
+   "i": 4,
+   "w": "trying",
+   "s": 322.085,
+   "e": 322.485
+  },
+  {
+   "c": 50,
+   "i": 5,
+   "w": "to",
+   "s": 322.485,
+   "e": 322.605
+  },
+  {
+   "c": 50,
+   "i": 6,
+   "w": "get",
+   "s": 322.605,
+   "e": 322.725
+  },
+  {
+   "c": 50,
+   "i": 7,
+   "w": "Apple's",
+   "s": 322.725,
+   "e": 323.065
+  },
+  {
+   "c": 50,
+   "i": 8,
+   "w": "attention.",
+   "s": 323.065,
+   "e": 323.265
+  },
+  {
+   "c": 50,
+   "i": 9,
+   "w": "Apple",
+   "s": 324.145,
+   "e": 324.305
+  },
+  {
+   "c": 50,
+   "i": 10,
+   "w": "fixed",
+   "s": 324.305,
+   "e": 324.585
+  },
+  {
+   "c": 50,
+   "i": 11,
+   "w": "it,",
+   "s": 324.585,
+   "e": 324.805
+  },
+  {
+   "c": 50,
+   "i": 12,
+   "w": "thanked",
+   "s": 325.025,
+   "e": 325.165
+  },
+  {
+   "c": 50,
+   "i": 13,
+   "w": "the",
+   "s": 325.165,
+   "e": 325.405
+  },
+  {
+   "c": 50,
+   "i": 14,
+   "w": "family,",
+   "s": 325.405,
+   "e": 325.625
+  },
+  {
+   "c": 50,
+   "i": 15,
+   "w": "and",
+   "s": 325.985,
+   "e": 326.045
+  },
+  {
+   "c": 50,
+   "i": 16,
+   "w": "said",
+   "s": 326.045,
+   "e": 326.165
+  },
+  {
+   "c": 50,
+   "i": 17,
+   "w": "it",
+   "s": 326.165,
+   "e": 326.305
+  },
+  {
+   "c": 50,
+   "i": 18,
+   "w": "would",
+   "s": 326.305,
+   "e": 326.365
+  },
+  {
+   "c": 50,
+   "i": 19,
+   "w": "help",
+   "s": 326.365,
+   "e": 326.485
+  },
+  {
+   "c": 50,
+   "i": 20,
+   "w": "pay",
+   "s": 326.485,
+   "e": 326.685
+  },
+  {
+   "c": 50,
+   "i": 21,
+   "w": "for",
+   "s": 326.685,
+   "e": 326.805
+  },
+  {
+   "c": 50,
+   "i": 22,
+   "w": "his",
+   "s": 326.805,
+   "e": 326.945
+  },
+  {
+   "c": 50,
+   "i": 23,
+   "w": "education.",
+   "s": 326.945,
+   "e": 327.325
+  },
+  {
+   "c": 51,
+   "i": 0,
+   "w": "So",
+   "s": 328.161,
+   "e": 328.401
+  },
+  {
+   "c": 51,
+   "i": 1,
+   "w": "what's",
+   "s": 328.401,
+   "e": 328.981
+  },
+  {
+   "c": 51,
+   "i": 2,
+   "w": "the",
+   "s": 328.981,
+   "e": 329.081
+  },
+  {
+   "c": 51,
+   "i": 3,
+   "w": "lesson",
+   "s": 329.081,
+   "e": 329.281
+  },
+  {
+   "c": 51,
+   "i": 4,
+   "w": "here?",
+   "s": 329.281,
+   "e": 329.541
+  },
+  {
+   "c": 52,
+   "i": 0,
+   "w": "First,",
+   "s": 330.129,
+   "e": 330.489
+  },
+  {
+   "c": 52,
+   "i": 1,
+   "w": "AI",
+   "s": 330.749,
+   "e": 330.849
+  },
+  {
+   "c": 52,
+   "i": 2,
+   "w": "tools",
+   "s": 330.849,
+   "e": 331.229
+  },
+  {
+   "c": 52,
+   "i": 3,
+   "w": "have",
+   "s": 331.229,
+   "e": 331.469
+  },
+  {
+   "c": 52,
+   "i": 4,
+   "w": "changed",
+   "s": 331.469,
+   "e": 331.669
+  },
+  {
+   "c": 52,
+   "i": 5,
+   "w": "who",
+   "s": 331.669,
+   "e": 331.969
+  },
+  {
+   "c": 52,
+   "i": 6,
+   "w": "can",
+   "s": 331.969,
+   "e": 332.089
+  },
+  {
+   "c": 52,
+   "i": 7,
+   "w": "find",
+   "s": 332.089,
+   "e": 332.309
+  },
+  {
+   "c": 52,
+   "i": 8,
+   "w": "these",
+   "s": 332.309,
+   "e": 332.509
+  },
+  {
+   "c": 52,
+   "i": 9,
+   "w": "holes.",
+   "s": 332.509,
+   "e": 332.729
+  },
+  {
+   "c": 52,
+   "i": 10,
+   "w": "A",
+   "s": 333.729,
+   "e": 333.729
+  },
+  {
+   "c": 52,
+   "i": 11,
+   "w": "teenager",
+   "s": 333.729,
+   "e": 333.929
+  },
+  {
+   "c": 52,
+   "i": 12,
+   "w": "with",
+   "s": 333.929,
+   "e": 334.329
+  },
+  {
+   "c": 52,
+   "i": 13,
+   "w": "a",
+   "s": 334.329,
+   "e": 334.429
+  },
+  {
+   "c": 52,
+   "i": 14,
+   "w": "home-made",
+   "s": 334.429,
+   "e": 334.789
+  },
+  {
+   "c": 52,
+   "i": 15,
+   "w": "assistant",
+   "s": 334.789,
+   "e": 335.069
+  },
+  {
+   "c": 52,
+   "i": 16,
+   "w": "found",
+   "s": 335.069,
+   "e": 335.549
+  },
+  {
+   "c": 52,
+   "i": 17,
+   "w": "something",
+   "s": 335.549,
+   "e": 335.909
+  },
+  {
+   "c": 52,
+   "i": 18,
+   "w": "a",
+   "s": 335.909,
+   "e": 336.109
+  },
+  {
+   "c": 52,
+   "i": 19,
+   "w": "trillion-dollar",
+   "s": 336.109,
+   "e": 336.769
+  },
+  {
+   "c": 52,
+   "i": 20,
+   "w": "company",
+   "s": 336.769,
+   "e": 336.989
+  },
+  {
+   "c": 52,
+   "i": 21,
+   "w": "missed.",
+   "s": 336.989,
+   "e": 337.349
+  },
+  {
+   "c": 53,
+   "i": 0,
+   "w": "And",
+   "s": 338.066,
+   "e": 338.226
+  },
+  {
+   "c": 53,
+   "i": 1,
+   "w": "that",
+   "s": 338.226,
+   "e": 338.346
+  },
+  {
+   "c": 53,
+   "i": 2,
+   "w": "cuts",
+   "s": 338.346,
+   "e": 338.526
+  },
+  {
+   "c": 53,
+   "i": 3,
+   "w": "both",
+   "s": 338.526,
+   "e": 338.786
+  },
+  {
+   "c": 53,
+   "i": 4,
+   "w": "ways.",
+   "s": 338.786,
+   "e": 339.046
+  },
+  {
+   "c": 53,
+   "i": 5,
+   "w": "If",
+   "s": 339.526,
+   "e": 339.586
+  },
+  {
+   "c": 53,
+   "i": 6,
+   "w": "a",
+   "s": 339.586,
+   "e": 339.666
+  },
+  {
+   "c": 53,
+   "i": 7,
+   "w": "kid",
+   "s": 339.666,
+   "e": 339.806
+  },
+  {
+   "c": 53,
+   "i": 8,
+   "w": "can",
+   "s": 339.806,
+   "e": 339.946
+  },
+  {
+   "c": 53,
+   "i": 9,
+   "w": "do",
+   "s": 339.946,
+   "e": 340.086
+  },
+  {
+   "c": 53,
+   "i": 10,
+   "w": "it",
+   "s": 340.086,
+   "e": 340.146
+  },
+  {
+   "c": 53,
+   "i": 11,
+   "w": "for",
+   "s": 340.146,
+   "e": 340.266
+  },
+  {
+   "c": 53,
+   "i": 12,
+   "w": "a",
+   "s": 340.266,
+   "e": 340.326
+  },
+  {
+   "c": 53,
+   "i": 13,
+   "w": "bounty,",
+   "s": 340.326,
+   "e": 340.546
+  },
+  {
+   "c": 53,
+   "i": 14,
+   "w": "someone",
+   "s": 340.846,
+   "e": 340.966
+  },
+  {
+   "c": 53,
+   "i": 15,
+   "w": "else",
+   "s": 340.966,
+   "e": 341.146
+  },
+  {
+   "c": 53,
+   "i": 16,
+   "w": "could",
+   "s": 341.146,
+   "e": 341.326
+  },
+  {
+   "c": 53,
+   "i": 17,
+   "w": "do",
+   "s": 341.326,
+   "e": 341.426
+  },
+  {
+   "c": 53,
+   "i": 18,
+   "w": "it",
+   "s": 341.426,
+   "e": 341.506
+  },
+  {
+   "c": 53,
+   "i": 19,
+   "w": "for",
+   "s": 341.506,
+   "e": 341.626
+  },
+  {
+   "c": 53,
+   "i": 20,
+   "w": "a",
+   "s": 341.626,
+   "e": 341.706
+  },
+  {
+   "c": 53,
+   "i": 21,
+   "w": "ransom.",
+   "s": 341.706,
+   "e": 341.906
+  },
+  {
+   "c": 54,
+   "i": 0,
+   "w": "That's",
+   "s": 342.663,
+   "e": 342.923
+  },
+  {
+   "c": 54,
+   "i": 1,
+   "w": "why",
+   "s": 342.923,
+   "e": 343.043
+  },
+  {
+   "c": 54,
+   "i": 2,
+   "w": "security",
+   "s": 343.043,
+   "e": 343.263
+  },
+  {
+   "c": 54,
+   "i": 3,
+   "w": "teams",
+   "s": 343.263,
+   "e": 343.783
+  },
+  {
+   "c": 54,
+   "i": 4,
+   "w": "are",
+   "s": 343.783,
+   "e": 343.923
+  },
+  {
+   "c": 54,
+   "i": 5,
+   "w": "now",
+   "s": 343.923,
+   "e": 344.063
+  },
+  {
+   "c": 54,
+   "i": 6,
+   "w": "pointing",
+   "s": 344.063,
+   "e": 344.363
+  },
+  {
+   "c": 54,
+   "i": 7,
+   "w": "AI",
+   "s": 344.363,
+   "e": 344.663
+  },
+  {
+   "c": 54,
+   "i": 8,
+   "w": "at",
+   "s": 344.663,
+   "e": 345.083
+  },
+  {
+   "c": 54,
+   "i": 9,
+   "w": "their",
+   "s": 345.083,
+   "e": 345.203
+  },
+  {
+   "c": 54,
+   "i": 10,
+   "w": "own",
+   "s": 345.203,
+   "e": 345.403
+  },
+  {
+   "c": 54,
+   "i": 11,
+   "w": "systems",
+   "s": 345.403,
+   "e": 345.643
+  },
+  {
+   "c": 54,
+   "i": 12,
+   "w": "too.",
+   "s": 345.643,
+   "e": 346.043
+  },
+  {
+   "c": 54,
+   "i": 13,
+   "w": "Whoever",
+   "s": 347.083,
+   "e": 347.083
+  },
+  {
+   "c": 54,
+   "i": 14,
+   "w": "finds",
+   "s": 347.083,
+   "e": 347.403
+  },
+  {
+   "c": 54,
+   "i": 15,
+   "w": "the",
+   "s": 347.403,
+   "e": 347.583
+  },
+  {
+   "c": 54,
+   "i": 16,
+   "w": "hole",
+   "s": 347.583,
+   "e": 347.723
+  },
+  {
+   "c": 54,
+   "i": 17,
+   "w": "first,",
+   "s": 347.723,
+   "e": 348.103
+  },
+  {
+   "c": 54,
+   "i": 18,
+   "w": "wins.",
+   "s": 348.623,
+   "e": 348.683
+  },
+  {
+   "c": 55,
+   "i": 0,
+   "w": "Second,",
+   "s": 349.536,
+   "e": 349.896
+  },
+  {
+   "c": 55,
+   "i": 1,
+   "w": "if",
+   "s": 350.276,
+   "e": 350.336
+  },
+  {
+   "c": 55,
+   "i": 2,
+   "w": "this",
+   "s": 350.336,
+   "e": 350.476
+  },
+  {
+   "c": 55,
+   "i": 3,
+   "w": "kind",
+   "s": 350.476,
+   "e": 350.676
+  },
+  {
+   "c": 55,
+   "i": 4,
+   "w": "of",
+   "s": 350.676,
+   "e": 350.816
+  },
+  {
+   "c": 55,
+   "i": 5,
+   "w": "thing",
+   "s": 350.816,
+   "e": 350.976
+  },
+  {
+   "c": 55,
+   "i": 6,
+   "w": "excites",
+   "s": 350.976,
+   "e": 351.276
+  },
+  {
+   "c": 55,
+   "i": 7,
+   "w": "you,",
+   "s": 351.276,
+   "e": 351.556
+  },
+  {
+   "c": 55,
+   "i": 8,
+   "w": "do",
+   "s": 351.756,
+   "e": 351.856
+  },
+  {
+   "c": 55,
+   "i": 9,
+   "w": "it",
+   "s": 351.856,
+   "e": 351.976
+  },
+  {
+   "c": 55,
+   "i": 10,
+   "w": "the",
+   "s": 351.976,
+   "e": 352.076
+  },
+  {
+   "c": 55,
+   "i": 11,
+   "w": "way",
+   "s": 352.076,
+   "e": 352.216
+  },
+  {
+   "c": 55,
+   "i": 12,
+   "w": "Faav",
+   "s": 352.216,
+   "e": 352.636
+  },
+  {
+   "c": 55,
+   "i": 13,
+   "w": "did.",
+   "s": 352.636,
+   "e": 352.876
+  },
+  {
+   "c": 55,
+   "i": 14,
+   "w": "Through",
+   "s": 353.276,
+   "e": 353.316
+  },
+  {
+   "c": 55,
+   "i": 15,
+   "w": "official",
+   "s": 353.316,
+   "e": 353.656
+  },
+  {
+   "c": 55,
+   "i": 16,
+   "w": "bug",
+   "s": 353.656,
+   "e": 353.876
+  },
+  {
+   "c": 55,
+   "i": 17,
+   "w": "bounty",
+   "s": 353.876,
+   "e": 354.176
+  },
+  {
+   "c": 55,
+   "i": 18,
+   "w": "programs,",
+   "s": 354.176,
+   "e": 354.596
+  },
+  {
+   "c": 55,
+   "i": 19,
+   "w": "with",
+   "s": 354.896,
+   "e": 354.936
+  },
+  {
+   "c": 55,
+   "i": 20,
+   "w": "permission.",
+   "s": 354.936,
+   "e": 355.236
+  },
+  {
+   "c": 55,
+   "i": 21,
+   "w": "Testing",
+   "s": 355.796,
+   "e": 355.936
+  },
+  {
+   "c": 55,
+   "i": 22,
+   "w": "a",
+   "s": 355.936,
+   "e": 356.116
+  },
+  {
+   "c": 55,
+   "i": 23,
+   "w": "system",
+   "s": 356.116,
+   "e": 356.356
+  },
+  {
+   "c": 55,
+   "i": 24,
+   "w": "without",
+   "s": 356.356,
+   "e": 356.576
+  },
+  {
+   "c": 55,
+   "i": 25,
+   "w": "permission",
+   "s": 356.576,
+   "e": 356.936
+  },
+  {
+   "c": 55,
+   "i": 26,
+   "w": "is",
+   "s": 356.936,
+   "e": 357.216
+  },
+  {
+   "c": 55,
+   "i": 27,
+   "w": "a",
+   "s": 357.216,
+   "e": 357.316
+  },
+  {
+   "c": 55,
+   "i": 28,
+   "w": "crime,",
+   "s": 357.316,
+   "e": 357.516
+  },
+  {
+   "c": 55,
+   "i": 29,
+   "w": "even",
+   "s": 357.856,
+   "e": 357.996
+  },
+  {
+   "c": 55,
+   "i": 30,
+   "w": "if",
+   "s": 357.996,
+   "e": 358.136
+  },
+  {
+   "c": 55,
+   "i": 31,
+   "w": "you",
+   "s": 358.136,
+   "e": 358.236
+  },
+  {
+   "c": 55,
+   "i": 32,
+   "w": "mean",
+   "s": 358.236,
+   "e": 358.356
+  },
+  {
+   "c": 55,
+   "i": 33,
+   "w": "well.",
+   "s": 358.356,
+   "e": 358.596
+  },
+  {
+   "c": 56,
+   "i": 0,
+   "w": "And",
+   "s": 359.153,
+   "e": 359.313
+  },
+  {
+   "c": 56,
+   "i": 1,
+   "w": "Faav's",
+   "s": 359.313,
+   "e": 359.613
+  },
+  {
+   "c": 56,
+   "i": 2,
+   "w": "own",
+   "s": 359.613,
+   "e": 359.773
+  },
+  {
+   "c": 56,
+   "i": 3,
+   "w": "advice",
+   "s": 359.773,
+   "e": 360.013
+  },
+  {
+   "c": 56,
+   "i": 4,
+   "w": "to",
+   "s": 360.013,
+   "e": 360.273
+  },
+  {
+   "c": 56,
+   "i": 5,
+   "w": "every",
+   "s": 360.273,
+   "e": 360.473
+  },
+  {
+   "c": 56,
+   "i": 6,
+   "w": "developer",
+   "s": 360.473,
+   "e": 360.773
+  },
+  {
+   "c": 56,
+   "i": 7,
+   "w": "was",
+   "s": 360.773,
+   "e": 361.053
+  },
+  {
+   "c": 56,
+   "i": 8,
+   "w": "simple.",
+   "s": 361.053,
+   "e": 361.353
+  },
+  {
+   "c": 56,
+   "i": 9,
+   "w": "Always",
+   "s": 362.233,
+   "e": 362.233
+  },
+  {
+   "c": 56,
+   "i": 10,
+   "w": "check",
+   "s": 362.233,
+   "e": 362.493
+  },
+  {
+   "c": 56,
+   "i": 11,
+   "w": "that",
+   "s": 362.493,
+   "e": 362.693
+  },
+  {
+   "c": 56,
+   "i": 12,
+   "w": "the",
+   "s": 362.693,
+   "e": 362.773
+  },
+  {
+   "c": 56,
+   "i": 13,
+   "w": "ID",
+   "s": 362.773,
+   "e": 362.953
+  },
+  {
+   "c": 56,
+   "i": 14,
+   "w": "is",
+   "s": 362.953,
+   "e": 363.273
+  },
+  {
+   "c": 56,
+   "i": 15,
+   "w": "real,",
+   "s": 363.273,
+   "e": 363.473
+  },
+  {
+   "c": 56,
+   "i": 16,
+   "w": "before",
+   "s": 363.753,
+   "e": 363.933
+  },
+  {
+   "c": 56,
+   "i": 17,
+   "w": "anything",
+   "s": 363.933,
+   "e": 364.193
+  },
+  {
+   "c": 56,
+   "i": 18,
+   "w": "else.",
+   "s": 364.193,
+   "e": 364.613
+  },
+  {
+   "c": 57,
+   "i": 0,
+   "w": "So",
+   "s": 365.247,
+   "e": 365.467
+  },
+  {
+   "c": 57,
+   "i": 1,
+   "w": "here's",
+   "s": 365.467,
+   "e": 365.947
+  },
+  {
+   "c": 57,
+   "i": 2,
+   "w": "my",
+   "s": 365.947,
+   "e": 366.047
+  },
+  {
+   "c": 57,
+   "i": 3,
+   "w": "question.",
+   "s": 366.047,
+   "e": 366.387
+  },
+  {
+   "c": 57,
+   "i": 4,
+   "w": "Was",
+   "s": 366.987,
+   "e": 366.987
+  },
+  {
+   "c": 57,
+   "i": 5,
+   "w": "five",
+   "s": 366.987,
+   "e": 367.207
+  },
+  {
+   "c": 57,
+   "i": 6,
+   "w": "thousand",
+   "s": 367.207,
+   "e": 367.487
+  },
+  {
+   "c": 57,
+   "i": 7,
+   "w": "dollars",
+   "s": 367.487,
+   "e": 367.787
+  },
+  {
+   "c": 57,
+   "i": 8,
+   "w": "fair",
+   "s": 367.787,
+   "e": 368.007
+  },
+  {
+   "c": 57,
+   "i": 9,
+   "w": "for",
+   "s": 368.007,
+   "e": 368.207
+  },
+  {
+   "c": 57,
+   "i": 10,
+   "w": "what",
+   "s": 368.207,
+   "e": 368.327
+  },
+  {
+   "c": 57,
+   "i": 11,
+   "w": "he",
+   "s": 368.327,
+   "e": 368.387
+  },
+  {
+   "c": 57,
+   "i": 12,
+   "w": "found?",
+   "s": 368.387,
+   "e": 368.647
+  },
+  {
+   "c": 57,
+   "i": 13,
+   "w": "Or",
+   "s": 369.067,
+   "e": 369.067
+  },
+  {
+   "c": 57,
+   "i": 14,
+   "w": "should",
+   "s": 369.067,
+   "e": 369.207
+  },
+  {
+   "c": 57,
+   "i": 15,
+   "w": "Microsoft",
+   "s": 369.207,
+   "e": 369.387
+  },
+  {
+   "c": 57,
+   "i": 16,
+   "w": "have",
+   "s": 369.387,
+   "e": 369.787
+  },
+  {
+   "c": 57,
+   "i": 17,
+   "w": "paid",
+   "s": 369.787,
+   "e": 369.947
+  },
+  {
+   "c": 57,
+   "i": 18,
+   "w": "him",
+   "s": 369.947,
+   "e": 370.027
+  },
+  {
+   "c": 57,
+   "i": 19,
+   "w": "a",
+   "s": 370.027,
+   "e": 370.087
+  },
+  {
+   "c": 57,
+   "i": 20,
+   "w": "lot",
+   "s": 370.087,
+   "e": 370.227
+  },
+  {
+   "c": 57,
+   "i": 21,
+   "w": "more?",
+   "s": 370.227,
+   "e": 370.447
+  },
+  {
+   "c": 57,
+   "i": 22,
+   "w": "Tell",
+   "s": 370.767,
+   "e": 370.807
+  },
+  {
+   "c": 57,
+   "i": 23,
+   "w": "me",
+   "s": 370.807,
+   "e": 370.927
+  },
+  {
+   "c": 57,
+   "i": 24,
+   "w": "in",
+   "s": 370.927,
+   "e": 371.007
+  },
+  {
+   "c": 57,
+   "i": 25,
+   "w": "the",
+   "s": 371.007,
+   "e": 371.087
+  },
+  {
+   "c": 57,
+   "i": 26,
+   "w": "comments.",
+   "s": 371.087,
+   "e": 371.327
+  },
+  {
+   "c": 58,
+   "i": 0,
+   "w": "And",
+   "s": 372.041,
+   "e": 372.321
+  },
+  {
+   "c": 58,
+   "i": 1,
+   "w": "subscribe,",
+   "s": 372.321,
+   "e": 372.761
+  },
+  {
+   "c": 58,
+   "i": 2,
+   "w": "because",
+   "s": 373.241,
+   "e": 373.441
+  },
+  {
+   "c": 58,
+   "i": 3,
+   "w": "next",
+   "s": 373.441,
+   "e": 373.721
+  },
+  {
+   "c": 58,
+   "i": 4,
+   "w": "time,",
+   "s": 373.721,
+   "e": 374.101
+  },
+  {
+   "c": 58,
+   "i": 5,
+   "w": "there's",
+   "s": 374.361,
+   "e": 374.501
+  },
+  {
+   "c": 58,
+   "i": 6,
+   "w": "another",
+   "s": 374.501,
+   "e": 374.681
+  },
+  {
+   "c": 58,
+   "i": 7,
+   "w": "story",
+   "s": 374.681,
+   "e": 375.001
+  },
+  {
+   "c": 58,
+   "i": 8,
+   "w": "of",
+   "s": 375.001,
+   "e": 375.281
+  },
+  {
+   "c": 58,
+   "i": 9,
+   "w": "one",
+   "s": 375.281,
+   "e": 375.461
+  },
+  {
+   "c": 58,
+   "i": 10,
+   "w": "person",
+   "s": 375.461,
+   "e": 375.741
+  },
+  {
+   "c": 58,
+   "i": 11,
+   "w": "who",
+   "s": 375.741,
+   "e": 376.141
+  },
+  {
+   "c": 58,
+   "i": 12,
+   "w": "found",
+   "s": 376.141,
+   "e": 376.321
+  },
+  {
+   "c": 58,
+   "i": 13,
+   "w": "a",
+   "s": 376.321,
+   "e": 376.461
+  },
+  {
+   "c": 58,
+   "i": 14,
+   "w": "crack",
+   "s": 376.461,
+   "e": 376.621
+  },
+  {
+   "c": 58,
+   "i": 15,
+   "w": "in",
+   "s": 376.621,
+   "e": 376.861
+  },
+  {
+   "c": 58,
+   "i": 16,
+   "w": "something",
+   "s": 376.861,
+   "e": 377.061
+  },
+  {
+   "c": 58,
+   "i": 17,
+   "w": "huge.",
+   "s": 377.061,
+   "e": 377.481
+  },
+  {
+   "c": 59,
+   "i": 0,
+   "w": "At",
+   "s": 378.127,
+   "e": 378.307
+  },
+  {
+   "c": 59,
+   "i": 1,
+   "w": "two",
+   "s": 378.307,
+   "e": 378.427
+  },
+  {
+   "c": 59,
+   "i": 2,
+   "w": "in",
+   "s": 378.427,
+   "e": 378.547
+  },
+  {
+   "c": 59,
+   "i": 3,
+   "w": "the",
+   "s": 378.547,
+   "e": 378.567
+  },
+  {
+   "c": 59,
+   "i": 4,
+   "w": "morning,",
+   "s": 378.567,
+   "e": 378.847
+  },
+  {
+   "c": 59,
+   "i": 5,
+   "w": "he",
+   "s": 379.227,
+   "e": 379.327
+  },
+  {
+   "c": 59,
+   "i": 6,
+   "w": "couldn't",
+   "s": 379.327,
+   "e": 379.567
+  },
+  {
+   "c": 59,
+   "i": 7,
+   "w": "scream.",
+   "s": 379.567,
+   "e": 379.767
+  },
+  {
+   "c": 59,
+   "i": 8,
+   "w": "So",
+   "s": 380.347,
+   "e": 380.367
+  },
+  {
+   "c": 59,
+   "i": 9,
+   "w": "he",
+   "s": 380.367,
+   "e": 380.467
+  },
+  {
+   "c": 59,
+   "i": 10,
+   "w": "checked",
+   "s": 380.467,
+   "e": 380.607
+  },
+  {
+   "c": 59,
+   "i": 11,
+   "w": "the",
+   "s": 380.607,
+   "e": 380.787
+  },
+  {
+   "c": 59,
+   "i": 12,
+   "w": "math",
+   "s": 380.787,
+   "e": 380.927
+  },
+  {
+   "c": 59,
+   "i": 13,
+   "w": "again.",
+   "s": 380.927,
+   "e": 381.187
+  },
+  {
+   "c": 59,
+   "i": 14,
+   "w": "And",
+   "s": 381.867,
+   "e": 381.887
+  },
+  {
+   "c": 59,
+   "i": 15,
+   "w": "this",
+   "s": 381.887,
+   "e": 382.007
+  },
+  {
+   "c": 59,
+   "i": 16,
+   "w": "time,",
+   "s": 382.007,
+   "e": 382.287
+  },
+  {
+   "c": 59,
+   "i": 17,
+   "w": "the",
+   "s": 382.507,
+   "e": 382.587
+  },
+  {
+   "c": 59,
+   "i": 18,
+   "w": "whole",
+   "s": 382.587,
+   "e": 382.707
+  },
+  {
+   "c": 59,
+   "i": 19,
+   "w": "internet",
+   "s": 382.707,
+   "e": 382.907
+  },
+  {
+   "c": 59,
+   "i": 20,
+   "w": "checked",
+   "s": 382.907,
+   "e": 383.247
+  },
+  {
+   "c": 59,
+   "i": 21,
+   "w": "it",
+   "s": 383.247,
+   "e": 383.427
+  },
+  {
+   "c": 59,
+   "i": 22,
+   "w": "with",
+   "s": 383.427,
+   "e": 383.547
+  },
+  {
+   "c": 59,
+   "i": 23,
+   "w": "him.",
+   "s": 383.547,
+   "e": 383.707
+  }
+ ],
+ "events": []
+}
