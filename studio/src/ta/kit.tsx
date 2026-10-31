@@ -4,7 +4,7 @@
 // sound; big kinetic text only on key beats. Story props: the kid at his desk, Antares (the AI helper), the
 // Titan dashboard, error pop-ups, the badge door / hotel keycard corridor, the big row counter, the redacted post.
 import React from 'react';
-import { AbsoluteFill, OffthreadVideo, staticFile } from 'remotion';
+import { AbsoluteFill, OffthreadVideo, Sequence, staticFile } from 'remotion';
 import { fonts } from '../tg/type';
 import { useTF, Pop, Mono } from '../tg/kit';
 import { EASE, ramp, springAt, clamp, lerp } from '../lib/time';
@@ -37,13 +37,13 @@ export const Host: React.FC<{ place: Place; since?: number; decode?: number }> =
 };
 
 // ---------------------------------------------------------------- real-life footage (Pexels), graded to the channel look
-export const Stock: React.FC<{ name: string; from?: number; at: number; tint?: number; dark?: number; push?: number }> = ({ name, from = 0, at, tint = 0, dark = 0.25, push = 0.08 }) => {
+export const Stock: React.FC<{ name: string; from?: number; at: number; tint?: number; dark?: number; push?: number; pos?: string }> = ({ name, from = 0, at, tint = 0, dark = 0.25, push = 0.08, pos = '50% 50%' }) => {
   const { t, fps } = useTF();
   const u = clamp((t - at) / 8);
   return (
     <AbsoluteFill style={{ overflow: 'hidden', background: '#000' }}>
       <AbsoluteFill style={{ transform: `scale(${1.04 + push * u})` }}>
-        <OffthreadVideo src={staticFile(`stock/${name}.mp4`)} startFrom={Math.round(from * fps)} muted style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+        <Sequence from={Math.round(at * fps)} layout="none"><OffthreadVideo src={staticFile(`stock/${name}.mp4`)} startFrom={Math.round(from * fps)} muted style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: pos }} /></Sequence>
       </AbsoluteFill>
       <AbsoluteFill style={{ background: `rgba(0,0,0,${dark})` }} />
       {tint > 0 && <AbsoluteFill style={{ background: `rgba(255,43,61,${0.25 * tint})`, mixBlendMode: 'multiply' }} />}
@@ -60,12 +60,12 @@ export const MemeLayer: React.FC<{ memes: Meme[] }> = ({ memes }) => {
   const m = memes.find((x) => t >= x.at && t < x.at + x.dur);
   if (!m) return null;
   const k = t - m.at;
-  const punch = 1 + 0.12 * (1 - ramp(k, 0, 0.35, EASE.out)) + 0.05 * ramp(k, 0.35, m.dur, EASE.inOut);
+  const punch = 1 + 0.08 * (1 - ramp(k, 0, 0.35, EASE.out)) + 0.04 * ramp(k, 0.35, m.dur, EASE.inOut);
   const shake = k < 0.3 ? Math.sin(k * 90) * 6 * (1 - k / 0.3) : 0;
   const flash = 1 - ramp(k, 0, 0.12);
   return (
     <AbsoluteFill style={{ transform: `translate(${shake}px, ${-shake * 0.6}px)` }}>
-      <AbsoluteFill style={{ transform: `scale(${punch})` }}><Stock name={m.clip} from={m.from ?? 0} at={m.at} dark={0.05} push={0} /></AbsoluteFill>
+      <AbsoluteFill style={{ transform: `scale(${punch})`, transformOrigin: '50% 22%' }}><Stock name={m.clip} from={m.from ?? 0} at={m.at} dark={0.05} push={0} pos="50% 15%" /></AbsoluteFill>
       <div style={{ position: 'absolute', left: 80, right: 80, top: 60, ...memeText(84) }}>{m.top}</div>
       {m.bottom && <div style={{ position: 'absolute', left: 80, right: 80, top: 800, ...memeText(64) }}>{m.bottom}</div>}
       <AbsoluteFill style={{ background: '#fff', opacity: flash * 0.7 }} />

@@ -151,14 +151,14 @@ export const makeAct = (cues: number[]): React.FC => () => {
 
 // ================================================================ meme cutaways (real-life clips, Pexels licence)
 export const MEMES: Meme[] = [
-  { at: P(2, 'He wants to scream'), dur: 1.7, clip: 'scream', top: 'ME AT 2 AM', bottom: 'TRYING NOT TO WAKE MY PARENTS' },
+  { at: P(2, 'He wants to scream'), dur: 1.7, clip: 'scream', from: 2.3, top: 'ME AT 2 AM', bottom: 'TRYING NOT TO WAKE MY PARENTS' },
   { at: P(7, 'just gaming'), dur: 2.0, clip: 'night-pc', from: 4, top: 'WHAT HIS PARENTS THOUGHT', bottom: 'JUST GAMING' },
-  { at: P(18, 'Access denied'), dur: 1.9, clip: 'problem-man', top: 'DAY 7', bottom: 'STILL "ACCESS DENIED"' },
+  { at: P(18, 'Access denied'), dur: 1.9, clip: 'problem-man', from: 1.5, top: 'DAY 7', bottom: 'STILL "ACCESS DENIED"' },
   { at: P(21, 'it worked'), dur: 1.9, clip: 'headset-shout', top: 'IT WORKED', bottom: '(SILENTLY)' },
-  { at: P(32, 'seventeen point three') + 1.8, dur: 1.8, clip: 'shocked', top: '17.3 TRILLION', bottom: 'ROWS??' },
+  { at: P(32, 'seventeen point three') + 1.8, dur: 1.8, clip: 'shocked', from: 1.5, top: '17.3 TRILLION', bottom: 'ROWS??' },
   { at: P(41, 'Five thousand dollars') - 0.2, dur: 0.6, clip: 'counting-money', top: '$5,000' },
-  { at: P(43, 'They better'), dur: 2.0, clip: 'dissatisfied', top: "THAT'S IT?" },
-  { at: P(46, 'was changed'), dur: 1.8, clip: 'disappointed', top: 'WHEN YOUR POST', bottom: 'GETS "EDITED"' },
+  { at: P(43, 'They better'), dur: 2.0, clip: 'dissatisfied', from: 1.6, top: "THAT'S IT?" },
+  { at: P(46, 'was changed'), dur: 1.8, clip: 'disappointed', from: 3.6, top: 'WHEN YOUR POST', bottom: 'GETS "EDITED"' },
   { at: P(53, 'for a ransom') + 0.6, dur: 1.8, clip: 'typing', top: 'NOT EVERYONE', bottom: 'WANTS A BOUNTY' },
 ];
 
