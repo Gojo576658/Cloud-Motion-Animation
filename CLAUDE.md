@@ -59,6 +59,11 @@ big number or twist by ~1:30.
 **7.2% CTR (channel best; HACKED thumbnail)**, 22 views (8 engaged), 0.3 h, AVD 2:00 (26%; 2:37 from impressions),
 **91% YouTube search, 4.6% browse**. Lesson: fresh news + clear title/thumbnail wins the click and brings search, but
 YouTube had not pushed it to home feeds by day 3; a low % viewed on a long video is the likely brake.
+"Spy Chip" (Ledger implant, 7:25, uploaded Oct 25) at 6 days: 106 impressions, 3.8% CTR, 16 views (7 engaged), 0.2 h,
+AVD 1:29 (**20%**), 81% search / 12.5% browse. **Lesson (Oct 31): viewers watch ~1.5-2 min whatever the length, so the
+7-9 min format drops % viewed to 20-26% and YouTube stops browse distribution; the 4:30-6 min videos (43-54%) got home-feed
+pushes and more watch time. Never pad a script to hit a length; news recaps bring only search traffic.** Recommended to
+the owner: back to tight 5-6 min, one-person stories (Two Guesses / CPU lane).
 
 **Vio, the channel host (from 2026-10-16):** an anime boy (~17) who stands in for the owner and appears in
 every video and thumbnail: black cap with a red "M", messy dark-brown hair with one red streak, warm brown
